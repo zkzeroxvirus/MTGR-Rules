@@ -33,10 +33,11 @@ A cooperative, run-based Commander variant where players form a party and face a
 | [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) | Host scaling buffs and Arcane Suppression |
 | [REWARD-SYSTEM-V1.0.md](REWARD-SYSTEM-V1.0.md) | XP, Cash Out, and Loot Pool after each encounter |
 | [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md) | Town buildings — Bank, Bazaar, Blacksmith, Cathedral, Merchant, Mystic, Portal, Tavern, The Guild |
+| [Travelers.md](Travelers.md) | Special visitors that appear in Town — unique benefits that do not cost a Town Action |
 | [STAY-OUT-SYSTEM-V1.0.md](STAY-OUT-SYSTEM-V1.0.md) | Rules for skipping Town — XP scaling, Supply Drops, Wanderers |
 | [SUPPLY-DROP-SYSTEM.md](SUPPLY-DROP-SYSTEM.md) | Scavenged resource resolution between encounters |
 | [EVENT-SYSTEM-V1.0.md](EVENT-SYSTEM-V1.0.md) | Between-encounter random events — types, timing, frequency |
-| [DEMON-GENERALS-V2.0.md](DEMON-GENERALS-V2.0.md) | The 12 Tyrant Generals — passives, signature moves, relics |
+| [DEMON-GENERALS-V2.0.md](DEMON-GENERALS-V2.0.md) | Tyrant Generals — passives, signature moves, relics |
 
 ### Run Finale
 

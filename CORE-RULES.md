@@ -35,7 +35,9 @@ Players must balance survival, progression, and risk as they push deeper into th
 • Draft **22 cards** from that pile for your nonland deck cards
 
 Deckbuilding rule:  
- • The 100-card pile cannot be rerolled
+ • The 100-card pile cannot be rerolled  
+ • Exception: If a card in the pile is invalid or illegal for use, reroll or replace only that card  
+ • Commander rerolls from other rules are still allowed; this lock applies only to nonland card drafting
 
 ---
 
@@ -88,7 +90,7 @@ Restrictions:
 • Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
 • Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
-• Cards that care about Drafting (for example, cards that say “draft”): Cannot be obtained during deckbuilding or from pack rewards
+• Cards that care about Drafting (for example, cards that say "draft," such as Cogwork Tracker and Garbage Fire): Cannot be obtained during deckbuilding or from pack rewards
 
 Applies to all MTGRL runs unless overridden by the Host.
 

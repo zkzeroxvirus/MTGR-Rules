@@ -109,7 +109,7 @@ The Loot Pool allows players to extract cards from the defeated encounter deck.
 
 * Players may take cards freely from the Loot Pool  
 * Cards taken this way follow all normal deckbuilding rules  
-* Cards that care about Drafting (for example, cards that say “draft”) cannot be taken from pack rewards
+* Cards that care about Drafting (for example, cards that say "draft," such as Cogwork Tracker and Garbage Fire) cannot be taken from pack rewards or the Loot Pool
 
 ---
 

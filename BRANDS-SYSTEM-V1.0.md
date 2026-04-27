@@ -51,6 +51,8 @@ During deckbuilding and when using **The Guild**, you get **1 additional Command
 
 During deckbuilding and when using **The Guild**, you may reroll Commanders **1 additional time for free**.
 
+This applies to Commander generation only and does not allow rerolling the 100-card nonland draft pile.
+
 ---
 
 ### **+1 Extra Card in Pack Brand** — 1750 Essence

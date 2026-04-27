@@ -4,7 +4,7 @@
 
 ## **🎯 OVERVIEW**
 
-During each encounter, the Host represents one of the Demon King’s Generals.
+During Master Fight encounters, the Host represents one of the Demon King’s Generals.
 
 Each General grants the Host:
 
@@ -16,7 +16,13 @@ Signature Moves create powerful battlefield effects and define the encounter’s
 Unless otherwise stated:
 
 * General abilities do not use the stack  
-* Signature Moves may be used once every two Host turns
+* Signature Moves have a cooldown of 3 Host turns after use
+* Saving Roll: roll a d20; 10 or higher is a pass, 9 or lower is a fail
+
+Status used by this document:
+
+* Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
+* Corrupted: Corrupted has no inherent rules effect by itself. It is a tracked status that only has effects when another rule explicitly references Corrupted.
 
 When a General is defeated, the party gains that General’s Relic Reward.  
  (Rewards are defined separately.)
@@ -25,27 +31,27 @@ When a General is defeated, the party gains that General’s Relic Reward.
 
 ## **🎲 GENERAL SELECTION**
 
-At the beginning of each encounter:
+When a Master Fight is selected:
 
-* Roll a d12 to determine the General  
-* If the result has already appeared this run, reroll
+* Reveal 3 random Tyrants  
+* Players vote to eliminate 1  
+* The Host chooses 1 of the remaining Tyrants
 
-This ensures each run features unique Generals.
+This determines the Tyrant used for that Master Fight encounter.
 
-| d12 | General |
-| ----- | ----- |
-| 1 | Ember Tyrant — General of Ash |
-| 2 | Winter Tyrant — General of Frost |
-| 3 | Plague Tyrant — General of Rot |
-| 4 | Storm Tyrant — General of Ruin |
-| 5 | Grave Tyrant — General of Necromancy |
-| 6 | Blood Tyrant — General of Sacrifice |
-| 7 | Stone Tyrant — General of Fortification |
-| 8 | Void Tyrant — General of the Abyss |
-| 9 | War Tyrant — General of Conquest |
-| 10 | Gold Tyrant — General of Greed |
-| 11 | Dream Tyrant — General of Madness |
-| 12 | Host’s Choice |
+| Tyrants |
+| ----- |
+| Ember Tyrant — General of Ash |
+| Winter Tyrant — General of Frost |
+| Plague Tyrant — General of Rot |
+| Storm Tyrant — General of Ruin |
+| Grave Tyrant — General of Necromancy |
+| Blood Tyrant — General of Sacrifice |
+| Stone Tyrant — General of Fortification |
+| Void Tyrant — General of the Abyss |
+| War Tyrant — General of Conquest |
+| Gold Tyrant — General of Greed |
+| Dream Tyrant — General of Madness |
 
 ---
 
@@ -63,7 +69,12 @@ The battlefield burns with infernal flame.
 **Signature Move — Inferno Surge**  
  At the beginning of the Host’s combat step, the Host may unleash Inferno Surge.
 
-Inferno Surge deals 4 damage to each player.
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Inferno Surge deals 4 damage to that player  
+* That player gains Burned
 
 ---
 
@@ -77,8 +88,11 @@ A supernatural blizzard grips the battlefield.
 **Signature Move — Frost Nova**  
  At the beginning of the Host’s combat step, the Host may unleash Frost Nova.
 
-Tap all permanents players control.  
- Those permanents don’t untap during their controller’s next untap step.
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Permanents that player controls don’t untap during their controller’s next untap step.
 
 ---
 
@@ -92,8 +106,11 @@ A creeping corruption spreads across the battlefield.
 **Signature Move — Plague Burst**  
  At the beginning of the Host’s combat step, the Host may unleash Plague Burst.
 
-Each player discards a card.  
- Then each player loses 2 life.
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* That player gains Corrupted
 
 ---
 
@@ -102,13 +119,16 @@ Each player discards a card.
 Chaotic lightning tears through the battlefield.
 
 **Passive — Static Charge**  
- At the beginning of each player’s end step, that player gets a Charge counter for each spell they cast this turn.
+ At the beginning of each player’s end step, that player gains a Charge counter for each spell they cast this turn.
 
 **Signature Move — Cataclysmic Discharge**  
  At the beginning of the Host’s combat step, the Host may unleash Cataclysmic Discharge.
 
-Storm Tyrant deals damage to each player equal to twice the number of Charge counters they have.  
- Then remove all Charge counters from all players.
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Storm Tyrant deals damage to that player equal to twice the number of Charge counters they have. Then remove all Charge counters from all players.
 
 ---
 
@@ -122,7 +142,11 @@ The battlefield answers the call of the dead.
 **Signature Move — Rise the Fallen**  
  At the beginning of the Host’s combat step, the Host may unleash Rise the Fallen.
 
-For each player, create a 2/2 black Zombie creature token for each creature card in that player’s graveyard.  
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Create a 2/2 black Zombie creature token under the Host’s control for each creature card in that player’s graveyard.  
  (Maximum 4 tokens per player.)
 
 ---
@@ -137,11 +161,14 @@ The battlefield demands blood.
 **Signature Move — Blood Offering**  
  At the beginning of the Host’s combat step, the Host may unleash Blood Offering.
 
-Each player reveals their hand.  
- For each card revealed this way, that player chooses one:
+Each player makes a Saving Roll.
 
-* Exile that card  
-* Or lose 2 life
+On a failed save:
+
+* That player reveals their hand  
+* For each card revealed this way, that player chooses one:
+  * Exile that card  
+  * Or lose 1 life and the Host gains 1 life
 
 ---
 
@@ -150,14 +177,20 @@ Each player reveals their hand.
 Unbreakable defenses rise from the earth.
 
 **Passive — Impenetrable Bulwark**  
- Creatures the Host controls get \+0/+2.
+ Creatures the Host controls have +0/+2.
 
 **Signature Move — Stone Prison**  
  At the beginning of the Host’s combat step, the Host may unleash Stone Prison.
 
 Choose two creatures controlled by different players.  
- Those creatures become tapped and lose all abilities.  
- They don’t untap during their controller’s untap step.
+ Those creatures become Petrified.
+
+Petrified:
+
+* A petrified creature is tapped  
+* A petrified creature does not untap during its controller’s untap step  
+* A petrified creature loses all abilities  
+* At the beginning of its controller’s upkeep, they may make a Saving Roll to remove Petrified
 
 ---
 
@@ -173,8 +206,13 @@ Reality fractures around the battlefield.
 **Signature Move — Fractured Reality**  
  At the beginning of the Host’s combat step, the Host may unleash Fractured Reality.
 
-Each player exiles the top card of their library.  
- The Host may cast any number of those cards without paying their mana costs.
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Exile the top card of that player’s library.
+
+The Host may cast any number of those cards without paying their mana costs.
 
 ---
 
@@ -183,12 +221,17 @@ Each player exiles the top card of their library.
 Battlefields bend to relentless assault.
 
 **Passive — March of War**  
- Creatures the Host controls get \+1/+0.
+ Creatures the Host controls gain +1/+0.
 
 **Signature Move — War Cry**  
  At the beginning of the Host’s combat step, the Host may unleash War Cry.
 
-Creatures the Host controls get \+2/+0 and gain trample until end of turn.
+Creatures the Host controls gain:
+
+* +2/+0  
+* Trample
+
+until end of turn.
 
 ---
 
@@ -202,10 +245,13 @@ Wealth corrupts the battlefield.
 **Signature Move — Hoard Explosion**  
  At the beginning of the Host’s combat step, the Host may unleash Hoard Explosion.
 
-For each player, for each nonland permanent they control beyond the fourth, that player chooses one:
+Each player makes a Saving Roll.
 
-* Sacrifice that permanent  
-* Or lose 2 life
+On a failed save:
+
+* For each nonland permanent that player controls beyond the fourth, that player chooses one:
+  * Sacrifice that permanent  
+  * Or lose 2 life
 
 ---
 
@@ -219,5 +265,5 @@ Nightmares invade the minds of the living.
 **Signature Move — Nightmare Deluge**  
  At the beginning of the Host’s combat step, the Host may unleash Nightmare Deluge.
 
-Each player exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater.
+The Host exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater. Then they may cast a spell from among the exiled cards without paying its mana cost.
 

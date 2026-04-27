@@ -37,11 +37,11 @@ A Tyrant-led encounter drawn from the Demon Generals pool.
 **Setup:**
 
 * Reveal 3 random Tyrants  
-* Players choose 1 to eliminate  
+* Players vote to eliminate 1  
 * The Host chooses 1 of the remaining Tyrants  
-* Reveal 3 random Master Decks  
-* Players choose 1 to eliminate  
-* The Host chooses 1 of the remaining Master Decks
+* Randomly choose 3 Commander decks from the Masters pool  
+* Players eliminate 1  
+* The Host chooses 1 of the remaining decks to pilot
 
 ### **⚔️ TRIBAL WARFARE**
 
@@ -49,13 +49,15 @@ A synergy-driven encounter centered on a single creature type.
 
 **Setup:**
 
-* Reveal 3 random creature types (Tribes)  
+* The Host gets one fewer Affix of the highest-tier Affix for this encounter  
+* Randomly choose 3 Tribes  
 * Players choose 1 to eliminate  
 * The Host chooses 1 of the remaining Tribes  
-* The Host reveals random deck from that Tribes Pool and pilots it.  
-* This Encounter gives an Additional 25xp
+* The Host pilots a deck corresponding to the chosen Tribe  
+* The Host begins the game with the Tribal Warfare emblem  
+* This encounter grants an additional 25 XP
 
-The Host gains an Emblem that says:
+**Tribal Warfare Emblem:**
 
 **Tribal Warfare**  
 At the beginning of your end step, conjure and cast a random creature of the chosen tribe with mana value less than or equal to the number of lands you control.
@@ -78,16 +80,20 @@ A Planechase-style encounter that alters the battlefield.
 
 **Setup:**
 
-* Reveal 3 Planes  
-* Players choose 1 to eliminate  
+* Randomly choose 3 Planes  
+* Players eliminate 1  
 * The remaining Plane enters play  
-* The Host selects a corresponding deck
+* The Host chooses a corresponding deck
 
 **Rules:**
 
-* A Planechase card is active for the encounter  
-* The Planeswalk result becomes a reroll  
-* This encounter gains **\+1 additional Affix**
+* Reveal a random Planechase card of the chosen Plane  
+* Use the custom Planar Die for Planechase resolution  
+* The Planeswalk face is treated as "Reroll this die"  
+* The custom Planar Die is six-sided: 1 Chaos face, 1 Planeswalk face, and 4 blank faces  
+* As a party, the first Planar Die roll costs 0; each additional roll costs 1 more than the previous roll  
+* Once a Plane is chosen, players remain on that Plane for the entire encounter  
+* This encounter has an additional Affix of the highest tier for this encounter
 
 ### **📖 STORY FIGHT *(Experimental)***
 
@@ -95,62 +101,66 @@ Narrative encounters with multi-phase structure.
 
 **Setup:**
 
-* The Host receives **one fewer Affix than normal**  
-* Reveal 3 Story scenarios  
-* Players choose 1 to eliminate  
-* The Host chooses 1  
-* The Host begins with **double health**
+* The Host gets one fewer Affix of the highest-tier Affix for this encounter  
+* Reveal 3 Stories  
+* Players eliminate 1  
+* The Host chooses 1 of the remaining Stories to pilot  
+* The Host starts the encounter with double life  
+* This encounter grants an additional 50% XP (round down)
 
 ---
 
 #### **Phase Transition**
 
-When the Host reaches 50% of their starting life or loses the game due to an alternative win condition:
+If the Host would lose the game, a player would win the game, or the Host’s life total becomes half or less of their starting life total:
 
-* Their life total becomes exactly half  
+This transition can happen only once per encounter.
+
+* Their life total becomes half their starting life total, rounded up  
+* Clear the stack and counter all spells and abilities that currently target the Host or permanents the Host controls  
 * The Host and all permanents they control phase out  
-* All damage and poison counters are removed  
-* Their graveyard and exile are shuffled into their library  
+* Remove all damage from permanents they control. The Host loses all poison counters  
+* Shuffle their graveyard and exile into their library  
 * The current turn continues without the Host
 
-At the beginning of the Host’s next turn, they phase back in.
+At the beginning of the Host’s next turn, they phase in.
 
 ---
 
 #### **Phase Two Bonus**
 
-When the Host returns, they gain one of the following:
+When the Host phases in, they gain their story's respective Phase Two bonus:
 
-* Emblem  
-* Vanguard  
-* Story-specific ability
+* Emblem, Vanguard, or other story ability (as defined by that Story)  
+* These bonuses are already present in each Story and become enabled when the phase transition happens
 
-### **🦹 VILLAIN FIGHT**
+### **🦹 VILLAIN FIGHT *(Experimental)***
 
 A high-power, constructed encounter.
 
 **Setup:**
 
-* Roll 5 random Commanders  
-* Select 1  
+* Reveal 5 random Commanders  
+* Players eliminate 1  
+* The Host chooses 1 of the remaining Commanders  
 * Build or spawn a high-power (**Bracket 3+**) deck
 
-### **🌪 WILD MAGIC *(Experimental)***
+### **🌪 WILDMAGIC FIGHT *(Experimental)***
 
 A chaotic encounter driven by random effects.
 
 **Setup:**
 
-* The Host may use any legal deck  
+* The Host may use any legal deck (**Suggested Bracket 3**)  
 * The Host gains:
 
 **Wild Magic Surge —**  
  {0}: Roll a d20 and resolve a random effect. Activate only once each turn.
 
 * No Affixes are applied  
-* This encounter grants **\+50 XP**
+* This encounter grants **+25 XP**
 
-# **🌀 WILD MAGIC TABLE**
+# **🌀 WILDMAGIC TABLE**
 
 **Roll a d20 and resolve the result.**
 
