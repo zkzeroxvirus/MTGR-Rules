@@ -78,8 +78,6 @@ Affixes are global modifiers that enhance the Host during encounters.
   * a noncreature permanent  
      → they enter the battlefield
 
-> **TODO:** One Tier 4 affix is unconfirmed — believed to be a second mana-doubling effect with a distinct physical token. Needs identification.
-
 ---
 
 # **🧠 QUICK SUMMARY**
@@ -89,5 +87,5 @@ Affixes are global modifiers that enhance the Host during encounters.
 | Tier 1 | 9 | Combat basics |
 | Tier 2 | 8 | Mid-level advantages |
 | Tier 3 | 12 | Engine effects |
-| Tier 4 | 10 + 1 unknown | Game-defining |
+| Tier 4 | 10 | Game-defining |
 
