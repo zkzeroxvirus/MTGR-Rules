@@ -31,14 +31,11 @@ Players must balance survival, progression, and risk as they push deeper into th
 
 ### **2 — Nonland Cards**
 
-• Generate 22 random cards within your commander’s color identity
+• Generate 1 shared **100-card pile** within your commander’s color identity  
+• Draft **22 cards** from that pile for your nonland deck cards
 
-You may:  
- • Keep any number of cards  
- • Reroll the rest  
- • Repeat this process twice
-
-Final reroll must be kept.
+Deckbuilding rule:  
+ • The 100-card pile cannot be rerolled
 
 ---
 
@@ -90,7 +87,8 @@ Restrictions:
 • Join Forces (keyword): Cannot be obtained via Scryfall or targeted search  
 • Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
 • Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
-• Tree of Perdition: Cannot be used with Balloon effects
+• Tree of Perdition: Cannot be used with Balloon effects  
+• Cards that care about Drafting (for example, cards that say “draft”): Cannot be obtained during deckbuilding or from pack rewards
 
 Applies to all MTGRL runs unless overridden by the Host.
 

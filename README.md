@@ -6,25 +6,23 @@ A cooperative, run-based Commander variant where players form a party and face a
 
 ## 📖 Document Index
 
-### Pregame
+### Before a Run (Persistent)
 
 | Document | Description |
 | :--- | :--- |
-| [CORE-RULES.md](CORE-RULES.md) | Core rules, player structure, deckbuilding, and global limits |
-| [SHOPS.md](SHOPS.md) | Pregame Shop and Progression Shop — deckbuilding and persistent purchases |
 | [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Current Season 1 Crypt Buffs, Tickets, Brands, and Achievements |
+| [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
 
-### Drafting
+### Run Start (Setup and Deckbuilding)
 
 | Document | Description |
 | :--- | :--- |
-| [CORE-RULES.md](CORE-RULES.md) | Commander selection, deck construction, pack rules, and starting setup |
-| [DEMON-GENERALS-V2.0.md](DEMON-GENERALS-V2.0.md) | The 12 Tyrant Generals — passives, signature moves, relics |
-| [TRINKET-SYSTEM-V1.0.md](TRINKET-SYSTEM-V1.0.md) | Pre-first-encounter Trinket selection flow and Trinket Ticket override |
+| [CORE-RULES.md](CORE-RULES.md) | Core rules, player structure, commander selection, deck construction, and global limits |
+| [SHOPS.md](SHOPS.md) | Pregame Shop — commander mulligans, partner/background access, and pregame purchases |
 | [BRANDS-SYSTEM-V1.0.md](BRANDS-SYSTEM-V1.0.md) | Persistent deckbuilding Brands purchasable before or after a run |
-| [SHOPS.md](SHOPS.md) | Commander mulligans, partner/background access, and pregame purchases |
+| [TRINKET-SYSTEM-V1.0.md](TRINKET-SYSTEM-V1.0.md) | Pre-first-encounter Trinket selection flow and Trinket Ticket override |
 
-### Ingame
+### Encounter Loop (During the Run)
 
 | Document | Description |
 | :--- | :--- |
@@ -38,12 +36,20 @@ A cooperative, run-based Commander variant where players form a party and face a
 | [STAY-OUT-SYSTEM-V1.0.md](STAY-OUT-SYSTEM-V1.0.md) | Rules for skipping Town — XP scaling, Supply Drops, Wanderers |
 | [SUPPLY-DROP-SYSTEM.md](SUPPLY-DROP-SYSTEM.md) | Scavenged resource resolution between encounters |
 | [EVENT-SYSTEM-V1.0.md](EVENT-SYSTEM-V1.0.md) | Between-encounter random events — types, timing, frequency |
+| [DEMON-GENERALS-V2.0.md](DEMON-GENERALS-V2.0.md) | The 12 Tyrant Generals — passives, signature moves, relics |
 
-### Postgame
+### Run Finale
 
 | Document | Description |
 | :--- | :--- |
-| [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
+| [CORE-RULES.md](CORE-RULES.md) | Crypt and win condition reference |
+| [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md) | Crypt setup and final encounter behavior |
+
+### After a Run (Postgame)
+
+| Document | Description |
+| :--- | :--- |
+| [SHOPS.md](SHOPS.md) | Progression Shop — spending post-run resources and buying permanent upgrades |
 | [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Permanent unlock reference for player progression layers |
 
 ### Progress Tracking

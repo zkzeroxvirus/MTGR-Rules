@@ -15,7 +15,7 @@ Affixes are global modifiers that enhance the Host during encounters.
 * **Scry 1** — At the beginning of the Host’s upkeep, they scry 1  
 * **Token Generator** — At the beginning of the Host’s end step, create a 1/1 Servo artifact creature token  
 * **Vigilance** — Host creatures have Vigilance  
-* **Trample** � Host creatures have Trample  
+* **Trample** — Host creatures have Trample  
 * **Ward 1** — Host permanents have Ward {1}
 
 ---
@@ -28,9 +28,9 @@ Affixes are global modifiers that enhance the Host during encounters.
 * **Flying** — Host creatures have Flying  
 * **Hero Power** — The Host gains 1 of 3 random Hero cards  
 * **Lifelink** — Host creatures have Lifelink  
-* **Mana Ramp** � At the beginning of the Host's precombat main phase, add {C}  
-* **Menace** � Host creatures have Menace  
-* **Pack Back Up** � Each upkeep, open a Mystery Booster and exile one card face down; Host may cast it  
+* **Mana Ramp** — At the beginning of the Host's precombat main phase, add {C}  
+* **Menace** — Host creatures have Menace  
+* **Pack Back Up** — Each upkeep, open a Mystery Booster and exile one card face down; Host may cast it  
 * **Setup Battle** — Before the game begins, reveal cards until:  
   * a land, and  
   * a nonland permanent with MV ≤4  
@@ -62,7 +62,7 @@ Affixes are global modifiers that enhance the Host during encounters.
 
 **Role:** Run-defining, high-impact, boss-level modifiers
 
-* **Annihilator 1** — Non-Token creatures the Host control have Annihilator 1  
+* **Annihilator 1** — Non-Token creatures the Host controls have Annihilator 1  
 * **Arcane Mastery** — The first spell the Host casts each turn is copied  
    *(Permanent spells create token copies)*  
 * **Double Mana** — Lands the Host controls produce double mana  
@@ -78,7 +78,7 @@ Affixes are global modifiers that enhance the Host during encounters.
   * a noncreature permanent  
      → they enter the battlefield
 
-> **TODO:** One Tier 4 affix is unconfirmed � believed to be a second mana-doubling effect with a distinct physical token. Needs identification.
+> **TODO:** One Tier 4 affix is unconfirmed — believed to be a second mana-doubling effect with a distinct physical token. Needs identification.
 
 ---
 
