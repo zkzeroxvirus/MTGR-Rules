@@ -106,7 +106,7 @@ Save 1 card from your deck in your collection.
 
 ### **Brand of the Cartographer** — 500 Essence
 
-When drafting, you may add **2 additional dual lands or triomes** to your mana base.
+When drafting, you may replace **2 basic lands** with **dual lands or triomes**.
 
 ---
 
@@ -131,6 +131,12 @@ During the game, whenever you open a pack, that pack contains **1 additional car
 ### **Brand of the Blinded Eye** — 2000 Essence
 
 During deckbuilding, choose a color. That color is excluded when rolling Commanders.
+
+---
+
+### **Brand of the Infinite Void** — 500 Essence
+
+Your deck size minimum is reduced by 1 per Rank.
 
 ---
 

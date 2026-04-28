@@ -262,21 +262,21 @@ Each additional purchase of the same Brand costs the **base price × the number 
 
 ---
 
-## **True Dual Land or Triome Brand**
+## **Brand of the Cartographer**
 
 **Effect**  
-When drafting, you may add 2 additional dual lands or triomes to your mana base.
+When drafting, you may replace 2 basic lands with dual lands or triomes.
 
 ---
 
-## **Additional Commander Choice Brand**
+## **Brand of the Conclave**
 
 **Effect**  
 During deckbuilding and when using The Guild, you get 1 additional Commander choice whenever Commanders are generated for you.
 
 ---
 
-## **Additional Commander Reroll Brand**
+## **Brand of Recurrence**
 
 **Effect**  
 During deckbuilding and when using The Guild, you may reroll Commanders 1 additional time for free.
@@ -285,17 +285,26 @@ This applies to Commander generation only and does not allow rerolling the 100-c
 
 ---
 
-## **+1 Extra Card in Pack Brand**
+## **Brand of the Open Hand**
 
 **Effect**  
 During the game, whenever you open a pack, that pack contains 1 additional card to choose from.
 
 ---
 
-## **Commander Color Lockout Brand**
+## **Brand of the Blinded Eye**
 
 **Effect**  
 During deckbuilding, you may choose one color to not appear when rolling Commanders.
+
+---
+
+## **Brand of the Infinite Void**
+
+**Effect**  
+Your deck size minimum is reduced by 1 per Rank.
+
+**Base Cost:** 500 Essence
 
 ---
 
