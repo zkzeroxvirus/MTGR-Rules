@@ -26,14 +26,12 @@ Mulligan your Commander for 1 new option.
 
 ---
 
-### **Partner/Background/etc.** — 35 Essence
+### **Partner/Background/etc.** — 0 Essence
 
-Gain a random option from 5 choices.
+Choose a Partner, Background, or similar option.
 
 **Rules:**
-* If the card requires "Partner with X," you receive X instead
-* If the card requires "Background," you receive a random Background
-* You may select your preferred option from the 5 presented
+* If the chosen card has "Partner with X," you gain X instead
 
 ---
 
@@ -69,9 +67,9 @@ All purchases use **Essence**.
 * Achievements
 * Captures
 
-**Brands:** Brands are a separate progression layer. Each Brand may be purchased multiple times. Each additional purchase costs the **base price × the number of times it has already been purchased**.
+**Brands:** Brands are a separate progression layer. Each Brand has **Ranks** and may be purchased multiple times. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
 
-*Example: A 1000 Essence Brand costs 1000 for the 1st copy, 2000 for the 2nd, 3000 for the 3rd, and so on.*
+*Example: A 1000 Essence Brand costs 1000 for Rank 1, 2000 for Rank 2, 3000 for Rank 3, and so on.*
 
 ### **End-of-Game Essence Shop Options**
 
@@ -132,7 +130,7 @@ During the game, whenever you open a pack, that pack contains **1 additional car
 
 ### **Brand of the Blinded Eye** — 2000 Essence
 
-During deckbuilding, you may choose **one color** to not appear when rolling Commanders.
+During deckbuilding, choose a color. That color is excluded when rolling Commanders.
 
 ---
 

@@ -20,16 +20,15 @@ Brands may be purchased from the **Progression Shop** either:
 * Brand effects are persistent across runs  
 * Brands affect deckbuilding, Commander generation, or pack resolution as written  
 * Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased  
-* Each additional purchase of the same Brand costs the **base price × the number of times it has already been purchased**
+* Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**
 
 **Stacking cost example (Brand of the Cartographer — 500 Essence base):**
 
-| Purchase | Cost |
+| Rank | Cost |
 | :--- | :--- |
-| 1st | 500 (base × 1) |
-| 2nd | 1000 (base × 2) |
-| 3rd | 1500 (base × 3) |
-| And so on... | |
+| Rank 1 | 500 (base × 1) |
+| Rank 2 | 1000 (base × 2) |
+| Rank 3 | 1500 (base × 3) |
 
 ---
 
@@ -63,7 +62,7 @@ During the game, whenever you open a pack, that pack contains **1 additional car
 
 ### **Brand of the Blinded Eye** — 2000 Essence
 
-During deckbuilding, you may choose **one color** to not appear when rolling Commanders.
+During deckbuilding, choose a color. That color is excluded when rolling Commanders.
 
 ---
 
