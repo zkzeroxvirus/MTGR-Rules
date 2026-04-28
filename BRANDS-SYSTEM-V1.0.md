@@ -22,7 +22,7 @@ Brands may be purchased from the **Progression Shop** either:
 * Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased  
 * Each additional purchase of the same Brand costs the **base price × the number of times it has already been purchased**
 
-**Stacking cost example (True Dual Land Brand — 500 Essence base):**
+**Stacking cost example (Brand of the Cartographer — 500 Essence base):**
 
 | Purchase | Cost |
 | :--- | :--- |
@@ -35,19 +35,19 @@ Brands may be purchased from the **Progression Shop** either:
 
 ## **📜 CURRENT BRAND POOL**
 
-### **True Dual Land or Triome Brand** — 500 Essence
+### **Brand of the Cartographer** — 500 Essence
 
 When drafting, you may add **2 additional dual lands or triomes** to your mana base.
 
 ---
 
-### **Additional Commander Choice Brand** — 1000 Essence
+### **Brand of the Conclave** — 1000 Essence
 
 During deckbuilding and when using **The Guild**, you get **1 additional Commander choice** whenever Commanders are generated for you.
 
 ---
 
-### **Additional Commander Reroll Brand** — 1250 Essence
+### **Brand of Recurrence** — 1250 Essence
 
 During deckbuilding and when using **The Guild**, you may reroll Commanders **1 additional time for free**.
 
@@ -55,13 +55,13 @@ This applies to Commander generation only and does not allow rerolling the 100-c
 
 ---
 
-### **+1 Extra Card in Pack Brand** — 1750 Essence
+### **Brand of the Open Hand** — 1750 Essence
 
 During the game, whenever you open a pack, that pack contains **1 additional card** to choose from.
 
 ---
 
-### **Commander Color Lockout Brand** — 2000 Essence
+### **Brand of the Blinded Eye** — 2000 Essence
 
 During deckbuilding, you may choose **one color** to not appear when rolling Commanders.
 
