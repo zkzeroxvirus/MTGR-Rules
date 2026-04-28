@@ -73,25 +73,29 @@ All purchases use **Essence**.
 
 *Example: A 1000 Essence Brand costs 1000 for the 1st copy, 2000 for the 2nd, 3000 for the 3rd, and so on.*
 
+### **End-of-Game Essence Shop Options**
+
+At the end of the game, you may do any of the following:
+
 ---
 
 ### **Sell Buffs** — 250 Essence
 
-Return a **duplicate Crypt buff** to the Host and gain 250 Essence.
+Sell a **Crypt buff** back to the Host in exchange for 250 Essence.
 
 **Rules:**
-* If you encounter the same buff again and already own it, you may sell the extra copy
+* You may sell a Crypt buff after the run ends
 
 ---
 
-### **Capture Non-Commander** — 500 Essence (base cost)
+### **Capture Non-Commander** — 500 Essence* (base cost)
 
 Save 1 card from your deck in your collection.
 
 **Rules:**
 * Captured cards may be used in future deck builds
 * Captured cards count against your deck's 39 cards (they do not have a free allocation)
-* **Stacking cost:** Each subsequent capture in the same run costs an additional 250 Essence
+* **Stacking cost:** For each capture after the first, the cost increases by 250 Essence
   * 1st: 500 Essence
   * 2nd: 750 Essence
   * 3rd: 1000 Essence
@@ -102,37 +106,47 @@ Save 1 card from your deck in your collection.
 
 ## **🔥 BRANDS**
 
-### **True Dual Land or Triome Brand** — 500 Essence
+### **Brand of the Cartographer** — 500 Essence
 
 When drafting, you may add **2 additional dual lands or triomes** to your mana base.
 
 ---
 
-### **Additional Commander Choice Brand** — 1000 Essence
+### **Brand of the Conclave** — 1000 Essence
 
 During deckbuilding and when using **The Guild**, you get **1 additional Commander choice** whenever Commanders are generated for you.
 
 ---
 
-### **Additional Commander Reroll Brand** — 1250 Essence
+### **Brand of Recurrence** — 1250 Essence
 
 During deckbuilding and when using **The Guild**, you may reroll Commanders **1 additional time for free**.
 
 ---
 
-### **+1 Extra Card in Pack Brand** — 1750 Essence
+### **Brand of the Open Hand** — 1750 Essence
 
 During the game, whenever you open a pack, that pack contains **1 additional card** to choose from.
 
 ---
 
-### **Commander Color Lockout Brand** — 2000 Essence
+### **Brand of the Blinded Eye** — 2000 Essence
 
 During deckbuilding, you may choose **one color** to not appear when rolling Commanders.
 
 ---
 
 ## **🎟️ TICKETS**
+
+### **Arcane Signet Ticket** — 750 Essence
+
+You get an **Arcane Signet Ticket**. This allows you to have a free **Arcane Signet** in your deck without it counting toward your 39.
+
+**Rules:**
+* The ticket is permanent and persists across runs
+* Occupies 1 slot
+
+---
 
 ### **Sol Ring Ticket** — 1500 Essence
 
@@ -158,10 +172,10 @@ You get a **Leyline Ticket**. This allows you to have a free **Leyline** in your
 
 ### **Color Combo Ticket** — 2000 Essence
 
-At the beginning of the game, before deckbuilding, pick your **color identity** to play with.
+Pick the **color identity** of the Commanders you will randomly receive before drafting your deck.
 
 **Rules:**
-* When you use this ticket in a future run, you choose the color combination before generating your 5 random Commanders
+* You choose the color combination before generating your random Commander options
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
 
@@ -169,7 +183,7 @@ At the beginning of the game, before deckbuilding, pick your **color identity** 
 
 ### **Trinket Ticket** — 2500 Essence
 
-You may begin the game with a **Trinket** of your choice from 3 random options.
+You may begin the game with a **Trinket** of your choice between 3 random choices.
 
 **Rules:**
 * The Trinket is selected during the next Pregame Shop phase (before the first encounter)
@@ -181,7 +195,7 @@ You may begin the game with a **Trinket** of your choice from 3 random options.
 
 ### **Conspiracy Ticket** — 4000 Essence
 
-You may begin the game with a **Conspiracy** of your choice from 3 random options.
+You may begin the game with a **Conspiracy** of your choice between 3 random choices.
 
 **Rules:**
 * Conspiracy is chosen before Commander selection
@@ -193,7 +207,7 @@ You may begin the game with a **Conspiracy** of your choice from 3 random option
 
 ### **Vanguard Ticket** — 5000 Essence
 
-You may begin the game with a **Vanguard** of your choice from 3 random options.
+You may begin the game with a **Vanguard** of your choice between 3 random choices.
 
 **Rules:**
 * Vanguards are Enchantments with powerful abilities
@@ -204,7 +218,7 @@ You may begin the game with a **Vanguard** of your choice from 3 random options.
 
 ### **Emblem Ticket** — 10000 Essence
 
-You may begin the game with an **Emblem** of your choice from 3 random options.
+You may begin the game with an **Emblem** of your choice between 3 random choices.
 
 **Rules:**
 * Emblems are powerful passive permanents that grant ongoing effects
