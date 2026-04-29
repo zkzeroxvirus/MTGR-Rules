@@ -79,7 +79,7 @@ After deckbuilding, loop this structure until Crypt.
 2. Cash Out
 3. Loot Pool
 
-4. Path Choice (Victory Only)
+4. Path Choice (Win or Loss — Party Must Choose)
 - Return to Town, or
 - Stay Out
 
@@ -101,9 +101,7 @@ Player death:
 Encounter failure:
 - No XP from that encounter.
 - No Cash Out or Loot Pool.
-- Encounter stage is not replayed.
-- Advance directly to next encounter stage.
-- Skip Town/Stay Out and Events for that stage.
+- Proceed to Post-Encounter Choice (Town or Stay Out).
 - Full HP reset still applies before next encounter.
 
 Run failure condition:

@@ -31,7 +31,7 @@ Players must balance survival, progression, and risk as they push deeper into th
 
 ### **2 — Nonland Cards**
 
-• Generate 1 shared **100-card pile** within your commander’s color identity  
+• Generate a **100-card pile** within your commander’s color identity  
 • Draft **22 cards** from that pile for your nonland deck cards
 
 Deckbuilding rule:  
@@ -66,7 +66,7 @@ Restrictions:
 
 ---
 
-## **🚫 BANNED & RESTRICTED (MTGRL)**
+## **🚫 BANNED & RESTRICTED (MTGR)**
 
 ### **🚫 FULL BAN**
 
@@ -92,7 +92,7 @@ Restrictions:
 • Tree of Perdition: Cannot be used with Balloon effects  
 • Cards that care about Drafting (for example, cards that say "draft," such as Cogwork Tracker and Garbage Fire): Cannot be obtained during deckbuilding or from pack rewards
 
-Applies to all MTGRL runs unless overridden by the Host.
+Applies to all MTGR runs unless overridden by the Host.
 
 ---
 
@@ -117,8 +117,6 @@ If Trinket is chosen, resolve it using the Trinket System flow.
 
 Then before every encounter thereafter resolve Event(s) based on Town/Stay Out rules.
 
-Exception: if the previous encounter was failed, skip Town/Stay Out and Event resolution and advance directly.
-
 ---
 
 ### **2 — Encounter**
@@ -136,11 +134,9 @@ Exception: if the previous encounter was failed, skip Town/Stay Out and Event re
 • The encounter is lost  
  • No XP is gained from that encounter  
  • No Cash Outs or Loot Pool are resolved  
- • That encounter stage cannot be repeated  
- • The run advances to the next encounter stage
+ • Proceed to **Post-Encounter Choice** (Town or Stay Out)
 
-After a failed encounter, skip Town/Stay Out and Event resolution for that stage.
-Proceed directly to the next encounter stage after the normal full HP reset.
+> Missing out on Rewards (XP, Cash Out, and Loot Pool) is the only penalty for a failed encounter. The party must still choose to go to Town or Stay Out between stages.
 
 ---
 
@@ -148,6 +144,8 @@ Proceed directly to the next encounter stage after the normal full HP reset.
 
 Players gain:  
  • XP from the mode-based reward table (plus Affix and bonus XP)
+ • Cashouts
+ • Loot Cards
 
 Then choose:  
  • **Stay Out**  
@@ -185,7 +183,6 @@ Town uses a limited-use building system.
 Each building has limited uses per Town visit:
 
 • Some buildings are limited per player    
-• Some buildings are shared by the party    
 • Some buildings may be used multiple times if costs are paid  
 
 (*See Town System for full details*)
@@ -202,6 +199,7 @@ When the party chooses to Stay Out:
 • Resolve a Supply Drop    
 • Resolve a Wanderer    
 • Resolve 2 Events instead of 1  
+• Each additional consecutive Stay Out adds **+1 more Event**
 
 ## **📈 STAY OUT SCALING**
 
@@ -466,8 +464,7 @@ Each player may have:
  • 1 Conspiracy  
  • 1 Vanguard  
  • 1 Emblem  
- • 1 Trinket  
- • 1 Ticket  
+ • 1 Trinket   
  • 1 Companion
 
 ---
@@ -479,11 +476,11 @@ Each player may have:
 • Players may attack any player regardless of Ally/Opponent status  
 • No teams are used
 
-### **🎟️ REWARDS & TICKETS**
+### **🎟️ TICKETS**
 
-• If a reward would give a basic land, reroll that reward  
-• Emblem tickets may be used from a specific pool or in place of another ticket  
-• Emblem tickets cannot create duplicate Emblems
+• Emblem tickets use a "Legal" pool.
+• Vanguard tickets use a "Legal" pool.
+• Conspiracy tickets use a "Legal" pool.
 
 ### **🧱 DECKBUILDING & CARD POOL**
 

@@ -60,17 +60,17 @@ All players are fully healed upon entering Town.
 
 Town does not use actions.
 
-# ?? BUILDINGS
+# 🏛️ BUILDINGS
 
 Town buildings fall into two categories:
 
-**Limited Use** � usable a set number of times per Town visit. Uses reset on each return to Town.
+**Limited Use** — usable a set number of times per Town visit. Uses reset on each return to Town.
 
-**Unlimited** � usable any number of times while in Town, provided their XP cost is paid.
+**Unlimited** — usable any number of times while in Town, provided their XP cost is paid.
 
 ---
 
-## ?? BANK *(1 use per Town)*
+## 🏦 BANK *(1 use per Town)*
 
 Move up to **6 cards** between your deck and sideboard.
 
@@ -78,7 +78,7 @@ Move up to **6 cards** between your deck and sideboard.
 
 ---
 
-## ?? BLACKSMITH *(Unlimited)*
+## ⚒️ BLACKSMITH *(Unlimited)*
 
 Enhance **1 card** in your deck.
 
@@ -91,36 +91,36 @@ Enhance **1 card** in your deck.
 
 ---
 
-## ?? BAZAAR *(2 uses per Town)*
+## 🛍️ BAZAAR *(2 uses per Town)*
 
 Each player may make a deal.
 
 **Allowed Deals:**
 
-* Card ? Card
-* Card ? Essence (2� mana value)
-* Cashout ? Cashout
-* Cashout ? Card
-* Cashout ? Host for **10 XP**
+* Card ↔ Card
+* Card ↔ Essence (2× mana value)
+* Cashout ↔ Cashout
+* Cashout ↔ Card
+* Cashout ↔ Host for **10 XP**
 
 **Rules:** Bazaar can only be used while in Town.
 
 ---
 
-## ? CATHEDRAL *(1 use per Town)*
+## ⛪ CATHEDRAL *(1 use per Town)*
 
 Each player may describe a card request. The Host provides a real, usable card.
 
 Then choose:
 
 * Add it to your deck, or
-* Destroy it for **Essence equal to 2� its mana value**
+* Destroy it for **Essence equal to 2× its mana value**
 
 **Rules:** The description cannot force one specific card. The Host interprets the request.
 
 ---
 
-## ??? THE GUILD *(Unlimited)*
+## ⚔️ THE GUILD *(Unlimited)*
 
 Change your Commander.
 
@@ -134,13 +134,15 @@ Your old Commander goes to your **deck or sideboard**.
 
 * Declare color combination **before rolling**
 * Generated Commanders must follow normal Commander legality rules
-* Your deck must remain legal under the new Commander's color identity � adjust immediately if needed
+* Your deck must remain legal under the new Commander's color identity — adjust immediately if needed
 
 ---
 
-## ?? MERCHANT *(Unlimited)*
+## 🛒 MERCHANT *(Unlimited)*
 
 Open a **15-card pack**, then keep **1 card**.
+
+> You always keep only 1 card per pack. This limit applies regardless of Brands or other effects. The only exception is a specific Traveler that explicitly grants additional keeps.
 
 | Cost | Pack | Rules |
 | :--- | :--- | :--- |
@@ -156,7 +158,7 @@ Open a **15-card pack**, then keep **1 card**.
 
 ---
 
-## ?? MYSTIC *(Unlimited)*
+## 🔮 MYSTIC *(Unlimited)*
 
 **Cost:** 5 XP
 
@@ -166,7 +168,7 @@ Destroy a **nonland card** from your deck. Gain **Essence equal to twice its man
 
 ---
 
-## ?? PORTAL *(1 use per Town)*
+## 🌀 PORTAL *(1 use per Town)*
 
 **Cost:** Up to 15 XP
 
@@ -182,18 +184,18 @@ All generated cards are **Temporal**.
 
 ---
 
-## ?? TAVERN *(1 use per Town)*
+## 🍺 TAVERN *(1 use per Town)*
 
 Choose one mana-fixing option:
 
 **Option A**
 
-* Remove 0�2 cards from your deck
-* Add 0�4 basic lands of your choice
+* Remove 0–2 cards from your deck
+* Add 0–4 basic lands of your choice
 
 **Option B**
 
-* Remove 3�5 basic lands
-* Add 0�2 dual lands of your choice
+* Remove 3–5 basic lands
+* Add 0–2 dual lands of your choice
 
 **Rules:** Tavern is for deck smoothing and mana fixing only.

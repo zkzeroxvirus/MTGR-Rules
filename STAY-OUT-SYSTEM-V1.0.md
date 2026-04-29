@@ -8,7 +8,7 @@ Staying Out represents pushing deeper into the dungeon with limited resources an
 
 ## **🎯 WHEN STAY OUT OCCURS**
 
-After an encounter is defeated and rewards are resolved, players must choose one:
+After an encounter is resolved, players must choose one:
 
 • Return to Town  
  • Stay Out
@@ -64,7 +64,8 @@ Mystery Packs do not scale with consecutive Stay Outs.
 ### **⚖️ RULES**
 
 * Mystery Packs are opened immediately  
-* Each player may keep **1 card** per pack  
+* Each player keeps **1 card** per pack — this limit applies regardless of Brands or other effects  
+* The only exception is a specific Traveler interaction available in Town  
 
 *(See Merchant in the Town System for full Mystery Pack rules)*
 

@@ -90,12 +90,12 @@ Variant mode (4 encounters):
 ### Standard Mode (3 Encounters)
 
 | Players | E1 | E2 | E3 | Crypt |
-| :--- | :---: | :---: | :---: | :---: |
+| :---| :---: | :---: | :---: | :---: |
 | 1-2 | 20 | 30 | 40 | 50 |
-| 3 | 25 | 40 | 55 | 70 |
-| 4 | 30 | 50 | 70 | 90 |
-| 5 | 35 | 60 | 85 | 110 |
-| 6 | 40 | 70 | 100 | 130 |
+| 3   | 25 | 40 | 55 | 70 |
+| 4   | 30 | 50 | 70 | 90 |
+| 5   | 35 | 60 | 85 | 110 |
+| 6   | 40 | 70 | 100 | 130 |
 
 | Stage | Base XP Per Player |
 | :--- | :---: |
@@ -108,10 +108,10 @@ Variant mode (4 encounters):
 | Players | E1 | E2 | E3 | E4 | Crypt |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | 1-2 | 20 | 30 | 40 | 50 | 60 |
-| 3 | 25 | 40 | 55 | 70 | 80 |
-| 4 | 30 | 50 | 70 | 90 | 100 |
-| 5 | 35 | 60 | 85 | 110 | 120 |
-| 6 | 40 | 70 | 100 | 130 | 140 |
+| 3   | 25 | 40 | 55 | 70 | 80 |
+| 4   | 30 | 50 | 70 | 90 | 100 |
+| 5   | 35 | 60 | 85 | 110 | 120 |
+| 6   | 40 | 70 | 100 | 130 | 140 |
 
 | Stage | Base XP Per Player |
 | :--- | :---: |
@@ -173,12 +173,10 @@ Apply all of the following:
 - No XP from that encounter.
 - No Cash Out.
 - No Loot Pool.
-- Do not replay that stage.
-- Advance to next encounter stage.
 - Fully heal/reset players before next encounter.
-- Skip Town/Stay Out and skip Event(s) for that stage.
+- Party must proceed to Post-Encounter Choice — must choose Town or Stay Out.
 
-This is one of the most commonly missed host transitions.
+Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty. Town/Stay Out and Events still resolve normally.
 
 ---
 

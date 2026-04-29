@@ -31,10 +31,10 @@ After each victorious encounter, players gain rewards and choose how to proceed 
 
 The core gameplay loop is as follows:
 
-**Encounter → Rewards → Choice → Events → Next Encounter**
+**Encounter → Rewards (Victory) → Choice → Events → Next Encounter**
 
 1. Resolve an **Encounter**  
-2. Gain **Rewards** (XP, Loot, Cash Outs)  
+2. Gain **Rewards** if victorious (XP, Loot, Cash Outs) — skipped on a loss  
 3. Choose:  
    * **Return to Town**  
    * **Stay Out**  
@@ -52,11 +52,10 @@ Before Encounter 1, resolve the pre-run setup step from the core rules (Event or
 If players lose an encounter, use this transition:
 
 1. Skip encounter rewards (no XP, no Cash Out, no Loot Pool)
-2. Do not replay that encounter stage
-3. Advance directly to the next encounter stage
-4. Reset all players to full HP before the next encounter begins
+2. The party must proceed to **Post-Encounter Choice** (Town or Stay Out)
+3. Reset all players to full HP before the next encounter begins
 
-Failed encounters do not trigger the normal post-victory path (Town/Stay Out and Event resolution).
+Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty — Town/Stay Out and Event resolution still occur normally.
 
 ---
 
@@ -83,9 +82,9 @@ To reach the Crypt, players must successfully defeat all prior encounters.
 If players lose an encounter:
 
 * The party gains no XP from that encounter  
-* That encounter stage cannot be repeated  
-* The run advances directly to the next encounter stage
-* Town/Stay Out and Event resolution are skipped for that stage
+* No Cash Out or Loot Pool is resolved  
+* The party must proceed to Post-Encounter Choice (Town or Stay Out)
+* Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty
 
 If players fail to defeat the Crypt, the run ends.
 

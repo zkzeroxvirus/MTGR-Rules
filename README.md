@@ -78,9 +78,9 @@ Defeat the **Crypt** (Final Boss) at the end of the run.
 ### Loss Condition
 The run ends only if the party fails to defeat the Crypt.
 
-Failed encounters do not end the run immediately: the party gains no XP from that encounter, cannot replay that encounter stage, and must advance to the next encounter stage.
+Failed encounters do not end the run immediately: the party gains no Rewards from that encounter, but must still choose to go to Town or Stay Out between stages.
 
-On a failed encounter, skip Rewards (Cash Out and Loot Pool), Town/Stay Out, and Events for that stage.
+On a failed encounter, skip Rewards (XP, Cash Out, and Loot Pool) but still proceed to the Post-Encounter Choice (Town or Stay Out). Missing Rewards is the only penalty.
 
 ---
 

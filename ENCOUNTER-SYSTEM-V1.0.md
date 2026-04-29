@@ -303,8 +303,9 @@ If players lose an encounter:
 
 1. No XP is gained from that encounter  
 2. No Cash Out or Loot Pool is resolved  
-3. That encounter stage cannot be repeated  
-4. Advance directly to the next encounter stage (skip Town/Stay Out and Events)
+3. The party must proceed to **Post-Encounter Choice** (Town or Stay Out)
+
+> Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty for a failed encounter. The party must still choose Town or Stay Out, and Events still resolve normally.
 
 # 👑 FINAL BOSS — THE CRYPT
 

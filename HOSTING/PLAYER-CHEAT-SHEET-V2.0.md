@@ -83,7 +83,7 @@ Important restrictions:
 Each stage follows this sequence:
 1. Encounter
 2. If victory: Rewards (XP -> Cash Out -> Loot Pool)
-3. Choose Town or Stay Out
+3. Must choose Town or Stay Out
 4. Resolve Event(s)
 5. Next encounter
 
@@ -91,8 +91,9 @@ Before Encounter 1:
 - Resolve Event or Trinket (one of the two).
 
 If previous encounter was failed:
-- Skip Rewards, Town/Stay Out, and Events.
-- Advance directly to the next encounter stage after full HP reset.
+- Skip Rewards (no XP, no Cash Out, no Loot Pool).
+- Must still choose Town or Stay Out, then resolve Events.
+- Full HP reset applies before next encounter.
 
 ---
 
@@ -110,8 +111,8 @@ If players lose:
 - No Cash Out.
 - No Loot Pool.
 - Stage is not replayed.
-- Proceed directly to next stage.
-- Town/Stay Out and Events are skipped for that stage.
+- Must choose Town or Stay Out.
+- Resolve Event(s) based on the chosen path.
 
 ---
 
@@ -242,4 +243,4 @@ Before confirming ready:
 
 ## 15. One-Line Player Script
 
-"Win encounter, claim rewards in order, choose Town or Stay Out, resolve Event(s), prep legal deck state, repeat until Crypt."
+"Win encounter, claim rewards in order, must choose Town or Stay Out, resolve Event(s), prep legal deck state, repeat until Crypt."
