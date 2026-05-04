@@ -1,257 +1,235 @@
 # PLAYER CHEAT SHEET V2.0
-Quick rules reference for participating players.
-
-This version is aligned to current core flow and fixes common table mistakes.
+Your quick reference for everything you need to know as a player in MTG Roguelike. Keep this handy during sessions to stay on top of the flow and avoid common mistakes.
 
 ---
 
 ## 1. Your Two Currencies
 
-Essence:
-- Long-term progression currency.
-- Persists between sessions.
-- Used for progression purchases before/after runs.
+**Essence**
+Your long-term progression currency. Persists between sessions and is spent before or after runs on permanent upgrades and account growth.
 
-XP:
-- In-run currency.
-- Spent in Town and on Wanderers.
-- Does not carry over after the run ends.
+**XP**
+Your in-run currency. Earned from encounters and spent in Town or with Wanderers. Any XP remaining at run's end — win or lose — converts into Essence.
 
-Rule of thumb:
-- Spend XP for current run power.
-- Spend Essence for permanent account growth.
+> **Rule of thumb:** Spend XP to win the current run. Spend Essence to grow stronger across all future runs.
 
 ---
 
 ## 2. Pre-Game Checklist
 
-Before Encounter 1:
+Complete these steps before Encounter 1, in order:
 1. Apply persistent progression effects (tickets, buffs, achievements, captures, brands).
-2. Resolve pregame shop effects if used.
-3. Commander selection.
-4. Draft 22 nonland cards from your 100-card pool.
-5. Add lands to reach legal total.
-6. Add free choice card (respect restrictions).
-7. Final legality check (Commander + 39).
-8. Resolve first step vote: Event or Trinket.
+2. Resolve any pregame shop effects.
+3. **Commander Selection** — Generate 5 legal options, choose 1. You have **4 Commander Mulligans** to reroll if needed.
+4. **Deck Generation** — Generate your own 100-card pool (all card types, no basic lands). Reroll any Stickers, Attractions, Contraptions, or Draft cards immediately. Draft 22 cards from your pool.
+5. **Lands** — Add lands to reach a legal total (see land table in Section 4).
+6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger.
+7. Final legality check: Commander + 39.
+8. Resolve the first-step vote: Event or Trinket.
 
 ---
 
-## 3. Buff Slot Rules (Critical)
+## 3. Buff Slot Rules
 
-Buff slot cap:
-- Maximum 4 buff slots.
+**Maximum 4 buff slots.**
 
-Counts toward slots:
-- Crypt buffs
+The following count toward your buff slots:
+- Crypt Buffs
 - Achievements
 - Tickets
 - Captures
 
-Slot costs:
-- Standard effect: 1 slot
-- Vanguard ticket effect: 2 slots
-- Emblem ticket effect: 3 slots
+**Slot costs:**
+| Effect Type | Slot Cost |
+|-------------|-----------|
+| Standard effect | 1 slot |
+| Vanguard Ticket effect | 2 slots |
+| Emblem Ticket effect | 3 slots |
 
-Brands note:
-- Brands are a separate progression layer and are tracked separately from slot-based inventory progression.
-
----
-
-## 4. Deckbuilding Snapshot
-
-Base structure:
-- 1 Commander
-- 39-card library
-
-Run-start construction flow:
-- Choose 1 Commander from generated legal options.
-- Draft 22 nonland cards from your generated 100-card pool.
-- Add lands per color identity rules.
-- Add one free choice card.
-
-Important restrictions:
-- Free choice card cannot be Sol Ring.
-- Cards must respect Commander legality and color identity.
-- Cards that care about drafting cannot be obtained during deckbuilding or from pack rewards.
-- If a generated card is invalid/illegal, replace only that card.
+> **Brands** are tracked separately and do not count toward your buff slot total.
 
 ---
 
-## 5. Run Flow (Player View)
+## 4. Deckbuilding At A Glance
 
-Each stage follows this sequence:
+| Component | Rule |
+|-----------|------|
+| Commander | 1, chosen from 5 generated options |
+| Drafted cards | 22, from your personal 100-card pool |
+| Lands | 16 total (see land table below) |
+| Free choice card | 1 |
+| **Total** | **Commander + 39** |
+
+**Land Table (Dual Land Allocation):**
+| Colors | Dual Lands |
+|--------|------------|
+| 2 | +2 duals |
+| 3 | +4 duals |
+| 4 | +6 duals |
+| 5 | +8 duals |
+
+Remaining land slots are filled with basics.
+
+**Key restrictions:**
+- Your 100-card pool may include any card type except basic lands.
+- Stickers, Attractions, Contraptions, and Draft cards are rerolled and replaced immediately.
+- Free choice card cannot be Sol Ring or a Gamechanger.
+- All cards must respect Commander legality and your color identity.
+- If an individual generated card is invalid, replace only that card — the full pool is not rerolled.
+
+---
+
+## 5. The Run Flow (Player View)
+
+Each stage follows this exact sequence:
 1. Encounter
-2. If victory: Rewards (XP -> Cash Out -> Loot Pool)
-3. Must choose Town or Stay Out
-4. Resolve Event(s)
+2. **Victory only:** Rewards — XP → Cash Out → Loot Pool
+3. Choose: Town or Stay Out *(mandatory, win or lose)*
+4. Resolve Events
 5. Next encounter
 
-Before Encounter 1:
-- Resolve Event or Trinket (one of the two).
+**Before Encounter 1:** Resolve Event or Trinket — one of the two.
 
-If previous encounter was failed:
-- Skip Rewards (no XP, no Cash Out, no Loot Pool).
-- Must still choose Town or Stay Out, then resolve Events.
-- Full HP reset applies before next encounter.
+**If an encounter was lost:**
+- No Rewards (no XP, Cash Out, or Loot Pool).
+- Still must choose Town or Stay Out, then resolve Events.
+- Full HP reset still applies before the next encounter.
 
 ---
 
-## 6. Winning vs Failing Encounters
+## 6. Winning vs. Failing Encounters
 
-If players win:
+**On Victory:**
 - Gain XP.
-- Resolve Cash Out.
+- Resolve Cash Out (pick one each).
 - Resolve Loot Pool.
 - Choose Town or Stay Out.
-- Resolve Event(s) based on the chosen path.
+- Resolve Events based on your choice.
 
-If players lose:
-- No XP from that stage.
-- No Cash Out.
-- No Loot Pool.
-- Stage is not replayed.
-- Must choose Town or Stay Out.
-- Resolve Event(s) based on the chosen path.
+**On Defeat:**
+- No XP, Cash Out, or Loot Pool.
+- The encounter is not replayed.
+- Still choose Town or Stay Out, then resolve Events.
 
 ---
 
 ## 7. Death Rules
 
-If you die:
-- You return in later encounter flow.
-- There is no XP penalty.
+If you die during an encounter, you are not eliminated. You return in a later part of the encounter flow. There is no XP penalty for dying in the base rules.
 
-Optional host rule:
-- Hosts may apply optional death penalties as table variants.
+> Hosts may apply optional death penalties as a table variant — check with your Host before the run.
 
 ---
 
-## 8. Town Phase (Controlled Path)
+## 8. Town Phase
 
-When party chooses Town:
+When the party chooses Town:
 1. All players fully heal.
 2. Resolve Town building usage.
 3. Resolve 1 Event.
-4. Move to next encounter.
+4. Move to the next encounter.
 
-Town reminders:
-- Town does not use a global action system.
-- Building uses reset each time the party returns to Town.
-- Cash Outs do not consume building uses.
-
-Common building cadence:
-- Limited use examples: Cathedral, Tavern, Portal, Bank, Bazaar.
-- Unlimited use examples: Merchant, Guild, Blacksmith, Mystic.
+> **Reminders:** Building uses reset every time you return to Town. Cash Outs do not consume building uses.
 
 ---
 
-## 9. Stay Out (Variance Path)
+## 9. Stay Out Phase
 
-When party chooses Stay Out, resolve in order:
+When the party chooses Stay Out, resolve in order:
 1. Gain Stay Out XP
-2. Gain 2 Mystery Packs per player
+2. Each player gains 2 Mystery Packs
 3. Resolve Supply Drop
 4. Resolve Wanderer
-5. Resolve Event(s)
-6. Start next encounter
+5. Resolve Events
+6. Start the next encounter
 
-Stay Out XP:
-- Base: +10 XP per player
-- +5 XP for each consecutive Stay Out
-- Resets when party returns to Town
+**Stay Out XP Scaling:**
+- Base: +10 XP, then +5 per consecutive Stay Out.
+- Resets when the party returns to Town.
 
-Stay Out Events:
-- First consecutive Stay Out: 2 Events
-- Then +1 Event for each additional consecutive Stay Out
-- Example sequence: 2, 3, 4, 5...
-- Resets when party returns to Town
+**Stay Out Event Scaling:**
+- First Stay Out: 2 Events.
+- Each additional consecutive Stay Out: +1 Event (e.g. 2, 3, 4, 5...).
+- Resets when the party returns to Town.
 
-Important correction:
-- Stay Out uses full HP reset, not half-heal.
+> **Important:** Stay Out uses a *full* HP reset, not a half-heal.
 
 ---
 
 ## 10. Rewards Quick Rules
 
-XP:
-- Base XP depends on run mode and encounter number.
-- Affix XP and encounter bonus XP are added on top.
+**XP:**
+- Base XP depends on run mode and encounter stage.
+- Add Affix bonus XP and any encounter-specific bonus XP on top.
 
-Cash Out:
-- Host reveals cash outs equal to player count.
+**Cash Out:**
+- Host reveals Cash Outs equal to player count.
 - Each player chooses one unless stated otherwise.
-- Pack Rewards are tiered: T1 (core packs), T2 (advanced packs, mostly Pro/ID/specialty).
-- Bonus Building Usage cashouts grant one free extra use of that building next Town visit.
-- Crypt Fight Cashout (ultra-rare, 0.5%): Hold until the Crypt Fight, then reveal to choose: reduce Crypt HP by 15%, gain 20 XP each, or pick the Crypt encounter type. Only one per run.
+- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
+- Bonus Building Usage: Grants one free extra use of that building next Town visit.
+- Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose one: reduce Crypt HP by 15%, gain 20 XP each, or pick the Crypt encounter type. Only one activates per run.
 
-Loot Pool:
-- Cards revealed from defeated encounter deck.
-- Basic lands rerolled.
-- Shared pool for player selection.
+**Loot Pool:**
+- Cards revealed from the defeated encounter's deck.
+- Basic lands are rerolled.
+- Shared pool — players select additions to their decks.
 
 ---
 
 ## 11. Turn And Combat Rules
 
-Party turn model:
-- Party acts as one player for turn structure.
-- Shared untap, upkeep, draw, main, combat, end step.
+**Party turn structure** *(shared)*:
+1. Untap
+2. Upkeep
+3. Draw
+4. Main Phase 1
+5. Combat
+6. Main Phase 2
+7. End Step
 
-Blocking:
+**Other rules:**
 - Adjacent players may block for each other.
-- Table edge seats count as adjacent where applicable.
-
-Extra turns:
-- Only the player controlling the extra-turn effect takes that extra turn unless a card/effect explicitly says otherwise.
-
-Scooping:
-- Players may only Scoop at Sorcery Speed.
+- Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
+- You may only Scoop at Sorcery Speed.
 
 ---
 
 ## 12. Crypt Rules
 
-Crypt basics:
-- Final encounter of the run.
-- Host always goes first.
-- Hardest fight in the run.
+The Crypt is the final encounter — the hardest fight of the run. The Host always goes first.
 
-Run end condition:
-- Run ends if party fails to defeat the Crypt.
+**The run ends if the party fails to defeat the Crypt.** On either outcome, any remaining XP converts into Essence.
 
-Crypt Fight Cashout:
-- Ultra-rare cashout (0.5% chance) that may be used before the Crypt begins.
-- Choose one: reduce Crypt HP by 15%, gain 20 XP each, or choose the Crypt encounter type.
-- Only one Crypt Fight Cashout may activate per run.
+**Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose one: reduce Crypt HP by 15%, grant each player 20 XP, or choose the Crypt encounter type. Only one may activate per run.
 
 ---
 
 ## 13. Pack And Search Quality Rules
 
-Pack quality constraints:
-- Pro pack: 45+ results
-- Mythic pack: 30+ results
-- OTAG pack: 15+ results
+**Minimum result thresholds:**
+| Pack Type | Minimum Results |
+|-----------|-----------------|
+| Pro Pack | 45+ |
+| Mythic Pack | 30+ |
+| OTAG Pack | 15+ |
 
-If pack quality is invalid:
-- Reroll or adjust the pack.
+If a pack doesn't meet its quality threshold, reroll or adjust the pack.
 
 ---
 
-## 14. Player Checklist Between Encounters
+## 14. Between-Encounter Checklist
 
-Before confirming ready:
-- XP updated.
-- Cash Out selected.
-- Loot choices resolved.
-- Town/Stay Out choice confirmed.
-- Event count for transition confirmed.
-- Deck legality still intact after any swaps.
-- Buff slots still legal.
+Before confirming ready for the next encounter:
+- [ ] XP updated.
+- [ ] Cash Out selected.
+- [ ] Loot choices resolved.
+- [ ] Town/Stay Out choice confirmed.
+- [ ] Event count for this transition confirmed.
+- [ ] Deck legality intact after any swaps.
+- [ ] Buff slots still legal.
 
 ---
 
 ## 15. One-Line Player Script
 
-"Win encounter, claim rewards in order, must choose Town or Stay Out, resolve Event(s), prep legal deck state, repeat until Crypt."
+*"Win the encounter, claim rewards in order, choose Town or Stay Out, resolve Events, keep your deck legal, and survive until the Crypt."*
