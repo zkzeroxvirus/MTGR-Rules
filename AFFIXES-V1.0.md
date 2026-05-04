@@ -16,7 +16,6 @@ Affixes are global modifiers that enhance the Host during encounters.
 * **Token Generator** — At the beginning of the Host’s end step, create a 1/1 Servo artifact creature token  
 * **Vigilance** — Host creatures have Vigilance  
 * **Trample** — Host creatures have Trample  
-* **Ward 1** — Host permanents have Ward {1}
 
 ---
 
@@ -25,6 +24,7 @@ Affixes are global modifiers that enhance the Host during encounters.
 **Role:** Moderate advantage, stronger combat \+ setup effects
 
 * **First Strike** — Host creatures have First Strike  
+* **Ward 1** — Host permanents have Ward {1}  
 * **Flying** — Host creatures have Flying  
 * **Hero Power** — The Host gains 1 of 3 random Hero cards  
 * **Lifelink** — Host creatures have Lifelink  
@@ -84,8 +84,8 @@ Affixes are global modifiers that enhance the Host during encounters.
 
 | Tier | Count | Identity |
 | ----- | ----- | ----- |
-| Tier 1 | 9 | Combat basics |
-| Tier 2 | 8 | Mid-level advantages |
+| Tier 1 | 8 | Combat basics |
+| Tier 2 | 9 | Mid-level advantages |
 | Tier 3 | 12 | Engine effects |
 | Tier 4 | 10 | Game-defining |
 

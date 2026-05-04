@@ -77,3 +77,19 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 - Core loop timing: CORE-RULES.md
 - Run flow overview: CORE-GAME-STRUCTURE-V1.0.md
 - Ticket unlock behavior: SHOPS.md and PERMANENT-PROGRESSION.md
+
+---
+
+## TRINKET POOL
+
+The following Trinkets make up the current pool.
+
+---
+
+### 🔧 THE DEVICE
+
+> *Once per encounter, the party may counter a spell one of them owns. If they do, conjure 3 random spells. The party may cast 1 of those spells for free. Exile the rest.*
+
+**Timing:** Any time the party could respond to a spell they control.  
+**Limit:** Once per encounter.  
+**Resolution:** The chosen spell is countered and does not resolve. Conjure 3 random spells face-up. The party agrees on 1. That spell is cast without paying its mana cost. The remaining 2 are exiled.

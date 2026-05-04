@@ -181,6 +181,9 @@ XP:
 Cash Out:
 - Host reveals cash outs equal to player count.
 - Each player chooses one unless stated otherwise.
+- Pack Rewards are tiered: T1 (core packs), T2 (advanced packs, mostly Pro/ID/specialty).
+- Bonus Building Usage cashouts grant one free extra use of that building next Town visit.
+- Crypt Fight Cashout (ultra-rare, 0.5%): Hold until the Crypt Fight, then reveal to choose: reduce Crypt HP by 15%, gain 20 XP each, or pick the Crypt encounter type. Only one per run.
 
 Loot Pool:
 - Cards revealed from defeated encounter deck.
@@ -202,6 +205,9 @@ Blocking:
 Extra turns:
 - Only the player controlling the extra-turn effect takes that extra turn unless a card/effect explicitly says otherwise.
 
+Scooping:
+- Players may only Scoop at Sorcery Speed.
+
 ---
 
 ## 12. Crypt Rules
@@ -213,6 +219,11 @@ Crypt basics:
 
 Run end condition:
 - Run ends if party fails to defeat the Crypt.
+
+Crypt Fight Cashout:
+- Ultra-rare cashout (0.5% chance) that may be used before the Crypt begins.
+- Choose one: reduce Crypt HP by 15%, gain 20 XP each, or choose the Crypt encounter type.
+- Only one Crypt Fight Cashout may activate per run.
 
 ---
 

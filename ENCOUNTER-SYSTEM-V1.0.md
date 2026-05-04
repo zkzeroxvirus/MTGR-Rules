@@ -30,6 +30,13 @@ Encounters are chosen randomly from available encounter types.
 
 Each type defines how the Host deck is selected and what additional rules apply.
 
+### **🔄 ENCOUNTER 1 REROLL**
+
+If **Tribal Warfare** or **Story Fight** is rolled as the encounter type for **Encounter 1**, reroll the encounter type until a different type is determined.
+
+* This applies only to Encounter 1 of a run
+* Both Tribal Warfare and Story Fight are excluded from Encounter 1 due to their complexity and bonus scaling
+
 ### **🧠 MASTER FIGHT**
 
 A Tyrant-led encounter drawn from the Demon Generals pool.
@@ -80,20 +87,61 @@ A Planechase-style encounter that alters the battlefield.
 
 **Setup:**
 
-* Randomly choose 3 Planes  
+* Randomly choose 3 Planes from the Custom Plane Pool  
 * Players eliminate 1  
 * The remaining Plane enters play  
 * The Host chooses a corresponding deck
 
 **Rules:**
 
-* Reveal a random Planechase card of the chosen Plane  
-* Use the custom Planar Die for Planechase resolution  
-* The Planeswalk face is treated as "Reroll this die"  
+* Use the chosen Plane's Custom Global Effect for the entire encounter — it applies to all players and the Host  
+* When the Chaos face is rolled, only the roller resolves that Plane's Chaos Effect  
+* When the Planeswalk face is rolled, **Planar Surge** triggers: the roller scries 2, then draws a card. The Plane does not change.  
 * The custom Planar Die is six-sided: 1 Chaos face, 1 Planeswalk face, and 4 blank faces  
 * As a party, the first Planar Die roll costs 0; each additional roll costs 1 more than the previous roll  
 * Once a Plane is chosen, players remain on that Plane for the entire encounter  
 * This encounter has an additional Affix of the highest tier for this encounter
+
+---
+
+#### **Custom Plane Pool**
+
+Each Plane Fight uses one of the following custom world effects.
+
+Each Plane has:
+
+* **Global Effect** — a world rule active for the entire encounter; affects all players and the Host equally  
+* **Chaos Effect** — resolves only for the person who rolled the Chaos face
+
+**🌌 THEROS**
+
+* **Global Effect:** Nontoken creatures are enchantments in addition to their other types. Whenever an enchantment enters the battlefield, its controller gains 1 life.  
+* **Chaos Effect:** Choose a color. Put a +1/+1 counter on each creature you control of that color.
+
+**🏺 AMONKHET**
+
+* **Global Effect:** Once during each player's turn, that player may exile a creature card from their graveyard. If they do, they create a tapped 4/4 white Zombie creature token.  
+* **Chaos Effect:** You may discard a card. If you do, draw two cards.
+
+**🏙 RAVNICA**
+
+* **Global Effect:** If an effect would create one or more tokens or put one or more +1/+1 counters on a permanent, it creates or puts that many plus one instead.  
+* **Chaos Effect:** Create two 1/1 green Saproling creature tokens. Until end of turn, the next instant or sorcery spell you cast is copied. You may choose new targets for the copy.
+
+**☣️ NEW PHYREXIA**
+
+* **Global Effect:** Whenever a nontoken artifact or creature dies, its controller creates a 1/1 colorless Phyrexian artifact creature token.  
+* **Chaos Effect:** Proliferate. Then target opponent sacrifices an artifact or creature with mana value 3 or less if able.
+
+**🌈 ALARA**
+
+* **Global Effect:** Multicolored creatures get +1/+1 and have exalted.  
+* **Chaos Effect:** Reveal cards from the top of your library until you reveal a permanent card. Put that card onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
+
+**⛩ KAMIGAWA**
+
+* **Global Effect:** Modified and legendary creatures get +1/+1 and have trample.  
+* **Chaos Effect:** Distribute three +1/+1 counters among up to three creatures you control. Up to one of those creatures can't be blocked this turn.
 
 ### **📖 STORY FIGHT *(Experimental)***
 
@@ -105,8 +153,8 @@ Narrative encounters with multi-phase structure.
 * Reveal 3 Stories  
 * Players eliminate 1  
 * The Host chooses 1 of the remaining Stories to pilot  
-* The Host starts the encounter with double life  
-* This encounter grants an additional 50% XP (round down)
+* The Host starts the encounter with 50% additional life, rounded up  
+* This encounter grants an additional 25% XP (round down)
 
 ---
 
@@ -116,7 +164,7 @@ If the Host would lose the game, a player would win the game, or the Host’s li
 
 This transition can happen only once per encounter.
 
-* Their life total becomes half their starting life total, rounded up  
+* Their life total becomes one-third of their starting life total, rounded up  
 * Clear the stack and counter all spells and abilities that currently target the Host or permanents the Host controls  
 * The Host and all permanents they control phase out  
 * Remove all damage from permanents they control. The Host loses all poison counters  

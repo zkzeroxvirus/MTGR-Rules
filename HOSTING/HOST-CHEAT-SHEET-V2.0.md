@@ -49,6 +49,7 @@ Before Encounter 1, confirm all of the following:
 ## 3. Start-Of-Encounter Procedure (Every Encounter)
 
 1. Determine encounter type and resolve its setup.
+   - **Encounter 1 only:** If Tribal Warfare or Story Fight is rolled, reroll until a different type is determined.
 2. Apply Affixes for the current stage.
 3. Set Host HP from player-count table.
 4. Determine Host Authority level from player count.
@@ -185,6 +186,10 @@ Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty. Town/Stay Out
 Cash Out:
 - Reveal cash outs equal to player count.
 - Each player picks one unless otherwise specified.
+- Cashout pool uses weighted chances (total 200 weight). See Cashout Pool in Reward System.
+- Pack Rewards are tiered: T1 (core packs), T2 (advanced packs, mostly Pro/ID/specialty).
+- Bonus Building Usage cashouts grant one free additional use of that building next Town visit.
+- Crypt Fight Cashout (0.5% chance): Hold and reveal before the Crypt Fight for a choice of benefit — reduce Crypt HP 15%, each player gains 20 XP, or choose the Crypt encounter type. Only one may be used per run.
 
 Loot Pool:
 - Shuffle defeated host deck.
@@ -242,6 +247,7 @@ Death handling:
 - Dead players return in later encounters per system flow.
 
 Player leaves mid-encounter:
+- Players may only Scoop at Sorcery Speed.
 - Party may pilot that deck until encounter ends.
 - If that encounter is completed, that player still gets that encounter rewards.
 - Player is removed from future stage scaling after encounter ends.

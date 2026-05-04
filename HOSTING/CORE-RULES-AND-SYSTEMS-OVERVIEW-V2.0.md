@@ -68,6 +68,7 @@ After deckbuilding, loop this structure until Crypt.
 - Host resolves encounter setup.
 - Both sides roll d20.
 - High roll chooses turn order.
+- Encounter 1 only: If Tribal Warfare or Story Fight is rolled, reroll until a different type is determined.
 
 2. Combat Resolution
 - If players win: resolve rewards.
@@ -194,6 +195,7 @@ Host turn:
 
 Rules:
 - Only the controller of an extra-turn effect takes that extra turn unless explicitly stated otherwise.
+- Players may only Scoop at Sorcery Speed.
 
 ---
 
@@ -208,6 +210,10 @@ Cash Out rules:
 - Host reveals cash outs equal to player count.
 - Each player chooses one unless otherwise specified.
 - Cash Outs are tradable and retained until used.
+- Cashout pool is weighted (200 total weight): Pack Rewards 75%, Bonus Building Usage 20%, Blacksmith Services 4.5%, Crypt Fight Cashout 0.5%.
+- Pack Rewards are tiered: T1 (core packs), T2 (advanced packs, mostly Pro/ID/specialty).
+- Bonus Building Usage cashouts grant one free additional building use next Town visit.
+- Crypt Fight Cashout: Hold until before the Crypt Fight — choose to reduce Crypt HP by 15%, grant each player 20 XP, or select the Crypt encounter type. Only one may activate per run.
 
 Loot Pool rules:
 - Reveal cards from defeated encounter deck equal to player count.

@@ -245,6 +245,8 @@ After each victory:
 
 ## **🚪 PLAYER DEPARTURE**
 
+Players may only Scoop at Sorcery Speed.
+
 If a player leaves during an encounter, the rest of the party may pilot that player's deck until that encounter ends.
 
 After that encounter:
@@ -474,7 +476,8 @@ Each player may have:
 ### **⚔️ GAMEPLAY CHANGES**
 
 • Players may attack any player regardless of Ally/Opponent status  
-• No teams are used
+• No teams are used  
+• Players may only Scoop at Sorcery Speed
 
 ### **🎟️ TICKETS**
 
