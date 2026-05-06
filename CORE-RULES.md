@@ -25,19 +25,24 @@ Players must balance survival, progression, and risk as they push deeper into th
 ### **1 — Commander Selection**
 
 • Generate 5 random legal commanders  
- • Choose 1
+• Choose 1  
+• Each player has **4 Commander Mulligans** — opportunities to reroll their starting Commander before the first encounter  
+• Additional Commander Mulligans may only come from specific game effects
 
 ---
 
-### **2 — Nonland Cards**
+### **2 — Deck Generation**
 
-• Generate a **100-card pile** within your commander’s color identity  
-• Draft **22 cards** from that pile for your nonland deck cards
+• Each player independently generates their own **100-card pool** within their commander's color identity  
+• The pool may contain **any card type** — spells, nonbasic lands, artifacts, etc.  
+• **Basic lands** are not included in the pool  
+• **Stickers, Attractions, Contraptions, and cards with "Draft" in their rules text** are immediately rerolled and replaced  
+• Draft **22 cards** from your pool for your deck
 
 Deckbuilding rule:  
- • The 100-card pile cannot be rerolled  
- • Exception: If a card in the pile is invalid or illegal for use, reroll or replace only that card  
- • Commander rerolls from other rules are still allowed; this lock applies only to nonland card drafting
+• The 100-card pool cannot be rerolled as a whole  
+• Exception: If an individual card in the pool is invalid or illegal for use, replace only that card  
+• Commander rerolls from other rules are still allowed; this lock applies only to deck card drafting
 
 ---
 
@@ -60,9 +65,10 @@ The remaining lands are basic.
 Add 1 card of your choice:
 
 Restrictions:  
- • Must follow color identity  
- • Not banned in Commander  
- • Not Sol Ring
+• Must follow color identity  
+• Not banned in Commander  
+• Not Sol Ring  
+• Not a Gamechanger
 
 ---
 
@@ -194,10 +200,11 @@ Each building has limited uses per Town visit:
 Players may choose to continue the run without returning to Town.
 
 When the party chooses to Stay Out:  
-• All players reset to full HP    
-• Each player gains \+10 XP    
-• Resolve a Supply Drop    
-• Resolve a Wanderer    
+• All players reset to full HP  
+• Each player gains \+10 XP  
+• Each player gains **2 Mystery Packs**  
+• Resolve a Supply Drop  
+• Resolve a Wanderer  
 • Resolve 2 Events instead of 1  
 • Each additional consecutive Stay Out adds **+1 more Event**
 
@@ -245,7 +252,7 @@ After each victory:
 
 ## **🚪 PLAYER DEPARTURE**
 
-Players may only Scoop at Sorcery Speed.
+Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
 
 If a player leaves during an encounter, the rest of the party may pilot that player's deck until that encounter ends.
 
@@ -290,6 +297,8 @@ This is optional and not part of the base ruleset.
 A run ends if:
 
 • The party fails to defeat the Crypt
+
+When the run ends — whether in victory or defeat — any unspent XP is converted into Essence.
 
 ---
 
@@ -477,7 +486,7 @@ Each player may have:
 
 • Players may attack any player regardless of Ally/Opponent status  
 • No teams are used  
-• Players may only Scoop at Sorcery Speed
+• Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed
 
 ### **🎟️ TICKETS**
 

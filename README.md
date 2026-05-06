@@ -1,6 +1,46 @@
 # MTG Roguelike — Rules Repository
 
-A cooperative, run-based Commander variant where players form a party and face a Host-controlled series of escalating encounters, culminating in a final boss fight known as the **Crypt**.
+A cooperative, long-form Commander roguelike where players form a party and push through Host-controlled encounters on the way to the **Crypt**.
+
+## Start Here
+
+If you are new, read these in order:
+
+1. [CORE-RULES.md](CORE-RULES.md)
+2. [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md)
+3. [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md)
+4. [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md)
+
+## At a Glance
+
+| Category | Details |
+| :--- | :--- |
+| Run Length | **4-6 hours** |
+| Setup Time | **20-40 minutes** |
+| Players | **1-6 players** |
+| Format | Co-op PvE (Host vs Party) |
+| Progression | Persistent (Tickets, Brands, Captures, Achievements, Crypt Buffs) |
+| Best For | Dedicated game-night groups |
+
+## Run Flow
+
+```mermaid
+flowchart LR
+	A[Deckbuild] --> B[Event or Trinket]
+	B --> C[Encounter Loop]
+	C --> D[Town or Stay Out]
+	D --> C
+	C --> E[Crypt Final Boss]
+	E --> F[Postgame Progression]
+```
+
+Standard path usually resolves in 3 encounters before the Crypt. Variant path can extend to 4 encounters.
+
+## What's New
+
+- Last updated: **2026-05-06**
+- Index and onboarding flow were updated to improve first-time readability.
+- Run length is now explicitly surfaced as a **4-6 hour** event-length experience.
 
 ---
 
@@ -33,7 +73,7 @@ A cooperative, run-based Commander variant where players form a party and face a
 | [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) | Host scaling buffs and Arcane Suppression |
 | [REWARD-SYSTEM-V1.0.md](REWARD-SYSTEM-V1.0.md) | XP, Cash Out, and Loot Pool after each encounter |
 | [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md) | Town buildings — Bank, Bazaar, Blacksmith, Cathedral, Merchant, Mystic, Portal, Tavern, The Guild |
-| [Travelers.md](Travelers.md) | Special visitors that appear in Town — unique benefits that do not cost a Town Action |
+| [TRAVELERS-V1.0.md](TRAVELERS-V1.0.md) | Special visitors that appear in Town — unique benefits that do not cost a Town Action |
 | [STAY-OUT-SYSTEM-V1.0.md](STAY-OUT-SYSTEM-V1.0.md) | Rules for skipping Town — XP scaling, Supply Drops, Wanderers |
 | [SUPPLY-DROP-SYSTEM.md](SUPPLY-DROP-SYSTEM.md) | Scavenged resource resolution between encounters |
 | [EVENT-SYSTEM-V1.0.md](EVENT-SYSTEM-V1.0.md) | Between-encounter random events — types, timing, frequency |
