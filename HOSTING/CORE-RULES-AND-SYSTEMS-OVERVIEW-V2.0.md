@@ -30,7 +30,7 @@ Each player begins with **4 Commander Mulligans** — free opportunities to rero
 Each player independently generates their own pool of 100 cards within their Commander's color identity. This pool may contain any card type — spells, nonbasic lands, artifacts — with the following exceptions:
 
 - **Basic lands** are not included in the pool.
-- **Stickers, Attractions, Contraptions, and cards with "Draft" in their rules text** are immediately rerolled and replaced.
+- **Stickers, Attractions, and Contraptions** are immediately rerolled and replaced.
 
 The 100-card pool is not rerolled as a whole. If an individual card is found to be invalid or illegal for any other reason, replace only that card.
 

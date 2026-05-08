@@ -21,7 +21,7 @@ Complete these steps before Encounter 1, in order:
 1. Apply persistent progression effects (tickets, buffs, achievements, captures, brands).
 2. Resolve any pregame shop effects.
 3. **Commander Selection** — Generate 5 legal options, choose 1. You have **4 Commander Mulligans** to reroll if needed.
-4. **Deck Generation** — Generate your own 100-card pool (all card types, no basic lands). Reroll any Stickers, Attractions, Contraptions, or Draft cards immediately. Draft 22 cards from your pool.
+4. **Deck Generation** — Generate your own 100-card pool (all card types, no basic lands). Reroll any Stickers, Attractions, or Contraptions immediately. Draft 22 cards from your pool.
 5. **Lands** — Add lands to reach a legal total (see land table in Section 4).
 6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger.
 7. Final legality check: Commander + 39.
@@ -72,7 +72,7 @@ Remaining land slots are filled with basics.
 
 **Key restrictions:**
 - Your 100-card pool may include any card type except basic lands.
-- Stickers, Attractions, Contraptions, and Draft cards are rerolled and replaced immediately.
+- Stickers, Attractions, and Contraptions are rerolled and replaced immediately.
 - Free choice card cannot be Sol Ring or a Gamechanger.
 - All cards must respect Commander legality and your color identity.
 - If an individual generated card is invalid, replace only that card — the full pool is not rerolled.

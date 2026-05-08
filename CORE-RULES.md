@@ -36,7 +36,7 @@ Players must balance survival, progression, and risk as they push deeper into th
 • Each player independently generates their own **100-card pool** within their commander's color identity  
 • The pool may contain **any card type** — spells, nonbasic lands, artifacts, etc.  
 • **Basic lands** are not included in the pool  
-• **Stickers, Attractions, Contraptions, and cards with "Draft" in their rules text** are immediately rerolled and replaced  
+• **Stickers, Attractions, and Contraptions** are immediately rerolled and replaced  
 • Draft **22 cards** from your pool for your deck
 
 Deckbuilding rule:  
@@ -80,6 +80,7 @@ Restrictions:
 • Silence effects (effects that prevent the Host from casting spells during their turn)  
 • Exception: Mandate of Peace  
 • Collective Voyage  
+• Mana Abundance  
 • Time Vault  
 • Hermit Druid Avatar  
 • Braids, Conjurer Adept Avatar  
@@ -95,8 +96,8 @@ Restrictions:
 • Join Forces (keyword): Cannot be obtained via Scryfall or targeted search  
 • Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
 • Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
+• Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
-• Cards that care about Drafting (for example, cards that say "draft," such as Cogwork Tracker and Garbage Fire): Cannot be obtained during deckbuilding or from pack rewards
 
 Applies to all MTGR runs unless overridden by the Host.
 

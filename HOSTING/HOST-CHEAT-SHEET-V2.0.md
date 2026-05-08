@@ -28,7 +28,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 Before Encounter 1, confirm all of the following:
 - [ ] Essence and progression actions are complete.
 - [ ] All players have completed deckbuilding (Commander + 39, legal).
-- [ ] Each player generated their own 100-card pool (all card types, no basic lands). Stickers, Attractions, Contraptions, and Draft cards were rerolled and replaced.
+- [ ] Each player generated their own 100-card pool (all card types, no basic lands). Stickers, Attractions, and Contraptions were rerolled and replaced.
 - [ ] Each player had 4 Commander Mulligans available.
 - [ ] Free Choice Cards confirmed legal (no Sol Ring, no Gamechangers, color identity obeyed).
 - [ ] Buffs, tickets, achievements, brands, and captures applied.

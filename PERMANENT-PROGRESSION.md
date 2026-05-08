@@ -16,7 +16,7 @@ Unless otherwise stated, activated progression effects may be used **once per en
 
 ---
 
-# **🔮 SEASON 1 CRYPT BUFFS (14)**
+# **🔮 SEASON 1 CRYPT BUFFS (16)**
 
 ---
 
@@ -169,6 +169,30 @@ At the beginning of every encounter, start with a Treasure token.
 
 **Unlock Source**  
 Beat Olivia, Opulent Outlaw.
+
+---
+
+## **Dark Beginnings**
+
+**Effect**  
+Your commander is augmented after deck creation.
+
+**Unlock Source**  
+Beat Maha, Its Feathers Night.
+
+---
+
+## **The Chosen Path**
+
+**Effect**  
+Once per encounter, choose one:
+
+Pay {2}: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+
+Look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+
+**Unlock Source**  
+Beat Loot, Exuberant Explorer.
 
 ---
 

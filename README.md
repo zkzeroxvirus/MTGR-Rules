@@ -51,6 +51,7 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | Document | Description |
 | :--- | :--- |
 | [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Current Season 1 Crypt Buffs, Tickets, Brands, and Achievements |
+| [EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md](EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md) | Experimental Crypt Buff unlock track based on cumulative Crypt wins |
 | [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
 
 ### Run Start (Setup and Deckbuilding)
