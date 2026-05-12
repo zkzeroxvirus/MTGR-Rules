@@ -16,7 +16,7 @@ Unless otherwise stated, activated progression effects may be used **once per en
 
 ---
 
-# **🔮 SEASON 1 CRYPT BUFFS (16)**
+# **🔮 SEASON 1 CRYPT BUFFS (17)**
 
 ---
 
@@ -97,7 +97,7 @@ Beat Kibo, Uktabi Prince.
 ## **Fickle Duplicant**
 
 **Effect**  
-At the beginning of the game, you get 1 free Scryfall creature card, but it is a 1/1 Balloon in addition to its other creature types and abilities.
+At the beginning of the game, you get 1 free Scryfall creature card, but it is a 1/1 Balloon in addition to its other creature types and abilities. Stamp it with a "Balloon" decal.
 
 **Unlock Source**  
 Beat The Jolly Balloon Man.
@@ -193,6 +193,18 @@ Look at the top six cards of your library. You may reveal a creature card from a
 
 **Unlock Source**  
 Beat Loot, Exuberant Explorer.
+
+---
+
+## **Paragon Adornments**
+
+**Effect**  
+Equipment costs {1} less to cast.
+
+Equipment costs {1} less to equip.
+
+**Unlock Source**  
+Beat Reyav, Master Smith.
 
 ---
 

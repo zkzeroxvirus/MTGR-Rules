@@ -23,7 +23,7 @@ Complete these steps before Encounter 1, in order:
 3. **Commander Selection** — Generate 5 legal options, choose 1. You have **4 Commander Mulligans** to reroll if needed.
 4. **Deck Generation** — Generate your own 100-card pool (all card types, no basic lands). Reroll any Stickers, Attractions, or Contraptions immediately. Draft 22 cards from your pool.
 5. **Lands** — Add lands to reach a legal total (see land table in Section 4).
-6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger.
+6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger. Stamp it with a "Scryfall" decal.
 7. Final legality check: Commander + 39.
 8. Resolve the first-step vote: Event or Trinket.
 
@@ -163,11 +163,12 @@ When the party chooses Stay Out, resolve in order:
 - Add Affix bonus XP and any encounter-specific bonus XP on top.
 
 **Cash Out:**
-- Host reveals Cash Outs equal to player count.
+- Host reveals Cash Outs equal to player count +1.
 - Each player chooses one unless stated otherwise.
-- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
+- Unselected Cash Outs are removed from play.
+- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs). Any other Cashout is T3.
 - Bonus Building Usage: Grants one free extra use of that building next Town visit.
-- Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose one: reduce Crypt HP by 15%, gain 20 XP each, or pick the Crypt encounter type. Only one activates per run.
+- Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**
 - Cards revealed from the defeated encounter's deck.
@@ -200,7 +201,7 @@ The Crypt is the final encounter — the hardest fight of the run. The Host alwa
 
 **The run ends if the party fails to defeat the Crypt.** On either outcome, any remaining XP converts into Essence.
 
-**Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose one: reduce Crypt HP by 15%, grant each player 20 XP, or choose the Crypt encounter type. Only one may activate per run.
+**Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose which Crypt to fight from the standard pool instead of rolling randomly. Only one may activate per run.
 
 ---
 

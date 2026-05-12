@@ -70,6 +70,9 @@ Restrictions:
 • Not Sol Ring  
 • Not a Gamechanger
 
+Marking rule:
+• After selecting your Free Choice Card, stamp it with a "Scryfall" decal
+
 ---
 
 ## **🚫 BANNED & RESTRICTED (MTGR)**
@@ -360,7 +363,7 @@ When a player casts a spell with Storm:
 
 Whenever a player would gain a card:
 
-• They may put it into their **sideboard instead of their deck**
+• They may put it into their **Deck or Sideboard**, unless otherwise stated
 
 Applies to:  
  • Events, Town, Cash Outs, Travelers, Packs, Rewards

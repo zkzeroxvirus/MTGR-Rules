@@ -54,7 +54,7 @@ Affixes are global modifiers that enhance the Host during encounters.
 * **Twice the Power** — Triggered abilities of Host permanents trigger an additional time  
   *(Cannot be paired with Annihilator 1 Affix)*  
 * **Vanguard Battlements** — The Host gains 1 of 3 random Vanguards  
-* **Vorpal** — When Host creatures deal combat damage, defending player sacrifices a permanent
+* **Vorpal** — Whenever one or more creatures the Host controls deal combat damage to a player, that player sacrifices a permanent
 
 ---
 

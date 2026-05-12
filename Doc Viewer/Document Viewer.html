@@ -1,0 +1,34 @@
+<Panel id="UIRoot" rectAlignment="MiddleCenter" position="0 0 0" width="900" height="1250">
+	<!-- Navigation bar -->
+	<Panel id="nav_panel" position="0 0 -100" width="900" height="60" color="#202020FF">
+		<HorizontalLayout spacing="8" padding="4 4 4 4" childForceExpandWidth="False" childForceExpandHeight="False" childAlignment="MiddleLeft">
+			<Text id="doc_status" text="" fontSize="14" color="#FFFFFF" preferredWidth="300" preferredHeight="50" />
+            <Button id="btn_toggle_doc" text="Show Document" textColor="#FFFFFF" colors="#FFFFFF|#606060|#404040|#606060" preferredWidth="150" preferredHeight="50" onClick="ui_toggle_doc" />
+			<Button id="btn_refresh_doc" text="Refresh" textColor="#FFFFFF" colors="#4CAF50|#6AD16E|#3B8E41|#6AD16E" preferredWidth="150" preferredHeight="50" onClick="ui_refresh_doc" />
+			
+		</HorizontalLayout>
+	</Panel>
+
+	<!-- Document panel -->
+	<Panel id="doc_panel" position="0 -600 -100" width="900" height="1100" color="#111111FF" active="true" childForceExpandWidth="False">
+		<Panel id="Body" position="0 0 0" width="880" height="1080" color="#202020FF">
+			<VerticalLayout spacing="8" padding="4 4 4 4" childForceExpandWidth="False" childForceExpandHeight="False" childAlignment="MiddleCenter">
+				<HorizontalLayout spacing="8" padding="0 0 0 0" childForceExpandWidth="False" childForceExpandHeight="False" childAlignment="UpperLeft">
+					<Button id="tab_rules" text="Rules" textColor="#FFFFFF" colors="#4CAF50|#6AD16E|#3B8E41|#6AD16E" preferredWidth="180" preferredHeight="32" onClick="ui_doc_rules" />
+					<Button id="tab_host" text="Host Cheat Sheet" textColor="#FFFFFF" colors="#505050|#606060|#404040|#606060" preferredWidth="180" preferredHeight="32" onClick="ui_doc_host" />
+					<Button id="tab_player" text="Player Cheat Sheet" textColor="#FFFFFF" colors="#505050|#606060|#404040|#606060" preferredWidth="200" preferredHeight="32" onClick="ui_doc_player" />
+				</HorizontalLayout>
+				<Text id="doc_body" text="(placeholder text - if you see this, XML is loading)" fontSize="14" color="#FFFFFF" alignment="UpperLeft" position="20 -50 0" preferredWidth="840" preferredHeight="980" horizontalOverflow="Wrap" verticalOverflow="Overflow" resizeTextForBestFit="false" />
+			</VerticalLayout>
+		</Panel>
+
+		<!-- Page navigation -->
+		<Panel id="page_nav" position="0 -600 0" width="900" height="40" color="#202020FF">
+			<HorizontalLayout spacing="8" padding="4 4 4 4" childForceExpandWidth="False" childForceExpandHeight="False" childAlignment="MiddleCenter">
+				<Button id="btn_prev_page" text="Previous" textColor="#FFFFFF" colors="#505050|#606060|#404040|#606060" preferredWidth="120" preferredHeight="32" onClick="ui_prev_page" />
+				<Text id="page_info" text="Page 1 / 1" fontSize="14" color="#FFFFFF" preferredWidth="150" preferredHeight="32" alignment="MiddleCenter" />
+				<Button id="btn_next_page" text="Next" textColor="#FFFFFF" colors="#505050|#606060|#404040|#606060" preferredWidth="120" preferredHeight="32" onClick="ui_next_page" />
+			</HorizontalLayout>
+		</Panel>
+	</Panel>
+</Panel>

@@ -55,6 +55,8 @@ Each player adds 1 card of their choosing to their deck. This card must:
 - Not be Sol Ring.
 - Is not a Gamechanger
 
+• After selecting your Free Choice Card, stamp it with a "Scryfall" decal
+
 **Step 5 — Finalize**
 Apply any persistent progression effects and resolve legal pregame choices. Confirm that your deck is legal at Commander + 39 cards. Then, resolve either an Event or a Trinket as your pre-first-encounter step.
 
@@ -200,13 +202,13 @@ The Host plays normally according to standard Magic rules.
 Winning an encounter earns the party three types of rewards: XP, Cash Outs, and Loot Pool cards.
 
 **Cash Outs**
-The Host reveals a number of Cash Outs equal to the player count. Each player selects one, unless a rule states otherwise. Cash Outs are tradable between players and can be held until you're ready to use them.
+The Host reveals a number of Cash Outs equal to the player count +1. Each player selects one, unless a rule states otherwise. Any unselected Cash Outs are removed from play. Cash Outs are tradable between players and can be held until you're ready to use them.
 
 The Cash Out pool is weighted across four categories *(200 total weight)*:
-- **Pack Rewards** — 75% — Booster packs, split between T1 (core packs) and T2 (advanced/specialty packs).
+- **Pack Rewards** — 75% — Booster packs, split between T1 (core packs) and T2 (advanced/specialty packs). Any other Cashout is T3.
 - **Bonus Building Usage** — 20% — Grants one free additional building use on your next Town visit.
 - **Blacksmith Services** — 4.5%
-- **Crypt Fight Cashout** — 0.5% — Hold this until just before the Crypt fight, then choose one of the following: reduce Crypt HP by 15%, grant each player 20 XP, or choose the Crypt encounter type. Only one Crypt Fight Cashout may be activated per run.
+- **Crypt Fight Cashout** — 0.5% — Hold this until just before the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one Crypt Fight Cashout may be activated per run.
 
 **Loot Pool**
 After an encounter victory, reveal a number of cards from the defeated encounter's deck equal to the player count. Reroll any basic lands that appear. The revealed cards form a shared pool from which players may select additions for their decks.

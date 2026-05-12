@@ -51,6 +51,7 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | Document | Description |
 | :--- | :--- |
 | [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Current Season 1 Crypt Buffs, Tickets, Brands, and Achievements |
+| [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) | In-game progression tool behavior, unlock flow, reward spawning, and profile sync |
 | [EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md](EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md) | Experimental Crypt Buff unlock track based on cumulative Crypt wins |
 | [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
 
@@ -97,6 +98,8 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 ### Progress Tracking
 
 Profile progression is tracked by the in-game tool, which manages **Essence, Achievements, Crypt Buffs, Tickets, Brands, and Captures** and saves/loads player data from a Google Sheet.
+
+See [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) for the full functional breakdown.
 
 ---
 

@@ -13,7 +13,7 @@ Rewards are resolved immediately after an encounter is defeated.
 **Order of Operations:**
 
 1. Gain **XP**  
-2. Resolve **Cash Out**  
+2. Resolve **Cashout**  
 3. Resolve **Loot Pool**
 
 After all rewards are resolved, proceed to the post-encounter choice (**Town or Stay Out**).
@@ -77,26 +77,27 @@ XP is used for:
 
 ---
 
-## **🎁 CASH OUT SYSTEM**
+## **🎁 CASHOUT SYSTEM**
 
-Cash Outs represent immediate reward choices gained after an encounter.
+Cashouts represent immediate reward choices gained after an encounter.
 
 **Resolution:**
 
-* The Host reveals a number of Cash Outs equal to the number of players  
+* The Host reveals a number of Cashouts equal to the number of players +1  
 * Each player selects one reward unless otherwise stated
+* Any unselected Cashouts are removed from play
 
 **Rules:**
 
-* Cash Outs are **free to claim**  
-* Cash Outs are **tradable between players**  
-* Cash Outs are **retained until used** (typically in Town)
+* Cashouts are **free to claim**  
+* Cashouts are **tradable between players**  
+* Cashouts are **retained until used** (typically in Town)
 
 ---
 
 ## **🧾 LOOT POOL SYSTEM**
 
-The Loot Pool allows players to extract cards from the defeated encounter deck.
+The Loot Pool allows players to extract cards from the defeated deck.
 
 **Resolution:**
 
@@ -136,21 +137,21 @@ This ensures rewards increase with both difficulty and run progression.
 
 * Base XP provides **predictable scaling across encounters**  
 * Affix XP provides **difficulty-based bonuses**  
-* Cash Outs provide **player agency and flexibility**  
+* Cashouts provide **player agency and flexibility**  
 * Loot Pool provides **organic deck growth**
 
 The system balances:
 
 * Predictability (Base XP)  
 * Difficulty scaling (Affixes)  
-* Choice (Cash Outs)  
+* Choice (Cashouts)  
 * Randomness (Loot Pool)
 
 # 🎴 Cashout Pool
 
-The Cashout Pool has a total weight of **400**. Percentages are calculated from this pool.
+The Cashout Pool has a total weight of **410**. Percentages are calculated from this pool.
 
-## 🎚 Pack Cashout Tiers
+## 🎚 Cashout Tiers
 
 Pack rewards are divided into two tiers for clarity and balancing.
 
@@ -167,11 +168,12 @@ Pack rewards are divided into two tiers for clarity and balancing.
 
 * All remaining pack rewards (ID variants, Pro variants, Mythic, Utility, and specialty packs)
 
-Non-pack cashouts use separate categories instead of T1/T2:
+Any Cashout that is not T1 or T2 is treated as T3:
 
 * Bonus Building Usage
 * Blacksmith Services
 * Crypt Fight Cashout
+* Ticket Cashouts
 
 ---
 
@@ -259,17 +261,11 @@ The Crypt Fight Cashout is an ultra-rare reward that grants a strategic advantag
 **Resolution:**
 
 * This cashout may be held and used immediately before the Crypt Fight begins
-* When revealed, all players collectively choose **one** of the following benefits:
-
-| Choice | Effect |
-| :---- | :---- |
-| **A — Low Ground** | Reduce the Crypt's starting life total by 15% (round down) |
-| **B — Head Start** | Each player gains 20 XP before the Crypt Fight begins |
-| **C — Call the Shot** | Choose the Crypt encounter type from the standard pool instead of rolling randomly |
+* When revealed, all players collectively choose which Crypt to fight from the standard pool instead of rolling randomly
 
 **Rules:**
 
 * Only one Crypt Fight Cashout may be used per run — additional copies are discarded unused
 * If unused by the time the Crypt Fight begins, it expires and is discarded
-* The choice is made before the encounter type is determined (if not using Choice C)
+* The choice is made before the Crypt encounter type is determined
 

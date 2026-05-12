@@ -31,6 +31,7 @@ Before Encounter 1, confirm all of the following:
 - [ ] Each player generated their own 100-card pool (all card types, no basic lands). Stickers, Attractions, and Contraptions were rerolled and replaced.
 - [ ] Each player had 4 Commander Mulligans available.
 - [ ] Free Choice Cards confirmed legal (no Sol Ring, no Gamechangers, color identity obeyed).
+- [ ] Free Choice Cards were stamped with a "Scryfall" decal.
 - [ ] Buffs, tickets, achievements, brands, and captures applied.
 - [ ] Run mode declared: Standard (3) or Variant (4).
 - [ ] Player count locked for current encounter setup.
@@ -175,12 +176,13 @@ Then resolve Events based on that choice.
 ## 8. Reward Handling Details
 
 **Cash Out:**
-- Reveal Cash Outs equal to player count.
+- Reveal Cash Outs equal to player count +1.
 - Each player picks one unless otherwise specified.
+- Remove any unselected Cash Outs from play.
 - The pool uses weighted chances (200 total weight). See Reward System for the full table.
-- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
+- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs). Any other Cashout is T3.
 - Bonus Building Usage: Grants one free additional building use next Town visit.
-- Crypt Fight Cashout (0.5%): Hold until just before the Crypt. Choose one: reduce Crypt HP by 15%, each player gains 20 XP, or choose the Crypt encounter type. Only one activates per run.
+- Crypt Fight Cashout (0.5%): Hold until just before the Crypt, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**
 - Shuffle the defeated Host deck.
