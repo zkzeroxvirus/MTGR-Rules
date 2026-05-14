@@ -55,6 +55,12 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | [EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md](EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md) | Experimental Crypt Buff unlock track based on cumulative Crypt wins |
 | [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
 
+### Experimental
+
+| Document | Description |
+| :--- | :--- |
+| [EXPERIMENTAL/PLANE-DECK-STANDARD-V1.0.md](EXPERIMENTAL/PLANE-DECK-STANDARD-V1.0.md) | Experimental host-piloted Plane deckbuilding standard with source-based copy limits |
+
 ### Run Start (Setup and Deckbuilding)
 
 | Document | Description |

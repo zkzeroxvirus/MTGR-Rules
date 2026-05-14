@@ -108,6 +108,8 @@ Progression is tracked by the in-game tool, which saves and loads player data fr
 
 After each encounter, players reset to full HP before the next encounter path resolves.
 
+Health wording reminder: "lose/gain X life" affects current life only. Permanent health changes must explicitly say **"Max HP/Life"**.
+
 This full reset applies whether the party chooses:
 
 * Town  

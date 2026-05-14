@@ -130,6 +130,7 @@ When the party chooses Town:
 4. Move to the next encounter.
 
 > **Reminders:** Building uses reset every time you return to Town. Cash Outs do not consume building uses.
+> "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**.
 
 ---
 

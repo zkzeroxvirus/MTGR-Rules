@@ -62,6 +62,7 @@ Events follow these constraints:
 * Do not interact with active battlefield states  
 * Resolve immediately and fully  
 * Apply equally to all players unless otherwise specified
+* Life wording convention: "lose/gain X life" is current life only; permanent health changes must explicitly say **"Max HP/Life"**
 
 ---
 

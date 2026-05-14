@@ -168,6 +168,7 @@ Then resolve Events based on that choice.
 - Fully heal and reset all players before the next encounter.
 - Party still proceeds to the Post-Encounter Choice — must choose Town or Stay Out.
 - Events still resolve normally.
+- "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**.
 
 > **Run end (win or lose):** Any unspent XP is converted into Essence at the end of the run.
 
