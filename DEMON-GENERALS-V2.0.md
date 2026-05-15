@@ -22,7 +22,7 @@ Unless otherwise stated:
 Status used by this document:
 
 * Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
-* Corrupted: Corrupted has no inherent rules effect by itself. It is a tracked status that only has effects when another rule explicitly references Corrupted.
+* Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
 
 When a General is defeated, the party gains that General’s Relic Reward.  
  (Rewards are defined separately.)
