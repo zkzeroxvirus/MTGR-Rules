@@ -22,10 +22,10 @@ Unless otherwise stated:
 Status used by this document:
 
 * Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
+* Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
 * Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
+* Petrified: The creature is tapped and does not untap during its controller's untap step. It loses all abilities. At the beginning of its controller's upkeep, they may make a Saving Roll. On a passed save, remove Petrified.
 
-When a General is defeated, the party gains that General’s Relic Reward.  
- (Rewards are defined separately.)
 
 ---
 
@@ -75,7 +75,7 @@ On a failed save:
 
 * Inferno Surge deals 4 damage to that player  
 * That player gains Burned
-
+Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
 ---
 
 ## **❄️ WINTER TYRANT — GENERAL OF FROST**
@@ -92,8 +92,8 @@ Each player makes a Saving Roll.
 
 On a failed save:
 
-* Permanents that player controls don’t untap during their controller’s next untap step.
-
+* That player gains Frozen
+Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
 ---
 
 ## **☠️ PLAGUE TYRANT — GENERAL OF ROT**
@@ -111,7 +111,7 @@ Each player makes a Saving Roll.
 On a failed save:
 
 * That player gains Corrupted
-
+Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
 ---
 
 ## **⚡ STORM TYRANT — GENERAL OF RUIN**
@@ -183,14 +183,9 @@ Unbreakable defenses rise from the earth.
  At the beginning of the Host’s combat step, the Host may unleash Stone Prison.
 
 Choose two creatures controlled by different players.  
- Those creatures become Petrified.
+ Those creatures gain Petrified.
 
-Petrified:
-
-* A petrified creature is tapped  
-* A petrified creature does not untap during its controller’s untap step  
-* A petrified creature loses all abilities  
-* At the beginning of its controller’s upkeep, they may make a Saving Roll to remove Petrified
+Petrified: The creature is tapped and does not untap during its controller's untap step. It loses all abilities. At the beginning of its controller's upkeep, they may make a Saving Roll. On a passed save, remove Petrified.
 
 ---
 
