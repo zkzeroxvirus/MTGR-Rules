@@ -75,6 +75,7 @@ On a failed save:
 
 * Inferno Surge deals 4 damage to that player  
 * That player gains Burned
+
 Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
 ---
 
@@ -93,6 +94,7 @@ Each player makes a Saving Roll.
 On a failed save:
 
 * That player gains Frozen
+
 Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
 ---
 
@@ -111,6 +113,7 @@ Each player makes a Saving Roll.
 On a failed save:
 
 * That player gains Corrupted
+
 Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
 ---
 
@@ -147,7 +150,7 @@ Each player makes a Saving Roll.
 On a failed save:
 
 * Create a 2/2 black Zombie creature token under the Host’s control for each creature card in that player’s graveyard.  
- (Maximum 4 tokens per player.)
+ (Maximum 2 tokens per player.)
 
 ---
 
