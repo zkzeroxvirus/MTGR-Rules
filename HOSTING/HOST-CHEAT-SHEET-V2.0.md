@@ -236,7 +236,7 @@ When players choose Stay Out, resolve in order:
 **Death:** No XP penalty. Dead players return in later encounter flow.
 
 **Player leaves mid-encounter:**
-- Players may only Scoop at Sorcery Speed.
+- Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
 - The party may pilot that deck until the encounter ends.
 - If the encounter is completed, the leaving player still receives that encounter's rewards.
 - Remove that player from future stage scaling after the encounter ends.

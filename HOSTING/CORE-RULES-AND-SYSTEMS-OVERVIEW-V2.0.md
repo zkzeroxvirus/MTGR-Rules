@@ -197,7 +197,7 @@ The Host plays normally according to standard Magic rules.
 - Adjacent players may block for each other when an adjacent ally is attacked.
 - If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
-- Players may only Scoop at Sorcery Speed.
+- Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
 
 ---
 
