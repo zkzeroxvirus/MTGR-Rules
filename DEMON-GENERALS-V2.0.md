@@ -131,7 +131,9 @@ Each player makes a Saving Roll.
 
 On a failed save:
 
-* Storm Tyrant deals damage to that player equal to twice the number of Charge counters they have. Then remove all Charge counters from all players.
+* Storm Tyrant deals damage to that player equal to twice the number of Charge counters they have.
+
+Then remove all Charge counters from all players.
 
 ---
 

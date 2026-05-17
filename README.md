@@ -26,7 +26,7 @@ If you are new, read these in order:
 
 ```mermaid
 flowchart LR
-	A[Deckbuild] --> B[Event or Trinket]
+		A[Deckbuild] --> B[Event and Trinket]
 	B --> C[Encounter Loop]
 	C --> D[Town or Stay Out]
 	D --> C
@@ -114,8 +114,8 @@ See [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) for the
 ### How a Run Works
 
 ```
-Standard: Deckbuild → Event/Trinket → Encounter 1 → ... → Encounter 3 → Crypt
-Variant:  Deckbuild → Event/Trinket → Encounter 1 → ... → Encounter 4 → Crypt
+Standard: Deckbuild → Event + Trinket → Encounter 1 → ... → Encounter 3 → Crypt
+Variant:  Deckbuild → Event + Trinket → Encounter 1 → ... → Encounter 4 → Crypt
 ```
 
 ### Player Count

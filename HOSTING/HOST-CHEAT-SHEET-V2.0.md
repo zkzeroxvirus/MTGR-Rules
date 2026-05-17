@@ -7,7 +7,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 
 **Standard Mode (3 Encounters)**
 1. Pre-Game Setup
-2. Event or Trinket — before Encounter 1
+2. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
 3. Encounter 1 → Rewards → Town/Stay Out → Event(s)
 4. Encounter 2 → Rewards → Town/Stay Out → Event(s)
 5. Encounter 3 → Rewards → Town/Stay Out → Event(s)
@@ -15,7 +15,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 
 **Variant Mode (4 Encounters)**
 1. Pre-Game Setup
-2. Event or Trinket — before Encounter 1
+2. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
 3. Encounters 1–4 → Rewards → Town/Stay Out → Event(s)
 4. Crypt
 
@@ -32,12 +32,15 @@ Before Encounter 1, confirm all of the following:
 - [ ] Each player had 4 Commander Mulligans available.
 - [ ] Free Choice Cards confirmed legal (no Sol Ring, no Gamechangers, color identity obeyed).
 - [ ] Free Choice Cards were stamped with a "Scryfall" decal.
+- [ ] No two-card combos exist in any run deck (players and Host).
+- [ ] Scryfall-stamped cards are not part of any three-card combo.
 - [ ] Buffs, tickets, achievements, brands, and captures applied.
 - [ ] Run mode declared: Standard (3) or Variant (4).
 - [ ] Player count locked for current encounter setup.
 - [ ] Encounter tracker prepared (E1/E2/E3/E4/Crypt).
 - [ ] Stay Out streak counter set to 0.
 - [ ] Host HP, Affix tier, Doom, and Host Authority references available.
+- [ ] Starting setup resolved in order: Event, then Trinket (starting Event cannot be Bad Stuff).
 
 ---
 
@@ -51,7 +54,7 @@ Before Encounter 1, confirm all of the following:
 5. Give Doom cards from the player-count table.
 6. Both sides roll d20 — high roll chooses turn order.
 
-> **Reminders:** The party acts as one player for turn structure. Adjacent players may block for each other. Extra turns apply only to the effect controller unless stated otherwise.
+> **Reminders:** The party acts as one player for turn structure. Adjacent players may block for each other when an adjacent ally is attacked. If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule. Extra turns apply only to the effect controller unless stated otherwise.
 
 ---
 

@@ -10,6 +10,8 @@ Events occur after post-encounter decisions and provide additional effects, chal
 
 Events are resolved **after the post-encounter phase** and before the next encounter begins.
 
+Pre-first-encounter note: The starting Event (resolved before Encounter 1) cannot be a Bad Stuff Event.
+
 **Order of Operations:**
 
 1. Encounter is defeated  

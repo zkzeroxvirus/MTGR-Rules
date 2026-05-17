@@ -43,7 +43,7 @@ The core gameplay loop is as follows:
 
 This loop repeats until the Crypt is reached.
 
-Before Encounter 1, resolve the pre-run setup step from the core rules (Event or Trinket).
+Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event cannot be a Bad Stuff Event.
 
 ---
 

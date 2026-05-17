@@ -56,9 +56,11 @@ Each player adds 1 card of their choosing to their deck. This card must:
 - Is not a Gamechanger
 
 • After selecting your Free Choice Card, stamp it with a "Scryfall" decal
+• No two-card combos are allowed in any run deck (players and Host)
+• A card with a "Scryfall" decal cannot be used as part of a three-card combo
 
 **Step 5 — Finalize**
-Apply any persistent progression effects and resolve legal pregame choices. Confirm that your deck is legal at Commander + 39 cards. Then, resolve either an Event or a Trinket as your pre-first-encounter step.
+Apply any persistent progression effects and resolve legal pregame choices. Confirm that your deck is legal at Commander + 39 cards. Then, resolve Event and Trinket as your pre-first-encounter step (Event first, and the starting Event cannot be a Bad Stuff Event).
 
 ---
 
@@ -86,7 +88,7 @@ After the encounter resolves, the party chooses one:
 **5. Event Resolution**
 After resolving Town or Stay Out, resolve any Events and then proceed to the next encounter.
 
-> **Pre-Encounter 1 Note:** Before the very first encounter, resolve either an Event or a Trinket — one of the two, unless an explicit rule states otherwise.
+> **Pre-Encounter 1 Note:** Before the very first encounter, resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
 
 ---
 
@@ -192,6 +194,8 @@ The run is complete. Players receive Essence rewards, Crypt Buff rewards, and an
 The Host plays normally according to standard Magic rules.
 
 **Additional Rules:**
+- Adjacent players may block for each other when an adjacent ally is attacked.
+- If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
 - Players may only Scoop at Sorcery Speed.
 

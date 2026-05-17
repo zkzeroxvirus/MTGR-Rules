@@ -16,12 +16,12 @@ Trinkets are part of pre-encounter setup and are not resolved mid-encounter.
 
 ## TIMING
 
-Trinkets are resolved in the pre-first-encounter setup step where players normally choose one of:
+Trinkets are resolved in the pre-first-encounter setup step after the starting Event is resolved.
 
-- Event
+Starting setup order:
+
+- Event (cannot be a Bad Stuff Event)
 - Trinket
-
-If Trinket is chosen, resolve Trinket selection instead of resolving an Event at that step.
 
 ---
 
@@ -66,7 +66,9 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 ## INTERACTION WITH EVENTS
 
-The pre-first-encounter step is Event or Trinket, not both, unless another explicit rule says otherwise.
+The pre-first-encounter step resolves Event and Trinket, in that order.
+
+The starting Event cannot be a Bad Stuff Event.
 
 After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event systems.
 
@@ -353,3 +355,23 @@ The following Trinkets make up the current pool.
 **Timing:** Continuous cost reduction effect while this Trinket is active.  
 **Limit:** Applies to eligible Town XP costs only.  
 **Resolution:** When determining an XP cost for a Town action, reduce that cost by 5. If the resulting cost would be less than 5, it becomes 5 instead.
+
+---
+
+### ⚔️ GIDEON'S TRAINING SABER
+
+> *At the start of each encounter, choose a party member's commander.*
+>
+> *That commander gets +1/+0 and vigilance.*
+>
+> *Whenever the chosen commander attacks or blocks, put a training counter on Gideon's Training Saber.*
+>
+> *As long as Gideon's Training Saber has six or more training counters, the chosen commander gets +1/+0 and first strike.*
+>
+> *As long as Gideon's Training Saber has twelve or more training counters, the chosen commander gets +1/+0 and indestructible during its owner's turn.*
+>
+> *Training counters on Gideon's Training Saber persist between encounters.*
+
+**Timing:** Triggered at the start of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander for that encounter. That commander gets +1/+0 and vigilance. Track training counters on Gideon's Training Saber whenever that chosen commander attacks or blocks. If the Saber has six or more training counters, that chosen commander also gets +1/+0 and first strike. If the Saber has twelve or more training counters, that chosen commander also gets +1/+0 and indestructible during its owner's turn. Training counters persist between encounters.

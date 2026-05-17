@@ -25,7 +25,7 @@ Complete these steps before Encounter 1, in order:
 5. **Lands** — Add lands to reach a legal total (see land table in Section 4).
 6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger. Stamp it with a "Scryfall" decal.
 7. Final legality check: Commander + 39.
-8. Resolve the first-step vote: Event or Trinket.
+8. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
 
 ---
 
@@ -76,6 +76,8 @@ Remaining land slots are filled with basics.
 - Free choice card cannot be Sol Ring or a Gamechanger.
 - All cards must respect Commander legality and your color identity.
 - If an individual generated card is invalid, replace only that card — the full pool is not rerolled.
+- No two-card combos are allowed in any run deck (players and Host).
+- A card with a "Scryfall" decal cannot be used as part of a three-card combo.
 
 ---
 
@@ -88,7 +90,7 @@ Each stage follows this exact sequence:
 4. Resolve Events
 5. Next encounter
 
-**Before Encounter 1:** Resolve Event or Trinket — one of the two.
+**Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
 
 **If an encounter was lost:**
 - No Rewards (no XP, Cash Out, or Loot Pool).
@@ -190,7 +192,8 @@ When the party chooses Stay Out, resolve in order:
 7. End Step
 
 **Other rules:**
-- Adjacent players may block for each other.
+- Adjacent players may block for each other when an adjacent ally is attacked.
+- If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
 - You may only Scoop at Sorcery Speed.
 

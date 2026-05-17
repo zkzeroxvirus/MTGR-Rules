@@ -85,6 +85,10 @@ Restrictions:
 Marking rule:
 • After selecting your Free Choice Card, stamp it with a "Scryfall" decal
 
+Combo restrictions:
+• No two-card combos are allowed in any run deck (players and Host)
+• A card with a "Scryfall" decal cannot be used as part of a three-card combo
+
 ---
 
 ## **🚫 BANNED & RESTRICTED (MTGR)**
@@ -128,14 +132,14 @@ Applies to all MTGR runs unless overridden by the Host.
 
 ## **🔄 CORE GAME LOOP**
 
-### **1 — Event or Trinket**
+### **1 — Event and Trinket**
 
 Before the First Encounter  
-Players vote to resolve one:  
- • Event  
+Resolve both in this order:  
+ • Event (cannot be a Bad Stuff Event)  
  • Trinket
 
-If Trinket is chosen, resolve it using the Trinket System flow.
+Resolve the Event using the Event System flow, then resolve the Trinket using the Trinket System flow.
 
 Then before every encounter thereafter resolve Event(s) based on Town/Stay Out rules.
 
@@ -345,7 +349,8 @@ The Host plays normally.
 ### **⚔️ HOST COMBAT**
 
  • Host chooses attack targets  
- • Adjacent players may block for each other
+ • Adjacent players may block for each other when an adjacent ally is attacked  
+ • If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 
 ---
 
