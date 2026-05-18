@@ -50,7 +50,6 @@ This occurs during pre-game setup before Encounter 1.
 ## RULES CONSTRAINTS
 
 - A player may have at most 1 Trinket at a time
-- Trinkets use the same global slot system as other persistent effect categories
 - Trinket effects apply only as written on that Trinket
 - If a Trinket would conflict with a core rule, the Host resolves the conflict using normal host adjudication
 

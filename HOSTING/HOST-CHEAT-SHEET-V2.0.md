@@ -275,7 +275,7 @@ To prevent flow errors, maintain a consistent resolution order every session.
 - Never merge systems out of order — Rewards, then Town/Stay Out, then Events.
 - Confirm the failed-encounter branch out loud before advancing.
 
-> **Recommended callout:** *"Encounter resolved. Entering Rewards phase: XP first, then Cash Out, then Loot Pool."*
+> **Recommended callout:** *"Encounter resolved. Entering Rewards phase: resolve XP, Cash Out, and Loot Pool — all three, any order."*
 
 ---
 

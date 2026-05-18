@@ -92,19 +92,29 @@ Enhance **1 card** in your deck.
 
 ---
 
-## 🛍️ BAZAAR *(2 uses per Town)*
+## 🛍️ BAZAAR
 
-Each player may make a deal.
+The Bazaar has two distinct functions: player-to-player Deals and Cashout Sales to the Host.
 
-**Allowed Deals:**
+---
+
+### 🤝 DEALS *(2 uses per Town)*
+
+Each player may make up to 2 deals per Town. Each deal is one of the following exchanges:
 
 * Card ↔ Card
 * Card ↔ Essence (2× mana value)
 * Cashout ↔ Cashout
 * Cashout ↔ Card
-* Cashout ↔ Host for **10 XP**
 
-**Rules:** Bazaar can only be used while in Town.
+---
+
+### 💰 CASHOUT SALE *(Free — Unlimited)*
+
+A player may sell any number of Cashouts to the Host for **10 XP** each.
+
+* Does **not** consume a Deal usage
+* May be done any number of times while in Town
 
 ---
 
@@ -155,7 +165,7 @@ Open a **15-card pack**, then keep **1 card**.
 
 **Search parameters:** supertype, type, subtype, keyword, mana value.
 
-**Rules:** Packs follow your Commander's color identity, except Mystery Packs.
+**Rules:** ID, Pro, Mythic, and OTAG Packs follow your Commander's color identity. Mystery Packs have no color restrictions. During a run, you may also obtain cards outside your color identity through encounter cashouts and other sources.
 
 ---
 

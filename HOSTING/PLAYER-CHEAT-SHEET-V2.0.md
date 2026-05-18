@@ -85,7 +85,7 @@ Remaining land slots are filled with basics.
 
 Each stage follows this exact sequence:
 1. Encounter
-2. **Victory only:** Rewards — XP → Cash Out → Loot Pool
+2. **Victory only:** Rewards — XP, Cash Out, and Loot Pool (all three, any order)
 3. Choose: Town or Stay Out *(mandatory, win or lose)*
 4. Resolve Events
 5. Next encounter

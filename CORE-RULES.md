@@ -56,6 +56,8 @@ Deckbuilding rule:
 • Exception: If an individual card in the pool is invalid or illegal for use, replace only that card  
 • Commander rerolls from other rules are still allowed; this lock applies only to deck card drafting
 
+**Note:** Initial deckbuilding is restricted to your Commander's color identity. During the run, you may obtain cards outside your color identity through encounter cashouts and Mystery Packs.
+
 ---
 
 ### **3 — Lands**
@@ -74,10 +76,10 @@ The remaining lands are basic.
 
 ### **4 — Free Choice Card**
 
-Add 1 card of your choice:
+Add 1 card of your choice during initial deckbuilding:
 
 Restrictions:  
-• Must follow color identity  
+• Must follow your Commander's color identity  
 • Not banned in Commander  
 • Not Sol Ring  
 • Not a Gamechanger
@@ -414,24 +416,44 @@ Override:
 
 ## **🎟️ TICKET RULES**
 
-### **🎟️ EMBLEM TICKET**
+### **🛡️ VANGUARD TICKET**
 
-• Reveal 3 random Emblems  
- • Host removes 1  
- • Player chooses from remaining
+• Reveal 3 random Vanguards  
+• Player chooses 1
 
- • Player may decline  
- • Ticket is reusable
+• Player may decline to commit to a Vanguard  
+• Ticket is reusable
 
 ---
 
-### **🛡️ VANGUARD TICKET**
+### **🎁 TRINKET TICKET**
 
- • Reveal 3 random Vanguards  
- • Player chooses 1
+• Reveal 3 random Trinkets  
+• Player chooses 1
 
- • Player may decline  
- • Ticket is reusable
+• Player may decline to commit to a Trinket  
+• Ticket is reusable
+
+---
+
+### **🕯️ CONSPIRACY TICKET**
+
+• Reveal 3 random Conspiracies  
+• Player chooses 1
+
+• Player may decline to commit to a Conspiracy  
+• Ticket is reusable
+
+---
+
+### **🎟️ EMBLEM TICKET**
+
+• Reveal 3 random Emblems  
+• Host eliminates 1  
+• Player chooses from remaining 2
+
+• Player may decline to commit to an Emblem  
+• Ticket is reusable
 
 ---
 

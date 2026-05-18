@@ -10,11 +10,7 @@ Rewards provide progression, resources, and deck improvement opportunities throu
 
 Rewards are resolved immediately after an encounter is defeated.
 
-**Order of Operations:**
-
-1. Gain **XP**  
-2. Resolve **Cashout**  
-3. Resolve **Loot Pool**
+All three rewards must be resolved — **XP**, **Cashout**, and **Loot Pool** — but there is no required order between them.
 
 After all rewards are resolved, proceed to the post-encounter choice (**Town or Stay Out**).
 
