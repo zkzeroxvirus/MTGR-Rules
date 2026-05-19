@@ -208,9 +208,19 @@ Beat Reyav, Master Smith.
 
 ---
 
-# **🎟️ SEASON 1 TICKETS (7)**
+# **🎟️ SEASON 1 TICKETS (8)**
 
 Tickets are permanent progression purchases from the Progression Shop and still consume buff slots.
+
+---
+
+## **Arcane Signet Ticket**
+
+**Effect**  
+You get an Arcane Signet Ticket. This allows you to have a free Arcane Signet in your deck without it counting toward your 39.
+
+**Slot Cost**  
+1
 
 ---
 
@@ -286,7 +296,7 @@ You may begin the game with an Emblem of your choice from 3 random options.
 
 ---
 
-# **🔥 SEASON 1 BRANDS (5)**
+# **🔥 SEASON 1 BRANDS (6)**
 
 Brands are permanent progression purchases from the Progression Shop.
 

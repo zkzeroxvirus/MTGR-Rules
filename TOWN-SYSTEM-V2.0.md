@@ -92,18 +92,18 @@ Enhance **1 card** in your deck.
 
 ---
 
-## 🛍️ BAZAAR
+## 🛍️ BAZAAR *(2 Deals per Town + unlimited Cashout Sales)*
 
-The Bazaar has two distinct functions: player-to-player Deals and Cashout Sales to the Host.
+Two things happen here — trading and selling. You get 2 Deals per visit, plus you can sell Cash Outs for XP as many times as you want. The two functions are completely separate.
 
 ---
 
 ### 🤝 DEALS *(2 uses per Town)*
 
-Each player may make up to 2 deals per Town. Each deal is one of the following exchanges:
+Each deal is one of the following exchanges:
 
 * Card ↔ Card
-* Card ↔ Essence (2× mana value)
+* Card ↔ Essence (2× the card's mana value)
 * Cashout ↔ Cashout
 * Cashout ↔ Card
 
@@ -111,10 +111,7 @@ Each player may make up to 2 deals per Town. Each deal is one of the following e
 
 ### 💰 CASHOUT SALE *(Free — Unlimited)*
 
-A player may sell any number of Cashouts to the Host for **10 XP** each.
-
-* Does **not** consume a Deal usage
-* May be done any number of times while in Town
+Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not consume a Deal usage and may be done any number of times.
 
 ---
 

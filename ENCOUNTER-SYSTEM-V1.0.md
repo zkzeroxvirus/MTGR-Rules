@@ -154,7 +154,7 @@ Narrative encounters with multi-phase structure.
 * Players eliminate 1  
 * The Host chooses 1 of the remaining Stories to pilot  
 * The Host starts the encounter with 50% additional life, rounded up  
-* This encounter grants an additional 25% XP (round down)
+* This encounter grants an additional +25 XP
 
 ---
 
@@ -164,7 +164,7 @@ If the Host would lose the game, a player would win the game, or the Host’s li
 
 This transition can happen only once per encounter.
 
-* Their life total becomes one-third of their starting life total, rounded up  
+* Their life total becomes half of their starting life total, rounded up  
 * Clear the stack and counter all spells and abilities that currently target the Host or permanents the Host controls  
 * The Host and all permanents they control phase out  
 * Remove all damage from permanents they control. The Host loses all poison counters  
