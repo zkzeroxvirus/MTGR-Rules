@@ -10,6 +10,11 @@ MTG Roguelike runs on two distinct currencies, each serving a different purpose.
 **Essence**
 Essence is your long-term progression currency. It persists between sessions and is spent before or after a run to grow your account — unlocking permanent upgrades, options, and advantages that carry forward into future runs.
 
+There are two separate Essence Counters tied to two distinct progression profiles:
+
+- **Verified Profile** — Earned through sessions run by Verified Hosts on the Base table (the game as intended). This profile is shared across all Verified Host tables.
+- **Unverified Profile** — Earned through Regular Host sessions, which may include custom game modes. This profile is tracked separately and does not mix with your Verified progression.
+
 **XP**
 XP is your in-run currency. It is earned during encounters and spent at Town or with Wanderers to strengthen your deck and options for the current run. When the run ends — whether in victory or defeat — any unspent XP is converted into Essence.
 
@@ -209,8 +214,9 @@ Winning an encounter earns the party three types of rewards: XP, Cash Outs, and 
 The Host reveals a number of Cash Outs equal to the player count +1. Each player selects one, unless a rule states otherwise. Any unselected Cash Outs are removed from play. Cash Outs are tradable between players and can be held until you're ready to use them.
 
 The Cash Out pool is weighted across four categories *(200 total weight)*:
-- **Pack Rewards** — 75% — Booster packs, split between T1 (core packs) and T2 (advanced/specialty packs). Any other Cashout is T3.
+- **Pack Rewards** — 75% — Booster packs, split between T1 (core packs) and T2 (advanced/specialty packs).
 - **Bonus Building Usage** — 20% — Grants one free additional building use on your next Town visit.
+- **Tier Note** — Bonus Building Usage cashouts are Tier 2. Other non-pack cashouts are Tier 3.
 - **Blacksmith Services** — 4.5%
 - **Crypt Fight Cashout** — 0.5% — Hold this until just before the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one Crypt Fight Cashout may be activated per run.
 

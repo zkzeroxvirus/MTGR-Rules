@@ -16,7 +16,7 @@ Unless otherwise stated, activated progression effects may be used **once per en
 
 ---
 
-# **🔮 SEASON 1 CRYPT BUFFS (17)**
+# **🔮 SEASON 1 CRYPT BUFFS (19)**
 
 ---
 
@@ -205,6 +205,26 @@ Equipment costs {1} less to equip.
 
 **Unlock Source**  
 Beat Reyav, Master Smith.
+
+---
+
+## **Upgrades, People, Upgrades**
+
+**Effect**  
+You may activate abilities of creatures you control as though those creatures had haste.
+
+**Unlock Source**  
+Defeat Iron Spider, Stark Upgrade.
+
+---
+
+## **Lucky Pull**
+
+**Effect**  
+Whenever one or more creatures you control deal combat damage to an opponent, draw a card.
+
+**Unlock Source**  
+Beat Jin Sakai, Ghost of Tsushima.
 
 ---
 

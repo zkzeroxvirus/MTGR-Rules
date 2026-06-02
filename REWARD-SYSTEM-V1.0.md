@@ -149,7 +149,7 @@ The Cashout Pool has a total weight of **410**. Percentages are calculated from 
 
 ## 🎚 Cashout Tiers
 
-Pack rewards are divided into two tiers for clarity and balancing.
+Cashouts are divided into tiers for clarity and balancing.
 
 **T1 (Core Packs):**
 
@@ -163,10 +163,10 @@ Pack rewards are divided into two tiers for clarity and balancing.
 **T2 (Advanced Packs):**
 
 * All remaining pack rewards (ID variants, Pro variants, Mythic, Utility, and specialty packs)
+* Bonus Building Usage cashouts
 
 Any Cashout that is not T1 or T2 is treated as T3:
 
-* Bonus Building Usage
 * Blacksmith Services
 * Crypt Fight Cashout
 * Ticket Cashouts
@@ -205,16 +205,17 @@ Any Cashout that is not T1 or T2 is treated as T3:
 
 **🏛 BONUS BUILDING USAGE** *(Total Weight: 80 — 20%)*
 
-| Cashout | Weight | Chance |
-| :---- | :----: | :----: |
-| Bonus Bazaar | 20 | 5% |
-| Bonus Bank | 14 | 3.5% |
-| Bonus Mystic | 14 | 3.5% |
-| Bonus Tavern | 14 | 3.5% |
-| Bonus Guild | 12 | 3% |
-| Bonus Cathedral | 6 | 1.5% |
+| Cashout | Tier | Weight | Chance |
+| :---- | :----: | :----: | :----: |
+| Bonus Bazaar | T2 | 20 | 5% |
+| Bonus Bank | T2 | 14 | 3.5% |
+| Bonus Mystic | T2 | 14 | 3.5% |
+| Bonus Tavern | T2 | 14 | 3.5% |
+| Bonus Guild | T2 | 12 | 3% |
+| Bonus Cathedral | T2 | 6 | 1.5% |
 
 *Each Bonus Building cashout grants one free additional use of that building during the next Town visit.*
+*Bonus Bazaar exception: one deal involving the cashout holder is free for both participants (neither player expends a Deal use).*
 
 ---
 

@@ -43,10 +43,9 @@ If players choose to return, resolve Town before proceeding to Events.
 
 When the party returns to Town, resolve the following:
 
-1. Fully heal all players    
-2. Resolve Town building usage    
-3. Proceed to Event resolution   
- 
+1. Fully heal all players
+2. Resolve Town building usage
+3. Proceed to Event resolution
 
 
 ## ❤️ **FULL HEAL**
@@ -75,7 +74,9 @@ Town buildings fall into two categories:
 
 Move up to **6 cards** between your deck and sideboard.
 
-**Rules:** Bank interactions only happen while in Town.
+### Rules
+
+Bank interactions only happen while in Town.
 
 ---
 
@@ -106,6 +107,8 @@ Each deal is one of the following exchanges:
 * Card ↔ Essence (2× the card's mana value)
 * Cashout ↔ Cashout
 * Cashout ↔ Card
+
+If a player uses Bonus Bazaar, one deal they participate in during that Town is free for both participants (neither player expends a Deal use).
 
 ---
 

@@ -2,6 +2,16 @@
 
 This document describes what the in-game Essence Counter does and how players interact with it.
 
+## Two Progression Profiles
+
+There are two separate Essence Counters, each tied to a distinct progression profile:
+
+- **Verified Host Counter** — Used by Verified Hosts when running the Base table. Verified Hosts are trusted individuals who provide the standard game experience as it is intended to be played. Progression earned here is shared across all Verified Host sessions, meaning a player's Crypt Buffs, Tickets, Brands, Captures, Achievements, and stored Essence carry over between any Verified Host's table.
+
+- **Unverified Host Counter** — Used by Regular Hosts, who may run custom game modes and alternate styles of play. Progression earned here is tracked on a separate profile and does not mix with a player's Verified progression.
+
+Players maintain two independent profiles — one per counter type.
+
 ## Purpose
 
 The Essence Counter is the player profile and progression controller for MTG Roguelike. It tracks long-term progression data and provides a UI to review and claim unlocked rewards.

@@ -8,6 +8,11 @@ Your quick reference for everything you need to know as a player in MTG Roguelik
 **Essence**
 Your long-term progression currency. Persists between sessions and is spent before or after runs on permanent upgrades and account growth.
 
+You have two separate Essence profiles:
+
+- **Verified Profile** — Built through Verified Host sessions (Base table). Shared across all Verified Hosts — your Crypt Buffs, Tickets, Brands, Captures, and Essence here follow you everywhere a Verified Host runs.
+- **Unverified Profile** — Built through Regular Host sessions, which may include custom game modes. Tracked separately and does not affect your Verified profile.
+
 **XP**
 Your in-run currency. Earned from encounters and spent in Town or with Wanderers. Any XP remaining at run's end — win or lose — converts into Essence.
 
@@ -169,8 +174,9 @@ When the party chooses Stay Out, resolve in order:
 - Host reveals Cash Outs equal to player count +1.
 - Each player chooses one unless stated otherwise.
 - Unselected Cash Outs are removed from play.
-- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs). Any other Cashout is T3.
+- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
 - Bonus Building Usage: Grants one free extra use of that building next Town visit.
+- Tier Note: Bonus Building Usage cashouts are T2. Other non-pack cashouts are T3.
 - Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**

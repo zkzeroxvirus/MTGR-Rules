@@ -184,8 +184,9 @@ Then resolve Events based on that choice.
 - Each player picks one unless otherwise specified.
 - Remove any unselected Cash Outs from play.
 - The pool uses weighted chances (200 total weight). See Reward System for the full table.
-- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs). Any other Cashout is T3.
+- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
 - Bonus Building Usage: Grants one free additional building use next Town visit.
+- Tier Note: Bonus Building Usage cashouts are T2. Other non-pack cashouts are T3.
 - Crypt Fight Cashout (0.5%): Hold until just before the Crypt, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**

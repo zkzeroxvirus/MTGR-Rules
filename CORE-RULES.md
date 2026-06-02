@@ -12,6 +12,18 @@ Players must balance survival, progression, and risk as they push deeper into th
 
 ---
 
+## **🏠 HOST TYPES AND PROGRESSION PROFILES**
+
+There are two types of Hosts, each associated with a separate progression profile:
+
+- **Verified Hosts** are trusted individuals who run the **Base table** — the game as it is intended to be played. Players who participate in Verified Host sessions share a unified progression profile. Crypt Buffs, Tickets, Brands, Captures, Achievements, and stored Essence earned here carry over between any Verified Host's table.
+
+- **Regular Hosts** may run sessions using the Unverified Essence Counter, which supports custom game modes and alternate styles of play. Progress from these sessions is tracked on a separate profile and does not mix with a player's Verified progression.
+
+Players maintain two independent profiles — one per Host type.
+
+---
+
 ## **👥 PLAYER STRUCTURE**
 
  • Players form a party and act as a unified team  
@@ -110,6 +122,7 @@ Combo restrictions:
 • Summoner's Bond  
 • Richard Garfield, Ph.D.  
 • Double Stroke  
+• Veteran Explorer  
 • Sovereign's Realm
 
 ### **⚠️ RESTRICTED**
@@ -117,6 +130,7 @@ Combo restrictions:
 • Join Forces (keyword): Cannot be obtained via Scryfall or targeted search  
 • Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
 • Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
+• Ward of Bones: Cannot be obtained via Scryfall or targeted search  
 • Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
 
@@ -411,6 +425,32 @@ Override:
  • Standard → 1  
  • Vanguard Ticket → 2  
  • Emblem Ticket → 3
+
+---
+
+### **🔮 Current Crypt Buffs (Season 1)**
+
+• Quick Spell  
+• Spiritual Guidance  
+• The God Trees Blessing  
+• Momentum Engine  
+• Eternal Servitude  
+• Unearthly Reach  
+• Respited Gift  
+• Fickle Duplicant  
+• Might of Okaun  
+• Finders Keepers  
+• Flame of Progress  
+• Shapeshifter  
+• Undying Legionary  
+• Treasure Pirate  
+• Dark Beginnings  
+• The Chosen Path  
+• Paragon Adornments  
+• Upgrades, People, Upgrades  
+• Lucky Pull
+
+For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 
 ---
 
