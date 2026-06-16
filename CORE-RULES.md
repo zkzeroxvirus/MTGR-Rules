@@ -471,6 +471,8 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 • Reveal 3 random Trinkets  
 • Player chooses 1
 
+• Ticket ownership and slot usage are per player, not a single shared party Trinket slot
+
 • Player may decline to commit to a Trinket  
 • Ticket is reusable
 

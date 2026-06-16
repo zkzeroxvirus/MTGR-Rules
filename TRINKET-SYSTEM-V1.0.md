@@ -45,6 +45,8 @@ If a player has an active Trinket Ticket:
 
 This occurs during pre-game setup before Encounter 1.
 
+Ticket slot limits are per player, not per party.
+
 ---
 
 ## RULES CONSTRAINTS
@@ -52,6 +54,7 @@ This occurs during pre-game setup before Encounter 1.
 - A player may have at most 1 Trinket at a time
 - Trinket effects apply only as written on that Trinket
 - If a Trinket would conflict with a core rule, the Host resolves the conflict using normal host adjudication
+- The party is not capped at one total Trinket by this rule; this is a per-player limit
 
 Unless otherwise specified on the Trinket, any party member may use that Trinket.
 

@@ -279,6 +279,8 @@ At the beginning of the game, before deckbuilding, pick your color identity to p
 **Effect**  
 You may begin the game with a Trinket of your choice from 3 random options.
 
+Ticket ownership is per player. If that player leaves, the Trinket tied to their Trinket Ticket is removed after the current encounter.
+
 **Slot Cost**  
 1
 

@@ -193,6 +193,7 @@ You may begin the game with a **Trinket** of your choice between 3 random choice
 * The Trinket is selected during the next Pregame Shop phase (before the first encounter)
 * You choose from 3 randomly presented Trinkets instead of voting at the table
 * This is the same Trinket pool as the normal Trinket/Event system
+* This ticket's slot usage is per player, not shared as a single party trinket slot
 * Occupies 1 slot
 
 ---

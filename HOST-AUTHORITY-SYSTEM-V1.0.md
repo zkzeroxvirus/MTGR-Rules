@@ -128,6 +128,9 @@ The **Not Today** enchantment token (Authority II, III, V) is a separate mechani
 
 ## **📜 RULES CLARIFICATION**
 
+* Authority levels are not additive cost reduction by tier. Authority V is not {5} cheaper.
+* At each player count, use the full effect package listed for that Authority level.
+
 * The free copy of *Disallow*:
   * Is cast normally
   * Uses the stack

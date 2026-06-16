@@ -138,7 +138,8 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 - Doom effects are triggered abilities controlled by the Host.
 - Any number of Doom cards may be used per turn unless a card says otherwise.
 - Triggered Doom cards are removed for that encounter.
-- Once per Host turn, you may reroll any number of Doom cards in hand.
+- Doom cards are tracked in a separate Doom hand/zone and do not count toward hand size.
+- Once per Host turn, you may reroll any number of Doom cards in your Doom hand.
 
 **Host Authority by Player Count:**
 | Players | Authority Level |
@@ -259,7 +260,7 @@ Track these continuously throughout the session:
 - Host HP target
 - Applied Affixes and total Affix XP bonus
 - Authority level
-- Doom cards in hand / used
+- Doom cards in Doom hand / used
 - Stay Out streak count
 - Event count for current transition
 - XP totals per player

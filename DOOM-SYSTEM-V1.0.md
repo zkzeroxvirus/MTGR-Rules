@@ -25,6 +25,8 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 
 * Doom cards represent **triggered abilities** controlled by the Host  
 * The Host may use **Any number of Doom cards per turn** unless otherwise specified
+* Doom cards are kept in a separate Doom hand/zone, not the Host's MTG hand
+* Doom cards do not count toward hand size limits
 
 ---
 
@@ -40,7 +42,7 @@ When the Host triggers a Doom card's effect:
 
 ## **🔁 DOOM REROLL**
 
-Once per Host turn, the Host may reroll any number of Doom cards in their hand:
+Once per Host turn, the Host may reroll any number of Doom cards in their Doom hand:
 
 1. Return the selected Doom cards to the pool  
 2. Draw the same number of new Doom cards from the pool
