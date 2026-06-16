@@ -4,6 +4,14 @@ This document tracks the current **Season 1** permanent progression pool: **Cryp
 
 Each permanent unlock is tied to a player profile and persists across future runs.
 
+How these are acquired:
+
+• **Crypt Buffs** are earned through Crypt victories  
+• **Achievements** are earned by meeting gameplay milestones  
+• **Tickets** are purchased with Essence  
+• **Brands** are purchased with Essence and ranked up through repeated purchases  
+• **Captures** are purchased with Essence
+
 **Season 1 progression layers**
 
 • Crypt Buffs  
