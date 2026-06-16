@@ -293,6 +293,9 @@ You may begin the game with a Conspiracy of your choice from 3 random options.
 
 Choose it before picking your Commander.
 
+**Rules**  
+You see Conspiracy options only once per session. If you decline, you cannot see new Conspiracy options that session (unless you gain another Conspiracy Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
+
 **Slot Cost**  
 1
 
@@ -303,6 +306,9 @@ Choose it before picking your Commander.
 **Effect**  
 You may begin the game with a Vanguard of your choice from 3 random options.
 
+**Rules**  
+You see Vanguard options only once per session. If you decline, you cannot see new Vanguard options that session (unless you gain another Vanguard Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
+
 **Slot Cost**  
 2
 
@@ -311,7 +317,10 @@ You may begin the game with a Vanguard of your choice from 3 random options.
 ## **Emblem Ticket**
 
 **Effect**  
-You may begin the game with an Emblem of your choice from 3 random options.
+You may begin the game with an Emblem of your choice from 3 random options. The Host eliminates 1 from the pool, then you choose from the remaining 2.
+
+**Rules**  
+You see Emblem options only once per session. If you decline, you cannot see new Emblem options that session (unless you gain another Emblem Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
 
 **Slot Cost**  
 3

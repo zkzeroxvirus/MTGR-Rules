@@ -462,7 +462,8 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 • Player chooses 1
 
 • Player may decline to commit to a Vanguard  
-• Ticket is reusable
+• If declined, you cannot see Vanguard options again this session (only if you gain another Vanguard Ticket from a Cashout)
+• Ticket persists across runs
 
 ---
 
@@ -474,7 +475,8 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 • Ticket ownership and slot usage are per player, not a single shared party Trinket slot
 
 • Player may decline to commit to a Trinket  
-• Ticket is reusable
+• If declined, you cannot see Trinket options again this session (only if you gain another Trinket Ticket from a Cashout)
+• Ticket persists across runs
 
 ---
 
@@ -484,7 +486,8 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 • Player chooses 1
 
 • Player may decline to commit to a Conspiracy  
-• Ticket is reusable
+• If declined, you cannot see Conspiracy options again this session (only if you gain another Conspiracy Ticket from a Cashout)
+• Ticket persists across runs
 
 ---
 
@@ -495,7 +498,8 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 • Player chooses from remaining 2
 
 • Player may decline to commit to an Emblem  
-• Ticket is reusable
+• If declined, you cannot see Emblem options again this session (only if you gain another Emblem Ticket from a Cashout)
+• Ticket persists across runs
 
 ---
 

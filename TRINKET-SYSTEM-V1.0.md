@@ -102,11 +102,11 @@ The following Trinkets make up the current pool.
 
 ### 🪓 GARRUK'S CLIPPER
 
-> *Once each combat, target creature gets +2/+0 and gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this turn, draw a card.*
+> *At the beginning of the party's upkeep, target creature the party controls gets +2/+0 and gains deathtouch and "Whenever this creature deals combat damage to a player, draw a card" until end of turn.*
 
-**Timing:** Once each combat, during combat, at any time a party member could cast an instant.  
-**Limit:** Once each combat.  
-**Resolution:** Choose target creature. It gets +2/+0 and gains deathtouch until end of turn. If that creature deals combat damage to a player this turn, its controller draws a card.
+**Timing:** Triggered at the beginning of the party's upkeep.  
+**Limit:** Once per party upkeep.  
+**Resolution:** Choose target creature the party controls. It gets +2/+0 and gains deathtouch. It also gains "Whenever this creature deals combat damage to a player, draw a card" until end of turn.
 
 ---
 
@@ -122,11 +122,11 @@ The following Trinkets make up the current pool.
 
 ### ✨ STAFF OF LIGHT
 
-> *Once each session, when a Doom card is played, counter that card. This ability can't be countered. Exile this Trinket.*
+> *Exile Staff of Light: Counter target Doom card as it is being played. This ability can't be countered.*
 
 **Timing:** In response to a Doom card being played.  
-**Limit:** Once each session.  
-**Resolution:** Counter the Doom card. This Trinket ability cannot be countered. After it resolves, exile this Trinket.
+**Limit:** Once per run.  
+**Resolution:** Counter the Doom card as it is being played. This Trinket ability cannot be countered. After it resolves, exile this Trinket.
 
 ---
 
@@ -188,30 +188,30 @@ The following Trinkets make up the current pool.
 
 ### 💣 BOMB
 
-> *Once each session, Bomb deals 10 damage to any target. Exile this Trinket.*
+> *Exile Bomb: Bomb deals 10 damage to any target.*
 
 **Timing:** Any time the party could cast an instant.  
-**Limit:** Once each session.  
+**Limit:** Once per run.  
 **Resolution:** Choose any target. Bomb deals 10 damage to that target. After it resolves, exile this Trinket.
 
 ---
 
 ### 💥 BIG BOMB
 
-> *Once each session, Big Bomb deals 15 damage to any target. Exile this Trinket.*
+> *Exile Big Bomb: Big Bomb deals 15 damage to any target.*
 
 **Timing:** Any time the party could cast an instant.  
-**Limit:** Once each session.  
+**Limit:** Once per run.  
 **Resolution:** Choose any target. Big Bomb deals 15 damage to that target. After it resolves, exile this Trinket.
 
 ---
 
 ### ☢️ BIGGER BOMB
 
-> *Once each session, Bigger Bomb deals 20 damage to any target. Exile this Trinket.*
+> *Exile Bigger Bomb: Bigger Bomb deals 20 damage to any target.*
 
 **Timing:** Any time the party could cast an instant.  
-**Limit:** Once each session.  
+**Limit:** Once per run.  
 **Resolution:** Choose any target. Bigger Bomb deals 20 damage to that target. After it resolves, exile this Trinket.
 
 ---
@@ -292,11 +292,11 @@ The following Trinkets make up the current pool.
 
 ### 🔥 CAMPFIRE
 
-> *At the beginning of the party's end step, one party member may gain 2 life and discard a card. If they do, they draw a card.*
+> *At the beginning of the party's end step, choose a party member. That player may choose one or both — They gain 2 life. They discard a card. If they do, they draw a card.*
 
 **Timing:** Triggered at the beginning of the party's end step.  
 **Limit:** Once each party end step (triggered).  
-**Resolution:** Choose one party member. That player may gain 2 life and discard a card. If they do, they draw a card.
+**Resolution:** Choose one party member. They may choose one or both: gain 2 life, or discard a card (and if they do, draw a card).
 
 ---
 
@@ -377,3 +377,307 @@ The following Trinkets make up the current pool.
 **Timing:** Triggered at the start of each encounter.  
 **Limit:** Once each encounter choice (triggered).  
 **Resolution:** Choose a party member's commander for that encounter. That commander gets +1/+0 and vigilance. Track training counters on Gideon's Training Saber whenever that chosen commander attacks or blocks. If the Saber has six or more training counters, that chosen commander also gets +1/+0 and first strike. If the Saber has twelve or more training counters, that chosen commander also gets +1/+0 and indestructible during its owner's turn. Training counters persist between encounters.
+
+---
+
+### 🗡️ PIKEMAN
+
+> *Once each combat: Target creature gains first strike until end of turn.*
+
+**Timing:** Any time during combat phase, at instant speed.  
+**Limit:** Once each combat.  
+**Resolution:** Choose target creature. It gains first strike until end of turn.
+
+---
+
+### 🔦 ASHMOUTH LANTERN
+
+> *At the beginning of each encounter, choose a party member. The first time that player loses life each encounter, they create a Treasure token and draw a card. Then Ashmouth Lantern deals 1 damage to that player.*
+
+**Timing:** Triggered at the beginning of each encounter and each time the chosen player loses life for the first time that encounter.  
+**Limit:** Once each encounter per chosen player.  
+**Resolution:** At the start of each encounter, choose a party member. The first time that player loses life, they create a Treasure token, draw a card, and Ashmouth Lantern deals 1 damage to that player.
+
+---
+
+### ⚔️ PARASITE BLADE
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever this creature deals combat damage to a player, you lose 1 life and draw a card."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed triggered ability for the encounter.
+
+---
+
+### 📖 BLADE OF THE ARCHMAGUS
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever you cast a noncreature spell that targets an opponent or a permanent an opponent controls, this creature deals 2 damage to any target."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed triggered ability for the encounter.
+
+---
+
+### 🎃 CURSED PUMPKINS
+
+> *Each pack from the Merchant is once per town for each player. The party can't visit the Cathedral, Upgrade, or Augment. XP gains are increased by 100%. This bonus is additive.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Applies to all eligible Town actions and pack generations throughout the run.  
+**Resolution:** Limit Merchant pack generation to once per town per player. Prevent the party from visiting Cathedral, Upgrade, or Augment. Double all XP gains (this bonus stacks with other XP multipliers).
+
+---
+
+### 🧙 HU-BLOW, THE GOOD
+
+> *Once each turn, a party member may cast a creature spell as though it had flash.*
+
+**Timing:** Any time a party member could cast a spell.  
+**Limit:** Once each turn.  
+**Resolution:** Choose one creature spell a party member intends to cast. That spell may be cast at instant speed (as though it had flash).
+
+---
+
+### 👑 RUSTED CROWN
+
+> *Party members begin each encounter with 5 additional maximum HP. Whenever a party member loses the game during an encounter, that player loses 5 maximum HP.*
+
+**Timing:** Continuous effect while this Trinket is active, with loss trigger on player elimination.  
+**Limit:** +5 max HP to each party member each encounter; −5 max HP for each player eliminated during an encounter.  
+**Resolution:** Each party member starts each encounter with 5 additional maximum HP. If a party member loses the game during an encounter, they permanently lose 5 maximum HP (carried to the next encounter).
+
+---
+
+### 💎 TREASURE
+
+> *When the party claims Treasure, each party member gains 25 XP and a Tier 1 Ticket. Then exile Treasure.*
+
+**Timing:** When Treasure is resolved as a Town action or Cash Out reward.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 25 XP and receives one Tier 1 Ticket. Then remove Treasure from play (exile it).
+
+---
+
+### 💰 HUGE TREASURE
+
+> *When the party claims Huge Treasure, each party member gains 40 XP and three Tier 1 Tickets. Then exile Huge Treasure.*
+
+**Timing:** When Huge Treasure is resolved as a Town action or Cash Out reward.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 40 XP and receives three Tier 1 Tickets. Then remove Huge Treasure from play (exile it).
+
+---
+
+### 🔔 GRAVEBELL
+
+> *Once each encounter, choose target nontoken creature the party controls. When that creature dies this turn, return it to the battlefield tapped under its owner's control at the beginning of the next end step. It's a black Zombie in addition to its other colors and types.*
+
+**Timing:** Any time the party could cast a sorcery.  
+**Limit:** Once each encounter.  
+**Resolution:** Choose target nontoken creature the party controls. If that creature dies this turn, return it to the battlefield tapped at the beginning of the next end step as a black Zombie in addition to its other types and colors.
+
+---
+
+### 🔊 SHOVEL PILE
+
+> *Once each town, the party chooses one — Shallow Dig: The party gains 15 XP. Deep Dig: Roll a d20. 1–9: The party gains 10 XP. 10–17: The party gains 25 XP. 18–20: The party gains 40 XP.*
+
+**Timing:** During Town resolution, when Town actions are chosen.  
+**Limit:** Once each town.  
+**Resolution:** The party chooses one of two modes. Shallow Dig grants 15 XP. Deep Dig requires rolling a d20: 1–9 grants 10 XP, 10–17 grants 25 XP, 18–20 grants 40 XP.
+
+---
+
+### ⚱️ SAINT'S ASH
+
+> *Once each encounter: If a party member would lose the game, the party may choose for that player's life total to become 1 instead.*
+
+**Timing:** In response to a party member being dealt lethal damage or other elimination event.  
+**Limit:** Once each encounter.  
+**Resolution:** When a party member would lose the game, you may prevent that loss. Instead, set that player's life total to 1.
+
+---
+
+### 🔫 CANNON
+
+> *Cannon enters the run with two powder counters on it. Once each party turn, a party member may remove any number of powder counters from Cannon. When they do, Cannon deals 3 damage to any target for each powder counter removed this way. Any player may pay {3} as a sorcery to put a powder counter on Cannon. Cannon can't have more than three powder counters on it.*
+
+**Timing:** Any time the party could cast a sorcery or as part of a party turn.  
+**Limit:** Once each party turn for removal; any time for adding counters.  
+**Resolution:** Cannon starts with two powder counters. Once per party turn, remove any number of powder counters and deal 3 damage to any target for each removed. Anyone may pay {3} to add one powder counter (max three total).
+
+---
+
+### 🌾 BAG OF GRAIN
+
+> *When the party claims Bag of Grain, each party member gains 4 maximum HP. Then exile Bag of Grain.*
+
+**Timing:** When Bag of Grain is resolved as a reward or Town action.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 4 maximum HP. Then remove Bag of Grain from play (exile it).
+
+---
+
+### 🛍️ CELESTINE, HAMA'S LIGHT
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains lifelink and "Noncreature spells you cast that target permanents you control cost {2} less to cast."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains lifelink and the listed cost-reduction ability for the encounter.
+
+---
+
+### 🏺 GUILD CHEST
+
+> *Each party member may trade two additional times each town.*
+
+**Timing:** Continuous effect while this Trinket is active, applied during Town visits.  
+**Limit:** +2 additional trades per party member per town.  
+**Resolution:** When visiting Town, each party member gains 2 additional trades beyond normal Town limits.
+
+---
+
+### 🍶 JAR OF OIL
+
+> *Jar of Oil enters the run with three oil counters on it. Remove an oil counter from Jar of Oil: You gain 2 life. The next time you cast a red spell this encounter, that spell deals 3 damage to any target. Only a party member may activate this ability. When the last oil counter is removed from Jar of Oil, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 oil counter. Gain 2 life. The next red spell you cast this encounter deals 3 damage to any target. When Jar of Oil has no oil counters, exile it.
+
+---
+
+### 💧 JAR OF WATER
+
+> *Jar of Water enters the run with three water counters on it. Remove a water counter from Jar of Water: You gain 4 life. Only a party member may activate this ability. When the last water counter is removed from Jar of Water, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 water counter and gain 4 life. When Jar of Water has no water counters, exile it.
+
+---
+
+### ⊡ VOID LANTERN
+
+> *At the beginning of each encounter, exile the top card of each party member's library. Party members may play cards exiled with Void Lantern. Spells cast this way cost {1} less to cast.*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter (triggered).  
+**Resolution:** Exile the top card of each party member's library face-up. Party members may play (but not cast as spells) cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
+
+---
+
+### 🌊 LANTERN OF THE DEEP
+
+> *Whenever a party member ventures into the dungeon, each party member surveils 1. The first time the party completes a dungeon each encounter, each party member gains 20 XP.*
+
+**Timing:** Triggered whenever a party member ventures and when a dungeon is completed.  
+**Limit:** Survey triggers per venture; 20 XP bonus once per encounter when a dungeon is completed.  
+**Resolution:** Each party member surveils 1 whenever any party member ventures. When the party completes a dungeon, each party member gains 20 XP (once per encounter).
+
+---
+
+### ☀️ THE SUNFORGED SLICER
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever this creature deals combat damage to a player, you may discard up to two cards. Draw a card for each card discarded this way."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed combat-damage triggered ability for the encounter.
+
+---
+
+### 🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON
+
+> *At the beginning of the party's first upkeep each encounter, choose a party member. That player chooses one —*
+>
+> *• Oppressive Skeleton — Create a 1/1 black Skeleton creature token with "{1}: Regenerate this creature."*
+>
+> *• Aggressive Skeleton — Create a 4/1 black Skeleton creature token with menace and haste. Sacrifice it at the beginning of the next end step.*
+
+**Timing:** Triggered at the beginning of the party's first upkeep each encounter.  
+**Limit:** Once per encounter (first upkeep only).  
+**Resolution:** Choose a party member. They choose one mode. Oppressive Skeleton creates a 1/1 black Skeleton with regeneration. Aggressive Skeleton creates a 4/1 black Skeleton with menace and haste that's sacrificed at the next end step.
+
+---
+
+### 👢 IRON BOOTS
+
+> *Party commanders enter the battlefield tapped. Commanders the party controls have ward {2}.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Applies to all party commanders.  
+**Resolution:** Party commanders enter tapped. All party commanders have ward {2}.
+
+---
+
+### 🎃 JACK-O-LANTERN
+
+> *The party can't visit the Cathedral. XP gains are increased by 40%. This bonus is additive.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Prevents Cathedral visits; applies +40% XP multiplier.  
+**Resolution:** The party cannot visit the Cathedral. Increase all XP gains by 40% (this bonus stacks with other XP multipliers).
+
+---
+
+### 🦷 MIMIC TOOTH
+
+> *At the beginning of a party member's upkeep, target creature gains "Whenever this creature deals combat damage to an opponent, create a token that's a copy of that creature except it's a 1/1 Horror."*
+
+**Timing:** Triggered at the beginning of each party member's upkeep.  
+**Limit:** Once per upkeep.  
+**Resolution:** Choose target creature. It gains the listed triggered ability until end of turn.
+
+---
+
+### 💪 GREAT THWACK
+
+> *Once each combat: target creature gets +2/+2 and gains trample until end of turn.*
+
+**Timing:** Any time during combat phase, at instant speed.  
+**Limit:** Once each combat.  
+**Resolution:** Choose target creature. It gets +2/+2 and gains trample until end of turn.
+
+---
+
+### 💰 GOLD BAG
+
+> *When the party claims Gold Bag, each party member gains 10 XP. Then exile Gold Bag.*
+
+**Timing:** When Gold Bag is resolved as a reward or Town action.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 10 XP. Then remove Gold Bag from play (exile it).
+
+---
+
+### 🪬 TRIBAL TOTEM
+
+> *At the beginning of each encounter, choose a creature type. Creatures of the chosen type the party controls get +1/+0. Whenever a creature of the chosen type dies, its controller gains 1 life.*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once per encounter type choice.  
+**Resolution:** Choose a creature type. Party creatures of that type get +1/+0. Whenever such a creature dies, its controller gains 1 life.
+
+---
+
+### 🧟 WALKING CORPSE
+
+> *At the beginning of each encounter, choose a party member. That player creates a 2/2 black Zombie creature token with menace. For that encounter, whenever a Zombie the chosen player controls dies, if it didn't have decayed, that player creates a 2/2 black Zombie creature token with decayed.*
+
+**Timing:** Triggered at the beginning of each encounter and each time an eligible Zombie dies.  
+**Limit:** Once per encounter for initial token; unlimited Zombie deaths per encounter.  
+**Resolution:** Choose a party member. They create a 2/2 black Zombie with menace. For that encounter, when a Zombie they control dies without decayed, they create another 2/2 black Zombie with decayed.
+
+---
+
+### 🍽️ HUNGRY IDOL
+
+> *At the beginning of each town, each party member removes a permanent card from their deck and gains 15 XP.*
+
+**Timing:** Triggered at the beginning of each town visit.  
+**Limit:** Once per town.  
+**Resolution:** Each party member removes one permanent card from their deck and gains 15 XP.
