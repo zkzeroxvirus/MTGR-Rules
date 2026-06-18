@@ -370,6 +370,12 @@ The Host plays normally.
 
 ---
 
+### **👑 MONARCH CLARIFICATION**
+
+• If multiple players deal combat damage to the Host at the same time, choose one of the players who dealt damage to become the Monarch
+
+---
+
 ## **⚔️ PLAYER VS PLAYER COMBAT**
 
 • Players may attack other players freely

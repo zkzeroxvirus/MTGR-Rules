@@ -55,6 +55,7 @@ Before Encounter 1, confirm all of the following:
 6. Both sides roll d20 — high roll chooses turn order.
 
 > **Reminders:** The party acts as one player for turn structure. Adjacent players may block for each other when an adjacent ally is attacked. If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule. Extra turns apply only to the effect controller unless stated otherwise.
+> **Monarch:** If multiple players deal combat damage to the Host at the same time, choose one of those players to become the Monarch.
 
 ---
 
