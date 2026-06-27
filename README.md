@@ -26,12 +26,13 @@ If you are new, read these in order:
 
 ```mermaid
 flowchart LR
-		A[Deckbuild] --> B[Event and Trinket]
-	B --> C[Encounter Loop]
-	C --> D[Town or Stay Out]
-	D --> C
-	C --> E[Crypt Final Boss]
-	E --> F[Postgame Progression]
+		A[Deckbuild] --> B[Seat Swap Window]
+	B --> C[Event and Trinket]
+	C --> D[Encounter Loop]
+	D --> E[Town or Stay Out]
+	E --> D
+	D --> F[Crypt Final Boss]
+	F --> G[Postgame Progression]
 ```
 
 Standard path usually resolves in 3 encounters before the Crypt. Variant path can extend to 4 encounters.
@@ -114,8 +115,8 @@ See [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) for the
 ### How a Run Works
 
 ```
-Standard: Deckbuild → Event + Trinket → Encounter 1 → ... → Encounter 3 → Crypt
-Variant:  Deckbuild → Event + Trinket → Encounter 1 → ... → Encounter 4 → Crypt
+Standard: Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 3 → Crypt
+Variant:  Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 4 → Crypt
 ```
 
 ### Player Count

@@ -10,7 +10,7 @@ Events occur after post-encounter decisions and provide additional effects, chal
 
 Events are resolved **after the post-encounter phase** and before the next encounter begins.
 
-Pre-first-encounter note: The starting Event (resolved before Encounter 1) cannot be a Bad Stuff Event.
+Pre-first-encounter note: The starting Event (resolved before Encounter 1) cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
 
 **Order of Operations:**
 

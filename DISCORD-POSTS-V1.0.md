@@ -182,6 +182,7 @@ Combo restrictions:
 - All pre-game effects must be locked before start
 - Apply progression loadout (Buffs, Achievements, Tickets, Captures) within slot limits
 - Resolve pregame Event then Trinket (starting Event cannot be a Bad Stuff Event)
+- After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed
 
 ---
 
@@ -312,6 +313,7 @@ This post is intentionally a placeholder.
 What is already locked:
 - Events happen outside combat
 - Starting Event is before Encounter 1 and cannot be a Bad Stuff Event
+- After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed
 - Base frequency is tied to Town vs Stay Out
 - Stay Out increases Event count and scales with consecutive Stay Outs
 

@@ -65,7 +65,7 @@ Each player adds 1 card of their choosing to their deck. This card must:
 • A card with a "Scryfall" decal cannot be used as part of a three-card combo
 
 **Step 5 — Finalize**
-Apply any persistent progression effects and resolve legal pregame choices. Confirm that your deck is legal at Commander + 39 cards. Then, resolve Event and Trinket as your pre-first-encounter step (Event first, and the starting Event cannot be a Bad Stuff Event).
+Apply any persistent progression effects and resolve legal pregame choices. Confirm that your deck is legal at Commander + 39 cards. Then, resolve Event and Trinket as your pre-first-encounter step (Event first, and the starting Event cannot be a Bad Stuff Event). After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
 
 ---
 
@@ -93,7 +93,7 @@ After the encounter resolves, the party chooses one:
 **5. Event Resolution**
 After resolving Town or Stay Out, resolve any Events and then proceed to the next encounter.
 
-> **Pre-Encounter 1 Note:** Before the very first encounter, resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
+> **Pre-Encounter 1 Note:** Before the very first encounter, resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
 
 ---
 

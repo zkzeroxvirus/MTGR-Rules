@@ -7,17 +7,19 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 
 **Standard Mode (3 Encounters)**
 1. Pre-Game Setup
-2. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
-3. Encounter 1 → Rewards → Town/Stay Out → Event(s)
-4. Encounter 2 → Rewards → Town/Stay Out → Event(s)
-5. Encounter 3 → Rewards → Town/Stay Out → Event(s)
-6. Crypt
+2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
+3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
+4. Encounter 1 → Rewards → Town/Stay Out → Event(s)
+5. Encounter 2 → Rewards → Town/Stay Out → Event(s)
+6. Encounter 3 → Rewards → Town/Stay Out → Event(s)
+7. Crypt
 
 **Variant Mode (4 Encounters)**
 1. Pre-Game Setup
-2. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
-3. Encounters 1–4 → Rewards → Town/Stay Out → Event(s)
-4. Crypt
+2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
+3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
+4. Encounters 1–4 → Rewards → Town/Stay Out → Event(s)
+5. Crypt
 
 > **Core loop:** Encounter → Rewards → Town/Stay Out → Event(s) → Next Encounter
 
@@ -40,6 +42,7 @@ Before Encounter 1, confirm all of the following:
 - [ ] Encounter tracker prepared (E1/E2/E3/E4/Crypt).
 - [ ] Stay Out streak counter set to 0.
 - [ ] Host HP, Affix tier, Doom, and Host Authority references available.
+- [ ] Seat-swap window offered after deckbuilding and before Encounter 1; no seat swaps after Encounter 1 begins.
 - [ ] Starting setup resolved in order: Event, then Trinket (starting Event cannot be Bad Stuff).
 
 ---

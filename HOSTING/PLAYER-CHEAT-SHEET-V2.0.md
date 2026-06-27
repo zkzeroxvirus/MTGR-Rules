@@ -31,6 +31,7 @@ Complete these steps before Encounter 1, in order:
 6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger. Stamp it with a "Scryfall" decal.
 7. Final legality check: Commander + 39.
 8. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
+9. Seat-swap window: after deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 ---
 
@@ -95,7 +96,7 @@ Each stage follows this exact sequence:
 4. Resolve Events
 5. Next encounter
 
-**Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
+**Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 **If an encounter was lost:**
 - No Rewards (no XP, Cash Out, or Loot Pool).
