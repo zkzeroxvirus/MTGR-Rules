@@ -204,8 +204,8 @@ Then choose:
 
 After an encounter is defeated and rewards are resolved, the party must choose one:
 
-• Return to Town    
-• Stay Out 
+• Return to Town
+• Stay Out
 
 ## **🏘️ Town**
 
@@ -213,9 +213,9 @@ Town provides recovery and controlled progression.
 
 When the party returns to Town:
 
-• All players fully heal    
+• All players fully heal
 • Players may use Town buildings  
-• Building uses are limited per Town visit   
+• Building uses are limited per Town visit
 • All building uses reset upon entering Town
 
 After Town:  
@@ -229,7 +229,7 @@ Town uses a limited-use building system.
 
 Each building has limited uses per Town visit:
 
-• Some buildings are limited per player    
+• Some buildings are limited per player
 • Some buildings may be used multiple times if costs are paid  
 
 (*See Town System for full details*)
@@ -318,6 +318,18 @@ If a player joins during an encounter, they qualify for that encounter's rewards
 If a player leaves during the Crypt encounter and the party wins that same Crypt encounter, that player still receives the normal Crypt completion rewards.
 
 If a player departs before the Crypt encounter begins, they do not qualify for Crypt completion rewards.
+
+### **💎 CRYPT COMPLETION REWARDS**
+
+On Crypt victory, each eligible player receives all of the following:
+
+ • 500 Essence  
+ • Essence equal to their Deck CMC + Sideboard CMC  
+ • The awarded Crypt boss Buff
+
+If the awarded Crypt boss Buff is already unlocked, that Buff is immediately sold for an additional 250 Essence.
+
+When the run ends, any unspent XP is converted into Essence (win or lose).
 
 ---
 
@@ -575,7 +587,7 @@ Each player may have:
  • 1 Conspiracy  
  • 1 Vanguard  
  • 1 Emblem  
- • 1 Trinket   
+ • 1 Trinket
  • 1 Companion
 
 ---
@@ -615,4 +627,3 @@ Applies to all tables unless otherwise stated.
 
 • Hosts may customize encounters  
 • Core structure should remain consistent
-

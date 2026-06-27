@@ -96,9 +96,11 @@ If players defeat the Crypt:
 
 * The run is completed successfully  
 * Players receive:  
-  * **Essence rewards**  
-  * **Crypt Buff(s)**  
+  * **500 Essence**  
+  * **Essence equal to Deck CMC + Sideboard CMC**  
+  * **Crypt Buff(s)** (if the awarded Buff is already unlocked, it is sold for **+250 Essence**)  
   * Additional progression rewards
+* Any unspent XP is converted into Essence when the run ends
 
 Progression is tracked by the in-game tool, which saves and loads player data from a Google Sheet.
 
@@ -136,4 +138,3 @@ The Core Structure connects all major systems:
 * Players are given **frequent decision points** (Town vs Stay Out)  
 * Difficulty scales consistently across the run  
 * Randomness is introduced in controlled intervals (Events, Rewards, Encounters)
-

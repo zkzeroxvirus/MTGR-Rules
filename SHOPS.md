@@ -20,6 +20,7 @@ All purchases use **Essence**.
 Mulligan your Commander for 1 new option.
 
 **Rules:**
+
 * You are forced to take the new Commander
 * If the new Commander is absolutely unplayable, re-rolls are allowed at Host discretion
 * Your next **Guild** purchase during this run is **free**
@@ -31,6 +32,7 @@ Mulligan your Commander for 1 new option.
 Choose a Partner, Background, or similar option.
 
 **Rules:**
+
 * If the chosen card has "Partner with X," you gain X instead
 
 ---
@@ -40,6 +42,7 @@ Choose a Partner, Background, or similar option.
 Switch out a basic land of your choice for a dual land or triome of your choice.
 
 **Rules:**
+
 * The replacement land must be legal in your Commander's color identity
 * You may use this multiple times per Pregame Shop visit
 
@@ -50,6 +53,7 @@ Switch out a basic land of your choice for a dual land or triome of your choice.
 Delete your current 5 Commander options and receive 5 new Commanders.
 
 **Rules:**
+
 * This generates an entirely new set of random legal Commanders
 * You may use this multiple times per Pregame Shop visit
 
@@ -62,6 +66,7 @@ Available both before the run begins and after the run ends.
 All purchases use **Essence**.
 
 **Slot Limit:** Players have **4 slots** for inventory items, shared between:
+
 * Crypt Buffs
 * Tickets
 * Achievements
@@ -82,6 +87,8 @@ At the end of the game, you may do any of the following:
 Sell a **Crypt buff** back to the Host in exchange for 250 Essence.
 
 **Rules:**
+
+* If Crypt completion awards a Crypt buff you already have unlocked, that duplicate buff is immediately sold for +250 Essence
 * You may sell a Crypt buff after the run ends
 
 ---
@@ -91,6 +98,7 @@ Sell a **Crypt buff** back to the Host in exchange for 250 Essence.
 Save 1 card from your deck in your collection.
 
 **Rules:**
+
 * Captured cards may be used in future deck builds
 * Captured cards count against your deck's 39 cards (they do not have a free allocation)
 * **Stacking cost:** For each capture after the first, the cost increases by 250 Essence
@@ -147,6 +155,7 @@ Your deck size minimum is reduced by 1 per Rank.
 You get an **Arcane Signet Ticket**. This allows you to have a free **Arcane Signet** in your deck without it counting toward your 39.
 
 **Rules:**
+
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
 
@@ -157,6 +166,7 @@ You get an **Arcane Signet Ticket**. This allows you to have a free **Arcane Sig
 You get a **Sol Ring Ticket**. This allows you to have a free **Sol Ring** in your deck without it counting toward your 39.
 
 **Rules:**
+
 * The Sol Ring is not banned in this variant
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
@@ -168,6 +178,7 @@ You get a **Sol Ring Ticket**. This allows you to have a free **Sol Ring** in yo
 You get a **Leyline Ticket**. This allows you to have a free **Leyline** in your deck without it counting toward your 39.
 
 **Rules:**
+
 * You may choose which Leyline in future deckbuilding
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
@@ -179,6 +190,7 @@ You get a **Leyline Ticket**. This allows you to have a free **Leyline** in your
 Pick the **color identity** of the Commanders you will randomly receive before drafting your deck.
 
 **Rules:**
+
 * You choose the color combination before generating your random Commander options
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
@@ -190,6 +202,7 @@ Pick the **color identity** of the Commanders you will randomly receive before d
 You may begin the game with a **Trinket** of your choice between 3 random choices.
 
 **Rules:**
+
 * The Trinket is selected during the next Pregame Shop phase (before the first encounter)
 * You choose from 3 randomly presented Trinkets instead of voting at the table
 * This is the same Trinket pool as the normal Trinket/Event system
@@ -203,6 +216,7 @@ You may begin the game with a **Trinket** of your choice between 3 random choice
 You may begin the game with a **Conspiracy** of your choice between 3 random choices.
 
 **Rules:**
+
 * Conspiracy is chosen before Commander selection
 * You choose from 3 randomly presented Conspiracies
 * Conspiracies are Enchantments that provide passive effects during the game
@@ -215,6 +229,7 @@ You may begin the game with a **Conspiracy** of your choice between 3 random cho
 You may begin the game with a **Vanguard** of your choice between 3 random choices.
 
 **Rules:**
+
 * Vanguards are Enchantments with powerful abilities
 * You choose from 3 randomly presented Vanguards
 * Occupies **2 slots**
@@ -226,6 +241,7 @@ You may begin the game with a **Vanguard** of your choice between 3 random choic
 You may begin the game with an **Emblem** of your choice between 3 random choices.
 
 **Rules:**
+
 * Emblems are powerful passive permanents that grant ongoing effects
 * You choose from 3 randomly presented Emblems
 * Occupies **3 slots**

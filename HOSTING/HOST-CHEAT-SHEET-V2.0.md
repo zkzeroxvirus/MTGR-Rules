@@ -1,4 +1,5 @@
 # HOST CHEAT SHEET V2.0
+
 Your operational reference for running MTGR sessions. Keep this at hand — it covers the critical flow rules, scaling tables, and resolution order you need to run a session cleanly and consistently.
 
 ---
@@ -6,6 +7,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 ## 1. Run Structure At A Glance
 
 **Standard Mode (3 Encounters)**
+
 1. Pre-Game Setup
 2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
 3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
@@ -15,6 +17,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 7. Crypt
 
 **Variant Mode (4 Encounters)**
+
 1. Pre-Game Setup
 2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
 3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
@@ -28,6 +31,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 ## 2. Host Pre-Run Checklist
 
 Before Encounter 1, confirm all of the following:
+
 - [ ] Essence and progression actions are complete.
 - [ ] All players have completed deckbuilding (Commander + 39, legal).
 - [ ] Each player generated their own 100-card pool (all card types, no basic lands). Stickers, Attractions, and Contraptions were rerolled and replaced.
@@ -65,6 +69,7 @@ Before Encounter 1, confirm all of the following:
 ## 4. Affix Structure And XP
 
 **Affix Bonus XP by Tier:**
+
 | Tier | Bonus XP |
 |------|----------|
 | Tier 1 | +5 XP |
@@ -75,12 +80,14 @@ Before Encounter 1, confirm all of the following:
 **Affix Count by Stage:**
 
 Standard Mode:
+
 - E1: Tier 1
 - E2: Tier 1 + Tier 2
 - E3: Tier 1 + Tier 2 + Tier 3
 - Tier 4 not used.
 
 Variant Mode:
+
 - E1: Tier 1
 - E2: Tier 1 + Tier 2
 - E3: Tier 1 + Tier 2 + Tier 3
@@ -131,6 +138,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 ## 6. Doom And Authority Quick Rules
 
 **Doom Cards by Player Count:**
+
 | Players | Doom Cards |
 |---------|------------|
 | 1–2 | 0 |
@@ -139,6 +147,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 | 6 | 3 |
 
 **Doom Reminders:**
+
 - Doom effects are triggered abilities controlled by the Host.
 - 1 Doom card may be used once each turn unless a card says otherwise (1 on a player turn and 1 on the Host turn).
 - Triggered Doom cards are removed for that encounter.
@@ -146,6 +155,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 - Once per Host turn, you may reroll any number of Doom cards in your Doom hand.
 
 **Host Authority by Player Count:**
+
 | Players | Authority Level |
 |---------|-----------------|
 | 1–2 | Authority I |
@@ -155,6 +165,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 | 6 | Authority V |
 
 **Always-On Authority Rules:**
+
 - Demonic Persistence (Treasure recovery on disruption) is always active.
 - Arcane Suppression is always active.
 
@@ -162,7 +173,8 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 
 ## 7. Encounter Outcome Branches
 
-### Players WIN — Resolve in this exact order:
+### Players WIN — Resolve in this exact order
+
 1. XP
 2. Cash Out
 3. Loot Pool
@@ -171,7 +183,8 @@ Then choose: **Return to Town** or **Stay Out**
 
 Then resolve Events based on that choice.
 
-### Players LOSE — Apply all of the following:
+### Players LOSE — Apply all of the following
+
 - No XP, no Cash Out, no Loot Pool.
 - Fully heal and reset all players before the next encounter.
 - Party still proceeds to the Post-Encounter Choice — must choose Town or Stay Out.
@@ -185,6 +198,7 @@ Then resolve Events based on that choice.
 ## 8. Reward Handling Details
 
 **Cash Out:**
+
 - Reveal Cash Outs equal to player count +1.
 - Each player picks one unless otherwise specified.
 - Remove any unselected Cash Outs from play.
@@ -195,6 +209,7 @@ Then resolve Events based on that choice.
 - Crypt Fight Cashout (0.5%): Hold until just before the Crypt, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**
+
 - Shuffle the defeated Host deck.
 - Reveal cards equal to player count.
 - Reroll basic lands.
@@ -205,6 +220,7 @@ Then resolve Events based on that choice.
 ## 9. Town Phase Checklist
 
 When players choose Town:
+
 1. Fully heal all players.
 2. Resolve Town building usage.
 3. Resolve 1 Event.
@@ -217,6 +233,7 @@ When players choose Town:
 ## 10. Stay Out Phase Checklist
 
 When players choose Stay Out, resolve in order:
+
 1. Grant Stay Out XP.
 2. Grant Mystery Packs (2 per player).
 3. Resolve Supply Drop.
@@ -225,10 +242,12 @@ When players choose Stay Out, resolve in order:
 6. Proceed to next encounter.
 
 **Stay Out XP Scaling:**
+
 - Base: +10 XP, then +5 for each consecutive Stay Out.
 - Resets when the party returns to Town.
 
 **Stay Out Event Scaling:**
+
 - First consecutive Stay Out: 2 Events.
 - Each additional consecutive Stay Out: +1 Event (e.g. 2, 3, 4, 5...).
 - Resets when the party returns to Town.
@@ -242,22 +261,33 @@ When players choose Stay Out, resolve in order:
 **Death:** No XP penalty. Dead players return in later encounter flow.
 
 **Player leaves mid-encounter:**
+
 - Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
 - The party may pilot that deck until the encounter ends.
 - If the encounter is completed, the leaving player still receives that encounter's rewards.
 - Remove that player from future stage scaling after the encounter ends.
 
 **Player joins mid-run:**
+
 - Eligible only for encounters they participated in and completed.
 - Not eligible for prior encounter rewards.
 
 **Crypt edge case:** If a player leaves during the Crypt and the party wins, that player still receives normal Crypt completion rewards.
+
+**Normal Crypt completion rewards (per eligible player):**
+
+- 500 Essence.
+- Essence equal to Deck CMC + Sideboard CMC.
+- The awarded Crypt boss Buff.
+- If the awarded Buff is already unlocked, immediately sell that duplicate for +250 Essence.
+- At run end, convert any unspent XP into Essence.
 
 ---
 
 ## 12. Host Tracking Board (Always Visible)
 
 Track these continuously throughout the session:
+
 - Encounter stage (E1/E2/E3/E4/Crypt)
 - Run mode (Standard or Variant)
 - Player count for current stage
@@ -276,6 +306,7 @@ Track these continuously throughout the session:
 ## 13. Session Safety Notes
 
 To prevent flow errors, maintain a consistent resolution order every session.
+
 - Announce the current phase out loud before resolving effects.
 - Always use the same resolution order.
 - Never merge systems out of order — Rewards, then Town/Stay Out, then Events.

@@ -1,4 +1,5 @@
 # PLAYER CHEAT SHEET V2.0
+
 Your quick reference for everything you need to know as a player in MTG Roguelike. Keep this handy during sessions to stay on top of the flow and avoid common mistakes.
 
 ---
@@ -23,6 +24,7 @@ Your in-run currency. Earned from encounters and spent in Town or with Wanderers
 ## 2. Pre-Game Checklist
 
 Complete these steps before Encounter 1, in order:
+
 1. Apply persistent progression effects (tickets, buffs, achievements, captures, brands).
 2. Resolve any pregame shop effects.
 3. **Commander Selection** — Generate 5 legal options, choose 1. You have **4 Commander Mulligans** to reroll if needed.
@@ -40,12 +42,14 @@ Complete these steps before Encounter 1, in order:
 **Maximum 4 buff slots.**
 
 The following count toward your buff slots:
+
 - Crypt Buffs
 - Achievements
 - Tickets
 - Captures
 
 **Slot costs:**
+
 | Effect Type | Slot Cost |
 |-------------|-----------|
 | Standard effect | 1 slot |
@@ -67,6 +71,7 @@ The following count toward your buff slots:
 | **Total** | **Commander + 39** |
 
 **Land Table (Dual Land Allocation):**
+
 | Colors | Dual Lands |
 |--------|------------|
 | 2 | +2 duals |
@@ -77,6 +82,7 @@ The following count toward your buff slots:
 Remaining land slots are filled with basics.
 
 **Key restrictions:**
+
 - Your 100-card pool may include any card type except basic lands.
 - Stickers, Attractions, and Contraptions are rerolled and replaced immediately.
 - Free choice card cannot be Sol Ring or a Gamechanger.
@@ -90,6 +96,7 @@ Remaining land slots are filled with basics.
 ## 5. The Run Flow (Player View)
 
 Each stage follows this exact sequence:
+
 1. Encounter
 2. **Victory only:** Rewards — XP, Cash Out, and Loot Pool (all three, any order)
 3. Choose: Town or Stay Out *(mandatory, win or lose)*
@@ -99,6 +106,7 @@ Each stage follows this exact sequence:
 **Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 **If an encounter was lost:**
+
 - No Rewards (no XP, Cash Out, or Loot Pool).
 - Still must choose Town or Stay Out, then resolve Events.
 - Full HP reset still applies before the next encounter.
@@ -108,6 +116,7 @@ Each stage follows this exact sequence:
 ## 6. Winning vs. Failing Encounters
 
 **On Victory:**
+
 - Gain XP.
 - Resolve Cash Out (pick one each).
 - Resolve Loot Pool.
@@ -115,6 +124,7 @@ Each stage follows this exact sequence:
 - Resolve Events based on your choice.
 
 **On Defeat:**
+
 - No XP, Cash Out, or Loot Pool.
 - The encounter is not replayed.
 - Still choose Town or Stay Out, then resolve Events.
@@ -132,6 +142,7 @@ If you die during an encounter, you are not eliminated. You return in a later pa
 ## 8. Town Phase
 
 When the party chooses Town:
+
 1. All players fully heal.
 2. Resolve Town building usage.
 3. Resolve 1 Event.
@@ -145,6 +156,7 @@ When the party chooses Town:
 ## 9. Stay Out Phase
 
 When the party chooses Stay Out, resolve in order:
+
 1. Gain Stay Out XP
 2. Each player gains 2 Mystery Packs
 3. Resolve Supply Drop
@@ -153,10 +165,12 @@ When the party chooses Stay Out, resolve in order:
 6. Start the next encounter
 
 **Stay Out XP Scaling:**
+
 - Base: +10 XP, then +5 per consecutive Stay Out.
 - Resets when the party returns to Town.
 
 **Stay Out Event Scaling:**
+
 - First Stay Out: 2 Events.
 - Each additional consecutive Stay Out: +1 Event (e.g. 2, 3, 4, 5...).
 - Resets when the party returns to Town.
@@ -168,10 +182,12 @@ When the party chooses Stay Out, resolve in order:
 ## 10. Rewards Quick Rules
 
 **XP:**
+
 - Base XP depends on run mode and encounter stage.
 - Add Affix bonus XP and any encounter-specific bonus XP on top.
 
 **Cash Out:**
+
 - Host reveals Cash Outs equal to player count +1.
 - Each player chooses one unless stated otherwise.
 - Unselected Cash Outs are removed from play.
@@ -181,6 +197,7 @@ When the party chooses Stay Out, resolve in order:
 - Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**
+
 - Cards revealed from the defeated encounter's deck.
 - Basic lands are rerolled.
 - Shared pool — players select additions to their decks.
@@ -190,6 +207,7 @@ When the party chooses Stay Out, resolve in order:
 ## 11. Turn And Combat Rules
 
 **Party turn structure** *(shared)*:
+
 1. Untap
 2. Upkeep
 3. Draw
@@ -199,6 +217,7 @@ When the party chooses Stay Out, resolve in order:
 7. End Step
 
 **Other rules:**
+
 - Adjacent players may block for each other when an adjacent ally is attacked.
 - If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
@@ -210,6 +229,13 @@ When the party chooses Stay Out, resolve in order:
 
 The Crypt is the final encounter — the hardest fight of the run. The Host always goes first.
 
+**On Crypt victory (per eligible player):**
+
+- Gain 500 Essence.
+- Gain Essence equal to your Deck CMC + Sideboard CMC.
+- Gain the awarded Crypt boss Buff.
+- If that Buff is already unlocked, it is immediately sold for +250 Essence instead.
+
 **The run ends if the party fails to defeat the Crypt.** On either outcome, any remaining XP converts into Essence.
 
 **Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose which Crypt to fight from the standard pool instead of rolling randomly. Only one may activate per run.
@@ -219,6 +245,7 @@ The Crypt is the final encounter — the hardest fight of the run. The Host alwa
 ## 13. Pack And Search Quality Rules
 
 **Minimum result thresholds:**
+
 | Pack Type | Minimum Results |
 |-----------|-----------------|
 | Pro Pack | 45+ |
@@ -232,6 +259,7 @@ If a pack doesn't meet its quality threshold, reroll or adjust the pack.
 ## 14. Between-Encounter Checklist
 
 Before confirming ready for the next encounter:
+
 - [ ] XP updated.
 - [ ] Cash Out selected.
 - [ ] Loot choices resolved.

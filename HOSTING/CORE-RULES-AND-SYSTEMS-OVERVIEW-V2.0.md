@@ -1,4 +1,5 @@
 # MTG Roguelike — Core Rules & Systems (V2.0)
+
 A complete overview of the rules and systems for players and hosts.
 
 ---
@@ -55,6 +56,7 @@ Any remaining land slots are filled with basics.
 
 **Step 4 — Free Choice Card**
 Each player adds 1 card of their choosing to their deck. This card must:
+
 - Obey your Commander's color identity.
 - Be legal in Commander.
 - Not be Sol Ring.
@@ -77,16 +79,19 @@ Once deckbuilding is complete, the run follows this repeating structure until th
 The Host sets up the encounter. Both sides roll a d20 — the higher roll chooses turn order. Note that during Encounter 1, if Tribal Warfare or Story Fight is rolled as the encounter type, reroll until a different type is determined.
 
 **2. Combat Resolution**
+
 - **Victory:** Proceed to Rewards.
 - **Defeat:** Follow the failed-encounter branch (see Section 4).
 
 **3. Rewards** *(Victory only — resolve in this exact order)*
+
 1. XP
 2. Cash Out
 3. Loot Pool
 
 **4. Path Choice** *(All players must decide, win or lose)*
 After the encounter resolves, the party chooses one:
+
 - **Return to Town**, or
 - **Stay Out**
 
@@ -104,6 +109,7 @@ Death is not permanent. A fallen player returns during a later point in the enco
 
 **Encounter Failure**
 If the party loses an encounter:
+
 - No XP is awarded for that encounter.
 - No Cash Out or Loot Pool is granted.
 - The party still proceeds to the Post-Encounter Path Choice (Town or Stay Out).
@@ -120,12 +126,14 @@ After every encounter, the party chooses between two paths. Each offers differen
 
 **Town**
 Returning to Town provides safety and access to upgrades.
+
 - All players fully restore their HP.
 - Players may use Town buildings. Building-limited uses reset with each Town visit.
 - Resolve 1 Event, then proceed.
 
 **Stay Out**
 Staying Out is the riskier path — but the rewards compound over time. Resolve the following in order:
+
 1. Gain Stay Out XP
 2. Each player gains 2 Mystery Packs
 3. Resolve Supply Drop
@@ -133,6 +141,7 @@ Staying Out is the riskier path — but the rewards compound over time. Resolve 
 5. Resolve Events
 
 *Stay Out Scaling:*
+
 - **XP:** +10 base, then +5 for each consecutive Stay Out.
 - **Events:** 2 Events on your first Stay Out, then +1 Event for each additional consecutive Stay Out.
 - Both scaling tracks reset the moment the party returns to Town.
@@ -146,11 +155,13 @@ Staying Out is the riskier path — but the rewards compound over time. Resolve 
 The Host becomes more powerful as the run progresses. This is by design — the game is meant to be a race against a growing threat.
 
 The following scale as encounters advance:
+
 - **Host HP** — scales by player count and encounter stage.
 - **Affix tier count** — scales by encounter stage and mode.
 - **Doom and Authority** — scale by player count.
 
 **Run Modes**
+
 | Mode     | Encounters               | Tier 4 Affixes |
 |----------|--------------------------|----------------|
 | Standard | 3 encounters, then Crypt | Not used       |
@@ -163,6 +174,7 @@ The following scale as encounters advance:
 Affixes are modifiers applied to encounters that make the Host more dangerous — and reward players with bonus XP for overcoming them.
 
 **Bonus XP by Affix Tier:**
+
 | Tier | Bonus XP |
 |------|----------|
 | Tier 1 | +5 XP |
@@ -180,13 +192,14 @@ Base XP *(determined by mode and stage)* + Affix bonus XP + any encounter-specif
 The Crypt is the final encounter of every run — a significantly harder challenge than anything that came before it. The Host always goes first in the Crypt fight.
 
 **On Crypt Victory:**
-The run is complete. Players receive Essence rewards, Crypt Buff rewards, and any additional progression rewards defined by currently active systems. Any remaining XP is converted into Essence.
+The run is complete. Each eligible player gains 500 Essence, plus Essence equal to Deck CMC + Sideboard CMC, and receives the awarded Crypt Buff. If that Buff is already unlocked, it is immediately sold for +250 Essence instead. Any remaining XP is converted into Essence.
 
 ---
 
 ## 9. Turn Structure
 
 **Player Turn** *(shared among the party)*
+
 1. Untap
 2. Upkeep
 3. Draw
@@ -199,6 +212,7 @@ The run is complete. Players receive Essence rewards, Crypt Buff rewards, and an
 The Host plays normally according to standard Magic rules.
 
 **Additional Rules:**
+
 - Adjacent players may block for each other when an adjacent ally is attacked.
 - If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - If multiple players deal combat damage to the Host at the same time, choose one of the players who dealt damage to become the Monarch.
@@ -215,6 +229,7 @@ Winning an encounter earns the party three types of rewards: XP, Cash Outs, and 
 The Host reveals a number of Cash Outs equal to the player count +1. Each player selects one, unless a rule states otherwise. Any unselected Cash Outs are removed from play. Cash Outs are tradable between players and can be held until you're ready to use them.
 
 The Cash Out pool is weighted across four categories *(200 total weight)*:
+
 - **Pack Rewards** — 75% — Booster packs, split between T1 (core packs) and T2 (advanced/specialty packs).
 - **Bonus Building Usage** — 20% — Grants one free additional building use on your next Town visit.
 - **Tier Note** — Bonus Building Usage cashouts are Tier 2. Other non-pack cashouts are Tier 3.
@@ -231,12 +246,14 @@ After an encounter victory, reveal a number of cards from the defeated encounter
 MTG Roguelike is built around a core loop of escalating danger and compounding reward. Every decision — how you build your deck, when you push forward, and where you invest your resources — shapes the arc of your run.
 
 **The strategic pillars:**
+
 - Encounter difficulty climbs steadily. Don't fall behind.
 - Wins translate to growth through XP, loot, and Cash Outs.
 - Town offers stability and controlled upgrades.
 - Stay Out offers higher risk and greater scaling upside.
 
 **What you're managing at all times:**
+
 - Survival
 - XP and Essence allocation
 - Risk versus control decisions

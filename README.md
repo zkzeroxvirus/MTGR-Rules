@@ -26,13 +26,13 @@ If you are new, read these in order:
 
 ```mermaid
 flowchart LR
-		A[Deckbuild] --> B[Seat Swap Window]
-	B --> C[Event and Trinket]
-	C --> D[Encounter Loop]
-	D --> E[Town or Stay Out]
-	E --> D
-	D --> F[Crypt Final Boss]
-	F --> G[Postgame Progression]
+  A[Deckbuild] --> B[Seat Swap Window]
+ B --> C[Event and Trinket]
+ C --> D[Encounter Loop]
+ D --> E[Town or Stay Out]
+ E --> D
+ D --> F[Crypt Final Boss]
+ F --> G[Postgame Progression]
 ```
 
 Standard path usually resolves in 3 encounters before the Crypt. Variant path can extend to 4 encounters.
@@ -53,7 +53,6 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | :--- | :--- |
 | [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Current Season 1 Crypt Buffs, Tickets, Brands, and Achievements |
 | [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) | In-game progression tool behavior, unlock flow, reward spawning, and profile sync |
-| [EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md](EXPERIMENTAL-CRYPT-BUFF-PROGRESSION.md) | Experimental Crypt Buff unlock track based on cumulative Crypt wins |
 | [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
 
 ### Experimental
@@ -114,19 +113,20 @@ See [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) for the
 
 ### How a Run Works
 
-```
 Standard: Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 3 → Crypt
 Variant:  Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 4 → Crypt
-```
 
 ### Player Count
+
 - Supports **1–6 players**
 - Host Health, Rewards, Doom cards, and Authority all scale with player count
 
 ### Win Condition
+
 Defeat the **Crypt** (Final Boss) at the end of the run.
 
 ### Loss Condition
+
 The run ends only if the party fails to defeat the Crypt.
 
 Failed encounters do not end the run immediately: the party gains no Rewards from that encounter, but must still choose to go to Town or Stay Out between stages.
