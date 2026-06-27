@@ -192,7 +192,10 @@ Base XP *(determined by mode and stage)* + Affix bonus XP + any encounter-specif
 The Crypt is the final encounter of every run — a significantly harder challenge than anything that came before it. The Host always goes first in the Crypt fight.
 
 **On Crypt Victory:**
-The run is complete. Each eligible player gains 500 Essence, plus Essence equal to Deck CMC + Sideboard CMC, and receives the awarded Crypt Buff. If that Buff is already unlocked, it is immediately sold for +250 Essence instead. Any remaining XP is converted into Essence.
+The run is complete. Each eligible player gains 500 Essence and receives the awarded Crypt Buff. If that Buff is already unlocked, it is immediately sold for +250 Essence instead.
+
+**On Run End (Win or Lose):**
+Each eligible player gains Essence equal to Deck CMC + Sideboard CMC. Any remaining XP is converted into Essence.
 
 ---
 

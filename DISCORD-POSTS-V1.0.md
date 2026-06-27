@@ -26,7 +26,7 @@ Progress from these sessions is separate and does not mix with Verified progress
 How Essence is gained:
 
 - Crypt win reward: +500 Essence per eligible player
-- Crypt win reward: +Deck CMC + Sideboard CMC per eligible player
+- Run-end reward (win or lose): +Deck CMC + Sideboard CMC per eligible player
 - Unspent XP at run end converts into Essence, win or lose
 - If a Crypt boss Buff awarded on win is already unlocked, that duplicate is immediately sold for +250 Essence
 
@@ -507,8 +507,8 @@ Locked Crypt rules:
 
 Run end:
 
-- Win: run completes. Each eligible player gains 500 Essence, plus Deck CMC + Sideboard CMC, plus the awarded Crypt boss Buff (duplicate Buffs are auto-sold for +250 Essence). Unspent XP converts to Essence.
-- Lose: run fails, unspent XP still converts to Essence
+- Win: run completes. Each eligible player gains 500 Essence and the awarded Crypt boss Buff (duplicate Buffs are auto-sold for +250 Essence).
+- Win or lose: each eligible player gains Deck CMC + Sideboard CMC as Essence, and unspent XP converts to Essence.
 
 Persistent progression is tracked across runs and includes:
 

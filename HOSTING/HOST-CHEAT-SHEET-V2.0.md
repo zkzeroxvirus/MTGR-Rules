@@ -277,10 +277,13 @@ When players choose Stay Out, resolve in order:
 **Normal Crypt completion rewards (per eligible player):**
 
 - 500 Essence.
-- Essence equal to Deck CMC + Sideboard CMC.
 - The awarded Crypt boss Buff.
 - If the awarded Buff is already unlocked, immediately sell that duplicate for +250 Essence.
-- At run end, convert any unspent XP into Essence.
+
+**Run-end Essence rewards (win or lose, per eligible player):**
+
+- Gain Essence equal to Deck CMC + Sideboard CMC.
+- Convert any unspent XP into Essence.
 
 ---
 

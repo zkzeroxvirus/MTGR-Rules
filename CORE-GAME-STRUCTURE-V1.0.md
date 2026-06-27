@@ -31,7 +31,7 @@ After each victorious encounter, players gain rewards and choose how to proceed 
 
 The core gameplay loop is as follows:
 
-**Encounter → Rewards (Victory) → Choice → Events → Next Encounter**
+### Encounter → Rewards (Victory) → Choice → Events → Next Encounter
 
 1. Resolve an **Encounter**  
 2. Gain **Rewards** if victorious (XP, Loot, Cash Outs) — skipped on a loss  
@@ -88,6 +88,11 @@ If players lose an encounter:
 
 If players fail to defeat the Crypt, the run ends.
 
+When the run ends (win or lose), each eligible player gains:
+
+* **Essence equal to Deck CMC + Sideboard CMC**
+* **Essence equal to any unspent XP**
+
 ---
 
 ## **🏆 SUCCESS**
@@ -97,10 +102,9 @@ If players defeat the Crypt:
 * The run is completed successfully  
 * Players receive:  
   * **500 Essence**  
-  * **Essence equal to Deck CMC + Sideboard CMC**  
   * **Crypt Buff(s)** (if the awarded Buff is already unlocked, it is sold for **+250 Essence**)  
   * Additional progression rewards
-* Any unspent XP is converted into Essence when the run ends
+* Run-end Essence rewards still apply (Deck CMC + Sideboard CMC, plus any unspent XP converted to Essence)
 
 Progression is tracked by the in-game tool, which saves and loads player data from a Google Sheet.
 

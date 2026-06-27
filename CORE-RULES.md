@@ -324,12 +324,16 @@ If a player departs before the Crypt encounter begins, they do not qualify for C
 On Crypt victory, each eligible player receives all of the following:
 
  • 500 Essence  
- • Essence equal to their Deck CMC + Sideboard CMC  
  • The awarded Crypt boss Buff
 
 If the awarded Crypt boss Buff is already unlocked, that Buff is immediately sold for an additional 250 Essence.
 
-When the run ends, any unspent XP is converted into Essence (win or lose).
+### **🔁 RUN-END ESSENCE REWARDS (WIN OR LOSE)**
+
+When the run ends — whether in victory or defeat — each eligible player receives all of the following:
+
+ • Essence equal to their Deck CMC + Sideboard CMC  
+ • Essence equal to any unspent XP
 
 ---
 
@@ -351,7 +355,7 @@ A run ends if:
 
 • The party fails to defeat the Crypt
 
-When the run ends — whether in victory or defeat — any unspent XP is converted into Essence.
+When the run ends — whether in victory or defeat — each eligible player gains Essence equal to Deck CMC + Sideboard CMC, and any unspent XP is also converted into Essence.
 
 ---
 

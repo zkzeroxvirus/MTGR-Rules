@@ -232,11 +232,15 @@ The Crypt is the final encounter — the hardest fight of the run. The Host alwa
 **On Crypt victory (per eligible player):**
 
 - Gain 500 Essence.
-- Gain Essence equal to your Deck CMC + Sideboard CMC.
 - Gain the awarded Crypt boss Buff.
 - If that Buff is already unlocked, it is immediately sold for +250 Essence instead.
 
-**The run ends if the party fails to defeat the Crypt.** On either outcome, any remaining XP converts into Essence.
+**On run end (win or lose, per eligible player):**
+
+- Gain Essence equal to your Deck CMC + Sideboard CMC.
+- Any remaining XP converts into Essence.
+
+**The run ends if the party fails to defeat the Crypt.**
 
 **Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose which Crypt to fight from the standard pool instead of rolling randomly. Only one may activate per run.
 
