@@ -429,7 +429,7 @@ Gain a second free card during deck creation.
 One of those free cards can be a Game Changer.
 
 **Unlock Requirement**  
-Beat a Crypt fight on turn one.
+Beat a Crypt fight on turn two or earlier.
 
 ---
 
