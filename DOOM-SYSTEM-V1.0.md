@@ -24,7 +24,7 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 ## **⚙️ DOOM RULES**
 
 * Doom cards represent **triggered abilities** controlled by the Host  
-* The Host may use **Any number of Doom cards per turn** unless otherwise specified
+* The Host may use **1 Doom card once each turn** unless otherwise specified (1 on a player turn and 1 on the Host turn)
 * Doom cards are kept in a separate Doom hand/zone, not the Host's MTG hand
 * Doom cards do not count toward hand size limits
 

@@ -140,7 +140,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 
 **Doom Reminders:**
 - Doom effects are triggered abilities controlled by the Host.
-- Any number of Doom cards may be used per turn unless a card says otherwise.
+- 1 Doom card may be used once each turn unless a card says otherwise (1 on a player turn and 1 on the Host turn).
 - Triggered Doom cards are removed for that encounter.
 - Doom cards are tracked in a separate Doom hand/zone and do not count toward hand size.
 - Once per Host turn, you may reroll any number of Doom cards in your Doom hand.
