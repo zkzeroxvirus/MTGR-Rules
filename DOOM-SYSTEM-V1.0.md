@@ -44,12 +44,12 @@ When the Host triggers a Doom card's effect:
 
 Once per Host turn, the Host may reroll any number of Doom cards in their Doom hand:
 
-1. Return the selected Doom cards to the pool  
-2. Draw the same number of new Doom cards from the pool
+1.  Draw new Doom cards from the pool
+2.  Return the same amount of Doom cards to the pool 
 
 Rerolled cards re-enter the pool and can be drawn again. **Rerolling is not the same as triggering** — rerolled cards are not removed.
 
-The Host may reroll **before or after** triggering a Doom effect, but only once per turn.
+The Host may reroll **before or after** triggering a Doom effect, but only once per Host turn.
 
 ---
 
@@ -72,9 +72,7 @@ The Doom System introduces:
 All Doom cards are **triggered abilities** used by the Host.
 
 Unless otherwise stated:
-* Doom effects resolve immediately  
-* Effects that create tokens or grant abilities persist until end of encounter
-* Token effects (e.g., creature tokens) last until removed or end of encounter
+* Doom effects use the stack and can be Responded to  
 
 ---
 
