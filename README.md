@@ -1,5 +1,7 @@
 # MTG Roguelike — Rules Repository
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U0D81ZUOGR)
+
 A cooperative, long-form Commander roguelike where players form a party and push through Host-controlled encounters on the way to the **Crypt**.
 
 ## Start Here
