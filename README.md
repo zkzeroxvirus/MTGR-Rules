@@ -79,8 +79,8 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md) | Run structure, game loop, objective, failure conditions |
 | [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md) | Encounter types, flow, setup, and the Crypt |
 | [AFFIXES-V1.0.md](AFFIXES-V1.0.md) | Tiered encounter modifiers (Tier 1–4) with XP bonuses |
-| [DOOM-SYSTEM-V1.0.md](DOOM-SYSTEM-V1.0.md) | Host's triggered ability cards, drawn per player count |
-| [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) | Host scaling buffs and Arcane Suppression |
+| [DOOM-SYSTEM-V1.0.md](DOOM-SYSTEM-V1.0.md) | Doom component of Host Authority; separate in-depth triggered-ability card rules |
+| [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) | Host Scaling Power layer overview; Authority, Demonic Persistence, and Arcane Suppression rules |
 | [REWARD-SYSTEM-V1.0.md](REWARD-SYSTEM-V1.0.md) | XP, Cash Out, and Loot Pool after each encounter |
 | [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md) | Town buildings — Bank, Bazaar, Blacksmith, Cathedral, Merchant, Mystic, Portal, Tavern, The Guild |
 | [TRAVELERS-V1.0.md](TRAVELERS-V1.0.md) | Special visitors that appear in Town — unique benefits that do not cost a Town Action |
@@ -121,7 +121,8 @@ Variant:  Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 →
 ### Player Count
 
 - Supports **1–6 players**
-- Host Health, Rewards, Doom cards, and Authority all scale with player count
+- The complete **Host Scaling Power layer (Host Authority)** is Authority + Doom + Demonic Persistence + Arcane Suppression
+- Authority and Doom scale with player count; Demonic Persistence and Arcane Suppression are always active
 
 ### Win Condition
 

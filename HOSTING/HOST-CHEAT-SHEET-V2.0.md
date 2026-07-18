@@ -45,7 +45,7 @@ Before Encounter 1, confirm all of the following:
 - [ ] Player count locked for current encounter setup.
 - [ ] Encounter tracker prepared (E1/E2/E3/E4/Crypt).
 - [ ] Stay Out streak counter set to 0.
-- [ ] Host HP, Affix tier, Doom, and Host Authority references available.
+- [ ] Host HP, Affix tier, and the complete Host Scaling Power layer reference available.
 - [ ] Seat-swap window offered after deckbuilding and before Encounter 1; no seat swaps after Encounter 1 begins.
 - [ ] Starting setup resolved in order: Event, then Trinket (starting Event cannot be Bad Stuff).
 
@@ -57,9 +57,12 @@ Before Encounter 1, confirm all of the following:
    - **Encounter 1 only:** Reroll Tribal Warfare or Story Fight until a different type is determined.
 2. Apply Affixes for the current stage.
 3. Set Host HP from the player-count table.
-4. Set Host Authority level from the player-count table.
-5. Give Doom cards from the player-count table.
-6. Both sides roll d20 — high roll chooses turn order.
+4. Apply the complete **Host Scaling Power layer (Host Authority)**:
+   - Set the Authority level from the player-count table.
+   - Give Doom cards from the player-count table.
+   - Apply Demonic Persistence.
+   - Apply Arcane Suppression and choose its player.
+5. Both sides roll d20 — high roll chooses turn order.
 
 > **Reminders:** The party acts as one player for turn structure. Adjacent players may block for each other when an adjacent ally is attacked. If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule. Extra turns apply only to the effect controller unless stated otherwise.
 > **Monarch:** If multiple players deal combat damage to the Host at the same time, choose one of those players to become the Monarch.
@@ -135,7 +138,11 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 
 ---
 
-## 6. Doom And Authority Quick Rules
+## 6. Host Scaling Power Layer (Host Authority)
+
+> **Complete layer:** Host Authority is the Host's full Scaling Power layer: **Authority + Doom + Demonic Persistence + Arcane Suppression**. Apply all four parts every encounter. Authority and Doom scale by player count; Demonic Persistence and Arcane Suppression are always active.
+
+### Doom
 
 **Doom Cards by Player Count:**
 
@@ -149,12 +156,16 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 **Doom Reminders:**
 
 - Doom effects are triggered abilities controlled by the Host.
-- 1 Doom card may be used once each turn unless a card says otherwise (1 on a player turn and 1 on the Host turn).
+- Doom cards are placed face down on the battlefield in the Host's Doom area.
+- 1 Doom card may be turned face up each turn unless a card says otherwise (1 on a player turn and 1 on the Host turn).
+- Turning a Doom card face up is a special action; the turn-up action does not use the stack, but the Doom triggered ability does.
 - Triggered Doom cards are removed for that encounter.
-- Doom cards are tracked in a separate Doom hand/zone and do not count toward hand size.
-- Once per Host turn, you may reroll any number of Doom cards in your Doom hand.
+- Doom cards are not in the Host's MTG hand and do not count toward hand size.
+- Once per Host turn, you may reroll any number of face-down Doom cards.
 
-**Host Authority by Player Count:**
+### Authority
+
+**Authority Level by Player Count:**
 
 | Players | Authority Level |
 |---------|-----------------|
@@ -164,7 +175,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 | 5 | Authority IV |
 | 6 | Authority V |
 
-**Always-On Authority Rules:**
+### Always-On Scaling Powers
 
 - Demonic Persistence (Treasure recovery on disruption) is always active.
 - Arcane Suppression is always active.
@@ -296,8 +307,11 @@ Track these continuously throughout the session:
 - Player count for current stage
 - Host HP target
 - Applied Affixes and total Affix XP bonus
-- Authority level
-- Doom cards in Doom hand / used
+- Host Scaling Power layer:
+  - Authority level
+  - Doom cards face down / used
+  - Demonic Persistence use for the current turn
+  - Arcane Suppression chosen player and counters
 - Stay Out streak count
 - Event count for current transition
 - XP totals per player
@@ -321,4 +335,4 @@ To prevent flow errors, maintain a consistent resolution order every session.
 
 ## 14. One-Line Host Script
 
-*"Set encounter → apply Affixes, HP, Authority, Doom → roll turn order → run combat → Win/Lose branch → Town or Stay Out → Events → next encounter."*
+*"Set encounter → apply Affixes and HP → apply the full Host Scaling Power layer (Authority, Doom, Demonic Persistence, Arcane Suppression) → roll turn order → run combat → Win/Lose branch → Town or Stay Out → Events → next encounter."*

@@ -1,6 +1,8 @@
 # **⚠️ DOOM SYSTEM**
 
-The Doom System provides the Host with a set of powerful, unpredictable triggered abilities during each encounter.  
+The Doom System is one of the four components of the **Host Scaling Power layer (Host Authority)**: **Authority + Doom + Demonic Persistence + Arcane Suppression**. It provides the Host with a set of powerful, unpredictable triggered abilities during each encounter.
+
+This document remains the separate in-depth reference for Doom. See [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) for the Authority component and the always-on Demonic Persistence and Arcane Suppression rules.
 **Credit to Ashen for this System.**
 
 ---
@@ -23,18 +25,21 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 
 ## **⚙️ DOOM RULES**
 
+* Doom cards are placed face down on the battlefield in the Host's Doom area
 * Doom cards represent **triggered abilities** controlled by the Host  
-* The Host may use **1 Doom card once each turn** unless otherwise specified (1 on a player turn and 1 on the Host turn)
-* Doom cards are kept in a separate Doom hand/zone, not the Host's MTG hand
-* Doom cards do not count toward hand size limits
+* The Host may turn **1 Doom card face up each turn** unless otherwise specified (1 on a player turn and 1 on the Host turn)
+* Turning a Doom card face up is a **special action**. It does not use the stack and cannot be responded to directly
+* Turning a Doom card face up causes that Doom card's triggered ability to trigger
 
 ---
 
 ## **⚡ TRIGGERING A DOOM CARD**
 
-When the Host triggers a Doom card's effect:
+When the Host turns a Doom card face up:
 
-* Resolve the effect immediately  
+* The Doom card's triggered ability is put onto the stack
+* Players may respond to that triggered ability as normal
+* Resolve the triggered ability if it is not countered or otherwise removed from the stack
 * That Doom card is **physically set aside** and removed from the pool for the remainder of the encounter  
 * Used Doom cards rejoin the pool at the start of the next encounter
 
@@ -42,20 +47,22 @@ When the Host triggers a Doom card's effect:
 
 ## **🔁 DOOM REROLL**
 
-Once per Host turn, the Host may reroll any number of Doom cards in their Doom hand:
+Once per Host turn, the Host may reroll any number of face-down Doom cards:
 
 1.  Draw new Doom cards from the pool
 2.  Return the same amount of Doom cards to the pool 
 
-Rerolled cards re-enter the pool and can be drawn again. **Rerolling is not the same as triggering** — rerolled cards are not removed.
+Rerolled cards re-enter the pool and can be drawn again. **Rerolling is not the same as turning a Doom card face up** — rerolled cards are not removed.
 
-The Host may reroll **before or after** triggering a Doom effect, but only once per Host turn.
+The Host may reroll **before or after** turning a Doom card face up, but only once per Host turn.
 
 ---
 
 ## **⏱ TIMING**
 
-* Doom effects are triggered abilities
+* Turning a Doom card face up is a special action
+* The special action does not use the stack
+* The Doom card's triggered ability uses the stack and can be responded to
 
 ---
 

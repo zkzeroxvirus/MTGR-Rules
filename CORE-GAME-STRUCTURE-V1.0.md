@@ -66,6 +66,9 @@ Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty — Town/Stay 
   * Host Health  
   * Rewards  
   * Encounter difficulty
+  * The Authority and Doom components of the **Host Scaling Power layer (Host Authority)**
+* The complete Host Scaling Power layer is **Authority + Doom + Demonic Persistence + Arcane Suppression**
+* Demonic Persistence and Arcane Suppression are always active regardless of player count
 
 ---
 

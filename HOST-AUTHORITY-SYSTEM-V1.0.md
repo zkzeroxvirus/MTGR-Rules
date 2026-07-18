@@ -2,11 +2,13 @@
 
 The Demon King empowers their generals when more challengers enter the dungeon.
 
-This supernatural influence is represented by **Host Authority**.
+This supernatural influence is represented by **Host Authority**, the Host's complete **Scaling Power layer**.
 
-Host Authority scales with the number of players in the encounter and ensures the Host can withstand the overwhelming action economy of multiple players.
+The complete layer consists of **Authority + Doom + Demonic Persistence + Arcane Suppression**. Apply all four parts every encounter. Authority and Doom scale with the number of players; Demonic Persistence and Arcane Suppression are always active.
 
-Authority improves the Host’s:
+This document contains the in-depth rules for the **Authority** component and the two always-on components. See [DOOM-SYSTEM-V1.0.md](DOOM-SYSTEM-V1.0.md) for the separate in-depth Doom rules.
+
+The Authority component improves the Host’s:
 
 * tempo  
 * mana development  
@@ -17,7 +19,7 @@ without removing player counterplay.
 
 ---
 
-# **⚖️ AUTHORITY LEVEL**
+# **⚖️ AUTHORITY COMPONENT — LEVEL**
 
 At the beginning of each encounter, determine the Host’s Authority Level based on the number of players.
 
@@ -89,7 +91,7 @@ At the end of the Host's draw step, the Host chooses one —
 
 ---
 
-# **⚙️ GLOBAL AUTHORITY EFFECTS**
+# **⚙️ ALWAYS-ON SCALING POWERS**
 
 These effects apply during all encounters regardless of Authority Level.
 

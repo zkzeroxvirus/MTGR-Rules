@@ -158,7 +158,7 @@ The following scale as encounters advance:
 
 - **Host HP** — scales by player count and encounter stage.
 - **Affix tier count** — scales by encounter stage and mode.
-- **Doom and Authority** — scale by player count.
+- **Host Scaling Power layer (Host Authority)** — consists of Authority + Doom + Demonic Persistence + Arcane Suppression. Authority and Doom scale by player count; Demonic Persistence and Arcane Suppression are always active.
 
 **Run Modes**
 
