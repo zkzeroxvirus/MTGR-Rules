@@ -20,7 +20,7 @@ Trinkets are resolved in the pre-first-encounter setup step after the starting E
 
 Starting setup order:
 
-- Event (cannot be a Bad Stuff Event)
+- Event (cannot be Bad; Ambush counts as Bad)
 - Trinket
 
 Seat-swap window:
@@ -75,7 +75,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 The pre-first-encounter step resolves Event and Trinket, in that order.
 
-The starting Event cannot be a Bad Stuff Event.
+The starting Event cannot be Bad. Ambush counts as Bad and is also excluded.
 
 After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event systems.
 
@@ -641,10 +641,12 @@ The following Trinkets make up the current pool.
 
 ### 💪 GREAT THWACK
 
-> *Once each combat: target creature gets +2/+2 and gains trample until end of turn.*
+> *Once per Turn during Combat:*
+>
+> *Target creature gets +2/+2 and gains trample until end of turn.*
 
-**Timing:** Any time during combat phase, at instant speed.  
-**Limit:** Once each combat.  
+**Timing:** During combat, at instant speed.  
+**Limit:** Once per turn.  
 **Resolution:** Choose target creature. It gets +2/+2 and gains trample until end of turn.
 
 ---
