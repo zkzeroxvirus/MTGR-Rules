@@ -84,6 +84,8 @@ Current Event cards use the following printed classifications:
 
 These classifications determine Event-pool routing and rule checks. They do not replace the rules text printed on the Event card.
 
+**Legacy terminology:** Any older rule text that says **"Bad Stuff Event"** means a **Bad Event** under this system. Because Ambush counts as Bad, Ambush is included in that legacy restriction.
+
 ---
 
 ## **⚖️ EVENT SCALING *(Optional System Layer)***
