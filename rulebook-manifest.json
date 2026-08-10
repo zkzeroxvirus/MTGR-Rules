@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 1,
+  "repository": "zkzeroxvirus/MTGR-Rules",
+  "branch": "main",
+  "title": "MTG Roguelike Rules",
+  "description": "Stable navigation metadata for interactive rulebook consumers. Canonical rule wording remains in the referenced Markdown files.",
+  "documents": [
+    { "id": "core", "title": "Core Rules", "source": "CORE-RULES.md", "audience": ["player", "host"] },
+    { "id": "structure", "title": "Core Game Structure", "source": "CORE-GAME-STRUCTURE-V1.0.md", "audience": ["player", "host"] },
+    { "id": "encounters", "title": "Encounter System", "source": "ENCOUNTER-SYSTEM-V1.0.md", "audience": ["player", "host"] },
+    { "id": "rewards", "title": "Reward System", "source": "REWARD-SYSTEM-V1.0.md", "audience": ["player", "host"] },
+    { "id": "town", "title": "Town System", "source": "TOWN-SYSTEM-V2.0.md", "audience": ["player", "host"] },
+    { "id": "stay-out", "title": "Stay Out System", "source": "STAY-OUT-SYSTEM-V1.0.md", "audience": ["player", "host"] },
+    { "id": "authority", "title": "Host Authority", "source": "HOST-AUTHORITY-SYSTEM-V1.0.md", "audience": ["host", "player"] },
+    { "id": "doom", "title": "Doom System", "source": "DOOM-SYSTEM-V1.0.md", "audience": ["host", "player"] },
+    { "id": "affixes", "title": "Affixes", "source": "AFFIXES-V1.0.md", "audience": ["host", "player"] },
+    { "id": "events", "title": "Event System", "source": "EVENT-SYSTEM-V1.0.md", "audience": ["player", "host"] },
+    { "id": "trinkets", "title": "Trinket System", "source": "TRINKET-SYSTEM-V1.0.md", "audience": ["player", "host"] },
+    { "id": "progression", "title": "Permanent Progression", "source": "PERMANENT-PROGRESSION.md", "audience": ["player"] },
+    { "id": "shops", "title": "Shops", "source": "SHOPS.md", "audience": ["player"] },
+    { "id": "brands", "title": "Brands", "source": "BRANDS-SYSTEM-V1.0.md", "audience": ["player"] }
+  ],
+  "learnPath": [
+    {
+      "id": "before-run",
+      "number": "01",
+      "title": "Before the Run",
+      "description": "Understand the party, build a legal run deck, and finish pre-encounter setup.",
+      "rules": ["game-overview", "player-structure", "deckbuilding", "banned-restricted", "pre-encounter-setup"]
+    },
+    {
+      "id": "encounter-loop",
+      "number": "02",
+      "title": "The Encounter Loop",
+      "description": "Resolve an encounter, determine victory or loss, and move into the post-encounter decision.",
+      "rules": ["game-loop", "encounter-flow", "failed-encounter", "reward-timing"]
+    },
+    {
+      "id": "between-encounters",
+      "number": "03",
+      "title": "Between Encounters",
+      "description": "Choose Town or Stay Out and resolve the selected path before the next encounter.",
+      "rules": ["town-flow", "stay-out-flow", "event-resolution"]
+    },
+    {
+      "id": "crypt",
+      "number": "04",
+      "title": "The Crypt",
+      "description": "Reach the final boss, apply Crypt-specific rules, and resolve the run result.",
+      "rules": ["crypt", "run-success", "run-failure"]
+    },
+    {
+      "id": "between-runs",
+      "number": "05",
+      "title": "Between Runs",
+      "description": "Understand persistent progression and what follows players into future runs.",
+      "rules": ["host-types-profiles", "progression-reference"]
+    }
+  ],
+  "guides": [
+    {
+      "id": "encounter-won",
+      "title": "We won an encounter",
+      "description": "Resolve victory cleanly and continue the run.",
+      "steps": [
+        { "label": "Resolve XP, Cashout, and Loot Pool", "rule": "reward-timing" },
+        { "label": "Choose Town or Stay Out", "rule": "post-encounter-choice" },
+        { "label": "Resolve the selected path", "choices": ["town-flow", "stay-out-flow"] },
+        { "label": "Resolve Event(s), then begin the next encounter", "rule": "event-resolution" }
+      ]
+    },
+    {
+      "id": "encounter-lost",
+      "title": "We lost an encounter",
+      "description": "Apply the failed-encounter transition without ending the run.",
+      "steps": [
+        { "label": "Skip encounter rewards", "rule": "failed-encounter" },
+        { "label": "Choose Town or Stay Out", "rule": "post-encounter-choice" },
+        { "label": "Resolve the selected path", "choices": ["town-flow", "stay-out-flow"] },
+        { "label": "Continue normal Event resolution", "rule": "event-resolution" }
+      ]
+    },
+    {
+      "id": "going-to-town",
+      "title": "We chose Town",
+      "description": "Walk through a Town visit in order.",
+      "steps": [
+        { "label": "Fully heal all players", "rule": "town-flow" },
+        { "label": "Use Town buildings", "rule": "town-buildings" },
+        { "label": "Proceed to Event resolution", "rule": "event-resolution" }
+      ]
+    },
+    {
+      "id": "staying-out",
+      "title": "We chose Stay Out",
+      "description": "Resolve the higher-variance path in order.",
+      "steps": [
+        { "label": "Gain Stay Out XP", "rule": "stay-out-flow" },
+        { "label": "Gain Mystery Packs", "rule": "stay-out-flow" },
+        { "label": "Resolve Supply Drop and Wanderer", "rule": "stay-out-flow" },
+        { "label": "Resolve the increased Event count", "rule": "event-resolution" }
+      ]
+    },
+    {
+      "id": "host-setup",
+      "title": "Set up Host scaling",
+      "description": "Find the Host scaling layers that apply at the start of an encounter.",
+      "steps": [
+        { "label": "Determine Authority level", "rule": "authority-level" },
+        { "label": "Set up Doom cards", "rule": "doom-setup" },
+        { "label": "Apply always-on scaling powers", "rule": "always-on-scaling" },
+        { "label": "Apply encounter Affixes", "rule": "affixes-reference" }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "game-overview",
+      "title": "Game Overview",
+      "source": "CORE-RULES.md",
+      "heading": "GAME OVERVIEW",
+      "phase": "before-run",
+      "audience": ["player", "host"],
+      "aliases": ["what is mtgr", "objective overview", "commander roguelike"],
+      "related": ["game-loop", "crypt"]
+    },
+    {
+      "id": "host-types-profiles",
+      "title": "Host Types and Progression Profiles",
+      "source": "CORE-RULES.md",
+      "heading": "HOST TYPES AND PROGRESSION PROFILES",
+      "phase": "between-runs",
+      "audience": ["player", "host"],
+      "aliases": ["verified host", "regular host", "profiles", "verified progression"],
+      "related": ["progression-reference"]
+    },
+    {
+      "id": "player-structure",
+      "title": "Player Structure",
+      "source": "CORE-RULES.md",
+      "heading": "PLAYER STRUCTURE",
+      "phase": "before-run",
+      "audience": ["player", "host"],
+      "aliases": ["party", "host controls encounters", "cooperative"],
+      "related": ["turn-structure"]
+    },
+    {
+      "id": "player-health",
+      "title": "Player Health, Healing, and Max HP",
+      "source": "CORE-RULES.md",
+      "heading": "PLAYER HEALTH, HEALING, AND MAX HP",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["health", "heal", "max hp", "max life", "life total"]
+    },
+    {
+      "id": "deckbuilding",
+      "title": "Deckbuilding",
+      "source": "CORE-RULES.md",
+      "heading": "DECKBUILDING",
+      "phase": "before-run",
+      "audience": ["player"],
+      "aliases": ["commander selection", "100 card pool", "22 cards", "lands", "free choice card", "40 card deck"],
+      "related": ["banned-restricted", "pre-encounter-setup"]
+    },
+    {
+      "id": "banned-restricted",
+      "title": "Banned & Restricted",
+      "source": "CORE-RULES.md",
+      "heading": "BANNED & RESTRICTED (MTGR)",
+      "phase": "before-run",
+      "audience": ["player", "host"],
+      "aliases": ["ban list", "restricted cards", "illegal cards"],
+      "related": ["deckbuilding"]
+    },
+    {
+      "id": "pre-encounter-setup",
+      "title": "Pre-Encounter Setup",
+      "source": "CORE-RULES.md",
+      "heading": "CORE GAME LOOP",
+      "phase": "before-run",
+      "audience": ["player", "host"],
+      "aliases": ["event and trinket", "seat swap", "before encounter 1"],
+      "related": ["game-loop", "event-resolution"]
+    },
+    {
+      "id": "game-loop",
+      "title": "Game Loop",
+      "source": "CORE-GAME-STRUCTURE-V1.0.md",
+      "heading": "GAME LOOP",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["run flow", "encounter rewards choice events next encounter", "what happens next"],
+      "related": ["encounter-flow", "reward-timing", "post-encounter-choice"]
+    },
+    {
+      "id": "failed-encounter",
+      "title": "Failed Encounter Transition",
+      "source": "CORE-GAME-STRUCTURE-V1.0.md",
+      "heading": "FAILED ENCOUNTER TRANSITION",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["lost encounter", "lose encounter", "wipe", "failed fight", "encounter loss"],
+      "related": ["post-encounter-choice", "town-flow", "stay-out-flow"]
+    },
+    {
+      "id": "run-failure",
+      "title": "Run Failure",
+      "source": "CORE-GAME-STRUCTURE-V1.0.md",
+      "heading": "FAILURE",
+      "phase": "crypt",
+      "audience": ["player", "host"],
+      "aliases": ["lose the run", "crypt loss", "failure condition"],
+      "related": ["crypt", "run-success"]
+    },
+    {
+      "id": "run-success",
+      "title": "Run Success",
+      "source": "CORE-GAME-STRUCTURE-V1.0.md",
+      "heading": "SUCCESS",
+      "phase": "crypt",
+      "audience": ["player", "host"],
+      "aliases": ["win the run", "crypt rewards", "victory"],
+      "related": ["crypt", "run-failure"]
+    },
+    {
+      "id": "encounter-flow",
+      "title": "Encounter Flow",
+      "source": "ENCOUNTER-SYSTEM-V1.0.md",
+      "heading": "ENCOUNTER FLOW",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["encounter setup", "start encounter", "host health", "affixes"],
+      "related": ["affixes-reference", "authority-level"]
+    },
+    {
+      "id": "encounter-types",
+      "title": "Encounter Types",
+      "source": "ENCOUNTER-SYSTEM-V1.0.md",
+      "heading": "ENCOUNTER TYPES",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["master fight", "tribal warfare", "precon battle", "plane fight", "story fight", "villain fight", "wildmagic"],
+      "related": ["encounter-flow"]
+    },
+    {
+      "id": "crypt",
+      "title": "Final Boss — The Crypt",
+      "source": "ENCOUNTER-SYSTEM-V1.0.md",
+      "heading": "FINAL BOSS — THE CRYPT",
+      "phase": "crypt",
+      "audience": ["player", "host"],
+      "aliases": ["crypt", "final boss", "endgame"],
+      "related": ["run-success", "run-failure"]
+    },
+    {
+      "id": "reward-timing",
+      "title": "Reward Timing",
+      "source": "REWARD-SYSTEM-V1.0.md",
+      "heading": "REWARD TIMING",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["rewards", "xp cashout loot", "after winning encounter"],
+      "related": ["xp-system", "cashout-system", "loot-pool", "post-encounter-choice"]
+    },
+    {
+      "id": "xp-system",
+      "title": "XP System",
+      "source": "REWARD-SYSTEM-V1.0.md",
+      "heading": "XP SYSTEM",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["experience", "base xp", "affix bonus xp"]
+    },
+    {
+      "id": "cashout-system",
+      "title": "Cashout System",
+      "source": "REWARD-SYSTEM-V1.0.md",
+      "heading": "CASHOUT SYSTEM",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["cash out", "cashouts", "cashout reward"]
+    },
+    {
+      "id": "loot-pool",
+      "title": "Loot Pool System",
+      "source": "REWARD-SYSTEM-V1.0.md",
+      "heading": "LOOT POOL SYSTEM",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["loot", "loot cards", "defeated deck"]
+    },
+    {
+      "id": "post-encounter-choice",
+      "title": "Post-Encounter Choice",
+      "source": "CORE-RULES.md",
+      "heading": "BETWEEN ENCOUNTERS",
+      "phase": "between-encounters",
+      "audience": ["player", "host"],
+      "aliases": ["town or stay out", "after encounter", "choice"],
+      "related": ["town-flow", "stay-out-flow"]
+    },
+    {
+      "id": "town-flow",
+      "title": "Town Flow",
+      "source": "TOWN-SYSTEM-V2.0.md",
+      "heading": "TOWN FLOW",
+      "phase": "between-encounters",
+      "audience": ["player", "host"],
+      "aliases": ["go to town", "town visit", "town sequence"],
+      "related": ["town-buildings", "event-resolution", "stay-out-flow"]
+    },
+    {
+      "id": "town-buildings",
+      "title": "Town Buildings",
+      "source": "TOWN-SYSTEM-V2.0.md",
+      "heading": "BUILDINGS",
+      "phase": "between-encounters",
+      "audience": ["player", "host"],
+      "aliases": ["bank", "blacksmith", "bazaar", "cathedral", "guild", "merchant", "mystic", "portal", "tavern"],
+      "related": ["town-flow"]
+    },
+    {
+      "id": "stay-out-flow",
+      "title": "Stay Out Flow",
+      "source": "STAY-OUT-SYSTEM-V1.0.md",
+      "heading": "STAY OUT FLOW",
+      "phase": "between-encounters",
+      "audience": ["player", "host"],
+      "aliases": ["stay out", "mystery packs", "supply drop", "wanderer", "consecutive stay out"],
+      "related": ["event-resolution", "town-flow"]
+    },
+    {
+      "id": "event-resolution",
+      "title": "Event Resolution",
+      "source": "EVENT-SYSTEM-V1.0.md",
+      "heading": "EVENT FLOW",
+      "phase": "between-encounters",
+      "audience": ["player", "host"],
+      "aliases": ["events", "event flow", "resolve events"],
+      "related": ["town-flow", "stay-out-flow"]
+    },
+    {
+      "id": "authority-level",
+      "title": "Authority Component — Level",
+      "source": "HOST-AUTHORITY-SYSTEM-V1.0.md",
+      "heading": "AUTHORITY COMPONENT — LEVEL",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["authority", "host authority", "authority level", "host scaling"],
+      "related": ["always-on-scaling", "doom-setup", "affixes-reference"]
+    },
+    {
+      "id": "always-on-scaling",
+      "title": "Always-On Scaling Powers",
+      "source": "HOST-AUTHORITY-SYSTEM-V1.0.md",
+      "heading": "ALWAYS-ON SCALING POWERS",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["demonic persistence", "arcane suppression", "always on host scaling"],
+      "related": ["authority-level", "doom-setup"]
+    },
+    {
+      "id": "doom-setup",
+      "title": "Doom Setup",
+      "source": "DOOM-SYSTEM-V1.0.md",
+      "heading": "DOOM SETUP",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["doom cards", "doom count", "host doom"],
+      "related": ["doom-rules", "authority-level"]
+    },
+    {
+      "id": "doom-rules",
+      "title": "Doom Rules",
+      "source": "DOOM-SYSTEM-V1.0.md",
+      "heading": "DOOM RULES",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["turn doom face up", "doom special action", "doom timing", "doom trigger"],
+      "related": ["doom-setup", "doom-reroll"]
+    },
+    {
+      "id": "doom-reroll",
+      "title": "Doom Reroll",
+      "source": "DOOM-SYSTEM-V1.0.md",
+      "heading": "DOOM REROLL",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["reroll doom", "replace doom cards"],
+      "related": ["doom-rules"]
+    },
+    {
+      "id": "affixes-reference",
+      "title": "Affixes",
+      "source": "AFFIXES-V1.0.md",
+      "heading": "AFFIX",
+      "match": "contains",
+      "phase": "encounter-loop",
+      "audience": ["host", "player"],
+      "aliases": ["affix", "tier 1", "tier 2", "tier 3", "tier 4", "affix xp"],
+      "wholeDocument": true,
+      "related": ["encounter-flow", "authority-level"]
+    },
+    {
+      "id": "turn-structure",
+      "title": "Turn Structure",
+      "source": "CORE-RULES.md",
+      "heading": "TURN STRUCTURE",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["party turn", "host turn", "party combat", "host combat"]
+    },
+    {
+      "id": "death-rules",
+      "title": "Death Rules",
+      "source": "CORE-RULES.md",
+      "heading": "DEATH RULES",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["player died", "death", "xp penalty", "respawn"]
+    },
+    {
+      "id": "player-departure",
+      "title": "Player Departure",
+      "source": "CORE-RULES.md",
+      "heading": "PLAYER DEPARTURE",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["player leaves", "scoop", "disconnect", "join late", "reward eligibility"]
+    },
+    {
+      "id": "progression-reference",
+      "title": "Permanent Progression",
+      "source": "PERMANENT-PROGRESSION.md",
+      "heading": "PERMANENT PROGRESSION",
+      "match": "contains",
+      "phase": "between-runs",
+      "audience": ["player"],
+      "aliases": ["crypt buffs", "tickets", "brands", "achievements", "captures", "persistent progression"],
+      "wholeDocument": true,
+      "related": ["host-types-profiles"]
+    }
+  ]
+}
