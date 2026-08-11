@@ -24,7 +24,7 @@ Unless otherwise stated, activated progression effects may be used **once per en
 
 ---
 
-# **🔮 SEASON 1 CRYPT BUFFS (19)**
+# **🔮 SEASON 1 CRYPT BUFFS (21)**
 
 ---
 
@@ -233,6 +233,26 @@ Whenever one or more creatures you control deal combat damage to an opponent, dr
 
 **Unlock Source**  
 Beat Jin Sakai, Ghost of Tsushima.
+
+---
+
+## **Leftovers**
+
+**Effect**  
+Whenever you sacrifice a Food for its effect, each ally gains 2 life.
+
+**Unlock Source**  
+Beat High Tide Hijinks.
+
+---
+
+## **Scent of Death**
+
+**Effect**  
+If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
+
+**Unlock Source**  
+Beat Sefris of the Hidden Ways.
 
 ---
 
