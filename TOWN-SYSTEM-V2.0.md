@@ -93,28 +93,38 @@ Enhance **1 card** in your deck.
 
 ---
 
-## 🛍️ BAZAAR *(2 Deals per Town + unlimited Cashout Sales)*
+## 🛍️ BAZAAR *(1 outbound trade per player per Town + unlimited inbound trades + unlimited Cashout Sales)*
 
-Two things happen here — trading and selling. You get 2 Deals per visit, plus you can sell Cash Outs for XP as many times as you want. The two functions are completely separate.
+Two things happen here — player trading and Cashout selling. Each player may initiate **1 outbound trade per Town**. Accepting a trade initiated by another player does not consume your outbound trade, and a player may receive any number of inbound trades during the same Town. Cashout Sales remain completely separate.
 
 ---
 
-### 🤝 DEALS *(2 uses per Town)*
+### 🤝 PLAYER TRADES *(1 outbound initiation per player per Town)*
 
-Each deal is one of the following exchanges:
+Each completed trade is one of the following exchanges:
 
 * Card ↔ Card
 * Card ↔ Essence (2× the card's mana value)
 * Cashout ↔ Cashout
 * Cashout ↔ Card
 
-If a player uses Bonus Bazaar, one deal they participate in during that Town is free for both participants (neither player expends a Deal use).
+**Trade limits:**
+
+* Each player may initiate **1 completed outbound trade per Town**.
+* Accepting an inbound trade does **not** consume the receiving player's outbound trade.
+* A player may accept any number of inbound trades during that Town.
+* The initiator's outbound use is consumed only when the trade successfully completes.
+* Cancelled or declined trades do not consume the initiator's outbound use.
+* A player who has already used their outbound trade may still receive and complete inbound trades.
+* Players may trade with each other reciprocally if each player chooses to spend their own outbound initiation on the other.
+
+If a player uses Bonus Bazaar, it grants **one additional outbound Bazaar trade** during that Town. The receiving player still spends no Bazaar use.
 
 ---
 
 ### 💰 CASHOUT SALE *(Free — Unlimited)*
 
-Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not consume a Deal usage and may be done any number of times.
+Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not consume an outbound Bazaar trade and may be done any number of times.
 
 ---
 
