@@ -77,7 +77,7 @@ The Host pilots a preconstructed Commander deck.
 
 **Setup:**
 
-* Generate 3 random Precons  
+* Generate 2 random Precons  
 * Players choose 1 to eliminate  
 * The Host chooses 1 and pilots it
 
