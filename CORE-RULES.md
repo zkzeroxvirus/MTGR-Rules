@@ -123,7 +123,9 @@ Combo restrictions:
 • Richard Garfield, Ph.D.  
 • Double Stroke  
 • Veteran Explorer  
-• Sovereign's Realm
+• Sovereign's Realm  
+• Ocelot Pride  
+• Cheering Crowd
 
 ### **⚠️ RESTRICTED**
 
