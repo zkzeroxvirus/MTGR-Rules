@@ -3,7 +3,7 @@
 Encounters represent the primary challenges of a run.
 
 During encounters, players face a Host-controlled deck enhanced by Affixes and encounter-specific modifiers.  
- Winning encounters allows players to progress and prepare for future battles.
+Winning encounters allows players to progress and prepare for future battles.
 
 ## **⚖️ DESIGN NOTES**
 
@@ -26,251 +26,191 @@ If the Host reaches 0 life, the encounter is defeated.
 
 ## **🎲 ENCOUNTER TYPES**
 
-Encounters are chosen randomly from available encounter types.
+Encounters are chosen randomly from the currently available encounter types.
+
+The current encounter pool is:
+
+* **Precon Battle**
+* **Master Fight**
+* **Tribal Warfare**
+* **Plane Fight (Experimental)**
+* **Story Fight (Experimental)**
+* **Villain Fight (Experimental)**
+* **Wildcard Fight (Experimental)**
 
 Each type defines how the Host deck is selected and what additional rules apply.
 
-### **🔄 ENCOUNTER 1 REROLL**
+### **🔒 ENCOUNTER AVAILABILITY**
 
-If **Tribal Warfare** or **Story Fight** is rolled as the encounter type for **Encounter 1**, reroll the encounter type until a different type is determined.
+The following encounter types cannot be played until the party has defeated at least one encounter in the current run:
 
-* This applies only to Encounter 1 of a run
-* Both Tribal Warfare and Story Fight are excluded from Encounter 1 due to their complexity and bonus scaling
+* **Tribal Warfare**
+* **Plane Fight (Experimental)**
+* **Story Fight (Experimental)**
+* **Wildcard Fight (Experimental)**
 
-### **🧠 MASTER FIGHT**
+If one of these is rolled before the party has defeated an encounter, reroll the encounter type.
 
-A Tyrant-led encounter drawn from the Demon Generals pool.
+### **📦 PRECON BATTLE**
 
 **Setup:**
 
-* Reveal 3 random Tyrants  
-* Players vote to eliminate 1  
-* The Host chooses 1 of the remaining Tyrants  
-* Randomly choose 3 Commander decks from the Masters pool  
-* Players eliminate 1  
+* Generate 2 random Precons
+* Players choose between the 2 generated Precons
+* The Host pilots the selected deck
+
+### **🧠 MASTER FIGHT**
+
+**Setup:**
+
+* Reveal 3 random Tyrants
+* Players vote to eliminate 1
+* The Host chooses 1 of the remaining Tyrants
+* Randomly choose 3 Commander decks from the Masters pool
+* Players eliminate 1
 * The Host chooses 1 of the remaining decks to pilot
 
 ### **⚔️ TRIBAL WARFARE**
 
-A synergy-driven encounter centered on a single creature type.
-
 **Setup:**
 
-* The Host gets one fewer Affix of the highest-tier Affix for this encounter  
-* Randomly choose 3 Tribes  
-* Players choose 1 to eliminate  
-* The Host chooses 1 of the remaining Tribes  
-* The Host pilots a deck corresponding to the chosen Tribe  
-* The Host begins the game with the Tribal Warfare emblem  
-* This encounter grants an additional 25 XP
+* The Host gets one fewer Affix of the highest tier for this encounter
+* Randomly choose 3 Tribes
+* Players choose 1 to eliminate
+* The Host chooses 1 of the remaining Tribes
+* The Host begins the game with the Tribal Warfare emblem
+* This encounter grants an additional **25 XP**
 
 **Tribal Warfare Emblem:**
 
 **Tribal Warfare**  
 At the beginning of your end step, conjure and cast a random creature of the chosen tribe with mana value less than or equal to the number of lands you control.
 
-### **📦 PRECON BATTLE**
-
-> **Note:** This encounter type is under review and may be updated in a future version.
-
-The Host pilots a preconstructed Commander deck.
-
-**Setup:**
-
-* Generate 2 random Precons  
-* Players choose 1 to eliminate  
-* The Host chooses 1 and pilots it
-
 ### **🌍 PLANE FIGHT *(Experimental)***
 
-A Planechase-style encounter that alters the battlefield.
-
 **Setup:**
 
-* Randomly choose 3 Planes from the Custom Plane Pool  
-* Players eliminate 1  
-* The remaining Plane enters play  
-* The Host chooses a corresponding deck
-
-**Rules:**
-
-* Use the chosen Plane's Custom Global Effect for the entire encounter — it applies to all players and the Host  
-* When the Chaos face is rolled, only the roller resolves that Plane's Chaos Effect  
-* When the Planeswalk face is rolled, **Planar Surge** triggers: the roller scries 2, then draws a card. The Plane does not change.  
-* The custom Planar Die is six-sided: 1 Chaos face, 1 Planeswalk face, and 4 blank faces  
-* As a party, the first Planar Die roll costs 0; each additional roll costs 1 more than the previous roll  
-* Once a Plane is chosen, players remain on that Plane for the entire encounter  
-* This encounter has an additional Affix of the highest tier for this encounter
-
----
-
-#### **Custom Plane Pool**
-
-Each Plane Fight uses one of the following custom world effects.
-
-Each Plane has:
-
-* **Global Effect** — a world rule active for the entire encounter; affects all players and the Host equally  
-* **Chaos Effect** — resolves only for the person who rolled the Chaos face
-
-**🌌 THEROS**
-
-* **Global Effect:** Nontoken creatures are enchantments in addition to their other types. Whenever an enchantment enters the battlefield, its controller gains 1 life.  
-* **Chaos Effect:** Choose a color. Put a +1/+1 counter on each creature you control of that color.
-
-**🏺 AMONKHET**
-
-* **Global Effect:** Once during each player's turn, that player may exile a creature card from their graveyard. If they do, they create a tapped 4/4 white Zombie creature token.  
-* **Chaos Effect:** You may discard a card. If you do, draw two cards.
-
-**🏙 RAVNICA**
-
-* **Global Effect:** If an effect would create one or more tokens or put one or more +1/+1 counters on a permanent, it creates or puts that many plus one instead.  
-* **Chaos Effect:** Create two 1/1 green Saproling creature tokens. Until end of turn, the next instant or sorcery spell you cast is copied. You may choose new targets for the copy.
-
-**☣️ NEW PHYREXIA**
-
-* **Global Effect:** Whenever a nontoken artifact or creature dies, its controller creates a 1/1 colorless Phyrexian artifact creature token.  
-* **Chaos Effect:** Proliferate. Then target opponent sacrifices an artifact or creature with mana value 3 or less if able.
-
-**🌈 ALARA**
-
-* **Global Effect:** Multicolored creatures get +1/+1 and have exalted.  
-* **Chaos Effect:** Reveal cards from the top of your library until you reveal a permanent card. Put that card onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
-
-**⛩ KAMIGAWA**
-
-* **Global Effect:** Modified and legendary creatures get +1/+1 and have trample.  
-* **Chaos Effect:** Distribute three +1/+1 counters among up to three creatures you control. Up to one of those creatures can't be blocked this turn.
+* Reveal 3 Planes
+* Players eliminate 1
+* The Host plays a random deck from the corresponding Plane
 
 ### **📖 STORY FIGHT *(Experimental)***
 
-Narrative encounters with multi-phase structure.
-
 **Setup:**
 
-* The Host gets one fewer Affix of the highest-tier Affix for this encounter  
-* Reveal 3 Stories  
-* Players eliminate 1  
-* The Host chooses 1 of the remaining Stories to pilot  
-* The Host starts the encounter with 50% additional life, rounded up  
-* This encounter grants an additional +25 XP
-
----
+* Reveal 3 Stories
+* Players eliminate 1
+* The Host chooses 1 of the remaining Stories to pilot
+* The Host starts the encounter with **50% additional life**, rounded up
+* The Host gets one fewer Affix of the highest tier for this encounter
+* This encounter grants an additional **25 XP**
 
 #### **Phase Transition**
 
-If the Host would lose the game, a player would win the game, or the Host’s life total becomes half or less of their starting life total:
+If the Host would lose the game, a player would win the game, or the Host's life total becomes half or less of its starting life total:
 
-This transition can happen only once per encounter.
+* The Host's life total becomes half of their starting life total, rounded up
+* The Host and all permanents they control phase out
+* The Host may shuffle their graveyard and/or exile into their library
+* Remove all damage from permanents the Host controls
+* The Host loses all poison counters
+* The turn continues without the Host
 
-* Their life total becomes half of their starting life total, rounded up  
-* Clear the stack and counter all spells and abilities that currently target the Host or permanents the Host controls  
-* The Host and all permanents they control phase out  
-* Remove all damage from permanents they control. The Host loses all poison counters  
-* Shuffle their graveyard and exile into their library  
-* The current turn continues without the Host
-
-At the beginning of the Host’s next turn, they phase in.
-
----
+At the beginning of the Host's next turn, they phase in.
 
 #### **Phase Two Bonus**
 
-When the Host phases in, they gain their story's respective Phase Two bonus:
+When the Host phases in, they gain the Story's Phase Two bonus:
 
-* Emblem, Vanguard, or other story ability (as defined by that Story)  
-* These bonuses are already present in each Story and become enabled when the phase transition happens
+* Emblem
+* Vanguard
+* Story ability
 
 ### **🦹 VILLAIN FIGHT *(Experimental)***
 
-A high-power, constructed encounter.
+**Setup:**
+
+* Reveal 5 random Commanders
+* Players eliminate 1
+* Choose 1 of the remaining Commanders
+* Build or spawn a high-power deck (**Bracket 3 or higher**) using that Commander
+
+### **🌪 WILDCARD FIGHT *(Experimental)***
 
 **Setup:**
 
-* Reveal 5 random Commanders  
-* Players eliminate 1  
-* The Host chooses 1 of the remaining Commanders  
-* Build or spawn a high-power (**Bracket 3+**) deck
-
-### **🌪 WILDMAGIC FIGHT *(Experimental)***
-
-A chaotic encounter driven by random effects.
-
-**Setup:**
-
-* The Host may use any legal deck (**Suggested Bracket 3**)  
+* The Host may use any legal deck (**Suggested Bracket 3**)
 * The Host gains:
 
 **Wild Magic Surge —**  
- {0}: Roll a d20 and resolve a random effect. Activate only once each turn.
+{0}: Roll a d20 and resolve a random effect. Activate only once each turn.
 
-* No Affixes are applied  
-* This encounter grants **+25 XP**
+* No Affixes are used for this encounter
+* This encounter grants an additional **25 XP**
 
-# **🌀 WILDMAGIC TABLE**
+# **🌀 WILDCARD FIGHT — WILD MAGIC TABLE**
 
 **Roll a d20 and resolve the result.**
 
 **1 — Reality Collapse**  
- Exile all nonland permanents.
+Exile all nonland permanents.
 
 **2 — Unstable Portal**  
- Each player creates a 1/1 colorless Eldrazi Spawn creature token with “Sacrifice this creature: Add {C}.”
+Each player creates a 1/1 colorless Eldrazi Spawn creature token with “Sacrifice this creature: Add {C}.”
 
 **3 — Temporal Flux**  
- Each player draws a card.
+Each player draws a card.
 
 **4 — Mana Flare**  
- Until end of turn, if a land would produce mana, it produces an additional mana of any type that land produced.
+Until end of turn, if a land would produce mana, it produces an additional mana of any type that land produced.
 
 **5 — Mind Fracture**  
- Each player discards their hand, then draws that many cards minus one.
+Each player discards their hand, then draws that many cards minus one.
 
 **6 — Chaotic Growth**  
- Put a \+1/+1 counter on each creature.
+Put a \+1/+1 counter on each creature.
 
 **7 — Aether Slip**  
- Exile all creatures, then return them to the battlefield under their owners’ control at the beginning of the next end step.
+Exile all creatures, then return them to the battlefield under their owners’ control at the beginning of the next end step.
 
 **8 — Reality Warp**  
- Each player shuffles a permanent they control into their library, then reveals cards from the top of their library until they reveal a permanent card and puts it onto the battlefield.
+Each player shuffles a permanent they control into their library, then reveals cards from the top of their library until they reveal a permanent card and puts it onto the battlefield.
 
 **9 — Arcane Overload**  
- The next spell the Host casts this turn has cascade.
+The next spell the Host casts this turn has cascade.
 
 **10 — Infernal Surge**  
- Creatures the Host controls get \+2/+0 and gain haste until end of turn.
+Creatures the Host controls get \+2/+0 and gain haste until end of turn.
 
 **11 — Verdant Explosion**  
- The Host creates a 1/1 green Saproling creature token for each land they control.
+The Host creates a 1/1 green Saproling creature token for each land they control.
 
 **12 — Planar Distortion**  
- Each opponent returns a nonland permanent they control to its owner’s hand.
+Each opponent returns a nonland permanent they control to its owner’s hand.
 
 **13 — Agonizing Madness**  
- Each opponent discards a card.
+Each opponent discards a card.
 
 **14 — Wild Growth**  
- The Host searches their library for a land card with a basic land type, puts it onto the battlefield tapped, then shuffles.
+The Host searches their library for a land card with a basic land type, puts it onto the battlefield tapped, then shuffles.
 
 **15 — Necrotic Drain**  
- Each opponent loses 2 life. The Host gains life equal to the life lost this way.
+Each opponent loses 2 life. The Host gains life equal to the life lost this way.
 
 **16 — Purifying Light**  
- Destroy all enchantments the Host does not control.
+Destroy all enchantments the Host does not control.
 
 **17 — Meltdown Wave**  
- Destroy all artifacts the Host does not control.
+Destroy all artifacts the Host does not control.
 
 **18 — Sudden Wealth**  
- Create three Treasure tokens.
+Create three Treasure tokens.
 
 **19 — Sudden Insight**  
- The Host draws three cards.
+The Host draws three cards.
 
 **20 — Arcane Roulette**  
- Each player reveals the top card of their library. If it’s a nonland card, the Host may cast it without paying its mana cost.
+Each player reveals the top card of their library. If it’s a nonland card, the Host may cast it without paying its mana cost.
 
 *Wild Magic effects are controlled by the Host.*
 
@@ -368,4 +308,3 @@ After the final scheduled encounter in the active mode, players face the Crypt.
 * No Events are resolved
 
 The Crypt represents the final and most difficult encounter of the run.
-
