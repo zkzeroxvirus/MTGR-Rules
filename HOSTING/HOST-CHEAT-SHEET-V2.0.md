@@ -10,7 +10,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 
 1. Pre-Game Setup
 2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
-3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
+3. Event and Trinket — before Encounter 1 (Event first; starting Event cannot be Bad, and Ambush counts as Bad)
 4. Encounter 1 → Rewards → Town/Stay Out → Event(s)
 5. Encounter 2 → Rewards → Town/Stay Out → Event(s)
 6. Encounter 3 → Rewards → Town/Stay Out → Event(s)
@@ -20,7 +20,7 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 
 1. Pre-Game Setup
 2. Seat-swap window — after deckbuilding and before Encounter 1 (one adjustment only)
-3. Event and Trinket — before Encounter 1 (Event first; no Bad Stuff Event)
+3. Event and Trinket — before Encounter 1 (Event first; starting Event cannot be Bad, and Ambush counts as Bad)
 4. Encounters 1–4 → Rewards → Town/Stay Out → Event(s)
 5. Crypt
 
@@ -33,13 +33,18 @@ Your operational reference for running MTGR sessions. Keep this at hand — it c
 Before Encounter 1, confirm all of the following:
 
 - [ ] Essence and progression actions are complete.
-- [ ] All players have completed deckbuilding (Commander + 39, legal).
-- [ ] Each player generated their own 100-card pool (all card types, no basic lands). Stickers, Attractions, and Contraptions were rerolled and replaced.
-- [ ] Each player had 4 Commander Mulligans available.
-- [ ] Free Choice Cards confirmed legal (no Sol Ring, no Gamechangers, color identity obeyed).
+- [ ] Base Commander generation started at 5 options, with **+1 option per Brand of the Conclave Rank** and any other explicit generation modifiers applied.
+- [ ] Each player had 4 base Commander Mulligans, with **+1 free reroll per Brand of Recurrence Rank** and any other explicit reroll modifiers applied.
+- [ ] Each player generated their own 100-card pool within their starting Commander's color identity (all card types, no basic lands). Stickers, Attractions, and Contraptions were rerolled and replaced.
+- [ ] Each player drafted 22 cards from that pool.
+- [ ] Initial land package uses 16 total lands unless another effect changes it; normal dual allocation and **Brand of the Cartographer** replacements were applied.
+- [ ] Free Choice Card is Commander legal, not Sol Ring, and not a Gamechanger unless another effect allows it. **It may be outside Commander color identity.**
 - [ ] Free Choice Cards were stamped with a "Scryfall" decal.
 - [ ] No two-card combos exist in any run deck (players and Host).
 - [ ] Scryfall-stamped cards are not part of any three-card combo.
+- [ ] Base library minimum is 39 non-Commander cards, reduced by **1 per Brand of the Infinite Void Rank**. Players may be above that minimum.
+- [ ] Sideboards are allowed and have **no size limit**.
+- [ ] Do not enforce Commander color identity as a general gameplay deck rule. Apply it only when an effect explicitly says so.
 - [ ] Buffs, tickets, achievements, brands, and captures applied.
 - [ ] Run mode declared: Standard (3) or Variant (4).
 - [ ] Player count locked for current encounter setup.
@@ -47,15 +52,15 @@ Before Encounter 1, confirm all of the following:
 - [ ] Stay Out streak counter set to 0.
 - [ ] Host HP, Affix tier, and the complete Host Scaling Power layer reference available.
 - [ ] Seat-swap window offered after deckbuilding and before Encounter 1; no seat swaps after Encounter 1 begins.
-- [ ] Starting setup resolved in order: Event, then Trinket (starting Event cannot be Bad Stuff).
+- [ ] Starting setup resolved in order: Event, then Trinket; starting Event cannot be Bad, and Ambush counts as Bad.
 
 ---
 
 ## 3. Start-Of-Encounter Procedure (Every Encounter)
 
 1. Determine encounter type and resolve its setup.
-   - **Encounter 1 only:** Reroll Tribal Warfare or Story Fight until a different type is determined.
-2. Apply Affixes for the current stage.
+   - Tribal Warfare, Plane Fight, Story Fight, and Wildcard Fight cannot be played until the party has defeated at least one encounter in the run. Reroll those results if the party has not yet won an encounter.
+2. Apply Affixes for the current stage where the selected encounter uses them.
 3. Set Host HP from the player-count table.
 4. Apply the complete **Host Scaling Power layer (Host Authority)**:
    - Set the Authority level from the player-count table.
@@ -157,7 +162,7 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 
 - Doom effects are triggered abilities controlled by the Host.
 - Doom cards are placed face down on the battlefield in the Host's Doom area.
-- 1 Doom card may be turned face up each turn unless a card says otherwise (1 on a player turn and 1 on the Host turn).
+- 1 Doom card may be turned face up each turn unless a card says otherwise.
 - Turning a Doom card face up is a special action; the turn-up action does not use the stack, but the Doom triggered ability does.
 - Triggered Doom cards are removed for that encounter.
 - Doom cards are not in the Host's MTG hand and do not count toward hand size.
@@ -177,24 +182,18 @@ Base XP + Affix Bonus XP + Encounter-Specific Bonus XP
 
 ### Always-On Scaling Powers
 
-- Demonic Persistence (Treasure recovery on disruption) is always active.
+- Demonic Persistence is always active.
 - Arcane Suppression is always active.
 
 ---
 
 ## 7. Encounter Outcome Branches
 
-### Players WIN — Resolve in this exact order
+### Players WIN
 
-1. XP
-2. Cash Out
-3. Loot Pool
+Resolve the encounter rewards, then choose **Return to Town** or **Stay Out**, then resolve Events based on that choice.
 
-Then choose: **Return to Town** or **Stay Out**
-
-Then resolve Events based on that choice.
-
-### Players LOSE — Apply all of the following
+### Players LOSE
 
 - No XP, no Cash Out, no Loot Pool.
 - Fully heal and reset all players before the next encounter.
@@ -213,11 +212,7 @@ Then resolve Events based on that choice.
 - Reveal Cash Outs equal to player count +1.
 - Each player picks one unless otherwise specified.
 - Remove any unselected Cash Outs from play.
-- The pool uses weighted chances (200 total weight). See Reward System for the full table.
-- Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
-- Bonus Building Usage: Grants one free additional building use next Town visit.
-- Tier Note: Bonus Building Usage cashouts are T2. Other non-pack cashouts are T3.
-- Crypt Fight Cashout (0.5%): Hold until just before the Crypt, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
+- Pack Rewards, Bonus Building Usage, Blacksmith Services, Crypt Fight, and Ticket Cashouts follow the current Reward System tables.
 
 **Loot Pool:**
 
@@ -225,6 +220,7 @@ Then resolve Events based on that choice.
 - Reveal cards equal to player count.
 - Reroll basic lands.
 - Players draft from the shared revealed pool.
+- Loot gained by players is not generally restricted by Commander color identity.
 
 ---
 
@@ -236,6 +232,14 @@ When players choose Town:
 2. Resolve Town building usage.
 3. Resolve 1 Event.
 4. Proceed to next encounter.
+
+**Deck interaction reminders for Hosts:**
+
+- **Bank:** Up to 6 cards may move between Deck and Sideboard per Bank use. Sideboard capacity itself is unlimited.
+- **The Guild:** Base generation is d6 + 2 Commanders in the declared color combination. Add +1 option per Conclave Rank and +1 free reroll per Recurrence Rank. Existing off-color cards remain legal after a Commander change.
+- **Merchant:** Only the ID Pack is restricted to the current Commander's color identity. Mystery, Pro, Mythic, and OTAG Packs may be any color. Pro/Mythic/OTAG still use their listed search requirements.
+- **Brand of the Open Hand:** +1 card shown per Rank whenever that player opens a pack; this does not increase the normal keep limit.
+- **Mystic/Tavern:** Do not allow pruning below the player's modified library minimum unless an effect explicitly overrides it.
 
 > **Reminders:** Building uses reset on each return to Town. Cash Out redemptions do not consume building uses.
 
@@ -260,7 +264,7 @@ When players choose Stay Out, resolve in order:
 **Stay Out Event Scaling:**
 
 - First consecutive Stay Out: 2 Events.
-- Each additional consecutive Stay Out: +1 Event (e.g. 2, 3, 4, 5...).
+- Each additional consecutive Stay Out: +1 Event.
 - Resets when the party returns to Town.
 
 > **Reminder:** Players still receive a full HP reset on Stay Out.
@@ -328,11 +332,10 @@ To prevent flow errors, maintain a consistent resolution order every session.
 - Always use the same resolution order.
 - Never merge systems out of order — Rewards, then Town/Stay Out, then Events.
 - Confirm the failed-encounter branch out loud before advancing.
-
-> **Recommended callout:** *"Encounter resolved. Entering Rewards phase: resolve XP, Cash Out, and Loot Pool — all three, any order."*
+- For deck questions, check **DECKBUILDING-RULES-V2.1.md** rather than enforcing normal Commander color identity by habit.
 
 ---
 
 ## 14. One-Line Host Script
 
-*"Set encounter → apply Affixes and HP → apply the full Host Scaling Power layer (Authority, Doom, Demonic Persistence, Arcane Suppression) → roll turn order → run combat → Win/Lose branch → Town or Stay Out → Events → next encounter."*
+*"Set encounter → apply Affixes and HP → apply the full Host Scaling Power layer → roll turn order → run combat → Win/Lose branch → Town or Stay Out → Events → next encounter."*
