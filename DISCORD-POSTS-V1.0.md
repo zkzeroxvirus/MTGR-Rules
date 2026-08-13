@@ -27,7 +27,7 @@ How Essence is gained:
 
 - Crypt win reward: +500 Essence per eligible player
 - Run-end reward (win or lose): +Deck CMC + Sideboard CMC per eligible player
-- Unspent XP at run end converts into Essence, win or lose
+- Unspent XP at run end converts to Essence, win or lose
 - If a Crypt boss Buff awarded on win is already unlocked, that duplicate is immediately sold for +250 Essence
 
 :large_orange_diamond: XP
@@ -78,7 +78,7 @@ Spend Essence to shape your run now and grow your account permanently.
 
 - Save 1 non-Commander card from your deck
 - Captured cards can be used in future builds
-- Captured cards still count toward your 39
+- Captured cards count toward your normal library minimum; they are not free deck slots
 - Cost scales by +250 each additional capture (500, 750, 1000, ...)
 
 :manap: Progression Shop (Before or after runs)
@@ -87,33 +87,34 @@ Spend Essence to shape your run now and grow your account permanently.
 Brand cost = base cost x current rank.
 
 :map: 500 Essence - Brand of the Cartographer
-Replace 2 basics with duals or triomes during drafting.
+- During deckbuilding, replace 2 additional basics with duals or triomes per Rank.
 
 :handshake: 1000 Essence - Brand of the Conclave
-Gain +1 Commander option whenever Commanders are generated.
+- Gain +1 Commander option per Rank whenever Commanders are generated during deckbuilding or The Guild.
 
 :recycle: 1250 Essence - Brand of Recurrence
-Gain +1 free Commander reroll during Commander generation.
+- Gain +1 free Commander reroll per Rank during deckbuilding and The Guild.
 
 :raised_hand: 1750 Essence - Brand of the Open Hand
-Each opened pack has +1 card to choose from.
+- Each opened pack has +1 card to choose from per Rank.
+- This increases cards shown, not the keep limit unless another effect says otherwise.
 
 :see_no_evil: 2000 Essence - Brand of the Blinded Eye
-Choose a color to exclude when rolling Commanders.
+- During deckbuilding, choose a color to exclude when rolling Commanders.
 
 :hole: 500 Essence - Brand of the Infinite Void
-Reduce deck minimum size by 1 per rank.
+- Reduce your library minimum by 1 card per Rank.
 
 :tickets: Tickets
 
 :coin: 750 Essence - Arcane Signet Ticket (1 slot)
-Free Arcane Signet that does not count toward your 39.
+Free Arcane Signet that does not count toward your normal library minimum.
 
 :ring: 1500 Essence - Sol Ring Ticket (1 slot)
-Free Sol Ring that does not count toward your 39.
+Free Sol Ring that does not count toward your normal library minimum.
 
 :milky_way: 1500 Essence - Leyline Ticket (1 slot)
-Free Leyline that does not count toward your 39.
+Free Leyline that does not count toward your normal library minimum.
 
 :art: 2000 Essence - Color Combo Ticket (1 slot)
 Pick Commander color identity before generation.
@@ -138,20 +139,23 @@ You have 4 total progression slots shared between:
 - Achievements
 - Captures
 
+Brands are tracked separately and do not consume those 4 slots.
+
 ---
 
 ## 3. Building Your Deck
 
 :one: Roll Your Commander
 
-- Generate 5 random legal Commanders
-- Choose 1
-- Each player has 4 Commander Mulligans before Encounter 1
-- Extra Commander rerolls only come from specific effects
+- Base generation: 5 random legal Commanders, choose 1
+- Base Commander Mulligans: 4 before Encounter 1
+- Brand of the Conclave: +1 Commander option per Rank
+- Brand of Recurrence: +1 free Commander reroll per Rank
+- Brand of the Blinded Eye and other effects modify generation as written
 
 :two: Generate Your Pool and Draft 22
 
-- Generate your own 100-card pool inside your Commander color identity
+- Generate your own 100-card pool inside your starting Commander color identity
 - Pool can contain any card type
 - Basic lands are excluded
 - Stickers, Attractions, and Contraptions are rerolled and replaced
@@ -161,29 +165,33 @@ Reroll rules:
 
 - You cannot reroll the entire 100-card pool
 - If one card is invalid, replace only that card
-- Commander rerolls are still allowed (lock applies only to deck-card draft pool)
+- Commander rerolls are still allowed; the lock applies only to the 100-card draft pool
 
 Color identity note:
 
-- Initial deckbuilding is color-identity locked
-- During the run you can still get off-color cards through systems like Cashouts and Mystery Packs
+- The initial 100-card pool is color-identity restricted
+- Commander color identity is **not a general gameplay deck restriction**
+- During the run, cards from unrestricted sources may be any color and may remain in your Deck or Sideboard
+- Only effects that explicitly say they use color identity impose that restriction
 
 :three: Add Lands
 
-- Deck uses 16 total lands
-- +2 duals at 2 colors
-- +4 duals at 3 colors
-- +6 duals at 4 colors
-- +8 duals at 5 colors
+- Base deckbuilding uses 16 total lands
+- 1 color: 0 base duals
+- 2 colors: +2 duals
+- 3 colors: +4 duals
+- 4 colors: +6 duals
+- 5 colors: +8 duals
 - Remaining lands are basics
+- Brand of the Cartographer: each Rank may replace 2 additional basics with dual lands or triomes
 
 :four: Add Your Free Choice Card
 Choose 1 card with these restrictions:
 
-- Must follow Commander color identity
-- Not banned in Commander
+- **May be outside Commander color identity**
+- Must otherwise be legal for use in Commander
 - Not Sol Ring
-- Not a Gamechanger
+- Not a Gamechanger unless another effect explicitly allows it
 
 After selecting:
 
@@ -196,11 +204,13 @@ Combo restrictions:
 
 :five: Final Checks
 
-- Final deck is Commander + 39
-- Sideboard is allowed
+- Base deck minimum is Commander + at least 39 cards in the library
+- Brand of the Infinite Void reduces the library minimum by 1 per Rank
+- Cards may be added above the minimum during the run; you do not need to return to exactly 39
+- Sideboard has **no size limit**
 - All pre-game effects must be locked before start
-- Apply progression loadout (Buffs, Achievements, Tickets, Captures) within slot limits
-- Resolve pregame Event then Trinket (starting Event cannot be a Bad Stuff Event)
+- Apply progression loadout (Buffs, Achievements, Tickets, Captures) within slot limits; Brands are separate
+- Resolve pregame Event then Trinket; starting Event cannot be Bad, and Ambush counts as Bad
 - After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed
 
 ---
@@ -212,7 +222,7 @@ Once deckbuilding is done, every run follows the same loop.
 Core loop:
 
 - Encounter
-- Rewards
+- Rewards on victory
 - Town or Stay Out choice
 - Event resolution
 - Next Encounter
@@ -247,15 +257,24 @@ Each encounter follows:
 
 1) Determine encounter type
 2) Resolve setup
-3) Apply Affixes
+3) Apply Affixes where that encounter uses them
 4) Set Host HP
 5) Play encounter
 
-Encounter type notes:
+Current encounter pool:
 
-- Encounter 1 rerolls Tribal Warfare and Story Fight
-- Story Fight and Wild Magic include special bonus/restriction rules
-- Crypt uses no Affixes, Host always goes first, and no Events resolve there
+- Precon Battle
+- Master Fight
+- Tribal Warfare
+- Plane Fight (Experimental)
+- Story Fight (Experimental)
+- Villain Fight (Experimental)
+- Wildcard Fight (Experimental)
+
+Availability note:
+
+- Tribal Warfare, Plane Fight, Story Fight, and Wildcard Fight cannot be played until the party has defeated at least one encounter in the current run
+- If one of those is rolled too early, reroll the encounter type
 
 Rewards on victory:
 
@@ -273,7 +292,7 @@ On defeat:
 Cashout resolution:
 
 - Host reveals player count + 1 Cashouts
-- Each player picks one (unless otherwise stated)
+- Each player picks one unless otherwise stated
 - Unchosen options are removed
 - Cashouts are free and tradable
 
@@ -282,6 +301,7 @@ Loot Pool resolution:
 - Reveal cards equal to player count from defeated deck
 - Reroll basic lands
 - Revealed cards form a shared pool players may take from freely
+- Cards gained this way are not generally color-identity restricted
 
 Affix bonus XP by tier:
 
@@ -290,13 +310,7 @@ Affix bonus XP by tier:
 - Tier 3: +15
 - Tier 4: +20
 
-Cashout Pool (weight 410) categories:
-
-- Pack Rewards (300)
-- Bonus Building Usage (80)
-- Blacksmith Services (18)
-- Crypt Fight Cashout (2)
-- Ticket Cashouts (10)
+For current Cashout weights and exact encounter setup, use REWARD-SYSTEM-V1.0.md and ENCOUNTER-SYSTEM-V1.0.md rather than this summary.
 
 ---
 
@@ -315,7 +329,6 @@ The party acts as one shared player with one combined turn:
 - Main 2
 - End Step
 
-Upkeep and end-step triggers occur once per party turn, not once per player.
 Controller-specific effects still benefit only their controller.
 
 ⚔️ Party Combat
@@ -340,27 +353,29 @@ Controller-specific effects still benefit only their controller.
 
 ---
 
-## 7. Events and Their Details (STUB)
+## 7. Events
 
-🎲 Event System - STUB
+🎲 Event System
 
-Events are not finalized for publication yet.
-This post is intentionally a placeholder.
+Current printed Event classifications are:
 
-What is already locked:
+- Good
+- Neutral
+- Bad
+- Ambush
+- Town Upgrade
 
-- Events happen outside combat
-- Starting Event is before Encounter 1 and cannot be a Bad Stuff Event
-- After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed
-- Base frequency is tied to Town vs Stay Out
-- Stay Out increases Event count and scales with consecutive Stay Outs
+Important rules:
 
-When final Event pools are approved, this section will be replaced with:
+- Ambush counts as Bad for protections, restrictions, rerolls, and eligibility checks
+- The starting Event before Encounter 1 cannot be Bad; therefore it cannot be Ambush
+- Events are normally drawn between encounters after the Town/Stay Out path is resolved
+- Events may create immediate, delayed, next-encounter, Town, or run-long effects when the printed card says so
+- Once an Event's immediate instructions are complete and any continuing effect is established, continue to the next Event if more must be resolved
+- No Event is drawn immediately before the Crypt
+- The printed Event card is the source of truth for its specific effect and duration
 
-- Full Event list
-- Resolution text
-- Any rarity/tier structure
-- Clarified edge cases
+Stay Out increases Event count with consecutive scaling; returning to Town resets that streak.
 
 ---
 
@@ -372,7 +387,7 @@ When entering Town:
 
 - Fully heal all players
 - Resolve Town building usage
-- Resolve Event(s) and continue loop
+- Resolve Event(s) and continue the loop
 
 Town does not use actions.
 Buildings are either limited-use or unlimited.
@@ -381,7 +396,8 @@ Town Buildings:
 
 🏦 Bank (1 use per Town)
 
-- Move up to 6 cards between deck and sideboard
+- Move up to 6 cards between Deck and Sideboard
+- Sideboard has no size limit
 
 ⚒️ Blacksmith (Unlimited)
 
@@ -389,59 +405,76 @@ Town Buildings:
 - 50 XP Augment
 - One Blacksmith modification per card
 
-🛍️ Bazaar (2 Deals per Town + unlimited Cashout Sales)
-Deals:
+🛍️ Bazaar
+
+- Each player may initiate 1 completed outbound trade per Town
+- Accepting inbound trades costs no outbound use and is unlimited
+- Cancelled/declined trades do not consume the initiator's use
+- Cashout Sales are separate and unlimited
+
+Deal types:
 
 - Card <-> Card
 - Card <-> Essence (2x mana value)
 - Cashout <-> Cashout
 - Cashout <-> Card
+
 Cashout Sales:
+
 - Sell any number of Cashouts for 10 XP each
 
 ⛪ Cathedral (1 use per Town)
 
-- Describe a request (cannot force one exact card)
-- Host provides real usable card
-- Add to deck or destroy for Essence equal to 2x mana value
+- Describe a request; it cannot force one exact card
+- Host provides a real usable card
+- Add to Deck or destroy for Essence equal to 2x mana value
+- No general Commander color-identity restriction unless the effect/request specifically imposes one
 
 ⚔️ The Guild (Unlimited)
 
 - 10 XP + d6
-- Receive roll+2 random Commanders in declared color combination
+- Base generation: roll + 2 random Commanders in the declared color combination
+- Brand of the Conclave: +1 option per Rank
+- Brand of Recurrence: +1 free Commander reroll per Rank
 - May swap Commander
-- Old Commander goes to deck/sideboard
-- Deck must remain legal under new color identity
+- Old Commander goes to Deck or Sideboard
+- Existing off-color cards remain legal after changing Commander
 
 🛒 Merchant (Unlimited)
 
-- Open 15-card pack, keep 1
-- 5 XP Mystery
-- 10 XP ID
-- 20 XP Pro
-- 50 XP Mythic
-- 75 XP OTAG
+- Open a 15-card base pack, keep 1
+- Brand of the Open Hand adds +1 shown card per Rank; it does not increase the keep limit
+- 5 XP Mystery: any color
+- 10 XP ID: **current Commander color identity only**
+- 20 XP Pro: any color + 1 search parameter
+- 50 XP Mythic: any color + 2 search parameters
+- 75 XP OTAG: any color + OTAG search
 
 🔮 Mystic (Unlimited)
 
 - 5 XP
-- Destroy nonland card from deck
+- Destroy nonland card from Deck
 - Gain Essence equal to 2x mana value
+- Library must remain at or above the player's modified minimum unless an effect explicitly overrides it
 
 🌀 Portal (1 use per Town)
 
 - Spend up to 15 XP
-- Generate pack by type/keyword criteria, size = XP spent
+- Generate pack by type/keyword criteria; base size = XP spent
+- Brand of the Open Hand adds +1 shown card per Rank
 - Generated cards are Temporal
 
 🍺 Tavern (1 use per Town)
-Option A:
 
+Option A:
 - Remove 0-2 cards
 - Add 0-4 basics
+
 Option B:
 - Remove 3-5 basics
 - Add 0-2 duals
+
+After removals, the library must remain at or above the player's modified deck minimum unless an effect explicitly overrides it.
 
 ---
 
@@ -452,7 +485,7 @@ Option B:
 Timing and selection:
 
 - Resolve Event, then Trinket before Encounter 1
-- Starting Event cannot be Bad Stuff
+- Starting Event cannot be Bad; Ambush counts as Bad
 - Normal flow: present 3 random Trinkets, party votes 1
 - Trinket Ticket flow: ticket holder chooses 1 from 3 random
 
@@ -462,36 +495,7 @@ Ownership and limits:
 - Normal Trinkets are party property for the run
 - Ticket-created Trinket is tied to that player for session ownership
 
-Current Trinket pool includes:
-
-- The Device
-- Garruk's Clipper
-- Torch
-- Staff of Light
-- Jar of Wine
-- Jar of Honey
-- Tent
-- Thirsting Axe
-- Aspect of Malfegor
-- Bomb / Big Bomb / Bigger Bomb
-- Mirror Shield
-- Explosive Barrel
-- Mitsy, Abandoned
-- Marbles
-- Crossroads Cart
-- Vogar, Bound for Death
-- Sal Bidard, Glory Reforged
-- Campfire
-- Armament of Death
-- Loch Shield
-- Aegis of Verix
-- Watcher's Eye
-- Tonitrus, Skullduster
-- Dragovokia
-- Gideon's Training Saber
-
-Note:
-Use the Trinket System document for exact timing text and adjudication wording for each Trinket.
+Use TRINKET-SYSTEM-V1.0.md for the current Trinket pool and exact timing/adjudication text.
 
 ---
 
@@ -507,7 +511,7 @@ Locked Crypt rules:
 
 Run end:
 
-- Win: run completes. Each eligible player gains 500 Essence and the awarded Crypt boss Buff (duplicate Buffs are auto-sold for +250 Essence).
+- Win: run completes. Each eligible player gains 500 Essence and the awarded Crypt boss Buff; duplicate Buffs are auto-sold for +250 Essence.
 - Win or lose: each eligible player gains Deck CMC + Sideboard CMC as Essence, and unspent XP converts to Essence.
 
 Persistent progression is tracked across runs and includes:
@@ -518,19 +522,7 @@ Persistent progression is tracked across runs and includes:
 - Achievements
 - Captures
 
-Sample Crypt Buff unlocks:
-
-- The God Trees Blessing
-- Shapeshifter
-- Treasure Pirate
-
-Sample achievement tracks:
-
-- General Achievements
-- Creature-Type Achievements
-- Guild Identity Achievements
-
-For full unlock requirements and effect text, use the Permanent Progression document.
+For full unlock requirements and effect text, use PERMANENT-PROGRESSION.md.
 
 ---
 
@@ -542,14 +534,18 @@ For full unlock requirements and effect text, use the Permanent Progression docu
 - Hosts also track game state and progression context
 - Keep entries accurate
 
-📦 Global Limits
+📦 Deck / Sideboard Limits
+
 Each player must have:
 
 - 1 Commander
-- 39-card library
+- A library at or above their **modified deck minimum**
+- Base library minimum: 39 non-Commander cards
+- Brand of the Infinite Void: -1 minimum library card per Rank
 
 Each player may have:
 
+- An **unlimited-size Sideboard**
 - 1 Partner
 - 1 Background
 - 1 Conspiracy
@@ -558,6 +554,14 @@ Each player may have:
 - 1 Trinket
 - 1 Companion
 - 4 Buff Slots (Buffs, Achievements, Tickets, Captures)
+
+Color identity:
+
+- Initial 100-card pool is restricted to starting Commander color identity
+- Merchant ID Pack is restricted to current Commander color identity
+- Free Choice Card may be off-color
+- Mystery, Pro, Mythic, and OTAG Merchant Packs may be any color
+- Players do not generally have to keep their Deck or Sideboard within Commander color identity during gameplay
 
 🎟 Ticket Slot Costs
 
@@ -570,19 +574,13 @@ Each player may have:
 - Hosts may customize encounters and table flavor
 - Verified Hosts may not alter Essence costs on Base table progression
 
-⚡ Phase+ Clarification
-
-- Phase+ is treated as integrated into Host Authority
-- Use Host Authority as the source of truth for pacing/scaling effects
-
-🧠 Gleemax Table Rule
-
-- Gleemax rule remains active on your table ruleset
-- Gleemax can only appear from Mystery Packs
-
 🔍 Scryfall Usage
 
 - Scryfall powers many card-generation searches
 - Hosts should know core query basics
 
 Scryfall: <https://scryfall.com/>
+
+---
+
+For deck construction and deck-interaction questions, use **DECKBUILDING-RULES-V2.1.md** as the focused source of truth when an older summary conflicts.
