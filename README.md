@@ -9,9 +9,10 @@ A cooperative, long-form Commander roguelike where players form a party and push
 If you are new, read these in order:
 
 1. [CORE-RULES.md](CORE-RULES.md)
-2. [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md)
-3. [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md)
-4. [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md)
+2. [DECKBUILDING-RULES-V2.1.md](DECKBUILDING-RULES-V2.1.md) — focused deck construction, Brand modifiers, color identity, deck minimum, Sideboard, and pack rules
+3. [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md)
+4. [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md)
+5. [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md)
 
 ## At a Glance
 
@@ -41,9 +42,9 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 
 ## What's New
 
-- Last updated: **2026-05-06**
-- Index and onboarding flow were updated to improve first-time readability.
-- Run length is now explicitly surfaced as a **4-6 hour** event-length experience.
+- Last updated: **2026-08-13**
+- Added a focused deckbuilding clarification covering Brand modifiers, modified deck minimums, unlimited Sideboards, and MTGR's gameplay color-identity allowances.
+- Initial deck generation remains color-identity restricted where specified, while gameplay cards are not generally required to stay within Commander color identity.
 
 ---
 
@@ -68,6 +69,7 @@ Standard path usually resolves in 3 encounters before the Crypt. Variant path ca
 | Document | Description |
 | :--- | :--- |
 | [CORE-RULES.md](CORE-RULES.md) | Core rules, player structure, commander selection, deck construction, and global limits |
+| [DECKBUILDING-RULES-V2.1.md](DECKBUILDING-RULES-V2.1.md) | Focused source of truth for deck construction, Brand modifiers, deck minimum, Sideboard, color identity, Merchant packs, and Guild interactions |
 | [SHOPS.md](SHOPS.md) | Pregame Shop — commander mulligans, partner/background access, and pregame purchases |
 | [BRANDS-SYSTEM-V1.0.md](BRANDS-SYSTEM-V1.0.md) | Persistent deckbuilding Brands purchasable before or after a run |
 | [TRINKET-SYSTEM-V1.0.md](TRINKET-SYSTEM-V1.0.md) | Pre-first-encounter Trinket selection flow and Trinket Ticket override |
