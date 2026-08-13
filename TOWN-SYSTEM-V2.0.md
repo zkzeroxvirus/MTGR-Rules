@@ -78,6 +78,8 @@ Move up to **6 cards** between your deck and sideboard.
 
 Bank interactions only happen while in Town.
 
+The **Sideboard has no size limit**. The Bank limits how many cards may be moved between Deck and Sideboard during that Town visit; it does not limit Sideboard capacity.
+
 ---
 
 ## ⚒️ BLACKSMITH *(Unlimited)*
@@ -139,6 +141,8 @@ Then choose:
 
 **Rules:** The description cannot force one specific card. The Host interprets the request.
 
+Cards gained from Cathedral are not restricted by Commander color identity unless the effect or request specifically imposes that restriction.
+
 ---
 
 ## ⚔️ THE GUILD *(Unlimited)*
@@ -151,17 +155,25 @@ Change your Commander.
 
 Your old Commander goes to your **deck or sideboard**.
 
+**Brand modifiers:**
+
+* **Brand of the Conclave** adds **+1 Commander option per Rank** to the generated Guild choices.
+* **Brand of Recurrence** grants **+1 free Commander reroll per Rank** when using The Guild.
+
 **Rules:**
 
-* Declare color combination **before rolling**
-* Generated Commanders must follow normal Commander legality rules
-* Your deck must remain legal under the new Commander's color identity — adjust immediately if needed
+* Declare color combination **before rolling**.
+* Generated Commanders must follow normal Commander legality rules.
+* Changing Commander does **not** force existing cards in your Deck or Sideboard to match the new Commander's color identity.
+* The new Commander's color identity is used only by later effects that explicitly generate or search within your current Commander color identity.
 
 ---
 
 ## 🛒 MERCHANT *(Unlimited)*
 
-Open a **15-card pack**, then keep **1 card**.
+Open a **15-card base pack**, then keep **1 card**.
+
+**Brand of the Open Hand:** Each Rank adds **+1 card** to every pack you open. This increases the number of cards you see, not the number you keep.
 
 > You always keep only 1 card per pack. This limit applies regardless of Brands or other effects. The only exception is a specific Traveler that explicitly grants additional keeps.
 
@@ -175,7 +187,7 @@ Open a **15-card pack**, then keep **1 card**.
 
 **Search parameters:** supertype, type, subtype, keyword, mana value.
 
-**Rules:** ID, Pro, Mythic, and OTAG Packs follow your Commander's color identity. Mystery Packs have no color restrictions. During a run, you may also obtain cards outside your color identity through encounter cashouts and other sources.
+**Rules:** ID, Pro, Mythic, and OTAG Pack **generation** follows your current Commander's color identity. Mystery Packs have no color restriction. Commander color identity is not a general gameplay deck restriction: cards already owned or gained from unrestricted sources may remain in your Deck or Sideboard regardless of color identity.
 
 ---
 
@@ -187,13 +199,17 @@ Destroy a **nonland card** from your deck. Gain **Essence equal to twice its man
 
 **Rules:** Mystic is used for deck pruning and resource conversion.
 
+Your Deck must remain at or above your current modified deck-size minimum after pruning. The base minimum may be reduced by **Brand of the Infinite Void**.
+
 ---
 
 ## 🌀 PORTAL *(1 use per Town)*
 
 **Cost:** Up to 15 XP
 
-Generate a randomized pack using type or keyword search criteria. **Pack size equals XP spent.**
+Generate a randomized pack using type or keyword search criteria. **Base pack size equals XP spent.**
+
+**Brand of the Open Hand** adds **+1 generated card per Rank** when you open the Portal pack.
 
 All generated cards are **Temporal**.
 
@@ -220,3 +236,5 @@ Choose one mana-fixing option:
 * Add 0–2 dual lands of your choice
 
 **Rules:** Tavern is for deck smoothing and mana fixing only.
+
+Your Deck must remain at or above your current modified deck-size minimum after removals.

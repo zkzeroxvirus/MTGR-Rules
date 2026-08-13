@@ -48,16 +48,17 @@ Terminology rule:
 
 ### **1 — Commander Selection**
 
-• Generate 5 random legal commanders  
-• Choose 1  
-• Each player has **4 Commander Mulligans** — opportunities to reroll their starting Commander before the first encounter  
-• Additional Commander Mulligans may only come from specific game effects
+• Base Commander generation is **5 random legal commanders**; choose 1  
+• **Brand of the Conclave** adds **+1 Commander option per Rank** whenever Commanders are generated during deckbuilding or by The Guild  
+• Each player has a base of **4 Commander Mulligans** before the first encounter  
+• **Brand of Recurrence** adds **+1 free Commander reroll per Rank** during deckbuilding and when using The Guild  
+• Other specific game effects may grant additional Commander options, filters, or mulligans
 
 ---
 
 ### **2 — Deck Generation**
 
-• Each player independently generates their own **100-card pool** within their commander's color identity  
+• Each player independently generates their own **100-card pool** within their Commander's color identity  
 • The pool may contain **any card type** — spells, nonbasic lands, artifacts, etc.  
 • **Basic lands** are not included in the pool  
 • **Stickers, Attractions, and Contraptions** are immediately rerolled and replaced  
@@ -68,21 +69,23 @@ Deckbuilding rule:
 • Exception: If an individual card in the pool is invalid or illegal for use, replace only that card  
 • Commander rerolls from other rules are still allowed; this lock applies only to deck card drafting
 
-**Note:** Initial deckbuilding is restricted to your Commander's color identity. During the run, you may obtain cards outside your color identity through encounter cashouts and Mystery Packs.
+**Color identity rule:** The initial 100-card generated pool is restricted to your Commander's color identity. **Color identity is not a general deck-legality restriction during gameplay.** Cards gained from unrestricted effects may be outside your Commander's color identity and may be placed into your Deck or Sideboard unless the effect says otherwise.
 
 ---
 
 ### **3 — Lands**
 
-• Your deck contains **16 lands total**
+• Initial deckbuilding uses **16 lands total** unless another effect changes that number
 
-Additional colors grant dual lands:  
+Base dual-land allocation:  
  • 2 colors → \+2 dual lands  
  • 3 colors → \+4 dual lands  
  • 4 colors → \+6 dual lands  
  • 5 colors → \+8 dual lands
 
 The remaining lands are basic.
+
+**Brand of the Cartographer:** During deckbuilding, each Rank lets you replace **2 additional basic lands** with dual lands or triomes. This modifies the base allocation above without increasing the total number of lands.
 
 ---
 
@@ -91,8 +94,8 @@ The remaining lands are basic.
 Add 1 card of your choice during initial deckbuilding:
 
 Restrictions:  
-• Must follow your Commander's color identity  
-• Not banned in Commander  
+• **May be outside your Commander's color identity**  
+• Must otherwise be legal for use in Commander  
 • Not Sol Ring  
 • Not a Gamechanger
 
@@ -142,9 +145,12 @@ Applies to all MTGR runs unless overridden by the Host.
 
 ### **5 — Deck Completion**
 
-• Deck size: **40 cards (Commander \+ 39\)**  
- • Sideboard allowed  
- • All pre-game effects must be finalized before starting
+• Base deck minimum: **40 total cards (Commander + at least 39 cards in the library)**  
+• **Brand of the Infinite Void** reduces your minimum library requirement by **1 card per Rank**  
+• Starting construction normally produces Commander + 39 before minimum-reducing effects are applied  
+• The **Sideboard has no size limit**  
+• Cards gained during the run do not have to be removed merely to return to the starting 39-card library size  
+• All pre-game effects must be finalized before starting
 
 ---
 
@@ -425,13 +431,16 @@ When a player casts a spell with Storm:
 
 Whenever a player would gain a card:
 
-• They may put it into their **Deck or Sideboard**, unless otherwise stated
+• They may put it into their **Deck or Sideboard**, unless otherwise stated  
+• The Sideboard has **no size limit**  
+• Players **do not have to remain within their Commander's color identity during gameplay**  
+• Color identity applies only when a card-generation, search, or other effect explicitly says it is restricted by color identity
 
 Applies to:  
  • Events, Town, Cash Outs, Travelers, Packs, Rewards
 
 Override:  
- • Effects that explicitly bypass placement
+ • Effects that explicitly bypass placement or impose their own restrictions
 
 ---
 
@@ -543,9 +552,12 @@ If a player starts with lands in play:
 
 ## **📦 PACK RULES**
 
- • Pro Pack → 45+ results  
- • Mythic Pack → 30+ results  
- • OTAG Pack → 15+ results
+• Pack card quantity uses the pack's normal base size  
+• **Brand of the Open Hand** adds **+1 card per Rank** whenever that player opens a pack  
+• Brand-added cards increase the number of cards seen; they do **not** increase a pack's keep limit unless another effect explicitly says so  
+• Pro Pack → 45+ results  
+• Mythic Pack → 30+ results  
+• OTAG Pack → 15+ results
 
 Invalid packs must be rerolled or adjusted.
 
@@ -584,9 +596,10 @@ Variant mode:
 
 Each player must have:  
  • 1 Commander  
- • 39-card library
+ • A library at or above their **modified deck minimum** — base minimum is 39 non-Commander cards, reduced by **Brand of the Infinite Void** by 1 per Rank
 
 Each player may have:  
+ • An **unlimited-size Sideboard**  
  • 4 Buff Slots (Includes Crypt Buffs, Achievements, Tickets and Captures.)  
  • 1 Partner  
  • 1 Background  
@@ -619,6 +632,7 @@ Each player may have:
 • OTAG Packs must contain at least 15 unique cards  
 • Only cards legal in game:paper may be used  
 • Only cards legal in format:commander may be used  
+• **Commander color identity is not a general gameplay deck restriction; it applies only where a specific generation/search rule says it does**  
 • No Alchemy cards
 
 ### **🗃️ LEGACY / DISABLED**
