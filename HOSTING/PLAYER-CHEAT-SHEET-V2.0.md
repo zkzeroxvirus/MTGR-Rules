@@ -27,12 +27,12 @@ Complete these steps before Encounter 1, in order:
 
 1. Apply persistent progression effects (tickets, buffs, achievements, captures, brands).
 2. Resolve any pregame shop effects.
-3. **Commander Selection** — Generate 5 legal options, choose 1. You have **4 Commander Mulligans** to reroll if needed.
-4. **Deck Generation** — Generate your own 100-card pool (all card types, no basic lands). Reroll any Stickers, Attractions, or Contraptions immediately. Draft 22 cards from your pool.
-5. **Lands** — Add lands to reach a legal total (see land table in Section 4).
-6. **Free Choice Card** — Add 1 card that obeys your color identity, is Commander legal, is not Sol Ring, and is not a Gamechanger. Stamp it with a "Scryfall" decal.
-7. Final legality check: Commander + 39.
-8. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be a Bad Stuff Event.
+3. **Commander Selection** — Base generation is 5 legal options, choose 1. **Brand of the Conclave** adds +1 option per Rank. You have 4 base Commander Mulligans; **Brand of Recurrence** adds +1 free Commander reroll per Rank. Apply any other Commander-generation effects as written.
+4. **Deck Generation** — Generate your own 100-card pool within your starting Commander's color identity (all card types, no basic lands). Reroll any Stickers, Attractions, or Contraptions immediately. Draft 22 cards from your pool.
+5. **Lands** — Start with 16 total lands. Apply the normal dual-land allocation, then apply **Brand of the Cartographer**: each Rank may replace 2 additional basics with dual lands or triomes.
+6. **Free Choice Card** — Add 1 Commander-legal card. It **may be outside your Commander's color identity**, cannot be Sol Ring, and cannot be a Gamechanger unless another effect explicitly allows it. Stamp it with a "Scryfall" decal.
+7. **Final deck check** — Base minimum is Commander + at least 39 cards in the library. **Brand of the Infinite Void** reduces the library minimum by 1 per Rank. The Sideboard has no size limit.
+8. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be Bad; Ambush counts as Bad.
 9. Seat-swap window: after deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 ---
@@ -64,32 +64,36 @@ The following count toward your buff slots:
 
 | Component | Rule |
 |-----------|------|
-| Commander | 1, chosen from 5 generated options |
-| Drafted cards | 22, from your personal 100-card pool |
-| Lands | 16 total (see land table below) |
-| Free choice card | 1 |
-| **Total** | **Commander + 39** |
+| Commander | Base 5 generated options; +1 per Brand of the Conclave Rank |
+| Commander mulligans | Base 4; +1 per Brand of Recurrence Rank |
+| Drafted cards | 22, from your personal 100-card color-identity-restricted starting pool |
+| Lands | 16 total; normal dual allocation plus Cartographer replacements |
+| Free Choice Card | 1; may be outside Commander color identity |
+| Deck minimum | Base Commander + 39-card library; -1 library card per Infinite Void Rank |
+| Sideboard | No size limit |
 
-**Land Table (Dual Land Allocation):**
+**Land Table (Base Dual Land Allocation):**
 
 | Colors | Dual Lands |
 |--------|------------|
+| 1 | 0 |
 | 2 | +2 duals |
 | 3 | +4 duals |
 | 4 | +6 duals |
 | 5 | +8 duals |
 
-Remaining land slots are filled with basics.
+Remaining land slots are filled with basics before Brand of the Cartographer replacements. Each Cartographer Rank may replace 2 additional basics with dual lands or triomes.
 
-**Key restrictions:**
+**Key restrictions and allowances:**
 
-- Your 100-card pool may include any card type except basic lands.
-- Stickers, Attractions, and Contraptions are rerolled and replaced immediately.
-- Free choice card cannot be Sol Ring or a Gamechanger.
-- All cards must respect Commander legality and your color identity.
+- Your initial 100-card generated pool is restricted to your starting Commander's color identity.
+- That restriction is **not** a general gameplay deck restriction. During the run, your Deck and Sideboard may contain cards outside your Commander's color identity unless a specific effect says otherwise.
+- Stickers, Attractions, and Contraptions are rerolled and replaced immediately from the initial pool.
+- The Free Choice Card may be off-color, but cannot be Sol Ring or a Gamechanger unless another effect explicitly allows it.
 - If an individual generated card is invalid, replace only that card — the full pool is not rerolled.
 - No two-card combos are allowed in any run deck (players and Host).
 - A card with a "Scryfall" decal cannot be used as part of a three-card combo.
+- Cards may be added above your minimum deck size during the run. You do not have to return to exactly 39 library cards.
 
 ---
 
@@ -98,12 +102,12 @@ Remaining land slots are filled with basics.
 Each stage follows this exact sequence:
 
 1. Encounter
-2. **Victory only:** Rewards — XP, Cash Out, and Loot Pool (all three, any order)
+2. **Victory only:** Rewards — XP, Cash Out, and Loot Pool
 3. Choose: Town or Stay Out *(mandatory, win or lose)*
 4. Resolve Events
 5. Next encounter
 
-**Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
+**Before Encounter 1:** Resolve Event, then Trinket. The starting Event cannot be Bad; Ambush counts as Bad. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 **If an encounter was lost:**
 
@@ -118,7 +122,7 @@ Each stage follows this exact sequence:
 **On Victory:**
 
 - Gain XP.
-- Resolve Cash Out (pick one each).
+- Resolve Cash Out.
 - Resolve Loot Pool.
 - Choose Town or Stay Out.
 - Resolve Events based on your choice.
@@ -148,8 +152,14 @@ When the party chooses Town:
 3. Resolve 1 Event.
 4. Move to the next encounter.
 
-> **Reminders:** Building uses reset every time you return to Town. Cash Outs do not consume building uses.
-> "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**.
+**Deck-interaction reminders:**
+
+- **Bank:** Move up to 6 cards between Deck and Sideboard during that Town visit. The Sideboard itself has no size limit.
+- **The Guild:** Changing Commander does not make existing off-color cards illegal. Conclave adds +1 generated Commander option per Rank; Recurrence adds +1 free Commander reroll per Rank.
+- **Merchant:** Only the **ID Pack** is color-identity restricted. Mystery, Pro, Mythic, and OTAG Packs may contain any colors. Brand of the Open Hand adds +1 card shown per Rank while the normal keep limit remains unchanged.
+- **Mystic/Tavern:** Card removal must leave your library at or above your current modified deck minimum unless an effect explicitly overrides it.
+
+> **Reminders:** Building uses reset every time you return to Town. Cash Outs do not consume building uses. "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**.
 
 ---
 
@@ -193,14 +203,14 @@ When the party chooses Stay Out, resolve in order:
 - Unselected Cash Outs are removed from play.
 - Pack Rewards: T1 (core packs), T2 (advanced/specialty packs).
 - Bonus Building Usage: Grants one free extra use of that building next Town visit.
-- Tier Note: Bonus Building Usage cashouts are T2. Other non-pack cashouts are T3.
-- Crypt Fight Cashout *(ultra-rare, 0.5%)*: Hold until the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
+- Crypt Fight Cashout: Hold until the Crypt fight, then choose which Crypt to fight from the standard pool instead of rolling randomly. Only one activates per run.
 
 **Loot Pool:**
 
 - Cards revealed from the defeated encounter's deck.
 - Basic lands are rerolled.
-- Shared pool — players select additions to their decks.
+- Shared pool — players select additions to their Deck or Sideboard.
+- Loot cards are not generally restricted by Commander color identity.
 
 ---
 
@@ -242,11 +252,21 @@ The Crypt is the final encounter — the hardest fight of the run. The Host alwa
 
 **The run ends if the party fails to defeat the Crypt.**
 
-**Crypt Fight Cashout:** If you have this ultra-rare Cash Out, reveal it before the Crypt begins and choose which Crypt to fight from the standard pool instead of rolling randomly. Only one may activate per run.
+**Crypt Fight Cashout:** If you have this Cash Out, reveal it before the Crypt begins and choose which Crypt to fight from the standard pool instead of rolling randomly. Only one may activate per run.
 
 ---
 
 ## 13. Pack And Search Quality Rules
+
+**Merchant color rules:**
+
+| Pack Type | Color Rule | Search Rule |
+|-----------|------------|-------------|
+| Mystery | Any color | No color restriction |
+| ID | **Current Commander color identity only** | Identity filter |
+| Pro | Any color | +1 search parameter |
+| Mythic | Any color | +2 search parameters |
+| OTAG | Any color | OTAG search |
 
 **Minimum result thresholds:**
 
@@ -257,6 +277,8 @@ The Crypt is the final encounter — the hardest fight of the run. The Host alwa
 | OTAG Pack | 15+ |
 
 If a pack doesn't meet its quality threshold, reroll or adjust the pack.
+
+**Brand of the Open Hand:** Add +1 card to the pack per Rank. This increases choices shown, not the number of cards kept unless another effect explicitly changes the keep limit.
 
 ---
 
@@ -269,11 +291,12 @@ Before confirming ready for the next encounter:
 - [ ] Loot choices resolved.
 - [ ] Town/Stay Out choice confirmed.
 - [ ] Event count for this transition confirmed.
-- [ ] Deck legality intact after any swaps.
+- [ ] Library remains at or above its modified deck minimum after any removals or swaps.
+- [ ] Any effect-specific color/search restrictions were followed; off-color cards are otherwise allowed during gameplay.
 - [ ] Buff slots still legal.
 
 ---
 
 ## 15. One-Line Player Script
 
-*"Win the encounter, claim rewards in order, choose Town or Stay Out, resolve Events, keep your deck legal, and survive until the Crypt."*
+*"Win the encounter, claim rewards, choose Town or Stay Out, resolve Events, respect your modified deck minimum and effect-specific restrictions, and survive until the Crypt."*
