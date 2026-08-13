@@ -1,1 +1,0 @@
-Magic: The Gathering card-game documentation cleanup staging marker.
