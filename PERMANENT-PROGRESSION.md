@@ -31,7 +31,7 @@ Unless otherwise stated, activated progression effects may be used **once per en
 ## **Quick Spell**
 
 **Effect**  
-Once per town, you may upgrade a card for free.
+Once after each encounter, you may upgrade a card for free, even if the party stays out.
 
 **Unlock Source**  
 Beat Kudo, King Among Bears.
@@ -41,19 +41,23 @@ Beat Kudo, King Among Bears.
 ## **Spiritual Guidance**
 
 **Effect**  
-Gain +25% Essence.
+Whenever you gain XP, also gain Essence equal to 25% of the XP gained.
+
+You also gain 25% more Essence from all sources.
+
+Additionally, once per turn, when you cast a spell that targets one or more permanents, create a 1/1 white Spirit creature token.
 
 **Unlock Source**  
 Beat Hinata, Dawn-Crowned.
 
 ---
 
-## **The God Trees Blessing**
+## **The God Tree's Blessing**
 
 **Effect**  
-You may pick the color of your choice for Merchant packs that have color.
+You may change the color or colors of any Cash Out, Event, or Loot Pool reward you are offered to colors of your choice.
 
-You may switch the color identity of encounter rewards you are offered.
+You may also replace any Cash Out reward you are offered with a Pro Pack.
 
 **Unlock Source**  
 Beat Jared Carthalion.
@@ -85,7 +89,7 @@ Beat King of the Oathbreakers.
 ## **Unearthly Reach**
 
 **Effect**  
-Gain either an additional upkeep or an additional end step.
+At the beginning of each of your turns, choose one: you gain an additional upkeep step that turn; or you gain an additional end step that turn.
 
 **Unlock Source**  
 Beat Tormod and Ravos.
@@ -95,7 +99,7 @@ Beat Tormod and Ravos.
 ## **Respited Gift**
 
 **Effect**  
-Gain +1 Cashout per fight.
+After each fight, gain two additional random Cash Out rewards. These rewards go directly to the player with this buff.
 
 **Unlock Source**  
 Beat Kibo, Uktabi Prince.
@@ -117,7 +121,7 @@ Beat The Jolly Balloon Man.
 **Effect**  
 During your upkeep, flip a coin.
 
-If you win the flip, draw a card.
+If you win the flip, draw two cards, then discard a card.
 
 If you lose the flip, lose 1 life.
 
@@ -129,9 +133,7 @@ Beat Okaun and Zndrsplt.
 ## **Finders Keepers**
 
 **Effect**  
-Once per encounter, you may look at the top 3 cards of target player's library and put them back in any order.
-
-You then draw a card.
+Once per encounter, you may look at the top four cards of target player's library. Put any number of them on the bottom of that library, then put the rest back on top in any order. Then draw a card.
 
 **Unlock Source**  
 Beat Yuriko, the Tiger's Shadow.
@@ -141,7 +143,7 @@ Beat Yuriko, the Tiger's Shadow.
 ## **Flame of Progress**
 
 **Effect**  
-Gain +25% Experience.
+Gain 25% more XP.
 
 **Unlock Source**  
 Beat Azlask, the Swelling Scourge.
@@ -183,7 +185,7 @@ Beat Olivia, Opulent Outlaw.
 ## **Dark Beginnings**
 
 **Effect**  
-Your commander is augmented after deck creation.
+Your Commander is augmented after deck creation.
 
 **Unlock Source**  
 Beat Maha, Its Feathers Night.
@@ -195,9 +197,8 @@ Beat Maha, Its Feathers Night.
 **Effect**  
 Once per encounter, choose one:
 
-Pay {2}: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
-
-Look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+• Pay {2}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.  
+• Look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 
 **Unlock Source**  
 Beat Loot, Exuberant Explorer.
@@ -226,13 +227,13 @@ Defeat Iron Spider, Stark Upgrade.
 
 ---
 
-## **Lucky Pull**
+## **Spoils of War**
 
 **Effect**  
-Whenever one or more creatures you control deal combat damage to an opponent, draw a card.
+Whenever one or more creatures you control deal combat damage to an opponent, surveil 1, then draw a card.
 
 **Unlock Source**  
-Beat Jin Sakai, Ghost of Tsushima.
+Defeat Jin Sakai, Ghost of Tsushima.
 
 ---
 
@@ -265,7 +266,7 @@ Tickets are permanent progression purchases from the Progression Shop and still 
 ## **Arcane Signet Ticket**
 
 **Effect**  
-You get an Arcane Signet Ticket. This allows you to have a free Arcane Signet in your deck without it counting toward your 39.
+You get an Arcane Signet Ticket. This allows you to have a free Arcane Signet in your deck without it counting toward your normal library minimum.
 
 **Slot Cost**  
 1
@@ -275,7 +276,7 @@ You get an Arcane Signet Ticket. This allows you to have a free Arcane Signet in
 ## **Sol Ring Ticket**
 
 **Effect**  
-You get a Sol Ring Ticket. This allows you to have a free Sol Ring in your deck without it counting toward your 39.
+You get a Sol Ring Ticket. This allows you to have a free Sol Ring in your deck without it counting toward your normal library minimum.
 
 **Slot Cost**  
 1
@@ -285,7 +286,7 @@ You get a Sol Ring Ticket. This allows you to have a free Sol Ring in your deck 
 ## **Leyline Ticket**
 
 **Effect**  
-You get a Leyline Ticket. This allows you to have a free Leyline in your deck without it counting toward your 39.
+You get a Leyline Ticket. This allows you to have a free Leyline in your deck without it counting toward your normal library minimum.
 
 **Slot Cost**  
 1
@@ -322,7 +323,7 @@ You may begin the game with a Conspiracy of your choice from 3 random options.
 Choose it before picking your Commander.
 
 **Rules**  
-You see Conspiracy options only once per session. If you decline, you cannot see new Conspiracy options that session (unless you gain another Conspiracy Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
+You see Conspiracy options only once per session. If you decline, you cannot see new Conspiracy options that session unless you gain another Conspiracy Ticket from a Cash Out, which grants fresh options. The Ticket persists across runs.
 
 **Slot Cost**  
 1
@@ -335,7 +336,7 @@ You see Conspiracy options only once per session. If you decline, you cannot see
 You may begin the game with a Vanguard of your choice from 3 random options.
 
 **Rules**  
-You see Vanguard options only once per session. If you decline, you cannot see new Vanguard options that session (unless you gain another Vanguard Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
+You see Vanguard options only once per session. If you decline, you cannot see new Vanguard options that session unless you gain another Vanguard Ticket from a Cash Out, which grants fresh options. The Ticket persists across runs.
 
 **Slot Cost**  
 2
@@ -348,7 +349,7 @@ You see Vanguard options only once per session. If you decline, you cannot see n
 You may begin the game with an Emblem of your choice from 3 random options. The Host eliminates 1 from the pool, then you choose from the remaining 2.
 
 **Rules**  
-You see Emblem options only once per session. If you decline, you cannot see new Emblem options that session (unless you gain another Emblem Ticket from a Cashout, which grants fresh options). The Ticket persists across runs.
+You see Emblem options only once per session. If you decline, you cannot see new Emblem options that session unless you gain another Emblem Ticket from a Cash Out, which grants fresh options. The Ticket persists across runs.
 
 **Slot Cost**  
 3
@@ -361,39 +362,37 @@ Brands are permanent progression purchases from the Progression Shop.
 
 Brand effects stack. Each Brand may be purchased any number of times.
 
-Each additional purchase of the same Brand costs the **base price × the number of times it has already been purchased**.
-
-*Example: A Brand with a 1000 Essence base costs 1000 for the 1st copy, 2000 for the 2nd, 3000 for the 3rd.*
+Each Brand has Ranks. Each purchase increases that Brand's Rank by 1, and its effects apply once per Rank unless stated otherwise.
 
 ---
 
 ## **Brand of the Cartographer**
 
 **Effect**  
-When drafting, you may replace 2 basic lands with dual lands or triomes.
+During deckbuilding, each Rank lets you replace 2 additional basic lands with dual lands or triomes.
 
 ---
 
 ## **Brand of the Conclave**
 
 **Effect**  
-During deckbuilding and when using The Guild, you get 1 additional Commander choice whenever Commanders are generated for you.
+During deckbuilding and when using The Guild, each Rank gives you 1 additional Commander choice whenever Commanders are generated for you.
 
 ---
 
 ## **Brand of Recurrence**
 
 **Effect**  
-During deckbuilding and when using The Guild, you may reroll Commanders 1 additional time for free.
+During deckbuilding and when using The Guild, each Rank gives you 1 additional free Commander reroll.
 
-This applies to Commander generation only and does not allow rerolling the 100-card nonland draft pile.
+This applies to Commander generation only and does not allow rerolling the 100-card draft pool.
 
 ---
 
 ## **Brand of the Open Hand**
 
 **Effect**  
-During the game, whenever you open a pack, that pack contains 1 additional card to choose from.
+Whenever you open a pack, each Rank adds 1 additional card to that pack. This increases the number of cards shown, not the number you keep unless another effect explicitly increases the keep limit.
 
 ---
 
@@ -407,7 +406,7 @@ During deckbuilding, you may choose one color to not appear when rolling Command
 ## **Brand of the Infinite Void**
 
 **Effect**  
-Your deck size minimum is reduced by 1 per Rank.
+Your library minimum is reduced by 1 card per Rank.
 
 **Base Cost:** 500 Essence
 
@@ -424,17 +423,17 @@ Your deck size minimum is reduced by 1 per Rank.
 ### **Chaos**
 
 **Effect**  
-Once per game, reroll an Event.
+Up to three times per game, you may reroll an Event.
 
 **Unlock Requirement**  
-Open 5 Events in a row before an encounter.
+Open five Events in a row before an encounter without rerolling or replacing any of them through another effect.
 
 ---
 
 ### **Victory Lap**
 
 **Effect**  
-You have two additional free mulligans.
+You have three additional free mulligans.
 
 **Unlock Requirement**  
 Beat 3 Crypt bosses in a single session.
@@ -444,12 +443,10 @@ Beat 3 Crypt bosses in a single session.
 ### **One with Death**
 
 **Effect**  
-Gain a second free card during deck creation.
-
-One of those free cards can be a Game Changer.
+Gain a second free card during deck creation. One of those free cards can be a Gamechanger.
 
 **Unlock Requirement**  
-Beat a Crypt fight on turn two or earlier.
+Beat a Crypt fight on turn one.
 
 ---
 
@@ -481,19 +478,13 @@ Indirectly kill one non-Host player in a session.
 
 ---
 
-### **Gambler's Never Quit**
+### **Gamblers Never Quit**
 
 **Effect**  
-Once per town, when you choose your first building use that costs XP, you may flip a coin.
-
-If you win the coin flip, that building use is free.
-
-If you lose the coin flip, that building use costs double XP.
-
-You may not use this ability unless you can pay double the XP cost.
+Once per turn, when you would flip a coin or roll a die, you may instead flip two coins or roll two dice and ignore one result.
 
 **Unlock Requirement**  
-Win a coin flip 6 times in a row.
+Win six coin flips in a row.
 
 ---
 
@@ -520,140 +511,144 @@ Beat a Crypt fight with Attractions.
 ### **Nature's Blessing**
 
 **Effect**  
-Instead of gaining dual lands during deck creation, you may get triomes.
+During deck creation, you may choose triomes instead of dual lands.
+
+Additionally, you may use Scryfall to replace up to five basic lands in your deck with different nonbasic lands. Those lands cannot be Gamechangers or have abilities that destroy lands.
 
 **Unlock Requirement**  
-Beat a Crypt fight with 50 or more lands in your deck.
+Defeat a Crypt fight with 50 or more lands in your deck.
 
 ---
 
-## **Creature-Type Achievements**
+## **Creature-Type Achievements (7)**
 
 ---
 
 ### **Changeling's Land Form**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a random basic land card from outside the game into your hand.
+After you finish taking mulligans, exile two random basic land cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Changeling Commander.
+Defeat a Crypt fight with a Changeling Commander.
 
 ---
 
 ### **Construct's Salvation**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a Wastes card from outside the game into your hand.
+After you finish taking mulligans, exile two Wastes cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Construct Commander.
+Defeat a Crypt fight with a Construct Commander.
 
 ---
 
 ### **Horse's Gallop**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a Forest card from outside the game into your hand.
+After you finish taking mulligans, exile two Forest cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Horse Commander.
+Defeat a Crypt fight with a Horse Commander.
 
 ---
 
 ### **Raccoon's Rage**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a Mountain card from outside the game into your hand.
+After you finish taking mulligans, exile two Mountain cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Raccoon Commander.
+Defeat a Crypt fight with a Raccoon Commander.
 
 ---
 
 ### **Scorpion's Nest**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a Swamp card from outside the game into your hand.
+After you finish taking mulligans, exile two Swamp cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Scorpion Commander.
+Defeat a Crypt fight with a Scorpion Commander.
 
 ---
 
 ### **Fish Pond**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put an Island card from outside the game into your hand.
+After you finish taking mulligans, exile an Island card from outside the game. You may play that card from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Fish Commander.
+Defeat a Crypt fight with a Fish Commander.
 
 ---
 
 ### **Dawn of Crabs**
 
 **Effect**  
-After you draw your opening hand and finish mulligans, you may put a Plains card from outside the game into your hand.
+After you finish taking mulligans, exile a Plains card from outside the game. You may play that card from exile.
 
 **Unlock Requirement**  
-Beat a Crypt fight with a Crab Commander.
+Defeat a Crypt fight with a Crab Commander.
 
 ---
 
-## **Guild Identity Achievements**
+## **Guild Identity Achievements (10)**
+
+For these achievements, a color clause applies when your Commander's color identity includes that color. A two-color guild Commander therefore receives both clauses for its guild.
 
 ---
 
-### **Simic Identity Buff - Adaptive Pattern**
+### **Simic — Adaptive Pattern**
 
 **Effect**  
-If your Commander is blue: once per turn, when you draw your second card this turn, you may put a +1/+1 counter on a creature you control.
+If your Commander's color identity includes blue: once per turn, when you draw your second card, put a +1/+1 counter on a creature you control.
 
-If your Commander is green: once per turn, when a +1/+1 counter is placed on a creature you control, you may draw a card.
+If your Commander's color identity includes green: once per turn, when one or more +1/+1 counters are put on a creature you control, draw a card.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either green, blue, or Simic.
+Defeat a Crypt fight in which all Commanders were green, blue, or Simic.
 
 ---
 
-### **Selesnya Identity Buff - Harmony's Bloom**
+### **Selesnya — Harmony's Bloom**
 
 **Effect**  
-If your Commander is white: once per turn, when you gain life, you may put a +1/+1 counter on a creature you control.
+If your Commander's color identity includes white: once per turn, when you gain life, put a +1/+1 counter on each of up to two target creatures you control.
 
-If your Commander is green: once per turn, when you cast a creature spell, you may gain 1 life.
+If your Commander's color identity includes green: once per turn, when you cast a creature spell, gain 2 life.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either green, white, or Selesnya.
+Defeat a Crypt fight in which all Commanders were green, white, or Selesnya.
 
 ---
 
-### **Rakdos Identity Buff - Showstopper's Encore**
+### **Rakdos — Showstopper's Encore**
 
 **Effect**  
-If your Commander is black: once per turn, when a creature dies, you may draw a card and lose 1 life.
+If your Commander's color identity includes black: once per turn, when one or more creatures die, draw a card and lose 1 life.
 
-If your Commander is red: once per turn, when you deal combat damage to an opponent, you may create a Treasure token.
+If your Commander's color identity includes red: once per turn, when one or more creatures you control deal combat damage to an opponent, create a Treasure token.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either black, red, or Rakdos.
+Defeat a Crypt fight in which all Commanders were black, red, or Rakdos.
 
 ---
 
-### **Orzhov Identity Buff - Tithe and Toil**
+### **Orzhov — Tithe and Toil**
 
 **Effect**  
-If your Commander is white: once per turn, when a token enters the battlefield under your control, you may populate 1.
+If your Commander's color identity includes white: once per turn, when a token enters the battlefield under your control, you may populate.
 
-If your Commander is black: once per turn, when a nontoken creature you control dies, you may create a 1/1 black Zombie token.
+If your Commander's color identity includes black: once per turn, when a nontoken creature you control dies, create a 2/2 black Zombie creature token.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either white, black, or Orzhov.
+Defeat a Crypt fight in which all Commanders were white, black, or Orzhov.
 
 ---
 
-### **Izzet Identity Buff - Experimental Sparks**
+### **Izzet — Experimental Sparks**
 
 **Effect**  
 If your Commander is blue: once per turn, when you cast an instant, you may scry 1, then draw 1.
@@ -665,60 +660,60 @@ Beat a Crypt fight where all players' Commander identities were either blue, red
 
 ---
 
-### **Gruul Identity Buff - Primal Fury**
+### **Gruul — Primal Fury**
 
 **Effect**  
-If your Commander is red: once per turn, when a creature you control becomes modified, you may give it haste until end of turn.
+If your Commander's color identity includes red: the first creature spell you cast each turn has riot.
 
-If your Commander is green: once per turn, when a creature you control attacks, you may give it trample until end of turn.
+If your Commander's color identity includes green: once per turn, when one or more creatures you control attack, choose one of them. It gets +1/+1 and gains trample until end of turn.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either red, green, or Gruul.
+Defeat a Crypt fight in which all Commanders were red, green, or Gruul.
 
 ---
 
-### **Golgari Identity Buff - Cycle of Rot**
+### **Golgari — Cycle of Rot**
 
 **Effect**  
-If your Commander is black: once per turn, when a permanent enters your graveyard from the battlefield, you may put a -1/-1 counter on target creature.
+If your Commander's color identity includes black: once per turn, when a permanent you control is put into your graveyard from the battlefield, you may mill up to three cards.
 
-If your Commander is green: once per turn, when a creature dies, you may create a Food token.
+If your Commander's color identity includes green: once per turn, when one or more cards leave any graveyard, create a Food token.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either black, green, or Golgari.
+Defeat a Crypt fight in which all Commanders were black, green, or Golgari.
 
 ---
 
-### **Dimir Identity Buff - Whisper Network**
+### **Dimir — Whisper Network**
 
 **Effect**  
-If your Commander is blue: once per turn, when you cast a spell on an opponent's turn, you may untap target nonland permanent.
+If your Commander's color identity includes blue: once per turn, when you cast a spell during an opponent's turn, surveil 2.
 
-If your Commander is black: once per turn, when you target a permanent you do not control, you may exile target card in any graveyard.
+If your Commander's color identity includes black: once per turn, when one or more cards are put into your graveyard from your library, exile up to two target cards from graveyards.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either blue, black, or Dimir.
+Defeat a Crypt fight in which all Commanders were blue, black, or Dimir.
 
 ---
 
-### **Boros Identity Buff - Charge of Conviction**
+### **Boros — Charge of Conviction**
 
 **Effect**  
-If your Commander is white: once per turn, when one or more creatures you control attack, you may untap one creature you control.
+If your Commander's color identity includes white: once per turn, when one or more creatures you control attack, untap up to one target attacking creature.
 
-If your Commander is red: once per turn, when a creature you control attacks alone, you may give it +2/+0 until end of turn.
+If your Commander's color identity includes red: once per turn, when you attack with three or more creatures, creatures you control get +1/+0 until end of turn.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either red, white, or Boros.
+Defeat a Crypt fight in which all Commanders were red, white, or Boros.
 
 ---
 
-### **Azorius Identity Buff - Law of Efficiency**
+### **Azorius — Law of Efficiency**
 
 **Effect**  
-If your Commander is white: once per turn, when you cast a spell during another player's turn, you may gain 1 life.
+If your Commander's color identity includes white: once per turn, when you cast a noncreature spell, gain 2 life.
 
-If your Commander is blue: once per turn, when you counter a spell or ability, you may draw a card.
+If your Commander's color identity includes blue: once per turn, when you counter a spell or ability, scry 1, then draw a card.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either white, blue, or Azorius.
+Defeat a Crypt fight in which all Commanders were white, blue, or Azorius.
