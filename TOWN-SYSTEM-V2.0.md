@@ -179,15 +179,15 @@ Open a **15-card base pack**, then keep **1 card**.
 
 | Cost | Pack | Rules |
 | :--- | :--- | :--- |
-| 5 XP | Mystery Pack | No restrictions |
-| 10 XP | ID Pack | Within color identity |
-| 20 XP | Pro Pack | Within color identity + 1 search parameter |
-| 50 XP | Mythic Pack | Within color identity + 2 search parameters |
-| 75 XP | OTAG Pack | Within color identity + OTAG search |
+| 5 XP | Mystery Pack | Any color; no color-identity restriction |
+| 10 XP | ID Pack | **Must be within your current Commander's color identity** |
+| 20 XP | Pro Pack | Any color + 1 search parameter |
+| 50 XP | Mythic Pack | Any color + 2 search parameters |
+| 75 XP | OTAG Pack | Any color + OTAG search |
 
 **Search parameters:** supertype, type, subtype, keyword, mana value.
 
-**Rules:** ID, Pro, Mythic, and OTAG Pack **generation** follows your current Commander's color identity. Mystery Packs have no color restriction. Commander color identity is not a general gameplay deck restriction: cards already owned or gained from unrestricted sources may remain in your Deck or Sideboard regardless of color identity.
+**Rules:** Only the **ID Pack** is restricted to your current Commander's color identity. Mystery, Pro, Mythic, and OTAG Packs may contain cards of any color. Pro, Mythic, and OTAG still use their listed search requirements. Commander color identity is not a general gameplay deck restriction: cards already owned or gained from unrestricted sources may remain in your Deck or Sideboard regardless of color identity.
 
 ---
 

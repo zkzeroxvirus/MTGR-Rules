@@ -80,8 +80,10 @@ Players **do not have to keep their Deck or Sideboard within their Commander's c
 Commander color identity applies only when a rule or effect explicitly uses it, including:
 
 - the initial 100-card generated pool;
-- ID, Pro, Mythic, and OTAG pack generation;
+- Merchant **ID Pack** generation;
 - another effect that specifically says its search or generation follows the current Commander color identity.
+
+Merchant **Mystery, Pro, Mythic, and OTAG Packs are not restricted by Commander color identity**. Pro, Mythic, and OTAG still use their normal search-parameter requirements; those search parameters do not impose a color restriction.
 
 Cards gained from unrestricted sources may be outside color identity and may remain in the Deck or Sideboard.
 
