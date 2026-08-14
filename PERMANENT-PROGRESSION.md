@@ -158,7 +158,7 @@ All creatures you own in all zones gain a creature type your Commander has.
 Pick this buff after deckbuilding.
 
 **Unlock Source**  
-Current permanent buff.
+Defeat Morophon, the Boundless.
 
 ---
 
@@ -446,7 +446,7 @@ Beat 3 Crypt bosses in a single session.
 Gain a second free card during deck creation. One of those free cards can be a Gamechanger.
 
 **Unlock Requirement**  
-Beat a Crypt fight on turn one.
+Beat a Crypt fight on turn two.
 
 ---
 
