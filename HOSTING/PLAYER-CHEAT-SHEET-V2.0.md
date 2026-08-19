@@ -123,7 +123,7 @@ Each stage follows this exact sequence:
 
 - Gain XP.
 - Resolve Cash Out.
-- Resolve a shared Loot Pool of **7 random nonland cards**.
+- Add **7 random nonland cards** to the shared Loot Pool.
 - Choose Town or Stay Out.
 - Resolve Events based on your choice.
 
@@ -207,9 +207,10 @@ When the party chooses Stay Out, resolve in order:
 
 **Loot Pool:**
 
-- Always reveal **7 random nonland cards** from the defeated encounter's deck, regardless of player count.
-- If a land is revealed while assembling the Loot Pool, reroll it until there are 7 nonland cards.
-- Shared pool — players select additions to their Deck or Sideboard.
+- After each victory, generate **7 random nonland cards** from the defeated encounter's deck, regardless of player count.
+- If a land is revealed while generating those 7 cards, reroll it until 7 nonland cards have been generated.
+- Add those 7 cards to the existing shared Loot Pool; the pool may contain more than 7 cards.
+- Players select additions to their Deck or Sideboard from the shared pool.
 - Loot cards are not generally restricted by Commander color identity.
 
 ---
