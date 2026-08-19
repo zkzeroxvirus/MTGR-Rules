@@ -98,12 +98,13 @@ The Loot Pool allows players to extract cards from the defeated deck.
 **Resolution:**
 
 * Shuffle the defeated deck  
-* Reveal cards equal to the number of players  
-* Reroll any basic lands  
-* Place revealed cards into a shared Loot Pool
+* Reveal **7 random nonland cards**  
+* If a land is revealed while assembling the Loot Pool, reroll it until the Loot Pool contains 7 nonland cards  
+* Place those 7 cards into a shared Loot Pool
 
 **Rules:**
 
+* The Loot Pool size is always **7 cards**, regardless of player count  
 * Players may take cards freely from the Loot Pool  
 * Cards taken this way follow all normal deckbuilding rules  
 
@@ -265,4 +266,3 @@ The Crypt Fight Cashout is an ultra-rare reward that grants a strategic advantag
 * Only one Crypt Fight Cashout may be used per run — additional copies are discarded unused
 * If unused by the time the Crypt Fight begins, it expires and is discarded
 * The choice is made before the Crypt encounter type is determined
-
