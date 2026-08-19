@@ -217,9 +217,9 @@ Resolve the encounter rewards, then choose **Return to Town** or **Stay Out**, t
 **Loot Pool:**
 
 - Shuffle the defeated Host deck.
-- Reveal cards equal to player count.
-- Reroll basic lands.
-- Players draft from the shared revealed pool.
+- Reveal **7 random nonland cards**, regardless of player count.
+- If a land is revealed while assembling the Loot Pool, reroll it until 7 nonland cards have been revealed.
+- Players draft from the shared seven-card pool.
 - Loot gained by players is not generally restricted by Commander color identity.
 
 ---
