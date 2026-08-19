@@ -124,7 +124,7 @@ Variant Mode:
 ### Variant Mode (4 Encounters)
 
 | Players | E1 | E2 | E3 | E4 | Crypt |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| :---| :---: | :---: | :---: | :---: | :---: |
 | 1-2 | 20 | 30 | 40 | 50 | 60 |
 | 3   | 25 | 40 | 55 | 70 | 80 |
 | 4   | 30 | 50 | 70 | 90 | 100 |
@@ -217,9 +217,10 @@ Resolve the encounter rewards, then choose **Return to Town** or **Stay Out**, t
 **Loot Pool:**
 
 - Shuffle the defeated Host deck.
-- Reveal **7 random nonland cards**, regardless of player count.
-- If a land is revealed while assembling the Loot Pool, reroll it until 7 nonland cards have been revealed.
-- Players draft from the shared seven-card pool.
+- Generate **7 random nonland cards** from that defeated deck, regardless of player count.
+- If a land is revealed while generating those 7 cards, reroll it until 7 nonland cards have been generated.
+- Add those 7 cards to the existing shared Loot Pool.
+- The Loot Pool may contain more than 7 cards if earlier cards remain.
 - Loot gained by players is not generally restricted by Commander color identity.
 
 ---
