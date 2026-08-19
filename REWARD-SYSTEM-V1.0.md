@@ -224,7 +224,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **⚒ BLACKSMITH SERVICES** *(Total Weight: 18 — 4.5%)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: |
+| :---- | :----: | :----: |
 | Free Upgrade | 12 | 3% |
 | Free Augment | 6 | 1.5% |
 
@@ -233,7 +233,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **☠️ CRYPT FIGHT CASHOUT** *(Total Weight: 2 — 0.5%)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: |
+| :---- | :----: | :----: |
 | Crypt Fight Cashout | 2 | 0.5% |
 
 *See [Crypt Fight Cashout](#-crypt-fight-cashout-1) below for resolution rules.*
@@ -243,7 +243,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **🎟 TICKET CASHOUTS** *(Total Weight: 10 — Ultra Rare)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: |
+| :---- | :----: | :----: |
 | Conspiracy Ticket | 4 | 1% |
 | Trinket Ticket | 3 | 0.75% |
 | Vanguard Ticket | 2 | 0.5% |
