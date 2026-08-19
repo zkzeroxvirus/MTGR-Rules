@@ -116,7 +116,7 @@ The Host sets up the encounter. Both sides roll a d20 — the higher roll choose
 
 - XP
 - Cash Out
-- Loot Pool: **7 random nonland cards**, regardless of player count
+- Loot Pool: add **7 random nonland cards**, regardless of player count
 
 **4. Path Choice** *(All players must decide, win or lose)*
 After the encounter resolves, the party chooses one:
@@ -268,7 +268,7 @@ Winning an encounter earns XP, Cash Outs, and Loot Pool cards.
 The Host reveals Cash Outs equal to player count +1. Each player selects one unless a rule states otherwise. Unselected Cash Outs are removed from play. Cash Outs are tradable between players and can be held until used.
 
 **Loot Pool**
-After an encounter victory, shuffle the defeated encounter's deck and reveal **7 random nonland cards**, regardless of player count. If a land is revealed while assembling the Loot Pool, reroll it until the shared pool contains 7 nonland cards. Players may select additions for their Deck or Sideboard from this shared pool. These cards are not generally restricted by Commander color identity.
+After an encounter victory, shuffle the defeated encounter's deck and generate **7 random nonland cards**, regardless of player count. If a land is revealed while generating those 7 cards, reroll it until 7 nonland cards have been generated. Add those 7 cards to the existing shared Loot Pool. The Loot Pool may contain more than 7 cards if cards remain from earlier rewards or other effects. Players may select additions for their Deck or Sideboard from the shared pool. These cards are not generally restricted by Commander color identity.
 
 ---
 
