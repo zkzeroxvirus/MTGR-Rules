@@ -93,18 +93,19 @@ Cashouts represent immediate reward choices gained after an encounter.
 
 ## **🧾 LOOT POOL SYSTEM**
 
-The Loot Pool allows players to extract cards from the defeated deck.
+The Loot Pool allows players to extract cards from defeated encounter decks.
 
-**Resolution:**
+**Resolution after each encounter victory:**
 
 * Shuffle the defeated deck  
 * Reveal **7 random nonland cards**  
-* If a land is revealed while assembling the Loot Pool, reroll it until the Loot Pool contains 7 nonland cards  
-* Place those 7 cards into a shared Loot Pool
+* If a land is revealed while generating those 7 cards, reroll it until 7 nonland cards have been generated  
+* Add those 7 cards to the shared Loot Pool
 
 **Rules:**
 
-* The Loot Pool size is always **7 cards**, regardless of player count  
+* Each victory adds **7 nonland cards** to the Loot Pool, regardless of player count  
+* The Loot Pool may contain **more than 7 cards** if cards remain from previous rewards or other effects  
 * Players may take cards freely from the Loot Pool  
 * Cards taken this way follow all normal deckbuilding rules  
 
@@ -223,7 +224,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **⚒ BLACKSMITH SERVICES** *(Total Weight: 18 — 4.5%)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: | :----: |
+| :---- | :----: |
 | Free Upgrade | 12 | 3% |
 | Free Augment | 6 | 1.5% |
 
@@ -232,7 +233,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **☠️ CRYPT FIGHT CASHOUT** *(Total Weight: 2 — 0.5%)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: | :----: |
+| :---- | :----: |
 | Crypt Fight Cashout | 2 | 0.5% |
 
 *See [Crypt Fight Cashout](#-crypt-fight-cashout-1) below for resolution rules.*
@@ -242,7 +243,7 @@ Any Cashout that is not T1 or T2 is treated as T3:
 **🎟 TICKET CASHOUTS** *(Total Weight: 10 — Ultra Rare)*
 
 | Cashout | Weight | Chance |
-| :---- | :----: | :----: |
+| :---- | :----: |
 | Conspiracy Ticket | 4 | 1% |
 | Trinket Ticket | 3 | 0.75% |
 | Vanguard Ticket | 2 | 0.5% |
