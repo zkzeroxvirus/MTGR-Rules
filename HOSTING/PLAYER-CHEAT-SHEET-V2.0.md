@@ -31,9 +31,13 @@ Complete these steps before Encounter 1, in order:
 4. **Deck Generation** — Generate your own 100-card pool within your starting Commander's color identity (all card types, no basic lands). Reroll any Stickers, Attractions, or Contraptions immediately. Draft 22 cards from your pool.
 5. **Lands** — Start with 16 total lands. Apply the normal dual-land allocation, then apply **Brand of the Cartographer**: each Rank may replace 2 additional basics with dual lands or triomes.
 6. **Free Choice Card** — Add 1 Commander-legal card. It **may be outside your Commander's color identity**, cannot be Sol Ring, and cannot be a Gamechanger unless another effect explicitly allows it. Stamp it with a "Scryfall" decal.
-7. **Final deck check** — Base minimum is Commander + at least 39 cards in the library. **Brand of the Infinite Void** reduces the library minimum by 1 per Rank. The Sideboard has no size limit.
-8. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be Bad; Ambush counts as Bad.
-9. Seat-swap window: after deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
+7. **Scryfall setup check** — During initial deckbuilding, a naturally drafted card may be duplicated once through Free Choice, **One with Death**, or **Fickle Duplicant**. The spawned copy becomes Scryfalled, and those effects cannot spawn another copy of that same name during setup.
+8. **Final deck check** — Two-card game-winning combos using only those two cards and two-card infinites are banned. Three-or-more-card combos are allowed unless another restriction applies, but Scryfall-stamped or treated-as-Scryfalled cards cannot be part of any combo.
+9. **Scryfall ownership check** — Scryfall cards cannot be traded or captured. Capture cards and actual Magic cards granted by card-producing Tickets such as Sol Ring, Arcane Signet, and Leyline are treated as Scryfalled.
+10. **Silence check** — Full-turn effects that can deny the Host all spellcasting before the Host gets a normal opportunity to cast are banned, including **Silence** and **Orim's Chant**. Conditional or partial restrictions such as **Hope of Ghirapur** and **Ranger-Captain of Eos** are allowed.
+11. Base minimum is Commander + at least 39 cards in the library. **Brand of the Infinite Void** reduces the library minimum by 1 per Rank. The Sideboard has no size limit.
+12. Resolve pre-start setup in order: Event, then Trinket. The starting Event cannot be Bad; Ambush counts as Bad.
+13. Seat-swap window: after deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment. After Encounter 1 begins, seat swapping is no longer allowed.
 
 ---
 
@@ -91,8 +95,12 @@ Remaining land slots are filled with basics before Brand of the Cartographer rep
 - Stickers, Attractions, and Contraptions are rerolled and replaced immediately from the initial pool.
 - The Free Choice Card may be off-color, but cannot be Sol Ring or a Gamechanger unless another effect explicitly allows it.
 - If an individual generated card is invalid, replace only that card — the full pool is not rerolled.
-- No two-card combos are allowed in any run deck (players and Host).
-- A card with a "Scryfall" decal cannot be used as part of a three-card combo.
+- During initial deckbuilding, a naturally drafted card may be duplicated once by Free Choice, One with Death, or Fickle Duplicant. The spawned copy is Scryfalled, and those setup effects cannot spawn another copy of that name.
+- A **two-card combo that wins using only those two cards is banned**.
+- A **two-card infinite is banned** whether or not it immediately wins.
+- Three-or-more-card combos are allowed unless another MTGR restriction applies.
+- A Scryfall-stamped or treated-as-Scryfalled card cannot be used in **any combo**.
+- Scryfall cards cannot be traded or captured. Capture cards and card-producing Ticket cards are treated as Scryfalled.
 - Cards may be added above your minimum deck size during the run. You do not have to return to exactly 39 library cards.
 
 ---
@@ -158,6 +166,7 @@ When the party chooses Town:
 - **The Guild:** Changing Commander does not make existing off-color cards illegal. Conclave adds +1 generated Commander option per Rank; Recurrence adds +1 free Commander reroll per Rank.
 - **Merchant:** Only the **ID Pack** is color-identity restricted. Mystery, Pro, Mythic, and OTAG Packs may contain any colors. Brand of the Open Hand adds +1 card shown per Rank while the normal keep limit remains unchanged.
 - **Mystic/Tavern:** Card removal must leave your library at or above your current modified deck minimum unless an effect explicitly overrides it.
+- **Bazaar:** Scryfall-stamped and treated-as-Scryfalled cards cannot be traded.
 
 > **Reminders:** Building uses reset every time you return to Town. Cash Outs do not consume building uses. "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**.
 
@@ -227,9 +236,13 @@ When the party chooses Stay Out, resolve in order:
 6. Main Phase 2
 7. End Step
 
-**Other rules:**
+**Combat interpretation:**
 
+- All attackers are declared in the same party combat, but each player remains controller of their own creatures.
+- **Attacks alone / Exalted:** evaluate each player's attackers separately. If Player A attacks with one creature and Player B attacks with one creature, both creatures count as having attacked alone for their controller.
+- **Combat-wide effects / Battle Cry:** effects referring to attacking creatures without a controller restriction can see allied attackers in the shared combat. Battle Cry can therefore benefit another player's attacking creature.
 - Adjacent players may block for each other when an adjacent ally is attacked.
+- Legal adjacent blockers count toward blocking requirements. If a Host creature with **Menace** attacks you, your one blocker plus one legal blocker from an adjacent ally satisfy Menace.
 - If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
 - You may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
