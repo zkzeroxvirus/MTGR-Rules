@@ -6,6 +6,7 @@
   "description": "Stable navigation metadata for interactive rulebook consumers. Canonical rule wording remains in the referenced Markdown files.",
   "documents": [
     { "id": "core", "title": "Core Rules", "source": "CORE-RULES.md", "audience": ["player", "host"] },
+    { "id": "deckbuilding-clarifications", "title": "Deckbuilding Clarifications", "source": "DECKBUILDING-RULES-V2.1.md", "audience": ["player", "host"] },
     { "id": "structure", "title": "Core Game Structure", "source": "CORE-GAME-STRUCTURE-V1.0.md", "audience": ["player", "host"] },
     { "id": "encounters", "title": "Encounter System", "source": "ENCOUNTER-SYSTEM-V1.0.md", "audience": ["player", "host"] },
     { "id": "rewards", "title": "Reward System", "source": "REWARD-SYSTEM-V1.0.md", "audience": ["player", "host"] },
@@ -33,7 +34,7 @@
       "number": "02",
       "title": "The Encounter Loop",
       "description": "Resolve an encounter, determine victory or loss, and move into the post-encounter decision.",
-      "rules": ["game-loop", "encounter-flow", "failed-encounter", "reward-timing"]
+      "rules": ["game-loop", "party-combat-interactions", "encounter-flow", "failed-encounter", "reward-timing"]
     },
     {
       "id": "between-encounters",
@@ -142,7 +143,7 @@
       "phase": "before-run",
       "audience": ["player", "host"],
       "aliases": ["party", "host controls encounters", "cooperative"],
-      "related": ["turn-structure"]
+      "related": ["turn-structure", "party-combat-interactions"]
     },
     {
       "id": "player-health",
@@ -155,12 +156,12 @@
     },
     {
       "id": "deckbuilding",
-      "title": "Deckbuilding",
-      "source": "CORE-RULES.md",
-      "heading": "DECKBUILDING",
+      "title": "Deckbuilding Clarifications",
+      "source": "DECKBUILDING-RULES-V2.1.md",
       "phase": "before-run",
-      "audience": ["player"],
-      "aliases": ["commander selection", "100 card pool", "22 cards", "lands", "free choice card", "40 card deck"],
+      "audience": ["player", "host"],
+      "aliases": ["commander selection", "100 card pool", "22 cards", "lands", "free choice card", "scryfall", "combos", "infinites", "silence", "capture", "tickets", "40 card deck"],
+      "wholeDocument": true,
       "related": ["banned-restricted", "pre-encounter-setup"]
     },
     {
@@ -170,7 +171,7 @@
       "heading": "BANNED & RESTRICTED (MTGR)",
       "phase": "before-run",
       "audience": ["player", "host"],
-      "aliases": ["ban list", "restricted cards", "illegal cards"],
+      "aliases": ["ban list", "restricted cards", "illegal cards", "silence", "orims chant", "hope of ghirapur", "ranger captain"],
       "related": ["deckbuilding"]
     },
     {
@@ -191,7 +192,17 @@
       "phase": "encounter-loop",
       "audience": ["player", "host"],
       "aliases": ["run flow", "encounter rewards choice events next encounter", "what happens next"],
-      "related": ["encounter-flow", "reward-timing", "post-encounter-choice"]
+      "related": ["party-combat-interactions", "encounter-flow", "reward-timing", "post-encounter-choice"]
+    },
+    {
+      "id": "party-combat-interactions",
+      "title": "Party Combat Interactions",
+      "source": "CORE-GAME-STRUCTURE-V1.0.md",
+      "heading": "PARTY COMBAT INTERACTIONS",
+      "phase": "encounter-loop",
+      "audience": ["player", "host"],
+      "aliases": ["attacks alone", "exalted", "battle cry", "menace", "adjacent blocking", "allied blockers", "shared combat", "controller local"],
+      "related": ["turn-structure", "game-loop"]
     },
     {
       "id": "failed-encounter",
@@ -288,7 +299,7 @@
       "heading": "LOOT POOL SYSTEM",
       "phase": "encounter-loop",
       "audience": ["player", "host"],
-      "aliases": ["loot", "loot cards", "defeated deck"]
+      "aliases": ["loot", "loot cards", "defeated deck", "seven cards", "7 nonland"]
     },
     {
       "id": "post-encounter-choice",
@@ -409,7 +420,8 @@
       "heading": "TURN STRUCTURE",
       "phase": "encounter-loop",
       "audience": ["player", "host"],
-      "aliases": ["party turn", "host turn", "party combat", "host combat"]
+      "aliases": ["party turn", "host turn", "party combat", "host combat", "exalted", "battle cry", "menace"],
+      "related": ["party-combat-interactions"]
     },
     {
       "id": "death-rules",
