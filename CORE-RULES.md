@@ -97,14 +97,29 @@ Restrictions:
 • **May be outside your Commander's color identity**  
 • Must otherwise be legal for use in Commander  
 • Not Sol Ring  
-• Not a Gamechanger
+• Not a Gamechanger unless another effect explicitly allows it
 
 Marking rule:
 • After selecting your Free Choice Card, stamp it with a "Scryfall" decal
 
+Initial-deckbuilding duplicate rule:
+• A card naturally drafted from the initial 100-card pool may be duplicated **once** by a Scryfall-based setup effect
+• The spawned duplicate becomes Scryfalled
+• Once a card name has been spawned through Free Choice, **One with Death**, or **Fickle Duplicant**, those setup effects cannot spawn another copy of that name during initial deckbuilding
+• This duplicate restriction applies only during initial deckbuilding; later card acquisition follows the effect that grants the card
+
+Scryfall card restrictions:
+• Scryfall-stamped cards cannot be traded or captured
+• Cards granted through the Capture system are treated as Scryfalled
+• Actual Magic cards granted by card-producing Tickets, including **Sol Ring Ticket**, **Arcane Signet Ticket**, and **Leyline Ticket**, are treated as Scryfalled
+
 Combo restrictions:
-• No two-card combos are allowed in any run deck (players and Host)
-• A card with a "Scryfall" decal cannot be used as part of a three-card combo
+• A two-card combo that wins the game using only those two cards is banned
+• A two-card infinite is banned, whether or not it immediately wins the game
+• Combos using three or more cards are allowed unless another MTGR restriction applies
+• A Scryfall-stamped card, or a card treated as Scryfalled by another MTGR rule, cannot be used as part of **any combo**
+
+For focused deck construction and interaction rulings, **DECKBUILDING-RULES-V2.1.md** is the source of truth when an older summary conflicts.
 
 ---
 
@@ -113,8 +128,7 @@ Combo restrictions:
 ### **🚫 FULL BAN**
 
 • Show and Tell  
-• Silence effects (effects that prevent the Host from casting spells during their turn)  
-• Exception: Mandate of Peace  
+• **Full-turn silence effects:** effects that can be used before the Host has a normal opportunity to cast a spell and then prevent the Host from casting all spells for the rest of that turn. Current examples include **Silence** and **Orim's Chant**  
 • Collective Voyage  
 • Mana Abundance  
 • Time Vault  
@@ -129,6 +143,8 @@ Combo restrictions:
 • Sovereign's Realm  
 • Ocelot Pride  
 • Cheering Crowd
+
+**Silence clarification:** Conditional or partial silence-style effects are allowed when they do not fully deny the Host spellcasting for essentially the entire Host turn. Current allowed examples include **Hope of Ghirapur**, **Ranger-Captain of Eos**, **Mandate of Peace**, and **Render Silent**.
 
 ### **⚠️ RESTRICTED**
 
@@ -371,7 +387,7 @@ When the run ends — whether in victory or defeat — each eligible player gain
 
 ### **🛡️ PARTY TURN**
 
-All players act as a single player.
+All players act as a single player for the shared turn structure, but each player remains the controller of their own cards and permanents.
 
 • One Untap, Upkeep, Draw  
  • One Main Phase, Combat, End Step
@@ -380,8 +396,11 @@ All players act as a single player.
 
 ### **⚔️ PARTY COMBAT**
 
- • All attackers declared simultaneously  
- • Host blocks after full declaration
+ • All attackers are declared simultaneously  
+ • Host blocks after full declaration  
+ • Effects that care whether a creature **attacks alone**, or otherwise count creatures that player controls attacking, are evaluated separately for each player  
+ • Example: if two allies each attack with exactly one creature, both creatures count as having attacked alone for effects such as **Exalted**  
+ • Effects that refer to attacking creatures without a controller restriction use the shared combat and may affect allied attackers; **Battle Cry** can therefore benefit another player's attacking creature
 
 ---
 
@@ -395,7 +414,11 @@ The Host plays normally.
 
  • Host chooses attack targets  
  • Adjacent players may block for each other when an adjacent ally is attacked  
+ • Legal adjacent blockers count toward blocking requirements and restrictions for that attacker  
+ • Example: if a Host creature with **Menace** attacks a player who has one blocker, an adjacent ally may provide the second blocker and together they satisfy Menace  
  • If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
+
+For equivalent edge cases, controller-specific wording remains controller-specific, while combat-wide wording uses all applicable creatures in the shared combat.
 
 ---
 
@@ -493,6 +516,9 @@ For full effect text and unlock sources, see **PERMANENT-PROGRESSION.md**.
 ---
 
 ## **🎟️ TICKET RULES**
+
+Card-producing Ticket rule:
+• Actual Magic cards granted by a card-producing Ticket are treated as Scryfalled for MTGR card restrictions, including the no-combo, no-trading, and no-capture rules
 
 ### **🛡️ VANGUARD TICKET**
 
