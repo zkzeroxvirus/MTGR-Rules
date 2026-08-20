@@ -62,6 +62,34 @@ The Free Choice Card:
 
 These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
 
+## Silence-effect restrictions
+
+MTGR distinguishes a **full-turn silence** from a **conditional or partial silence**.
+
+### Banned: full-turn silence
+
+A card or effect is banned if it can be used on the Host's turn **before the Host has a normal opportunity to cast a spell** and, once it resolves, prevents the Host from casting **all spells for the rest of that turn**.
+
+Current banned examples:
+
+- **Silence**
+- **Orim's Chant**
+
+The list is illustrative rather than exhaustive: a future card with the same practical effect is also banned even if it is not named here.
+
+### Allowed: conditional or partial silence
+
+Silence-style interaction is allowed when it does **not** fully shut the Host out of casting spells for their entire turn. This includes effects that restrict only certain spell types, require a meaningful condition before the restriction applies, or can only be used after the Host has already had a normal opportunity to cast spells.
+
+Allowed examples include:
+
+- **Hope of Ghirapur** — prevents only noncreature spells and requires combat damage before its ability can target that player.
+- **Ranger-Captain of Eos** — prevents only noncreature spells.
+- **Mandate of Peace** — can only be cast during combat, after the Host has already had a normal precombat opportunity to cast spells.
+- **Render Silent** — requires a spell to be cast first and only prevents additional spells for the remainder of that turn.
+
+The deciding question is whether the effect can **fully deny the Host all spellcasting for the Host's turn before the Host gets to play that turn normally**. If yes, it is banned. If the restriction is conditional, partial, or begins only after the Host has already had a normal opportunity to cast spells, it is allowed unless another MTGR rule bans that card.
+
 ## Deck minimum
 
 The base deck minimum is **40 total cards: 1 Commander plus at least 39 cards in the library**.
