@@ -53,7 +53,14 @@ The Free Choice Card:
 - Cannot be a Gamechanger unless another effect explicitly allows it.
 - Receives the Scryfall decal after selection.
 
-No two-card combos are allowed in a run deck. A Scryfall-stamped card cannot be used as part of a three-card combo.
+## Combo, infinite, and Scryfall restrictions
+
+- A **two-card combo that wins the game using only those two cards is banned**.
+- A **two-card infinite is banned**, whether or not the infinite immediately wins the game.
+- **Combos using three or more cards are allowed**, subject to all other MTGR restrictions.
+- A card with a **Scryfall decal cannot be used as part of any combo**, regardless of how many cards the combo uses.
+
+These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
 
 ## Deck minimum
 
