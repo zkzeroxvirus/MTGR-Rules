@@ -60,7 +60,7 @@ Initial deckbuilding uses **16 total lands** unless another effect changes that 
 
 Any remaining land slots are basics. **Brand of the Cartographer** allows the player to replace **2 additional basics with dual lands or triomes per Rank** without increasing the total number of starting lands.
 
-**Step 4 — Free Choice Card**
+**Step 4 — Free Choice Card and Scryfall Rules**
 Each player adds 1 card of their choosing to their deck. This card:
 
 - **May be outside the Commander's color identity.**
@@ -70,10 +70,29 @@ Each player adds 1 card of their choosing to their deck. This card:
 
 After selecting the Free Choice Card, stamp it with a "Scryfall" decal.
 
+Initial-deckbuilding duplicate rules:
+
+- A card naturally drafted from the initial 100-card pool may be duplicated **once** by a Scryfall-based setup effect.
+- The spawned duplicate becomes Scryfalled.
+- Once a name has been spawned through the normal Free Choice Card, **One with Death**, or **Fickle Duplicant**, those setup effects cannot spawn another copy of that name during initial deckbuilding.
+- This duplicate restriction applies only during initial deckbuilding; cards gained later follow the effect that grants them.
+
+Scryfall ownership rules:
+
+- Scryfall-stamped cards cannot be traded or captured.
+- Cards granted through the Capture system are treated as Scryfalled.
+- Actual Magic cards granted by card-producing Tickets, including **Sol Ring**, **Arcane Signet**, and **Leyline** Ticket cards, are treated as Scryfalled.
+
 Combo restrictions:
 
-- No two-card combos are allowed in any run deck (players and Host).
-- A card with a "Scryfall" decal cannot be used as part of a three-card combo.
+- A **two-card combo that wins the game using only those two cards is banned**.
+- A **two-card infinite is banned**, whether or not it immediately wins the game.
+- Three-or-more-card combos are allowed unless another MTGR restriction applies.
+- A Scryfall-stamped card, or a card treated as Scryfalled, cannot be used as part of **any combo**.
+
+**Silence restriction:** Effects that can fully deny the Host all spellcasting for essentially the entire Host turn before the Host receives a normal opportunity to cast are banned. Current examples include **Silence** and **Orim's Chant**. Conditional or partial restrictions such as **Hope of Ghirapur** and **Ranger-Captain of Eos** are allowed; **Mandate of Peace** and **Render Silent** are also allowed under the timing/condition rule.
+
+For focused deck construction and deck-interaction rulings, use **DECKBUILDING-RULES-V2.1.md** when an older summary conflicts.
 
 **Step 5 — Finalize**
 Apply persistent progression effects and resolve legal pregame choices.
@@ -166,6 +185,7 @@ Deck interaction highlights:
 - **The Guild:** Base generation is d6 + 2 Commanders in the declared color combination; Conclave and Recurrence modify those options/rerolls. Changing Commander does not invalidate existing off-color cards.
 - **Merchant:** Mystery, Pro, Mythic, and OTAG Packs may be any color. Only the ID Pack is restricted to current Commander color identity. Brand of the Open Hand adds +1 card shown per Rank without increasing the normal keep limit.
 - **Mystic/Tavern:** Card removal must respect the player's current modified deck minimum unless an effect explicitly overrides it.
+- **Bazaar:** Scryfall-stamped and treated-as-Scryfalled cards cannot be traded.
 
 **Stay Out**
 Staying Out is the riskier path. Resolve the following in order:
@@ -235,7 +255,7 @@ Each eligible player gains Essence equal to Deck CMC + Sideboard CMC. Any remain
 
 ---
 
-## 9. Turn Structure
+## 9. Turn Structure and Party Combat
 
 **Player Turn** *(shared among the party)*
 
@@ -247,16 +267,31 @@ Each eligible player gains Essence equal to Deck CMC + Sideboard CMC. Any remain
 6. Main Phase 2
 7. End Step
 
+Players share the turn and combat, but each player remains controller of their own creatures and permanents.
+
+**Attack interpretation:**
+
+- Effects that care whether a creature **attacks alone**, or count creatures that player controls attacking, are evaluated separately for each player.
+- If Player A attacks with one creature and Player B attacks with one creature, both count as having attacked alone for effects such as **Exalted**.
+- Effects referring to attacking creatures without a controller restriction use the shared combat. **Battle Cry** can therefore affect allied attacking creatures.
+
+**Blocking interpretation:**
+
+- Adjacent players may block for each other when an adjacent ally is attacked.
+- Legal adjacent blockers count toward blocking requirements and restrictions for that attacker.
+- If a Host creature with **Menace** attacks a player with one blocker, an adjacent ally may provide a second legal blocker and together they satisfy Menace.
+- If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
+
 **Host Turn**
 The Host plays normally according to standard Magic rules.
 
 **Additional Rules:**
 
-- Adjacent players may block for each other when an adjacent ally is attacked.
-- If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule.
 - If multiple players deal combat damage to the Host at the same time, choose one of the players who dealt damage to become the Monarch.
 - Only the controller of an extra-turn effect takes that extra turn, unless explicitly stated otherwise.
 - Players may only Scoop at Sorcery Speed; full-party encounter concession may be declared at Instant speed.
+
+For detailed combat edge cases, see **PARTY COMBAT INTERACTIONS** in `CORE-GAME-STRUCTURE-V1.0.md`.
 
 ---
 
