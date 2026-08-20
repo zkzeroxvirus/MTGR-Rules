@@ -53,9 +53,13 @@ The Free Choice Card:
 - Cannot be a Gamechanger unless another effect explicitly allows it.
 - Receives the Scryfall decal after selection.
 
-### Scryfall-spawn duplicate restriction
+### Initial-deckbuilding Scryfall duplicate restriction
 
-A player may not use a Scryfall-based free-card effect to spawn a second copy of a card they already have in their run card pool.
+This duplicate restriction applies **only while resolving initial deckbuilding**.
+
+A card that was naturally drafted from the player's initial 100-card pool **may be selected once by a Scryfall-based free-card effect**, creating one duplicate copy of that drafted card. The spawned duplicate receives the **Scryfall decal** and is then treated as a Scryfall-spawned card.
+
+After a card name has been spawned through a Scryfall-based free-card effect, that player may not use another Scryfall-based free-card effect during initial deckbuilding to create an additional copy of that same card.
 
 This restriction applies to:
 
@@ -63,7 +67,13 @@ This restriction applies to:
 - the additional free card granted by **One with Death**;
 - the free Scryfall creature granted by **Fickle Duplicant**.
 
-When resolving one of these effects, the chosen card must have a different card name from every card that player already has in their Commander, Deck, or Sideboard, and from any other card already spawned for that player by one of these Scryfall-based free-card effects. These effects cannot be used to intentionally create duplicate copies of the same card.
+Examples:
+
+- If a player drafts **Card A** from the 100-card pool, they may use their Free Choice Card to spawn a second **Card A**. That spawned copy is Scryfall-stamped.
+- That player may not then use **One with Death** or **Fickle Duplicant** to spawn a third **Card A** during initial deckbuilding.
+- If a card was not already drafted, a Scryfall-based free-card effect may spawn it normally, but another such effect may not spawn another copy of that same card during initial deckbuilding.
+
+This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
 
 ## Combo, infinite, and Scryfall restrictions
 
