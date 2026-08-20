@@ -40,8 +40,11 @@ Before Encounter 1, confirm all of the following:
 - [ ] Initial land package uses 16 total lands unless another effect changes it; normal dual allocation and **Brand of the Cartographer** replacements were applied.
 - [ ] Free Choice Card is Commander legal, not Sol Ring, and not a Gamechanger unless another effect allows it. **It may be outside Commander color identity.**
 - [ ] Free Choice Cards were stamped with a "Scryfall" decal.
-- [ ] No two-card combos exist in any run deck (players and Host).
-- [ ] Scryfall-stamped cards are not part of any three-card combo.
+- [ ] During initial deckbuilding, a naturally drafted card was duplicated at most once through Free Choice, **One with Death**, or **Fickle Duplicant**; once a name was spawned through one of those Scryfall-based setup effects, none of them spawned another copy of that name.
+- [ ] No two-card combo that wins using only those two cards exists in any Player or Host run deck, and no two-card infinite exists.
+- [ ] Three-or-more-card combos are allowed only when otherwise legal, and no Scryfall-stamped or treated-as-Scryfalled card is part of any combo.
+- [ ] Scryfall-stamped cards are not traded or captured. Cards from the Capture system and actual Magic cards granted by card-producing Tickets such as Sol Ring, Arcane Signet, and Leyline are treated as Scryfalled.
+- [ ] Full-turn silence effects that can deny the Host all spellcasting before the Host gets a normal opportunity to cast are not present. Examples: **Silence** and **Orim's Chant**. Conditional or partial restrictions such as **Hope of Ghirapur** and **Ranger-Captain of Eos** are allowed.
 - [ ] Base library minimum is 39 non-Commander cards, reduced by **1 per Brand of the Infinite Void Rank**. Players may be above that minimum.
 - [ ] Sideboards are allowed and have **no size limit**.
 - [ ] Do not enforce Commander color identity as a general gameplay deck rule. Apply it only when an effect explicitly says so.
@@ -69,7 +72,7 @@ Before Encounter 1, confirm all of the following:
    - Apply Arcane Suppression and choose its player.
 5. Both sides roll d20 — high roll chooses turn order.
 
-> **Reminders:** The party acts as one player for turn structure. Adjacent players may block for each other when an adjacent ally is attacked. If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule. Extra turns apply only to the effect controller unless stated otherwise.
+> **Combat reminders:** The party acts as one player for turn structure, but each player remains controller of their own creatures. "Attacks alone" and other controller-local attack counts are evaluated separately per player, so two allies can each attack alone at the same time. Combat-wide attacking-creature effects such as Battle Cry can see allied attackers. Adjacent players may block for each other when an adjacent ally is attacked; legal adjacent blockers count toward blocking requirements, so one blocker from the attacked player plus one from an adjacent ally satisfies Menace. If a Player attacks an Adjacent player, they may not block their own creature with the adjacent blocking rule. Extra turns apply only to the effect controller unless stated otherwise.
 > **Monarch:** If multiple players deal combat damage to the Host at the same time, choose one of those players to become the Monarch.
 
 ---
