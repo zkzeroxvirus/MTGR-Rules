@@ -77,7 +77,9 @@ Spend Essence to shape your run now and grow your account permanently.
 :package: 500+ Essence - Capture Non-Commander
 
 - Save 1 non-Commander card from your deck
-- Captured cards can be used in future builds
+- A Scryfall-stamped or otherwise Scryfalled card cannot be captured
+- Captured cards can be used in future builds and are treated as Scryfalled when used
+- Captured cards cannot be traded, captured again, or used in a combo
 - Captured cards count toward your normal library minimum; they are not free deck slots
 - Cost scales by +250 each additional capture (500, 750, 1000, ...)
 
@@ -107,14 +109,16 @@ Brand cost = base cost x current rank.
 
 :tickets: Tickets
 
+Cards granted by card-producing Tickets are treated as Scryfalled: they cannot be traded, captured, or used in a combo.
+
 :coin: 750 Essence - Arcane Signet Ticket (1 slot)
-Free Arcane Signet that does not count toward your normal library minimum.
+Free Arcane Signet that does not count toward your normal library minimum. The granted Arcane Signet is treated as Scryfalled.
 
 :ring: 1500 Essence - Sol Ring Ticket (1 slot)
-Free Sol Ring that does not count toward your normal library minimum.
+Free Sol Ring that does not count toward your normal library minimum. The granted Sol Ring is treated as Scryfalled.
 
 :milky_way: 1500 Essence - Leyline Ticket (1 slot)
-Free Leyline that does not count toward your normal library minimum.
+Free Leyline that does not count toward your normal library minimum. The granted Leyline is treated as Scryfalled.
 
 :art: 2000 Essence - Color Combo Ticket (1 slot)
 Pick Commander color identity before generation.
@@ -197,10 +201,31 @@ After selecting:
 
 - Stamp with a Scryfall decal
 
+Initial-deckbuilding duplicate rule:
+
+- A card naturally drafted from the initial 100-card pool may be duplicated once through Free Choice, One with Death, or Fickle Duplicant
+- The spawned duplicate becomes Scryfalled
+- Once one of those setup effects has spawned a card name, none of them may spawn another copy of that name during initial deckbuilding
+- This duplicate restriction is for initial deckbuilding only
+
 Combo restrictions:
 
-- No two-card combos in any run deck (players or Host)
-- Scryfall-stamped cards cannot be part of a three-card combo
+- A two-card combo that wins using only those two cards is banned
+- A two-card infinite is banned whether or not it immediately wins
+- Three-or-more-card combos are allowed unless another MTGR restriction applies
+- Scryfall-stamped and treated-as-Scryfalled cards cannot be part of any combo
+
+Scryfall ownership restrictions:
+
+- Scryfall-stamped cards cannot be traded or captured
+- Cards granted through Captures are treated as Scryfalled
+- Actual Magic cards granted by card-producing Tickets such as Sol Ring, Arcane Signet, and Leyline are treated as Scryfalled
+
+Silence restrictions:
+
+- Full-turn effects that can deny the Host all spellcasting before the Host gets a normal opportunity to cast are banned, including Silence and Orim's Chant
+- Conditional or partial effects such as Hope of Ghirapur and Ranger-Captain of Eos are allowed
+- Mandate of Peace and Render Silent are allowed under the timing/condition rule
 
 :five: Final Checks
 
@@ -298,9 +323,11 @@ Cashout resolution:
 
 Loot Pool resolution:
 
-- Reveal cards equal to player count from defeated deck
-- Reroll basic lands
-- Revealed cards form a shared pool players may take from freely
+- Shuffle the defeated encounter deck
+- Generate **7 random nonland cards**, regardless of player count
+- If a land is revealed while generating those 7 cards, reroll it until 7 nonland cards have been generated
+- Add those 7 cards to the existing shared Loot Pool
+- The Loot Pool may contain more than 7 cards if earlier cards remain
 - Cards gained this way are not generally color-identity restricted
 
 Affix bonus XP by tier:
@@ -329,12 +356,15 @@ The party acts as one shared player with one combined turn:
 - Main 2
 - End Step
 
-Controller-specific effects still benefit only their controller.
+Each player still controls their own cards and permanents.
 
 ⚔️ Party Combat
 
 - All attackers are declared together
 - Host blocks after full declaration
+- "Attacks alone" and other controller-local attack counts are evaluated separately per player
+- If two allies each attack with exactly one creature, both creatures count as having attacked alone for effects such as Exalted
+- Combat-wide effects without a controller restriction see allied attackers; Battle Cry can affect another player's attacking creature
 
 👹 Host Turn
 
@@ -344,6 +374,7 @@ Controller-specific effects still benefit only their controller.
 
 - Host chooses attack targets
 - Adjacent players can block for attacked adjacent allies
+- Legal adjacent blockers count toward blocking requirements; one blocker from the attacked player plus one from an adjacent ally satisfies Menace
 - A player cannot use adjacent-blocking to block their own creature when they attacked an adjacent player
 
 ⏩ Extra Turns
@@ -411,8 +442,9 @@ Town Buildings:
 - Accepting inbound trades costs no outbound use and is unlimited
 - Cancelled/declined trades do not consume the initiator's use
 - Cashout Sales are separate and unlimited
+- **Scryfall-stamped and treated-as-Scryfalled cards cannot be traded**
 
-Deal types:
+Deal types for legal tradable cards/rewards:
 
 - Card <-> Card
 - Card <-> Essence (2x mana value)
@@ -577,6 +609,9 @@ Color identity:
 🔍 Scryfall Usage
 
 - Scryfall powers many card-generation searches
+- Scryfall-stamped cards cannot be traded, captured, or used in any combo
+- Capture cards and actual Magic cards granted by card-producing Tickets are treated as Scryfalled and follow those same restrictions
+- During initial deckbuilding, a naturally drafted card may be duplicated once by a Scryfall-based setup effect, but once that name has been spawned through Free Choice, One with Death, or Fickle Duplicant, those effects cannot spawn another copy of that name during setup
 - Hosts should know core query basics
 
 Scryfall: <https://scryfall.com/>
