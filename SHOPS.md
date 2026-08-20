@@ -99,7 +99,10 @@ Save 1 card from your deck in your collection.
 
 **Rules:**
 
+* A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**
 * Captured cards may be used in future deck builds
+* A card granted through the Capture system is **treated as Scryfalled** when used in a run
+* A captured card therefore cannot be traded, captured again, or used as part of any combo
 * Captured cards count against your deck's 39 cards (they do not have a free allocation)
 * **Stacking cost:** For each capture after the first, the cost increases by 250 Essence
   * 1st: 500 Essence
@@ -150,12 +153,15 @@ Your deck size minimum is reduced by 1 per Rank.
 
 ## **🎟️ TICKETS**
 
+**Card-producing Ticket rule:** When a Ticket grants an actual Magic card for a run, that granted card is **treated as Scryfalled**. It cannot be traded, captured, or used as part of any combo. This applies to the Arcane Signet, Sol Ring, and Leyline granted by their respective Tickets.
+
 ### **Arcane Signet Ticket** — 750 Essence
 
 You get an **Arcane Signet Ticket**. This allows you to have a free **Arcane Signet** in your deck without it counting toward your 39.
 
 **Rules:**
 
+* The granted Arcane Signet is treated as Scryfalled
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
 
@@ -168,6 +174,7 @@ You get a **Sol Ring Ticket**. This allows you to have a free **Sol Ring** in yo
 **Rules:**
 
 * The Sol Ring is not banned in this variant
+* The granted Sol Ring is treated as Scryfalled
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
 
@@ -180,6 +187,7 @@ You get a **Leyline Ticket**. This allows you to have a free **Leyline** in your
 **Rules:**
 
 * You may choose which Leyline in future deckbuilding
+* The granted Leyline is treated as Scryfalled
 * The ticket is permanent and persists across runs
 * Occupies 1 slot
 
