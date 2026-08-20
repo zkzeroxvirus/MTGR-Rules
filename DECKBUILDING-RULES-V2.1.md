@@ -53,6 +53,18 @@ The Free Choice Card:
 - Cannot be a Gamechanger unless another effect explicitly allows it.
 - Receives the Scryfall decal after selection.
 
+### Scryfall-spawn duplicate restriction
+
+A player may not use a Scryfall-based free-card effect to spawn a second copy of a card they already have in their run card pool.
+
+This restriction applies to:
+
+- the normal **Free Choice Card**;
+- the additional free card granted by **One with Death**;
+- the free Scryfall creature granted by **Fickle Duplicant**.
+
+When resolving one of these effects, the chosen card must have a different card name from every card that player already has in their Commander, Deck, or Sideboard, and from any other card already spawned for that player by one of these Scryfall-based free-card effects. These effects cannot be used to intentionally create duplicate copies of the same card.
+
 ## Combo, infinite, and Scryfall restrictions
 
 - A **two-card combo that wins the game using only those two cards is banned**.
