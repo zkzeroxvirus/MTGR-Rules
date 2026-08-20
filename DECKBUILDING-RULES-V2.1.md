@@ -75,12 +75,25 @@ Examples:
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
 
+## Scryfall status, trading, and captures
+
+A card with a **Scryfall decal** is bound to the player who owns that card for the run.
+
+- A Scryfall-stamped card **cannot be traded to another player**.
+- A Scryfall-stamped card **cannot be captured**.
+- A card granted through the **Capture system is treated as Scryfalled** for these restrictions, even if its physical decal or other marker is different.
+- A card granted by a **card-producing Ticket** is also treated as Scryfalled. This includes cards such as **Sol Ring Ticket**, **Arcane Signet Ticket**, and **Leyline Ticket** cards.
+
+Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the combo restriction below and the no-trading/no-capture rules above.
+
+This classification does not mean that every Ticket, Capture, or progression effect is itself a card. It applies when that progression effect places or grants an actual Magic card for the player's run.
+
 ## Combo, infinite, and Scryfall restrictions
 
 - A **two-card combo that wins the game using only those two cards is banned**.
 - A **two-card infinite is banned**, whether or not the infinite immediately wins the game.
 - **Combos using three or more cards are allowed**, subject to all other MTGR restrictions.
-- A card with a **Scryfall decal cannot be used as part of any combo**, regardless of how many cards the combo uses.
+- A card with a **Scryfall decal, or a card treated as Scryfalled by another MTGR rule, cannot be used as part of any combo**, regardless of how many cards the combo uses.
 
 These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
 
