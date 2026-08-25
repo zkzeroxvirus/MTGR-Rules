@@ -148,6 +148,7 @@ For focused deck construction and interaction rulings, **DECKBUILDING-RULES-V2.1
 
 ### **⚠️ RESTRICTED**
 
+• Extraplanar Lens: Cannot be obtained via Scryfall or targeted search  
 • Join Forces (keyword): Cannot be obtained via Scryfall or targeted search  
 • Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
 • Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
