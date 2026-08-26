@@ -54,11 +54,31 @@ const sourceText = async (source) => {
   return documentCache.get(source);
 };
 
-const findHeadings = (markdown, wanted) => {
+const splitLines = (markdown) => String(markdown || "").replace(/\r\n?/g, "\n").split("\n");
+
+const findHeadings = (lines, wanted, afterIndex = -1) => {
   const normalized = normalizeHeading(wanted);
-  return String(markdown || "").replace(/\r\n?/g, "\n").split("\n")
+  return lines
     .map((line, index) => ({ heading: headingFromLine(line), index }))
-    .filter(({ heading }) => heading && normalizeHeading(heading.text) === normalized);
+    .filter(({ heading, index }) => index > afterIndex && heading && normalizeHeading(heading.text) === normalized);
+};
+
+// Some older documents use a decorative H1 immediately followed by the same
+// H2 with no body between them. Treat that empty nested wrapper as one logical
+// heading, choosing the deepest heading. Any real duplicate remains an error.
+const resolveHeading = (lines, wanted, afterIndex = -1) => {
+  const matches = findHeadings(lines, wanted, afterIndex);
+  if (matches.length <= 1) return { match: matches[0] || null, count: matches.length };
+
+  for (let index = 1; index < matches.length; index += 1) {
+    const previous = matches[index - 1];
+    const current = matches[index];
+    if (current.heading.level <= previous.heading.level) return { match: null, count: matches.length };
+    const between = lines.slice(previous.index + 1, current.index);
+    if (between.some((line) => line.trim() !== "")) return { match: null, count: matches.length };
+  }
+
+  return { match: matches.at(-1), count: matches.length, decorativeWrapper: true };
 };
 
 for (const rule of manifest.rules) {
@@ -74,11 +94,12 @@ for (const rule of manifest.rules) {
 
   const markdown = await sourceText(rule.source);
   if (rule.content.kind === "document") continue;
-  const starts = findHeadings(markdown, rule.content.heading);
-  if (starts.length !== 1) fail(`${rule.id} start heading "${rule.content.heading}" must match exactly once in ${rule.source}; found ${starts.length}`);
+  const lines = splitLines(markdown);
+  const start = resolveHeading(lines, rule.content.heading);
+  if (!start.match) fail(`${rule.id} start heading "${rule.content.heading}" must resolve uniquely in ${rule.source}; found ${start.count}`);
   if (rule.content.kind === "range") {
-    const ends = findHeadings(markdown, rule.content.endHeading).filter(({ index }) => index > starts[0].index);
-    if (ends.length !== 1) fail(`${rule.id} end heading "${rule.content.endHeading}" must match exactly once after the start in ${rule.source}; found ${ends.length}`);
+    const end = resolveHeading(lines, rule.content.endHeading, start.match.index);
+    if (!end.match) fail(`${rule.id} end heading "${rule.content.endHeading}" must resolve uniquely after the start in ${rule.source}; found ${end.count}`);
   }
 }
 
