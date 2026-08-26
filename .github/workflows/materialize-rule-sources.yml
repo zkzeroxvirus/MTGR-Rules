@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 22
       - run: npm run materialize
+      - name: Audit remaining Markdown sources
+        run: node scripts/audit-source-layout.mjs
       - name: Commit semantic rule tree
         run: |
           git config user.name "github-actions[bot]"
