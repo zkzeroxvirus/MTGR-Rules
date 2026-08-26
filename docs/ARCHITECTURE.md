@@ -47,6 +47,12 @@ The build is deterministic. `npm run check` fails when generated output is stale
 
 `archive/` — historical monoliths, old cheat sheets, and communications. Archived files must never be referenced by live contracts.
 
+## Rollout Safety
+
+When a contract schema changes, deploy consumer compatibility before merging the producer-side Rules change to `main`. MTGR Platform should accept both the currently deployed contract and the incoming contract during the migration window. After Rules is merged and deployed, legacy parsing can be removed in a later cleanup.
+
+This keeps Rules changes independently readable while preventing a repository merge from breaking the live Platform API, Notebook feed, Host Reference, or progression clients.
+
 ## Change Procedure
 
 1. Identify the stable rule/catalog ID that owns the mechanic.
