@@ -1060,6 +1060,96 @@ Delete your current 5 Commander options and receive 5 new Commanders.
 
 ---
 
+<!-- rule:run-structure -->
+### Run Structure
+
+#### **🔁 RUN OVERVIEW**
+
+A run is a sequence of encounters culminating in a final boss.
+
+Standard run structure:
+
+1. **Encounter 1**  
+2. **Encounter 2**  
+3. **Encounter 3**  
+4. **Final Boss (Crypt Fight)**
+
+Variant run structure:
+
+1. **Encounter 1**  
+2. **Encounter 2**  
+3. **Encounter 3**  
+4. **Encounter 4**  
+5. **Final Boss (Crypt Fight)**
+
+After each victorious encounter, players gain rewards and choose how to proceed before continuing.
+
+---
+
+#### **👥 PLAYER COUNT**
+
+* The game supports **1–6 players**  
+* Many systems scale based on player count, including:  
+  * Host Health  
+  * Rewards  
+  * Encounter difficulty
+  * The Authority and Doom components of the **Host Scaling Power layer (Host Authority)**
+* The complete Host Scaling Power layer is **Authority + Doom + Demonic Persistence + Arcane Suppression**
+* Demonic Persistence and Arcane Suppression are always active regardless of player count
+
+---
+
+#### **🎯 OBJECTIVE**
+
+The goal of a run is to defeat the **Final Boss (Crypt)**.
+
+To reach the Crypt, players must successfully defeat all prior encounters.
+
+---
+
+#### **❤️ BETWEEN-ENCOUNTER RESET**
+
+After each encounter, players reset to full HP before the next encounter path resolves.
+
+Health wording reminder: "lose/gain X life" affects current life only. Permanent health changes must explicitly say **"Max HP/Life"**.
+
+This full reset applies whether the party chooses:
+
+* Town  
+* Stay Out
+
+---
+
+<!-- rule:starting-land-balance -->
+### **⚖️ STARTING LAND BALANCE RULE**
+
+If a player starts with lands in play:
+
+• The Host creates that many **Wastes**  
+ • They enter the battlefield at the start of the game
+
+---
+
+<!-- rule:global-limits -->
+### **⚖️ GLOBAL LIMITS**
+
+Each player must have:  
+ • 1 Commander  
+ • A library at or above their **modified deck minimum** — base minimum is 39 non-Commander cards, reduced by **Brand of the Infinite Void** by 1 per Rank
+
+Each player may have:  
+ • An **unlimited-size Sideboard**  
+ • 4 Buff Slots (Includes Crypt Buffs, Achievements, Tickets and Captures.)  
+ • 1 Partner  
+ • 1 Background  
+ • 1 Conspiracy  
+ • 1 Vanguard  
+ • 1 Emblem  
+ • 1 Trinket
+ • 1 Companion
+
+---
+
 ## Encounter Loop
 
 <!-- rule:player-health -->
@@ -2021,6 +2111,516 @@ Nightmares invade the minds of the living.
 
 The Host exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater. Then they may cast a spell from among the exiled cards without paying its mana cost.
 
+<!-- rule:authority-effects -->
+### **🔥 AUTHORITY EFFECTS**
+
+---
+
+#### **👑 Authority I — Minor Influence**
+
+*(1–2 players)*
+
+* The first spell the Host casts each turn costs {1} less to cast.
+
+---
+
+#### **👑 Authority II — Infernal Momentum**
+
+*(3 players)*
+
+* The first spell the Host casts each turn costs {1} less to cast.
+* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
+
+---
+
+#### **👑 Authority III — Demonic Pressure**
+
+*(4 players)*
+
+* The first spell the Host casts each turn costs {1} less to cast.
+* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
+
+At the end of the Host's draw step, the Host chooses one —
+
+* Draw an additional card.
+* The Host may play an additional land this turn.
+
+---
+
+#### **👑 Authority IV — Overwhelming Presence**
+
+*(5 players)*
+
+* The first spell the Host casts each turn costs {1} less to cast.
+* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
+* The Host may play one additional land.
+* The Host draws an additional card during each of their draw steps.
+
+---
+
+#### **👑 Authority V — Absolute Command**
+
+*(6 players)*
+
+* The first spell the Host casts each turn costs {1} less to cast.
+* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
+* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
+* The Host may play one additional land.
+* The Host draws an additional card during each of their draw steps.
+
+---
+
+<!-- rule:authority-interactions -->
+### **⚖️ INTERACTION RULES**
+
+---
+
+#### **🔒 COUNTERSPELL STANDARD**
+
+When an Authority effect grants the Host a free counter, it does so by casting a copy of Disallow without paying its mana cost.
+
+The **Not Today** enchantment token (Authority II, III, V) is a separate mechanic — it is sacrificed to counter a spell, activated ability, or triggered ability and does not use the Disallow copy.
+
+---
+
+#### **📜 RULES CLARIFICATION**
+
+* Authority levels are not additive cost reduction by tier. Authority V is not {5} cheaper.
+* At each player count, use the full effect package listed for that Authority level.
+
+* The free copy of *Disallow*:
+  * Is cast normally
+  * Uses the stack
+  * May be responded to
+  * May be countered
+
+---
+
+#### **🎯 VALID TARGETS**
+
+The Host may use *Disallow* to counter:
+
+* A spell  
+* An activated ability  
+* A triggered ability
+
+<!-- rule:doom-triggering -->
+### **⚡ TRIGGERING A DOOM CARD**
+
+When the Host turns a Doom card face up:
+
+* The Doom card's triggered ability is put onto the stack
+* Players may respond to that triggered ability as normal
+* Resolve the triggered ability if it is not countered or otherwise removed from the stack
+* That Doom card is **physically set aside** and removed from the pool for the remainder of the encounter  
+* Used Doom cards rejoin the pool at the start of the next encounter
+
+---
+
+<!-- rule:doom-timing -->
+### **⏱ TIMING**
+
+* Turning a Doom card face up is a special action
+* The special action does not use the stack
+* The Doom card's triggered ability uses the stack and can be responded to
+
+---
+
+<!-- rule:doom-card-i-m-just-getting-started -->
+### **💠 I’m Just Getting Started**
+
+Add {4}.
+
+---
+
+<!-- rule:doom-card-a-bit-of-artificial-insight -->
+### **🧠 A Bit of Artificial Insight**
+
+Draw two cards. Artifact spells you cast this turn cost {2} less to cast.
+
+---
+
+<!-- rule:doom-card-i-will-witness-your-downfall -->
+### **👁 I Will Witness Your Downfall**
+
+Draw four cards.
+
+---
+
+<!-- rule:doom-card-i-ve-seen-what-breaks-you -->
+### **🔍 I’ve Seen What Breaks You**
+
+Search your library for a card, put it into your hand, then shuffle.
+
+---
+
+<!-- rule:doom-card-welcome-to-my-reality -->
+### **🌌 Welcome to My Reality**
+
+Choose any number of players. Each chosen player shuffles their hand and graveyard into their library, then draws that many cards.
+
+If the Host is not among the chosen players, the Host draws cards until they have seven cards in hand.
+
+---
+
+---
+
+<!-- rule:doom-card-i-can-do-that-too -->
+### **🔮 I Can Do That Too\!**
+
+Copy target noncreature spell. You may choose new targets for the copy.
+
+---
+
+<!-- rule:doom-card-oooooh-i-like-you -->
+### **💕 Oooooh, I Like You**
+
+Copy target creature spell. You may choose new targets for the copy.
+
+---
+
+<!-- rule:doom-card-no -->
+### **❌ No**
+
+Counter target spell.
+
+---
+
+---
+
+<!-- rule:doom-card-you-are-annoying-me -->
+### **😒 You Are Annoying Me**
+
+Choose a player.  
+ Creatures that player controls can’t attack you or planeswalkers you control this turn.  
+ Spells that player controls can’t target you or permanents you control this turn.
+
+---
+
+<!-- rule:doom-card-i-am-inevitable -->
+### **🛡 I Am Inevitable**
+
+Target permanent gains hexproof and indestructible until end of turn.
+
+---
+
+<!-- rule:doom-card-minions-protect-me -->
+### **🧱 Minions\! Protect Me\!**
+
+Create a 3/3 black Horror creature token.  
+ Prevent all damage that would be dealt to creatures you control this turn.
+
+---
+
+<!-- rule:doom-card-how-do-you-like-it -->
+### **🔄 How Do You Like It?**
+
+The next time a source of your choice would deal damage to you this turn, prevent that damage.  
+ If damage is prevented this way, it deals that much damage to any target instead.
+
+---
+
+---
+
+<!-- rule:doom-card-death-is-inevitable -->
+### **💀 Death Is Inevitable**
+
+Destroy up to two target creatures an opponent controls.
+
+---
+
+<!-- rule:doom-card-death-comes-for-us-all -->
+### **☠ Death Comes for Us All**
+
+Destroy all creatures. They can’t be regenerated.
+
+---
+
+<!-- rule:doom-card-you-ve-outlived-your-usefulness -->
+### **🚫 You’ve Outlived Your Usefulness**
+
+Exile target nonland permanent.
+
+---
+
+<!-- rule:doom-card-offer-tribute -->
+### **⛓ Offer Tribute**
+
+Each opponent sacrifices a permanent.
+
+---
+
+---
+
+<!-- rule:doom-card-did-that-sting -->
+### **😈 Did That Sting?**
+
+Deal 4 damage to each opponent.
+
+---
+
+<!-- rule:doom-card-i-ll-show-you-true-pain -->
+### **🔥 I’ll Show You True Pain**
+
+Choose the opponent with the highest life total.  
+ That player loses 7 life.
+
+---
+
+<!-- rule:doom-card-my-fury-burns -->
+### **🔥 My Fury Burns**
+
+Until end of turn, if a source you control would deal damage to an opponent or a creature you don’t control, it deals that much damage plus 2 instead.  
+ Create a 1/1 red Devil creature token with  
+ “When this creature dies, it deals 1 damage to any target.”
+
+---
+
+---
+
+<!-- rule:doom-card-madness-ensues -->
+### **🧠 Madness Ensues**
+
+Each opponent discards two cards.
+
+---
+
+<!-- rule:doom-card-i-need-you-to-stop -->
+### **⏳ I Need You to Stop**
+
+Target player skips their next beginning phase.
+
+---
+
+---
+
+<!-- rule:doom-card-even-nature-cannot-resist -->
+### **🌱 Even Nature Cannot Resist**
+
+Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+
+---
+
+<!-- rule:doom-card-reality-bends-to-my-will -->
+### **🌍 Reality Bends to My Will**
+
+Choose one:
+
+* You may play two additional lands this turn  
+* You may cast an instant or sorcery spell from your hand without paying its mana cost
+
+---
+
+---
+
+<!-- rule:doom-card-i-will-put-this-to-good-use -->
+### **🕵 I Will Put This to Good Use**
+
+Search target opponent’s library for a card, exile it face down, then that player shuffles.  
+ You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.
+
+---
+
+---
+
+<!-- rule:doom-card-you-bear-the-mark-you-are-cursed -->
+### **🌀 You Bear the Mark\! You Are Cursed\!**
+
+Each opponent becomes enchanted by a random Curse with mana value 4 or less that cannot benefit them or their allies.
+
+<!-- rule:reward-scaling -->
+### **📈 REWARD SCALING**
+
+Rewards scale through systems tied to mode and encounter difficulty:
+
+* **Encounter Progression** → determines Base XP  
+* **Affixes** → provide additional bonus XP
+
+This ensures rewards increase with both difficulty and run progression.
+
+---
+
+<!-- rule:cashout-pool -->
+### 🎴 Cashout Pool
+
+The Cashout Pool has a total weight of **410**. Percentages are calculated from this pool.
+
+#### 🎚 Cashout Tiers
+
+Cashouts are divided into tiers for clarity and balancing.
+
+**T1 (Core Packs):**
+
+* Mono non-Pro color packs (White, Blue, Black, Red, Green)
+* Mono Colorless Pack
+* Artifact Pack
+* Enchantment Pack
+* Planeswalker Pack
+* Mystery Pack
+
+**T2 (Advanced Packs):**
+
+* All remaining pack rewards (ID variants, Pro variants, Mythic, Utility, and specialty packs)
+* Bonus Building Usage cashouts
+
+Any Cashout that is not T1 or T2 is treated as T3:
+
+* Blacksmith Services
+* Crypt Fight Cashout
+* Ticket Cashouts
+
+---
+
+**🎴 PACK REWARDS** *(Total Weight: 300 — 75%)*
+
+| Cashout | Tier | Weight | Chance |
+| :---- | :----: | :----: | :----: |
+| Mystery Pack | T1 | 30 | 7.5% |
+| Mono White Pack | T1 | 18 | 4.5% |
+| Mono Blue Pack | T1 | 18 | 4.5% |
+| Mono Black Pack | T1 | 18 | 4.5% |
+| Mono Red Pack | T1 | 18 | 4.5% |
+| Mono Green Pack | T1 | 18 | 4.5% |
+| Mono Colorless Pack | T1 | 18 | 4.5% |
+| Artifact Pack | T1 | 18 | 4.5% |
+| ID Pack | T2 | 18 | 4.5% |
+| Mono Pro Pack White | T2 | 12 | 3% |
+| Mono Pro Pack Blue | T2 | 12 | 3% |
+| Mono Pro Pack Black | T2 | 12 | 3% |
+| Mono Pro Pack Red | T2 | 12 | 3% |
+| Mono Pro Pack Green | T2 | 12 | 3% |
+| Mono Pro Pack Colorless | T2 | 12 | 3% |
+| Artifact Pro Pack | T2 | 12 | 3% |
+| Alpha Pack | T2 | 6 | 1.5% |
+| Enchantment Pack | T1 | 6 | 1.5% |
+| Enchantment ID Pack | T2 | 6 | 1.5% |
+| Utility Land Pack | T2 | 6 | 1.5% |
+| Mythic Pack | T2 | 6 | 1.5% |
+| Planeswalker Pack | T1 | 6 | 1.5% |
+| Planeswalker ID Pack | T2 | 6 | 1.5% |
+
+---
+
+**🏛 BONUS BUILDING USAGE** *(Total Weight: 80 — 20%)*
+
+| Cashout | Tier | Weight | Chance |
+| :---- | :----: | :----: | :----: |
+| Bonus Bazaar | T2 | 20 | 5% |
+| Bonus Bank | T2 | 14 | 3.5% |
+| Bonus Mystic | T2 | 14 | 3.5% |
+| Bonus Tavern | T2 | 14 | 3.5% |
+| Bonus Guild | T2 | 12 | 3% |
+| Bonus Cathedral | T2 | 6 | 1.5% |
+
+*Each Bonus Building cashout grants one free additional use of that building during the next Town visit.*
+*Bonus Bazaar exception: one deal involving the cashout holder is free for both participants (neither player expends a Deal use).*
+
+---
+
+**⚒ BLACKSMITH SERVICES** *(Total Weight: 18 — 4.5%)*
+
+| Cashout | Weight | Chance |
+| :---- | :----: | :----: |
+| Free Upgrade | 12 | 3% |
+| Free Augment | 6 | 1.5% |
+
+---
+
+**☠️ CRYPT FIGHT CASHOUT** *(Total Weight: 2 — 0.5%)*
+
+| Cashout | Weight | Chance |
+| :---- | :----: | :----: |
+| Crypt Fight Cashout | 2 | 0.5% |
+
+*See [Crypt Fight Cashout](#-crypt-fight-cashout-1) below for resolution rules.*
+
+---
+
+**🎟 TICKET CASHOUTS** *(Total Weight: 10 — Ultra Rare)*
+
+| Cashout | Weight | Chance |
+| :---- | :----: | :----: |
+| Conspiracy Ticket | 4 | 1% |
+| Trinket Ticket | 3 | 0.75% |
+| Vanguard Ticket | 2 | 0.5% |
+| Emblem Ticket | 1 | 0.25% |
+
+*Tickets are one-time-use items redeemable through their respective systems. A player may hold multiple Tickets but may only redeem one Ticket per applicable resolution window.*
+
+---
+
+#### ☠️ Crypt Fight Cashout
+
+The Crypt Fight Cashout is an ultra-rare reward that grants a strategic advantage before the Final Boss.
+
+**Resolution:**
+
+* This cashout may be held and used immediately before the Crypt Fight begins
+* When revealed, all players collectively choose which Crypt to fight from the standard pool instead of rolling randomly
+
+**Rules:**
+
+* Only one Crypt Fight Cashout may be used per run — additional copies are discarded unused
+* If unused by the time the Crypt Fight begins, it expires and is discarded
+* The choice is made before the Crypt encounter type is determined
+
+<!-- rule:player-vs-player-combat -->
+### **⚔️ PLAYER VS PLAYER COMBAT**
+
+• Players may attack other players freely
+
+---
+
+<!-- rule:storm-modification -->
+### **🌩️ STORM RULE MODIFICATION**
+
+When a player casts a spell with Storm:
+
+• Count only spells cast this turn by:  
+ – That player  
+ – The Host
+
+---
+
+<!-- rule:extra-turns -->
+### **⏩ EXTRA TURNS**
+
+• Only the controller of the effect takes the extra turn
+
+---
+
+<!-- rule:card-acquisition -->
+### **📦 CARD ACQUISITION RULE**
+
+Whenever a player would gain a card:
+
+• They may put it into their **Deck or Sideboard**, unless otherwise stated  
+• The Sideboard has **no size limit**  
+• Players **do not have to remain within their Commander's color identity during gameplay**  
+• Color identity applies only when a card-generation, search, or other effect explicitly says it is restricted by color identity
+
+Applies to:  
+ • Events, Town, Cash Outs, Travelers, Packs, Rewards
+
+Override:  
+ • Effects that explicitly bypass placement or impose their own restrictions
+
+---
+
+<!-- rule:pack-rules -->
+### **📦 PACK RULES**
+
+• Pack card quantity uses the pack's normal base size  
+• **Brand of the Open Hand** adds **+1 card per Rank** whenever that player opens a pack  
+• Brand-added cards increase the number of cards seen; they do **not** increase a pack's keep limit unless another effect explicitly says so  
+• Pro Pack → 45+ results  
+• Mythic Pack → 30+ results  
+• OTAG Pack → 15+ results
+
+Invalid packs must be rerolled or adjusted.
+
+---
+
 ## Between Encounters
 
 <!-- rule:post-encounter-choice -->
@@ -2777,6 +3377,216 @@ Free.
 
 Each player in the party gains 5 XP.
 
+<!-- rule:event-timing -->
+### **🎯 EVENT TIMING**
+
+Events are drawn and resolved **after the post-encounter phase** and before the next encounter begins.
+
+Pre-first-encounter note: The starting Event resolved before Encounter 1 cannot be a **Bad Event**. **Ambush counts as Bad**, so Ambush Events are also excluded from the starting Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
+
+**Order of Operations:**
+
+1. Encounter is defeated  
+2. Rewards are resolved  
+3. Players choose:  
+   * Return to Town  
+   * Stay Out  
+4. Resolve Town or Stay Out effects  
+5. **Resolve Event(s)**  
+6. Begin next encounter
+
+---
+
+<!-- rule:event-frequency -->
+### **🔢 EVENT FREQUENCY**
+
+The number of Events resolved depends on the players’ choice:
+
+* **Return to Town:** Resolve **1 Event**  
+* **Stay Out:** Resolve **2 Events**, then add **+1 Event** for each consecutive Stay Out
+
+Example:
+
+* First consecutive Stay Out: 2 Events  
+* Second consecutive Stay Out: 3 Events  
+* Third consecutive Stay Out: 4 Events
+
+Event scaling resets when the party returns to Town.
+
+Events are drawn and handled **one at a time**, in the order they are drawn.
+
+---
+
+<!-- rule:event-design-rules -->
+### **🧱 EVENT DESIGN RULES**
+
+Events follow these constraints:
+
+* Events are normally **drawn outside of combat**.  
+* An Event may create an effect that applies to the **next encounter**, a later phase, Town, or the **rest of the run** when the card explicitly says so.  
+* Events may reference or modify established systems such as Town, Stay Out, Crypt setup, rewards, Trinkets, Vanguards, Cash Outs, Scryfall generation, upgrades, and other run systems. Follow the referenced system's normal rules unless the Event overrides them.  
+* If an Event creates a persistent or delayed effect, that effect remains active for the duration printed on the card.  
+* Apply the Event to the players or game elements specified by the card; Events are not assumed to affect every player equally.  
+* Life wording convention: **"lose/gain X life"** changes current life only. Permanent health changes must explicitly say **"Max HP"** or **"Max Life"**.
+
+---
+
+<!-- rule:event-classifications -->
+### **📊 PRINTED EVENT CLASSIFICATIONS**
+
+Current Event cards use the following printed classifications:
+
+* **Good** — Primarily beneficial Events that provide resources, cards, upgrades, choices, or other advantages.  
+* **Neutral** — Mixed, situational, tradeoff-driven, or low-risk Events that are not classified as Bad.  
+* **Bad** — Harmful or dangerous Events that impose penalties, restrictions, losses, or significant risk.  
+* **Ambush** — A distinct printed Event label for hostile surprise Events. **Ambush counts as Bad for all protections, restrictions, rerolls, and eligibility checks.**  
+* **Town Upgrade** — Events that add or modify Town functionality, usually for the rest of the run unless the card specifies another duration.
+
+These classifications determine Event-pool routing and rule checks. They do not replace the rules text printed on the Event card.
+
+**Legacy terminology:** Any older rule text that says **"Bad Stuff Event"** means a **Bad Event** under this system. Because Ambush counts as Bad, Ambush is included in that legacy restriction.
+
+---
+
+<!-- rule:event-scaling -->
+### **⚖️ EVENT SCALING *(Optional System Layer)***
+
+Events may scale based on encounter progression when a card or Event pool specifically says so.
+
+Possible scaling approaches include:
+
+* Tiered Event Pools (similar to Affixes)  
+* Increasing reward/value per encounter  
+* Increasing risk or complexity at later stages
+
+*(Defined in a separate Event Pool document if used.)*
+
+---
+
+<!-- rule:event-restrictions -->
+### **🚫 RESTRICTIONS**
+
+* Events are not normally drawn **during an active encounter** unless a card or system specifically instructs otherwise.  
+* Events do **not occur during the Crypt**.  
+* **No Event is drawn immediately before the Crypt.**  
+* The starting Event before Encounter 1 cannot be **Bad**; because Ambush counts as Bad, it cannot be an **Ambush** either.  
+* Continuing Event effects may overlap with Town, encounter setup, rewards, or other systems when the Event explicitly creates that overlap.
+
+---
+
+<!-- rule:stay-out-timing -->
+### **🎯 WHEN STAY OUT OCCURS**
+
+After an encounter is resolved, players must choose one:
+
+• Return to Town  
+ • Stay Out
+
+If players choose to Stay Out, resolve the Stay Out sequence before proceeding to Events.
+
+---
+
+<!-- rule:stay-out-xp -->
+### **⚡ XP REWARD**
+
+Each player gains XP when choosing to Stay Out.
+
+#### **📈 BASE XP**
+
+* Each player gains \+10 XP
+
+#### **📈 SCALING XP**
+
+Each consecutive Stay Out increases XP gained by \+5.
+
+Example:
+
+* First Stay Out → \+10 XP  
+* Second → \+15 XP  
+* Third → \+20 XP  
+* Fourth → \+25 XP
+
+Scaling resets when the party returns to Town.
+
+---
+
+<!-- rule:stay-out-mystery-packs -->
+### **📚 MYSTERY PACKS**
+
+Each player gains **2 Mystery Packs** when Staying Out.
+
+#### **⚡ SCALING**
+
+Mystery Packs do not scale with consecutive Stay Outs.
+
+#### **⚖️ RULES**
+
+* Mystery Packs are opened immediately  
+* Each player keeps **1 card** per pack — this limit applies regardless of Brands or other effects  
+* The only exception is a specific Traveler interaction available in Town  
+
+*(See Merchant in the Town System for full Mystery Pack rules)*
+
+---
+
+<!-- rule:stay-out-event-modifier -->
+### **🎲 EVENT MODIFIER**
+
+Staying Out increases Event frequency and scales with consecutive Stay Outs.
+
+After resolving all Stay Out effects:
+
+* **Base:** Resolve **2 Events** instead of 1  
+* **Scaling:** Each consecutive Stay Out adds **\+1 additional Event**
+
+Example:
+
+* First Stay Out → 2 Events  
+* Second → 3 Events  
+* Third → 4 Events  
+* Fourth → 5 Events
+
+Scaling resets when the party returns to Town.
+
+Events are resolved **one at a time, in order drawn**. Each Event must fully resolve before the next begins.
+
+---
+
+<!-- rule:stay-out-restrictions -->
+### **❌ RESTRICTIONS**
+
+While Staying Out:
+
+• Players fully heal and reset to max HP  
+ • "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**  
+ • Players do not access Town buildings  
+ • Players do not gain free building effects
+
+---
+
+<!-- rule:town-timing -->
+### 🎯 **WHEN TOWN OCCURS**
+
+After an encounter is defeated and rewards are resolved, players may choose to:
+
+* Return to Town  
+* Stay Out
+
+If players choose to return, resolve Town before proceeding to Events.
+
+<!-- rule:town-full-heal -->
+### ❤️ **FULL HEAL**
+
+All players are fully healed upon entering Town.
+
+* Life totals are restored to current maximum HP
+* "Lose/gain X life" affects current life only; permanent health changes must explicitly say **"Max HP/Life"**
+
+<!-- rule:town-building-system -->
+### **🏪 BUILDING SYSTEM**
+
+Town does not use actions.
+
 ## The Crypt
 
 <!-- rule:run-failure -->
@@ -3037,6 +3847,29 @@ Save 1 card from your deck in your collection.
   * 3rd: 1000 Essence
   * And so on...
 * Each capture occupies 1 slot
+
+---
+
+<!-- rule:progression-slot-rules -->
+### **🧩 BUFF SYSTEM**
+
+#### **🔒 Buff Limit**
+
+• Maximum **4 Buff Slots**
+
+---
+
+#### **🧾 Counts As Buff**
+
+• Buffs, Achievements, Tickets, Captures
+
+---
+
+#### **⚖️ Slot Costs**
+
+ • Standard → 1  
+ • Vanguard Ticket → 2  
+ • Emblem Ticket → 3
 
 ---
 

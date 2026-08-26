@@ -43,7 +43,11 @@
         "player-structure",
         "deckbuilding",
         "banned-restricted",
-        "pre-encounter-setup"
+        "pre-encounter-setup",
+        "run-structure",
+        "pregame-shop",
+        "trinket-system",
+        "global-limits"
       ]
     },
     {
@@ -56,7 +60,8 @@
         "party-combat-interactions",
         "encounter-flow",
         "failed-encounter",
-        "reward-timing"
+        "reward-timing",
+        "death-rules"
       ]
     },
     {
@@ -67,7 +72,11 @@
       "rules": [
         "town-flow",
         "stay-out-flow",
-        "event-resolution"
+        "event-resolution",
+        "travelers-system",
+        "wanderers-system",
+        "event-timing",
+        "event-frequency"
       ]
     },
     {
@@ -88,7 +97,10 @@
       "description": "Understand persistent progression and what follows players into future runs.",
       "rules": [
         "host-types-profiles",
-        "progression-reference"
+        "progression-reference",
+        "progression-shop",
+        "brands-system",
+        "progression-slot-rules"
       ]
     }
   ],
@@ -2965,6 +2977,1031 @@
       "related": [
         "progression-reference",
         "brands-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "run-structure",
+      "title": "Run Structure",
+      "source": "rules/getting-started/run-structure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "run overview",
+        "player count",
+        "between encounter reset"
+      ],
+      "related": [
+        "game-loop",
+        "crypt",
+        "player-health"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "authority-effects",
+      "title": "Authority Effects",
+      "source": "rules/host/authority-effects.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "authority i",
+        "authority ii",
+        "authority iii",
+        "authority iv",
+        "authority v",
+        "absolute command"
+      ],
+      "related": [
+        "authority-level",
+        "always-on-scaling"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "authority-interactions",
+      "title": "Authority Interaction Rules",
+      "source": "rules/host/authority-interactions.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "authority counterspell",
+        "disallow",
+        "not today",
+        "authority targets"
+      ],
+      "related": [
+        "authority-effects"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-triggering",
+      "title": "Triggering a Doom Card",
+      "source": "rules/host/doom-triggering.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "flip doom",
+        "doom triggered ability",
+        "doom stack"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-reroll"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-timing",
+      "title": "Doom Timing",
+      "source": "rules/host/doom-timing.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "doom special action",
+        "respond to doom"
+      ],
+      "related": [
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-m-just-getting-started",
+      "title": "💠 I’m Just Getting Started",
+      "source": "rules/host/doom-cards/i-m-just-getting-started.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-a-bit-of-artificial-insight",
+      "title": "🧠 A Bit of Artificial Insight",
+      "source": "rules/host/doom-cards/a-bit-of-artificial-insight.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-will-witness-your-downfall",
+      "title": "👁 I Will Witness Your Downfall",
+      "source": "rules/host/doom-cards/i-will-witness-your-downfall.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-ve-seen-what-breaks-you",
+      "title": "🔍 I’ve Seen What Breaks You",
+      "source": "rules/host/doom-cards/i-ve-seen-what-breaks-you.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-welcome-to-my-reality",
+      "title": "🌌 Welcome to My Reality",
+      "source": "rules/host/doom-cards/welcome-to-my-reality.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-can-do-that-too",
+      "title": "🔮 I Can Do That Too!",
+      "source": "rules/host/doom-cards/i-can-do-that-too.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-oooooh-i-like-you",
+      "title": "💕 Oooooh, I Like You",
+      "source": "rules/host/doom-cards/oooooh-i-like-you.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-no",
+      "title": "❌ No",
+      "source": "rules/host/doom-cards/no.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-are-annoying-me",
+      "title": "😒 You Are Annoying Me",
+      "source": "rules/host/doom-cards/you-are-annoying-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-am-inevitable",
+      "title": "🛡 I Am Inevitable",
+      "source": "rules/host/doom-cards/i-am-inevitable.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-minions-protect-me",
+      "title": "🧱 Minions! Protect Me!",
+      "source": "rules/host/doom-cards/minions-protect-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-how-do-you-like-it",
+      "title": "🔄 How Do You Like It?",
+      "source": "rules/host/doom-cards/how-do-you-like-it.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-death-is-inevitable",
+      "title": "💀 Death Is Inevitable",
+      "source": "rules/host/doom-cards/death-is-inevitable.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-death-comes-for-us-all",
+      "title": "☠ Death Comes for Us All",
+      "source": "rules/host/doom-cards/death-comes-for-us-all.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-ve-outlived-your-usefulness",
+      "title": "🚫 You’ve Outlived Your Usefulness",
+      "source": "rules/host/doom-cards/you-ve-outlived-your-usefulness.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-offer-tribute",
+      "title": "⛓ Offer Tribute",
+      "source": "rules/host/doom-cards/offer-tribute.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-did-that-sting",
+      "title": "😈 Did That Sting?",
+      "source": "rules/host/doom-cards/did-that-sting.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-ll-show-you-true-pain",
+      "title": "🔥 I’ll Show You True Pain",
+      "source": "rules/host/doom-cards/i-ll-show-you-true-pain.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-my-fury-burns",
+      "title": "🔥 My Fury Burns",
+      "source": "rules/host/doom-cards/my-fury-burns.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-madness-ensues",
+      "title": "🧠 Madness Ensues",
+      "source": "rules/host/doom-cards/madness-ensues.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-need-you-to-stop",
+      "title": "⏳ I Need You to Stop",
+      "source": "rules/host/doom-cards/i-need-you-to-stop.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-even-nature-cannot-resist",
+      "title": "🌱 Even Nature Cannot Resist",
+      "source": "rules/host/doom-cards/even-nature-cannot-resist.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-reality-bends-to-my-will",
+      "title": "🌍 Reality Bends to My Will",
+      "source": "rules/host/doom-cards/reality-bends-to-my-will.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-will-put-this-to-good-use",
+      "title": "🕵 I Will Put This to Good Use",
+      "source": "rules/host/doom-cards/i-will-put-this-to-good-use.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-bear-the-mark-you-are-cursed",
+      "title": "🌀 You Bear the Mark! You Are Cursed!",
+      "source": "rules/host/doom-cards/you-bear-the-mark-you-are-cursed.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-timing",
+      "title": "Event Timing",
+      "source": "rules/between-encounters/event-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "when events happen",
+        "starting event"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-frequency",
+      "title": "Event Frequency",
+      "source": "rules/between-encounters/event-frequency.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out event count",
+        "consecutive events"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-design-rules",
+      "title": "Event Rules",
+      "source": "rules/between-encounters/event-design-rules.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "event persistent effects",
+        "event duration"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-classifications",
+      "title": "Event Classifications",
+      "source": "rules/between-encounters/event-classifications.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "good event",
+        "neutral event",
+        "bad event",
+        "ambush"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-scaling",
+      "title": "Event Scaling",
+      "source": "rules/between-encounters/event-scaling.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "optional event scaling"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-restrictions",
+      "title": "Event Restrictions",
+      "source": "rules/between-encounters/event-restrictions.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "no events during crypt",
+        "bad starting event"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "reward-scaling",
+      "title": "Reward Scaling",
+      "source": "rules/rewards/reward-scaling.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "base xp scaling",
+        "affix bonus xp"
+      ],
+      "related": [
+        "xp-system",
+        "affixes-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "cashout-pool",
+      "title": "Cashout Pool",
+      "source": "rules/rewards/cashout-pool.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "cashout weights",
+        "cashout tiers",
+        "crypt fight cashout",
+        "bonus building cashout"
+      ],
+      "related": [
+        "cashout-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-timing",
+      "title": "When Stay Out Occurs",
+      "source": "rules/between-encounters/stay-out-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "choose stay out"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-xp",
+      "title": "Stay Out XP",
+      "source": "rules/between-encounters/stay-out-xp.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "consecutive stay out xp"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-mystery-packs",
+      "title": "Stay Out Mystery Packs",
+      "source": "rules/between-encounters/stay-out-mystery-packs.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out packs"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-event-modifier",
+      "title": "Stay Out Event Modifier",
+      "source": "rules/between-encounters/stay-out-event-modifier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out events"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-restrictions",
+      "title": "Stay Out Restrictions",
+      "source": "rules/between-encounters/stay-out-restrictions.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out no town"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-timing",
+      "title": "When Town Occurs",
+      "source": "rules/town/town-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "choose town"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-full-heal",
+      "title": "Town Full Heal",
+      "source": "rules/town/town-full-heal.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "town healing"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-building-system",
+      "title": "Town Building System",
+      "source": "rules/town/town-building-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "limited use buildings",
+        "unlimited buildings"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "player-vs-player-combat",
+      "title": "Player vs Player Combat",
+      "source": "rules/encounters/player-vs-player-combat.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "pvp",
+        "attack players"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "storm-modification",
+      "title": "Storm Rule Modification",
+      "source": "rules/encounters/storm-modification.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "storm count",
+        "storm spells"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "extra-turns",
+      "title": "Extra Turns",
+      "source": "rules/encounters/extra-turns.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "extra turn controller"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "card-acquisition",
+      "title": "Card Acquisition",
+      "source": "rules/encounters/card-acquisition.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "deck or sideboard",
+        "gain card",
+        "color identity during run"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "progression-slot-rules",
+      "title": "Progression Slot Rules",
+      "source": "rules/progression/progression-slot-rules.md",
+      "phase": "between-runs",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "buff slots",
+        "slot costs",
+        "four slots"
+      ],
+      "related": [
+        "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "starting-land-balance",
+      "title": "Starting Land Balance",
+      "source": "rules/getting-started/starting-land-balance.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "lands in play",
+        "host wastes"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "pack-rules",
+      "title": "Pack Rules",
+      "source": "rules/rewards/pack-rules.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "pack size",
+        "brand open hand",
+        "pro pool",
+        "mythic pool",
+        "otag pool"
+      ],
+      "related": [
+        "cashout-system",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "global-limits",
+      "title": "Global Limits",
+      "source": "rules/getting-started/global-limits.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "commander limit",
+        "sideboard limit",
+        "trinket limit",
+        "companion limit"
+      ],
+      "related": [
+        "deckbuilding",
+        "progression-slot-rules"
       ],
       "content": {
         "kind": "document"

@@ -1,0 +1,7 @@
+# **❌ No**
+
+Counter target spell.
+
+---
+
+---
