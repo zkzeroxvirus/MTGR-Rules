@@ -1,6 +1,6 @@
 # MTG Roguelike — Host Cheat Sheet
 
-> Quick table reference for running an MTGR session. Use the Full Rules for edge cases and complete subsystem text.
+> Compact table reference for running an MTGR session. Use the Full Rules for edge cases and complete subsystem text.
 
 ## 1 — Before Encounter 1
 
