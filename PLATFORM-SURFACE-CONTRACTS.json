@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "description": "Supplemental MTGR-Rules contracts consumed by Platform surfaces that are not part of the interactive rulebook navigation.",
+  "rules": [
+    {
+      "id": "host-health-table",
+      "title": "Host Health Table",
+      "source": "ENCOUNTER-SYSTEM-V1.0.md",
+      "phase": "encounter-loop",
+      "audience": ["host"],
+      "surfaces": ["host"],
+      "content": { "kind": "section", "heading": "HOST HEALTH" }
+    },
+    {
+      "id": "host-base-xp-table",
+      "title": "Host Base XP Table",
+      "source": "REWARD-SYSTEM-V1.0.md",
+      "phase": "encounter-loop",
+      "audience": ["host"],
+      "surfaces": ["host"],
+      "content": { "kind": "section", "heading": "BASE XP BY ENCOUNTER MODE" }
+    },
+    {
+      "id": "host-affix-structure",
+      "title": "Host Affix Structure",
+      "source": "ENCOUNTER-SYSTEM-V1.0.md",
+      "phase": "encounter-loop",
+      "audience": ["host"],
+      "surfaces": ["host"],
+      "content": { "kind": "section", "heading": "AFFIX STRUCTURE" }
+    },
+    {
+      "id": "core-rules-document",
+      "title": "Rules",
+      "source": "CORE-RULES.md",
+      "phase": "before-run",
+      "audience": ["player", "host"],
+      "surfaces": ["tts-document"],
+      "content": { "kind": "document" }
+    },
+    {
+      "id": "host-cheat-sheet-document",
+      "title": "Host Cheat Sheet",
+      "source": "HOSTING/HOST-CHEAT-SHEET-V2.0.md",
+      "phase": "before-run",
+      "audience": ["host"],
+      "surfaces": ["tts-document"],
+      "content": { "kind": "document" }
+    },
+    {
+      "id": "player-cheat-sheet-document",
+      "title": "Player Cheat Sheet",
+      "source": "HOSTING/PLAYER-CHEAT-SHEET-V2.0.md",
+      "phase": "before-run",
+      "audience": ["player"],
+      "surfaces": ["tts-document"],
+      "content": { "kind": "document" }
+    }
+  ]
+}
