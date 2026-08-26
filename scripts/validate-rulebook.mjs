@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifestPath = path.join(root, "rulebook-manifest.json");
 const notebookPath = path.join(root, "NOTEBOOK-MANIFEST.json");
 const platformContractsPath = path.join(root, "PLATFORM-SURFACE-CONTRACTS.json");
+const progressionContractsPath = path.join(root, "PROGRESSION-CONTRACTS.json");
 
 const normalizeHeading = (value) => String(value || "")
   .replace(/\\([!+*#_`])/g, "$1")
@@ -35,6 +36,7 @@ const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const manifest = await readJson(manifestPath);
 const notebook = await readJson(notebookPath);
 const platformContracts = await readJson(platformContractsPath);
+const progressionContracts = await readJson(progressionContractsPath);
 
 if (manifest.schemaVersion !== 2) fail("rulebook-manifest.json must use schemaVersion 2");
 if (manifest.$schema !== "contracts/rulebook.schema.json") fail("rulebook-manifest.json must declare contracts/rulebook.schema.json");
@@ -42,11 +44,16 @@ if (!Array.isArray(manifest.rules) || !manifest.rules.length) fail("manifest mus
 if (platformContracts.schemaVersion !== 1 || !Array.isArray(platformContracts.rules) || !platformContracts.rules.length) {
   fail("PLATFORM-SURFACE-CONTRACTS.json must define schemaVersion 1 rules");
 }
+if (progressionContracts.schemaVersion !== 1 || !progressionContracts.source || !progressionContracts.categories) {
+  fail("PROGRESSION-CONTRACTS.json must define schemaVersion 1, source, and categories");
+}
 
 const allowedPhases = new Set(["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs"]);
 const allowedAudience = new Set(["player", "host"]);
 const allowedKinds = new Set(["document", "section", "range"]);
 const allowedSurfaces = new Set(["web", "notebook", "host", "tts-document"]);
+const allowedProgressionCategories = new Set(["crypt_buff", "ticket", "brand", "achievement"]);
+const expectedProgressionCounts = { crypt_buff: 21, ticket: 8, brand: 10, achievement: 28 };
 const ruleIds = new Set();
 const ruleMap = new Map();
 const documentCache = new Map();
@@ -163,4 +170,28 @@ for (const required of [
   if (!platformIds.has(required)) fail(`missing required Platform surface contract ${required}`);
 }
 
-console.log(`Validated ${manifest.rules.length} rulebook contracts, ${platformContracts.rules.length} Platform surface contracts, and ${notebook.tabs.length} Notebook tabs.`);
+const progressionLines = splitLines(await sourceText(progressionContracts.source));
+const progressionIds = new Set();
+let progressionCount = 0;
+for (const [category, entries] of Object.entries(progressionContracts.categories || {})) {
+  if (!allowedProgressionCategories.has(category)) fail(`progression contract has invalid category ${category}`);
+  if (!entries || typeof entries !== "object" || Array.isArray(entries)) fail(`progression category ${category} must be an object`);
+  for (const [id, title] of Object.entries(entries)) {
+    progressionCount += 1;
+    if (!/^[a-z0-9]+(?:_[a-z0-9]+)*$/.test(id)) fail(`progression contract has invalid catalog id ${id}`);
+    if (progressionIds.has(id)) fail(`duplicate progression catalog id ${id}`);
+    progressionIds.add(id);
+    if (typeof title !== "string" || !title.trim()) fail(`progression contract ${id} is missing a title`);
+    const heading = resolveHeading(progressionLines, title);
+    if (!heading.match) fail(`progression contract ${id} heading "${title}" must resolve uniquely in ${progressionContracts.source}; found ${heading.count}`);
+  }
+}
+for (const [category, expected] of Object.entries(expectedProgressionCounts)) {
+  const actual = Object.keys(progressionContracts.categories?.[category] || {}).length;
+  if (actual !== expected) fail(`progression category ${category} must contain ${expected} entries; found ${actual}`);
+}
+if (Object.keys(progressionContracts.categories || {}).length !== allowedProgressionCategories.size) {
+  fail("progression contracts must define exactly crypt_buff, ticket, brand, and achievement categories");
+}
+
+console.log(`Validated ${manifest.rules.length} rulebook contracts, ${platformContracts.rules.length} Platform surface contracts, ${progressionCount} progression contracts, and ${notebook.tabs.length} Notebook tabs.`);
