@@ -1,20 +1,20 @@
 # Brands System
 
-## **🛒 PURCHASE TIMING**
+## 🛒 PURCHASE TIMING
 
-Brands may be purchased from the **Progression Shop** either:
+Brands are purchased from the **Progression Shop**. The Progression Shop is available:
 
-* Pre-game  
-* Post-game
+* **before a run begins**;
+* **after a run ends**.
 
 ---
 
-## **⚙️ CORE RULES**
+## ⚙️ CORE RULES
 
-* Brand effects are persistent across runs  
-* Brands affect deckbuilding, Commander generation, or pack resolution as written  
-* Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased  
-* Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**
+* Brand effects are persistent across runs.
+* Brands affect deckbuilding, Commander generation, or pack resolution as written.
+* Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased.
+* Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
 
 **Stacking cost example (Brand of the Cartographer — 500 Essence base):**
 
@@ -26,8 +26,8 @@ Brands may be purchased from the **Progression Shop** either:
 
 ---
 
-## **🧠 DESIGN INTENT**
+## 🧠 DESIGN INTENT
 
-Brands are intended to sit between one-run setup purchases and long-term account unlocks.
+Brands are intended to sit between one-run setup choices and long-term account unlocks.
 
 They let players shape how they draft and build without replacing the normal encounter progression systems.

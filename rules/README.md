@@ -69,7 +69,6 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [🪬 TRIBAL TOTEM](getting-started/trinkets/tribal-totem.md) — `trinket-tribal-totem`
 - [🧟 WALKING CORPSE](getting-started/trinkets/walking-corpse.md) — `trinket-walking-corpse`
 - [🍽️ HUNGRY IDOL](getting-started/trinkets/hungry-idol.md) — `trinket-hungry-idol`
-- [Pregame Shop](getting-started/pregame-shop.md) — `pregame-shop`
 - [Run Structure](getting-started/run-structure.md) — `run-structure`
 - [Starting Land Balance](getting-started/starting-land-balance.md) — `starting-land-balance`
 - [Global Limits](getting-started/global-limits.md) — `global-limits`

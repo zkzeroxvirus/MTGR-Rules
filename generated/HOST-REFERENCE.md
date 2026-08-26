@@ -348,11 +348,12 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 
 ---
 
-#### SOURCE OF TRUTH
+#### RELATED RULES
 
-- Core loop timing: CORE-RULES.md
-- Run flow overview: CORE-GAME-STRUCTURE-V1.0.md
-- Ticket unlock behavior: SHOPS.md and PERMANENT-PROGRESSION.md
+- Pre-first-encounter timing: `pre-encounter-setup`
+- Core run flow: `game-loop`
+- Persistent Ticket and account progression: `progression-reference`
+- Persistent Essence purchases: `progression-shop`
 
 ---
 
@@ -1006,59 +1007,6 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 **Timing:** Triggered at the beginning of each town visit.  
 **Limit:** Once per town.  
 **Resolution:** Each party member removes one permanent card from their deck and gains 15 XP.
-
-<!-- rule:pregame-shop -->
-### **🎲 PREGAME SHOP**
-
-Available only before the first encounter during deckbuilding.
-
-All purchases use **Essence**.
-
----
-
-#### **Commander Gamble** — 0 Essence
-
-Mulligan your Commander for 1 new option.
-
-**Rules:**
-
-* You are forced to take the new Commander
-* If the new Commander is absolutely unplayable, re-rolls are allowed at Host discretion
-* Your next **Guild** purchase during this run is **free**
-
----
-
-#### **Partner/Background/etc.** — 0 Essence
-
-Choose a Partner, Background, or similar option.
-
-**Rules:**
-
-* If the chosen card has "Partner with X," you gain X instead
-
----
-
-#### **Land Replacement** — 35 Essence
-
-Switch out a basic land of your choice for a dual land or triome of your choice.
-
-**Rules:**
-
-* The replacement land must be legal in your Commander's color identity
-* You may use this multiple times per Pregame Shop visit
-
----
-
-#### **Commander Mulligan** — 50 Essence
-
-Delete your current 5 Commander options and receive 5 new Commanders.
-
-**Rules:**
-
-* This generates an entirely new set of random legal Commanders
-* You may use this multiple times per Pregame Shop visit
-
----
 
 <!-- rule:run-structure -->
 ### Run Structure
@@ -2551,13 +2499,23 @@ After an encounter is defeated and rewards are resolved, the party must choose o
 • Stay Out
 
 <!-- rule:town-flow -->
-### ⚙️ **TOWN FLOW**
+### ⚙️ TOWN FLOW
 
-When the party returns to Town, resolve the following:
+When the party returns to **Town**, resolve the following before Event resolution:
 
-1. Fully heal all players
-2. Resolve Town building usage
-3. Proceed to Event resolution
+1. **Fully heal all players** to their current maximum HP.
+2. **Reset the consecutive Stay Out count.** The next Stay Out starts again at **10 XP and 2 Events**.
+3. **Resolve Town building usage.** Limited-use buildings reset their uses on each return to Town; unlimited buildings may be used as allowed by their own rules.
+4. **Proceed to Event resolution.**
+
+#### Full heal
+
+Entering Town restores each player's current life total to their current maximum HP.
+
+- “Gain life” and “lose life” change current life only.
+- A permanent health change must explicitly change **Max HP/Life**.
+
+Town provides controlled between-encounter progression; players cannot use Town buildings while resolving the Stay Out path.
 
 <!-- rule:town-buildings -->
 ### 🏛️ BUILDINGS
@@ -2740,18 +2698,37 @@ Choose one mana-fixing option:
 Your Deck must remain at or above your current modified deck-size minimum after removals.
 
 <!-- rule:stay-out-flow -->
-### **⚙️ STAY OUT FLOW**
+### ⚙️ STAY OUT FLOW
 
-When the party chooses to Stay Out, resolve the following in order:
+When the party chooses to **Stay Out**, resolve the following before the next encounter.
 
-1. Gain XP  
-2. Gain Mystery Packs  
-3. Resolve a Supply Drop  
-4. Resolve a Wanderer  
-5. Resolve Events  
-6. Proceed to the next encounter 
+#### Immediate state
 
-   ---
+- All players **fully heal and reset to their current maximum HP**.
+- Players **do not access Town buildings** and do not gain free Town-building effects.
+- The party's consecutive Stay Out count is used for both XP and Event scaling.
+
+#### Resolution order
+
+1. **Gain Stay Out XP.** Each player gains **10 XP** on the first Stay Out. Each consecutive Stay Out adds **+5 XP**.
+2. **Gain Mystery Packs.** Each player gains **2 Mystery Packs**. Mystery Packs do not scale with the streak.
+3. **Resolve a Supply Drop.** Resolve it outside the encounter battlefield state.
+4. **Resolve a Wanderer.** Each player may interact with the revealed Wanderer as allowed by that Wanderer.
+5. **Resolve Events.** The first Stay Out resolves **2 Events**. Each consecutive Stay Out adds **+1 Event**. Resolve multiple Events one at a time, in order.
+6. **Proceed to the next encounter.**
+
+#### Consecutive Stay Out scaling
+
+| Consecutive Stay Out | XP per player | Events |
+|---|---:|---:|
+| 1st | 10 XP | 2 |
+| 2nd | 15 XP | 3 |
+| 3rd | 20 XP | 4 |
+| 4th | 25 XP | 5 |
+
+Returning to **Town resets the consecutive Stay Out count**. The next Stay Out after a Town visit starts again at **10 XP and 2 Events**.
+
+Detailed pack, Event, Supply Drop, Wanderer, and restriction rules remain in their dedicated rule entries.
 
 <!-- rule:supply-drop-resolution -->
 ### **🎁 SUPPLY DROP RESOLUTION**

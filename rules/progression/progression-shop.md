@@ -1,6 +1,6 @@
-# **💠 PROGRESSION SHOP**
+# 💠 PROGRESSION SHOP
 
-Available both before the run begins and after the run ends.
+The **Progression Shop is MTGR's persistent Essence shop**. It is available **before a run begins** and **after a run ends**.
 
 All purchases use **Essence**.
 
@@ -15,39 +15,37 @@ All purchases use **Essence**.
 
 *Example: A 1000 Essence Brand costs 1000 for Rank 1, 2000 for Rank 2, 3000 for Rank 3, and so on.*
 
-## **End-of-Game Essence Shop Options**
+## After-run Progression Options
 
-At the end of the game, you may do any of the following:
+After a run ends, players may use the Progression Shop options below.
 
 ---
 
-## **Sell Buffs** — 250 Essence
+## Sell Buffs — 250 Essence
 
-Sell a **Crypt buff** back to the Host in exchange for 250 Essence.
+Sell a **Crypt Buff** back to the Host in exchange for 250 Essence.
 
 **Rules:**
 
-* If Crypt completion awards a Crypt buff you already have unlocked, that duplicate buff is immediately sold for +250 Essence
-* You may sell a Crypt buff after the run ends
+* If Crypt completion awards a Crypt Buff you already have unlocked, that duplicate buff is immediately sold for +250 Essence.
+* You may sell a Crypt Buff after the run ends.
 
 ---
 
-## **Capture Non-Commander** — 500 Essence* (base cost)
+## Capture Non-Commander — 500 Essence* (base cost)
 
 Save 1 card from your deck in your collection.
 
 **Rules:**
 
-* A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**
-* Captured cards may be used in future deck builds
-* A card granted through the Capture system is **treated as Scryfalled** when used in a run
-* A captured card therefore cannot be traded, captured again, or used as part of any combo
-* Captured cards count against your deck's 39 cards (they do not have a free allocation)
-* **Stacking cost:** For each capture after the first, the cost increases by 250 Essence
+* A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**.
+* Captured cards may be used in future deck builds.
+* A card granted through the Capture system is **treated as Scryfalled** when used in a run.
+* A captured card therefore cannot be traded, captured again, or used as part of any combo.
+* Captured cards count against your deck's 39 cards; they do not have a free allocation.
+* **Stacking cost:** For each capture after the first, the cost increases by 250 Essence:
   * 1st: 500 Essence
   * 2nd: 750 Essence
   * 3rd: 1000 Essence
-  * And so on...
-* Each capture occupies 1 slot
-
----
+  * and so on.
+* Each capture occupies 1 slot.
