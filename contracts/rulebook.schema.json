@@ -5,6 +5,7 @@
   "type": "object",
   "required": ["schemaVersion", "repository", "branch", "learnPath", "guides", "rules"],
   "properties": {
+    "$schema": {"type": "string"},
     "schemaVersion": {"const": 2},
     "repository": {"type": "string", "minLength": 1},
     "branch": {"type": "string", "minLength": 1},
