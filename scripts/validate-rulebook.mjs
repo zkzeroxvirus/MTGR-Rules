@@ -28,10 +28,7 @@ const headingFromLine = (line) => {
   return match ? { level: match[1].length, text: displayHeading(match[2]) } : null;
 };
 
-const fail = (message) => {
-  throw new Error(`Rule contract validation failed: ${message}`);
-};
-
+const fail = (message) => { throw new Error(`Rule contract validation failed: ${message}`); };
 const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const manifest = await readJson(manifestPath);
 const notebook = await readJson(notebookPath);
@@ -44,93 +41,65 @@ if (!Array.isArray(manifest.rules) || !manifest.rules.length) fail("manifest mus
 if (platformContracts.schemaVersion !== 1 || !Array.isArray(platformContracts.rules) || !platformContracts.rules.length) {
   fail("PLATFORM-SURFACE-CONTRACTS.json must define schemaVersion 1 rules");
 }
-if (progressionContracts.schemaVersion !== 1 || !progressionContracts.source || !progressionContracts.categories) {
-  fail("PROGRESSION-CONTRACTS.json must define schemaVersion 1, source, and categories");
+if (progressionContracts.schemaVersion !== 2 || !progressionContracts.categories) {
+  fail("PROGRESSION-CONTRACTS.json must define schemaVersion 2 file-per-entry categories");
 }
 
 const allowedPhases = new Set(["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs"]);
 const allowedAudience = new Set(["player", "host"]);
-const allowedKinds = new Set(["document", "section", "range"]);
 const allowedSurfaces = new Set(["web", "notebook", "host", "tts-document"]);
 const allowedProgressionCategories = new Set(["crypt_buff", "ticket", "brand", "achievement"]);
 const expectedProgressionCounts = { crypt_buff: 21, ticket: 8, brand: 10, achievement: 28 };
 const ruleIds = new Set();
 const ruleMap = new Map();
-const documentCache = new Map();
+const canonicalSources = new Set();
+const sourceCache = new Map();
 
 const sourceText = async (source) => {
-  if (!documentCache.has(source)) {
+  if (typeof source !== "string" || !source || source.includes("..")) fail(`invalid source path: ${source}`);
+  if (!sourceCache.has(source)) {
     const fullPath = path.join(root, source);
     if (!fullPath.startsWith(root + path.sep)) fail(`source escapes repository root: ${source}`);
-    documentCache.set(source, await readFile(fullPath, "utf8"));
+    sourceCache.set(source, readFile(fullPath, "utf8").catch((error) => {
+      if (error.code === "ENOENT") fail(`missing source file: ${source}`);
+      throw error;
+    }));
   }
-  return documentCache.get(source);
+  return sourceCache.get(source);
 };
 
-const splitLines = (markdown) => String(markdown || "").replace(/\r\n?/g, "\n").split("\n");
-
-const findHeadings = (lines, wanted, afterIndex = -1) => {
-  const normalized = normalizeHeading(wanted);
-  return lines
-    .map((line, index) => ({ heading: headingFromLine(line), index }))
-    .filter(({ heading, index }) => index > afterIndex && heading && normalizeHeading(heading.text) === normalized);
-};
-
-// Older documents sometimes use a decorative H1 immediately followed by the
-// same H2 with no body between them. Treat only that empty nested wrapper as one
-// logical heading. Any real duplicate remains an error.
-const resolveHeading = (lines, wanted, afterIndex = -1) => {
-  const matches = findHeadings(lines, wanted, afterIndex);
-  if (matches.length <= 1) return { match: matches[0] || null, count: matches.length };
-
-  for (let index = 1; index < matches.length; index += 1) {
-    const previous = matches[index - 1];
-    const current = matches[index];
-    if (current.heading.level <= previous.heading.level) return { match: null, count: matches.length };
-    const between = lines.slice(previous.index + 1, current.index);
-    if (between.some((line) => line.trim() !== "")) return { match: null, count: matches.length };
-  }
-
-  return { match: matches.at(-1), count: matches.length, decorativeWrapper: true };
-};
-
-const validateRule = async (rule, context, { requireSurface = false } = {}) => {
+const validateRule = async (rule, context, { platform = false } = {}) => {
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(rule.id || "")) fail(`${context} has invalid rule id: ${rule.id}`);
   if (ruleIds.has(rule.id)) fail(`duplicate rule id across contracts: ${rule.id}`);
   ruleIds.add(rule.id);
   ruleMap.set(rule.id, rule);
   if (!rule.title || !rule.source || !rule.content) fail(`${rule.id} is missing required metadata`);
   if (!allowedPhases.has(rule.phase)) fail(`${rule.id} has invalid phase ${rule.phase}`);
-  if (!Array.isArray(rule.audience) || !rule.audience.length || rule.audience.some((item) => !allowedAudience.has(item))) {
-    fail(`${rule.id} has invalid audience`);
-  }
-  if ("heading" in rule || "wholeDocument" in rule || "match" in rule) fail(`${rule.id} uses a legacy extraction field; use content`);
-  if (!allowedKinds.has(rule.content.kind)) fail(`${rule.id} has invalid content kind ${rule.content.kind}`);
-  if (requireSurface && (!Array.isArray(rule.surfaces) || !rule.surfaces.length)) fail(`${rule.id} must declare surfaces`);
-  if (Array.isArray(rule.surfaces) && rule.surfaces.some((surface) => !allowedSurfaces.has(surface))) {
-    fail(`${rule.id} has an invalid surface`);
+  if (!Array.isArray(rule.audience) || !rule.audience.length || rule.audience.some((item) => !allowedAudience.has(item))) fail(`${rule.id} has invalid audience`);
+  if (rule.content.kind !== "document") fail(`${rule.id} must use a dedicated document source`);
+  if ("heading" in rule || "wholeDocument" in rule || "match" in rule) fail(`${rule.id} uses a legacy extraction field`);
+  if (Array.isArray(rule.surfaces) && rule.surfaces.some((surface) => !allowedSurfaces.has(surface))) fail(`${rule.id} has an invalid surface`);
+  if (platform && (!Array.isArray(rule.surfaces) || !rule.surfaces.length)) fail(`${rule.id} must declare surfaces`);
+
+  if (platform) {
+    const validPlatformSource = rule.source.startsWith("rules/") || rule.source.startsWith("generated/") || rule.source === "RULEBOOK.md";
+    if (!validPlatformSource) fail(`${rule.id} points at a legacy Platform source: ${rule.source}`);
+  } else {
+    if (!rule.source.startsWith("rules/") || rule.source === "rules/README.md") fail(`${rule.id} must point at a canonical rules/ unit`);
+    if (canonicalSources.has(rule.source)) fail(`multiple semantic rules share canonical source ${rule.source}`);
+    canonicalSources.add(rule.source);
   }
 
   const markdown = await sourceText(rule.source);
-  if (rule.content.kind === "document") {
-    if (!markdown.trim()) fail(`${rule.id} document source is empty`);
-    return;
-  }
-  const lines = splitLines(markdown);
-  const start = resolveHeading(lines, rule.content.heading);
-  if (!start.match) fail(`${rule.id} start heading "${rule.content.heading}" must resolve uniquely in ${rule.source}; found ${start.count}`);
-  if (rule.content.kind === "range") {
-    const end = resolveHeading(lines, rule.content.endHeading, start.match.index);
-    if (!end.match) fail(`${rule.id} end heading "${rule.content.endHeading}" must resolve uniquely after the start in ${rule.source}; found ${end.count}`);
-  }
+  if (!markdown.trim()) fail(`${rule.id} document source is empty`);
+  const firstHeading = markdown.replace(/\r\n?/g, "\n").split("\n").map(headingFromLine).find(Boolean);
+  if (!firstHeading || firstHeading.level !== 1) fail(`${rule.id} canonical document must begin with an H1-level rule heading`);
 };
 
 for (const rule of manifest.rules) await validateRule(rule, "rulebook");
-for (const rule of platformContracts.rules) await validateRule(rule, "platform surface contract", { requireSurface: true });
+for (const rule of platformContracts.rules) await validateRule(rule, "platform surface contract", { platform: true });
 
-const assertRuleRef = (id, context) => {
-  if (!ruleMap.has(id)) fail(`${context} references missing rule ${id}`);
-};
+const assertRuleRef = (id, context) => { if (!ruleMap.has(id)) fail(`${context} references missing rule ${id}`); };
 for (const rule of manifest.rules) for (const related of rule.related || []) assertRuleRef(related, `${rule.id}.related`);
 for (const chapter of manifest.learnPath || []) {
   for (const id of chapter.rules || []) {
@@ -159,39 +128,41 @@ notebook.tabs.forEach((tab, index) => {
 });
 
 const platformIds = new Set(platformContracts.rules.map((rule) => rule.id));
-for (const required of [
-  "host-health-table",
-  "host-base-xp-table",
-  "host-affix-structure",
-  "core-rules-document",
-  "host-cheat-sheet-document",
-  "player-cheat-sheet-document",
-]) {
+for (const required of ["host-health-table", "host-base-xp-table", "host-affix-structure", "core-rules-document", "host-cheat-sheet-document", "player-cheat-sheet-document"]) {
   if (!platformIds.has(required)) fail(`missing required Platform surface contract ${required}`);
 }
 
-const progressionLines = splitLines(await sourceText(progressionContracts.source));
 const progressionIds = new Set();
 let progressionCount = 0;
 for (const [category, entries] of Object.entries(progressionContracts.categories || {})) {
   if (!allowedProgressionCategories.has(category)) fail(`progression contract has invalid category ${category}`);
   if (!entries || typeof entries !== "object" || Array.isArray(entries)) fail(`progression category ${category} must be an object`);
-  for (const [id, title] of Object.entries(entries)) {
+  for (const [id, entry] of Object.entries(entries)) {
     progressionCount += 1;
     if (!/^[a-z0-9]+(?:_[a-z0-9]+)*$/.test(id)) fail(`progression contract has invalid catalog id ${id}`);
     if (progressionIds.has(id)) fail(`duplicate progression catalog id ${id}`);
     progressionIds.add(id);
-    if (typeof title !== "string" || !title.trim()) fail(`progression contract ${id} is missing a title`);
-    const heading = resolveHeading(progressionLines, title);
-    if (!heading.match) fail(`progression contract ${id} heading "${title}" must resolve uniquely in ${progressionContracts.source}; found ${heading.count}`);
+    if (!entry || typeof entry !== "object" || Array.isArray(entry)) fail(`progression contract ${id} must be an object`);
+    if (typeof entry.title !== "string" || !entry.title.trim()) fail(`progression contract ${id} is missing a title`);
+    if (typeof entry.source !== "string" || !entry.source.startsWith("rules/progression/") || !entry.source.endsWith(".md")) fail(`progression contract ${id} must point at rules/progression/*.md`);
+    const markdown = await sourceText(entry.source);
+    if (!markdown.trim()) fail(`progression contract ${id} source is empty`);
+    const firstHeading = markdown.replace(/\r\n?/g, "\n").split("\n").map(headingFromLine).find(Boolean);
+    if (!firstHeading || firstHeading.level !== 1 || normalizeHeading(firstHeading.text) !== normalizeHeading(entry.title)) {
+      fail(`progression contract ${id} H1 must match canonical title "${entry.title}"`);
+    }
+    if (!/^\*\*Effect\*\*\s*$/mi.test(markdown)) fail(`progression contract ${id} is missing an Effect block`);
   }
 }
 for (const [category, expected] of Object.entries(expectedProgressionCounts)) {
   const actual = Object.keys(progressionContracts.categories?.[category] || {}).length;
   if (actual !== expected) fail(`progression category ${category} must contain ${expected} entries; found ${actual}`);
 }
-if (Object.keys(progressionContracts.categories || {}).length !== allowedProgressionCategories.size) {
-  fail("progression contracts must define exactly crypt_buff, ticket, brand, and achievement categories");
+if (Object.keys(progressionContracts.categories || {}).length !== allowedProgressionCategories.size) fail("progression contracts must define exactly crypt_buff, ticket, brand, and achievement categories");
+
+for (const document of manifest.documents || []) {
+  if (!document.source || !["RULEBOOK.md", "generated/PLAYER-REFERENCE.md", "generated/HOST-REFERENCE.md"].includes(document.source)) fail(`manifest document ${document.id} must be generated from canonical rules`);
+  if (!(await sourceText(document.source)).trim()) fail(`manifest document ${document.id} is empty`);
 }
 
-console.log(`Validated ${manifest.rules.length} rulebook contracts, ${platformContracts.rules.length} Platform surface contracts, ${progressionCount} progression contracts, and ${notebook.tabs.length} Notebook tabs.`);
+console.log(`Validated ${manifest.rules.length} canonical rule units, ${platformContracts.rules.length} Platform contracts, ${progressionCount} progression units, and ${notebook.tabs.length} Notebook tabs.`);
