@@ -66,7 +66,7 @@
     {
       "id": "host-cheat-sheet-document",
       "title": "Host Cheat Sheet",
-      "source": "rules/reference/host-cheat-sheet.md",
+      "source": "reference/host-cheat-sheet.md",
       "phase": "before-run",
       "audience": [
         "host"
@@ -81,7 +81,7 @@
     {
       "id": "player-cheat-sheet-document",
       "title": "Player Cheat Sheet",
-      "source": "rules/reference/player-cheat-sheet.md",
+      "source": "reference/player-cheat-sheet.md",
       "phase": "before-run",
       "audience": [
         "player"
