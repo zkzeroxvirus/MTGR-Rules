@@ -1,81 +1,281 @@
 {
-  "schemaVersion": 1,
-  "source": "PERMANENT-PROGRESSION.md",
+  "schemaVersion": 2,
   "categories": {
     "crypt_buff": {
-      "quick_spell": "Quick Spell",
-      "spiritual_guidance": "Spiritual Guidance",
-      "the_god_trees_blessing": "The God Tree's Blessing",
-      "momentum_engine": "Momentum Engine",
-      "eternal_servitude": "Eternal Servitude",
-      "unearthly_reach": "Unearthly Reach",
-      "respited_gift": "Respited Gift",
-      "fickle_duplicant": "Fickle Duplicant",
-      "might_of_okaun": "Might of Okaun",
-      "finders_keepers": "Finders Keepers",
-      "flame_of_progress": "Flame of Progress",
-      "shapeshifter": "Shapeshifter",
-      "undying_legionary": "Artificial Undeath",
-      "treasure_pirate": "Treasure Pirate",
-      "dark_beginnings": "Dark Beginnings",
-      "the_chosen_path": "The Chosen Path",
-      "paragon_adornments": "Paragon Adornments",
-      "upgrades_people_upgrades": "Upgrades, People, Upgrades",
-      "lucky_pull": "Spoils of War",
-      "leftovers": "Leftovers",
-      "scent_of_death": "Scent of Death"
+      "quick_spell": {
+        "title": "Quick Spell",
+        "source": "rules/progression/crypt-buffs/quick-spell.md"
+      },
+      "spiritual_guidance": {
+        "title": "Spiritual Guidance",
+        "source": "rules/progression/crypt-buffs/spiritual-guidance.md"
+      },
+      "the_god_trees_blessing": {
+        "title": "The God Tree's Blessing",
+        "source": "rules/progression/crypt-buffs/the-god-trees-blessing.md"
+      },
+      "momentum_engine": {
+        "title": "Momentum Engine",
+        "source": "rules/progression/crypt-buffs/momentum-engine.md"
+      },
+      "eternal_servitude": {
+        "title": "Eternal Servitude",
+        "source": "rules/progression/crypt-buffs/eternal-servitude.md"
+      },
+      "unearthly_reach": {
+        "title": "Unearthly Reach",
+        "source": "rules/progression/crypt-buffs/unearthly-reach.md"
+      },
+      "respited_gift": {
+        "title": "Respited Gift",
+        "source": "rules/progression/crypt-buffs/respited-gift.md"
+      },
+      "fickle_duplicant": {
+        "title": "Fickle Duplicant",
+        "source": "rules/progression/crypt-buffs/fickle-duplicant.md"
+      },
+      "might_of_okaun": {
+        "title": "Might of Okaun",
+        "source": "rules/progression/crypt-buffs/might-of-okaun.md"
+      },
+      "finders_keepers": {
+        "title": "Finders Keepers",
+        "source": "rules/progression/crypt-buffs/finders-keepers.md"
+      },
+      "flame_of_progress": {
+        "title": "Flame of Progress",
+        "source": "rules/progression/crypt-buffs/flame-of-progress.md"
+      },
+      "shapeshifter": {
+        "title": "Shapeshifter",
+        "source": "rules/progression/crypt-buffs/shapeshifter.md"
+      },
+      "undying_legionary": {
+        "title": "Artificial Undeath",
+        "source": "rules/progression/crypt-buffs/undying-legionary.md"
+      },
+      "treasure_pirate": {
+        "title": "Treasure Pirate",
+        "source": "rules/progression/crypt-buffs/treasure-pirate.md"
+      },
+      "dark_beginnings": {
+        "title": "Dark Beginnings",
+        "source": "rules/progression/crypt-buffs/dark-beginnings.md"
+      },
+      "the_chosen_path": {
+        "title": "The Chosen Path",
+        "source": "rules/progression/crypt-buffs/the-chosen-path.md"
+      },
+      "paragon_adornments": {
+        "title": "Paragon Adornments",
+        "source": "rules/progression/crypt-buffs/paragon-adornments.md"
+      },
+      "upgrades_people_upgrades": {
+        "title": "Upgrades, People, Upgrades",
+        "source": "rules/progression/crypt-buffs/upgrades-people-upgrades.md"
+      },
+      "lucky_pull": {
+        "title": "Spoils of War",
+        "source": "rules/progression/crypt-buffs/lucky-pull.md"
+      },
+      "leftovers": {
+        "title": "Leftovers",
+        "source": "rules/progression/crypt-buffs/leftovers.md"
+      },
+      "scent_of_death": {
+        "title": "Scent of Death",
+        "source": "rules/progression/crypt-buffs/scent-of-death.md"
+      }
     },
     "ticket": {
-      "arcane_signet_ticket": "Arcane Signet Ticket",
-      "sol_ring_ticket": "Sol Ring Ticket",
-      "leyline_ticket": "Leyline Ticket",
-      "color_combo_ticket": "Color Combo Ticket",
-      "trinket_ticket": "Trinket Ticket",
-      "conspiracy_ticket": "Conspiracy Ticket",
-      "vanguard_ticket": "Vanguard Ticket",
-      "emblem_ticket": "Emblem Ticket"
+      "arcane_signet_ticket": {
+        "title": "Arcane Signet Ticket",
+        "source": "rules/progression/tickets/arcane-signet-ticket.md"
+      },
+      "sol_ring_ticket": {
+        "title": "Sol Ring Ticket",
+        "source": "rules/progression/tickets/sol-ring-ticket.md"
+      },
+      "leyline_ticket": {
+        "title": "Leyline Ticket",
+        "source": "rules/progression/tickets/leyline-ticket.md"
+      },
+      "color_combo_ticket": {
+        "title": "Color Combo Ticket",
+        "source": "rules/progression/tickets/color-combo-ticket.md"
+      },
+      "trinket_ticket": {
+        "title": "Trinket Ticket",
+        "source": "rules/progression/tickets/trinket-ticket.md"
+      },
+      "conspiracy_ticket": {
+        "title": "Conspiracy Ticket",
+        "source": "rules/progression/tickets/conspiracy-ticket.md"
+      },
+      "vanguard_ticket": {
+        "title": "Vanguard Ticket",
+        "source": "rules/progression/tickets/vanguard-ticket.md"
+      },
+      "emblem_ticket": {
+        "title": "Emblem Ticket",
+        "source": "rules/progression/tickets/emblem-ticket.md"
+      }
     },
     "brand": {
-      "brand_of_the_cartographer": "Brand of the Cartographer",
-      "brand_of_the_conclave": "Brand of the Conclave",
-      "brand_of_recurrence": "Brand of Recurrence",
-      "brand_of_the_open_hand": "Brand of the Open Hand",
-      "brand_of_the_blinded_eye": "Brand of the Blinded Eye",
-      "brand_of_the_infinite_void": "Brand of the Infinite Void",
-      "brand_of_foresight": "Brand of Foresight",
-      "brand_of_ascension": "Brand of Ascension",
-      "brand_of_divergent_paths": "Brand of Divergent Paths",
-      "brand_of_possibilities": "Brand of Possibilities"
+      "brand_of_the_cartographer": {
+        "title": "Brand of the Cartographer",
+        "source": "rules/progression/brands/brand-of-the-cartographer.md"
+      },
+      "brand_of_the_conclave": {
+        "title": "Brand of the Conclave",
+        "source": "rules/progression/brands/brand-of-the-conclave.md"
+      },
+      "brand_of_recurrence": {
+        "title": "Brand of Recurrence",
+        "source": "rules/progression/brands/brand-of-recurrence.md"
+      },
+      "brand_of_the_open_hand": {
+        "title": "Brand of the Open Hand",
+        "source": "rules/progression/brands/brand-of-the-open-hand.md"
+      },
+      "brand_of_the_blinded_eye": {
+        "title": "Brand of the Blinded Eye",
+        "source": "rules/progression/brands/brand-of-the-blinded-eye.md"
+      },
+      "brand_of_the_infinite_void": {
+        "title": "Brand of the Infinite Void",
+        "source": "rules/progression/brands/brand-of-the-infinite-void.md"
+      },
+      "brand_of_foresight": {
+        "title": "Brand of Foresight",
+        "source": "rules/progression/brands/brand-of-foresight.md"
+      },
+      "brand_of_ascension": {
+        "title": "Brand of Ascension",
+        "source": "rules/progression/brands/brand-of-ascension.md"
+      },
+      "brand_of_divergent_paths": {
+        "title": "Brand of Divergent Paths",
+        "source": "rules/progression/brands/brand-of-divergent-paths.md"
+      },
+      "brand_of_possibilities": {
+        "title": "Brand of Possibilities",
+        "source": "rules/progression/brands/brand-of-possibilities.md"
+      }
     },
     "achievement": {
-      "chaos": "Chaos",
-      "victory_lap": "Victory Lap",
-      "one_with_death": "One with Death",
-      "dog_s_best_friend": "Dog's Best Friend",
-      "compelling_madness": "Compelling Madness",
-      "gamblers_never_quit": "Gamblers Never Quit",
-      "stick_it_to_me": "Stick It To Me",
-      "happy_fun_land": "Happy Fun Land",
-      "nature_s_blessing": "Nature's Blessing",
-      "back_to_basics": "Back to Basics",
-      "im_feeling_targeted": "I'm Feeling Targeted",
-      "changeling_s_land_form": "Changeling's Land Form",
-      "construct_s_salvation": "Construct's Salvation",
-      "horse_s_gallop": "Horse's Gallop",
-      "raccoon_s_rage": "Raccoon's Rage",
-      "scorpion_s_nest": "Scorpion's Nest",
-      "fish_pond": "Fish Pond",
-      "dawn_of_crabs": "Dawn of Crabs",
-      "simic_identity_buff_adaptive_pattern": "Simic — Adaptive Pattern",
-      "selesnya_identity_buff_harmony_s_bloom": "Selesnya — Harmony's Bloom",
-      "rakdos_identity_buff_showstopper_s_encore": "Rakdos — Showstopper's Encore",
-      "orzhov_identity_buff_tithe_and_toil": "Orzhov — Tithe and Toil",
-      "izzet_identity_buff_experimental_sparks": "Izzet — Experimental Sparks",
-      "gruul_identity_buff_primal_fury": "Gruul — Primal Fury",
-      "golgari_identity_buff_cycle_of_rot": "Golgari — Cycle of Rot",
-      "dimir_identity_buff_whisper_network": "Dimir — Whisper Network",
-      "boros_identity_buff_charge_of_conviction": "Boros — Charge of Conviction",
-      "azorius_identity_buff_law_of_efficiency": "Azorius — Law of Efficiency"
+      "chaos": {
+        "title": "Chaos",
+        "source": "rules/progression/achievements/chaos.md"
+      },
+      "victory_lap": {
+        "title": "Victory Lap",
+        "source": "rules/progression/achievements/victory-lap.md"
+      },
+      "one_with_death": {
+        "title": "One with Death",
+        "source": "rules/progression/achievements/one-with-death.md"
+      },
+      "dog_s_best_friend": {
+        "title": "Dog's Best Friend",
+        "source": "rules/progression/achievements/dog-s-best-friend.md"
+      },
+      "compelling_madness": {
+        "title": "Compelling Madness",
+        "source": "rules/progression/achievements/compelling-madness.md"
+      },
+      "gamblers_never_quit": {
+        "title": "Gamblers Never Quit",
+        "source": "rules/progression/achievements/gamblers-never-quit.md"
+      },
+      "stick_it_to_me": {
+        "title": "Stick It To Me",
+        "source": "rules/progression/achievements/stick-it-to-me.md"
+      },
+      "happy_fun_land": {
+        "title": "Happy Fun Land",
+        "source": "rules/progression/achievements/happy-fun-land.md"
+      },
+      "nature_s_blessing": {
+        "title": "Nature's Blessing",
+        "source": "rules/progression/achievements/nature-s-blessing.md"
+      },
+      "back_to_basics": {
+        "title": "Back to Basics",
+        "source": "rules/progression/achievements/back-to-basics.md"
+      },
+      "im_feeling_targeted": {
+        "title": "I'm Feeling Targeted",
+        "source": "rules/progression/achievements/im-feeling-targeted.md"
+      },
+      "changeling_s_land_form": {
+        "title": "Changeling's Land Form",
+        "source": "rules/progression/achievements/changeling-s-land-form.md"
+      },
+      "construct_s_salvation": {
+        "title": "Construct's Salvation",
+        "source": "rules/progression/achievements/construct-s-salvation.md"
+      },
+      "horse_s_gallop": {
+        "title": "Horse's Gallop",
+        "source": "rules/progression/achievements/horse-s-gallop.md"
+      },
+      "raccoon_s_rage": {
+        "title": "Raccoon's Rage",
+        "source": "rules/progression/achievements/raccoon-s-rage.md"
+      },
+      "scorpion_s_nest": {
+        "title": "Scorpion's Nest",
+        "source": "rules/progression/achievements/scorpion-s-nest.md"
+      },
+      "fish_pond": {
+        "title": "Fish Pond",
+        "source": "rules/progression/achievements/fish-pond.md"
+      },
+      "dawn_of_crabs": {
+        "title": "Dawn of Crabs",
+        "source": "rules/progression/achievements/dawn-of-crabs.md"
+      },
+      "simic_identity_buff_adaptive_pattern": {
+        "title": "Simic — Adaptive Pattern",
+        "source": "rules/progression/achievements/simic-identity-buff-adaptive-pattern.md"
+      },
+      "selesnya_identity_buff_harmony_s_bloom": {
+        "title": "Selesnya — Harmony's Bloom",
+        "source": "rules/progression/achievements/selesnya-identity-buff-harmony-s-bloom.md"
+      },
+      "rakdos_identity_buff_showstopper_s_encore": {
+        "title": "Rakdos — Showstopper's Encore",
+        "source": "rules/progression/achievements/rakdos-identity-buff-showstopper-s-encore.md"
+      },
+      "orzhov_identity_buff_tithe_and_toil": {
+        "title": "Orzhov — Tithe and Toil",
+        "source": "rules/progression/achievements/orzhov-identity-buff-tithe-and-toil.md"
+      },
+      "izzet_identity_buff_experimental_sparks": {
+        "title": "Izzet — Experimental Sparks",
+        "source": "rules/progression/achievements/izzet-identity-buff-experimental-sparks.md"
+      },
+      "gruul_identity_buff_primal_fury": {
+        "title": "Gruul — Primal Fury",
+        "source": "rules/progression/achievements/gruul-identity-buff-primal-fury.md"
+      },
+      "golgari_identity_buff_cycle_of_rot": {
+        "title": "Golgari — Cycle of Rot",
+        "source": "rules/progression/achievements/golgari-identity-buff-cycle-of-rot.md"
+      },
+      "dimir_identity_buff_whisper_network": {
+        "title": "Dimir — Whisper Network",
+        "source": "rules/progression/achievements/dimir-identity-buff-whisper-network.md"
+      },
+      "boros_identity_buff_charge_of_conviction": {
+        "title": "Boros — Charge of Conviction",
+        "source": "rules/progression/achievements/boros-identity-buff-charge-of-conviction.md"
+      },
+      "azorius_identity_buff_law_of_efficiency": {
+        "title": "Azorius — Law of Efficiency",
+        "source": "rules/progression/achievements/azorius-identity-buff-law-of-efficiency.md"
+      }
     }
   }
 }

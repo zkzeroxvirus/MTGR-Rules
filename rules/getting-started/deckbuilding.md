@@ -1,0 +1,181 @@
+# Magic: The Gathering Roguelike — Deckbuilding Clarifications V2.1
+
+This document is the current source of truth for MTGR deck construction and deck interaction rules when older summaries conflict.
+
+## Commander generation and mulligans
+
+Base deckbuilding Commander generation presents **5 random legal Commander cards** and the player chooses 1.
+
+- **Brand of the Conclave:** +1 Commander option per Rank whenever Commander cards are generated during deckbuilding or by The Guild.
+- **Brand of Recurrence:** +1 free Commander reroll per Rank during deckbuilding and when using The Guild.
+- Each player otherwise begins with a base of **4 Commander Mulligans** before Encounter 1.
+
+Other progression effects may further modify Commander generation or mulligans when their text explicitly says so.
+
+## Initial 100-card pool
+
+Each player generates a personal **100-card pool** within their starting Commander's color identity, then drafts **22 cards** from that pool.
+
+- Basic lands are not included in this generated pool.
+- Stickers, Attractions, and Contraptions are rerolled and replaced.
+- The whole 100-card pool cannot be rerolled.
+- If one generated card is invalid or illegal for use, replace only that card.
+
+This color-identity restriction applies to the **initial generated pool**. It is not a general restriction on cards a player may use during the run.
+
+## Starting lands
+
+Initial deckbuilding uses **16 lands total** unless another effect changes that number.
+
+Base dual-land allocation:
+
+| Commander colors | Base dual lands |
+|---|---:|
+| 1 | 0 |
+| 2 | 2 |
+| 3 | 4 |
+| 4 | 6 |
+| 5 | 8 |
+
+Fill the remaining land slots with basics.
+
+**Brand of the Cartographer** modifies this allocation. Each Rank lets the player replace **2 additional basic lands** with dual lands or triomes during deckbuilding. This changes land quality, not the total starting land count.
+
+## Free Choice Card
+
+Each player receives **1 Free Choice Card** during initial deckbuilding unless another effect grants more.
+
+The Free Choice Card:
+
+- **May be outside the player's Commander color identity.**
+- Must otherwise be legal for use in Commander.
+- Cannot be Sol Ring.
+- Cannot be a Gamechanger unless another effect explicitly allows it.
+- Receives the Scryfall decal after selection.
+
+### Initial-deckbuilding Scryfall duplicate restriction
+
+This duplicate restriction applies **only while resolving initial deckbuilding**.
+
+A card that was naturally drafted from the player's initial 100-card pool **may be selected once by a Scryfall-based free-card effect**, creating one duplicate copy of that drafted card. The spawned duplicate receives the **Scryfall decal** and is then treated as a Scryfall-spawned card.
+
+After a card name has been spawned through a Scryfall-based free-card effect, that player may not use another Scryfall-based free-card effect during initial deckbuilding to create an additional copy of that same card.
+
+This restriction applies to:
+
+- the normal **Free Choice Card**;
+- the additional free card granted by **One with Death**;
+- the free Scryfall creature granted by **Fickle Duplicant**.
+
+Examples:
+
+- If a player drafts **Card A** from the 100-card pool, they may use their Free Choice Card to spawn a second **Card A**. That spawned copy is Scryfall-stamped.
+- That player may not then use **One with Death** or **Fickle Duplicant** to spawn a third **Card A** during initial deckbuilding.
+- If a card was not already drafted, a Scryfall-based free-card effect may spawn it normally, but another such effect may not spawn another copy of that same card during initial deckbuilding.
+
+This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
+
+## Scryfall status, trading, and captures
+
+A card with a **Scryfall decal** is bound to the player who owns that card for the run.
+
+- A Scryfall-stamped card **cannot be traded to another player**.
+- A Scryfall-stamped card **cannot be captured**.
+- A card granted through the **Capture system is treated as Scryfalled** for these restrictions, even if its physical decal or other marker is different.
+- A card granted by a **card-producing Ticket** is also treated as Scryfalled. This includes cards such as **Sol Ring Ticket**, **Arcane Signet Ticket**, and **Leyline Ticket** cards.
+
+Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the combo restriction below and the no-trading/no-capture rules above.
+
+This classification does not mean that every Ticket, Capture, or progression effect is itself a card. It applies when that progression effect places or grants an actual Magic card for the player's run.
+
+## Combo, infinite, and Scryfall restrictions
+
+- A **two-card combo that wins the game using only those two cards is banned**.
+- A **two-card infinite is banned**, whether or not the infinite immediately wins the game.
+- **Combos using three or more cards are allowed**, subject to all other MTGR restrictions.
+- A card with a **Scryfall decal, or a card treated as Scryfalled by another MTGR rule, cannot be used as part of any combo**, regardless of how many cards the combo uses.
+
+These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
+
+## Silence-effect restrictions
+
+MTGR distinguishes a **full-turn silence** from a **conditional or partial silence**.
+
+### Banned: full-turn silence
+
+A card or effect is banned if it can be used on the Host's turn **before the Host has a normal opportunity to cast a spell** and, once it resolves, prevents the Host from casting **all spells for the rest of that turn**.
+
+Current banned examples:
+
+- **Silence**
+- **Orim's Chant**
+
+The list is illustrative rather than exhaustive: a future card with the same practical effect is also banned even if it is not named here.
+
+### Allowed: conditional or partial silence
+
+Silence-style interaction is allowed when it does **not** fully shut the Host out of casting spells for their entire turn. This includes effects that restrict only certain spell types, require a meaningful condition before the restriction applies, or can only be used after the Host has already had a normal opportunity to cast spells.
+
+Allowed examples include:
+
+- **Hope of Ghirapur** — prevents only noncreature spells and requires combat damage before its ability can target that player.
+- **Ranger-Captain of Eos** — prevents only noncreature spells.
+- **Mandate of Peace** — can only be cast during combat, after the Host has already had a normal precombat opportunity to cast spells.
+- **Render Silent** — requires a spell to be cast first and only prevents additional spells for the remainder of that turn.
+
+The deciding question is whether the effect can **fully deny the Host all spellcasting for the Host's turn before the Host gets to play that turn normally**. If yes, it is banned. If the restriction is conditional, partial, or begins only after the Host has already had a normal opportunity to cast spells, it is allowed unless another MTGR rule bans that card.
+
+## Deck minimum
+
+The base deck minimum is **40 total cards: 1 Commander plus at least 39 cards in the library**.
+
+**Brand of the Infinite Void** reduces the minimum library requirement by **1 card per Rank**.
+
+Starting construction normally creates Commander + 39 before minimum-reducing effects are applied. During the run, cards may be added above the starting size; players are not required to return to exactly 39 library cards.
+
+An effect that removes cards from the Deck must leave that player's library at or above their current modified minimum unless the effect explicitly overrides that minimum.
+
+## Sideboard
+
+The Sideboard has **no size limit**.
+
+When a player gains a card, they may normally place it into their Deck or Sideboard unless the effect says otherwise.
+
+Moving existing cards between Deck and Sideboard is controlled by the effect that permits the move. The standard Town Bank allows up to **6 cards** to move between Deck and Sideboard during that Town visit.
+
+## Commander color identity during gameplay
+
+Players **do not have to keep their Deck or Sideboard within their Commander's color identity during gameplay**.
+
+Commander color identity applies only when a rule or effect explicitly uses it, including:
+
+- the initial 100-card generated pool;
+- Merchant **ID Pack** generation;
+- another effect that specifically says its search or generation follows the current Commander color identity.
+
+Merchant **Mystery, Pro, Mythic, and OTAG Packs are not restricted by Commander color identity**. Pro, Mythic, and OTAG still use their normal search-parameter requirements; those search parameters do not impose a color restriction.
+
+Cards gained from unrestricted sources may be outside color identity and may remain in the Deck or Sideboard.
+
+Changing Commander through The Guild does not make existing off-color cards illegal. The new Commander's identity is used for later effects that explicitly reference the player's current Commander color identity.
+
+## Pack quantity
+
+A pack's printed or system-defined card count is its **base pack size**.
+
+**Brand of the Open Hand** adds **+1 card per Rank** whenever that player opens a pack.
+
+This increases the number of cards shown. It does **not** increase the number of cards kept unless another effect explicitly increases the keep limit.
+
+For example, the Merchant normally opens a 15-card base pack and keeps 1 card. Brand of the Open Hand increases the number of cards shown while the normal keep-1 rule remains unchanged.
+
+## The Guild
+
+The Guild's base Commander generation is **d6 + 2 Commander options** in the declared color combination.
+
+Apply Brand modifiers after determining that base amount:
+
+- Brand of the Conclave: +1 option per Rank.
+- Brand of Recurrence: +1 free Commander reroll per Rank.
+
+The old Commander may move to the player's Deck or Sideboard. Existing cards do not need to be removed for color-identity reasons after the Commander changes.
