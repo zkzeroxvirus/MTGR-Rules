@@ -81,10 +81,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 
 ---
 
-## SOURCE OF TRUTH
+## RELATED RULES
 
-- Core loop timing: CORE-RULES.md
-- Run flow overview: CORE-GAME-STRUCTURE-V1.0.md
-- Ticket unlock behavior: SHOPS.md and PERMANENT-PROGRESSION.md
+- Pre-first-encounter timing: `pre-encounter-setup`
+- Core run flow: `game-loop`
+- Persistent Ticket and account progression: `progression-reference`
+- Persistent Essence purchases: `progression-shop`
 
 ---

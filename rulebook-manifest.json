@@ -45,7 +45,6 @@
         "banned-restricted",
         "pre-encounter-setup",
         "run-structure",
-        "pregame-shop",
         "trinket-system",
         "global-limits"
       ]
@@ -182,19 +181,19 @@
       "description": "Resolve the higher-variance path in order.",
       "steps": [
         {
-          "label": "Gain Stay Out XP",
+          "label": "Gain Stay Out XP: 10 XP, +5 for each consecutive Stay Out",
           "rule": "stay-out-flow"
         },
         {
-          "label": "Gain Mystery Packs",
+          "label": "Gain 2 Mystery Packs per player",
           "rule": "stay-out-flow"
         },
         {
-          "label": "Resolve Supply Drop and Wanderer",
+          "label": "Resolve a Supply Drop and Wanderer",
           "rule": "stay-out-flow"
         },
         {
-          "label": "Resolve the increased Event count",
+          "label": "Resolve Events: 2, +1 for each consecutive Stay Out",
           "rule": "event-resolution"
         }
       ]
@@ -769,7 +768,13 @@
       ],
       "related": [
         "event-resolution",
-        "town-flow"
+        "town-flow",
+        "stay-out-xp",
+        "stay-out-mystery-packs",
+        "stay-out-event-modifier",
+        "stay-out-restrictions",
+        "supply-drop-resolution",
+        "wanderers-system"
       ],
       "content": {
         "kind": "document"
@@ -2935,27 +2940,6 @@
       ],
       "related": [
         "progression-reference"
-      ],
-      "content": {
-        "kind": "document"
-      }
-    },
-    {
-      "id": "pregame-shop",
-      "title": "Pregame Shop",
-      "source": "rules/getting-started/pregame-shop.md",
-      "phase": "before-run",
-      "audience": [
-        "player",
-        "host"
-      ],
-      "aliases": [
-        "commander gamble",
-        "land replacement",
-        "commander mulligan"
-      ],
-      "related": [
-        "deckbuilding"
       ],
       "content": {
         "kind": "document"

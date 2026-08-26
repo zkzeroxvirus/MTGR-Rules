@@ -119,17 +119,21 @@ Death is not permanent. A dead player returns in future encounters and suffers n
 ### Town
 
 1. Fully heal all players.
-2. Resolve Town building usage.
-3. Resolve Event(s).
+2. Reset the consecutive Stay Out streak.
+3. Use Town buildings.
+4. Resolve Event(s).
 
 ### Stay Out
 
-1. Gain XP.
-2. Gain Mystery Packs.
-3. Resolve a Supply Drop.
-4. Resolve a Wanderer.
-5. Resolve Event(s).
-6. Begin the next encounter.
+1. Fully heal all players to current max HP.
+2. Gain **10 XP per player**, plus **+5 XP for each consecutive Stay Out**.
+3. Gain **2 Mystery Packs per player**.
+4. Resolve a Supply Drop.
+5. Resolve a Wanderer.
+6. Resolve **2 Events**, plus **+1 Event for each consecutive Stay Out**.
+7. Begin the next encounter.
+
+Returning to **Town resets the Stay Out streak**. Players cannot use Town buildings while Staying Out.
 
 ### Event Resolution
 
