@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifestPath = path.join(root, "rulebook-manifest.json");
 const notebookPath = path.join(root, "NOTEBOOK-MANIFEST.json");
+const platformContractsPath = path.join(root, "PLATFORM-SURFACE-CONTRACTS.json");
 
 const normalizeHeading = (value) => String(value || "")
   .replace(/\\([!+*#_`])/g, "$1")
@@ -33,14 +34,19 @@ const fail = (message) => {
 const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const manifest = await readJson(manifestPath);
 const notebook = await readJson(notebookPath);
+const platformContracts = await readJson(platformContractsPath);
 
 if (manifest.schemaVersion !== 2) fail("rulebook-manifest.json must use schemaVersion 2");
 if (manifest.$schema !== "contracts/rulebook.schema.json") fail("rulebook-manifest.json must declare contracts/rulebook.schema.json");
 if (!Array.isArray(manifest.rules) || !manifest.rules.length) fail("manifest must contain rules");
+if (platformContracts.schemaVersion !== 1 || !Array.isArray(platformContracts.rules) || !platformContracts.rules.length) {
+  fail("PLATFORM-SURFACE-CONTRACTS.json must define schemaVersion 1 rules");
+}
 
 const allowedPhases = new Set(["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs"]);
 const allowedAudience = new Set(["player", "host"]);
 const allowedKinds = new Set(["document", "section", "range"]);
+const allowedSurfaces = new Set(["web", "notebook", "host", "tts-document"]);
 const ruleIds = new Set();
 const ruleMap = new Map();
 const documentCache = new Map();
@@ -63,9 +69,9 @@ const findHeadings = (lines, wanted, afterIndex = -1) => {
     .filter(({ heading, index }) => index > afterIndex && heading && normalizeHeading(heading.text) === normalized);
 };
 
-// Some older documents use a decorative H1 immediately followed by the same
-// H2 with no body between them. Treat that empty nested wrapper as one logical
-// heading, choosing the deepest heading. Any real duplicate remains an error.
+// Older documents sometimes use a decorative H1 immediately followed by the
+// same H2 with no body between them. Treat only that empty nested wrapper as one
+// logical heading. Any real duplicate remains an error.
 const resolveHeading = (lines, wanted, afterIndex = -1) => {
   const matches = findHeadings(lines, wanted, afterIndex);
   if (matches.length <= 1) return { match: matches[0] || null, count: matches.length };
@@ -81,19 +87,28 @@ const resolveHeading = (lines, wanted, afterIndex = -1) => {
   return { match: matches.at(-1), count: matches.length, decorativeWrapper: true };
 };
 
-for (const rule of manifest.rules) {
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(rule.id || "")) fail(`invalid rule id: ${rule.id}`);
-  if (ruleIds.has(rule.id)) fail(`duplicate rule id: ${rule.id}`);
+const validateRule = async (rule, context, { requireSurface = false } = {}) => {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(rule.id || "")) fail(`${context} has invalid rule id: ${rule.id}`);
+  if (ruleIds.has(rule.id)) fail(`duplicate rule id across contracts: ${rule.id}`);
   ruleIds.add(rule.id);
   ruleMap.set(rule.id, rule);
   if (!rule.title || !rule.source || !rule.content) fail(`${rule.id} is missing required metadata`);
   if (!allowedPhases.has(rule.phase)) fail(`${rule.id} has invalid phase ${rule.phase}`);
-  if (!Array.isArray(rule.audience) || !rule.audience.length || rule.audience.some((item) => !allowedAudience.has(item))) fail(`${rule.id} has invalid audience`);
+  if (!Array.isArray(rule.audience) || !rule.audience.length || rule.audience.some((item) => !allowedAudience.has(item))) {
+    fail(`${rule.id} has invalid audience`);
+  }
   if ("heading" in rule || "wholeDocument" in rule || "match" in rule) fail(`${rule.id} uses a legacy extraction field; use content`);
   if (!allowedKinds.has(rule.content.kind)) fail(`${rule.id} has invalid content kind ${rule.content.kind}`);
+  if (requireSurface && (!Array.isArray(rule.surfaces) || !rule.surfaces.length)) fail(`${rule.id} must declare surfaces`);
+  if (Array.isArray(rule.surfaces) && rule.surfaces.some((surface) => !allowedSurfaces.has(surface))) {
+    fail(`${rule.id} has an invalid surface`);
+  }
 
   const markdown = await sourceText(rule.source);
-  if (rule.content.kind === "document") continue;
+  if (rule.content.kind === "document") {
+    if (!markdown.trim()) fail(`${rule.id} document source is empty`);
+    return;
+  }
   const lines = splitLines(markdown);
   const start = resolveHeading(lines, rule.content.heading);
   if (!start.match) fail(`${rule.id} start heading "${rule.content.heading}" must resolve uniquely in ${rule.source}; found ${start.count}`);
@@ -101,7 +116,10 @@ for (const rule of manifest.rules) {
     const end = resolveHeading(lines, rule.content.endHeading, start.match.index);
     if (!end.match) fail(`${rule.id} end heading "${rule.content.endHeading}" must resolve uniquely after the start in ${rule.source}; found ${end.count}`);
   }
-}
+};
+
+for (const rule of manifest.rules) await validateRule(rule, "rulebook");
+for (const rule of platformContracts.rules) await validateRule(rule, "platform surface contract", { requireSurface: true });
 
 const assertRuleRef = (id, context) => {
   if (!ruleMap.has(id)) fail(`${context} references missing rule ${id}`);
@@ -133,4 +151,16 @@ notebook.tabs.forEach((tab, index) => {
   }
 });
 
-console.log(`Validated ${manifest.rules.length} rule contracts and ${notebook.tabs.length} Notebook tabs.`);
+const platformIds = new Set(platformContracts.rules.map((rule) => rule.id));
+for (const required of [
+  "host-health-table",
+  "host-base-xp-table",
+  "host-affix-structure",
+  "core-rules-document",
+  "host-cheat-sheet-document",
+  "player-cheat-sheet-document",
+]) {
+  if (!platformIds.has(required)) fail(`missing required Platform surface contract ${required}`);
+}
+
+console.log(`Validated ${manifest.rules.length} rulebook contracts, ${platformContracts.rules.length} Platform surface contracts, and ${notebook.tabs.length} Notebook tabs.`);
