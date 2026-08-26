@@ -3792,6 +3792,86 @@ Save 1 card from your deck in your collection.
 
 ---
 
+## Host Reference Data
+
+<!-- platform-rule:host-health-table -->
+### **❤️ HOST HEALTH**
+
+Host scaling is mode-dependent.
+
+#### **Standard Mode — 3 Encounters**
+
+* Tier 4 Affixes are not used
+
+| Players | Encounter 1 | Encounter 2 | Encounter 3 | Crypt |
+| ----- | ----- | ----- | ----- | ----- |
+| 1–2 | 20 | 30 | 40 | **50** |
+| 3 | 25 | 40 | 55 | **70** |
+| 4 | 30 | 50 | 70 | **90** |
+| 5 | 35 | 60 | 85 | **110** |
+| 6 | 40 | 70 | 100 | **130** |
+
+#### **Variant Mode — 4 Encounters**
+
+* Tier 4 Affixes are used
+
+| Players | Encounter 1 | Encounter 2 | Encounter 3 | Encounter 4 | Crypt |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1–2 | 20 | 30 | 40 | 50 | **60** |
+| 3 | 25 | 40 | 55 | 70 | **80** |
+| 4 | 30 | 50 | 70 | 90 | **100** |
+| 5 | 35 | 60 | 85 | 110 | **120** |
+| 6 | 40 | 70 | 100 | 130 | **140** |
+
+<!-- platform-rule:host-base-xp-table -->
+### **📊 BASE XP BY ENCOUNTER MODE**
+
+**Standard Mode — 3 Encounters**
+
+| Encounter | Base XP |
+| ----- | ----- |
+| Encounter 1 | 30 |
+| Encounter 2 | 40 |
+| Encounter 3 | 50 |
+
+**Variant Mode — 4 Encounters**
+
+| Encounter | Base XP |
+| ----- | ----- |
+| Encounter 1 | 10 |
+| Encounter 2 | 20 |
+| Encounter 3 | 30 |
+| Encounter 4 | 40 |
+
+* Base XP is gained **per player**  
+* Base XP is always awarded upon victory
+* Failed encounters grant **no XP**
+
+---
+
+<!-- platform-rule:host-affix-structure -->
+### **⚔️ AFFIX STRUCTURE**
+
+#### **Standard Mode — 3 Encounters**
+
+| Encounter | Affixes Applied |
+| ----- | ----- |
+| Encounter 1 | Tier 1 |
+| Encounter 2 | Tier 1 \+ Tier 2 |
+| Encounter 3 | Tier 1 \+ Tier 2 \+ Tier 3 |
+
+#### **Variant Mode — 4 Encounters**
+
+| Encounter | Affixes Applied |
+| ----- | ----- |
+| Encounter 1 | Tier 1 |
+| Encounter 2 | Tier 1 \+ Tier 2 |
+| Encounter 3 | Tier 1 \+ Tier 2 \+ Tier 3 |
+| Encounter 4 | Tier 1 \+ Tier 2 \+ Tier 3 \+ Tier 4 |
+
+* Affixes are rerolled each encounter  
+* If combinations are game-breaking, reroll the highest tier
+
 ## Permanent Progression Catalog
 
 ### Crypt Buffs

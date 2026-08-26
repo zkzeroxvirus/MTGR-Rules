@@ -226,6 +226,12 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Progression Shop](progression/progression-shop.md) — `progression-shop`
 - [Progression Slot Rules](progression/progression-slot-rules.md) — `progression-slot-rules`
 
+## Platform / Host Reference Data
+
+- [Host Health Table](platform/host-health-table.md) — `host-health-table`
+- [Host Base XP Table](platform/host-base-xp-table.md) — `host-base-xp-table`
+- [Host Affix Structure](platform/host-affix-structure.md) — `host-affix-structure`
+
 ## Permanent Progression
 
 ### Crypt Buffs
