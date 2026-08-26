@@ -117,6 +117,7 @@ Beat The Jolly Balloon Man.
 ---
 
 ## **Might of Okaun**
+
 **Effect**  
 During your upkeep, flip a coin.
 
@@ -237,6 +238,7 @@ Defeat Jin Sakai, Ghost of Tsushima.
 ---
 
 ## **Leftovers**
+
 **Effect**  
 Whenever you sacrifice a Food for its effect, each ally gains 2 life.
 
@@ -355,6 +357,7 @@ You see Emblem options only once per session. If you decline, you cannot see new
 ---
 
 # **🔥 SEASON 1 BRANDS (6)**
+
 Brands are permanent progression purchases from the Progression Shop.
 
 Brand effects stack. Each Brand may be purchased any number of times.
@@ -474,6 +477,7 @@ This may be activated at instant speed.
 Indirectly kill one non-Host player in a session.
 
 ---
+
 ### **Gamblers Never Quit**
 
 **Effect**  
@@ -553,7 +557,7 @@ Defeat a Crypt fight with a Horse Commander.
 ### **Raccoon's Rage**
 
 **Effect**  
-After you finish taking mulligans, exile two Mountain cards from outside the game. You may play that card from exile.
+After you finish taking mulligans, exile two Mountain cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
 Defeat a Crypt fight with a Raccoon Commander.
@@ -593,6 +597,7 @@ Defeat a Crypt fight with a Crab Commander.
 ## **Guild Identity Achievements (10)**
 
 For these achievements, a color clause applies when your Commander's color identity includes that color. A two-color guild Commander therefore receives both clauses for its guild.
+
 ---
 
 ### **Simic — Adaptive Pattern**
