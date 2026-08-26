@@ -1,14 +1,16 @@
-name: Materialize semantic rule sources
+name: Finalize semantic rule migration
 
 on:
   push:
     branches: [agent/rule-contracts-v2]
+    paths:
+      - scripts/finalize-rule-migration.mjs
 
 permissions:
   contents: write
 
 jobs:
-  materialize:
+  finalize:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
@@ -18,19 +20,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm run materialize
-      - run: node scripts/materialize-live-systems.mjs
-      - run: node scripts/materialize-contract-gaps.mjs
-      - name: Audit remaining Markdown sources
-        run: node scripts/audit-source-layout.mjs
-      - name: Commit semantic rule tree
+      - run: node scripts/finalize-rule-migration.mjs
+      - run: npm run check
+      - name: Commit final repository layout
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add rules generated RULEBOOK.md rulebook-manifest.json PLATFORM-SURFACE-CONTRACTS.json PROGRESSION-CONTRACTS.json
+          git add -A
           if git diff --cached --quiet; then
-            echo "No materialization changes to commit."
+            echo "No finalization changes to commit."
             exit 0
           fi
-          git commit -m "Materialize remaining rule contract gaps"
+          git commit -m "Finalize semantic Rules repository layout"
           git push origin HEAD:agent/rule-contracts-v2
