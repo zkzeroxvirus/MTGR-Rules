@@ -24,21 +24,42 @@ const progressionLabels = new Map([
   ["achievement", "Achievements"],
 ]);
 
-const readRule = async (rule) => normalize(await readFile(path.join(root, rule.source), "utf8"));
+const demoteHeadings = (markdown, amount) => normalize(markdown)
+  .replace(/^(#{1,6})(\s+)/gm, (_, hashes, spacing) => `${"#".repeat(Math.min(6, hashes.length + amount))}${spacing}`);
+
+const readRule = async (rule, headingDepth = 2) => demoteHeadings(
+  await readFile(path.join(root, rule.source), "utf8"),
+  headingDepth,
+);
 
 const header = (title, subtitle) => `# ${title}\n\n> ${subtitle}\n\n`;
 
-const buildReference = async (manifest, { title, audience = null }) => {
+const appendProgression = async (chunks, progression, { audience = null } = {}) => {
+  if (progression?.schemaVersion !== 2 || audience === "host") return;
+  chunks.push("## Permanent Progression Catalog\n\n");
+  for (const [category, label] of progressionLabels) {
+    const entries = Object.entries(progression.categories?.[category] || {});
+    if (!entries.length) continue;
+    chunks.push(`### ${label}\n\n`);
+    for (const [id, entry] of entries) {
+      const markdown = demoteHeadings(await readFile(path.join(root, entry.source), "utf8"), 3);
+      chunks.push(`<!-- progression:${id} -->\n${markdown}\n`);
+    }
+  }
+};
+
+const buildReference = async (manifest, progression, { title, audience = null }) => {
   const chunks = [header(title, "Generated from canonical rule units under `rules/`. Edit the source units, not this compilation.")];
   for (const [phase, label] of phaseLabels) {
     const rules = manifest.rules.filter((rule) => rule.phase === phase && (!audience || rule.audience.includes(audience)));
     if (!rules.length) continue;
     chunks.push(`## ${label}\n\n`);
     for (const rule of rules) {
-      const markdown = await readRule(rule);
+      const markdown = await readRule(rule, 2);
       chunks.push(`<!-- rule:${rule.id} -->\n${markdown}\n`);
     }
   }
+  await appendProgression(chunks, progression, { audience });
   return normalize(chunks.join(""));
 };
 
@@ -81,9 +102,9 @@ const outputsFor = async () => {
   const manifest = await readJson(manifestPath);
   const progression = await readJson(progressionPath);
   return new Map([
-    ["RULEBOOK.md", await buildReference(manifest, { title: "MTG Roguelike — Complete Rulebook" })],
-    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, { title: "MTG Roguelike — Player Reference", audience: "player" })],
-    ["generated/HOST-REFERENCE.md", await buildReference(manifest, { title: "MTG Roguelike — Host Reference", audience: "host" })],
+    ["RULEBOOK.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Complete Rulebook" })],
+    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Player Reference", audience: "player" })],
+    ["generated/HOST-REFERENCE.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Host Reference", audience: "host" })],
     ["rules/README.md", buildRulesIndex(manifest, progression)],
   ]);
 };
