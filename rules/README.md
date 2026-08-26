@@ -216,6 +216,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Crypt Reward Eligibility](rewards/crypt-reward-eligibility.md) — `crypt-reward-eligibility`
 - [Crypt Completion Rewards](rewards/crypt-completion-rewards.md) — `crypt-completion-rewards`
 - [Run-End Essence Rewards](rewards/run-end-essence-rewards.md) — `run-end-essence-rewards`
+- [Crypt Fight Choice](crypt/crypt-fight-choice.md) — `crypt-fight-choice`
 
 ## Between Runs
 

@@ -4006,6 +4006,28 @@
       "content": {
         "kind": "document"
       }
+    },
+    {
+      "id": "crypt-fight-choice",
+      "title": "Crypt Fight Choice",
+      "source": "rules/crypt/crypt-fight-choice.md",
+      "phase": "crypt",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "crypt fight cashout",
+        "choose crypt",
+        "crypt choice cashout"
+      ],
+      "related": [
+        "cashout-system",
+        "crypt"
+      ],
+      "content": {
+        "kind": "document"
+      }
     }
   ]
 }
