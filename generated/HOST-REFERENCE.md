@@ -2441,128 +2441,47 @@ This ensures rewards increase with both difficulty and run progression.
 ---
 
 <!-- rule:cashout-pool -->
-### 🎴 Cashout Pool
+### Cashout Pool
 
-The Cashout Pool has a total weight of **410**. Percentages are calculated from this pool.
+Cashouts are post-encounter rewards drawn from the active Cashout Pool. Exact pool membership, weights, and availability are operational balance data maintained by MTGR Platform and are intentionally not duplicated in this rule document.
 
-#### 🎚 Cashout Tiers
+#### Cashout Tiers
 
-Cashouts are divided into tiers for clarity and balancing.
+Cashouts use three functional tiers:
 
-**T1 (Core Packs):**
+- **T1 — Core rewards:** common, straightforward pack rewards.
+- **T2 — Advanced rewards:** specialty packs, Pro/Mythic-style packs, and Bonus Building Usage rewards.
+- **T3 — Manual/special rewards:** rewards that require Host or system-specific resolution rather than normal automatic pack redemption.
 
-* Mono non-Pro color packs (White, Blue, Black, Red, Green)
-* Mono Colorless Pack
-* Artifact Pack
-* Enchantment Pack
-* Planeswalker Pack
-* Mystery Pack
+A Cashout's current tier and active status are determined by the Platform Cashout registry.
 
-**T2 (Advanced Packs):**
+#### General Rules
 
-* All remaining pack rewards (ID variants, Pro variants, Mythic, Utility, and specialty packs)
-* Bonus Building Usage cashouts
+- Cashouts are free to claim when awarded.
+- Cashouts may be traded between players unless another rule says otherwise.
+- Cashouts may be retained until used unless the Cashout itself has an expiration condition.
+- A Cashout that names a color, color identity, card type, or other generation restriction keeps that restriction when redeemed unless an MTGR effect explicitly changes it.
+- Manual/special Cashouts are presented to the Host or resolved through their named system rather than being treated as ordinary pack rewards.
 
-Any Cashout that is not T1 or T2 is treated as T3:
+#### Bonus Building Usage
 
-* Blacksmith Services
-* Crypt Fight Cashout
-* Ticket Cashouts
+A Bonus Building Cashout grants one additional use of the named building according to that building's normal rules.
 
----
+**Bonus Bazaar:** grants the Cashout holder **one additional outbound Bazaar trade during that Town**. The receiving player does not spend a Bazaar use merely for accepting the inbound trade.
 
-**🎴 PACK REWARDS** *(Total Weight: 300 — 75%)*
+Bonus Building Cashouts do not replace or reset the building's normal usage state; they add the granted bonus use.
 
-| Cashout | Tier | Weight | Chance |
-| :---- | :----: | :----: | :----: |
-| Mystery Pack | T1 | 30 | 7.5% |
-| Mono White Pack | T1 | 18 | 4.5% |
-| Mono Blue Pack | T1 | 18 | 4.5% |
-| Mono Black Pack | T1 | 18 | 4.5% |
-| Mono Red Pack | T1 | 18 | 4.5% |
-| Mono Green Pack | T1 | 18 | 4.5% |
-| Mono Colorless Pack | T1 | 18 | 4.5% |
-| Artifact Pack | T1 | 18 | 4.5% |
-| ID Pack | T2 | 18 | 4.5% |
-| Mono Pro Pack White | T2 | 12 | 3% |
-| Mono Pro Pack Blue | T2 | 12 | 3% |
-| Mono Pro Pack Black | T2 | 12 | 3% |
-| Mono Pro Pack Red | T2 | 12 | 3% |
-| Mono Pro Pack Green | T2 | 12 | 3% |
-| Mono Pro Pack Colorless | T2 | 12 | 3% |
-| Artifact Pro Pack | T2 | 12 | 3% |
-| Alpha Pack | T2 | 6 | 1.5% |
-| Enchantment Pack | T1 | 6 | 1.5% |
-| Enchantment ID Pack | T2 | 6 | 1.5% |
-| Utility Land Pack | T2 | 6 | 1.5% |
-| Mythic Pack | T2 | 6 | 1.5% |
-| Planeswalker Pack | T1 | 6 | 1.5% |
-| Planeswalker ID Pack | T2 | 6 | 1.5% |
+#### Blacksmith Service Cashouts
 
----
+Free Upgrade and Free Augment Cashouts grant the corresponding Blacksmith service without charging its normal XP cost. All normal Blacksmith targeting and modification restrictions still apply.
 
-**🏛 BONUS BUILDING USAGE** *(Total Weight: 80 — 20%)*
+#### Ticket Cashouts
 
-| Cashout | Tier | Weight | Chance |
-| :---- | :----: | :----: | :----: |
-| Bonus Bazaar | T2 | 20 | 5% |
-| Bonus Bank | T2 | 14 | 3.5% |
-| Bonus Mystic | T2 | 14 | 3.5% |
-| Bonus Tavern | T2 | 14 | 3.5% |
-| Bonus Guild | T2 | 12 | 3% |
-| Bonus Cathedral | T2 | 6 | 1.5% |
+A Ticket Cashout grants the named Ticket. The Ticket then follows its own canonical Ticket rules, including slot use, persistence, and any per-session selection restrictions.
 
-*Each Bonus Building cashout grants one free additional use of that building during the next Town visit.*
-*Bonus Bazaar exception: one deal involving the cashout holder is free for both participants (neither player expends a Deal use).*
+#### Pool Data Boundary
 
----
-
-**⚒ BLACKSMITH SERVICES** *(Total Weight: 18 — 4.5%)*
-
-| Cashout | Weight | Chance |
-| :---- | :----: | :----: |
-| Free Upgrade | 12 | 3% |
-| Free Augment | 6 | 1.5% |
-
----
-
-**☠️ CRYPT FIGHT CASHOUT** *(Total Weight: 2 — 0.5%)*
-
-| Cashout | Weight | Chance |
-| :---- | :----: | :----: |
-| Crypt Fight Cashout | 2 | 0.5% |
-
-*See [Crypt Fight Cashout](#-crypt-fight-cashout-1) below for resolution rules.*
-
----
-
-**🎟 TICKET CASHOUTS** *(Total Weight: 10 — Ultra Rare)*
-
-| Cashout | Weight | Chance |
-| :---- | :----: | :----: |
-| Conspiracy Ticket | 4 | 1% |
-| Trinket Ticket | 3 | 0.75% |
-| Vanguard Ticket | 2 | 0.5% |
-| Emblem Ticket | 1 | 0.25% |
-
-*Tickets are one-time-use items redeemable through their respective systems. A player may hold multiple Tickets but may only redeem one Ticket per applicable resolution window.*
-
----
-
-#### ☠️ Crypt Fight Cashout
-
-The Crypt Fight Cashout is an ultra-rare reward that grants a strategic advantage before the Final Boss.
-
-**Resolution:**
-
-* This cashout may be held and used immediately before the Crypt Fight begins
-* When revealed, all players collectively choose which Crypt to fight from the standard pool instead of rolling randomly
-
-**Rules:**
-
-* Only one Crypt Fight Cashout may be used per run — additional copies are discarded unused
-* If unused by the time the Crypt Fight begins, it expires and is discarded
-* The choice is made before the Crypt encounter type is determined
+The Rules repository owns the gameplay meaning of Cashout categories and reward types. MTGR Platform owns the live registry fields used to deliver them, including active inventory, tier assignment, redemption implementation, and balancing metadata. This prevents a static rulebook table from becoming stale when the live Cashout pool changes.
 
 <!-- rule:player-vs-player-combat -->
 ### **⚔️ PLAYER VS PLAYER COMBAT**
