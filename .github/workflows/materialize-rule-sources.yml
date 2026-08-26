@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: 22
       - run: npm run materialize
+      - run: node scripts/materialize-live-systems.mjs
       - name: Audit remaining Markdown sources
         run: node scripts/audit-source-layout.mjs
       - name: Commit semantic rule tree
@@ -30,5 +31,5 @@ jobs:
             echo "No materialization changes to commit."
             exit 0
           fi
-          git commit -m "Materialize canonical semantic rule sources"
+          git commit -m "Materialize remaining live gameplay systems"
           git push origin HEAD:agent/rule-contracts-v2
