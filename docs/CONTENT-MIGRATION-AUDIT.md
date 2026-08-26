@@ -51,3 +51,7 @@ The current deckbuilding clarification unit remains detailed and retains Command
 A primary **flow** rule must remain table-complete: it should contain the procedure and values needed to execute that flow without opening sibling documents. Child units may hold examples, edge cases, tables, and subsystem detail, but they must not be the only place where core costs, rewards, counts, resets, or restrictions are stated.
 
 Legacy documents under `archive/` are migration evidence only. They are not automatically-current rules and must be reconciled against later canonical changes before anything is restored.
+
+## Next audit passes
+
+The next systematic comparisons should cover the archived **Reward**, **Event**, **Encounter**, **Doom**, and **Authority** system documents against their current parent-flow and child-rule units. The objective is not to restore old text wholesale; it is to identify table-critical numbers, timing, reset rules, restrictions, and edge cases that became unreachable or invisible during semantic splitting.
