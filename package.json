@@ -1,0 +1,9 @@
+{
+  "name": "mtgr-rules-contracts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-rulebook.mjs",
+    "check": "node scripts/build-rulebook.mjs --check && node scripts/validate-rulebook.mjs"
+  }
+}

@@ -67,22 +67,24 @@ Beat Jared Carthalion.
 ## **Momentum Engine**
 
 **Effect**  
-Until end of turn, you do not lose unspent mana as steps and phases end.
+Unspent mana doesn't empty from your mana pool as steps and phases end.
+
+At the beginning of each end step, lose half your unspent mana, rounded up.
 
 **Unlock Source**  
-Beat Yurlok of Scorch Thrash.
+Defeat Yurlok of Scorch Thrash.
 
 ---
 
 ## **Eternal Servitude**
 
 **Effect**  
-Once each turn, whenever a creature you control becomes the target of a spell, it phases out.
+Whenever a creature you control becomes the target of a spell, if you haven't phased out a creature this way this turn, you may have that creature phase out.
 
-Whenever a creature you control phases in, create a tapped 1/1 white Spirit creature token.
+Whenever one or more creatures you control phase in, create a tapped 1/1 white Spirit creature token with flying.
 
 **Unlock Source**  
-Beat King of the Oathbreakers.
+Defeat King of the Oathbreakers.
 
 ---
 
@@ -162,13 +164,13 @@ Defeat Morophon, the Boundless.
 
 ---
 
-## **Undying Legionary**
+## **Artificial Undeath**
 
 **Effect**  
-Gain +5 max HP.
+Once per encounter, you may return target nonland permanent card from your graveyard to the battlefield. It becomes an artifact in addition to its other types. You lose life equal to its mana value. Activate only as a sorcery.
 
 **Unlock Source**  
-Beat Imotekh the Stormlord.
+Defeat Imotekh the Stormlord.
 
 ---
 
@@ -208,12 +210,12 @@ Beat Loot, Exuberant Explorer.
 ## **Paragon Adornments**
 
 **Effect**  
-Equipment costs {1} less to cast.
+Equipment costs {2} less to cast.
 
 Equipment costs {1} less to equip.
 
 **Unlock Source**  
-Beat Reyav, Master Smith.
+Defeat Reyav, Master Smith.
 
 ---
 
@@ -250,10 +252,10 @@ Beat High Tide Hijinks.
 ## **Scent of Death**
 
 **Effect**  
-If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
+If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals twice that much damage instead. This effect doesn't apply to damage dealt by other buffs.
 
 **Unlock Source**  
-Beat Sefris of the Hidden Ways.
+Defeat Sefris of the Hidden Ways.
 
 ---
 
@@ -356,7 +358,7 @@ You see Emblem options only once per session. If you decline, you cannot see new
 
 ---
 
-# **🔥 SEASON 1 BRANDS (6)**
+# **🔥 SEASON 1 BRANDS (10)**
 
 Brands are permanent progression purchases from the Progression Shop.
 
@@ -408,11 +410,45 @@ During deckbuilding, you may choose one color to not appear when rolling Command
 **Effect**  
 Your library minimum is reduced by 1 card per Rank.
 
-**Base Cost:** 500 Essence
+---
+
+## **Brand of Foresight**
+
+**Effect**  
+During initial deckbuilding, after choosing your normal 22 cards, you may choose two additional cards from your generated 100-card pool for each Rank of this Brand. Put those cards into your sideboard.
 
 ---
 
-# **🏆 SEASON 1 ACHIEVEMENTS (26)**
+## **Brand of Ascension**
+
+**Effect**  
+You have one additional Buff slot for each Rank of this Brand.
+
+---
+
+## **Brand of Divergent Paths**
+
+**Effect**  
+Whenever Trinket, Conspiracy, Vanguard, or Emblem options are revealed for you, you may choose one of those categories for each Rank of this Brand and reroll all options revealed for it. You may choose from the new options for that category.
+
+If you reroll your Emblem options, the Host may ban another card for each Emblem reroll.
+
+---
+
+## **Brand of Possibilities**
+
+**Effect**  
+You are offered one additional choice for each Rank of this Brand when selecting any of the following:
+
+• Trinket  
+• Conspiracy  
+• Vanguard
+
+When determining the party's Trinket choices, if multiple players have this Brand, only the highest bonus applies.
+
+---
+
+# **🏆 SEASON 1 ACHIEVEMENTS (28)**
 
 ---
 
@@ -453,16 +489,10 @@ Beat a Crypt fight on turn two.
 ### **Dog's Best Friend**
 
 **Effect**  
-At the beginning of deckbuilding, you may choose 1 of 3 random Companions.
-
-If you do, you receive two additional free non-Commander mulligans.
-
-You must meet the requirements of your chosen Companion or it will find a new master.
+During deckbuilding, if you don't already have a Partner Commander, you may choose a Companion without meeting its Companion requirement. That Companion becomes a Partner Commander and begins the game in the command zone partnered with your chosen Commander.
 
 **Unlock Requirement**  
-Win a Crypt fight while satisfying your Companion restriction for the entire run.
-
-Cast your Companion during that Crypt fight.
+Defeat a Crypt fight while your deck meets your chosen Companion's requirement.
 
 ---
 
@@ -501,10 +531,12 @@ Beat a Crypt fight with stickers.
 ### **Happy Fun Land**
 
 **Effect**  
-At the beginning of the game, spawn 5 random Attractions to create your Attraction deck.
+At the beginning of the game, spawn ten random Attractions with different names, shuffle them, and use them as your Attraction deck.
+
+Once per encounter, you may open an Attraction. To open an Attraction, put the top card of your Attraction deck onto the battlefield.
 
 **Unlock Requirement**  
-Beat a Crypt fight with Attractions.
+Defeat a Crypt fight while controlling an Attraction.
 
 ---
 
@@ -517,6 +549,26 @@ Additionally, you may use Scryfall to replace up to five basic lands in your dec
 
 **Unlock Requirement**  
 Defeat a Crypt fight with 50 or more lands in your deck.
+
+---
+
+### **Back to Basics**
+
+**Effect**  
+As a creature with no abilities enters the battlefield under your control, choose a keyword and put the corresponding keyword counter on it. You can't choose annihilator or infect. If the chosen keyword has a numerical value, that value is 1. For example, choosing scry gives the creature scry 1.
+
+**Unlock Requirement**  
+Defeat a Crypt fight with a Commander that has no abilities.
+
+---
+
+### **I'm Feeling Targeted**
+
+**Effect**  
+Twice per encounter, before attackers are declared, you may pay {0}. If you do, you can't be attacked this turn.
+
+**Unlock Requirement**  
+Defeat the Crypt after dying during all four encounters.
 
 ---
 
@@ -577,7 +629,7 @@ Defeat a Crypt fight with a Scorpion Commander.
 ### **Fish Pond**
 
 **Effect**  
-After you finish taking mulligans, exile an Island card from outside the game. You may play that card from exile.
+After you finish taking mulligans, exile two Island cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
 Defeat a Crypt fight with a Fish Commander.
@@ -587,7 +639,7 @@ Defeat a Crypt fight with a Fish Commander.
 ### **Dawn of Crabs**
 
 **Effect**  
-After you finish taking mulligans, exile a Plains card from outside the game. You may play that card from exile.
+After you finish taking mulligans, exile two Plains cards from outside the game. You may play those cards from exile.
 
 **Unlock Requirement**  
 Defeat a Crypt fight with a Crab Commander.
@@ -617,7 +669,7 @@ Defeat a Crypt fight in which all Commanders were green, blue, or Simic.
 **Effect**  
 If your Commander's color identity includes white: once per turn, when you gain life, put a +1/+1 counter on each of up to two target creatures you control.
 
-If your Commander's color identity includes green: once per turn, when you cast a creature spell, gain 2 life.
+If your Commander's color identity includes green: once each turn, when you cast a creature spell, create a 1/1 white Soldier creature token with lifelink, then gain 1 life.
 
 **Unlock Requirement**  
 Defeat a Crypt fight in which all Commanders were green, white, or Selesnya.
@@ -651,12 +703,12 @@ Defeat a Crypt fight in which all Commanders were white, black, or Orzhov.
 ### **Izzet — Experimental Sparks**
 
 **Effect**  
-If your Commander is blue: once per turn, when you cast an instant, you may scry 1, then draw 1.
+If your Commander's color identity includes blue: once per turn, when you cast a sorcery spell, exile the top two cards of your library. You may play those cards until the end of your next turn.
 
-If your Commander is red: once per turn, when you cast a sorcery, you may deal 1 damage to any target.
+If your Commander's color identity includes red: once per turn, when you cast an instant spell, deal 2 damage to any target.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either blue, red, or Izzet.
+Defeat a Crypt fight in which all Commanders were blue, red, or Izzet.
 
 ---
 
@@ -711,9 +763,9 @@ Defeat a Crypt fight in which all Commanders were red, white, or Boros.
 ### **Azorius — Law of Efficiency**
 
 **Effect**  
-If your Commander's color identity includes white: once per turn, when you cast a noncreature spell, gain 2 life.
+If your Commander's color identity includes white: once per turn, when you cast a spell, gain 2 life.
 
-If your Commander's color identity includes blue: once per turn, when you counter a spell or ability, scry 1, then draw a card.
+If your Commander's color identity includes blue: once per turn, when you counter a spell or ability, you may draw a card.
 
 **Unlock Requirement**  
 Defeat a Crypt fight in which all Commanders were white, blue, or Azorius.

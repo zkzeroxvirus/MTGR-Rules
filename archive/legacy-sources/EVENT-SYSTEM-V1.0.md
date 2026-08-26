@@ -44,7 +44,7 @@ Events are drawn and handled **one at a time**, in the order they are drawn.
 
 ---
 
-## **🎲 EVENT RESOLUTION**
+## **🎲 EVENT FLOW**
 
 To resolve an Event:
 

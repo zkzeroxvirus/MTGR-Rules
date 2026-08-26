@@ -2,144 +2,51 @@
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U0D81ZUOGR)
 
-A cooperative, long-form Commander roguelike where players form a party and push through Host-controlled encounters on the way to the **Crypt**.
+MTG Roguelike is a cooperative Commander roguelike where a party progresses through Host-controlled encounters, improves its decks during the run, and ultimately faces the Crypt.
 
-## Start Here
+## Read the Rules
 
-If you are new, read these in order:
+For normal play, start with the generated references:
 
-1. [CORE-RULES.md](CORE-RULES.md)
-2. [DECKBUILDING-RULES-V2.1.md](DECKBUILDING-RULES-V2.1.md) — focused deck construction, Brand modifiers, color identity, deck minimum, Sideboard, and pack rules
-3. [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md)
-4. [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md)
-5. [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md)
+1. [Complete Rulebook](RULEBOOK.md) — full current rules in one continuous document.
+2. [Player Reference](generated/PLAYER-REFERENCE.md) — player-facing rules and permanent progression.
+3. [Host Reference](generated/HOST-REFERENCE.md) — Host-facing rules, scaling tables, and encounter references.
 
-## At a Glance
+The generated documents are reading surfaces. Do not edit them directly.
 
-| Category | Details |
-| :--- | :--- |
-| Run Length | **4-6 hours** |
-| Setup Time | **20-40 minutes** |
-| Players | **1-6 players** |
-| Format | Co-op PvE (Host vs Party) |
-| Progression | Persistent (Tickets, Brands, Captures, Achievements, Crypt Buffs) |
-| Best For | Dedicated game-night groups |
+## Canonical Source of Truth
+
+Canonical gameplay wording lives in small semantic Markdown units under [rules/](rules/README.md). Each unit owns one stable rule concept such as `town-flow`, `doom-card-no`, `trinket-tent`, or `crypt-fight-choice`.
+
+MTGR Platform consumes those units through stable contracts:
+
+- [rulebook-manifest.json](rulebook-manifest.json) — gameplay rule IDs and navigation.
+- [PROGRESSION-CONTRACTS.json](PROGRESSION-CONTRACTS.json) — file-per-entry Crypt Buffs, Tickets, Brands, and Achievements.
+- [PLATFORM-SURFACE-CONTRACTS.json](PLATFORM-SURFACE-CONTRACTS.json) — Host/TTS surfaces not used by normal rule navigation.
+- [NOTEBOOK-MANIFEST.json](NOTEBOOK-MANIFEST.json) — exact managed Tabletop Simulator Notebook composition.
+
+Consumers use IDs; they do not scrape headings or choose Markdown section boundaries.
 
 ## Run Flow
 
-```mermaid
-flowchart LR
-  A[Deckbuild] --> B[Seat Swap Window]
- B --> C[Event and Trinket]
- C --> D[Encounter Loop]
- D --> E[Town or Stay Out]
- E --> D
- D --> F[Crypt Final Boss]
- F --> G[Postgame Progression]
-```
+`Deckbuild → Event + Trinket → Encounter → Rewards → Town or Stay Out → Events → Next Encounter → Crypt → Postgame Progression`
 
-Standard path usually resolves in 3 encounters before the Crypt. Variant path can extend to 4 encounters.
+Standard mode uses three scheduled encounters before the Crypt. Variant mode uses four.
 
-## What's New
+## Repository Layout
 
-- Last updated: **2026-08-13**
-- Added a focused deckbuilding clarification covering Brand modifiers, modified deck minimums, unlimited Sideboards, and MTGR's gameplay color-identity allowances.
-- Initial deck generation remains color-identity restricted where specified, while gameplay cards are not generally required to stay within Commander color identity.
+`rules/` is authoritative gameplay text. `generated/` and `RULEBOOK.md` are derived reading documents. `docs/` contains non-normative tooling/architecture documentation. `experiments/` contains proposals that are not part of the active ruleset. `archive/` preserves pre-contract monoliths and old generated snapshots for history only.
 
----
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for ownership and update rules.
 
-## 📖 Document Index
+## Making a Rule Change
 
-### Before a Run (Persistent)
+Edit the smallest canonical file under `rules/` that owns the mechanic. If a new mechanic needs its own stable concept, add a new rule unit and register its ID in the appropriate contract. Then run:
 
-| Document | Description |
-| :--- | :--- |
-| [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Current Season 1 Crypt Buffs, Tickets, Brands, and Achievements |
-| [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) | In-game progression tool behavior, unlock flow, reward spawning, and profile sync |
-| [SHOPS.md](SHOPS.md) | Progression Shop — captures, tickets, Brands, and long-term purchases |
+`npm run build`
 
-### Experimental
+`npm run check`
 
-| Document | Description |
-| :--- | :--- |
-| [EXPERIMENTAL/PLANE-DECK-STANDARD-V1.0.md](EXPERIMENTAL/PLANE-DECK-STANDARD-V1.0.md) | Experimental host-piloted Plane deckbuilding standard with source-based copy limits |
+Generated documents must be committed with their canonical source changes.
 
-### Run Start (Setup and Deckbuilding)
-
-| Document | Description |
-| :--- | :--- |
-| [CORE-RULES.md](CORE-RULES.md) | Core rules, player structure, commander selection, deck construction, and global limits |
-| [DECKBUILDING-RULES-V2.1.md](DECKBUILDING-RULES-V2.1.md) | Focused source of truth for deck construction, Brand modifiers, deck minimum, Sideboard, color identity, Merchant packs, and Guild interactions |
-| [SHOPS.md](SHOPS.md) | Pregame Shop — commander mulligans, partner/background access, and pregame purchases |
-| [BRANDS-SYSTEM-V1.0.md](BRANDS-SYSTEM-V1.0.md) | Persistent deckbuilding Brands purchasable before or after a run |
-| [TRINKET-SYSTEM-V1.0.md](TRINKET-SYSTEM-V1.0.md) | Pre-first-encounter Trinket selection flow and Trinket Ticket override |
-
-### Encounter Loop (During the Run)
-
-| Document | Description |
-| :--- | :--- |
-| [CORE-GAME-STRUCTURE-V1.0.md](CORE-GAME-STRUCTURE-V1.0.md) | Run structure, game loop, objective, failure conditions |
-| [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md) | Encounter types, flow, setup, and the Crypt |
-| [AFFIXES-V1.0.md](AFFIXES-V1.0.md) | Tiered encounter modifiers (Tier 1–4) with XP bonuses |
-| [DOOM-SYSTEM-V1.0.md](DOOM-SYSTEM-V1.0.md) | Doom component of Host Authority; separate in-depth triggered-ability card rules |
-| [HOST-AUTHORITY-SYSTEM-V1.0.md](HOST-AUTHORITY-SYSTEM-V1.0.md) | Host Scaling Power layer overview; Authority, Demonic Persistence, and Arcane Suppression rules |
-| [REWARD-SYSTEM-V1.0.md](REWARD-SYSTEM-V1.0.md) | XP, Cash Out, and Loot Pool after each encounter |
-| [TOWN-SYSTEM-V2.0.md](TOWN-SYSTEM-V2.0.md) | Town buildings — Bank, Bazaar, Blacksmith, Cathedral, Merchant, Mystic, Portal, Tavern, The Guild |
-| [TRAVELERS-V1.0.md](TRAVELERS-V1.0.md) | Special visitors that appear in Town — unique benefits that do not cost a Town Action |
-| [STAY-OUT-SYSTEM-V1.0.md](STAY-OUT-SYSTEM-V1.0.md) | Rules for skipping Town — XP scaling, Supply Drops, Wanderers |
-| [SUPPLY-DROP-SYSTEM.md](SUPPLY-DROP-SYSTEM.md) | Scavenged resource resolution between encounters |
-| [EVENT-SYSTEM-V1.0.md](EVENT-SYSTEM-V1.0.md) | Between-encounter random events — types, timing, frequency |
-| [DEMON-GENERALS-V2.0.md](DEMON-GENERALS-V2.0.md) | Tyrant Generals — passives, signature moves, relics |
-
-### Run Finale
-
-| Document | Description |
-| :--- | :--- |
-| [CORE-RULES.md](CORE-RULES.md) | Crypt and win condition reference |
-| [ENCOUNTER-SYSTEM-V1.0.md](ENCOUNTER-SYSTEM-V1.0.md) | Crypt setup and final encounter behavior |
-
-### After a Run (Postgame)
-
-| Document | Description |
-| :--- | :--- |
-| [SHOPS.md](SHOPS.md) | Progression Shop — spending post-run resources and buying permanent upgrades |
-| [PERMANENT-PROGRESSION.md](PERMANENT-PROGRESSION.md) | Permanent unlock reference for player progression layers |
-
-### Progress Tracking
-
-Profile progression is tracked by the in-game tool, which manages **Essence, Achievements, Crypt Buffs, Tickets, Brands, and Captures** and saves/loads player data from a Google Sheet.
-
-See [ESSENCE-COUNTER-FUNCTIONALITY.md](ESSENCE-COUNTER-FUNCTIONALITY.md) for the full functional breakdown.
-
----
-
-## 🎮 Quick Overview
-
-### How a Run Works
-
-Standard: Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 3 → Crypt
-Variant:  Deckbuild → Seat Swap Window → Event + Trinket → Encounter 1 → ... → Encounter 4 → Crypt
-
-### Player Count
-
-- Supports **1–6 players**
-- The complete **Host Scaling Power layer (Host Authority)** is Authority + Doom + Demonic Persistence + Arcane Suppression
-- Authority and Doom scale with player count; Demonic Persistence and Arcane Suppression are always active
-
-### Win Condition
-
-Defeat the **Crypt** (Final Boss) at the end of the run.
-
-### Loss Condition
-
-The run ends only if the party fails to defeat the Crypt.
-
-Failed encounters do not end the run immediately: the party gains no Rewards from that encounter, but must still choose to go to Town or Stay Out between stages.
-
-On a failed encounter, skip Rewards (XP, Cash Out, and Loot Pool) but still proceed to the Post-Encounter Choice (Town or Stay Out). Missing Rewards is the only penalty.
-
----
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit rule change requests, flag bugs, and propose new content.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.

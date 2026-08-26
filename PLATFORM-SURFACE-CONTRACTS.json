@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "description": "Supplemental MTGR-Rules contracts consumed by Platform surfaces that are not part of the interactive rulebook navigation.",
+  "rules": [
+    {
+      "id": "host-health-table",
+      "title": "Host Health Table",
+      "source": "rules/platform/host-health-table.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host"
+      ],
+      "surfaces": [
+        "host"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "host-base-xp-table",
+      "title": "Host Base XP Table",
+      "source": "rules/platform/host-base-xp-table.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host"
+      ],
+      "surfaces": [
+        "host"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "host-affix-structure",
+      "title": "Host Affix Structure",
+      "source": "rules/platform/host-affix-structure.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host"
+      ],
+      "surfaces": [
+        "host"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "core-rules-document",
+      "title": "Rules",
+      "source": "RULEBOOK.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "surfaces": [
+        "tts-document"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "host-cheat-sheet-document",
+      "title": "Host Cheat Sheet",
+      "source": "generated/HOST-REFERENCE.md",
+      "phase": "before-run",
+      "audience": [
+        "host"
+      ],
+      "surfaces": [
+        "tts-document"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "player-cheat-sheet-document",
+      "title": "Player Cheat Sheet",
+      "source": "generated/PLAYER-REFERENCE.md",
+      "phase": "before-run",
+      "audience": [
+        "player"
+      ],
+      "surfaces": [
+        "tts-document"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    }
+  ]
+}

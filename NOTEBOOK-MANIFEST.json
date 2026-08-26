@@ -1,59 +1,38 @@
 {
-  "schemaVersion": 1,
-  "description": "Canonical source map for the five MTGR-managed Tabletop Simulator Notebook tabs.",
+  "schemaVersion": 2,
+  "description": "Canonical composition for the five MTGR-managed Tabletop Simulator Notebook tabs. Content is resolved by stable rule IDs from rulebook-manifest.json.",
   "tabs": [
     {
       "title": "Rules - Overview",
       "color": "Grey",
       "displayTitle": "MTGRL RULES — Quick Overview",
-      "source": "HOSTING/PLAYER-CHEAT-SHEET-V2.0.md",
-      "sections": [
-        "2. Pre-Game Checklist",
-        "5. The Run Flow (Player View)",
-        "6. Winning vs. Failing Encounters",
-        "7. Death Rules",
-        "8. Town Phase",
-        "9. Stay Out Phase",
-        "11. Turn And Combat Rules",
-        "12. Crypt Rules"
-      ],
+      "rules": ["game-overview", "pre-encounter-setup", "game-loop", "failed-encounter", "death-rules", "town-flow", "stay-out-flow", "turn-structure", "crypt"],
       "footer": "[i]Full rules:[/i] https://www.mtginfo.org/rules.html"
     },
     {
       "title": "Rules - Addendum",
       "color": "Grey",
       "displayTitle": "MTGRL RULES Addendum",
-      "source": "NOTEBOOK-RULES-ADDENDUM.md",
-      "wholeDocument": true,
+      "rules": ["notebook-addendum"],
       "footer": "[i]Applies to all tables unless otherwise stated.[/i]"
     },
     {
       "title": "Banned & Restricted",
       "color": "Grey",
       "displayTitle": "Banned & Restricted",
-      "source": "CORE-RULES.md",
-      "sections": [
-        "🚫 BANNED & RESTRICTED (MTGR)"
-      ]
+      "rules": ["banned-restricted"]
     },
     {
       "title": "📦 SUPPLY DROPS",
       "color": "Grey",
       "displayTitle": "📦 SUPPLY DROPS",
-      "source": "SUPPLY-DROP-SYSTEM.md",
-      "sections": [
-        "🎁 SUPPLY DROP RESOLUTION",
-        "🎲 SUPPLY DROP TABLE"
-      ]
+      "rules": ["supply-drop-resolution", "supply-drop-table"]
     },
     {
       "title": "🌀 Wild Magic",
       "color": "Grey",
       "displayTitle": "🌀 WILD MAGIC TABLE",
-      "source": "ENCOUNTER-SYSTEM-V1.0.md",
-      "sections": [
-        "🌀 WILDCARD FIGHT — WILD MAGIC TABLE"
-      ]
+      "rules": ["wild-magic-table"]
     }
   ]
 }

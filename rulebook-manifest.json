@@ -1,25 +1,36 @@
 {
-  "schemaVersion": 1,
+  "$schema": "contracts/rulebook.schema.json",
+  "schemaVersion": 2,
   "repository": "zkzeroxvirus/MTGR-Rules",
   "branch": "main",
   "title": "MTG Roguelike Rules",
-  "description": "Stable navigation metadata for interactive rulebook consumers. Canonical rule wording remains in the referenced Markdown files.",
+  "description": "Stable rule contracts for MTGR consumers. Canonical gameplay wording lives in dedicated Markdown units under rules/; generated compilations provide continuous player and Host reading.",
   "documents": [
-    { "id": "core", "title": "Core Rules", "source": "CORE-RULES.md", "audience": ["player", "host"] },
-    { "id": "deckbuilding-clarifications", "title": "Deckbuilding Clarifications", "source": "DECKBUILDING-RULES-V2.1.md", "audience": ["player", "host"] },
-    { "id": "structure", "title": "Core Game Structure", "source": "CORE-GAME-STRUCTURE-V1.0.md", "audience": ["player", "host"] },
-    { "id": "encounters", "title": "Encounter System", "source": "ENCOUNTER-SYSTEM-V1.0.md", "audience": ["player", "host"] },
-    { "id": "rewards", "title": "Reward System", "source": "REWARD-SYSTEM-V1.0.md", "audience": ["player", "host"] },
-    { "id": "town", "title": "Town System", "source": "TOWN-SYSTEM-V2.0.md", "audience": ["player", "host"] },
-    { "id": "stay-out", "title": "Stay Out System", "source": "STAY-OUT-SYSTEM-V1.0.md", "audience": ["player", "host"] },
-    { "id": "authority", "title": "Host Authority", "source": "HOST-AUTHORITY-SYSTEM-V1.0.md", "audience": ["host", "player"] },
-    { "id": "doom", "title": "Doom System", "source": "DOOM-SYSTEM-V1.0.md", "audience": ["host", "player"] },
-    { "id": "affixes", "title": "Affixes", "source": "AFFIXES-V1.0.md", "audience": ["host", "player"] },
-    { "id": "events", "title": "Event System", "source": "EVENT-SYSTEM-V1.0.md", "audience": ["player", "host"] },
-    { "id": "trinkets", "title": "Trinket System", "source": "TRINKET-SYSTEM-V1.0.md", "audience": ["player", "host"] },
-    { "id": "progression", "title": "Permanent Progression", "source": "PERMANENT-PROGRESSION.md", "audience": ["player"] },
-    { "id": "shops", "title": "Shops", "source": "SHOPS.md", "audience": ["player"] },
-    { "id": "brands", "title": "Brands", "source": "BRANDS-SYSTEM-V1.0.md", "audience": ["player"] }
+    {
+      "id": "full-rulebook",
+      "title": "Complete Rulebook",
+      "source": "RULEBOOK.md",
+      "audience": [
+        "player",
+        "host"
+      ]
+    },
+    {
+      "id": "player-reference",
+      "title": "Player Reference",
+      "source": "generated/PLAYER-REFERENCE.md",
+      "audience": [
+        "player"
+      ]
+    },
+    {
+      "id": "host-reference",
+      "title": "Host Reference",
+      "source": "generated/HOST-REFERENCE.md",
+      "audience": [
+        "host"
+      ]
+    }
   ],
   "learnPath": [
     {
@@ -27,35 +38,70 @@
       "number": "01",
       "title": "Before the Run",
       "description": "Understand the party, build a legal run deck, and finish pre-encounter setup.",
-      "rules": ["game-overview", "player-structure", "deckbuilding", "banned-restricted", "pre-encounter-setup"]
+      "rules": [
+        "game-overview",
+        "player-structure",
+        "deckbuilding",
+        "banned-restricted",
+        "pre-encounter-setup",
+        "run-structure",
+        "pregame-shop",
+        "trinket-system",
+        "global-limits"
+      ]
     },
     {
       "id": "encounter-loop",
       "number": "02",
       "title": "The Encounter Loop",
       "description": "Resolve an encounter, determine victory or loss, and move into the post-encounter decision.",
-      "rules": ["game-loop", "party-combat-interactions", "encounter-flow", "failed-encounter", "reward-timing"]
+      "rules": [
+        "game-loop",
+        "party-combat-interactions",
+        "encounter-flow",
+        "failed-encounter",
+        "reward-timing",
+        "death-rules"
+      ]
     },
     {
       "id": "between-encounters",
       "number": "03",
       "title": "Between Encounters",
       "description": "Choose Town or Stay Out and resolve the selected path before the next encounter.",
-      "rules": ["town-flow", "stay-out-flow", "event-resolution"]
+      "rules": [
+        "town-flow",
+        "stay-out-flow",
+        "event-resolution",
+        "travelers-system",
+        "wanderers-system",
+        "event-timing",
+        "event-frequency"
+      ]
     },
     {
       "id": "crypt",
       "number": "04",
       "title": "The Crypt",
       "description": "Reach the final boss, apply Crypt-specific rules, and resolve the run result.",
-      "rules": ["crypt", "run-success", "run-failure"]
+      "rules": [
+        "crypt",
+        "run-success",
+        "run-failure"
+      ]
     },
     {
       "id": "between-runs",
       "number": "05",
       "title": "Between Runs",
       "description": "Understand persistent progression and what follows players into future runs.",
-      "rules": ["host-types-profiles", "progression-reference"]
+      "rules": [
+        "host-types-profiles",
+        "progression-reference",
+        "progression-shop",
+        "brands-system",
+        "progression-slot-rules"
+      ]
     }
   ],
   "guides": [
@@ -64,10 +110,25 @@
       "title": "We won an encounter",
       "description": "Resolve victory cleanly and continue the run.",
       "steps": [
-        { "label": "Resolve XP, Cashout, and Loot Pool", "rule": "reward-timing" },
-        { "label": "Choose Town or Stay Out", "rule": "post-encounter-choice" },
-        { "label": "Resolve the selected path", "choices": ["town-flow", "stay-out-flow"] },
-        { "label": "Resolve Event(s), then begin the next encounter", "rule": "event-resolution" }
+        {
+          "label": "Resolve XP, Cashout, and Loot Pool",
+          "rule": "reward-timing"
+        },
+        {
+          "label": "Choose Town or Stay Out",
+          "rule": "post-encounter-choice"
+        },
+        {
+          "label": "Resolve the selected path",
+          "choices": [
+            "town-flow",
+            "stay-out-flow"
+          ]
+        },
+        {
+          "label": "Resolve Event(s), then begin the next encounter",
+          "rule": "event-resolution"
+        }
       ]
     },
     {
@@ -75,10 +136,25 @@
       "title": "We lost an encounter",
       "description": "Apply the failed-encounter transition without ending the run.",
       "steps": [
-        { "label": "Skip encounter rewards", "rule": "failed-encounter" },
-        { "label": "Choose Town or Stay Out", "rule": "post-encounter-choice" },
-        { "label": "Resolve the selected path", "choices": ["town-flow", "stay-out-flow"] },
-        { "label": "Continue normal Event resolution", "rule": "event-resolution" }
+        {
+          "label": "Skip encounter rewards",
+          "rule": "failed-encounter"
+        },
+        {
+          "label": "Choose Town or Stay Out",
+          "rule": "post-encounter-choice"
+        },
+        {
+          "label": "Resolve the selected path",
+          "choices": [
+            "town-flow",
+            "stay-out-flow"
+          ]
+        },
+        {
+          "label": "Continue normal Event resolution",
+          "rule": "event-resolution"
+        }
       ]
     },
     {
@@ -86,9 +162,18 @@
       "title": "We chose Town",
       "description": "Walk through a Town visit in order.",
       "steps": [
-        { "label": "Fully heal all players", "rule": "town-flow" },
-        { "label": "Use Town buildings", "rule": "town-buildings" },
-        { "label": "Proceed to Event resolution", "rule": "event-resolution" }
+        {
+          "label": "Fully heal all players",
+          "rule": "town-flow"
+        },
+        {
+          "label": "Use Town buildings",
+          "rule": "town-buildings"
+        },
+        {
+          "label": "Proceed to Event resolution",
+          "rule": "event-resolution"
+        }
       ]
     },
     {
@@ -96,10 +181,22 @@
       "title": "We chose Stay Out",
       "description": "Resolve the higher-variance path in order.",
       "steps": [
-        { "label": "Gain Stay Out XP", "rule": "stay-out-flow" },
-        { "label": "Gain Mystery Packs", "rule": "stay-out-flow" },
-        { "label": "Resolve Supply Drop and Wanderer", "rule": "stay-out-flow" },
-        { "label": "Resolve the increased Event count", "rule": "event-resolution" }
+        {
+          "label": "Gain Stay Out XP",
+          "rule": "stay-out-flow"
+        },
+        {
+          "label": "Gain Mystery Packs",
+          "rule": "stay-out-flow"
+        },
+        {
+          "label": "Resolve Supply Drop and Wanderer",
+          "rule": "stay-out-flow"
+        },
+        {
+          "label": "Resolve the increased Event count",
+          "rule": "event-resolution"
+        }
       ]
     },
     {
@@ -107,10 +204,22 @@
       "title": "Set up Host scaling",
       "description": "Find the Host scaling layers that apply at the start of an encounter.",
       "steps": [
-        { "label": "Determine Authority level", "rule": "authority-level" },
-        { "label": "Set up Doom cards", "rule": "doom-setup" },
-        { "label": "Apply always-on scaling powers", "rule": "always-on-scaling" },
-        { "label": "Apply encounter Affixes", "rule": "affixes-reference" }
+        {
+          "label": "Determine Authority level",
+          "rule": "authority-level"
+        },
+        {
+          "label": "Set up Doom cards",
+          "rule": "doom-setup"
+        },
+        {
+          "label": "Apply always-on scaling powers",
+          "rule": "always-on-scaling"
+        },
+        {
+          "label": "Apply encounter Affixes",
+          "rule": "affixes-reference"
+        }
       ]
     }
   ],
@@ -118,340 +227,3807 @@
     {
       "id": "game-overview",
       "title": "Game Overview",
-      "source": "CORE-RULES.md",
-      "heading": "GAME OVERVIEW",
+      "source": "rules/getting-started/game-overview.md",
       "phase": "before-run",
-      "audience": ["player", "host"],
-      "aliases": ["what is mtgr", "objective overview", "commander roguelike"],
-      "related": ["game-loop", "crypt"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "what is mtgr",
+        "objective overview",
+        "commander roguelike"
+      ],
+      "related": [
+        "game-loop",
+        "crypt"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "host-types-profiles",
       "title": "Host Types and Progression Profiles",
-      "source": "CORE-RULES.md",
-      "heading": "HOST TYPES AND PROGRESSION PROFILES",
+      "source": "rules/host/host-types-profiles.md",
       "phase": "between-runs",
-      "audience": ["player", "host"],
-      "aliases": ["verified host", "regular host", "profiles", "verified progression"],
-      "related": ["progression-reference"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "verified host",
+        "regular host",
+        "profiles",
+        "verified progression"
+      ],
+      "related": [
+        "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "player-structure",
       "title": "Player Structure",
-      "source": "CORE-RULES.md",
-      "heading": "PLAYER STRUCTURE",
+      "source": "rules/getting-started/player-structure.md",
       "phase": "before-run",
-      "audience": ["player", "host"],
-      "aliases": ["party", "host controls encounters", "cooperative"],
-      "related": ["turn-structure", "party-combat-interactions"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "party",
+        "host controls encounters",
+        "cooperative"
+      ],
+      "related": [
+        "turn-structure",
+        "party-combat-interactions"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "player-health",
       "title": "Player Health, Healing, and Max HP",
-      "source": "CORE-RULES.md",
-      "heading": "PLAYER HEALTH, HEALING, AND MAX HP",
+      "source": "rules/encounters/player-health.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["health", "heal", "max hp", "max life", "life total"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "health",
+        "heal",
+        "max hp",
+        "max life",
+        "life total"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "deckbuilding",
       "title": "Deckbuilding Clarifications",
-      "source": "DECKBUILDING-RULES-V2.1.md",
+      "source": "rules/getting-started/deckbuilding.md",
       "phase": "before-run",
-      "audience": ["player", "host"],
-      "aliases": ["commander selection", "100 card pool", "22 cards", "lands", "free choice card", "scryfall", "combos", "infinites", "silence", "capture", "tickets", "40 card deck"],
-      "wholeDocument": true,
-      "related": ["banned-restricted", "pre-encounter-setup"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "commander selection",
+        "100 card pool",
+        "22 cards",
+        "lands",
+        "free choice card",
+        "scryfall",
+        "combos",
+        "infinites",
+        "silence",
+        "capture",
+        "tickets",
+        "40 card deck"
+      ],
+      "related": [
+        "banned-restricted",
+        "pre-encounter-setup"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "banned-restricted",
       "title": "Banned & Restricted",
-      "source": "CORE-RULES.md",
-      "heading": "BANNED & RESTRICTED (MTGR)",
+      "source": "rules/getting-started/banned-restricted.md",
       "phase": "before-run",
-      "audience": ["player", "host"],
-      "aliases": ["ban list", "restricted cards", "illegal cards", "silence", "orims chant", "hope of ghirapur", "ranger captain"],
-      "related": ["deckbuilding"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "ban list",
+        "restricted cards",
+        "illegal cards",
+        "silence",
+        "orims chant",
+        "hope of ghirapur",
+        "ranger captain"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "pre-encounter-setup",
       "title": "Pre-Encounter Setup",
-      "source": "CORE-RULES.md",
-      "heading": "CORE GAME LOOP",
+      "source": "rules/getting-started/pre-encounter-setup.md",
       "phase": "before-run",
-      "audience": ["player", "host"],
-      "aliases": ["event and trinket", "seat swap", "before encounter 1"],
-      "related": ["game-loop", "event-resolution"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "event and trinket",
+        "seat swap",
+        "before encounter 1"
+      ],
+      "related": [
+        "game-loop",
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "game-loop",
       "title": "Game Loop",
-      "source": "CORE-GAME-STRUCTURE-V1.0.md",
-      "heading": "GAME LOOP",
+      "source": "rules/encounters/game-loop.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["run flow", "encounter rewards choice events next encounter", "what happens next"],
-      "related": ["party-combat-interactions", "encounter-flow", "reward-timing", "post-encounter-choice"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "run flow",
+        "encounter rewards choice events next encounter",
+        "what happens next"
+      ],
+      "related": [
+        "party-combat-interactions",
+        "encounter-flow",
+        "reward-timing",
+        "post-encounter-choice"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "party-combat-interactions",
       "title": "Party Combat Interactions",
-      "source": "CORE-GAME-STRUCTURE-V1.0.md",
-      "heading": "PARTY COMBAT INTERACTIONS",
+      "source": "rules/encounters/party-combat-interactions.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["attacks alone", "exalted", "battle cry", "menace", "adjacent blocking", "allied blockers", "shared combat", "controller local"],
-      "related": ["turn-structure", "game-loop"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "attacks alone",
+        "exalted",
+        "battle cry",
+        "menace",
+        "adjacent blocking",
+        "allied blockers",
+        "shared combat",
+        "controller local"
+      ],
+      "related": [
+        "turn-structure",
+        "game-loop"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "failed-encounter",
       "title": "Failed Encounter Transition",
-      "source": "CORE-GAME-STRUCTURE-V1.0.md",
-      "heading": "FAILED ENCOUNTER TRANSITION",
+      "source": "rules/encounters/failed-encounter.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["lost encounter", "lose encounter", "wipe", "failed fight", "encounter loss"],
-      "related": ["post-encounter-choice", "town-flow", "stay-out-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "lost encounter",
+        "lose encounter",
+        "wipe",
+        "failed fight",
+        "encounter loss"
+      ],
+      "related": [
+        "post-encounter-choice",
+        "town-flow",
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "run-failure",
       "title": "Run Failure",
-      "source": "CORE-GAME-STRUCTURE-V1.0.md",
-      "heading": "FAILURE",
+      "source": "rules/crypt/run-failure.md",
       "phase": "crypt",
-      "audience": ["player", "host"],
-      "aliases": ["lose the run", "crypt loss", "failure condition"],
-      "related": ["crypt", "run-success"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "lose the run",
+        "crypt loss",
+        "failure condition"
+      ],
+      "related": [
+        "crypt",
+        "run-success"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "run-success",
       "title": "Run Success",
-      "source": "CORE-GAME-STRUCTURE-V1.0.md",
-      "heading": "SUCCESS",
+      "source": "rules/crypt/run-success.md",
       "phase": "crypt",
-      "audience": ["player", "host"],
-      "aliases": ["win the run", "crypt rewards", "victory"],
-      "related": ["crypt", "run-failure"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "win the run",
+        "crypt rewards",
+        "victory"
+      ],
+      "related": [
+        "crypt",
+        "run-failure"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "encounter-flow",
       "title": "Encounter Flow",
-      "source": "ENCOUNTER-SYSTEM-V1.0.md",
-      "heading": "ENCOUNTER FLOW",
+      "source": "rules/encounters/encounter-flow.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["encounter setup", "start encounter", "host health", "affixes"],
-      "related": ["affixes-reference", "authority-level"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "encounter setup",
+        "start encounter",
+        "host health",
+        "affixes"
+      ],
+      "related": [
+        "affixes-reference",
+        "authority-level"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "encounter-types",
       "title": "Encounter Types",
-      "source": "ENCOUNTER-SYSTEM-V1.0.md",
-      "heading": "ENCOUNTER TYPES",
+      "source": "rules/encounters/encounter-types.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["master fight", "tribal warfare", "precon battle", "plane fight", "story fight", "villain fight", "wildmagic"],
-      "related": ["encounter-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "master fight",
+        "tribal warfare",
+        "precon battle",
+        "plane fight",
+        "story fight",
+        "villain fight",
+        "wildmagic"
+      ],
+      "related": [
+        "encounter-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "crypt",
       "title": "Final Boss — The Crypt",
-      "source": "ENCOUNTER-SYSTEM-V1.0.md",
-      "heading": "FINAL BOSS — THE CRYPT",
+      "source": "rules/crypt/crypt.md",
       "phase": "crypt",
-      "audience": ["player", "host"],
-      "aliases": ["crypt", "final boss", "endgame"],
-      "related": ["run-success", "run-failure"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "crypt",
+        "final boss",
+        "endgame"
+      ],
+      "related": [
+        "run-success",
+        "run-failure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wild-magic-table",
+      "title": "Wild Magic Table",
+      "source": "rules/encounters/wild-magic-table.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "wild magic",
+        "wildcard fight",
+        "d100"
+      ],
+      "related": [
+        "encounter-types"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "reward-timing",
       "title": "Reward Timing",
-      "source": "REWARD-SYSTEM-V1.0.md",
-      "heading": "REWARD TIMING",
+      "source": "rules/rewards/reward-timing.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["rewards", "xp cashout loot", "after winning encounter"],
-      "related": ["xp-system", "cashout-system", "loot-pool", "post-encounter-choice"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "rewards",
+        "xp cashout loot",
+        "after winning encounter"
+      ],
+      "related": [
+        "xp-system",
+        "cashout-system",
+        "loot-pool",
+        "post-encounter-choice"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "xp-system",
       "title": "XP System",
-      "source": "REWARD-SYSTEM-V1.0.md",
-      "heading": "XP SYSTEM",
+      "source": "rules/rewards/xp-system.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["experience", "base xp", "affix bonus xp"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "experience",
+        "base xp",
+        "affix bonus xp"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "cashout-system",
       "title": "Cashout System",
-      "source": "REWARD-SYSTEM-V1.0.md",
-      "heading": "CASHOUT SYSTEM",
+      "source": "rules/rewards/cashout-system.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["cash out", "cashouts", "cashout reward"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "cash out",
+        "cashouts",
+        "cashout reward"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "loot-pool",
       "title": "Loot Pool System",
-      "source": "REWARD-SYSTEM-V1.0.md",
-      "heading": "LOOT POOL SYSTEM",
+      "source": "rules/rewards/loot-pool.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["loot", "loot cards", "defeated deck", "seven cards", "7 nonland"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "loot",
+        "loot cards",
+        "defeated deck",
+        "seven cards",
+        "7 nonland"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "post-encounter-choice",
       "title": "Post-Encounter Choice",
-      "source": "CORE-RULES.md",
-      "heading": "BETWEEN ENCOUNTERS",
+      "source": "rules/encounters/post-encounter-choice.md",
       "phase": "between-encounters",
-      "audience": ["player", "host"],
-      "aliases": ["town or stay out", "after encounter", "choice"],
-      "related": ["town-flow", "stay-out-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "town or stay out",
+        "after encounter",
+        "choice"
+      ],
+      "related": [
+        "town-flow",
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "town-flow",
       "title": "Town Flow",
-      "source": "TOWN-SYSTEM-V2.0.md",
-      "heading": "TOWN FLOW",
+      "source": "rules/town/town-flow.md",
       "phase": "between-encounters",
-      "audience": ["player", "host"],
-      "aliases": ["go to town", "town visit", "town sequence"],
-      "related": ["town-buildings", "event-resolution", "stay-out-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "go to town",
+        "town visit",
+        "town sequence"
+      ],
+      "related": [
+        "town-buildings",
+        "event-resolution",
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "town-buildings",
       "title": "Town Buildings",
-      "source": "TOWN-SYSTEM-V2.0.md",
-      "heading": "BUILDINGS",
+      "source": "rules/town/town-buildings.md",
       "phase": "between-encounters",
-      "audience": ["player", "host"],
-      "aliases": ["bank", "blacksmith", "bazaar", "cathedral", "guild", "merchant", "mystic", "portal", "tavern"],
-      "related": ["town-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "bank",
+        "blacksmith",
+        "bazaar",
+        "cathedral",
+        "guild",
+        "merchant",
+        "mystic",
+        "portal",
+        "tavern"
+      ],
+      "related": [
+        "town-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "stay-out-flow",
       "title": "Stay Out Flow",
-      "source": "STAY-OUT-SYSTEM-V1.0.md",
-      "heading": "STAY OUT FLOW",
+      "source": "rules/between-encounters/stay-out-flow.md",
       "phase": "between-encounters",
-      "audience": ["player", "host"],
-      "aliases": ["stay out", "mystery packs", "supply drop", "wanderer", "consecutive stay out"],
-      "related": ["event-resolution", "town-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out",
+        "mystery packs",
+        "supply drop",
+        "wanderer",
+        "consecutive stay out"
+      ],
+      "related": [
+        "event-resolution",
+        "town-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "supply-drop-resolution",
+      "title": "Supply Drop Resolution",
+      "source": "rules/between-encounters/supply-drop-resolution.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "supply drop",
+        "d10",
+        "drop resolution"
+      ],
+      "related": [
+        "stay-out-flow",
+        "supply-drop-table"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "supply-drop-table",
+      "title": "Supply Drop Table",
+      "source": "rules/between-encounters/supply-drop-table.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "supply table",
+        "d10 table",
+        "supply rewards"
+      ],
+      "related": [
+        "stay-out-flow",
+        "supply-drop-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "event-resolution",
       "title": "Event Resolution",
-      "source": "EVENT-SYSTEM-V1.0.md",
-      "heading": "EVENT FLOW",
+      "source": "rules/between-encounters/event-resolution.md",
       "phase": "between-encounters",
-      "audience": ["player", "host"],
-      "aliases": ["events", "event flow", "resolve events"],
-      "related": ["town-flow", "stay-out-flow"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "events",
+        "event flow",
+        "resolve events"
+      ],
+      "related": [
+        "town-flow",
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "authority-level",
       "title": "Authority Component — Level",
-      "source": "HOST-AUTHORITY-SYSTEM-V1.0.md",
-      "heading": "AUTHORITY COMPONENT — LEVEL",
+      "source": "rules/host/authority-level.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["authority", "host authority", "authority level", "host scaling"],
-      "related": ["always-on-scaling", "doom-setup", "affixes-reference"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "authority",
+        "host authority",
+        "authority level",
+        "host scaling"
+      ],
+      "related": [
+        "always-on-scaling",
+        "doom-setup",
+        "affixes-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "always-on-scaling",
       "title": "Always-On Scaling Powers",
-      "source": "HOST-AUTHORITY-SYSTEM-V1.0.md",
-      "heading": "ALWAYS-ON SCALING POWERS",
+      "source": "rules/host/always-on-scaling.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["demonic persistence", "arcane suppression", "always on host scaling"],
-      "related": ["authority-level", "doom-setup"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "demonic persistence",
+        "arcane suppression",
+        "always on host scaling"
+      ],
+      "related": [
+        "authority-level",
+        "doom-setup"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "doom-setup",
       "title": "Doom Setup",
-      "source": "DOOM-SYSTEM-V1.0.md",
-      "heading": "DOOM SETUP",
+      "source": "rules/host/doom-setup.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["doom cards", "doom count", "host doom"],
-      "related": ["doom-rules", "authority-level"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "doom cards",
+        "doom count",
+        "host doom"
+      ],
+      "related": [
+        "doom-rules",
+        "authority-level"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "doom-rules",
       "title": "Doom Rules",
-      "source": "DOOM-SYSTEM-V1.0.md",
-      "heading": "DOOM RULES",
+      "source": "rules/host/doom-rules.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["turn doom face up", "doom special action", "doom timing", "doom trigger"],
-      "related": ["doom-setup", "doom-reroll"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "turn doom face up",
+        "doom special action",
+        "doom timing",
+        "doom trigger"
+      ],
+      "related": [
+        "doom-setup",
+        "doom-reroll"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "doom-reroll",
       "title": "Doom Reroll",
-      "source": "DOOM-SYSTEM-V1.0.md",
-      "heading": "DOOM REROLL",
+      "source": "rules/host/doom-reroll.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["reroll doom", "replace doom cards"],
-      "related": ["doom-rules"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "reroll doom",
+        "replace doom cards"
+      ],
+      "related": [
+        "doom-rules"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "affixes-reference",
       "title": "Affixes",
-      "source": "AFFIXES-V1.0.md",
-      "heading": "AFFIX",
-      "match": "contains",
+      "source": "rules/host/affixes-reference.md",
       "phase": "encounter-loop",
-      "audience": ["host", "player"],
-      "aliases": ["affix", "tier 1", "tier 2", "tier 3", "tier 4", "affix xp"],
-      "wholeDocument": true,
-      "related": ["encounter-flow", "authority-level"]
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "affix",
+        "tier 1",
+        "tier 2",
+        "tier 3",
+        "tier 4",
+        "affix xp"
+      ],
+      "related": [
+        "encounter-flow",
+        "authority-level"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "turn-structure",
       "title": "Turn Structure",
-      "source": "CORE-RULES.md",
-      "heading": "TURN STRUCTURE",
+      "source": "rules/encounters/turn-structure.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["party turn", "host turn", "party combat", "host combat", "exalted", "battle cry", "menace"],
-      "related": ["party-combat-interactions"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "party turn",
+        "host turn",
+        "party combat",
+        "host combat",
+        "exalted",
+        "battle cry",
+        "menace"
+      ],
+      "related": [
+        "party-combat-interactions"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "death-rules",
       "title": "Death Rules",
-      "source": "CORE-RULES.md",
-      "heading": "DEATH RULES",
+      "source": "rules/encounters/death-rules.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["player died", "death", "xp penalty", "respawn"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "player died",
+        "death",
+        "xp penalty",
+        "respawn"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "player-departure",
       "title": "Player Departure",
-      "source": "CORE-RULES.md",
-      "heading": "PLAYER DEPARTURE",
+      "source": "rules/encounters/player-departure.md",
       "phase": "encounter-loop",
-      "audience": ["player", "host"],
-      "aliases": ["player leaves", "scoop", "disconnect", "join late", "reward eligibility"]
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "player leaves",
+        "scoop",
+        "disconnect",
+        "join late"
+      ],
+      "related": [
+        "reward-eligibility"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "reward-eligibility",
+      "title": "Reward Eligibility",
+      "source": "rules/rewards/reward-eligibility.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "encounter rewards eligibility",
+        "player leaves",
+        "player joins"
+      ],
+      "related": [
+        "player-departure",
+        "crypt-reward-eligibility"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "crypt-reward-eligibility",
+      "title": "Crypt Reward Eligibility",
+      "source": "rules/rewards/crypt-reward-eligibility.md",
+      "phase": "crypt",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "crypt rewards eligibility",
+        "player leaves crypt"
+      ],
+      "related": [
+        "reward-eligibility",
+        "crypt-completion-rewards"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "crypt-completion-rewards",
+      "title": "Crypt Completion Rewards",
+      "source": "rules/rewards/crypt-completion-rewards.md",
+      "phase": "crypt",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "crypt reward",
+        "500 essence",
+        "boss buff"
+      ],
+      "related": [
+        "crypt",
+        "run-end-essence-rewards"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "run-end-essence-rewards",
+      "title": "Run-End Essence Rewards",
+      "source": "rules/rewards/run-end-essence-rewards.md",
+      "phase": "crypt",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "deck cmc essence",
+        "sideboard cmc",
+        "unspent xp",
+        "run end rewards"
+      ],
+      "related": [
+        "run-success",
+        "run-failure"
+      ],
+      "content": {
+        "kind": "document"
+      }
     },
     {
       "id": "progression-reference",
       "title": "Permanent Progression",
-      "source": "PERMANENT-PROGRESSION.md",
-      "heading": "PERMANENT PROGRESSION",
-      "match": "contains",
+      "source": "rules/progression/progression-reference.md",
       "phase": "between-runs",
-      "audience": ["player"],
-      "aliases": ["crypt buffs", "tickets", "brands", "achievements", "captures", "persistent progression"],
-      "wholeDocument": true,
-      "related": ["host-types-profiles"]
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "crypt buffs",
+        "tickets",
+        "brands",
+        "achievements",
+        "captures",
+        "persistent progression"
+      ],
+      "related": [
+        "host-types-profiles"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "notebook-addendum",
+      "title": "Rules Addendum",
+      "source": "rules/progression/notebook-addendum.md",
+      "phase": "between-runs",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "rules addendum"
+      ],
+      "content": {
+        "kind": "document"
+      },
+      "surfaces": [
+        "notebook"
+      ]
+    },
+    {
+      "id": "demon-generals-system",
+      "title": "Demon Generals",
+      "source": "rules/host/demon-generals-system.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "tyrants",
+        "master fight generals",
+        "signature moves"
+      ],
+      "related": [
+        "encounter-types"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-ember-tyrant-general-of-ash",
+      "title": "🔥 EMBER TYRANT — GENERAL OF ASH",
+      "source": "rules/host/demon-generals/ember-tyrant-general-of-ash.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-winter-tyrant-general-of-frost",
+      "title": "❄️ WINTER TYRANT — GENERAL OF FROST",
+      "source": "rules/host/demon-generals/winter-tyrant-general-of-frost.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-plague-tyrant-general-of-rot",
+      "title": "☠️ PLAGUE TYRANT — GENERAL OF ROT",
+      "source": "rules/host/demon-generals/plague-tyrant-general-of-rot.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-storm-tyrant-general-of-ruin",
+      "title": "⚡ STORM TYRANT — GENERAL OF RUIN",
+      "source": "rules/host/demon-generals/storm-tyrant-general-of-ruin.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-grave-tyrant-general-of-necromancy",
+      "title": "💀 GRAVE TYRANT — GENERAL OF NECROMANCY",
+      "source": "rules/host/demon-generals/grave-tyrant-general-of-necromancy.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-blood-tyrant-general-of-sacrifice",
+      "title": "🩸 BLOOD TYRANT — GENERAL OF SACRIFICE",
+      "source": "rules/host/demon-generals/blood-tyrant-general-of-sacrifice.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-stone-tyrant-general-of-fortification",
+      "title": "🪨 STONE TYRANT — GENERAL OF FORTIFICATION",
+      "source": "rules/host/demon-generals/stone-tyrant-general-of-fortification.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-void-tyrant-general-of-the-abyss",
+      "title": "🌀 VOID TYRANT — GENERAL OF THE ABYSS",
+      "source": "rules/host/demon-generals/void-tyrant-general-of-the-abyss.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-war-tyrant-general-of-conquest",
+      "title": "⚔️ WAR TYRANT — GENERAL OF CONQUEST",
+      "source": "rules/host/demon-generals/war-tyrant-general-of-conquest.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-gold-tyrant-general-of-greed",
+      "title": "🪙 GOLD TYRANT — GENERAL OF GREED",
+      "source": "rules/host/demon-generals/gold-tyrant-general-of-greed.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-dream-tyrant-general-of-madness",
+      "title": "🌙 DREAM TYRANT — GENERAL OF MADNESS",
+      "source": "rules/host/demon-generals/dream-tyrant-general-of-madness.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "travelers-system",
+      "title": "Travelers",
+      "source": "rules/town/travelers-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "town travelers",
+        "town visitors"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-bearded-grunt",
+      "title": "🧔 Bearded Grunt",
+      "source": "rules/town/travelers/bearded-grunt.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-bullywug-royal",
+      "title": "🐸 Bullywug Royal",
+      "source": "rules/town/travelers/bullywug-royal.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-card-copier",
+      "title": "🃏 Card Copier",
+      "source": "rules/town/travelers/card-copier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-card-eating-ogre",
+      "title": "👹 Card-Eating Ogre",
+      "source": "rules/town/travelers/card-eating-ogre.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-cats-in-a-coat",
+      "title": "🐱 Cats in a Coat",
+      "source": "rules/town/travelers/cats-in-a-coat.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-centaur-scouter",
+      "title": "🐎 Centaur Scouter",
+      "source": "rules/town/travelers/centaur-scouter.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-centepoid-warrior",
+      "title": "🪳 Centepoid Warrior",
+      "source": "rules/town/travelers/centepoid-warrior.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-commander-mimic",
+      "title": "🧰 Commander Mimic",
+      "source": "rules/town/travelers/commander-mimic.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-dwarven-artificer",
+      "title": "⚒️ Dwarven Artificer",
+      "source": "rules/town/travelers/dwarven-artificer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-elven-demonologist",
+      "title": "👹 Elven Demonologist",
+      "source": "rules/town/travelers/elven-demonologist.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-fungal-lich",
+      "title": "🍄 Fungal Lich",
+      "source": "rules/town/travelers/fungal-lich.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-giff-bandito",
+      "title": "🦒 Giff Bandito",
+      "source": "rules/town/travelers/giff-bandito.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-giant-ice-toad",
+      "title": "� Giant Ice Toad",
+      "source": "rules/town/travelers/giant-ice-toad.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-hell-s-librarian",
+      "title": "�📚 Hell's Librarian",
+      "source": "rules/town/travelers/hell-s-librarian.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-hollyphant",
+      "title": "🕊️ Hollyphant",
+      "source": "rules/town/travelers/hollyphant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-kimi-the-cat",
+      "title": "😺 Kimi the Cat",
+      "source": "rules/town/travelers/kimi-the-cat.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-silly-the-jester",
+      "title": "🤡 Silly, the Jester",
+      "source": "rules/town/travelers/silly-the-jester.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-the-trader",
+      "title": "💰 The Trader",
+      "source": "rules/town/travelers/the-trader.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-vanguard-mercenaries",
+      "title": "⚔️ Vanguard Mercenaries",
+      "source": "rules/town/travelers/vanguard-mercenaries.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-wandering-card-merchant",
+      "title": "🛍️ Wandering Card Merchant",
+      "source": "rules/town/travelers/wandering-card-merchant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-zorbo",
+      "title": "🎩 Zorbo",
+      "source": "rules/town/travelers/zorbo.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderers-system",
+      "title": "Wanderers",
+      "source": "rules/between-encounters/wanderers-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out wanderers",
+        "wanderer encounter"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wandering-merchant",
+      "title": "🛍️ Wandering Merchant",
+      "source": "rules/between-encounters/wanderers/wandering-merchant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-rift-vendor",
+      "title": "🌀 Rift Vendor",
+      "source": "rules/between-encounters/wanderers/rift-vendor.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-quartermaster",
+      "title": "🎒 Quartermaster",
+      "source": "rules/between-encounters/wanderers/quartermaster.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-traveling-smith",
+      "title": "⚒️ Traveling Smith",
+      "source": "rules/between-encounters/wanderers/traveling-smith.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-road-gambler",
+      "title": "🎲 Road Gambler",
+      "source": "rules/between-encounters/wanderers/road-gambler.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wayfarer",
+      "title": "🚶 Wayfarer",
+      "source": "rules/between-encounters/wanderers/wayfarer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-hedge-mystic",
+      "title": "🔮 Hedge Mystic",
+      "source": "rules/between-encounters/wanderers/hedge-mystic.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-essence-broker",
+      "title": "💎 Essence Broker",
+      "source": "rules/between-encounters/wanderers/essence-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-cartographer",
+      "title": "🗺️ Cartographer",
+      "source": "rules/between-encounters/wanderers/cartographer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-field-surgeon",
+      "title": "🩹 Field Surgeon",
+      "source": "rules/between-encounters/wanderers/field-surgeon.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-masked-courier",
+      "title": "🎭 Masked Courier",
+      "source": "rules/between-encounters/wanderers/masked-courier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-relic-hunter",
+      "title": "⚙️ Relic Hunter",
+      "source": "rules/between-encounters/wanderers/relic-hunter.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-shadow-broker",
+      "title": "🌑 Shadow Broker",
+      "source": "rules/between-encounters/wanderers/shadow-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-veiled-trinket-broker",
+      "title": "🕯️ Veiled Trinket Broker",
+      "source": "rules/between-encounters/wanderers/veiled-trinket-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wandering-bard",
+      "title": "🎵 Wandering Bard",
+      "source": "rules/between-encounters/wanderers/wandering-bard.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-system",
+      "title": "Trinket System",
+      "source": "rules/getting-started/trinket-system.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "trinket selection",
+        "trinket ticket",
+        "party trinket"
+      ],
+      "related": [
+        "pre-encounter-setup"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-the-device",
+      "title": "🔧 THE DEVICE",
+      "source": "rules/getting-started/trinkets/the-device.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-garruk-s-clipper",
+      "title": "🪓 GARRUK'S CLIPPER",
+      "source": "rules/getting-started/trinkets/garruk-s-clipper.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-torch",
+      "title": "🔥 TORCH",
+      "source": "rules/getting-started/trinkets/torch.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-staff-of-light",
+      "title": "✨ STAFF OF LIGHT",
+      "source": "rules/getting-started/trinkets/staff-of-light.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-wine",
+      "title": "🍷 JAR OF WINE",
+      "source": "rules/getting-started/trinkets/jar-of-wine.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-honey",
+      "title": "🍯 JAR OF HONEY",
+      "source": "rules/getting-started/trinkets/jar-of-honey.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tent",
+      "title": "⛺ TENT",
+      "source": "rules/getting-started/trinkets/tent.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-thirsting-axe",
+      "title": "🪓 THIRSTING AXE",
+      "source": "rules/getting-started/trinkets/thirsting-axe.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aspect-of-malfegor",
+      "title": "👹 ASPECT OF MALFEGOR",
+      "source": "rules/getting-started/trinkets/aspect-of-malfegor.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bomb",
+      "title": "💣 BOMB",
+      "source": "rules/getting-started/trinkets/bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-big-bomb",
+      "title": "💥 BIG BOMB",
+      "source": "rules/getting-started/trinkets/big-bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bigger-bomb",
+      "title": "☢️ BIGGER BOMB",
+      "source": "rules/getting-started/trinkets/bigger-bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mirror-shield",
+      "title": "🛡️ MIRROR SHIELD",
+      "source": "rules/getting-started/trinkets/mirror-shield.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-explosive-barrel",
+      "title": "🧨 EXPLOSIVE BARREL",
+      "source": "rules/getting-started/trinkets/explosive-barrel.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mitsy-abandoned",
+      "title": "🐱 MITSY, ABANDONED",
+      "source": "rules/getting-started/trinkets/mitsy-abandoned.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-marbles",
+      "title": "⚪ MARBLES",
+      "source": "rules/getting-started/trinkets/marbles.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-crossroads-cart",
+      "title": "🛒 CROSSROADS CART",
+      "source": "rules/getting-started/trinkets/crossroads-cart.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-vogar-bound-for-death",
+      "title": "⚔️ VOGAR, BOUND FOR DEATH",
+      "source": "rules/getting-started/trinkets/vogar-bound-for-death.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-sal-bidard-glory-reforged",
+      "title": "🗡️ SAL BIDARD, GLORY REFORGED",
+      "source": "rules/getting-started/trinkets/sal-bidard-glory-reforged.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-campfire",
+      "title": "🔥 CAMPFIRE",
+      "source": "rules/getting-started/trinkets/campfire.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-armament-of-death",
+      "title": "☠️ ARMAMENT OF DEATH",
+      "source": "rules/getting-started/trinkets/armament-of-death.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-loch-shield",
+      "title": "🛡️ LOCH SHIELD",
+      "source": "rules/getting-started/trinkets/loch-shield.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aegis-of-verix",
+      "title": "🐉 AEGIS OF VERIX",
+      "source": "rules/getting-started/trinkets/aegis-of-verix.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-watcher-s-eye",
+      "title": "👁️ WATCHER'S EYE",
+      "source": "rules/getting-started/trinkets/watcher-s-eye.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tonitrus-skullduster",
+      "title": "⚡ TONITRUS, SKULLDUSTER",
+      "source": "rules/getting-started/trinkets/tonitrus-skullduster.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-dragovokia",
+      "title": "🐉 DRAGOVOKIA",
+      "source": "rules/getting-started/trinkets/dragovokia.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gideon-s-training-saber",
+      "title": "⚔️ GIDEON'S TRAINING SABER",
+      "source": "rules/getting-started/trinkets/gideon-s-training-saber.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-pikeman",
+      "title": "🗡️ PIKEMAN",
+      "source": "rules/getting-started/trinkets/pikeman.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-ashmouth-lantern",
+      "title": "🔦 ASHMOUTH LANTERN",
+      "source": "rules/getting-started/trinkets/ashmouth-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-parasite-blade",
+      "title": "⚔️ PARASITE BLADE",
+      "source": "rules/getting-started/trinkets/parasite-blade.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-blade-of-the-archmagus",
+      "title": "📖 BLADE OF THE ARCHMAGUS",
+      "source": "rules/getting-started/trinkets/blade-of-the-archmagus.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-cursed-pumpkins",
+      "title": "🎃 CURSED PUMPKINS",
+      "source": "rules/getting-started/trinkets/cursed-pumpkins.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-hu-blow-the-good",
+      "title": "🧙 HU-BLOW, THE GOOD",
+      "source": "rules/getting-started/trinkets/hu-blow-the-good.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-rusted-crown",
+      "title": "👑 RUSTED CROWN",
+      "source": "rules/getting-started/trinkets/rusted-crown.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-treasure",
+      "title": "💎 TREASURE",
+      "source": "rules/getting-started/trinkets/treasure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-huge-treasure",
+      "title": "💰 HUGE TREASURE",
+      "source": "rules/getting-started/trinkets/huge-treasure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gravebell",
+      "title": "🔔 GRAVEBELL",
+      "source": "rules/getting-started/trinkets/gravebell.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-shovel-pile",
+      "title": "🔊 SHOVEL PILE",
+      "source": "rules/getting-started/trinkets/shovel-pile.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-saint-s-ash",
+      "title": "⚱️ SAINT'S ASH",
+      "source": "rules/getting-started/trinkets/saint-s-ash.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-cannon",
+      "title": "🔫 CANNON",
+      "source": "rules/getting-started/trinkets/cannon.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bag-of-grain",
+      "title": "🌾 BAG OF GRAIN",
+      "source": "rules/getting-started/trinkets/bag-of-grain.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-celestine-hama-s-light",
+      "title": "🛍️ CELESTINE, HAMA'S LIGHT",
+      "source": "rules/getting-started/trinkets/celestine-hama-s-light.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-guild-chest",
+      "title": "🏺 GUILD CHEST",
+      "source": "rules/getting-started/trinkets/guild-chest.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-oil",
+      "title": "🍶 JAR OF OIL",
+      "source": "rules/getting-started/trinkets/jar-of-oil.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-water",
+      "title": "💧 JAR OF WATER",
+      "source": "rules/getting-started/trinkets/jar-of-water.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-void-lantern",
+      "title": "⊡ VOID LANTERN",
+      "source": "rules/getting-started/trinkets/void-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-lantern-of-the-deep",
+      "title": "🌊 LANTERN OF THE DEEP",
+      "source": "rules/getting-started/trinkets/lantern-of-the-deep.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-the-sunforged-slicer",
+      "title": "☀️ THE SUNFORGED SLICER",
+      "source": "rules/getting-started/trinkets/the-sunforged-slicer.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aggressive-skeleton-oppressive-skeleton",
+      "title": "🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON",
+      "source": "rules/getting-started/trinkets/aggressive-skeleton-oppressive-skeleton.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-iron-boots",
+      "title": "👢 IRON BOOTS",
+      "source": "rules/getting-started/trinkets/iron-boots.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jack-o-lantern",
+      "title": "🎃 JACK-O-LANTERN",
+      "source": "rules/getting-started/trinkets/jack-o-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mimic-tooth",
+      "title": "🦷 MIMIC TOOTH",
+      "source": "rules/getting-started/trinkets/mimic-tooth.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-great-thwack",
+      "title": "💪 GREAT THWACK",
+      "source": "rules/getting-started/trinkets/great-thwack.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gold-bag",
+      "title": "💰 GOLD BAG",
+      "source": "rules/getting-started/trinkets/gold-bag.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tribal-totem",
+      "title": "🪬 TRIBAL TOTEM",
+      "source": "rules/getting-started/trinkets/tribal-totem.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-walking-corpse",
+      "title": "🧟 WALKING CORPSE",
+      "source": "rules/getting-started/trinkets/walking-corpse.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-hungry-idol",
+      "title": "🍽️ HUNGRY IDOL",
+      "source": "rules/getting-started/trinkets/hungry-idol.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "brands-system",
+      "title": "Brands System",
+      "source": "rules/progression/brands-system.md",
+      "phase": "between-runs",
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "brand ranks",
+        "brand cost",
+        "buy brands"
+      ],
+      "related": [
+        "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "pregame-shop",
+      "title": "Pregame Shop",
+      "source": "rules/getting-started/pregame-shop.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "commander gamble",
+        "land replacement",
+        "commander mulligan"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "progression-shop",
+      "title": "Progression Shop",
+      "source": "rules/progression/progression-shop.md",
+      "phase": "between-runs",
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "sell buffs",
+        "capture non commander",
+        "essence shop"
+      ],
+      "related": [
+        "progression-reference",
+        "brands-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "run-structure",
+      "title": "Run Structure",
+      "source": "rules/getting-started/run-structure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "run overview",
+        "player count",
+        "between encounter reset"
+      ],
+      "related": [
+        "game-loop",
+        "crypt",
+        "player-health"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "authority-effects",
+      "title": "Authority Effects",
+      "source": "rules/host/authority-effects.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "authority i",
+        "authority ii",
+        "authority iii",
+        "authority iv",
+        "authority v",
+        "absolute command"
+      ],
+      "related": [
+        "authority-level",
+        "always-on-scaling"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "authority-interactions",
+      "title": "Authority Interaction Rules",
+      "source": "rules/host/authority-interactions.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "authority counterspell",
+        "disallow",
+        "not today",
+        "authority targets"
+      ],
+      "related": [
+        "authority-effects"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-triggering",
+      "title": "Triggering a Doom Card",
+      "source": "rules/host/doom-triggering.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "flip doom",
+        "doom triggered ability",
+        "doom stack"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-reroll"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-timing",
+      "title": "Doom Timing",
+      "source": "rules/host/doom-timing.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "doom special action",
+        "respond to doom"
+      ],
+      "related": [
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-m-just-getting-started",
+      "title": "💠 I’m Just Getting Started",
+      "source": "rules/host/doom-cards/i-m-just-getting-started.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-a-bit-of-artificial-insight",
+      "title": "🧠 A Bit of Artificial Insight",
+      "source": "rules/host/doom-cards/a-bit-of-artificial-insight.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-will-witness-your-downfall",
+      "title": "👁 I Will Witness Your Downfall",
+      "source": "rules/host/doom-cards/i-will-witness-your-downfall.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-ve-seen-what-breaks-you",
+      "title": "🔍 I’ve Seen What Breaks You",
+      "source": "rules/host/doom-cards/i-ve-seen-what-breaks-you.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-welcome-to-my-reality",
+      "title": "🌌 Welcome to My Reality",
+      "source": "rules/host/doom-cards/welcome-to-my-reality.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-can-do-that-too",
+      "title": "🔮 I Can Do That Too!",
+      "source": "rules/host/doom-cards/i-can-do-that-too.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-oooooh-i-like-you",
+      "title": "💕 Oooooh, I Like You",
+      "source": "rules/host/doom-cards/oooooh-i-like-you.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-no",
+      "title": "❌ No",
+      "source": "rules/host/doom-cards/no.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-are-annoying-me",
+      "title": "😒 You Are Annoying Me",
+      "source": "rules/host/doom-cards/you-are-annoying-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-am-inevitable",
+      "title": "🛡 I Am Inevitable",
+      "source": "rules/host/doom-cards/i-am-inevitable.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-minions-protect-me",
+      "title": "🧱 Minions! Protect Me!",
+      "source": "rules/host/doom-cards/minions-protect-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-how-do-you-like-it",
+      "title": "🔄 How Do You Like It?",
+      "source": "rules/host/doom-cards/how-do-you-like-it.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-death-is-inevitable",
+      "title": "💀 Death Is Inevitable",
+      "source": "rules/host/doom-cards/death-is-inevitable.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-death-comes-for-us-all",
+      "title": "☠ Death Comes for Us All",
+      "source": "rules/host/doom-cards/death-comes-for-us-all.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-ve-outlived-your-usefulness",
+      "title": "🚫 You’ve Outlived Your Usefulness",
+      "source": "rules/host/doom-cards/you-ve-outlived-your-usefulness.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-offer-tribute",
+      "title": "⛓ Offer Tribute",
+      "source": "rules/host/doom-cards/offer-tribute.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-did-that-sting",
+      "title": "😈 Did That Sting?",
+      "source": "rules/host/doom-cards/did-that-sting.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-ll-show-you-true-pain",
+      "title": "🔥 I’ll Show You True Pain",
+      "source": "rules/host/doom-cards/i-ll-show-you-true-pain.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-my-fury-burns",
+      "title": "🔥 My Fury Burns",
+      "source": "rules/host/doom-cards/my-fury-burns.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-madness-ensues",
+      "title": "🧠 Madness Ensues",
+      "source": "rules/host/doom-cards/madness-ensues.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-need-you-to-stop",
+      "title": "⏳ I Need You to Stop",
+      "source": "rules/host/doom-cards/i-need-you-to-stop.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-even-nature-cannot-resist",
+      "title": "🌱 Even Nature Cannot Resist",
+      "source": "rules/host/doom-cards/even-nature-cannot-resist.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-reality-bends-to-my-will",
+      "title": "🌍 Reality Bends to My Will",
+      "source": "rules/host/doom-cards/reality-bends-to-my-will.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-will-put-this-to-good-use",
+      "title": "🕵 I Will Put This to Good Use",
+      "source": "rules/host/doom-cards/i-will-put-this-to-good-use.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-bear-the-mark-you-are-cursed",
+      "title": "🌀 You Bear the Mark! You Are Cursed!",
+      "source": "rules/host/doom-cards/you-bear-the-mark-you-are-cursed.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-timing",
+      "title": "Event Timing",
+      "source": "rules/between-encounters/event-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "when events happen",
+        "starting event"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-frequency",
+      "title": "Event Frequency",
+      "source": "rules/between-encounters/event-frequency.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out event count",
+        "consecutive events"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-design-rules",
+      "title": "Event Rules",
+      "source": "rules/between-encounters/event-design-rules.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "event persistent effects",
+        "event duration"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-classifications",
+      "title": "Event Classifications",
+      "source": "rules/between-encounters/event-classifications.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "good event",
+        "neutral event",
+        "bad event",
+        "ambush"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-scaling",
+      "title": "Event Scaling",
+      "source": "rules/between-encounters/event-scaling.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "optional event scaling"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-restrictions",
+      "title": "Event Restrictions",
+      "source": "rules/between-encounters/event-restrictions.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "no events during crypt",
+        "bad starting event"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "reward-scaling",
+      "title": "Reward Scaling",
+      "source": "rules/rewards/reward-scaling.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "base xp scaling",
+        "affix bonus xp"
+      ],
+      "related": [
+        "xp-system",
+        "affixes-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "cashout-pool",
+      "title": "Cashout Pool",
+      "source": "rules/rewards/cashout-pool.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "cashout weights",
+        "cashout tiers",
+        "crypt fight cashout",
+        "bonus building cashout"
+      ],
+      "related": [
+        "cashout-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-timing",
+      "title": "When Stay Out Occurs",
+      "source": "rules/between-encounters/stay-out-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "choose stay out"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-xp",
+      "title": "Stay Out XP",
+      "source": "rules/between-encounters/stay-out-xp.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "consecutive stay out xp"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-mystery-packs",
+      "title": "Stay Out Mystery Packs",
+      "source": "rules/between-encounters/stay-out-mystery-packs.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out packs"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-event-modifier",
+      "title": "Stay Out Event Modifier",
+      "source": "rules/between-encounters/stay-out-event-modifier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out events"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "stay-out-restrictions",
+      "title": "Stay Out Restrictions",
+      "source": "rules/between-encounters/stay-out-restrictions.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out no town"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-timing",
+      "title": "When Town Occurs",
+      "source": "rules/town/town-timing.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "choose town"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-full-heal",
+      "title": "Town Full Heal",
+      "source": "rules/town/town-full-heal.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "town healing"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "town-building-system",
+      "title": "Town Building System",
+      "source": "rules/town/town-building-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "limited use buildings",
+        "unlimited buildings"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "player-vs-player-combat",
+      "title": "Player vs Player Combat",
+      "source": "rules/encounters/player-vs-player-combat.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "pvp",
+        "attack players"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "storm-modification",
+      "title": "Storm Rule Modification",
+      "source": "rules/encounters/storm-modification.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "storm count",
+        "storm spells"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "extra-turns",
+      "title": "Extra Turns",
+      "source": "rules/encounters/extra-turns.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "extra turn controller"
+      ],
+      "related": [
+        "turn-structure"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "card-acquisition",
+      "title": "Card Acquisition",
+      "source": "rules/encounters/card-acquisition.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "deck or sideboard",
+        "gain card",
+        "color identity during run"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "progression-slot-rules",
+      "title": "Progression Slot Rules",
+      "source": "rules/progression/progression-slot-rules.md",
+      "phase": "between-runs",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "buff slots",
+        "slot costs",
+        "four slots"
+      ],
+      "related": [
+        "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "starting-land-balance",
+      "title": "Starting Land Balance",
+      "source": "rules/getting-started/starting-land-balance.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "lands in play",
+        "host wastes"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "pack-rules",
+      "title": "Pack Rules",
+      "source": "rules/rewards/pack-rules.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "pack size",
+        "brand open hand",
+        "pro pool",
+        "mythic pool",
+        "otag pool"
+      ],
+      "related": [
+        "cashout-system",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "global-limits",
+      "title": "Global Limits",
+      "source": "rules/getting-started/global-limits.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "commander limit",
+        "sideboard limit",
+        "trinket limit",
+        "companion limit"
+      ],
+      "related": [
+        "deckbuilding",
+        "progression-slot-rules"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "crypt-fight-choice",
+      "title": "Crypt Fight Choice",
+      "source": "rules/crypt/crypt-fight-choice.md",
+      "phase": "crypt",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "crypt fight cashout",
+        "choose crypt",
+        "crypt choice cashout"
+      ],
+      "related": [
+        "cashout-system",
+        "crypt"
+      ],
+      "content": {
+        "kind": "document"
+      }
     }
   ]
 }
