@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifestPath = path.join(root, "rulebook-manifest.json");
 const progressionPath = path.join(root, "PROGRESSION-CONTRACTS.json");
+const platformPath = path.join(root, "PLATFORM-SURFACE-CONTRACTS.json");
 
 const readJson = async (file) => JSON.parse(await readFile(file, "utf8"));
 const normalize = (value) => String(value || "").replace(/\r\n?/g, "\n").trimEnd() + "\n";
@@ -34,6 +35,19 @@ const readRule = async (rule, headingDepth = 2) => demoteHeadings(
 
 const header = (title, subtitle) => `# ${title}\n\n> ${subtitle}\n\n`;
 
+const appendPlatformReferenceData = async (chunks, platformContracts, { audience = null } = {}) => {
+  const rules = (platformContracts?.rules || []).filter((rule) => (
+    rule.source?.startsWith("rules/")
+    && rule.surfaces?.includes("host")
+    && (!audience || rule.audience?.includes(audience))
+  ));
+  if (!rules.length) return;
+  chunks.push("## Host Reference Data\n\n");
+  for (const rule of rules) {
+    chunks.push(`<!-- platform-rule:${rule.id} -->\n${await readRule(rule, 2)}\n`);
+  }
+};
+
 const appendProgression = async (chunks, progression, { audience = null } = {}) => {
   if (progression?.schemaVersion !== 2 || audience === "host") return;
   chunks.push("## Permanent Progression Catalog\n\n");
@@ -48,24 +62,24 @@ const appendProgression = async (chunks, progression, { audience = null } = {}) 
   }
 };
 
-const buildReference = async (manifest, progression, { title, audience = null }) => {
+const buildReference = async (manifest, progression, platformContracts, { title, audience = null }) => {
   const chunks = [header(title, "Generated from canonical rule units under `rules/`. Edit the source units, not this compilation.")];
   for (const [phase, label] of phaseLabels) {
     const rules = manifest.rules.filter((rule) => rule.phase === phase && (!audience || rule.audience.includes(audience)));
     if (!rules.length) continue;
     chunks.push(`## ${label}\n\n`);
     for (const rule of rules) {
-      const markdown = await readRule(rule, 2);
-      chunks.push(`<!-- rule:${rule.id} -->\n${markdown}\n`);
+      chunks.push(`<!-- rule:${rule.id} -->\n${await readRule(rule, 2)}\n`);
     }
   }
+  await appendPlatformReferenceData(chunks, platformContracts, { audience });
   await appendProgression(chunks, progression, { audience });
   return normalize(chunks.join(""));
 };
 
 const relativeLink = (fromDir, target) => path.relative(fromDir, target).split(path.sep).join("/");
 
-const buildRulesIndex = (manifest, progression) => {
+const buildRulesIndex = (manifest, progression, platformContracts) => {
   const chunks = [
     "# Canonical MTGR Rule Units\n\n",
     "This directory is the authoritative gameplay source for MTG Roguelike. Each linked file is one stable semantic rule unit consumed directly by MTGR Platform.\n\n",
@@ -76,9 +90,14 @@ const buildRulesIndex = (manifest, progression) => {
     const rules = manifest.rules.filter((rule) => rule.phase === phase);
     if (!rules.length) continue;
     chunks.push(`## ${label}\n\n`);
-    for (const rule of rules) {
-      chunks.push(`- [${rule.title}](${relativeLink("rules", rule.source)}) — \`${rule.id}\`\n`);
-    }
+    for (const rule of rules) chunks.push(`- [${rule.title}](${relativeLink("rules", rule.source)}) — \`${rule.id}\`\n`);
+    chunks.push("\n");
+  }
+
+  const platformRules = (platformContracts?.rules || []).filter((rule) => rule.source?.startsWith("rules/"));
+  if (platformRules.length) {
+    chunks.push("## Platform / Host Reference Data\n\n");
+    for (const rule of platformRules) chunks.push(`- [${rule.title}](${relativeLink("rules", rule.source)}) — \`${rule.id}\`\n`);
     chunks.push("\n");
   }
 
@@ -88,9 +107,7 @@ const buildRulesIndex = (manifest, progression) => {
       const entries = Object.entries(progression.categories?.[category] || {});
       if (!entries.length) continue;
       chunks.push(`### ${label}\n\n`);
-      for (const [id, entry] of entries) {
-        chunks.push(`- [${entry.title}](${relativeLink("rules", entry.source)}) — \`${id}\`\n`);
-      }
+      for (const [id, entry] of entries) chunks.push(`- [${entry.title}](${relativeLink("rules", entry.source)}) — \`${id}\`\n`);
       chunks.push("\n");
     }
   }
@@ -101,11 +118,12 @@ const buildRulesIndex = (manifest, progression) => {
 const outputsFor = async () => {
   const manifest = await readJson(manifestPath);
   const progression = await readJson(progressionPath);
+  const platformContracts = await readJson(platformPath);
   return new Map([
-    ["RULEBOOK.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Complete Rulebook" })],
-    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Player Reference", audience: "player" })],
-    ["generated/HOST-REFERENCE.md", await buildReference(manifest, progression, { title: "MTG Roguelike — Host Reference", audience: "host" })],
-    ["rules/README.md", buildRulesIndex(manifest, progression)],
+    ["RULEBOOK.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Complete Rulebook" })],
+    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Player Reference", audience: "player" })],
+    ["generated/HOST-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Host Reference", audience: "host" })],
+    ["rules/README.md", buildRulesIndex(manifest, progression, platformContracts)],
   ]);
 };
 
