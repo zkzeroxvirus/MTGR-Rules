@@ -11,6 +11,65 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Deckbuilding Clarifications](getting-started/deckbuilding.md) — `deckbuilding`
 - [Banned & Restricted](getting-started/banned-restricted.md) — `banned-restricted`
 - [Pre-Encounter Setup](getting-started/pre-encounter-setup.md) — `pre-encounter-setup`
+- [Trinket System](getting-started/trinket-system.md) — `trinket-system`
+- [🔧 THE DEVICE](getting-started/trinkets/the-device.md) — `trinket-the-device`
+- [🪓 GARRUK'S CLIPPER](getting-started/trinkets/garruk-s-clipper.md) — `trinket-garruk-s-clipper`
+- [🔥 TORCH](getting-started/trinkets/torch.md) — `trinket-torch`
+- [✨ STAFF OF LIGHT](getting-started/trinkets/staff-of-light.md) — `trinket-staff-of-light`
+- [🍷 JAR OF WINE](getting-started/trinkets/jar-of-wine.md) — `trinket-jar-of-wine`
+- [🍯 JAR OF HONEY](getting-started/trinkets/jar-of-honey.md) — `trinket-jar-of-honey`
+- [⛺ TENT](getting-started/trinkets/tent.md) — `trinket-tent`
+- [🪓 THIRSTING AXE](getting-started/trinkets/thirsting-axe.md) — `trinket-thirsting-axe`
+- [👹 ASPECT OF MALFEGOR](getting-started/trinkets/aspect-of-malfegor.md) — `trinket-aspect-of-malfegor`
+- [💣 BOMB](getting-started/trinkets/bomb.md) — `trinket-bomb`
+- [💥 BIG BOMB](getting-started/trinkets/big-bomb.md) — `trinket-big-bomb`
+- [☢️ BIGGER BOMB](getting-started/trinkets/bigger-bomb.md) — `trinket-bigger-bomb`
+- [🛡️ MIRROR SHIELD](getting-started/trinkets/mirror-shield.md) — `trinket-mirror-shield`
+- [🧨 EXPLOSIVE BARREL](getting-started/trinkets/explosive-barrel.md) — `trinket-explosive-barrel`
+- [🐱 MITSY, ABANDONED](getting-started/trinkets/mitsy-abandoned.md) — `trinket-mitsy-abandoned`
+- [⚪ MARBLES](getting-started/trinkets/marbles.md) — `trinket-marbles`
+- [🛒 CROSSROADS CART](getting-started/trinkets/crossroads-cart.md) — `trinket-crossroads-cart`
+- [⚔️ VOGAR, BOUND FOR DEATH](getting-started/trinkets/vogar-bound-for-death.md) — `trinket-vogar-bound-for-death`
+- [🗡️ SAL BIDARD, GLORY REFORGED](getting-started/trinkets/sal-bidard-glory-reforged.md) — `trinket-sal-bidard-glory-reforged`
+- [🔥 CAMPFIRE](getting-started/trinkets/campfire.md) — `trinket-campfire`
+- [☠️ ARMAMENT OF DEATH](getting-started/trinkets/armament-of-death.md) — `trinket-armament-of-death`
+- [🛡️ LOCH SHIELD](getting-started/trinkets/loch-shield.md) — `trinket-loch-shield`
+- [🐉 AEGIS OF VERIX](getting-started/trinkets/aegis-of-verix.md) — `trinket-aegis-of-verix`
+- [👁️ WATCHER'S EYE](getting-started/trinkets/watcher-s-eye.md) — `trinket-watcher-s-eye`
+- [⚡ TONITRUS, SKULLDUSTER](getting-started/trinkets/tonitrus-skullduster.md) — `trinket-tonitrus-skullduster`
+- [🐉 DRAGOVOKIA](getting-started/trinkets/dragovokia.md) — `trinket-dragovokia`
+- [⚔️ GIDEON'S TRAINING SABER](getting-started/trinkets/gideon-s-training-saber.md) — `trinket-gideon-s-training-saber`
+- [🗡️ PIKEMAN](getting-started/trinkets/pikeman.md) — `trinket-pikeman`
+- [🔦 ASHMOUTH LANTERN](getting-started/trinkets/ashmouth-lantern.md) — `trinket-ashmouth-lantern`
+- [⚔️ PARASITE BLADE](getting-started/trinkets/parasite-blade.md) — `trinket-parasite-blade`
+- [📖 BLADE OF THE ARCHMAGUS](getting-started/trinkets/blade-of-the-archmagus.md) — `trinket-blade-of-the-archmagus`
+- [🎃 CURSED PUMPKINS](getting-started/trinkets/cursed-pumpkins.md) — `trinket-cursed-pumpkins`
+- [🧙 HU-BLOW, THE GOOD](getting-started/trinkets/hu-blow-the-good.md) — `trinket-hu-blow-the-good`
+- [👑 RUSTED CROWN](getting-started/trinkets/rusted-crown.md) — `trinket-rusted-crown`
+- [💎 TREASURE](getting-started/trinkets/treasure.md) — `trinket-treasure`
+- [💰 HUGE TREASURE](getting-started/trinkets/huge-treasure.md) — `trinket-huge-treasure`
+- [🔔 GRAVEBELL](getting-started/trinkets/gravebell.md) — `trinket-gravebell`
+- [🔊 SHOVEL PILE](getting-started/trinkets/shovel-pile.md) — `trinket-shovel-pile`
+- [⚱️ SAINT'S ASH](getting-started/trinkets/saint-s-ash.md) — `trinket-saint-s-ash`
+- [🔫 CANNON](getting-started/trinkets/cannon.md) — `trinket-cannon`
+- [🌾 BAG OF GRAIN](getting-started/trinkets/bag-of-grain.md) — `trinket-bag-of-grain`
+- [🛍️ CELESTINE, HAMA'S LIGHT](getting-started/trinkets/celestine-hama-s-light.md) — `trinket-celestine-hama-s-light`
+- [🏺 GUILD CHEST](getting-started/trinkets/guild-chest.md) — `trinket-guild-chest`
+- [🍶 JAR OF OIL](getting-started/trinkets/jar-of-oil.md) — `trinket-jar-of-oil`
+- [💧 JAR OF WATER](getting-started/trinkets/jar-of-water.md) — `trinket-jar-of-water`
+- [⊡ VOID LANTERN](getting-started/trinkets/void-lantern.md) — `trinket-void-lantern`
+- [🌊 LANTERN OF THE DEEP](getting-started/trinkets/lantern-of-the-deep.md) — `trinket-lantern-of-the-deep`
+- [☀️ THE SUNFORGED SLICER](getting-started/trinkets/the-sunforged-slicer.md) — `trinket-the-sunforged-slicer`
+- [🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON](getting-started/trinkets/aggressive-skeleton-oppressive-skeleton.md) — `trinket-aggressive-skeleton-oppressive-skeleton`
+- [👢 IRON BOOTS](getting-started/trinkets/iron-boots.md) — `trinket-iron-boots`
+- [🎃 JACK-O-LANTERN](getting-started/trinkets/jack-o-lantern.md) — `trinket-jack-o-lantern`
+- [🦷 MIMIC TOOTH](getting-started/trinkets/mimic-tooth.md) — `trinket-mimic-tooth`
+- [💪 GREAT THWACK](getting-started/trinkets/great-thwack.md) — `trinket-great-thwack`
+- [💰 GOLD BAG](getting-started/trinkets/gold-bag.md) — `trinket-gold-bag`
+- [🪬 TRIBAL TOTEM](getting-started/trinkets/tribal-totem.md) — `trinket-tribal-totem`
+- [🧟 WALKING CORPSE](getting-started/trinkets/walking-corpse.md) — `trinket-walking-corpse`
+- [🍽️ HUNGRY IDOL](getting-started/trinkets/hungry-idol.md) — `trinket-hungry-idol`
+- [Pregame Shop](getting-started/pregame-shop.md) — `pregame-shop`
 
 ## Encounter Loop
 
@@ -35,6 +94,18 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Death Rules](encounters/death-rules.md) — `death-rules`
 - [Player Departure](encounters/player-departure.md) — `player-departure`
 - [Reward Eligibility](rewards/reward-eligibility.md) — `reward-eligibility`
+- [Demon Generals](host/demon-generals-system.md) — `demon-generals-system`
+- [🔥 EMBER TYRANT — GENERAL OF ASH](host/demon-generals/ember-tyrant-general-of-ash.md) — `demon-general-ember-tyrant-general-of-ash`
+- [❄️ WINTER TYRANT — GENERAL OF FROST](host/demon-generals/winter-tyrant-general-of-frost.md) — `demon-general-winter-tyrant-general-of-frost`
+- [☠️ PLAGUE TYRANT — GENERAL OF ROT](host/demon-generals/plague-tyrant-general-of-rot.md) — `demon-general-plague-tyrant-general-of-rot`
+- [⚡ STORM TYRANT — GENERAL OF RUIN](host/demon-generals/storm-tyrant-general-of-ruin.md) — `demon-general-storm-tyrant-general-of-ruin`
+- [💀 GRAVE TYRANT — GENERAL OF NECROMANCY](host/demon-generals/grave-tyrant-general-of-necromancy.md) — `demon-general-grave-tyrant-general-of-necromancy`
+- [🩸 BLOOD TYRANT — GENERAL OF SACRIFICE](host/demon-generals/blood-tyrant-general-of-sacrifice.md) — `demon-general-blood-tyrant-general-of-sacrifice`
+- [🪨 STONE TYRANT — GENERAL OF FORTIFICATION](host/demon-generals/stone-tyrant-general-of-fortification.md) — `demon-general-stone-tyrant-general-of-fortification`
+- [🌀 VOID TYRANT — GENERAL OF THE ABYSS](host/demon-generals/void-tyrant-general-of-the-abyss.md) — `demon-general-void-tyrant-general-of-the-abyss`
+- [⚔️ WAR TYRANT — GENERAL OF CONQUEST](host/demon-generals/war-tyrant-general-of-conquest.md) — `demon-general-war-tyrant-general-of-conquest`
+- [🪙 GOLD TYRANT — GENERAL OF GREED](host/demon-generals/gold-tyrant-general-of-greed.md) — `demon-general-gold-tyrant-general-of-greed`
+- [🌙 DREAM TYRANT — GENERAL OF MADNESS](host/demon-generals/dream-tyrant-general-of-madness.md) — `demon-general-dream-tyrant-general-of-madness`
 
 ## Between Encounters
 
@@ -45,6 +116,44 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Supply Drop Resolution](between-encounters/supply-drop-resolution.md) — `supply-drop-resolution`
 - [Supply Drop Table](between-encounters/supply-drop-table.md) — `supply-drop-table`
 - [Event Resolution](between-encounters/event-resolution.md) — `event-resolution`
+- [Travelers](town/travelers-system.md) — `travelers-system`
+- [🧔 Bearded Grunt](town/travelers/bearded-grunt.md) — `traveler-bearded-grunt`
+- [🐸 Bullywug Royal](town/travelers/bullywug-royal.md) — `traveler-bullywug-royal`
+- [🃏 Card Copier](town/travelers/card-copier.md) — `traveler-card-copier`
+- [👹 Card-Eating Ogre](town/travelers/card-eating-ogre.md) — `traveler-card-eating-ogre`
+- [🐱 Cats in a Coat](town/travelers/cats-in-a-coat.md) — `traveler-cats-in-a-coat`
+- [🐎 Centaur Scouter](town/travelers/centaur-scouter.md) — `traveler-centaur-scouter`
+- [🪳 Centepoid Warrior](town/travelers/centepoid-warrior.md) — `traveler-centepoid-warrior`
+- [🧰 Commander Mimic](town/travelers/commander-mimic.md) — `traveler-commander-mimic`
+- [⚒️ Dwarven Artificer](town/travelers/dwarven-artificer.md) — `traveler-dwarven-artificer`
+- [👹 Elven Demonologist](town/travelers/elven-demonologist.md) — `traveler-elven-demonologist`
+- [🍄 Fungal Lich](town/travelers/fungal-lich.md) — `traveler-fungal-lich`
+- [🦒 Giff Bandito](town/travelers/giff-bandito.md) — `traveler-giff-bandito`
+- [� Giant Ice Toad](town/travelers/giant-ice-toad.md) — `traveler-giant-ice-toad`
+- [�📚 Hell's Librarian](town/travelers/hell-s-librarian.md) — `traveler-hell-s-librarian`
+- [🕊️ Hollyphant](town/travelers/hollyphant.md) — `traveler-hollyphant`
+- [😺 Kimi the Cat](town/travelers/kimi-the-cat.md) — `traveler-kimi-the-cat`
+- [🤡 Silly, the Jester](town/travelers/silly-the-jester.md) — `traveler-silly-the-jester`
+- [💰 The Trader](town/travelers/the-trader.md) — `traveler-the-trader`
+- [⚔️ Vanguard Mercenaries](town/travelers/vanguard-mercenaries.md) — `traveler-vanguard-mercenaries`
+- [🛍️ Wandering Card Merchant](town/travelers/wandering-card-merchant.md) — `traveler-wandering-card-merchant`
+- [🎩 Zorbo](town/travelers/zorbo.md) — `traveler-zorbo`
+- [Wanderers](between-encounters/wanderers-system.md) — `wanderers-system`
+- [🛍️ Wandering Merchant](between-encounters/wanderers/wandering-merchant.md) — `wanderer-wandering-merchant`
+- [🌀 Rift Vendor](between-encounters/wanderers/rift-vendor.md) — `wanderer-rift-vendor`
+- [🎒 Quartermaster](between-encounters/wanderers/quartermaster.md) — `wanderer-quartermaster`
+- [⚒️ Traveling Smith](between-encounters/wanderers/traveling-smith.md) — `wanderer-traveling-smith`
+- [🎲 Road Gambler](between-encounters/wanderers/road-gambler.md) — `wanderer-road-gambler`
+- [🚶 Wayfarer](between-encounters/wanderers/wayfarer.md) — `wanderer-wayfarer`
+- [🔮 Hedge Mystic](between-encounters/wanderers/hedge-mystic.md) — `wanderer-hedge-mystic`
+- [💎 Essence Broker](between-encounters/wanderers/essence-broker.md) — `wanderer-essence-broker`
+- [🗺️ Cartographer](between-encounters/wanderers/cartographer.md) — `wanderer-cartographer`
+- [🩹 Field Surgeon](between-encounters/wanderers/field-surgeon.md) — `wanderer-field-surgeon`
+- [🎭 Masked Courier](between-encounters/wanderers/masked-courier.md) — `wanderer-masked-courier`
+- [⚙️ Relic Hunter](between-encounters/wanderers/relic-hunter.md) — `wanderer-relic-hunter`
+- [🌑 Shadow Broker](between-encounters/wanderers/shadow-broker.md) — `wanderer-shadow-broker`
+- [🕯️ Veiled Trinket Broker](between-encounters/wanderers/veiled-trinket-broker.md) — `wanderer-veiled-trinket-broker`
+- [🎵 Wandering Bard](between-encounters/wanderers/wandering-bard.md) — `wanderer-wandering-bard`
 
 ## The Crypt
 
@@ -60,6 +169,8 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Host Types and Progression Profiles](host/host-types-profiles.md) — `host-types-profiles`
 - [Permanent Progression](progression/progression-reference.md) — `progression-reference`
 - [Rules Addendum](progression/notebook-addendum.md) — `notebook-addendum`
+- [Brands System](progression/brands-system.md) — `brands-system`
+- [Progression Shop](progression/progression-shop.md) — `progression-shop`
 
 ## Permanent Progression
 

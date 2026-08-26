@@ -1160,6 +1160,1815 @@
       "surfaces": [
         "notebook"
       ]
+    },
+    {
+      "id": "demon-generals-system",
+      "title": "Demon Generals",
+      "source": "rules/host/demon-generals-system.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "aliases": [
+        "tyrants",
+        "master fight generals",
+        "signature moves"
+      ],
+      "related": [
+        "encounter-types"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-ember-tyrant-general-of-ash",
+      "title": "🔥 EMBER TYRANT — GENERAL OF ASH",
+      "source": "rules/host/demon-generals/ember-tyrant-general-of-ash.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-winter-tyrant-general-of-frost",
+      "title": "❄️ WINTER TYRANT — GENERAL OF FROST",
+      "source": "rules/host/demon-generals/winter-tyrant-general-of-frost.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-plague-tyrant-general-of-rot",
+      "title": "☠️ PLAGUE TYRANT — GENERAL OF ROT",
+      "source": "rules/host/demon-generals/plague-tyrant-general-of-rot.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-storm-tyrant-general-of-ruin",
+      "title": "⚡ STORM TYRANT — GENERAL OF RUIN",
+      "source": "rules/host/demon-generals/storm-tyrant-general-of-ruin.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-grave-tyrant-general-of-necromancy",
+      "title": "💀 GRAVE TYRANT — GENERAL OF NECROMANCY",
+      "source": "rules/host/demon-generals/grave-tyrant-general-of-necromancy.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-blood-tyrant-general-of-sacrifice",
+      "title": "🩸 BLOOD TYRANT — GENERAL OF SACRIFICE",
+      "source": "rules/host/demon-generals/blood-tyrant-general-of-sacrifice.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-stone-tyrant-general-of-fortification",
+      "title": "🪨 STONE TYRANT — GENERAL OF FORTIFICATION",
+      "source": "rules/host/demon-generals/stone-tyrant-general-of-fortification.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-void-tyrant-general-of-the-abyss",
+      "title": "🌀 VOID TYRANT — GENERAL OF THE ABYSS",
+      "source": "rules/host/demon-generals/void-tyrant-general-of-the-abyss.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-war-tyrant-general-of-conquest",
+      "title": "⚔️ WAR TYRANT — GENERAL OF CONQUEST",
+      "source": "rules/host/demon-generals/war-tyrant-general-of-conquest.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-gold-tyrant-general-of-greed",
+      "title": "🪙 GOLD TYRANT — GENERAL OF GREED",
+      "source": "rules/host/demon-generals/gold-tyrant-general-of-greed.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "demon-general-dream-tyrant-general-of-madness",
+      "title": "🌙 DREAM TYRANT — GENERAL OF MADNESS",
+      "source": "rules/host/demon-generals/dream-tyrant-general-of-madness.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "demon-generals-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "travelers-system",
+      "title": "Travelers",
+      "source": "rules/town/travelers-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "town travelers",
+        "town visitors"
+      ],
+      "related": [
+        "town-flow",
+        "town-buildings"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-bearded-grunt",
+      "title": "🧔 Bearded Grunt",
+      "source": "rules/town/travelers/bearded-grunt.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-bullywug-royal",
+      "title": "🐸 Bullywug Royal",
+      "source": "rules/town/travelers/bullywug-royal.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-card-copier",
+      "title": "🃏 Card Copier",
+      "source": "rules/town/travelers/card-copier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-card-eating-ogre",
+      "title": "👹 Card-Eating Ogre",
+      "source": "rules/town/travelers/card-eating-ogre.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-cats-in-a-coat",
+      "title": "🐱 Cats in a Coat",
+      "source": "rules/town/travelers/cats-in-a-coat.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-centaur-scouter",
+      "title": "🐎 Centaur Scouter",
+      "source": "rules/town/travelers/centaur-scouter.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-centepoid-warrior",
+      "title": "🪳 Centepoid Warrior",
+      "source": "rules/town/travelers/centepoid-warrior.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-commander-mimic",
+      "title": "🧰 Commander Mimic",
+      "source": "rules/town/travelers/commander-mimic.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-dwarven-artificer",
+      "title": "⚒️ Dwarven Artificer",
+      "source": "rules/town/travelers/dwarven-artificer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-elven-demonologist",
+      "title": "👹 Elven Demonologist",
+      "source": "rules/town/travelers/elven-demonologist.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-fungal-lich",
+      "title": "🍄 Fungal Lich",
+      "source": "rules/town/travelers/fungal-lich.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-giff-bandito",
+      "title": "🦒 Giff Bandito",
+      "source": "rules/town/travelers/giff-bandito.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-giant-ice-toad",
+      "title": "� Giant Ice Toad",
+      "source": "rules/town/travelers/giant-ice-toad.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-hell-s-librarian",
+      "title": "�📚 Hell's Librarian",
+      "source": "rules/town/travelers/hell-s-librarian.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-hollyphant",
+      "title": "🕊️ Hollyphant",
+      "source": "rules/town/travelers/hollyphant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-kimi-the-cat",
+      "title": "😺 Kimi the Cat",
+      "source": "rules/town/travelers/kimi-the-cat.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-silly-the-jester",
+      "title": "🤡 Silly, the Jester",
+      "source": "rules/town/travelers/silly-the-jester.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-the-trader",
+      "title": "💰 The Trader",
+      "source": "rules/town/travelers/the-trader.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-vanguard-mercenaries",
+      "title": "⚔️ Vanguard Mercenaries",
+      "source": "rules/town/travelers/vanguard-mercenaries.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-wandering-card-merchant",
+      "title": "🛍️ Wandering Card Merchant",
+      "source": "rules/town/travelers/wandering-card-merchant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "traveler-zorbo",
+      "title": "🎩 Zorbo",
+      "source": "rules/town/travelers/zorbo.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "travelers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderers-system",
+      "title": "Wanderers",
+      "source": "rules/between-encounters/wanderers-system.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "stay out wanderers",
+        "wanderer encounter"
+      ],
+      "related": [
+        "stay-out-flow"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wandering-merchant",
+      "title": "🛍️ Wandering Merchant",
+      "source": "rules/between-encounters/wanderers/wandering-merchant.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-rift-vendor",
+      "title": "🌀 Rift Vendor",
+      "source": "rules/between-encounters/wanderers/rift-vendor.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-quartermaster",
+      "title": "🎒 Quartermaster",
+      "source": "rules/between-encounters/wanderers/quartermaster.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-traveling-smith",
+      "title": "⚒️ Traveling Smith",
+      "source": "rules/between-encounters/wanderers/traveling-smith.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-road-gambler",
+      "title": "🎲 Road Gambler",
+      "source": "rules/between-encounters/wanderers/road-gambler.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wayfarer",
+      "title": "🚶 Wayfarer",
+      "source": "rules/between-encounters/wanderers/wayfarer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-hedge-mystic",
+      "title": "🔮 Hedge Mystic",
+      "source": "rules/between-encounters/wanderers/hedge-mystic.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-essence-broker",
+      "title": "💎 Essence Broker",
+      "source": "rules/between-encounters/wanderers/essence-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-cartographer",
+      "title": "🗺️ Cartographer",
+      "source": "rules/between-encounters/wanderers/cartographer.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-field-surgeon",
+      "title": "🩹 Field Surgeon",
+      "source": "rules/between-encounters/wanderers/field-surgeon.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-masked-courier",
+      "title": "🎭 Masked Courier",
+      "source": "rules/between-encounters/wanderers/masked-courier.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-relic-hunter",
+      "title": "⚙️ Relic Hunter",
+      "source": "rules/between-encounters/wanderers/relic-hunter.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-shadow-broker",
+      "title": "🌑 Shadow Broker",
+      "source": "rules/between-encounters/wanderers/shadow-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-veiled-trinket-broker",
+      "title": "🕯️ Veiled Trinket Broker",
+      "source": "rules/between-encounters/wanderers/veiled-trinket-broker.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "wanderer-wandering-bard",
+      "title": "🎵 Wandering Bard",
+      "source": "rules/between-encounters/wanderers/wandering-bard.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "wanderers-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-system",
+      "title": "Trinket System",
+      "source": "rules/getting-started/trinket-system.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "trinket selection",
+        "trinket ticket",
+        "party trinket"
+      ],
+      "related": [
+        "pre-encounter-setup"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-the-device",
+      "title": "🔧 THE DEVICE",
+      "source": "rules/getting-started/trinkets/the-device.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-garruk-s-clipper",
+      "title": "🪓 GARRUK'S CLIPPER",
+      "source": "rules/getting-started/trinkets/garruk-s-clipper.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-torch",
+      "title": "🔥 TORCH",
+      "source": "rules/getting-started/trinkets/torch.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-staff-of-light",
+      "title": "✨ STAFF OF LIGHT",
+      "source": "rules/getting-started/trinkets/staff-of-light.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-wine",
+      "title": "🍷 JAR OF WINE",
+      "source": "rules/getting-started/trinkets/jar-of-wine.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-honey",
+      "title": "🍯 JAR OF HONEY",
+      "source": "rules/getting-started/trinkets/jar-of-honey.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tent",
+      "title": "⛺ TENT",
+      "source": "rules/getting-started/trinkets/tent.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-thirsting-axe",
+      "title": "🪓 THIRSTING AXE",
+      "source": "rules/getting-started/trinkets/thirsting-axe.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aspect-of-malfegor",
+      "title": "👹 ASPECT OF MALFEGOR",
+      "source": "rules/getting-started/trinkets/aspect-of-malfegor.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bomb",
+      "title": "💣 BOMB",
+      "source": "rules/getting-started/trinkets/bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-big-bomb",
+      "title": "💥 BIG BOMB",
+      "source": "rules/getting-started/trinkets/big-bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bigger-bomb",
+      "title": "☢️ BIGGER BOMB",
+      "source": "rules/getting-started/trinkets/bigger-bomb.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mirror-shield",
+      "title": "🛡️ MIRROR SHIELD",
+      "source": "rules/getting-started/trinkets/mirror-shield.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-explosive-barrel",
+      "title": "🧨 EXPLOSIVE BARREL",
+      "source": "rules/getting-started/trinkets/explosive-barrel.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mitsy-abandoned",
+      "title": "🐱 MITSY, ABANDONED",
+      "source": "rules/getting-started/trinkets/mitsy-abandoned.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-marbles",
+      "title": "⚪ MARBLES",
+      "source": "rules/getting-started/trinkets/marbles.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-crossroads-cart",
+      "title": "🛒 CROSSROADS CART",
+      "source": "rules/getting-started/trinkets/crossroads-cart.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-vogar-bound-for-death",
+      "title": "⚔️ VOGAR, BOUND FOR DEATH",
+      "source": "rules/getting-started/trinkets/vogar-bound-for-death.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-sal-bidard-glory-reforged",
+      "title": "🗡️ SAL BIDARD, GLORY REFORGED",
+      "source": "rules/getting-started/trinkets/sal-bidard-glory-reforged.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-campfire",
+      "title": "🔥 CAMPFIRE",
+      "source": "rules/getting-started/trinkets/campfire.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-armament-of-death",
+      "title": "☠️ ARMAMENT OF DEATH",
+      "source": "rules/getting-started/trinkets/armament-of-death.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-loch-shield",
+      "title": "🛡️ LOCH SHIELD",
+      "source": "rules/getting-started/trinkets/loch-shield.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aegis-of-verix",
+      "title": "🐉 AEGIS OF VERIX",
+      "source": "rules/getting-started/trinkets/aegis-of-verix.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-watcher-s-eye",
+      "title": "👁️ WATCHER'S EYE",
+      "source": "rules/getting-started/trinkets/watcher-s-eye.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tonitrus-skullduster",
+      "title": "⚡ TONITRUS, SKULLDUSTER",
+      "source": "rules/getting-started/trinkets/tonitrus-skullduster.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-dragovokia",
+      "title": "🐉 DRAGOVOKIA",
+      "source": "rules/getting-started/trinkets/dragovokia.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gideon-s-training-saber",
+      "title": "⚔️ GIDEON'S TRAINING SABER",
+      "source": "rules/getting-started/trinkets/gideon-s-training-saber.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-pikeman",
+      "title": "🗡️ PIKEMAN",
+      "source": "rules/getting-started/trinkets/pikeman.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-ashmouth-lantern",
+      "title": "🔦 ASHMOUTH LANTERN",
+      "source": "rules/getting-started/trinkets/ashmouth-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-parasite-blade",
+      "title": "⚔️ PARASITE BLADE",
+      "source": "rules/getting-started/trinkets/parasite-blade.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-blade-of-the-archmagus",
+      "title": "📖 BLADE OF THE ARCHMAGUS",
+      "source": "rules/getting-started/trinkets/blade-of-the-archmagus.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-cursed-pumpkins",
+      "title": "🎃 CURSED PUMPKINS",
+      "source": "rules/getting-started/trinkets/cursed-pumpkins.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-hu-blow-the-good",
+      "title": "🧙 HU-BLOW, THE GOOD",
+      "source": "rules/getting-started/trinkets/hu-blow-the-good.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-rusted-crown",
+      "title": "👑 RUSTED CROWN",
+      "source": "rules/getting-started/trinkets/rusted-crown.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-treasure",
+      "title": "💎 TREASURE",
+      "source": "rules/getting-started/trinkets/treasure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-huge-treasure",
+      "title": "💰 HUGE TREASURE",
+      "source": "rules/getting-started/trinkets/huge-treasure.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gravebell",
+      "title": "🔔 GRAVEBELL",
+      "source": "rules/getting-started/trinkets/gravebell.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-shovel-pile",
+      "title": "🔊 SHOVEL PILE",
+      "source": "rules/getting-started/trinkets/shovel-pile.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-saint-s-ash",
+      "title": "⚱️ SAINT'S ASH",
+      "source": "rules/getting-started/trinkets/saint-s-ash.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-cannon",
+      "title": "🔫 CANNON",
+      "source": "rules/getting-started/trinkets/cannon.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-bag-of-grain",
+      "title": "🌾 BAG OF GRAIN",
+      "source": "rules/getting-started/trinkets/bag-of-grain.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-celestine-hama-s-light",
+      "title": "🛍️ CELESTINE, HAMA'S LIGHT",
+      "source": "rules/getting-started/trinkets/celestine-hama-s-light.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-guild-chest",
+      "title": "🏺 GUILD CHEST",
+      "source": "rules/getting-started/trinkets/guild-chest.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-oil",
+      "title": "🍶 JAR OF OIL",
+      "source": "rules/getting-started/trinkets/jar-of-oil.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jar-of-water",
+      "title": "💧 JAR OF WATER",
+      "source": "rules/getting-started/trinkets/jar-of-water.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-void-lantern",
+      "title": "⊡ VOID LANTERN",
+      "source": "rules/getting-started/trinkets/void-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-lantern-of-the-deep",
+      "title": "🌊 LANTERN OF THE DEEP",
+      "source": "rules/getting-started/trinkets/lantern-of-the-deep.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-the-sunforged-slicer",
+      "title": "☀️ THE SUNFORGED SLICER",
+      "source": "rules/getting-started/trinkets/the-sunforged-slicer.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-aggressive-skeleton-oppressive-skeleton",
+      "title": "🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON",
+      "source": "rules/getting-started/trinkets/aggressive-skeleton-oppressive-skeleton.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-iron-boots",
+      "title": "👢 IRON BOOTS",
+      "source": "rules/getting-started/trinkets/iron-boots.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-jack-o-lantern",
+      "title": "🎃 JACK-O-LANTERN",
+      "source": "rules/getting-started/trinkets/jack-o-lantern.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-mimic-tooth",
+      "title": "🦷 MIMIC TOOTH",
+      "source": "rules/getting-started/trinkets/mimic-tooth.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-great-thwack",
+      "title": "💪 GREAT THWACK",
+      "source": "rules/getting-started/trinkets/great-thwack.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-gold-bag",
+      "title": "💰 GOLD BAG",
+      "source": "rules/getting-started/trinkets/gold-bag.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-tribal-totem",
+      "title": "🪬 TRIBAL TOTEM",
+      "source": "rules/getting-started/trinkets/tribal-totem.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-walking-corpse",
+      "title": "🧟 WALKING CORPSE",
+      "source": "rules/getting-started/trinkets/walking-corpse.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-hungry-idol",
+      "title": "🍽️ HUNGRY IDOL",
+      "source": "rules/getting-started/trinkets/hungry-idol.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "brands-system",
+      "title": "Brands System",
+      "source": "rules/progression/brands-system.md",
+      "phase": "between-runs",
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "brand ranks",
+        "brand cost",
+        "buy brands"
+      ],
+      "related": [
+        "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "pregame-shop",
+      "title": "Pregame Shop",
+      "source": "rules/getting-started/pregame-shop.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "commander gamble",
+        "land replacement",
+        "commander mulligan"
+      ],
+      "related": [
+        "deckbuilding"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "progression-shop",
+      "title": "Progression Shop",
+      "source": "rules/progression/progression-shop.md",
+      "phase": "between-runs",
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "sell buffs",
+        "capture non commander",
+        "essence shop"
+      ],
+      "related": [
+        "progression-reference",
+        "brands-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
     }
   ]
 }

@@ -264,6 +264,802 @@ Then before every encounter thereafter resolve Event(s) based on Town/Stay Out r
 
 ---
 
+<!-- rule:trinket-system -->
+### TRINKET SYSTEM V1.0
+
+The Trinket System defines how Trinkets are selected and applied in a run.
+
+A Trinket is a pre-encounter run modifier chosen before Encounter 1.
+
+---
+
+#### PURPOSE
+
+Trinkets provide an early strategic boost and increase run variety.
+
+Trinkets are part of pre-encounter setup and are not resolved mid-encounter.
+
+---
+
+#### TIMING
+
+Trinkets are resolved in the pre-first-encounter setup step after the starting Event is resolved.
+
+Starting setup order:
+
+- Event (cannot be Bad; Ambush counts as Bad)
+- Trinket
+
+Seat-swap window:
+
+- After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment
+- After Encounter 1 begins, seat swapping is no longer allowed
+
+---
+
+#### STANDARD SELECTION FLOW
+
+When using the normal table flow:
+
+1. Present 3 random Trinkets from the Trinket pool
+2. Players vote on one Trinket
+3. Apply that Trinket for the run
+
+---
+
+#### TRINKET TICKET OVERRIDE
+
+If a player has an active Trinket Ticket:
+
+1. Present 3 random Trinkets from the same normal Trinket pool
+2. That player chooses 1 Trinket (no table vote required)
+3. Apply the chosen Trinket for the run
+
+This occurs during pre-game setup before Encounter 1.
+
+Ticket slot limits are per player, not per party.
+
+---
+
+#### RULES CONSTRAINTS
+
+- A player may have at most 1 Trinket at a time
+- Trinket effects apply only as written on that Trinket
+- If a Trinket would conflict with a core rule, the Host resolves the conflict using normal host adjudication
+- The party is not capped at one total Trinket by this rule; this is a per-player limit
+
+Unless otherwise specified on the Trinket, any party member may use that Trinket.
+
+Normal Trinkets are party property for the duration of the run.
+
+If a Trinket was created by a player's Trinket Ticket, that Trinket is tied to that player for session ownership purposes. If that player leaves the session, the Trinket is removed at the end of the current encounter.
+
+If that player leaves during an encounter, the rest of the party may pilot that player's deck until the encounter ends. The Trinket remains active for the rest of that encounter, then is removed.
+
+---
+
+#### INTERACTION WITH EVENTS
+
+The pre-first-encounter step resolves Event and Trinket, in that order.
+
+The starting Event cannot be Bad. Ambush counts as Bad and is also excluded.
+
+After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event systems.
+
+---
+
+#### SOURCE OF TRUTH
+
+- Core loop timing: CORE-RULES.md
+- Run flow overview: CORE-GAME-STRUCTURE-V1.0.md
+- Ticket unlock behavior: SHOPS.md and PERMANENT-PROGRESSION.md
+
+---
+
+<!-- rule:trinket-the-device -->
+### 🔧 THE DEVICE
+
+> *Once per encounter, a party member may counter a spell they control. If they do, conjure 3 random spells. That player may cast 1 of those spells without paying its mana cost. Exile the rest.*
+
+**Timing:** In response to a spell a party member controls.  
+**Limit:** Once per encounter.  
+**Resolution:** Counter target spell a party member controls. Conjure 3 random spells face-up. The activating player may cast 1 of those spells without paying its mana cost. Exile the remaining spells.
+
+---
+
+<!-- rule:trinket-garruk-s-clipper -->
+### 🪓 GARRUK'S CLIPPER
+
+> *At the beginning of the party's upkeep, target creature the party controls gets +2/+0 and gains deathtouch and "Whenever this creature deals combat damage to a player, draw a card" until end of turn.*
+
+**Timing:** Triggered at the beginning of the party's upkeep.  
+**Limit:** Once per party upkeep.  
+**Resolution:** Choose target creature the party controls. It gets +2/+0 and gains deathtouch. It also gains "Whenever this creature deals combat damage to a player, draw a card" until end of turn.
+
+---
+
+<!-- rule:trinket-torch -->
+### 🔥 TORCH
+
+> *At the beginning of the party's upkeep, choose a party member. That player ventures into the dungeon.*
+
+**Timing:** Triggered at the beginning of each party upkeep.  
+**Limit:** No per-encounter or per-turn activation limit.  
+**Resolution:** Choose a party member as the ability resolves. That player ventures into the dungeon.
+
+---
+
+<!-- rule:trinket-staff-of-light -->
+### ✨ STAFF OF LIGHT
+
+> *Exile Staff of Light: Counter target Doom triggered ability. This ability can't be countered.*
+
+**Timing:** In response to a Doom card's triggered ability after the Doom card is turned face up.  
+**Limit:** Once per run.  
+**Resolution:** Counter the Doom triggered ability. This Trinket ability cannot be countered. After it resolves, exile this Trinket.
+
+---
+
+<!-- rule:trinket-jar-of-wine -->
+### 🍷 JAR OF WINE
+
+> *This Trinket enters with 3 wine counters on it. A party member may remove a wine counter at sorcery speed. If they do, they gain 7 life, then discard a card at random. If a card is discarded this way, they draw a card. When no wine counters remain on this Trinket, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 wine counter. The activating player gains 7 life, then discards a card at random. If they discarded a card this way, they draw a card. If this Trinket has no wine counters on it, exile it.
+
+---
+
+<!-- rule:trinket-jar-of-honey -->
+### 🍯 JAR OF HONEY
+
+> *This Trinket enters with 2 honey counters on it. A party member may remove a honey counter at sorcery speed. If they do, they gain 9 life and remove all poison counters from themselves. When no honey counters remain on this Trinket, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 honey counter. The activating player gains 9 life and removes all poison counters from themselves. If this Trinket has no honey counters on it, exile it.
+
+---
+
+<!-- rule:trinket-tent -->
+### ⛺ TENT
+
+> *Tent modifies Stay Out. Whenever the party chooses Stay Out, resolve normal Stay Out effects, then each party member may make up to 2 trades, remove up to 2 cards from their deck, and move up to 6 cards between their deck and sideboard.*
+
+**Timing:** During Stay Out resolution after choosing Stay Out.  
+**Limit:** No additional limit beyond normal path selection timing.  
+**Resolution:** Apply normal Stay Out rewards and Event scaling first. Then each party member may resolve all listed Tent actions within those limits.
+
+---
+
+<!-- rule:trinket-thirsting-axe -->
+### 🪓 THIRSTING AXE
+
+> *At the beginning of combat on the party's turn, target creature the party controls gains "Whenever this creature attacks, it deals 1 damage to up to one target creature the Host controls. If that creature dies this turn, put a +1/+1 counter on this creature" until end of turn.*
+
+**Timing:** Once each combat on the party's turn (triggered at the beginning of combat).  
+**Limit:** Once each combat on the party's turn.  
+**Resolution:** Choose target creature the party controls. It gains the listed attack-triggered ability until end of turn.
+
+---
+
+<!-- rule:trinket-aspect-of-malfegor -->
+### 👹 ASPECT OF MALFEGOR
+
+> *Once per encounter, a party member may sacrifice a nontoken permanent. Choose one based on the sacrificed permanent's type:*
+>
+> *• Land — That player searches their library for up to two basic land cards, puts them onto the battlefield tapped, then shuffles.*
+>
+> *• Creature — That player creates a 4/5 green Spirit creature token.*
+>
+> *• Noncreature, nonland permanent — That player exiles cards from the top of their library until they exile a nonland card with mana value less than or equal to the sacrificed permanent's mana value. They may cast that card without paying its mana cost. Put the rest on the bottom of that library in a random order.*
+
+**Timing:** Any time the activating player could cast a sorcery, unless a separate effect allows otherwise.  
+**Limit:** Once per encounter.  
+**Resolution:** The activating player sacrifices a nontoken permanent they control, then resolves the matching mode for that permanent type.
+
+---
+
+<!-- rule:trinket-bomb -->
+### 💣 BOMB
+
+> *Exile Bomb: Bomb deals 10 damage to any target.*
+
+**Timing:** Any time the party could cast an instant.  
+**Limit:** Once per run.  
+**Resolution:** Choose any target. Bomb deals 10 damage to that target. After it resolves, exile this Trinket.
+
+---
+
+<!-- rule:trinket-big-bomb -->
+### 💥 BIG BOMB
+
+> *Exile Big Bomb: Big Bomb deals 15 damage to any target.*
+
+**Timing:** Any time the party could cast an instant.  
+**Limit:** Once per run.  
+**Resolution:** Choose any target. Big Bomb deals 15 damage to that target. After it resolves, exile this Trinket.
+
+---
+
+<!-- rule:trinket-bigger-bomb -->
+### ☢️ BIGGER BOMB
+
+> *Exile Bigger Bomb: Bigger Bomb deals 20 damage to any target.*
+
+**Timing:** Any time the party could cast an instant.  
+**Limit:** Once per run.  
+**Resolution:** Choose any target. Bigger Bomb deals 20 damage to that target. After it resolves, exile this Trinket.
+
+---
+
+<!-- rule:trinket-mirror-shield -->
+### 🛡️ MIRROR SHIELD
+
+> *At the beginning of each encounter, choose a party member's commander. It gets +0/+5 and gains "Whenever this creature is dealt combat damage, it deals that much damage to target opponent."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter (triggered).  
+**Resolution:** Choose a party member's commander as the ability resolves. That commander gets +0/+5 and gains the listed triggered ability.
+
+---
+
+<!-- rule:trinket-explosive-barrel -->
+### 🧨 EXPLOSIVE BARREL
+
+> *Once per encounter, if a party member would deal 3 or more noncombat damage, they may instead have it deal 5 damage to each creature target opponent controls.*
+
+**Timing:** Replacement effect applied to a qualifying noncombat damage event.  
+**Limit:** Once per encounter.  
+**Resolution:** When a party member would deal 3 or more noncombat damage, they may replace that event with "deal 5 damage to each creature target opponent controls."
+
+---
+
+<!-- rule:trinket-mitsy-abandoned -->
+### 🐱 MITSY, ABANDONED
+
+> *At the beginning of each encounter, a party member may begin the game with Marauder's Axe on the battlefield under their control.*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter (triggered).  
+**Resolution:** As the ability resolves, a party member may put Marauder's Axe onto the battlefield under their control for that encounter.
+
+---
+
+<!-- rule:trinket-marbles -->
+### ⚪ MARBLES
+
+> *Whenever a party member casts an instant or sorcery spell during their turn, that player creates one token at random: a 1/1 white Bird creature token with flying, a 1/1 black Rat creature token with deathtouch, or a 1/1 blue Fish creature token.*
+
+**Timing:** Triggered whenever a party member casts an instant or sorcery spell during their turn.  
+**Limit:** No additional activation limit.  
+**Resolution:** Determine one of the three listed token outcomes at random, then create that token under that player's control.
+
+---
+
+<!-- rule:trinket-crossroads-cart -->
+### 🛒 CROSSROADS CART
+
+> *When visiting Town, the party chooses two Travelers and resolves one of those two.*
+
+**Timing:** During Town, when Travelers are determined.  
+**Limit:** No additional activation limit beyond normal Town timing.  
+**Resolution:** Instead of using a single Traveler option, present two Traveler options. The party chooses one to resolve.
+
+---
+
+<!-- rule:trinket-vogar-bound-for-death -->
+### ⚔️ VOGAR, BOUND FOR DEATH
+
+> *Once each party turn, party members may sacrifice any number of creatures. For each three creatures sacrificed this way, target party member creates a 6/5 black Zombie creature token with trample.*
+
+**Timing:** Any time during the party turn that the party could cast a sorcery.  
+**Limit:** Once each party turn.  
+**Resolution:** Party members may sacrifice creatures they control. Count creatures sacrificed this way. For each full group of three, choose a party member to create one 6/5 black Zombie creature token with trample.
+
+---
+
+<!-- rule:trinket-sal-bidard-glory-reforged -->
+### 🗡️ SAL BIDARD, GLORY REFORGED
+
+> *At the beginning of each combat, choose one until end of turn:*
+>
+> *• Sal Bidard — A party Target commander gains indestructible.*
+>
+> *• Ludwig — A party Target commander gains hexproof.*
+
+**Timing:** Once each combat (triggered at the beginning of combat).  
+**Limit:** Once each combat.  
+**Resolution:** As the ability resolves, choose one mode and choose a commander. The chosen commander gains the chosen ability until end of turn.
+
+---
+
+<!-- rule:trinket-campfire -->
+### 🔥 CAMPFIRE
+
+> *At the beginning of the party's end step, choose a party member. That player may choose one or both — They gain 2 life. They discard a card. If they do, they draw a card.*
+
+**Timing:** Triggered at the beginning of the party's end step.  
+**Limit:** Once each party end step (triggered).  
+**Resolution:** Choose one party member. They may choose one or both: gain 2 life, or discard a card (and if they do, draw a card).
+
+---
+
+<!-- rule:trinket-armament-of-death -->
+### ☠️ ARMAMENT OF DEATH
+
+> *Once each turn, target creature gains "Whenever a creature dies, this creature gets a +1/+1 counter. This ability triggers only once each turn" until end of turn.*
+
+**Timing:** Any time the party could cast an instant.  
+**Limit:** Once each turn.  
+**Resolution:** Choose target creature. It gains the listed triggered ability until end of turn.
+
+---
+
+<!-- rule:trinket-loch-shield -->
+### 🛡️ LOCH SHIELD
+
+> *At the beginning of each encounter, choose a commander. That commander gains "This permanent enters the battlefield with two shield counters on it."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter (triggered).  
+**Resolution:** Choose a commander as the ability resolves. That commander gains the listed static ability for the encounter.
+
+---
+
+<!-- rule:trinket-aegis-of-verix -->
+### 🐉 AEGIS OF VERIX
+
+> *At the beginning of each encounter, choose a party member's commander. That commander gains "Whenever this creature blocks, you may instead conjure a 4/4 red Dragon creature token with flying to block that creature instead. When you do, this creature loses this ability for the rest of this encounter."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered), with one replacement use per encounter on that commander.  
+**Resolution:** Choose a party member's commander as the ability resolves. It gains the listed block-triggered ability for the encounter.
+
+---
+
+<!-- rule:trinket-watcher-s-eye -->
+### 👁️ WATCHER'S EYE
+
+> *The first two spells the party casts each turn cost {1} less to cast.*
+
+**Timing:** Continuous cost reduction effect.  
+**Limit:** Applies to the first two party-cast spells each turn.  
+**Resolution:** Track spells cast by party members each turn. Apply {1} generic cost reduction to the first two such spells that turn.
+
+---
+
+<!-- rule:trinket-tonitrus-skullduster -->
+### ⚡ TONITRUS, SKULLDUSTER
+
+> *At the beginning of the party's upkeep, target creature the party controls with power 4 or greater gets +3/+0 and gains trample until end of turn.*
+
+**Timing:** Triggered at the beginning of the party's upkeep.  
+**Limit:** Once each party upkeep (triggered).  
+**Resolution:** Choose target creature the party controls with power 4 or greater. It gets +3/+0 and gains trample until end of turn.
+
+---
+
+<!-- rule:trinket-dragovokia -->
+### 🐉 DRAGOVOKIA
+
+> *Town actions that cost XP cost {5} less to activate. This reduction can't reduce a cost below {5}.*
+
+**Timing:** Continuous cost reduction effect while this Trinket is active.  
+**Limit:** Applies to eligible Town XP costs only.  
+**Resolution:** When determining an XP cost for a Town action, reduce that cost by 5. If the resulting cost would be less than 5, it becomes 5 instead.
+
+---
+
+<!-- rule:trinket-gideon-s-training-saber -->
+### ⚔️ GIDEON'S TRAINING SABER
+
+> *At the start of each encounter, choose a party member's commander.*
+>
+> *That commander gets +1/+0 and vigilance.*
+>
+> *Whenever the chosen commander attacks or blocks, put a training counter on Gideon's Training Saber.*
+>
+> *As long as Gideon's Training Saber has six or more training counters, the chosen commander gets +1/+0 and first strike.*
+>
+> *As long as Gideon's Training Saber has twelve or more training counters, the chosen commander gets +1/+0 and indestructible during its owner's turn.*
+>
+> *Training counters on Gideon's Training Saber persist between encounters.*
+
+**Timing:** Triggered at the start of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander for that encounter. That commander gets +1/+0 and vigilance. Track training counters on Gideon's Training Saber whenever that chosen commander attacks or blocks. If the Saber has six or more training counters, that chosen commander also gets +1/+0 and first strike. If the Saber has twelve or more training counters, that chosen commander also gets +1/+0 and indestructible during its owner's turn. Training counters persist between encounters.
+
+---
+
+<!-- rule:trinket-pikeman -->
+### 🗡️ PIKEMAN
+
+> *Once each combat: Target creature gains first strike until end of turn.*
+
+**Timing:** Any time during combat phase, at instant speed.  
+**Limit:** Once each combat.  
+**Resolution:** Choose target creature. It gains first strike until end of turn.
+
+---
+
+<!-- rule:trinket-ashmouth-lantern -->
+### 🔦 ASHMOUTH LANTERN
+
+> *At the beginning of each encounter, choose a party member. The first time that player loses life each encounter, they create a Treasure token and draw a card. Then Ashmouth Lantern deals 1 damage to that player.*
+
+**Timing:** Triggered at the beginning of each encounter and each time the chosen player loses life for the first time that encounter.  
+**Limit:** Once each encounter per chosen player.  
+**Resolution:** At the start of each encounter, choose a party member. The first time that player loses life, they create a Treasure token, draw a card, and Ashmouth Lantern deals 1 damage to that player.
+
+---
+
+<!-- rule:trinket-parasite-blade -->
+### ⚔️ PARASITE BLADE
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever this creature deals combat damage to a player, you lose 1 life and draw a card."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed triggered ability for the encounter.
+
+---
+
+<!-- rule:trinket-blade-of-the-archmagus -->
+### 📖 BLADE OF THE ARCHMAGUS
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever you cast a noncreature spell that targets an opponent or a permanent an opponent controls, this creature deals 2 damage to any target."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed triggered ability for the encounter.
+
+---
+
+<!-- rule:trinket-cursed-pumpkins -->
+### 🎃 CURSED PUMPKINS
+
+> *Each pack from the Merchant is once per town for each player. The party can't visit the Cathedral, Upgrade, or Augment. XP gains are increased by 100%. This bonus is additive.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Applies to all eligible Town actions and pack generations throughout the run.  
+**Resolution:** Limit Merchant pack generation to once per town per player. Prevent the party from visiting Cathedral, Upgrade, or Augment. Double all XP gains (this bonus stacks with other XP multipliers).
+
+---
+
+<!-- rule:trinket-hu-blow-the-good -->
+### 🧙 HU-BLOW, THE GOOD
+
+> *Once each turn, a party member may cast a creature spell as though it had flash.*
+
+**Timing:** Any time a party member could cast a spell.  
+**Limit:** Once each turn.  
+**Resolution:** Choose one creature spell a party member intends to cast. That spell may be cast at instant speed (as though it had flash).
+
+---
+
+<!-- rule:trinket-rusted-crown -->
+### 👑 RUSTED CROWN
+
+> *Party members begin each encounter with 5 additional maximum HP. Whenever a party member loses the game during an encounter, that player loses 5 maximum HP.*
+
+**Timing:** Continuous effect while this Trinket is active, with loss trigger on player elimination.  
+**Limit:** +5 max HP to each party member each encounter; −5 max HP for each player eliminated during an encounter.  
+**Resolution:** Each party member starts each encounter with 5 additional maximum HP. If a party member loses the game during an encounter, they permanently lose 5 maximum HP (carried to the next encounter).
+
+---
+
+<!-- rule:trinket-treasure -->
+### 💎 TREASURE
+
+> *When the party claims Treasure, each party member gains 25 XP and a Tier 1 Ticket. Then exile Treasure.*
+
+**Timing:** When Treasure is resolved as a Town action or Cash Out reward.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 25 XP and receives one Tier 1 Ticket. Then remove Treasure from play (exile it).
+
+---
+
+<!-- rule:trinket-huge-treasure -->
+### 💰 HUGE TREASURE
+
+> *When the party claims Huge Treasure, each party member gains 40 XP and three Tier 1 Tickets. Then exile Huge Treasure.*
+
+**Timing:** When Huge Treasure is resolved as a Town action or Cash Out reward.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 40 XP and receives three Tier 1 Tickets. Then remove Huge Treasure from play (exile it).
+
+---
+
+<!-- rule:trinket-gravebell -->
+### 🔔 GRAVEBELL
+
+> *Once each encounter, choose target nontoken creature the party controls. When that creature dies this turn, return it to the battlefield tapped under its owner's control at the beginning of the next end step. It's a black Zombie in addition to its other colors and types.*
+
+**Timing:** Any time the party could cast a sorcery.  
+**Limit:** Once each encounter.  
+**Resolution:** Choose target nontoken creature the party controls. If that creature dies this turn, return it to the battlefield tapped at the beginning of the next end step as a black Zombie in addition to its other types and colors.
+
+---
+
+<!-- rule:trinket-shovel-pile -->
+### 🔊 SHOVEL PILE
+
+> *Once each town, the party chooses one — Shallow Dig: The party gains 15 XP. Deep Dig: Roll a d20. 1–9: The party gains 10 XP. 10–17: The party gains 25 XP. 18–20: The party gains 40 XP.*
+
+**Timing:** During Town resolution, when Town actions are chosen.  
+**Limit:** Once each town.  
+**Resolution:** The party chooses one of two modes. Shallow Dig grants 15 XP. Deep Dig requires rolling a d20: 1–9 grants 10 XP, 10–17 grants 25 XP, 18–20 grants 40 XP.
+
+---
+
+<!-- rule:trinket-saint-s-ash -->
+### ⚱️ SAINT'S ASH
+
+> *Once each encounter: If a party member would lose the game, the party may choose for that player's life total to become 1 instead.*
+
+**Timing:** In response to a party member being dealt lethal damage or other elimination event.  
+**Limit:** Once each encounter.  
+**Resolution:** When a party member would lose the game, you may prevent that loss. Instead, set that player's life total to 1.
+
+---
+
+<!-- rule:trinket-cannon -->
+### 🔫 CANNON
+
+> *Cannon enters the run with two powder counters on it. Once each party turn, a party member may remove any number of powder counters from Cannon. When they do, Cannon deals 3 damage to any target for each powder counter removed this way. Any player may pay {3} as a sorcery to put a powder counter on Cannon. Cannon can't have more than three powder counters on it.*
+
+**Timing:** Any time the party could cast a sorcery or as part of a party turn.  
+**Limit:** Once each party turn for removal; any time for adding counters.  
+**Resolution:** Cannon starts with two powder counters. Once per party turn, remove any number of powder counters and deal 3 damage to any target for each removed. Anyone may pay {3} to add one powder counter (max three total).
+
+---
+
+<!-- rule:trinket-bag-of-grain -->
+### 🌾 BAG OF GRAIN
+
+> *When the party claims Bag of Grain, each party member gains 4 maximum HP. Then exile Bag of Grain.*
+
+**Timing:** When Bag of Grain is resolved as a reward or Town action.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 4 maximum HP. Then remove Bag of Grain from play (exile it).
+
+---
+
+<!-- rule:trinket-celestine-hama-s-light -->
+### 🛍️ CELESTINE, HAMA'S LIGHT
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains lifelink and "Noncreature spells you cast that target permanents you control cost {2} less to cast."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains lifelink and the listed cost-reduction ability for the encounter.
+
+---
+
+<!-- rule:trinket-guild-chest -->
+### 🏺 GUILD CHEST
+
+> *Each party member may trade two additional times each town.*
+
+**Timing:** Continuous effect while this Trinket is active, applied during Town visits.  
+**Limit:** +2 additional trades per party member per town.  
+**Resolution:** When visiting Town, each party member gains 2 additional trades beyond normal Town limits.
+
+---
+
+<!-- rule:trinket-jar-of-oil -->
+### 🍶 JAR OF OIL
+
+> *Jar of Oil enters the run with three oil counters on it. Remove an oil counter from Jar of Oil: You gain 2 life. The next time you cast a red spell this encounter, that spell deals 3 damage to any target. Only a party member may activate this ability. When the last oil counter is removed from Jar of Oil, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 oil counter. Gain 2 life. The next red spell you cast this encounter deals 3 damage to any target. When Jar of Oil has no oil counters, exile it.
+
+---
+
+<!-- rule:trinket-jar-of-water -->
+### 💧 JAR OF WATER
+
+> *Jar of Water enters the run with three water counters on it. Remove a water counter from Jar of Water: You gain 4 life. Only a party member may activate this ability. When the last water counter is removed from Jar of Water, exile it.*
+
+**Timing:** Sorcery speed.  
+**Limit:** No per-turn limit beyond available counters.  
+**Resolution:** Remove 1 water counter and gain 4 life. When Jar of Water has no water counters, exile it.
+
+---
+
+<!-- rule:trinket-void-lantern -->
+### ⊡ VOID LANTERN
+
+> *At the beginning of each encounter, exile the top card of each party member's library. Party members may play cards exiled with Void Lantern. Spells cast this way cost {1} less to cast.*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter (triggered).  
+**Resolution:** Exile the top card of each party member's library face-up. Party members may play (but not cast as spells) cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
+
+---
+
+<!-- rule:trinket-lantern-of-the-deep -->
+### 🌊 LANTERN OF THE DEEP
+
+> *Whenever a party member ventures into the dungeon, each party member surveils 1. The first time the party completes a dungeon each encounter, each party member gains 20 XP.*
+
+**Timing:** Triggered whenever a party member ventures and when a dungeon is completed.  
+**Limit:** Survey triggers per venture; 20 XP bonus once per encounter when a dungeon is completed.  
+**Resolution:** Each party member surveils 1 whenever any party member ventures. When the party completes a dungeon, each party member gains 20 XP (once per encounter).
+
+---
+
+<!-- rule:trinket-the-sunforged-slicer -->
+### ☀️ THE SUNFORGED SLICER
+
+> *At the beginning of each encounter, choose a party member's commander. The chosen commander gains "Whenever this creature deals combat damage to a player, you may discard up to two cards. Draw a card for each card discarded this way."*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once each encounter choice (triggered).  
+**Resolution:** Choose a party member's commander. It gains the listed combat-damage triggered ability for the encounter.
+
+---
+
+<!-- rule:trinket-aggressive-skeleton-oppressive-skeleton -->
+### 🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON
+
+> *At the beginning of the party's first upkeep each encounter, choose a party member. That player chooses one —*
+>
+> *• Oppressive Skeleton — Create a 1/1 black Skeleton creature token with "{1}: Regenerate this creature."*
+>
+> *• Aggressive Skeleton — Create a 4/1 black Skeleton creature token with menace and haste. Sacrifice it at the beginning of the next end step.*
+
+**Timing:** Triggered at the beginning of the party's first upkeep each encounter.  
+**Limit:** Once per encounter (first upkeep only).  
+**Resolution:** Choose a party member. They choose one mode. Oppressive Skeleton creates a 1/1 black Skeleton with regeneration. Aggressive Skeleton creates a 4/1 black Skeleton with menace and haste that's sacrificed at the next end step.
+
+---
+
+<!-- rule:trinket-iron-boots -->
+### 👢 IRON BOOTS
+
+> *Party commanders enter the battlefield tapped. Commanders the party controls have ward {2}.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Applies to all party commanders.  
+**Resolution:** Party commanders enter tapped. All party commanders have ward {2}.
+
+---
+
+<!-- rule:trinket-jack-o-lantern -->
+### 🎃 JACK-O-LANTERN
+
+> *The party can't visit the Cathedral. XP gains are increased by 40%. This bonus is additive.*
+
+**Timing:** Continuous effect while this Trinket is active.  
+**Limit:** Prevents Cathedral visits; applies +40% XP multiplier.  
+**Resolution:** The party cannot visit the Cathedral. Increase all XP gains by 40% (this bonus stacks with other XP multipliers).
+
+---
+
+<!-- rule:trinket-mimic-tooth -->
+### 🦷 MIMIC TOOTH
+
+> *At the beginning of a party member's upkeep, target creature gains "Whenever this creature deals combat damage to an opponent, create a token that's a copy of that creature except it's a 1/1 Horror."*
+
+**Timing:** Triggered at the beginning of each party member's upkeep.  
+**Limit:** Once per upkeep.  
+**Resolution:** Choose target creature. It gains the listed triggered ability until end of turn.
+
+---
+
+<!-- rule:trinket-great-thwack -->
+### 💪 GREAT THWACK
+
+> *Once per Turn during Combat:*
+>
+> *Target creature gets +2/+2 and gains trample until end of turn.*
+
+**Timing:** During combat, at instant speed.  
+**Limit:** Once per turn.  
+**Resolution:** Choose target creature. It gets +2/+2 and gains trample until end of turn.
+
+---
+
+<!-- rule:trinket-gold-bag -->
+### 💰 GOLD BAG
+
+> *When the party claims Gold Bag, each party member gains 10 XP. Then exile Gold Bag.*
+
+**Timing:** When Gold Bag is resolved as a reward or Town action.  
+**Limit:** Once per run.  
+**Resolution:** Each party member gains 10 XP. Then remove Gold Bag from play (exile it).
+
+---
+
+<!-- rule:trinket-tribal-totem -->
+### 🪬 TRIBAL TOTEM
+
+> *At the beginning of each encounter, choose a creature type. Creatures of the chosen type the party controls get +1/+0. Whenever a creature of the chosen type dies, its controller gains 1 life.*
+
+**Timing:** Triggered at the beginning of each encounter.  
+**Limit:** Once per encounter type choice.  
+**Resolution:** Choose a creature type. Party creatures of that type get +1/+0. Whenever such a creature dies, its controller gains 1 life.
+
+---
+
+<!-- rule:trinket-walking-corpse -->
+### 🧟 WALKING CORPSE
+
+> *At the beginning of each encounter, choose a party member. That player creates a 2/2 black Zombie creature token with menace. For that encounter, whenever a Zombie the chosen player controls dies, if it didn't have decayed, that player creates a 2/2 black Zombie creature token with decayed.*
+
+**Timing:** Triggered at the beginning of each encounter and each time an eligible Zombie dies.  
+**Limit:** Once per encounter for initial token; unlimited Zombie deaths per encounter.  
+**Resolution:** Choose a party member. They create a 2/2 black Zombie with menace. For that encounter, when a Zombie they control dies without decayed, they create another 2/2 black Zombie with decayed.
+
+---
+
+<!-- rule:trinket-hungry-idol -->
+### 🍽️ HUNGRY IDOL
+
+> *At the beginning of each town, each party member removes a permanent card from their deck and gains 15 XP.*
+
+**Timing:** Triggered at the beginning of each town visit.  
+**Limit:** Once per town.  
+**Resolution:** Each party member removes one permanent card from their deck and gains 15 XP.
+
+<!-- rule:pregame-shop -->
+### **🎲 PREGAME SHOP**
+
+Available only before the first encounter during deckbuilding.
+
+All purchases use **Essence**.
+
+---
+
+#### **Commander Gamble** — 0 Essence
+
+Mulligan your Commander for 1 new option.
+
+**Rules:**
+
+* You are forced to take the new Commander
+* If the new Commander is absolutely unplayable, re-rolls are allowed at Host discretion
+* Your next **Guild** purchase during this run is **free**
+
+---
+
+#### **Partner/Background/etc.** — 0 Essence
+
+Choose a Partner, Background, or similar option.
+
+**Rules:**
+
+* If the chosen card has "Partner with X," you gain X instead
+
+---
+
+#### **Land Replacement** — 35 Essence
+
+Switch out a basic land of your choice for a dual land or triome of your choice.
+
+**Rules:**
+
+* The replacement land must be legal in your Commander's color identity
+* You may use this multiple times per Pregame Shop visit
+
+---
+
+#### **Commander Mulligan** — 50 Essence
+
+Delete your current 5 Commander options and receive 5 new Commanders.
+
+**Rules:**
+
+* This generates an entirely new set of random legal Commanders
+* You may use this multiple times per Pregame Shop visit
+
+---
+
 ## Encounter Loop
 
 <!-- rule:player-health -->
@@ -948,6 +1744,283 @@ If a player leaves before a later encounter begins, they do not qualify for rewa
 
 If a player joins during an encounter, they qualify for that encounter's rewards if the party completes it, but they do not qualify for rewards from any previous encounter in that run.
 
+<!-- rule:demon-generals-system -->
+### **👑 MTG ROGUELIKE — DEMON GENERALS V2.0**
+
+---
+
+#### **🎯 OVERVIEW**
+
+During Master Fight encounters, the Host represents one of the Demon King’s Generals.
+
+Each General grants the Host:
+
+* A **Passive Aura** that affects the battlefield  
+* A **Signature Move** representing the General’s most powerful technique
+
+Signature Moves create powerful battlefield effects and define the encounter’s identity.
+
+Unless otherwise stated:
+
+* General abilities do not use the stack  
+* Signature Moves have a cooldown of 3 Host turns after use
+* Saving Roll: roll a d20; 10 or higher is a pass, 9 or lower is a fail
+
+Status used by this document:
+
+* Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
+* Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
+* Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
+* Petrified: The creature is tapped and does not untap during its controller's untap step. It loses all abilities. At the beginning of its controller's upkeep, they may make a Saving Roll. On a passed save, remove Petrified.
+
+
+---
+
+#### **🎲 GENERAL SELECTION**
+
+When a Master Fight is selected:
+
+* Reveal 3 random Tyrants  
+* Players vote to eliminate 1  
+* The Host chooses 1 of the remaining Tyrants
+
+This determines the Tyrant used for that Master Fight encounter.
+
+| Tyrants |
+| ----- |
+| Ember Tyrant — General of Ash |
+| Winter Tyrant — General of Frost |
+| Plague Tyrant — General of Rot |
+| Storm Tyrant — General of Ruin |
+| Grave Tyrant — General of Necromancy |
+| Blood Tyrant — General of Sacrifice |
+| Stone Tyrant — General of Fortification |
+| Void Tyrant — General of the Abyss |
+| War Tyrant — General of Conquest |
+| Gold Tyrant — General of Greed |
+| Dream Tyrant — General of Madness |
+
+---
+
+<!-- rule:demon-general-ember-tyrant-general-of-ash -->
+### **🔥 EMBER TYRANT — GENERAL OF ASH**
+
+The battlefield burns with infernal flame.
+
+**Passive — Scorched Earth**  
+ At the beginning of each player’s end step, if that player cast two or more spells this turn, Ember Tyrant deals 2 damage to that player.
+
+**Signature Move — Inferno Surge**  
+ At the beginning of the Host’s combat step, the Host may unleash Inferno Surge.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Inferno Surge deals 4 damage to that player  
+* That player gains Burned
+
+Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
+---
+
+<!-- rule:demon-general-winter-tyrant-general-of-frost -->
+### **❄️ WINTER TYRANT — GENERAL OF FROST**
+
+A supernatural blizzard grips the battlefield.
+
+**Passive — Bitter Cold**  
+ Creatures opponents control enter the battlefield tapped.
+
+**Signature Move — Frost Nova**  
+ At the beginning of the Host’s combat step, the Host may unleash Frost Nova.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* That player gains Frozen
+
+Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
+---
+
+<!-- rule:demon-general-plague-tyrant-general-of-rot -->
+### **☠️ PLAGUE TYRANT — GENERAL OF ROT**
+
+A creeping corruption spreads across the battlefield.
+
+**Passive — Creeping Blight**  
+ At the beginning of each player’s upkeep, that player mills two cards.
+
+**Signature Move — Plague Burst**  
+ At the beginning of the Host’s combat step, the Host may unleash Plague Burst.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* That player gains Corrupted
+
+Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
+---
+
+<!-- rule:demon-general-storm-tyrant-general-of-ruin -->
+### **⚡ STORM TYRANT — GENERAL OF RUIN**
+
+Chaotic lightning tears through the battlefield.
+
+**Passive — Static Charge**  
+ At the beginning of each player’s end step, that player gains a Charge counter for each spell they cast this turn.
+
+**Signature Move — Cataclysmic Discharge**  
+ At the beginning of the Host’s combat step, the Host may unleash Cataclysmic Discharge.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Storm Tyrant deals damage to that player equal to twice the number of Charge counters they have.
+
+Then remove all Charge counters from all players.
+
+---
+
+<!-- rule:demon-general-grave-tyrant-general-of-necromancy -->
+### **💀 GRAVE TYRANT — GENERAL OF NECROMANCY**
+
+The battlefield answers the call of the dead.
+
+**Passive — Endless Graves**  
+ Whenever a creature dies, its controller mills a card.
+
+**Signature Move — Rise the Fallen**  
+ At the beginning of the Host’s combat step, the Host may unleash Rise the Fallen.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Create a 2/2 black Zombie creature token under the Host’s control for each creature card in that player’s graveyard.  
+ (Maximum 2 tokens per player.)
+
+---
+
+<!-- rule:demon-general-blood-tyrant-general-of-sacrifice -->
+### **🩸 BLOOD TYRANT — GENERAL OF SACRIFICE**
+
+The battlefield demands blood.
+
+**Passive — Blood Price**  
+ Whenever a creature dies, its controller loses 1 life and the Host gains 1 life.
+
+**Signature Move — Blood Offering**  
+ At the beginning of the Host’s combat step, the Host may unleash Blood Offering.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* That player reveals their hand  
+* For each card revealed this way, that player chooses one:
+  * Exile that card  
+  * Or lose 1 life and the Host gains 1 life
+
+---
+
+<!-- rule:demon-general-stone-tyrant-general-of-fortification -->
+### **🪨 STONE TYRANT — GENERAL OF FORTIFICATION**
+
+Unbreakable defenses rise from the earth.
+
+**Passive — Impenetrable Bulwark**  
+ Creatures the Host controls have +0/+2.
+
+**Signature Move — Stone Prison**  
+ At the beginning of the Host’s combat step, the Host may unleash Stone Prison.
+
+Choose two creatures controlled by different players.  
+ Those creatures gain Petrified.
+
+Petrified: The creature is tapped and does not untap during its controller's untap step. It loses all abilities. At the beginning of its controller's upkeep, they may make a Saving Roll. On a passed save, remove Petrified.
+
+---
+
+<!-- rule:demon-general-void-tyrant-general-of-the-abyss -->
+### **🌀 VOID TYRANT — GENERAL OF THE ABYSS**
+
+Reality fractures around the battlefield.
+
+**Passive — Warp the Mind**  
+ At the beginning of each player’s upkeep, that player exiles a card at random from their hand.  
+ Until the end of their next turn, they may cast that card.  
+ Spells cast this way cost {2} more to cast.
+
+**Signature Move — Fractured Reality**  
+ At the beginning of the Host’s combat step, the Host may unleash Fractured Reality.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* Exile the top card of that player’s library.
+
+The Host may cast any number of those cards without paying their mana costs.
+
+---
+
+<!-- rule:demon-general-war-tyrant-general-of-conquest -->
+### **⚔️ WAR TYRANT — GENERAL OF CONQUEST**
+
+Battlefields bend to relentless assault.
+
+**Passive — March of War**  
+ Creatures the Host controls gain +1/+0.
+
+**Signature Move — War Cry**  
+ At the beginning of the Host’s combat step, the Host may unleash War Cry.
+
+Creatures the Host controls gain:
+
+* +2/+0  
+* Trample
+
+until end of turn.
+
+---
+
+<!-- rule:demon-general-gold-tyrant-general-of-greed -->
+### **🪙 GOLD TYRANT — GENERAL OF GREED**
+
+Wealth corrupts the battlefield.
+
+**Passive — Greed’s Toll**  
+ Whenever a player draws their second card each turn, they lose 3 life.
+
+**Signature Move — Hoard Explosion**  
+ At the beginning of the Host’s combat step, the Host may unleash Hoard Explosion.
+
+Each player makes a Saving Roll.
+
+On a failed save:
+
+* For each nonland permanent that player controls beyond the fourth, that player chooses one:
+  * Sacrifice that permanent  
+  * Or lose 2 life
+
+---
+
+<!-- rule:demon-general-dream-tyrant-general-of-madness -->
+### **🌙 DREAM TYRANT — GENERAL OF MADNESS**
+
+Nightmares invade the minds of the living.
+
+**Passive — Unstable Thoughts**  
+ At the beginning of each player’s upkeep, that player discards a card at random, then draws a card.
+
+**Signature Move — Nightmare Deluge**  
+ At the beginning of the Host’s combat step, the Host may unleash Nightmare Deluge.
+
+The Host exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater. Then they may cast a spell from among the exiled cards without paying its mana cost.
+
 ## Between Encounters
 
 <!-- rule:post-encounter-choice -->
@@ -1275,6 +2348,434 @@ An Event does **not** need to stop affecting the run before the next Event can b
 The printed Event card is the source of truth for that Event's specific effect and duration.
 
 ---
+
+<!-- rule:travelers-system -->
+### **🌟 TRAVELERS**
+
+Travelers are special visitors that appear in Town whenever players choose to visit.
+
+They provide unique benefits that can aid deckbuilding and progression.
+
+> **Note:** Travelers do NOT cost a Town Action.
+
+---
+
+<!-- rule:traveler-bearded-grunt -->
+### **🧔 Bearded Grunt**
+
+Once per Town.
+
+The party votes on one:  
+• Each player gains 15 XP  
+• Each player may use one additional building this Town beyond its normal limit  
+• Each player may add up to 2 basic lands to their deck
+
+---
+
+<!-- rule:traveler-bullywug-royal -->
+### **🐸 Bullywug Royal**
+
+Once per Town.
+
+Pay 50 XP and sacrifice any number of creature cards.
+
+Choose a creature type.  
+Gain that many creature cards of the chosen type.  
+(The amount you sacrificed)
+
+---
+
+<!-- rule:traveler-card-copier -->
+### **🃏 Card Copier**
+
+Once per Town.
+
+Pay 25 XP  
+Create a permanent copy of a card in your deck.
+
+---
+
+<!-- rule:traveler-card-eating-ogre -->
+### **👹 Card-Eating Ogre**
+
+Once per Town.
+
+Pay 35 XP and destroy a card in your deck.  
+ If you do, gain 5 random cards that match the destroyed card’s:  
+ • Color(s)  
+ • Mana value  
+ • Card type(s)
+
+---
+
+<!-- rule:traveler-cats-in-a-coat -->
+### **🐱 Cats in a Coat**
+
+Until the end of this Town, whenever a player uses the Castle, treat the result as a 6\.
+
+---
+
+<!-- rule:traveler-centaur-scouter -->
+### **🐎 Centaur Scouter**
+
+Once per Town.
+
+Pay 35 XP   
+A creature card in your deck gains your choice of trample or haste.
+
+Additionally, when you next use the Tavern this Town, you may add up to 2 additional lands.
+
+---
+
+<!-- rule:traveler-centepoid-warrior -->
+### **🪳 Centepoid Warrior**
+
+Once per Town.
+
+Pay 25 XP.   
+A creature card in your deck has its base power and toughness doubled.
+
+---
+
+<!-- rule:traveler-commander-mimic -->
+### **🧰 Commander Mimic**
+
+Once per Town.
+
+Pay 25 XP.   
+Swap a card in your deck with your commander.  
+(The chosen card must be a legal commander.)
+
+---
+
+<!-- rule:traveler-dwarven-artificer -->
+### **⚒️ Dwarven Artificer**
+
+Reveal 15 random artifacts within the players’ color identities.  
+Each player may choose one.
+
+---
+
+<!-- rule:traveler-elven-demonologist -->
+### **👹 Elven Demonologist**
+
+Once per Town.
+
+Pay 25 XP   
+Gain a background of your choice in your commander's color identity.
+
+---
+
+<!-- rule:traveler-fungal-lich -->
+### **🍄 Fungal Lich**
+
+Once per Town.
+
+Remove “Temporal” from a card you own.
+
+Additionally, until the end of this Town, when you use Portal, you may spend up to 20 XP instead of 15\.
+
+---
+
+<!-- rule:traveler-giff-bandito -->
+### **🦒 Giff Bandito**
+
+Once per Town.
+
+Pay 15 XP.  
+Sacrifice up to 2 lands.  
+Gain that many land cards that share a color with your commander.
+
+---
+
+<!-- rule:traveler-giant-ice-toad -->
+### **� Giant Ice Toad**
+
+You may pay any amount of XP to gain three times that amount as Essence.
+
+---
+
+<!-- rule:traveler-hell-s-librarian -->
+### **�📚 Hell's Librarian**
+
+Once per Town.
+
+Pay 50 XP and lose 5 maximum HP for the rest of the run.  
+Choose a card in your deck.  
+That card begins the game in your opening hand.  
+(It counts toward your starting hand size.)
+
+---
+
+<!-- rule:traveler-hollyphant -->
+### **🕊️ Hollyphant**
+
+You may use the Cathedral one additional time this Town.
+
+---
+
+<!-- rule:traveler-kimi-the-cat -->
+### **😺 Kimi the Cat**
+
+Once per Town.
+
+Choose one:  
+• The next time you Upgrade a card this Town, it gains an additional keyword  
+• The next time you Augment a card this Town, it gains an additional augment
+
+---
+
+<!-- rule:traveler-silly-the-jester -->
+### **🤡 Silly, the Jester**
+
+Until the end of Town, Merchant packs cost 50% less.  
+Round the final cost down to the nearest multiple of 5 (minimum 5 XP).
+
+---
+
+<!-- rule:traveler-the-trader -->
+### **💰 The Trader**
+
+Once per Town.
+
+The party chooses one:  
+ • Each player may make 2 additional trades this Town.  
+ • Each player may sell up to two cards for XP equal to twice each card’s mana value.
+
+---
+
+<!-- rule:traveler-vanguard-mercenaries -->
+### **⚔️ Vanguard Mercenaries**
+
+Once per Town.
+
+Pay 50 XP.   
+Reveal 3 random Vanguards, then choose one.  
+(You lose the Vanguard if you die)
+
+---
+
+<!-- rule:traveler-wandering-card-merchant -->
+### **🛍️ Wandering Card Merchant**
+
+When buying a pack from the Merchant, you may keep 2 cards instead of 1\.
+
+---
+
+<!-- rule:traveler-zorbo -->
+### **🎩 Zorbo**
+
+Once per Town.
+
+Pay 50 XP.  
+Reveal 2 random Trinkets, then choose one.
+
+<!-- rule:wanderers-system -->
+### **🛤️ WANDERERS**
+
+Wanderers are mysterious figures, merchants, and survivors encountered between battles when the party Stays Out.
+
+They provide lower-impact benefits focused on deck smoothing, minor upgrades, and resource exchange.
+
+> **Note:** Each player may interact with a Wanderer **once**. Wanderers do NOT consume building uses.
+
+---
+
+<!-- rule:wanderer-wandering-merchant -->
+### **🛍️ Wandering Merchant**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Scryfall 5 random cards within your commander's color identity.
+Choose one. Add it to your deck or sideboard.
+
+---
+
+<!-- rule:wanderer-rift-vendor -->
+### **🌀 Rift Vendor**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Choose one:
+• Create three Temporal cards matching a chosen keyword or type. Shuffle them into your deck.
+• Choose an instant or sorcery card in your deck. Create a Temporal copy of it and shuffle it into your deck.
+
+> *(Temporal cards follow Portal rules.)*
+
+---
+
+<!-- rule:wanderer-quartermaster -->
+### **🎒 Quartermaster**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Move up to three cards between your deck and sideboard.
+Then you may destroy one card from your deck.
+
+---
+
+<!-- rule:wanderer-traveling-smith -->
+### **⚒️ Traveling Smith**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Choose a creature card in your deck.
+Choose one:
+• That creature gets +1/+1.
+• That creature gains your choice of: Flying, Lifelink, or Ward 1.
+
+> *(This does not count as a Blacksmith modification.)*
+
+---
+
+<!-- rule:wanderer-road-gambler -->
+### **🎲 Road Gambler**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Sacrifice a card from your deck.
+Roll a d6.
+
+Choose a card type.
+Gain a random card of that type that shares a color with the sacrificed card, with rarity based on the roll:
+
+| Roll | Result |
+|------|--------|
+| 1–2 | Random Common |
+| 3–4 | Random Uncommon |
+| 5 | Random Rare |
+| 6 | Random Mythic |
+
+---
+
+<!-- rule:wanderer-wayfarer -->
+### **🚶 Wayfarer**
+
+*Once per Wanderer encounter.*
+
+Destroy a card from your deck.
+Gain 5 XP.
+
+---
+
+<!-- rule:wanderer-hedge-mystic -->
+### **🔮 Hedge Mystic**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Destroy a card from your deck.
+Scryfall 5 random cards within your commander's color identity.
+Choose one and add it to your deck or sideboard.
+
+---
+
+<!-- rule:wanderer-essence-broker -->
+### **💎 Essence Broker**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Gain 10 Essence.
+
+---
+
+<!-- rule:wanderer-cartographer -->
+### **🗺️ Cartographer**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Choose one:
+• Scryfall a land card of your choice within your commander's color identity. Add it to your deck or sideboard.
+• Replace up to 2 basic lands in your deck with that many dual lands and/or triomes within your commander's color identity.
+
+---
+
+<!-- rule:wanderer-field-surgeon -->
+### **🩹 Field Surgeon**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+You gain 5 life.
+
+> *(You may exceed your maximum life this way. This excess life lasts only for the next encounter.)*
+
+---
+
+<!-- rule:wanderer-masked-courier -->
+### **🎭 Masked Courier**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Scryfall 3 random cards within your commander's color identity.
+You may swap one card in your deck with one of the revealed cards.
+
+---
+
+<!-- rule:wanderer-relic-hunter -->
+### **⚙️ Relic Hunter**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Scryfall a random artifact card of Uncommon rarity or greater within your commander's color identity.
+Add it to your deck or sideboard.
+
+---
+
+<!-- rule:wanderer-shadow-broker -->
+### **🌑 Shadow Broker**
+
+*Once per Wanderer encounter.*
+
+Pay 5 XP.
+
+Scryfall 2 random Rare cards within your commander's color identity.
+Choose one and add it to your sideboard.
+
+---
+
+<!-- rule:wanderer-veiled-trinket-broker -->
+### **🕯️ Veiled Trinket Broker**
+
+*Once per Wanderer encounter.*
+
+Pay 40 XP.
+
+Reveal 2 random Trinkets.
+Choose one and add it to your party's Trinkets.
+
+> *(If the party already has a Trinket, the old one is replaced.)*
+
+---
+
+<!-- rule:wanderer-wandering-bard -->
+### **🎵 Wandering Bard**
+
+*Once per Wanderer encounter.*
+
+Free.
+
+Each player in the party gains 5 XP.
 
 ## The Crypt
 
@@ -2196,6 +3697,96 @@ Defeat a Crypt fight in which all Commanders were white, blue, or Azorius.
 ##### Pre-Con Draft Option
 
 - Disabled.
+
+<!-- rule:brands-system -->
+### Brands System
+
+#### **🛒 PURCHASE TIMING**
+
+Brands may be purchased from the **Progression Shop** either:
+
+* Pre-game  
+* Post-game
+
+---
+
+#### **⚙️ CORE RULES**
+
+* Brand effects are persistent across runs  
+* Brands affect deckbuilding, Commander generation, or pack resolution as written  
+* Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased  
+* Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**
+
+**Stacking cost example (Brand of the Cartographer — 500 Essence base):**
+
+| Rank | Cost |
+| :--- | :--- |
+| Rank 1 | 500 (base × 1) |
+| Rank 2 | 1000 (base × 2) |
+| Rank 3 | 1500 (base × 3) |
+
+---
+
+#### **🧠 DESIGN INTENT**
+
+Brands are intended to sit between one-run setup purchases and long-term account unlocks.
+
+They let players shape how they draft and build without replacing the normal encounter progression systems.
+
+<!-- rule:progression-shop -->
+### **💠 PROGRESSION SHOP**
+
+Available both before the run begins and after the run ends.
+
+All purchases use **Essence**.
+
+**Slot Limit:** Players have **4 slots** for inventory items, shared between:
+
+* Crypt Buffs
+* Tickets
+* Achievements
+* Captures
+
+**Brands:** Brands are a separate progression layer. Each Brand has **Ranks** and may be purchased multiple times. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
+
+*Example: A 1000 Essence Brand costs 1000 for Rank 1, 2000 for Rank 2, 3000 for Rank 3, and so on.*
+
+#### **End-of-Game Essence Shop Options**
+
+At the end of the game, you may do any of the following:
+
+---
+
+#### **Sell Buffs** — 250 Essence
+
+Sell a **Crypt buff** back to the Host in exchange for 250 Essence.
+
+**Rules:**
+
+* If Crypt completion awards a Crypt buff you already have unlocked, that duplicate buff is immediately sold for +250 Essence
+* You may sell a Crypt buff after the run ends
+
+---
+
+#### **Capture Non-Commander** — 500 Essence* (base cost)
+
+Save 1 card from your deck in your collection.
+
+**Rules:**
+
+* A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**
+* Captured cards may be used in future deck builds
+* A card granted through the Capture system is **treated as Scryfalled** when used in a run
+* A captured card therefore cannot be traded, captured again, or used as part of any combo
+* Captured cards count against your deck's 39 cards (they do not have a free allocation)
+* **Stacking cost:** For each capture after the first, the cost increases by 250 Essence
+  * 1st: 500 Essence
+  * 2nd: 750 Essence
+  * 3rd: 1000 Essence
+  * And so on...
+* Each capture occupies 1 slot
+
+---
 
 ## Permanent Progression Catalog
 
