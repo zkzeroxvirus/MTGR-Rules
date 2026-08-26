@@ -11,7 +11,20 @@
     "branch": {"type": "string", "minLength": 1},
     "title": {"type": "string"},
     "description": {"type": "string"},
-    "documents": {"type": "array", "items": {"type": "object", "required": ["id", "title", "source", "audience"]}},
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "source", "audience"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+          "title": {"type": "string", "minLength": 1},
+          "source": {"enum": ["RULEBOOK.md", "generated/PLAYER-REFERENCE.md", "generated/HOST-REFERENCE.md"]},
+          "audience": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["player", "host"]}}
+        },
+        "additionalProperties": false
+      }
+    },
     "learnPath": {"type": "array"},
     "guides": {"type": "array"},
     "rules": {
@@ -22,18 +35,17 @@
         "properties": {
           "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
           "title": {"type": "string", "minLength": 1},
-          "source": {"type": "string", "pattern": "\\.md$"},
+          "source": {"type": "string", "pattern": "^rules/.+\\.md$"},
           "phase": {"enum": ["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs"]},
           "audience": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["player", "host"]}},
           "aliases": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
           "related": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
-          "surfaces": {"type": "array", "uniqueItems": true, "items": {"enum": ["web", "notebook", "host"]}},
+          "surfaces": {"type": "array", "uniqueItems": true, "items": {"enum": ["web", "notebook", "host", "tts-document"]}},
           "content": {
-            "oneOf": [
-              {"type": "object", "required": ["kind"], "properties": {"kind": {"const": "document"}}, "additionalProperties": false},
-              {"type": "object", "required": ["kind", "heading"], "properties": {"kind": {"const": "section"}, "heading": {"type": "string", "minLength": 1}}, "additionalProperties": false},
-              {"type": "object", "required": ["kind", "heading", "endHeading"], "properties": {"kind": {"const": "range"}, "heading": {"type": "string", "minLength": 1}, "endHeading": {"type": "string", "minLength": 1}}, "additionalProperties": false}
-            ]
+            "type": "object",
+            "required": ["kind"],
+            "properties": {"kind": {"const": "document"}},
+            "additionalProperties": false
           }
         },
         "additionalProperties": false
