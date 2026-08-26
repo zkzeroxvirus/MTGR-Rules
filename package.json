@@ -3,6 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node scripts/validate-rulebook.mjs"
+    "build": "node scripts/build-rulebook.mjs",
+    "materialize": "node scripts/materialize-rule-sources.mjs",
+    "check": "node scripts/build-rulebook.mjs --check && node scripts/validate-rulebook.mjs"
   }
 }
