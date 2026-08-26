@@ -117,7 +117,6 @@ Beat The Jolly Balloon Man.
 ---
 
 ## **Might of Okaun**
-
 **Effect**  
 During your upkeep, flip a coin.
 
@@ -238,7 +237,6 @@ Defeat Jin Sakai, Ghost of Tsushima.
 ---
 
 ## **Leftovers**
-
 **Effect**  
 Whenever you sacrifice a Food for its effect, each ally gains 2 life.
 
@@ -250,10 +248,10 @@ Beat High Tide Hijinks.
 ## **Scent of Death**
 
 **Effect**  
-If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
+If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals twice that much damage instead. This effect doesn't apply to damage dealt by other buffs.
 
 **Unlock Source**  
-Beat Sefris of the Hidden Ways.
+Defeat Sefris of the Hidden Ways.
 
 ---
 
@@ -357,7 +355,6 @@ You see Emblem options only once per session. If you decline, you cannot see new
 ---
 
 # **🔥 SEASON 1 BRANDS (6)**
-
 Brands are permanent progression purchases from the Progression Shop.
 
 Brand effects stack. Each Brand may be purchased any number of times.
@@ -477,7 +474,6 @@ This may be activated at instant speed.
 Indirectly kill one non-Host player in a session.
 
 ---
-
 ### **Gamblers Never Quit**
 
 **Effect**  
@@ -557,7 +553,7 @@ Defeat a Crypt fight with a Horse Commander.
 ### **Raccoon's Rage**
 
 **Effect**  
-After you finish taking mulligans, exile two Mountain cards from outside the game. You may play those cards from exile.
+After you finish taking mulligans, exile two Mountain cards from outside the game. You may play that card from exile.
 
 **Unlock Requirement**  
 Defeat a Crypt fight with a Raccoon Commander.
@@ -597,7 +593,6 @@ Defeat a Crypt fight with a Crab Commander.
 ## **Guild Identity Achievements (10)**
 
 For these achievements, a color clause applies when your Commander's color identity includes that color. A two-color guild Commander therefore receives both clauses for its guild.
-
 ---
 
 ### **Simic — Adaptive Pattern**
@@ -651,12 +646,12 @@ Defeat a Crypt fight in which all Commanders were white, black, or Orzhov.
 ### **Izzet — Experimental Sparks**
 
 **Effect**  
-If your Commander is blue: once per turn, when you cast an instant, you may scry 1, then draw 1.
+If your Commander is blue: once per turn, when you cast a sorcery spell, exile the top two cards of your library. You may play those cards until the end of your next turn.
 
-If your Commander is red: once per turn, when you cast a sorcery, you may deal 1 damage to any target.
+If your Commander is red: once per turn, when you cast an instant spell, deal 2 damage to any target.
 
 **Unlock Requirement**  
-Beat a Crypt fight where all players' Commander identities were either blue, red, or Izzet.
+Defeat a Crypt fight in which all Commanders were blue, red, or Izzet.
 
 ---
 
