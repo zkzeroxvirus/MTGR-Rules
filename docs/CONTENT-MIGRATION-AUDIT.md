@@ -42,9 +42,57 @@ Town building details survived in `town-buildings`, but `town-flow` had been red
 
 ### Deckbuilding
 
-Status: **Preserved** in the current audit sample.
+Status: **Preserved**.
 
 The current deckbuilding clarification unit remains detailed and retains Commander generation, pool generation, lands, Free Choice, Scryfall, combo, silence, deck minimum, Sideboard, color-identity, pack, and Guild rules.
+
+### Rewards
+
+Status: **Preserved**.
+
+The legacy Reward System was split into `reward-timing`, `xp-system`, `cashout-system`, and `loot-pool`. The mechanical content remains present: mandatory XP/Cashout/Loot Pool resolution, mode XP tables, Affix XP, Cashout selection/trading/restrictions, and the seven-nonland-card Loot Pool procedure. Legacy design-intent prose was intentionally not restored.
+
+### Events
+
+Status: **Preserved**.
+
+Timing, Town/Stay Out Event counts, consecutive Stay Out scaling, one-at-a-time resolution, persistent/delayed effects, printed classifications, Ambush-as-Bad handling, and Crypt restrictions remain in dedicated Event rule units. The repaired Stay Out parent also surfaces the table-critical Event counts.
+
+### Encounter system
+
+Status: **Preserved**.
+
+`encounter-flow` remains a small common wrapper, while `encounter-types` retains the encounter availability gate and detailed Precon, Master, Tribal, Plane, Story, Villain, and Wildcard setup/mechanics. Host health, Affixes, failure transition, and Crypt behavior remain in their own rules.
+
+### Doom
+
+Status: **Preserved**.
+
+The Doom monolith was split cleanly. Player-count setup, face-down Doom area, reveal cadence, special-action timing, triggered ability stack behavior, used-card removal/rejoin behavior, and once-per-Host-turn reroll rules remain present. Individual Doom effects are canonical rule units.
+
+### Authority / Host scaling
+
+Status: **Preserved**.
+
+Authority level mapping, all five Authority effect packages, Demonic Persistence, Arcane Suppression, and the Disallow/Not Today interaction clarifications remain intact across `authority-level`, `authority-effects`, `always-on-scaling`, and `authority-interactions`.
+
+### Supply Drops
+
+Status: **Preserved**.
+
+The d10 resolution procedure and all ten Supply Drop results remain intact in `supply-drop-resolution` and `supply-drop-table`.
+
+### Permanent progression
+
+Status: **Preserved**.
+
+The acquisition model, progression layers, and default once-per-encounter activation rule remain in `progression-reference`. Crypt Buffs, Tickets, Brands, and Achievements are maintained as individual canonical entries and validated through progression contracts. Storage-backend details are not gameplay rules and must not be encoded in canonical text.
+
+### Run success / persistence wording
+
+Status: **Stale operational wording / corrected**.
+
+`run-success` retained a legacy sentence stating that progression data was saved to a Google Sheet. That was an implementation detail rather than a gameplay mechanic and became stale after Platform-backed profiles replaced the old storage path. Canonical wording now states only that progression rewards are recorded on the player's persistent MTGR profile.
 
 ## Rule for future semantic splitting
 
@@ -52,6 +100,8 @@ A primary **flow** rule must remain table-complete: it should contain the proced
 
 Legacy documents under `archive/` are migration evidence only. They are not automatically-current rules and must be reconciled against later canonical changes before anything is restored.
 
-## Next audit passes
+Operational implementation details such as database/storage providers also do not belong in canonical gameplay rules.
 
-The next systematic comparisons should cover the archived **Reward**, **Event**, **Encounter**, **Doom**, and **Authority** system documents against their current parent-flow and child-rule units. The objective is not to restore old text wholesale; it is to identify table-critical numbers, timing, reset rules, restrictions, and edge cases that became unreachable or invisible during semantic splitting.
+## Remaining audit targets
+
+Future content audits should focus on systems not yet compared at this depth, especially individual Town buildings, Wanderers/Travelers, Crypt-specific subsystems, and any rules derived from old `CORE-RULES.md` sections that do not already have an obvious one-to-one semantic unit.
