@@ -36,9 +36,21 @@ The dedicated child units remain authoritative for deeper detail.
 
 ### Town
 
-Status: **Mostly preserved / parent context restored**.
+Status: **Preserved / parent context restored**.
 
-Town building details survived in `town-buildings`, but `town-flow` had been reduced to only three steps. The parent flow now includes the full-heal semantics and the fact that returning to Town resets Stay Out scaling.
+Town flow had lost useful context, but the full Town V2.0 building mechanics survived in `town-buildings`. Bank, Blacksmith, Bazaar, Cathedral, Guild, Merchant, Mystic, Portal, and Tavern values and restrictions remain intact. `town-flow` now also contains full-heal semantics and the fact that returning to Town resets Stay Out scaling.
+
+### Travelers
+
+Status: **Preserved in child units**.
+
+The old `TRAVELERS-V1.0.md` catalog was split into `travelers-system` plus one canonical rule unit per Traveler. The system parent retains the global Town timing/no-Town-Action rule, while the individual Traveler costs, limits, choices, and effects remain in the child catalog. The split is acceptable because each Traveler is itself the executable unit rather than a hidden prerequisite to a separate flow.
+
+### Wanderers
+
+Status: **Preserved in child units**.
+
+The old `WANDERERS-V1.0.md` catalog was split into `wanderers-system` plus one canonical rule unit per Wanderer. The parent retains the Stay Out context, once-per-player interaction rule, and no-building-use rule. Individual Wanderer costs, options, and effects remain in dedicated entries.
 
 ### Deckbuilding
 
@@ -60,9 +72,11 @@ Timing, Town/Stay Out Event counts, consecutive Stay Out scaling, one-at-a-time 
 
 ### Encounter system
 
-Status: **Preserved**.
+Status: **Preserved except normal turn-order procedure / corrected**.
 
-`encounter-flow` remains a small common wrapper, while `encounter-types` retains the encounter availability gate and detailed Precon, Master, Tribal, Plane, Story, Villain, and Wildcard setup/mechanics. Host health, Affixes, failure transition, and Crypt behavior remain in their own rules.
+The dedicated Encounter System preserved encounter selection, setup, Affixes, Host Health, encounter types, and Crypt-specific setup. During the broader `CORE-RULES.md` comparison, one table-critical procedure was found missing from active canonical rules: for normal encounters the Host and party roll a d20 and the winner chooses who takes the first turn. The Crypt explicitly overrides that procedure and the Host takes the first turn.
+
+`encounter-flow` now surfaces the normal d20 turn-order procedure and the Crypt override directly before play begins.
 
 ### Doom
 
@@ -82,11 +96,25 @@ Status: **Preserved**.
 
 The d10 resolution procedure and all ten Supply Drop results remain intact in `supply-drop-resolution` and `supply-drop-table`.
 
+### Crypt / run end
+
+Status: **Preserved**.
+
+Crypt setup remains explicit: no Affixes, the Host takes the first turn, and no Events resolve. Crypt reward eligibility, 500 Essence completion reward, duplicate-Buff +250 Essence handling, and run-end Deck CMC + Sideboard CMC plus unspent-XP Essence conversion remain in dedicated canonical units. `crypt-fight-choice` also remains a separate ultra-rare pre-Crypt choice rule.
+
 ### Permanent progression
 
 Status: **Preserved**.
 
 The acquisition model, progression layers, and default once-per-encounter activation rule remain in `progression-reference`. Crypt Buffs, Tickets, Brands, and Achievements are maintained as individual canonical entries and validated through progression contracts. Storage-backend details are not gameplay rules and must not be encoded in canonical text.
+
+### Core Rules cross-check
+
+Status: **Substantially preserved; one omission corrected**.
+
+The old `CORE-RULES.md` aggregation was checked against the current semantic units. Player health, deckbuilding, bans/restrictions, Town/Stay Out, death and player departure, reward eligibility, Crypt rewards, turn/combat rules, PvP, Storm modification, extra turns, card acquisition, progression slots, Ticket rules, starting-land balance, pack rules, encounter modes, global limits, and the rules addendum all have current canonical homes.
+
+The normal encounter d20 turn-order procedure was the one table-critical rule found to have no active canonical home and has now been restored to `encounter-flow`. The old optional Host-discretion death penalty is explicitly described by the archive as optional and outside the base ruleset, so it is not promoted into canonical base rules by this audit.
 
 ### Run success / persistence wording
 
@@ -98,10 +126,12 @@ Status: **Stale operational wording / corrected**.
 
 A primary **flow** rule must remain table-complete: it should contain the procedure and values needed to execute that flow without opening sibling documents. Child units may hold examples, edge cases, tables, and subsystem detail, but they must not be the only place where core costs, rewards, counts, resets, or restrictions are stated.
 
+Catalog systems such as Travelers, Wanderers, Doom cards, progression entries, and similar collections may use one canonical child document per entry, provided the parent retains the global timing, access, and usage rules needed to understand how the catalog is used.
+
 Legacy documents under `archive/` are migration evidence only. They are not automatically-current rules and must be reconciled against later canonical changes before anything is restored.
 
 Operational implementation details such as database/storage providers also do not belong in canonical gameplay rules.
 
-## Remaining audit targets
+## Audit status
 
-Future content audits should focus on systems not yet compared at this depth, especially individual Town buildings, Wanderers/Travelers, Crypt-specific subsystems, and any rules derived from old `CORE-RULES.md` sections that do not already have an obvious one-to-one semantic unit.
+The identified semantic-migration targets from the archived monoliths have now been compared at the system level. Future audits should be triggered by new legacy evidence, rule changes, or validator failures rather than treating the original migration as unfinished work.
