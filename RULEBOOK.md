@@ -3516,7 +3516,7 @@ If players defeat the Crypt:
   * Additional progression rewards
 * Run-end Essence rewards still apply (Deck CMC + Sideboard CMC, plus any unspent XP converted to Essence)
 
-Progression is tracked by the in-game tool, which saves and loads player data from a Google Sheet.
+Progression rewards are recorded on each eligible player's persistent MTGR profile.
 
 ---
 
