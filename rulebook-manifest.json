@@ -238,7 +238,11 @@
         "commander roguelike"
       ],
       "related": [
+        "run-structure",
         "game-loop",
+        "reward-timing",
+        "town-flow",
+        "stay-out-flow",
         "crypt"
       ],
       "content": {
@@ -380,8 +384,10 @@
         "before encounter 1"
       ],
       "related": [
+        "deckbuilding",
         "game-loop",
-        "event-resolution"
+        "event-resolution",
+        "trinket-system"
       ],
       "content": {
         "kind": "document"
@@ -862,6 +868,7 @@
         "host scaling"
       ],
       "related": [
+        "authority-effects",
         "always-on-scaling",
         "doom-setup",
         "affixes-reference"
@@ -931,7 +938,8 @@
       ],
       "related": [
         "doom-setup",
-        "doom-reroll"
+        "doom-reroll",
+        "authority-level"
       ],
       "content": {
         "kind": "document"

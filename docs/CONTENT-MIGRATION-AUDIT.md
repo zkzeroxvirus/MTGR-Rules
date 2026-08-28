@@ -135,3 +135,50 @@ Operational implementation details such as database/storage providers also do no
 ## Audit status
 
 The identified semantic-migration targets from the archived monoliths have now been compared at the system level. Future audits should be triggered by new legacy evidence, rule changes, or validator failures rather than treating the original migration as unfinished work.
+
+## Second-pass detailed reconciliation
+
+A second pass compared the archived source families with both their canonical parent rules and their individual child entries. This pass recovered details that survived conceptually but were no longer explicit at the point where players or Hosts execute the rule:
+
+- Game Overview now explains how Encounters, Rewards, Town, Stay Out, Events, and the Crypt connect, and defines the boundary between Host adjudication and the stable campaign structure.
+- Pre-Encounter Setup now requires deckbuilding and all pregame effects to be finalized before Encounter 1.
+- Authority Level and Doom Rules now identify the complete Host Scaling Power layer: Authority, Doom, Demonic Persistence, and Arcane Suppression. They also state which components scale by player count and that all four apply during every encounter.
+- Supply Drops now explicitly resolve immediately outside encounters without modifying an active battlefield state.
+- Wanderers now explicitly reveal one random Wanderer, permit one interaction per player, require the listed XP cost, and resolve outside encounters without consuming building uses.
+- Trinket Tickets now retain their once-per-session offer, decline behavior, fresh-option exception for a newly gained Cashout ticket, persistence, and per-player ownership and slot usage.
+- Vanguard, Conspiracy, and Emblem Tickets now identify their Legal selection pools directly in their own entries.
+- Arcane Signet, Sol Ring, and Leyline Tickets now state their Scryfalled classification and their no-trade, no-capture, and no-combo restrictions directly in their own entries.
+
+### Archived-source coverage map
+
+| Archived source family | Current canonical home | Reconciliation result |
+| --- | --- | --- |
+| Core Game Structure | `game-overview`, `run-structure`, `game-loop`, `failed-encounter`, `run-success`, `run-failure` | Full run structure retained; system connections and Host boundary restored to the overview. |
+| Core Rules | Getting Started, Encounters, Between Encounters, Rewards, Progression, and `notebook-addendum` | Executable rules retained; normal encounter turn order and pregame finalization restored during audit passes. |
+| Deckbuilding Rules | `deckbuilding` | Detailed deck construction, generation, legality, Scryfall, combo, pack, and Guild rules retained. |
+| Town | `town-flow`, `town-buildings`, and related Town entries | Building mechanics and limits retained; table-facing flow context restored. |
+| Stay Out | `stay-out-flow`, Stay Out child rules, `supply-drop-resolution`, `supply-drop-table`, `wanderers-system` | Counts, scaling, restrictions, Supply Drops, and Wanderer execution retained and surfaced. |
+| Events | Event rules under `rules/between-encounters/` | Timing, classifications, scaling, persistence, and Crypt restrictions retained. |
+| Rewards | `reward-timing`, `xp-system`, `cashout-system`, `loot-pool` | Gameplay procedure retained. Live Cashout catalogs and weights remain Platform-owned operational data. |
+| Encounter System | Encounter type, flow, Wild Magic, and Crypt rules, plus Platform Host tables | Gameplay procedure retained; deployment-owned encounter data remains outside this repository. |
+| Host Authority | `authority-level`, `authority-effects`, `authority-interactions`, `always-on-scaling` | Full four-part Host scaling model retained and made explicit at point of use. |
+| Doom | `doom-setup`, `doom-rules`, `doom-reroll`, and individual Doom entries | Setup, cadence, stack behavior, recycling, rerolls, and card effects retained. |
+| Affixes | `affixes-reference` and related encounter rules | Active Affix procedure and effects retained. |
+| Trinkets, Travelers, Wanderers, Demon Generals | One parent system rule plus one canonical child entry per catalog item | Catalog detail retained; parent rules carry timing, access, and shared restrictions. |
+| Permanent Progression | `progression-reference` plus one entry per Buff, Ticket, Brand, and Achievement | Acquisition, slots, activation, and item effects retained under progression contracts. |
+| Shops | `progression-shop` and Town rules | Current Progression Shop retained; obsolete pre-run and after-run shop models remain superseded. |
+| Notebook Addendum | `notebook-addendum` | Cross-cutting clarifications and legal-pool context retained. |
+| Spiritual Guidance ruling | The matching Crypt Buff entry | Card-specific gameplay ruling retained with the feature it governs. |
+| Essence counter implementation | Platform/tooling documentation | Correctly excluded from gameplay authority because it describes implementation rather than rules. |
+
+### Intentionally excluded legacy material
+
+The reconciliation does not restore text merely because it appeared in an older document. The following remain intentionally outside canonical gameplay rules:
+
+- obsolete pre-run and after-run shops superseded by the Progression Shop;
+- Google Sheet and other storage-backend implementation wording;
+- the optional Host-discretion death penalty, which the archive identifies as outside the base ruleset;
+- live Cashout catalogs, rarity weights, encounter tables, and other operational data governed by Platform contracts;
+- historical design rationale that does not create a player-facing or Host-facing procedure.
+
+The regression validator now checks the recovered details at their canonical homes so a later rewrite cannot silently reduce them to thinner summaries.

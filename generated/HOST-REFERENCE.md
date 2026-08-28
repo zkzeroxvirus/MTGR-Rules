@@ -13,6 +13,21 @@ Each run progresses through escalating encounters, culminating in a final boss f
 
 Players must balance survival, progression, and risk as they push deeper into the run.
 
+#### How the systems connect
+
+- **Encounters** are the main gameplay challenge.
+- **Rewards** provide XP, Cashouts, and cards after victories.
+- **Town** provides controlled recovery and deck progression.
+- **Stay Out** provides immediate resources with increasing Event variance.
+- **Events** introduce between-encounter choices, effects, and complications.
+- **The Crypt** is the final challenge that determines run success or failure.
+
+The normal run sequence and its values remain governed by the dedicated Run Structure, Game Loop, reward, Town, Stay Out, Event, and Crypt rules.
+
+#### Host adjudication
+
+Hosts may customize encounters and adjudicate unclear interactions. The core run structure and the canonical rules for rewards, progression, and system limits should remain consistent.
+
 ---
 
 <!-- rule:player-structure -->
@@ -247,6 +262,8 @@ Applies to all MTGR runs unless overridden by the Host.
 
 <!-- rule:pre-encounter-setup -->
 ### **1 — Event and Trinket**
+
+Finish deckbuilding and resolve all active pregame progression effects before this sequence. All pregame effects must be finalized before Encounter 1 begins.
 
 Before the First Encounter  
 Resolve both in this order:  
@@ -1531,6 +1548,21 @@ The Loot Pool allows players to extract cards from defeated encounter decks.
 <!-- rule:authority-level -->
 ### **⚖️ AUTHORITY COMPONENT — LEVEL**
 
+#### Host Scaling Power layer
+
+Every encounter uses the complete Host Scaling Power layer:
+
+1. **Authority**
+2. **Doom**
+3. **Demonic Persistence**
+4. **Arcane Suppression**
+
+Authority and Doom scale with the number of players. Demonic Persistence and Arcane Suppression are always active regardless of player count. Apply all four components during each encounter unless a more specific encounter rule explicitly changes one of them.
+
+Authority supplies the Host's player-count-based control and tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
+
+#### Authority Level
+
 At the beginning of each encounter, determine the Host’s Authority Level based on the number of players.
 
 | Players | Authority Level |
@@ -1589,11 +1621,14 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 <!-- rule:doom-rules -->
 ### **⚙️ DOOM RULES**
 
+**Doom** is the triggered-ability component of the Host Scaling Power layer. Determine the Host's Doom count from the Doom Setup rule at the beginning of each encounter, then use the cards under the rules below.
+
 * Doom cards are placed face down on the battlefield in the Host's Doom area
 * Doom cards represent **triggered abilities** controlled by the Host  
 * The Host may turn **1 Doom card face up each turn** unless otherwise specified (1 on a player turn and 1 on the Host turn)
 * Turning a Doom card face up is a **special action**. It does not use the stack and cannot be responded to directly
 * Turning a Doom card face up causes that Doom card's triggered ability to trigger
+* Unless a Doom card says otherwise, its triggered ability uses the stack and players may respond to it
 
 ---
 
@@ -2737,9 +2772,11 @@ Detailed pack, Event, Supply Drop, Wanderer, and restriction rules remain in the
 When a Supply Drop is triggered:
 
  • Roll 1d10  
- • Resolve the corresponding result from the table below
+ • Resolve the corresponding result from the Supply Drop Table
 
 Supplies affect each Party Member unless otherwise stated.
+
+Supply Drops occur outside encounters. Resolve their effects immediately; they do not interact with an active encounter battlefield state unless the rolled result explicitly says otherwise.
 
 ---
 
@@ -3074,7 +3111,13 @@ Wanderers are mysterious figures, merchants, and survivors encountered between b
 
 They provide lower-impact benefits focused on deck smoothing, minor upgrades, and resource exchange.
 
-> **Note:** Each player may interact with a Wanderer **once**. Wanderers do NOT consume building uses.
+When the Stay Out flow calls for a Wanderer:
+
+1. Reveal **1 random Wanderer**.
+2. Each player may interact with that Wanderer **once**.
+3. Pay the XP cost and resolve the effect printed in that Wanderer's rule entry.
+
+Wanderers occur outside encounters and do not directly use or modify an active encounter battlefield state unless their own effect explicitly says otherwise. They do **not** consume Town building uses.
 
 ---
 

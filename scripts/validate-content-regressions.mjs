@@ -22,6 +22,14 @@ const requireRulePatterns = async (id, checks) => {
   return text;
 };
 
+const requireFilePatterns = async (relative, checks) => {
+  const text = await read(relative);
+  for (const [label, pattern] of checks) {
+    if (!pattern.test(text)) fail(`${relative} lost recovered content: ${label}`);
+  }
+  return text;
+};
+
 const requireRuleIds = (group, ids) => {
   for (const id of ids) {
     if (!ruleMap.has(id)) fail(`${group} lost canonical entry: ${id}`);
@@ -64,6 +72,20 @@ await requireRulePatterns("town-flow", [
   ["Stay Out reset", /reset the consecutive Stay Out count/i],
   ["Town buildings", /Town building/i],
   ["Event continuation", /Event resolution/i],
+]);
+
+await requireRulePatterns("game-overview", [
+  ["Encounters system connection", /Encounters.*main gameplay challenge/i],
+  ["Rewards system connection", /Rewards.*XP, Cashouts, and cards/i],
+  ["Town and Stay Out distinction", /Town.*controlled[\s\S]*Stay Out.*increasing Event variance/i],
+  ["Crypt objective", /Crypt.*final challenge/i],
+  ["Host adjudication", /Hosts may customize encounters and adjudicate unclear interactions/i],
+  ["core structure preservation", /core run structure.*should remain consistent/i],
+]);
+
+await requireRulePatterns("pre-encounter-setup", [
+  ["pregame finalization", /All pregame effects must be finalized before Encounter 1/i],
+  ["Event then Trinket order", /Event[\s\S]*Trinket/i],
 ]);
 
 await requireRulePatterns("town-buildings", [
@@ -116,8 +138,11 @@ requireRuleIds("Travelers", [
 
 await requireRulePatterns("wanderers-system", [
   ["Stay Out context", /when the party Stays Out/i],
-  ["once per player", /Each player may interact with a Wanderer \*\*once\*\*/i],
-  ["no building uses", /do NOT consume building uses/i],
+  ["one random Wanderer", /Reveal \*\*1 random Wanderer\*\*/i],
+  ["once per player", /Each player may interact with (?:a|that) Wanderer \*\*once\*\*/i],
+  ["XP cost", /Pay the XP cost/i],
+  ["outside encounters", /occur outside encounters/i],
+  ["no building uses", /do \*{0,2}not\*{0,2} consume (?:Town )?building uses/i],
 ]);
 
 requireRuleIds("Wanderers", [
@@ -230,9 +255,11 @@ await requireRulePatterns("doom-setup", [
 ]);
 
 await requireRulePatterns("doom-rules", [
+  ["Host Scaling Power layer", /Host Scaling Power layer/i],
   ["one face-up Doom each turn", /1 Doom card face up each turn/i],
   ["special action", /special action/i],
   ["triggered ability", /triggered ability/i],
+  ["respond through stack", /uses the stack and players may respond/i],
 ]);
 
 await requireRulePatterns("doom-reroll", [
@@ -242,6 +269,10 @@ await requireRulePatterns("doom-reroll", [
 ]);
 
 await requireRulePatterns("authority-level", [
+  ["complete scaling layer", /Authority[\s\S]*Doom[\s\S]*Demonic Persistence[\s\S]*Arcane Suppression/i],
+  ["all four every encounter", /Apply all four components during each encounter/i],
+  ["player-count scaling", /Authority and Doom scale with the number of players/i],
+  ["always-active powers", /Demonic Persistence and Arcane Suppression are always active/i],
   ["1-2 Authority I", /1[–-]2\s*\|\s*I/],
   ["3 Authority II", /3\s*\|\s*II/],
   ["4 Authority III", /4\s*\|\s*III/],
@@ -267,7 +298,45 @@ await requireRulePatterns("always-on-scaling", [
 await requireRulePatterns("supply-drop-resolution", [
   ["d10 roll", /Roll 1d10/i],
   ["party-wide default", /each Party Member unless otherwise stated/i],
+  ["outside encounters", /occur outside encounters/i],
+  ["immediate resolution", /Resolve their effects immediately/i],
+  ["no active battlefield interaction", /do not interact with an active encounter battlefield state/i],
 ]);
+
+await requireFilePatterns("rules/progression/tickets/trinket-ticket.md", [
+  ["three random options", /3 random options/i],
+  ["once-per-session options", /only once per session/i],
+  ["decline option", /may decline/i],
+  ["fresh Cashout options", /another Trinket Ticket from a Cashout/i],
+  ["persists across runs", /persists across runs/i],
+  ["per-player slot ownership", /slot use are per player/i],
+]);
+
+for (const [relative, label] of [
+  ["rules/progression/tickets/vanguard-ticket.md", "Vanguard"],
+  ["rules/progression/tickets/conspiracy-ticket.md", "Conspiracy"],
+  ["rules/progression/tickets/emblem-ticket.md", "Emblem"],
+]) {
+  await requireFilePatterns(relative, [
+    ["Legal pool", new RegExp(`Legal.*${label} pool|Legal.*pool`, "i")],
+    ["decline rule", /If you decline/i],
+    ["persists across runs", /persists across runs/i],
+  ]);
+}
+
+for (const relative of [
+  "rules/progression/tickets/arcane-signet-ticket.md",
+  "rules/progression/tickets/sol-ring-ticket.md",
+  "rules/progression/tickets/leyline-ticket.md",
+]) {
+  await requireFilePatterns(relative, [
+    ["Scryfall classification", /treated as \*\*Scryfalled\*\*/i],
+    ["trade restriction", /cannot be traded/i],
+    ["capture restriction", /captured/i],
+    ["combo restriction", /cannot be used as part of a combo/i],
+    ["persists across runs", /persists across runs/i],
+  ]);
+}
 
 const supplyTable = await ruleText("supply-drop-table");
 for (let result = 1; result <= 10; result += 1) {
