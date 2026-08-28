@@ -1,4 +1,4 @@
-# **�📚 Hell's Librarian**
+# **📚 Hell's Librarian**
 
 Once per Town.
 

@@ -2986,14 +2986,14 @@ Gain that many land cards that share a color with your commander.
 ---
 
 <!-- rule:traveler-giant-ice-toad -->
-### **� Giant Ice Toad**
+### **Giant Ice Toad**
 
 You may pay any amount of XP to gain three times that amount as Essence.
 
 ---
 
 <!-- rule:traveler-hell-s-librarian -->
-### **�📚 Hell's Librarian**
+### **📚 Hell's Librarian**
 
 Once per Town.
 

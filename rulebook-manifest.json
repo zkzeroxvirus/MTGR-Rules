@@ -1590,7 +1590,7 @@
     },
     {
       "id": "traveler-giant-ice-toad",
-      "title": "� Giant Ice Toad",
+      "title": "Giant Ice Toad",
       "source": "rules/town/travelers/giant-ice-toad.md",
       "phase": "between-encounters",
       "audience": [
@@ -1606,7 +1606,7 @@
     },
     {
       "id": "traveler-hell-s-librarian",
-      "title": "�📚 Hell's Librarian",
+      "title": "📚 Hell's Librarian",
       "source": "rules/town/travelers/hell-s-librarian.md",
       "phase": "between-encounters",
       "audience": [

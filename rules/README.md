@@ -167,8 +167,8 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [👹 Elven Demonologist](town/travelers/elven-demonologist.md) — `traveler-elven-demonologist`
 - [🍄 Fungal Lich](town/travelers/fungal-lich.md) — `traveler-fungal-lich`
 - [🦒 Giff Bandito](town/travelers/giff-bandito.md) — `traveler-giff-bandito`
-- [� Giant Ice Toad](town/travelers/giant-ice-toad.md) — `traveler-giant-ice-toad`
-- [�📚 Hell's Librarian](town/travelers/hell-s-librarian.md) — `traveler-hell-s-librarian`
+- [Giant Ice Toad](town/travelers/giant-ice-toad.md) — `traveler-giant-ice-toad`
+- [📚 Hell's Librarian](town/travelers/hell-s-librarian.md) — `traveler-hell-s-librarian`
 - [🕊️ Hollyphant](town/travelers/hollyphant.md) — `traveler-hollyphant`
 - [😺 Kimi the Cat](town/travelers/kimi-the-cat.md) — `traveler-kimi-the-cat`
 - [🤡 Silly, the Jester](town/travelers/silly-the-jester.md) — `traveler-silly-the-jester`
