@@ -40,6 +40,7 @@
       "description": "Understand the party, build a legal run deck, and finish pre-encounter setup.",
       "rules": [
         "game-overview",
+        "host-role-table-philosophy",
         "player-structure",
         "deckbuilding",
         "banned-restricted",
@@ -266,6 +267,31 @@
       ],
       "related": [
         "progression-reference"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "host-role-table-philosophy",
+      "title": "Host Role and Table Philosophy",
+      "source": "rules/host/host-role-table-philosophy.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "host expectations",
+        "host role",
+        "table philosophy",
+        "good faith adjudication",
+        "base and custom play"
+      ],
+      "related": [
+        "game-overview",
+        "host-types-profiles",
+        "town-buildings"
       ],
       "content": {
         "kind": "document"

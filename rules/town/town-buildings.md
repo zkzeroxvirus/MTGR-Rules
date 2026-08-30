@@ -29,7 +29,36 @@ Enhance **1 card** in your deck.
 | Upgrade | 25 XP | Modify a card's stats, keywords, or costs |
 | Augment | 50 XP | Add or modify rules text or abilities |
 
-**Rules:** A card may only receive one Blacksmith modification.
+Before work begins, the player describes the direction or purpose of the modification. The Host proposes a modification that is usable under the active ruleset and provides a meaningful positive benefit appropriate to the purchased service. It cannot be negligible, unrelated, secretly detrimental, or a joke modification.
+
+The player must approve the final modification before XP, a Cashout, or the building use is consumed. If the player rejects the first proposal, the Host may revise it once. If the revision is not accepted, cancel the request without cost and leave the card unchanged.
+
+### Upgrade standards
+
+A standard Upgrade may provide one of the following:
+
+- +1/+1 to a creature;
+- +2 power;
+- +2 toughness;
+- reduce an appropriate generic mana cost by {1};
+- reduce an appropriate activated-ability cost by {1}, normally to a minimum of {1};
+- add one appropriate evergreen keyword;
+- meaningfully color-shift the card; or
+- provide another practical benefit at least comparable to one of these standards.
+
+These are minimum expected values, not an exhaustive menu.
+
+### Augment standards
+
+An Augment must add a new functional ability, meaningfully expand an existing ability, or otherwise change the card's rules text beyond the normal scope of an Upgrade. A small stat increase, one basic keyword, a basic color shift, or a {1} cost reduction alone does not qualify as an Augment.
+
+The Host may refuse a modification that would be unhealthy, illegal, or inappropriate for the active ruleset. A refused request may be revised under the normal approval process or cancelled without cost.
+
+### Color shifting
+
+Color shifting is a normal Blacksmith modification. When appropriate, it may change a card's color, colored mana symbols, color words, color identity characteristics, or other color-linked characteristics. It is not restricted to the player's current Commander color identity and does not override unrelated MTGR restrictions.
+
+**Rules:** A card may only receive one Blacksmith modification unless another MTGR effect explicitly says otherwise.
 
 ---
 
@@ -70,14 +99,24 @@ Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not
 
 ## ⛪ CATHEDRAL *(1 use per Town)*
 
-Each player may describe a card request. The Host provides a real, usable card.
+Each player may describe the type of card, function, strategy, or effect they want. The request may include reasonable characteristics such as card type, theme, color, mana value, keyword, or intended role, but it cannot require one specific named card. When submitting the request, the player also chooses one supported **Fallback Category** that represents its main function. That category is locked for this Cathedral use.
+
+The Host provides one Good-Faith Offer. At a Base table, that card must be legal under the current Base rules, usable by the player, meaningfully related to the request, and a genuine attempt to support or improve the player's deck. It cannot be a deliberately weak, dead, unrelated, or joke selection.
+
+The player may accept the offer or explain why it does not meaningfully satisfy the request. If rejected, the Host may make one revised Good-Faith Offer. If the revision is also declined, Host selection ends and the player uses the neutral fallback.
+
+### Neutral fallback
+
+Generate five random, distinct cards from the locked Fallback Category. Replace only results that are invalid under the active ruleset, then the player chooses one of the five valid cards. The Host cannot choose, replace, or reroll a valid result because they dislike it.
+
+Fallback Categories and their card-search mappings are maintained by MTGR. Players and Hosts choose from the supported categories and do not supply raw search queries.
 
 Then choose:
 
-* Add it to your deck, or
+* Add the accepted card to your deck or sideboard as normal, or
 * Destroy it for **Essence equal to 2× its mana value**
 
-**Rules:** The description cannot force one specific card. The Host interprets the request.
+All cards acquired from Cathedral are treated as **Scryfalled** and follow the normal MTGR Scryfall restrictions.
 
 Cards gained from Cathedral are not restricted by Commander color identity unless the effect or request specifically imposes that restriction.
 

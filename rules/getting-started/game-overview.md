@@ -19,6 +19,10 @@ The normal run sequence and its values remain governed by the dedicated Run Stru
 
 ## Host adjudication
 
-Hosts may customize encounters and adjudicate unclear interactions. The core run structure and the canonical rules for rewards, progression, and system limits should remain consistent.
+The Host is the party's competitive opponent during encounters and the run's fair, good-faith facilitator outside them. The dedicated Host Role and Table Philosophy rules govern this distinction.
+
+Base tables follow the canonical rules. Custom tables may use clearly announced house rules or alternate modes, tracked through the appropriate progression profile.
+
+Hosts may customize encounters and adjudicate unclear interactions within the active ruleset. The core run structure and the canonical rules for rewards, progression, and system limits should remain consistent unless a Custom table explicitly announces otherwise.
 
 ---

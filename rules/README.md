@@ -7,6 +7,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 ## Before the Run
 
 - [Game Overview](getting-started/game-overview.md) — `game-overview`
+- [Host Role and Table Philosophy](host/host-role-table-philosophy.md) — `host-role-table-philosophy`
 - [Player Structure](getting-started/player-structure.md) — `player-structure`
 - [Deckbuilding Clarifications](getting-started/deckbuilding.md) — `deckbuilding`
 - [Banned & Restricted](getting-started/banned-restricted.md) — `banned-restricted`
