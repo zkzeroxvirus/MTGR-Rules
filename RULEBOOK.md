@@ -2691,7 +2691,7 @@ Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not
 
 #### ⛪ CATHEDRAL *(1 use per Town)*
 
-Each player may describe the type of card, function, strategy, or effect they want. The request may include reasonable characteristics such as card type, theme, color, mana value, keyword, or intended role, but it cannot require one specific named card. When submitting the request, the player also chooses one supported **Fallback Category** that represents its main function. That category is locked for this Cathedral use.
+Each player may describe the type of card, function, strategy, or effect they want. The request may include reasonable characteristics such as card type, theme, color, mana value, keyword, or intended role, but it cannot require one specific named card. When submitting the request, the player also records their current Commander's color identity and chooses one supported **Fallback Category** that represents its main function. Both are locked for this Cathedral use.
 
 The Host provides one Good-Faith Offer. At a Base table, that card must be legal under the current Base rules, usable by the player, meaningfully related to the request, and a genuine attempt to support or improve the player's deck. It cannot be a deliberately weak, dead, unrelated, or joke selection.
 
@@ -2699,7 +2699,7 @@ The player may accept the offer or explain why it does not meaningfully satisfy 
 
 ##### Neutral fallback
 
-Generate five random, distinct cards from the locked Fallback Category. Replace only results that are invalid under the active ruleset, then the player chooses one of the five valid cards. The Host cannot choose, replace, or reroll a valid result because they dislike it.
+Generate five random, distinct cards from the locked Fallback Category within the recorded Commander's color identity. Replace only results that are invalid under the active ruleset, then the player chooses one of the five valid cards. The Host cannot choose, replace, or reroll a valid result because they dislike it.
 
 Fallback Categories and their card-search mappings are maintained by MTGR. Players and Hosts choose from the supported categories and do not supply raw search queries.
 
@@ -2710,7 +2710,7 @@ Then choose:
 
 All cards acquired from Cathedral are treated as **Scryfalled** and follow the normal MTGR Scryfall restrictions.
 
-Cards gained from Cathedral are not restricted by Commander color identity unless the effect or request specifically imposes that restriction.
+Host-offered Cathedral cards are not restricted by Commander color identity unless the request or another effect imposes that restriction. Neutral fallback cards must be within the Commander's color identity recorded when the request was submitted.
 
 ---
 
