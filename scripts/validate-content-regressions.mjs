@@ -269,23 +269,31 @@ await requireRulePatterns("doom-reroll", [
 ]);
 
 await requireRulePatterns("authority-level", [
-  ["complete scaling layer", /Authority[\s\S]*Doom[\s\S]*Demonic Persistence[\s\S]*Arcane Suppression/i],
-  ["all four every encounter", /Apply all four components during each encounter/i],
-  ["player-count scaling", /Authority and Doom scale with the number of players/i],
+  ["complete scaling layer", /Passive Host Scaling[\s\S]*Authority[\s\S]*Doom[\s\S]*Demonic Persistence[\s\S]*Arcane Suppression/i],
+  ["shared run resource", /one shared run resource/i],
+  ["player-count scaling", /Starting Authority, Command Slots, and Doom scale/i],
   ["always-active powers", /Demonic Persistence and Arcane Suppression are always active/i],
-  ["1-2 Authority I", /1[–-]2\s*\|\s*I/],
-  ["3 Authority II", /3\s*\|\s*II/],
-  ["4 Authority III", /4\s*\|\s*III/],
-  ["5 Authority IV", /5\s*\|\s*IV/],
-  ["6 Authority V", /6\s*\|\s*V/],
+  ["six-player Authority", /6\s*\|\s*3\s*\|\s*8/],
+  ["legacy no-double-dip", /do not also create legacy[\s\S]*Not Today/i],
 ]);
 
 await requireRulePatterns("authority-effects", [
-  ["Authority I", /Authority I/],
-  ["Authority II Not Today", /Authority II[\s\S]*Not Today/],
-  ["Authority III draw-or-land choice", /Authority III[\s\S]*additional card[\s\S]*additional land/i],
-  ["Authority IV Disallow", /Authority IV[\s\S]*Disallow/i],
-  ["Authority V Absolute Command", /Authority V[\s\S]*Absolute Command/i],
+  ["passive scaling", /Passive Host Scaling/i],
+  ["cost reduction", /first spell[\s\S]*costs \{1\} less/i],
+  ["four-player draw-or-land choice", /4\s*\|[\s\S]*draw one additional card[\s\S]*additional land/i],
+  ["legacy active effects superseded", /Not Today[\s\S]*free Disallow[\s\S]*superseded/i],
+]);
+
+await requireRulePatterns("host-profile-progression", [
+  ["verified run HXP", /100 Host XP/i],
+  ["six Talent Points", /six total at Rank 10/i],
+  ["no raw scaling", /do not increase Host life[\s\S]*Starting Authority/i],
+]);
+
+await requireRulePatterns("host-skill-tree", [
+  ["three branches", /Dominion[\s\S]*Torment[\s\S]*Control/i],
+  ["free playtest respec", /refund and reallocate all points at no cost/i],
+  ["Tier III inactive", /Tier III nodes[\s\S]*inactive/i],
 ]);
 
 await requireRulePatterns("always-on-scaling", [

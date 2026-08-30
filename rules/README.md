@@ -8,6 +8,9 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 
 - [Game Overview](getting-started/game-overview.md) — `game-overview`
 - [Host Role and Table Philosophy](host/host-role-table-philosophy.md) — `host-role-table-philosophy`
+- [Host Profile Progression](host/host-profile-progression.md) — `host-profile-progression`
+- [Host Skill Tree](host/host-skill-tree.md) — `host-skill-tree`
+- [Host Commands](host/host-commands.md) — `host-commands`
 - [Player Structure](getting-started/player-structure.md) — `player-structure`
 - [Deckbuilding Clarifications](getting-started/deckbuilding.md) — `deckbuilding`
 - [Banned & Restricted](getting-started/banned-restricted.md) — `banned-restricted`

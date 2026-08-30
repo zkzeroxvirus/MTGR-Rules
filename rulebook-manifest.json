@@ -298,6 +298,36 @@
       }
     },
     {
+      "id": "host-profile-progression",
+      "title": "Host Profile Progression",
+      "source": "rules/host/host-profile-progression.md",
+      "phase": "before-run",
+      "audience": ["host", "player"],
+      "aliases": ["host xp", "hxp", "host rank", "host talent points"],
+      "related": ["host-skill-tree", "host-commands", "host-role-table-philosophy"],
+      "content": { "kind": "document" }
+    },
+    {
+      "id": "host-skill-tree",
+      "title": "Host Skill Tree",
+      "source": "rules/host/host-skill-tree.md",
+      "phase": "before-run",
+      "audience": ["host", "player"],
+      "aliases": ["dominion", "torment", "control", "talent allocation", "respec"],
+      "related": ["host-profile-progression", "host-commands"],
+      "content": { "kind": "document" }
+    },
+    {
+      "id": "host-commands",
+      "title": "Host Commands",
+      "source": "rules/host/host-commands.md",
+      "phase": "before-run",
+      "audience": ["host", "player"],
+      "aliases": ["command loadout", "absolute command", "demonic ward", "seal the combo"],
+      "related": ["authority-level", "authority-interactions", "host-skill-tree"],
+      "content": { "kind": "document" }
+    },
+    {
       "id": "player-structure",
       "title": "Player Structure",
       "source": "rules/getting-started/player-structure.md",

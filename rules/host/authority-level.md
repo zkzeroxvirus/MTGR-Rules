@@ -1,28 +1,26 @@
-# **⚖️ AUTHORITY COMPONENT — LEVEL**
-
-## Host Scaling Power layer
+# Authority and Command Scaling
 
 Every encounter uses the complete Host Scaling Power layer:
 
-1. **Authority**
-2. **Doom**
-3. **Demonic Persistence**
-4. **Arcane Suppression**
+1. **Passive Host Scaling**
+2. **Authority and equipped Commands**
+3. **Doom**
+4. **Demonic Persistence**
+5. **Arcane Suppression**
 
-Authority and Doom scale with the number of players. Demonic Persistence and Arcane Suppression are always active regardless of player count. Apply all four components during each encounter unless a more specific encounter rule explicitly changes one of them.
+Passive Host Scaling, Starting Authority, Command Slots, and Doom scale with the number of non-Host players. Demonic Persistence and Arcane Suppression are always active.
 
-Authority supplies the Host's player-count-based control and tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
+| Non-Host players | Command Slots | Starting Authority |
+| --- | ---: | ---: |
+| 1 | 1 | 3 |
+| 2 | 2 | 4 |
+| 3 | 2 | 5 |
+| 4 | 3 | 6 |
+| 5 | 3 | 7 |
+| 6 | 3 | 8 |
 
-## Authority Level
+An approved variant with one additional normal encounter grants +1 Starting Authority.
 
-At the beginning of each encounter, determine the Host’s Authority Level based on the number of players.
+Authority is one shared run resource. It is not assigned to individual Commands and does not refresh between encounters, after a loss, at Town, or at Crypt start. Each equipped Command can be used once per encounter and becomes available again at the next encounter. This once-per-encounter limit replaces the proposed Crypt reserve cap.
 
-| Players | Authority Level |
-| ----- | ----- |
-| 1–2 | I |
-| 3 | II |
-| 4 | III |
-| 5 | IV |
-| 6 | V |
-
----
+When Commands are enabled, do not also create legacy **Not Today** tokens or grant the legacy free Disallow uses. Passive Host Scaling remains active.

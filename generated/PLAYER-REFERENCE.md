@@ -66,6 +66,76 @@ At a Custom table using an Unverified profile, the Host may announce house rules
 
 ---
 
+<!-- rule:host-profile-progression -->
+### Host Profile Progression
+
+The Host Profile is a persistent extension of the same Steam-backed account as the Player Profile. The separate Host Profile table object is a separate interface, not a separate account.
+
+Each progression-eligible verified Host run grants exactly **100 Host XP (HXP)**. It also retains the existing **750 Essence** reward for the linked Player Profile. Both grants are server-owned, idempotent, and applied only after the run passes participant verification or an auditable moderator override.
+
+Player Kills, Encounter Wins, Crypt Wins, Command uses, review scores, and Host achievements do not grant repeatable HXP.
+
+| Rank | Minimum HXP | Guaranteed reward |
+| ---: | ---: | --- |
+| 1 | 0 | Four starter Commands and Default Loadout 1 |
+| 2 | 100 | +1 Talent Point; Tier I tree access |
+| 3 | 250 | Saved Loadout Preset 2 |
+| 4 | 450 | +1 Talent Point; Tier II tree access |
+| 5 | 700 | Host title milestone |
+| 6 | 1,000 | +1 Talent Point |
+| 7 | 1,350 | +1 Talent Point; Tier III access; Preset 3 |
+| 8 | 1,750 | +1 Talent Point; profile treatment milestone |
+| 9 | 2,200 | Veteran Host title milestone |
+| 10 | 2,700 | +1 Talent Point; capstone cosmetic |
+
+Ranks 2, 4, 6, 7, 8, and 10 grant one Talent Point each, for six total at Rank 10. Rank and tree nodes expand tactical choice and presentation; they do not increase Host life, damage, draw, land drops, Command Slots, Starting Authority, or the once-per-encounter limit.
+
+<!-- rule:host-skill-tree -->
+### Host Skill Tree
+
+Talent Points may be allocated only outside an active or pending-verification run. During the playtest, a Host may refund and reallocate all points at no cost.
+
+Each node costs 1 Talent Point. Tier I requires Rank 2. Tier II requires Rank 4 and the preceding node in that branch. Tier III requires Rank 7 and the preceding Tier II node. A Host may invest across multiple branches.
+
+| Branch | Tier I | Tier II | Tier III |
+| --- | --- | --- | --- |
+| Dominion | Seal the Combo | Answer the Answer | Last Word - STUB |
+| Torment | Cruel Choice | Forced Exposure | Marked for Death - STUB |
+| Control | Strip the Shield | Grave Interdict | Divide and Conquer - STUB |
+
+Tier III nodes are visible destinations but are inactive. They cannot be purchased, granted, equipped, or counted as active unlocks until their effects are approved.
+
+Learning a node adds its Command to the Host's available library. It does not equip the Command or add a Command Slot. If a respec removes an equipped Command, the saved loadout becomes invalid and the Host Profile Tool replaces the invalid entry before the next run locks.
+
+<!-- rule:host-commands -->
+### Host Commands
+
+All Commands cost 1 Authority and can be used once per encounter unless their approved text explicitly says otherwise.
+
+#### Rank 1 starter Commands
+
+**Absolute Command - Disallow:** Reaction after a spell or ability is placed on the stack. Cast a copy of Disallow without paying its mana cost and choose a legal target. The copy is a normal spell on the stack.
+
+**Demonic Ward:** Reaction after a Host permanent becomes a target or before a destroy effect resolves. Target permanent the Host controls gains hexproof and indestructible until end of turn.
+
+**Twisted Targeting:** Reaction after a spell or ability with exactly one target is placed on the stack. Change its target to another legal target. A different legal target must exist.
+
+**Break the Charge:** Reaction after attackers are declared and before combat damage. Prevent all combat damage target attacking creature would deal this combat.
+
+#### Skill Tree Commands
+
+**Seal the Combo - Dominion I:** Counter target activated or triggered ability. If its source is a permanent, players cannot activate abilities of that permanent until end of turn.
+
+**Answer the Answer - Dominion II:** Counter target spell that targets a spell or ability controlled by the Host.
+
+**Cruel Choice - Torment I:** When a player casts their second spell in a turn, that player may pay 5 life. If they do not, counter that spell.
+
+**Forced Exposure - Torment II:** During the Host's main phase while the stack is empty, target player reveals their hand. Choose a nonland card. Until the end of that player's next turn, spells with that name cost {3} more to cast.
+
+**Strip the Shield - Control I:** Target nonland permanent controlled by a player loses hexproof and indestructible until end of turn.
+
+**Grave Interdict - Control II:** Exile target card from a graveyard. Until end of turn, players cannot cast spells from graveyards or activate abilities of cards in graveyards.
+
 <!-- rule:player-structure -->
 ### **👥 PLAYER STRUCTURE**
 
@@ -1094,8 +1164,8 @@ After each victorious encounter, players gain rewards and choose how to proceed 
   * Host Health  
   * Rewards  
   * Encounter difficulty
-  * The Authority and Doom components of the **Host Scaling Power layer (Host Authority)**
-* The complete Host Scaling Power layer is **Authority + Doom + Demonic Persistence + Arcane Suppression**
+  * Passive Host Scaling, Authority, Command Slots, and Doom
+* The complete Host Scaling Power layer is **Passive Host Scaling + Authority and Commands + Doom + Demonic Persistence + Arcane Suppression**
 * Demonic Persistence and Arcane Suppression are always active regardless of player count
 
 ---
@@ -1582,34 +1652,32 @@ The Loot Pool allows players to extract cards from defeated encounter decks.
 ---
 
 <!-- rule:authority-level -->
-### **⚖️ AUTHORITY COMPONENT — LEVEL**
-
-#### Host Scaling Power layer
+### Authority and Command Scaling
 
 Every encounter uses the complete Host Scaling Power layer:
 
-1. **Authority**
-2. **Doom**
-3. **Demonic Persistence**
-4. **Arcane Suppression**
+1. **Passive Host Scaling**
+2. **Authority and equipped Commands**
+3. **Doom**
+4. **Demonic Persistence**
+5. **Arcane Suppression**
 
-Authority and Doom scale with the number of players. Demonic Persistence and Arcane Suppression are always active regardless of player count. Apply all four components during each encounter unless a more specific encounter rule explicitly changes one of them.
+Passive Host Scaling, Starting Authority, Command Slots, and Doom scale with the number of non-Host players. Demonic Persistence and Arcane Suppression are always active.
 
-Authority supplies the Host's player-count-based control and tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
+| Non-Host players | Command Slots | Starting Authority |
+| --- | ---: | ---: |
+| 1 | 1 | 3 |
+| 2 | 2 | 4 |
+| 3 | 2 | 5 |
+| 4 | 3 | 6 |
+| 5 | 3 | 7 |
+| 6 | 3 | 8 |
 
-#### Authority Level
+An approved variant with one additional normal encounter grants +1 Starting Authority.
 
-At the beginning of each encounter, determine the Host’s Authority Level based on the number of players.
+Authority is one shared run resource. It is not assigned to individual Commands and does not refresh between encounters, after a loss, at Town, or at Crypt start. Each equipped Command can be used once per encounter and becomes available again at the next encounter. This once-per-encounter limit replaces the proposed Crypt reserve cap.
 
-| Players | Authority Level |
-| ----- | ----- |
-| 1–2 | I |
-| 3 | II |
-| 4 | III |
-| 5 | IV |
-| 6 | V |
-
----
+When Commands are enabled, do not also create legacy **Not Today** tokens or grant the legacy free Disallow uses. Passive Host Scaling remains active.
 
 <!-- rule:always-on-scaling -->
 ### **⚙️ ALWAYS-ON SCALING POWERS**
@@ -2132,97 +2200,31 @@ Nightmares invade the minds of the living.
 The Host exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater. Then they may cast a spell from among the exiled cards without paying its mana cost.
 
 <!-- rule:authority-effects -->
-### **🔥 AUTHORITY EFFECTS**
+### Passive Host Scaling
 
----
+These automatic benefits are retained when the Command system is active.
 
-#### **👑 Authority I — Minor Influence**
+| Non-Host players | Passive effect |
+| --- | --- |
+| 1-2 | The first spell the Host casts each turn costs {1} less. |
+| 3 | The first spell the Host casts each turn costs {1} less. |
+| 4 | The first spell the Host casts each turn costs {1} less. At the end of the Host's draw step, choose one: draw one additional card, or the Host may play one additional land that turn. |
+| 5-6 | The first spell the Host casts each turn costs {1} less. The Host may play one additional land on each of their turns and draws one additional card during each draw step. |
 
-*(1–2 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-
----
-
-#### **👑 Authority II — Infernal Momentum**
-
-*(3 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-
----
-
-#### **👑 Authority III — Demonic Pressure**
-
-*(4 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-
-At the end of the Host's draw step, the Host chooses one —
-
-* Draw an additional card.
-* The Host may play an additional land this turn.
-
----
-
-#### **👑 Authority IV — Overwhelming Presence**
-
-*(5 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
-
----
-
-#### **👑 Authority V — Absolute Command**
-
-*(6 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
-
----
+The old encounter-refreshing Not Today and free Disallow effects are superseded by Commands powered by shared Authority. They must not be combined with the Command system.
 
 <!-- rule:authority-interactions -->
-### **⚖️ INTERACTION RULES**
+### Authority and Command Interaction Rules
 
----
+Authority is spent when the Host commits to a legal Command use, before its effect resolves. A countered spell, illegal outcome, or otherwise failed result does not refund Authority unless the Command explicitly says so.
 
-#### **🔒 COUNTERSPELL STANDARD**
+A Command invocation is a special MTGR Host action, not automatically a Magic spell, activated ability, or triggered ability. A Command with `command_effect` resolution cannot be targeted by generic Magic counterspell text. Players may still take legal actions that change the game state or invalidate its targets.
 
-When an Authority effect grants the Host a free counter, it does so by casting a copy of Disallow without paying its mana cost.
+A Command with `casts_spell` creates or copies a Magic spell. The resulting spell uses the stack and may be responded to or countered normally. **Absolute Command - Disallow** uses this resolution mode.
 
-The **Not Today** enchantment token (Authority II, III, V) is a separate mechanic — it is sacrificed to counter a spell, activated ability, or triggered ability and does not use the Disallow copy.
+Command cards and panels are system objects, not permanents. They do not enter a game zone and cannot be destroyed, exiled, stolen, or otherwise affected as Magic objects.
 
----
-
-#### **📜 RULES CLARIFICATION**
-
-* Authority levels are not additive cost reduction by tier. Authority V is not {5} cheaper.
-* At each player count, use the full effect package listed for that Authority level.
-
-* The free copy of *Disallow*:
-  * Is cast normally
-  * Uses the stack
-  * May be responded to
-  * May be countered
-
----
-
-#### **🎯 VALID TARGETS**
-
-The Host may use *Disallow* to counter:
-
-* A spell  
-* An activated ability  
-* A triggered ability
+The party may inspect the Host's equipped Commands, each Command's text, whether it was used this encounter, and remaining Authority at all times.
 
 <!-- rule:doom-triggering -->
 ### **⚡ TRIGGERING A DOOM CARD**

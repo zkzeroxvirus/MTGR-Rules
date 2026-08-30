@@ -1,57 +1,12 @@
-# **🔥 AUTHORITY EFFECTS**
+# Passive Host Scaling
 
----
+These automatic benefits are retained when the Command system is active.
 
-## **👑 Authority I — Minor Influence**
+| Non-Host players | Passive effect |
+| --- | --- |
+| 1-2 | The first spell the Host casts each turn costs {1} less. |
+| 3 | The first spell the Host casts each turn costs {1} less. |
+| 4 | The first spell the Host casts each turn costs {1} less. At the end of the Host's draw step, choose one: draw one additional card, or the Host may play one additional land that turn. |
+| 5-6 | The first spell the Host casts each turn costs {1} less. The Host may play one additional land on each of their turns and draws one additional card during each draw step. |
 
-*(1–2 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-
----
-
-## **👑 Authority II — Infernal Momentum**
-
-*(3 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-
----
-
-## **👑 Authority III — Demonic Pressure**
-
-*(4 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-
-At the end of the Host's draw step, the Host chooses one —
-
-* Draw an additional card.
-* The Host may play an additional land this turn.
-
----
-
-## **👑 Authority IV — Overwhelming Presence**
-
-*(5 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
-
----
-
-## **👑 Authority V — Absolute Command**
-
-*(6 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
-
----
+The old encounter-refreshing Not Today and free Disallow effects are superseded by Commands powered by shared Authority. They must not be combined with the Command system.
