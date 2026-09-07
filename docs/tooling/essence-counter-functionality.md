@@ -13,7 +13,7 @@ Players maintain two independent profiles — one per counter type.
 
 ## Purpose
 
-The Essence Counter is the player profile and progression controller for MTG Roguelike. It tracks long-term progression data and provides a UI to review and claim unlocked rewards.
+The Essence Counter is the player profile and progression controller for MTG Roguelite. It tracks long-term progression data and provides a UI to review and claim unlocked rewards.
 
 It manages:
 

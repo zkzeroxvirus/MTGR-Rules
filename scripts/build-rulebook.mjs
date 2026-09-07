@@ -82,7 +82,7 @@ const relativeLink = (fromDir, target) => path.relative(fromDir, target).split(p
 const buildRulesIndex = (manifest, progression, platformContracts) => {
   const chunks = [
     "# Canonical MTGR Rule Units\n\n",
-    "This directory is the authoritative gameplay source for MTG Roguelike. Each linked file is one stable semantic rule unit consumed directly by MTGR Platform.\n\n",
+    "This directory is the authoritative gameplay source for MTG Roguelite. Each linked file is one stable semantic rule unit consumed directly by MTGR Platform.\n\n",
     "For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consumers should use stable contract IDs from `rulebook-manifest.json`, `PROGRESSION-CONTRACTS.json`, and `PLATFORM-SURFACE-CONTRACTS.json`.\n\n",
   ];
 
@@ -120,9 +120,9 @@ const outputsFor = async () => {
   const progression = await readJson(progressionPath);
   const platformContracts = await readJson(platformPath);
   return new Map([
-    ["RULEBOOK.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Complete Rulebook" })],
-    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Player Reference", audience: "player" })],
-    ["generated/HOST-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelike — Host Reference", audience: "host" })],
+    ["RULEBOOK.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelite — Complete Rulebook" })],
+    ["generated/PLAYER-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelite — Player Reference", audience: "player" })],
+    ["generated/HOST-REFERENCE.md", await buildReference(manifest, progression, platformContracts, { title: "MTG Roguelite — Host Reference", audience: "host" })],
     ["rules/README.md", buildRulesIndex(manifest, progression, platformContracts)],
   ]);
 };

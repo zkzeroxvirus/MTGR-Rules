@@ -1,4 +1,4 @@
-# Magic: The Gathering Roguelike — Deckbuilding Clarifications V2.1
+# Magic: The Gathering Roguelite — Deckbuilding Clarifications V2.1
 
 This document is the current source of truth for MTGR deck construction and deck interaction rules when older summaries conflict.
 

@@ -1,4 +1,4 @@
-# MTG Roguelike — Host Cheat Sheet
+# MTG Roguelite — Host Cheat Sheet
 
 > Compact table reference for running an MTGR session. Use the Full Rules for edge cases and complete subsystem text.
 

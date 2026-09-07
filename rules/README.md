@@ -1,6 +1,6 @@
 # Canonical MTGR Rule Units
 
-This directory is the authoritative gameplay source for MTG Roguelike. Each linked file is one stable semantic rule unit consumed directly by MTGR Platform.
+This directory is the authoritative gameplay source for MTG Roguelite. Each linked file is one stable semantic rule unit consumed directly by MTGR Platform.
 
 For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consumers should use stable contract IDs from `rulebook-manifest.json`, `PROGRESSION-CONTRACTS.json`, and `PLATFORM-SURFACE-CONTRACTS.json`.
 

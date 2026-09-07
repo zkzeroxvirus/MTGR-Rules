@@ -1,4 +1,4 @@
-# MTG Roguelike — Player Cheat Sheet
+# MTG Roguelite — Player Cheat Sheet
 
 > Compact table reference for playing an MTGR run. Use the Full Rules for edge cases and complete subsystem text.
 

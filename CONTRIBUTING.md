@@ -1,4 +1,4 @@
-# Contributing to MTG Roguelike Rules
+# Contributing to MTG Roguelite Rules
 
 Rule changes are made against semantic source units, not generated rulebooks or archived monoliths.
 

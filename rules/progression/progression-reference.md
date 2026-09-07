@@ -1,4 +1,4 @@
-# **🌟 MTG ROGUELIKE — PERMANENT PROGRESSION**
+# **🌟 MTG ROGUELITE — PERMANENT PROGRESSION**
 
 Season 1 permanent progression is tied to a player profile and persists across future runs.
 

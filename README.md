@@ -1,8 +1,8 @@
-# MTG Roguelike — Rules Repository
+# MTG Roguelite — Rules Repository
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U0D81ZUOGR)
 
-MTG Roguelike is a cooperative Commander roguelike where a party progresses through Host-controlled encounters, improves its decks during the run, and ultimately faces the Crypt.
+MTG Roguelite is a cooperative Commander roguelite where a party progresses through Host-controlled encounters, improves its decks during the run, and ultimately faces the Crypt.
 
 ## Read the Rules
 

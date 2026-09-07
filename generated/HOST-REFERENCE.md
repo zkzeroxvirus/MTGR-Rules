@@ -1,4 +1,4 @@
-# MTG Roguelike — Host Reference
+# MTG Roguelite — Host Reference
 
 > Generated from canonical rule units under `rules/`. Edit the source units, not this compilation.
 
@@ -7,7 +7,7 @@
 <!-- rule:game-overview -->
 ### **🎯 GAME OVERVIEW**
 
-MTG Roguelike is a cooperative, run-based Commander variant where players form a party and face a Host-controlled series of encounters.
+MTG Roguelite is a cooperative, run-based Commander variant where players form a party and face a Host-controlled series of encounters.
 
 Each run progresses through escalating encounters, culminating in a final boss fight known as the **Crypt**.
 
@@ -76,7 +76,7 @@ At a Custom table using an Unverified profile, the Host may announce house rules
 ---
 
 <!-- rule:deckbuilding -->
-### Magic: The Gathering Roguelike — Deckbuilding Clarifications V2.1
+### Magic: The Gathering Roguelite — Deckbuilding Clarifications V2.1
 
 This document is the current source of truth for MTGR deck construction and deck interaction rules when older summaries conflict.
 
@@ -1855,7 +1855,7 @@ If a player leaves before a later encounter begins, they do not qualify for rewa
 If a player joins during an encounter, they qualify for that encounter's rewards if the party completes it, but they do not qualify for rewards from any previous encounter in that run.
 
 <!-- rule:demon-generals-system -->
-### **👑 MTG ROGUELIKE — DEMON GENERALS V2.0**
+### **👑 MTG ROGUELITE — DEMON GENERALS V2.0**
 
 ---
 
