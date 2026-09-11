@@ -82,6 +82,10 @@
         "title": "Leftovers",
         "source": "rules/progression/crypt-buffs/leftovers.md"
       },
+      "reap_what_you_sow": {
+        "title": "Reap What You Sow",
+        "source": "rules/progression/crypt-buffs/reap-what-you-sow.md"
+      },
       "scent_of_death": {
         "title": "Scent of Death",
         "source": "rules/progression/crypt-buffs/scent-of-death.md"

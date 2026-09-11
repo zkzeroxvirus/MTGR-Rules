@@ -257,6 +257,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Upgrades, People, Upgrades](progression/crypt-buffs/upgrades-people-upgrades.md) — `upgrades_people_upgrades`
 - [Spoils of War](progression/crypt-buffs/lucky-pull.md) — `lucky_pull`
 - [Leftovers](progression/crypt-buffs/leftovers.md) — `leftovers`
+- [Reap What You Sow](progression/crypt-buffs/reap-what-you-sow.md) — `reap_what_you_sow`
 - [Scent of Death](progression/crypt-buffs/scent-of-death.md) — `scent_of_death`
 
 ### Tickets
