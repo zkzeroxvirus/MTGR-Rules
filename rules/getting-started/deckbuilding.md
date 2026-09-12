@@ -61,6 +61,12 @@ A card that was naturally drafted from the player's initial 100-card pool **may 
 
 After a card name has been spawned through a Scryfall-based free-card effect, that player may not use another Scryfall-based free-card effect during initial deckbuilding to create an additional copy of that same card.
 
+### Any-number exception
+
+A card whose own rules text says **“A deck can have any number of cards named [that card]”** is exempt from this initial-deckbuilding duplicate restriction. A player may use separate Scryfall-based card-granting effects to spawn multiple copies of that card, provided each effect can legally select it and grants its own card.
+
+Each spawned copy is still treated as Scryfalled. The exception changes only how many copies with that name may be spawned; it does not remove the Scryfall decal, trading, capture, combo, infinite-loop, or other deckbuilding restrictions.
+
 This restriction applies to:
 
 - the normal **Free Choice Card**;
@@ -72,6 +78,7 @@ Examples:
 - If a player drafts **Card A** from the 100-card pool, they may use their Free Choice Card to spawn a second **Card A**. That spawned copy is Scryfall-stamped.
 - That player may not then use **One with Death** or **Fickle Duplicant** to spawn a third **Card A** during initial deckbuilding.
 - If a card was not already drafted, a Scryfall-based free-card effect may spawn it normally, but another such effect may not spawn another copy of that same card during initial deckbuilding.
+- If a card says a deck may contain any number of cards with its name, separate eligible Scryfall-based effects may each spawn a copy of it.
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
 

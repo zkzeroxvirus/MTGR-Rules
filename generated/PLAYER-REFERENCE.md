@@ -34,6 +34,70 @@ Hosts may customize encounters and adjudicate unclear interactions within the ac
 
 ---
 
+<!-- rule:player-quick-start -->
+### Player Quick Start
+
+Use this flow when playing on the supported MTGR Tabletop Simulator table. Detailed rules in the linked systems control any edge cases.
+
+#### 1. Take a seat and claim a profile
+
+1. Sit at an available player color.
+2. Pick up and claim the **Player Profile** at that seat. The profile carries permanent progression and provides access to Town actions.
+3. Before Encounter 1 begins, equip up to **4 total slots** of Crypt Buffs, Achievements, Tickets, and Captures. Brands use their own progression layer and do not occupy these slots.
+4. Purchase Tickets and Brands, if desired. The Progression Shop is available before a run begins and after it ends.
+
+The Player Profile must finish loading before the Start Token can use its progression modifiers.
+
+#### 2. Build the starting deck
+
+1. Take the **Start Token** and generate **5 random legal Commanders**, plus any extra options granted by progression. Choose 1 and place it in the command zone.
+2. Select the colors in that Commander's color identity and generate the personal **100-card pool**.
+3. Replace each invalid result individually. Stickers, Attractions, and Contraptions are invalid starting-pool results and are replaced. Do not reroll the entire pool.
+4. Draft **22 cards** from the pool.
+5. Add **16 lands**, adjusted only by an effect that explicitly changes that number. Use the normal dual-land allocation and fill the remaining land slots with basics.
+6. Choose the **Free Choice Card** and stamp it with the Scryfall decal. It may be outside the Commander's color identity, but it must otherwise be Commander-legal and cannot be Sol Ring or a Gamechanger unless another rule allows it.
+7. Resolve all equipped progression that grants starting cards or otherwise changes deckbuilding.
+8. Put any additional cards into the Deck or Sideboard as their effects allow. Confirm that the library contains at least **39 cards**, reduced only by Brand of the Infinite Void. The Commander is the 40th card.
+
+Cards spawned directly through Scryfall-based choices, card-producing Tickets, or Captures are treated as Scryfalled and follow the Deckbuilding restrictions. A progression item that does not grant a Magic card is not itself a Scryfalled card.
+
+#### 3. Mark ready and finish pregame setup
+
+1. Flip the **Ready Token** beside the Commander after deckbuilding and all pregame progression are complete.
+2. Before Encounter 1 begins, players may make one seat adjustment. Seats cannot be changed after Encounter 1 begins unless an active rule explicitly allows it.
+3. Use a figure or another clearly identified marker for party votes.
+4. Resolve the starting **Good Event** and the Trinket selection in either order.
+5. For the Trinket selection, reveal **3 random Trinkets**, vote for 1, and apply it for the run. Trinkets granted by player Tickets are additional to this voted Trinket.
+
+Both steps must be complete before Encounter 1 begins, but neither must happen first.
+
+#### 4. Play the run
+
+During encounters, the party shares turn timing but each player controls their own cards, permanents, life total, mana, and game decisions. Follow Turn Structure for priority, attacks, triggers, and adjacent blocking.
+
+After each scheduled encounter:
+
+- On a win, resolve XP, Cashout, and Loot Pool rewards in any order.
+- On a loss, skip those rewards.
+- Win or lose, advance the scheduled encounter number. Do not replay a failed encounter.
+- Before another scheduled encounter, vote for **Town** or **Stay Out**, then resolve that path and its Events.
+- After the final scheduled encounter, Town is mandatory and no Event is drawn before the Crypt.
+
+#### 5. End the run
+
+The run ends when the party defeats or fails to defeat the Crypt. Use **End Session** on the Player Profile and include both the Deck and Sideboard when calculating run-end Essence.
+
+Each eligible player receives Essence equal to:
+
+- the Deck's total mana value plus the Sideboard's total mana value; and
+- any unspent XP.
+
+On a Crypt victory, each eligible player also receives **500 Essence** and the awarded Crypt Buff. If that Buff is already unlocked, it is sold automatically for an additional **250 Essence**.
+
+When a player earns an Achievement, resolve it through the supported Player Profile workflow so it is recorded on that player's persistent profile.
+
+---
+
 <!-- rule:host-role-table-philosophy -->
 ### Host Role and Table Philosophy
 
@@ -139,6 +203,12 @@ A card that was naturally drafted from the player's initial 100-card pool **may 
 
 After a card name has been spawned through a Scryfall-based free-card effect, that player may not use another Scryfall-based free-card effect during initial deckbuilding to create an additional copy of that same card.
 
+##### Any-number exception
+
+A card whose own rules text says **“A deck can have any number of cards named [that card]”** is exempt from this initial-deckbuilding duplicate restriction. A player may use separate Scryfall-based card-granting effects to spawn multiple copies of that card, provided each effect can legally select it and grants its own card.
+
+Each spawned copy is still treated as Scryfalled. The exception changes only how many copies with that name may be spawned; it does not remove the Scryfall decal, trading, capture, combo, infinite-loop, or other deckbuilding restrictions.
+
 This restriction applies to:
 
 - the normal **Free Choice Card**;
@@ -150,6 +220,7 @@ Examples:
 - If a player drafts **Card A** from the 100-card pool, they may use their Free Choice Card to spawn a second **Card A**. That spawned copy is Scryfall-stamped.
 - That player may not then use **One with Death** or **Fickle Duplicant** to spawn a third **Card A** during initial deckbuilding.
 - If a card was not already drafted, a Scryfall-based free-card effect may spawn it normally, but another such effect may not spawn another copy of that same card during initial deckbuilding.
+- If a card says a deck may contain any number of cards with its name, separate eligible Scryfall-based effects may each spawn a copy of it.
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
 
@@ -308,9 +379,11 @@ Applies to all MTGR runs unless overridden by the Host.
 
 Finish deckbuilding and resolve all active pregame progression effects before this sequence. All pregame effects must be finalized before Encounter 1 begins.
 
-Before the First Encounter  
-Resolve both in this order:  
- • Good Event (only the Good classification is eligible)\
+Before the First Encounter:
+
+Resolve both in either order:
+
+ • Good Event (only the Good classification is eligible)
  • Trinket
 
 Seat swap window (one-time):
@@ -318,7 +391,7 @@ Seat swap window (one-time):
  • After Encounter 1 begins, seat swapping is no longer allowed
  • Planned future seat-change options tied to a Building or Trinket are not active yet
 
-Resolve the Event using the Event System flow, then resolve the Trinket using the Trinket System flow.
+Resolve the Event using the Event System flow and the Trinket using the Trinket System flow. Both must be complete before Encounter 1 begins, but neither must happen first.
 
 Before later scheduled encounters, resolve Event(s) based on Town/Stay Out rules. Before the Crypt, Town is mandatory and no Events are drawn.
 
@@ -343,12 +416,14 @@ Trinkets are part of pre-encounter setup and are not resolved mid-encounter.
 
 #### TIMING
 
-Trinkets are resolved in the pre-first-encounter setup step after the starting Event is resolved.
+Trinkets are resolved during the pre-first-encounter setup step. The starting Good Event and Trinket selection may be resolved in either order.
 
-Starting setup order:
+Starting setup requirements:
 
 - Good Event (only the Good classification is eligible)
 - Trinket
+
+Both must be complete before Encounter 1 begins, but neither must happen first.
 
 Seat-swap window:
 
@@ -400,7 +475,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 #### INTERACTION WITH EVENTS
 
-The pre-first-encounter step resolves Event and Trinket, in that order.
+The pre-first-encounter step resolves both the Good Event and Trinket selection in either order.
 
 The starting Event must be classified Good. Follow Event Restrictions for selection eligibility.
 
@@ -1190,7 +1265,7 @@ The core gameplay loop is as follows:
 
 This loop repeats until the Crypt is reached.
 
-Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event must be classified Good. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
+Before Encounter 1, resolve the pre-run Event and Trinket setup in either order. The starting Event must be classified Good. Both pregame steps must be complete before the encounter begins. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
 
 ---
 
@@ -1238,6 +1313,14 @@ Example:
 
 This same principle applies to other effects that care about how many creatures are blocking an attacker, unless the effect specifically restricts which player must control those blockers.
 
+#### Myriad
+
+When a creature controlled by a party member attacks the Host and its **Myriad** ability triggers, create **one** token copy. That token enters attacking the Host. Exile the token at end of combat as Myriad normally requires.
+
+The party's shared turn does not create one Myriad token for each party member. For this ruling, the attacked Host is the single attacked opponent.
+
+When a creature controlled by the Host attacks with Myriad, resolve Myriad normally. Create a token for each other opponent the Host creature could attack, and have each token attack the corresponding opponent or an eligible planeswalker they control, following the normal Myriad rules.
+
 #### General interpretation rule
 
 Use the card's controller wording to decide which view applies:
@@ -1247,7 +1330,7 @@ Use the card's controller wording to decide which view applies:
 * The phrase **"you control"** always remains controller-specific; the shared party turn does not make allies' permanents count as permanents you control.
 * Blocking requirements and restrictions are evaluated using all creatures legally blocking that attacker, including legal adjacent blockers, unless the effect explicitly requires blockers controlled by a specific player.
 
-This interpretation applies to Exalted, Battle Cry, Menace, and other attack- or block-related effects with equivalent wording.
+This interpretation applies to Exalted, Battle Cry, Menace, Myriad, and other attack- or block-related effects with equivalent wording, subject to the specific Myriad ruling above.
 
 ---
 

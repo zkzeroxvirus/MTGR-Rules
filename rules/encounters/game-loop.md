@@ -14,7 +14,7 @@ The core gameplay loop is as follows:
 
 This loop repeats until the Crypt is reached.
 
-Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event must be classified Good. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
+Before Encounter 1, resolve the pre-run Event and Trinket setup in either order. The starting Event must be classified Good. Both pregame steps must be complete before the encounter begins. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
 
 ---
 

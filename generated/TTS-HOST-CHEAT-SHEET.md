@@ -5,13 +5,14 @@
 ## 1 — Before Encounter 1
 
 1. Finish player deckbuilding.
-2. Resolve the starting **Event** first. It must be classified Good.
-3. Resolve the **Trinket**.
+2. Resolve the starting **Good Event** and **Trinket** selection in either order. Both must be complete before Encounter 1.
 
 Ticket Trinkets are additional to the voted party Trinket. They are usable by the party and tied to their Ticket owners; follow the Trinket System for removal after departure.
-4. Players may use the one-time seat-swap window before Encounter 1 begins.
+3. Players may use the one-time seat-swap window before Encounter 1 begins.
 
 After Encounter 1 begins, normal Town / Stay Out Event timing applies.
+
+**Myriad:** A party-controlled Myriad creature creates one token attacking the Host. Host-controlled Myriad resolves normally for the Host's opponents.
 
 ## 2 — Host Encounter Setup
 

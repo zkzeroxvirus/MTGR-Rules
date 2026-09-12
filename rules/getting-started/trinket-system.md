@@ -16,12 +16,14 @@ Trinkets are part of pre-encounter setup and are not resolved mid-encounter.
 
 ## TIMING
 
-Trinkets are resolved in the pre-first-encounter setup step after the starting Event is resolved.
+Trinkets are resolved during the pre-first-encounter setup step. The starting Good Event and Trinket selection may be resolved in either order.
 
-Starting setup order:
+Starting setup requirements:
 
 - Good Event (only the Good classification is eligible)
 - Trinket
+
+Both must be complete before Encounter 1 begins, but neither must happen first.
 
 Seat-swap window:
 
@@ -73,7 +75,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 ## INTERACTION WITH EVENTS
 
-The pre-first-encounter step resolves Event and Trinket, in that order.
+The pre-first-encounter step resolves both the Good Event and Trinket selection in either order.
 
 The starting Event must be classified Good. Follow Event Restrictions for selection eligibility.
 

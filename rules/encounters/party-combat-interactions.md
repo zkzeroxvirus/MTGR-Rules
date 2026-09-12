@@ -39,6 +39,14 @@ Example:
 
 This same principle applies to other effects that care about how many creatures are blocking an attacker, unless the effect specifically restricts which player must control those blockers.
 
+## Myriad
+
+When a creature controlled by a party member attacks the Host and its **Myriad** ability triggers, create **one** token copy. That token enters attacking the Host. Exile the token at end of combat as Myriad normally requires.
+
+The party's shared turn does not create one Myriad token for each party member. For this ruling, the attacked Host is the single attacked opponent.
+
+When a creature controlled by the Host attacks with Myriad, resolve Myriad normally. Create a token for each other opponent the Host creature could attack, and have each token attack the corresponding opponent or an eligible planeswalker they control, following the normal Myriad rules.
+
 ## General interpretation rule
 
 Use the card's controller wording to decide which view applies:
@@ -48,6 +56,6 @@ Use the card's controller wording to decide which view applies:
 * The phrase **"you control"** always remains controller-specific; the shared party turn does not make allies' permanents count as permanents you control.
 * Blocking requirements and restrictions are evaluated using all creatures legally blocking that attacker, including legal adjacent blockers, unless the effect explicitly requires blockers controlled by a specific player.
 
-This interpretation applies to Exalted, Battle Cry, Menace, and other attack- or block-related effects with equivalent wording.
+This interpretation applies to Exalted, Battle Cry, Menace, Myriad, and other attack- or block-related effects with equivalent wording, subject to the specific Myriad ruling above.
 
 ---

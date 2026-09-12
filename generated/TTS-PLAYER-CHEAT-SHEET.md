@@ -14,13 +14,14 @@
 - Scryfall-stamped cards cannot be traded or captured. Follow Deckbuilding for their winning-combo and infinite-loop restrictions.
 - A two-card combo that wins using only those two cards is banned.
 - Infinite loops involving two or fewer cards, or any Scryfalled card, are limited to one iteration per turn. Created objects cannot restart that loop that turn, and extra turns from it cannot chain the same loop to generate further extra turns. See Deckbuilding.
+- Cards that say a deck can contain any number of cards with their name are exempt from the initial-deckbuilding Scryfall duplicate restriction. Each spawned copy remains Scryfalled.
 
 ## 2 — Before Encounter 1
 
-Resolve in order:
+Resolve both before Encounter 1, in either order:
 
-1. Starting **Event** — it must be classified Good.
-2. **Trinket**.
+- Starting **Event** — it must be classified Good.
+- **Trinket** selection.
 
 Ticket Trinkets are additional to the voted party Trinket. They are usable by the party and tied to their Ticket owners; follow the Trinket System for removal after departure.
 
@@ -43,6 +44,7 @@ The party shares turn timing as described in Turn Structure; each player retains
 - All party attackers are declared simultaneously.
 - The Host blocks after the full attack declaration.
 - Controller-specific attack wording is checked separately for each player. Combat-wide wording can apply across allied attackers.
+- A party-controlled Myriad creature creates one token attacking the Host. Host-controlled Myriad resolves normally for the Host's opponents.
 
 ### Host Turn
 

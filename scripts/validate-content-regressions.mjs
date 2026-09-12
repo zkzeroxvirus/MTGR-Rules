@@ -83,9 +83,41 @@ await requireRulePatterns("game-overview", [
   ["core structure preservation", /core run structure.*should remain consistent/i],
 ]);
 
+await requireRulePatterns("player-quick-start", [
+  ["Player Profile setup", /claim the \*\*Player Profile\*\*/i],
+  ["five Commander options", /5 random legal Commanders/i],
+  ["100-card pool", /100-card pool/i],
+  ["22-card draft", /Draft \*\*22 cards\*\*/i],
+  ["16 starting lands", /Add \*\*16 lands\*\*/i],
+  ["starting Good Event", /starting \*\*Good Event\*\*/i],
+  ["mandatory pre-Crypt Town", /Town is mandatory/i],
+  ["run-end Essence", /Deck's total mana value plus the Sideboard's total mana value/i],
+]);
+
+await requireRulePatterns("deckbuilding", [
+  ["any-number Scryfall duplicate exception", /A deck can have any number of cards named[\s\S]*exempt from this initial-deckbuilding duplicate restriction/i],
+  ["exception retains Scryfall status", /Each spawned copy is still treated as Scryfalled/i],
+]);
+
+await requireRulePatterns("party-combat-interactions", [
+  ["party Myriad creates one token", /party member attacks the Host[\s\S]*create \*\*one\*\* token copy/i],
+  ["Host Myriad resolves normally", /Host attacks with Myriad, resolve Myriad normally/i],
+]);
+
+await requireRulePatterns("host-run-procedure", [
+  ["White Host seat", /\*\*White\*\* Host seat/i],
+  ["Good Event and Trinket flexible order", /Good Event and Trinket selection in either order/i],
+  ["restricted encounter reroll", /requires a previous victory/i],
+  ["seven-card Loot Pool", /7 nonland cards/i],
+  ["loss advances schedule", /Do not replay the failed encounter/i],
+  ["d10 Supply Drop", /Roll \*\*1d10\*\*/i],
+  ["mandatory pre-Crypt Town", /Town is mandatory/i],
+  ["extra Crypts are Custom", /Additional Crypt encounters are a Custom-table rule/i],
+]);
+
 await requireRulePatterns("pre-encounter-setup", [
   ["pregame finalization", /All pregame effects must be finalized before Encounter 1/i],
-  ["Event then Trinket order", /Event[\s\S]*Trinket/i],
+  ["Event and Trinket flexible order", /Resolve both in either order/i],
 ]);
 
 await requireRulePatterns("town-buildings", [

@@ -40,6 +40,8 @@
       "description": "Understand the party, build a legal run deck, and finish pre-encounter setup.",
       "rules": [
         "game-overview",
+        "player-quick-start",
+        "host-run-procedure",
         "host-role-table-philosophy",
         "player-structure",
         "deckbuilding",
@@ -253,6 +255,56 @@
       "related": [
         "run-structure",
         "game-loop",
+        "reward-timing",
+        "town-flow",
+        "stay-out-flow",
+        "crypt"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "player-quick-start",
+      "title": "Player Quick Start",
+      "source": "rules/getting-started/player-quick-start.md",
+      "phase": "before-run",
+      "audience": [
+        "player"
+      ],
+      "aliases": [
+        "how to play",
+        "player setup",
+        "start token",
+        "ready token"
+      ],
+      "related": [
+        "deckbuilding",
+        "pre-encounter-setup",
+        "game-loop",
+        "run-end-essence-rewards"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "host-run-procedure",
+      "title": "Host Run Procedure",
+      "source": "rules/host/host-run-procedure.md",
+      "phase": "before-run",
+      "audience": [
+        "host"
+      ],
+      "aliases": [
+        "how to host",
+        "host setup",
+        "host flow",
+        "run procedure"
+      ],
+      "related": [
+        "host-role-table-philosophy",
+        "encounter-flow",
         "reward-timing",
         "town-flow",
         "stay-out-flow",

@@ -34,6 +34,94 @@ Hosts may customize encounters and adjudicate unclear interactions within the ac
 
 ---
 
+<!-- rule:host-run-procedure -->
+### Host Run Procedure
+
+Use this procedure when hosting on the supported MTGR Tabletop Simulator table. The Host is the party's opponent during encounters and its fair facilitator outside them.
+
+#### 1. Prepare the table
+
+1. Sit in the **White** Host seat.
+2. Locate the Encounter, Affix, Event, Doom, Traveler, Wanderer, Loot Pool, XP Master, Host Toolkit, and Host Town Actions objects.
+3. Confirm that every player has claimed a Player Profile and that each profile has finished loading.
+4. Confirm the active run mode. Standard mode has **3 scheduled encounters**; Variant mode has **4**.
+5. If using a Custom table or house rules, announce every change before deckbuilding finishes.
+6. Give players time to draft and resolve any progression choices that require Host assistance.
+
+#### 2. Prepare Encounter 1
+
+1. Count the active players. Use that count to determine the Host's Authority level, Doom count, health, and other player-count scaling.
+2. Determine the encounter's Base XP and applicable Affix bonus XP.
+3. Allow the one-time seat adjustment before Encounter 1.
+4. Confirm that every player has flipped their Ready Token.
+5. Resolve the starting Good Event and Trinket selection in either order.
+   - For the Event, reveal cards until a **Good Event** is revealed. Resolve it and shuffle the other revealed cards back into the Event deck.
+   - For the Trinket, reveal **3 random Trinkets**. The party votes for 1; apply that Trinket for the run. Resolve additional Trinkets granted by player Tickets under their own rules.
+7. Select the encounter. Before the party has won an encounter, reroll any encounter type whose availability rule requires a previous victory.
+8. Resolve encounter setup, Affixes, Host health, and turn order. The Host and party roll a d20 for non-Crypt encounters; the winner chooses who takes the first turn.
+
+Both pregame steps must be complete before Encounter 1 begins, but neither must happen first.
+
+#### 3. Resolve a scheduled encounter
+
+If the party wins:
+
+1. Award Base XP and Affix bonus XP through the XP Master.
+2. Provide the Cashout selection through the Host Toolkit.
+3. Shuffle the defeated encounter deck and reveal cards until **7 nonland cards** have been revealed. Add those cards to the shared Loot Pool.
+4. Finish all three reward systems before the next path begins. They may be completed in any order.
+
+If the party loses:
+
+1. Award no encounter XP, Cashout, or Loot Pool.
+2. Advance the scheduled encounter number. Do not replay the failed encounter.
+
+After either result, reset players to their current maximum HP and continue to the post-encounter path. Encounter types gated by a prior victory remain unavailable until the party has actually won an encounter.
+
+#### 4. Resolve Town or Stay Out
+
+Before another scheduled encounter, the party votes for one path.
+
+##### Town
+
+1. Fully heal all players and reset the consecutive Stay Out count.
+2. Reveal **1 random Traveler** from the Travelers bag. If Crossroads Cart is active, reveal 2 and the party chooses 1.
+3. Ready the Host Town Actions tool and assist with Cathedral, Blacksmith, and other Host-resolved requests.
+4. Allow players to use buildings and the available Traveler.
+5. When the party is finished, return the Traveler to its bag.
+6. Resolve **1 Event**, then prepare the next scheduled encounter.
+
+##### Stay Out
+
+1. Fully heal all players.
+2. Award **10 XP per player**, plus 5 XP for each consecutive Stay Out after the first.
+3. Give each player **2 Mystery Packs** to open immediately; each player keeps 1 card from each pack unless a specific effect says otherwise.
+4. Roll **1d10** and resolve the corresponding Supply Drop from the Notebook.
+5. Reveal **1 random Wanderer** and place it on the Wanderer podium. Each player may interact with it once unless its rule says otherwise.
+6. Resolve **2 Events**, plus 1 for each consecutive Stay Out after the first. Resolve them one at a time.
+7. Prepare the next scheduled encounter.
+
+Players cannot use Town buildings while Staying Out. Returning to Town resets both Stay Out XP and Event scaling.
+
+#### 5. Prepare the Crypt
+
+After the final scheduled encounter, Town is mandatory whether the party won or lost. Resolve the normal Town visit, including its Traveler and buildings, but do not draw an Event. Stay Out is unavailable.
+
+The Crypt receives no Affixes, and the Host takes the first turn.
+
+#### 6. Finish the run
+
+The run ends after the Crypt, whether the party wins or loses.
+
+1. Have each eligible player collect their Deck and Sideboard and use **End Session** on their Player Profile.
+2. Confirm that each eligible player receives run-end Essence for Deck mana value, Sideboard mana value, and unspent XP.
+3. On a victory, award each eligible player **500 Essence** and the Crypt's Buff through the Player Profile. A duplicate unlocked Buff grants an additional **250 Essence** instead.
+4. If an Achievement was earned, provide its token and have the player resolve it through their Player Profile.
+
+Additional Crypt encounters are a Custom-table rule. Announce their rewards, failure consequences, and progression eligibility before using them; they are not part of the base run procedure.
+
+---
+
 <!-- rule:host-role-table-philosophy -->
 ### Host Role and Table Philosophy
 
@@ -139,6 +227,12 @@ A card that was naturally drafted from the player's initial 100-card pool **may 
 
 After a card name has been spawned through a Scryfall-based free-card effect, that player may not use another Scryfall-based free-card effect during initial deckbuilding to create an additional copy of that same card.
 
+##### Any-number exception
+
+A card whose own rules text says **“A deck can have any number of cards named [that card]”** is exempt from this initial-deckbuilding duplicate restriction. A player may use separate Scryfall-based card-granting effects to spawn multiple copies of that card, provided each effect can legally select it and grants its own card.
+
+Each spawned copy is still treated as Scryfalled. The exception changes only how many copies with that name may be spawned; it does not remove the Scryfall decal, trading, capture, combo, infinite-loop, or other deckbuilding restrictions.
+
 This restriction applies to:
 
 - the normal **Free Choice Card**;
@@ -150,6 +244,7 @@ Examples:
 - If a player drafts **Card A** from the 100-card pool, they may use their Free Choice Card to spawn a second **Card A**. That spawned copy is Scryfall-stamped.
 - That player may not then use **One with Death** or **Fickle Duplicant** to spawn a third **Card A** during initial deckbuilding.
 - If a card was not already drafted, a Scryfall-based free-card effect may spawn it normally, but another such effect may not spawn another copy of that same card during initial deckbuilding.
+- If a card says a deck may contain any number of cards with its name, separate eligible Scryfall-based effects may each spawn a copy of it.
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
 
@@ -308,9 +403,11 @@ Applies to all MTGR runs unless overridden by the Host.
 
 Finish deckbuilding and resolve all active pregame progression effects before this sequence. All pregame effects must be finalized before Encounter 1 begins.
 
-Before the First Encounter  
-Resolve both in this order:  
- • Good Event (only the Good classification is eligible)\
+Before the First Encounter:
+
+Resolve both in either order:
+
+ • Good Event (only the Good classification is eligible)
  • Trinket
 
 Seat swap window (one-time):
@@ -318,7 +415,7 @@ Seat swap window (one-time):
  • After Encounter 1 begins, seat swapping is no longer allowed
  • Planned future seat-change options tied to a Building or Trinket are not active yet
 
-Resolve the Event using the Event System flow, then resolve the Trinket using the Trinket System flow.
+Resolve the Event using the Event System flow and the Trinket using the Trinket System flow. Both must be complete before Encounter 1 begins, but neither must happen first.
 
 Before later scheduled encounters, resolve Event(s) based on Town/Stay Out rules. Before the Crypt, Town is mandatory and no Events are drawn.
 
@@ -343,12 +440,14 @@ Trinkets are part of pre-encounter setup and are not resolved mid-encounter.
 
 #### TIMING
 
-Trinkets are resolved in the pre-first-encounter setup step after the starting Event is resolved.
+Trinkets are resolved during the pre-first-encounter setup step. The starting Good Event and Trinket selection may be resolved in either order.
 
-Starting setup order:
+Starting setup requirements:
 
 - Good Event (only the Good classification is eligible)
 - Trinket
+
+Both must be complete before Encounter 1 begins, but neither must happen first.
 
 Seat-swap window:
 
@@ -400,7 +499,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 #### INTERACTION WITH EVENTS
 
-The pre-first-encounter step resolves Event and Trinket, in that order.
+The pre-first-encounter step resolves both the Good Event and Trinket selection in either order.
 
 The starting Event must be classified Good. Follow Event Restrictions for selection eligibility.
 
@@ -1190,7 +1289,7 @@ The core gameplay loop is as follows:
 
 This loop repeats until the Crypt is reached.
 
-Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event must be classified Good. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
+Before Encounter 1, resolve the pre-run Event and Trinket setup in either order. The starting Event must be classified Good. Both pregame steps must be complete before the encounter begins. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
 
 ---
 
@@ -1238,6 +1337,14 @@ Example:
 
 This same principle applies to other effects that care about how many creatures are blocking an attacker, unless the effect specifically restricts which player must control those blockers.
 
+#### Myriad
+
+When a creature controlled by a party member attacks the Host and its **Myriad** ability triggers, create **one** token copy. That token enters attacking the Host. Exile the token at end of combat as Myriad normally requires.
+
+The party's shared turn does not create one Myriad token for each party member. For this ruling, the attacked Host is the single attacked opponent.
+
+When a creature controlled by the Host attacks with Myriad, resolve Myriad normally. Create a token for each other opponent the Host creature could attack, and have each token attack the corresponding opponent or an eligible planeswalker they control, following the normal Myriad rules.
+
 #### General interpretation rule
 
 Use the card's controller wording to decide which view applies:
@@ -1247,7 +1354,7 @@ Use the card's controller wording to decide which view applies:
 * The phrase **"you control"** always remains controller-specific; the shared party turn does not make allies' permanents count as permanents you control.
 * Blocking requirements and restrictions are evaluated using all creatures legally blocking that attacker, including legal adjacent blockers, unless the effect explicitly requires blockers controlled by a specific player.
 
-This interpretation applies to Exalted, Battle Cry, Menace, and other attack- or block-related effects with equivalent wording.
+This interpretation applies to Exalted, Battle Cry, Menace, Myriad, and other attack- or block-related effects with equivalent wording, subject to the specific Myriad ruling above.
 
 ---
 
