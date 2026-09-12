@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "seasons": {
+    "harvest-moon": {
+      "overviewRuleId": "harvest-moon-overview",
+      "pools": {
+        "events": [
+          {
+            "itemId": "scarecrow-feast",
+            "ruleId": "event-scarecrow-feast",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cabin-in-the-woods",
+            "ruleId": "event-cabin-in-the-woods",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "broken-mirror",
+            "ruleId": "event-broken-mirror",
+            "classification": "Good"
+          },
+          {
+            "itemId": "verdant-shrubbery",
+            "ruleId": "event-verdant-shrubbery",
+            "classification": "Good"
+          },
+          {
+            "itemId": "turkey-uprising",
+            "ruleId": "event-turkey-uprising",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "unseen-doors",
+            "ruleId": "event-unseen-doors",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "rhystic-library",
+            "ruleId": "event-rhystic-library",
+            "classification": "Good"
+          },
+          {
+            "itemId": "explosive-volcano",
+            "ruleId": "event-explosive-volcano",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "kithkin-hovel",
+            "ruleId": "event-kithkin-hovel",
+            "classification": "Good"
+          },
+          {
+            "itemId": "urza-s-sylex",
+            "ruleId": "event-urzas-sylex",
+            "classification": "Good"
+          },
+          {
+            "itemId": "pumpkin-smashing",
+            "ruleId": "event-pumpkin-smashing",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "cave-of-spoils",
+            "ruleId": "event-cave-of-spoils",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "the-hunt-is-on",
+            "ruleId": "event-the-hunt-is-on",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "card-fetcher",
+            "ruleId": "event-card-fetcher",
+            "classification": "Good"
+          },
+          {
+            "itemId": "burn-the-witch",
+            "ruleId": "event-burn-the-witch",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "headless-horsey",
+            "ruleId": "event-headless-horsey",
+            "classification": "Good"
+          },
+          {
+            "itemId": "vanguard-caravan",
+            "ruleId": "event-vanguard-caravan",
+            "classification": "Good"
+          },
+          {
+            "itemId": "plane-to-plane-circus",
+            "ruleId": "event-plane-to-plane-circus",
+            "classification": "Good"
+          },
+          {
+            "itemId": "meeting-of-the-planes",
+            "ruleId": "event-meeting-of-the-planes",
+            "classification": "Good"
+          },
+          {
+            "itemId": "abandoned-supply-pack",
+            "ruleId": "event-abandoned-supply-pack",
+            "classification": "Good"
+          },
+          {
+            "itemId": "plane-trader",
+            "ruleId": "event-plane-trader",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "lion-and-a-mouse",
+            "ruleId": "event-lion-and-a-mouse",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "covenant",
+            "ruleId": "event-covenant",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "equinox",
+            "ruleId": "event-equinox",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "forgotten-key",
+            "ruleId": "event-forgotten-key",
+            "classification": "Good"
+          },
+          {
+            "itemId": "rewrite-reality",
+            "ruleId": "event-rewrite-reality",
+            "classification": "Good"
+          },
+          {
+            "itemId": "sword-in-the-stone",
+            "ruleId": "event-sword-in-the-stone",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "overflowing-feast",
+            "ruleId": "event-overflowing-feast",
+            "classification": "Good"
+          },
+          {
+            "itemId": "attunement-tower",
+            "ruleId": "event-attunement-tower",
+            "classification": "Good"
+          },
+          {
+            "itemId": "wandering-planes-saboteur",
+            "ruleId": "event-wandering-planes-saboteur",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "crowstorm",
+            "ruleId": "event-crowstorm",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "it-s-just-standing-there-menacingly",
+            "ruleId": "event-its-just-standing-there-menacingly",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "commander-s-guild",
+            "ruleId": "event-commanders-guild",
+            "classification": "Good"
+          },
+          {
+            "itemId": "endless-sea",
+            "ruleId": "event-endless-sea",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mirror-dimension",
+            "ruleId": "event-mirror-dimension",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "trench-of-the-void",
+            "ruleId": "event-trench-of-the-void",
+            "classification": "Good"
+          },
+          {
+            "itemId": "timeless-market",
+            "ruleId": "event-timeless-market",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "pumpkin-harvest",
+            "ruleId": "event-pumpkin-harvest",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "you-re-taking-too-long",
+            "ruleId": "event-youre-taking-too-long",
+            "classification": "Good"
+          },
+          {
+            "itemId": "sliver-king",
+            "ruleId": "event-sliver-king",
+            "classification": "Good"
+          },
+          {
+            "itemId": "spartan-plains",
+            "ruleId": "event-spartan-plains",
+            "classification": "Good"
+          },
+          {
+            "itemId": "lost-ark",
+            "ruleId": "event-lost-ark",
+            "classification": "Good"
+          },
+          {
+            "itemId": "wishing-well",
+            "ruleId": "event-wishing-well",
+            "classification": "Good"
+          },
+          {
+            "itemId": "earthquake",
+            "ruleId": "event-earthquake",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "dragon-hoard",
+            "ruleId": "event-dragon-hoard",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "you-stepped-on-a-leaf",
+            "ruleId": "event-you-stepped-on-a-leaf",
+            "classification": "Good"
+          },
+          {
+            "itemId": "peaceful-orchard",
+            "ruleId": "event-peaceful-orchard",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cornfields",
+            "ruleId": "event-cornfields",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "trick-or-treat",
+            "ruleId": "event-trick-or-treat",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "ivy-forest",
+            "ruleId": "event-ivy-forest",
+            "classification": "Good"
+          },
+          {
+            "itemId": "tomb-of-the-forgotten",
+            "ruleId": "event-tomb-of-the-forgotten",
+            "classification": "Good"
+          },
+          {
+            "itemId": "strung-up",
+            "ruleId": "event-strung-up",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "exotic-car-show",
+            "ruleId": "event-exotic-car-show",
+            "classification": "Good"
+          },
+          {
+            "itemId": "card-vortex",
+            "ruleId": "event-card-vortex",
+            "classification": "Good"
+          },
+          {
+            "itemId": "only-need-to-be-faster-than-you",
+            "ruleId": "event-only-need-to-be-faster-than-you",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "harvest-festival",
+            "ruleId": "event-harvest-festival",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "splendid-skies",
+            "ruleId": "event-splendid-skies",
+            "classification": "Good"
+          },
+          {
+            "itemId": "artifact-on-a-pedestal",
+            "ruleId": "event-artifact-on-a-pedestal",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "bloody-altar",
+            "ruleId": "event-bloody-altar",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "stoneforge-caravan",
+            "ruleId": "event-stoneforge-caravan",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mystic-waterwell",
+            "ruleId": "event-mystic-waterwell",
+            "classification": "Good"
+          },
+          {
+            "itemId": "found-a-lucky-coin",
+            "ruleId": "event-found-a-lucky-coin",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "wandering-planes-arms-dealer",
+            "ruleId": "event-wandering-planes-arms-dealer",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "zubera-crossing",
+            "ruleId": "event-zubera-crossing",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "a-stone-s-throw",
+            "ruleId": "event-a-stones-throw",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "paranoia",
+            "ruleId": "event-paranoia",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "the-reaper-king-comes",
+            "ruleId": "event-the-reaper-king-comes",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "that-damned-bridge",
+            "ruleId": "event-that-damned-bridge",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "a-rock-pile",
+            "ruleId": "event-a-rock-pile",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "sorrowful-swamp",
+            "ruleId": "event-sorrowful-swamp",
+            "classification": "Good"
+          },
+          {
+            "itemId": "treasure-goblin",
+            "ruleId": "event-treasure-goblin",
+            "classification": "Good"
+          },
+          {
+            "itemId": "planar-excavation",
+            "ruleId": "event-planar-excavation",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mana-ripple",
+            "ruleId": "event-mana-ripple",
+            "classification": "Good"
+          },
+          {
+            "itemId": "rapidly-growing-harvest",
+            "ruleId": "event-rapidly-growing-harvest",
+            "classification": "Good"
+          },
+          {
+            "itemId": "witch-s-cauldron",
+            "ruleId": "event-witchs-cauldron",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cheese-festival",
+            "ruleId": "event-cheese-festival",
+            "classification": "Good"
+          },
+          {
+            "itemId": "strange-set-of-potions",
+            "ruleId": "event-strange-set-of-potions",
+            "classification": "Good"
+          },
+          {
+            "itemId": "crossroads",
+            "ruleId": "event-crossroads",
+            "classification": "Good"
+          },
+          {
+            "itemId": "planetary-bank",
+            "ruleId": "event-planetary-bank",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "reckless-racketeering",
+            "ruleId": "event-reckless-racketeering",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "wandering-planes-assistant",
+            "ruleId": "event-wandering-planes-assistant",
+            "classification": "Good"
+          },
+          {
+            "itemId": "nameless-smith",
+            "ruleId": "event-nameless-smith",
+            "classification": "Good"
+          },
+          {
+            "itemId": "a-portent-of-fortune",
+            "ruleId": "event-a-portent-of-fortune",
+            "classification": "Good"
+          }
+        ],
+        "doom": [
+          {
+            "itemId": "your-trinkets-are-nothing-but-toys-to-me",
+            "ruleId": "harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me"
+          },
+          {
+            "itemId": "who-turned-out-the-lights",
+            "ruleId": "harvest-moon-doom-who-turned-out-the-lights"
+          },
+          {
+            "itemId": "the-scarecrow-cometh",
+            "ruleId": "harvest-moon-doom-the-scarecrow-cometh"
+          },
+          {
+            "itemId": "stir-the-pot",
+            "ruleId": "harvest-moon-doom-stir-the-pot"
+          },
+          {
+            "itemId": "soul-rend",
+            "ruleId": "harvest-moon-doom-soul-rend"
+          },
+          {
+            "itemId": "rotten-bounty",
+            "ruleId": "harvest-moon-doom-rotten-bounty"
+          },
+          {
+            "itemId": "i-m-the-hero-of-this-story",
+            "ruleId": "harvest-moon-doom-im-the-hero-of-this-story"
+          },
+          {
+            "itemId": "hunt-them-all",
+            "ruleId": "harvest-moon-doom-hunt-them-all"
+          },
+          {
+            "itemId": "hunt-the-weak",
+            "ruleId": "harvest-moon-doom-hunt-the-weak"
+          },
+          {
+            "itemId": "harvest-of-the-damned",
+            "ruleId": "harvest-moon-doom-harvest-of-the-damned"
+          },
+          {
+            "itemId": "forged-in-their-name",
+            "ruleId": "harvest-moon-doom-forged-in-their-name"
+          },
+          {
+            "itemId": "danse-macabre",
+            "ruleId": "harvest-moon-doom-danse-macabre"
+          },
+          {
+            "itemId": "clock-strikes-midnight",
+            "ruleId": "harvest-moon-doom-clock-strikes-midnight"
+          },
+          {
+            "itemId": "bloodrush",
+            "ruleId": "harvest-moon-doom-bloodrush"
+          },
+          {
+            "itemId": "a-wolf-in-sheep-s-clothing",
+            "ruleId": "harvest-moon-doom-a-wolf-in-sheeps-clothing"
+          }
+        ],
+        "trinkets": [
+          {
+            "itemId": "forgotten-key",
+            "ruleId": "trinket-forgotten-key"
+          },
+          {
+            "itemId": "stolen-pumpkin",
+            "ruleId": "trinket-stolen-pumpkin"
+          },
+          {
+            "itemId": "pickled-pumpkin",
+            "ruleId": "trinket-pickled-pumpkin"
+          },
+          {
+            "itemId": "dead-leaf",
+            "ruleId": "trinket-dead-leaf"
+          },
+          {
+            "itemId": "legendary-shovel",
+            "ruleId": "trinket-legendary-shovel"
+          },
+          {
+            "itemId": "scaery-pumpkin",
+            "ruleId": "trinket-scaery-pumpkin"
+          },
+          {
+            "itemId": "shattered-glass",
+            "ruleId": "trinket-shattered-glass"
+          },
+          {
+            "itemId": "full-moon",
+            "ruleId": "trinket-full-moon"
+          }
+        ],
+        "travelers": [
+          {
+            "itemId": "farm-tool-supplier",
+            "ruleId": "harvest-moon-travelers-farm-tool-supplier"
+          },
+          {
+            "itemId": "nylea-hunter-of-horrors",
+            "ruleId": "harvest-moon-travelers-nylea-hunter-of-horrors"
+          }
+        ],
+        "wanderers": [
+          {
+            "itemId": "frightened-farmer",
+            "ruleId": "harvest-moon-wanderers-frightened-farmer"
+          },
+          {
+            "itemId": "kind-stranger",
+            "ruleId": "harvest-moon-wanderers-kind-stranger"
+          },
+          {
+            "itemId": "reaper-king",
+            "ruleId": "harvest-moon-wanderers-reaper-king"
+          }
+        ],
+        "masters": [],
+        "stories": [],
+        "tribals": [],
+        "crypts": [],
+        "travelerRewards": [
+          {
+            "itemId": "nylea-s-sight",
+            "ruleId": "trinket-nyleas-sight",
+            "acquisition": "Only available through Nylea, Hunter of Horrors."
+          },
+          {
+            "itemId": "karametra-s-cornucopia",
+            "ruleId": "trinket-karametras-cornucopia",
+            "acquisition": "Only available through Nylea, Hunter of Horrors."
+          }
+        ],
+        "completionRewards": [
+          {
+            "itemId": "reap-what-you-sow",
+            "progressionId": "reap_what_you_sow"
+          }
+        ]
+      }
+    },
+    "high-tide-hijinks": {
+      "overviewRuleId": "high-tide-hijinks-overview",
+      "pools": {
+        "events": [
+          {
+            "itemId": "bad-wave-bro",
+            "ruleId": "event-bad-wave-bro"
+          },
+          {
+            "itemId": "swap-shop",
+            "ruleId": "event-swap-shop"
+          },
+          {
+            "itemId": "merfolk-dont-like-scuba",
+            "ruleId": "event-merfolk-dont-like-scuba"
+          },
+          {
+            "itemId": "do-not-disturb-the-fish",
+            "ruleId": "event-do-not-disturb-the-fish"
+          },
+          {
+            "itemId": "crabs",
+            "ruleId": "event-crabs"
+          },
+          {
+            "itemId": "course-rough-and-gets-everywhere",
+            "ruleId": "event-course-rough-and-gets-everywhere"
+          },
+          {
+            "itemId": "no-hard-feelings-on-forgetting-the-food",
+            "ruleId": "event-no-hard-feelings-on-forgetting-the-food"
+          },
+          {
+            "itemId": "youve-found-a-fishing-rod",
+            "ruleId": "event-youve-found-a-fishing-rod"
+          },
+          {
+            "itemId": "does-anyone-here-like-fishing",
+            "ruleId": "event-does-anyone-here-like-fishing"
+          },
+          {
+            "itemId": "packsicle-stand",
+            "ruleId": "event-packsicle-stand"
+          },
+          {
+            "itemId": "volleyball-game",
+            "ruleId": "event-volleyball-game"
+          },
+          {
+            "itemId": "helpful-dolphin",
+            "ruleId": "event-helpful-dolphin"
+          },
+          {
+            "itemId": "suken-treasure",
+            "ruleId": "event-suken-treasure"
+          },
+          {
+            "itemId": "pooltoy-for-sale",
+            "ruleId": "event-pooltoy-for-sale"
+          },
+          {
+            "itemId": "feeding-frenzy",
+            "ruleId": "event-feeding-frenzy"
+          }
+        ],
+        "doom": [
+          {
+            "itemId": "nice-sand-castle-nerd",
+            "ruleId": "high-tide-hijinks-doom-nice-sand-castle-nerd"
+          },
+          {
+            "itemId": "sunburn",
+            "ruleId": "high-tide-hijinks-doom-sunburn"
+          },
+          {
+            "itemId": "typhoon",
+            "ruleId": "high-tide-hijinks-doom-typhoon"
+          },
+          {
+            "itemId": "sirring-duck",
+            "ruleId": "high-tide-hijinks-doom-sirring-duck"
+          },
+          {
+            "itemId": "im-gonna-put-some-sand-in-your-eye",
+            "ruleId": "high-tide-hijinks-doom-im-gonna-put-some-sand-in-your-eye"
+          }
+        ],
+        "trinkets": [
+          {
+            "itemId": "vollyball",
+            "ruleId": "high-tide-hijinks-trinkets-vollyball"
+          },
+          {
+            "itemId": "crabby",
+            "ruleId": "high-tide-hijinks-trinkets-crabby"
+          },
+          {
+            "itemId": "bad-rod",
+            "ruleId": "high-tide-hijinks-trinkets-bad-rod"
+          },
+          {
+            "itemId": "good-rod",
+            "ruleId": "high-tide-hijinks-trinkets-good-rod",
+            "upgrade": true
+          },
+          {
+            "itemId": "great-rod",
+            "ruleId": "high-tide-hijinks-trinkets-great-rod",
+            "upgrade": true
+          },
+          {
+            "itemId": "cursed-rod",
+            "ruleId": "high-tide-hijinks-trinkets-cursed-rod"
+          }
+        ],
+        "travelers": [
+          {
+            "itemId": "seahorse-seller",
+            "ruleId": "high-tide-hijinks-travelers-seahorse-seller"
+          },
+          {
+            "itemId": "thassa",
+            "ruleId": "high-tide-hijinks-travelers-thassa"
+          }
+        ],
+        "wanderers": [
+          {
+            "itemId": "sir-crabbington",
+            "ruleId": "high-tide-hijinks-wanderers-sir-crabbington"
+          }
+        ],
+        "completionRewards": [
+          {
+            "itemId": "leftovers",
+            "progressionId": "leftovers"
+          }
+        ],
+        "crypts": [],
+        "masters": [],
+        "tribals": [],
+        "stories": []
+      }
+    }
+  }
+}

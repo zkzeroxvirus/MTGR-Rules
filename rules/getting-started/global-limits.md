@@ -12,7 +12,7 @@ Each player may have:
  • 1 Conspiracy  
  • 1 Vanguard  
  • 1 Emblem  
- • 1 Trinket
+ • 1 Trinket tied to their Ticket, in addition to the normal voted party Trinket
  • 1 Companion
 
 ---

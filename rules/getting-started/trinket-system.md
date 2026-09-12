@@ -20,7 +20,7 @@ Trinkets are resolved in the pre-first-encounter setup step after the starting E
 
 Starting setup order:
 
-- Event (cannot be Bad; Ambush counts as Bad)
+- Good Event (only the Good classification is eligible)
 - Trinket
 
 Seat-swap window:
@@ -40,13 +40,13 @@ When using the normal table flow:
 
 ---
 
-## TRINKET TICKET OVERRIDE
+## ADDITIONAL TRINKETS FROM TICKETS
 
 If a player has an active Trinket Ticket:
 
 1. Present 3 random Trinkets from the same normal Trinket pool
 2. That player chooses 1 Trinket (no table vote required)
-3. Apply the chosen Trinket for the run
+3. Add the chosen Trinket to the party for the run, in addition to the normal voted Trinket
 
 This occurs during pre-game setup before Encounter 1.
 
@@ -56,7 +56,7 @@ Ticket slot limits are per player, not per party.
 
 ## RULES CONSTRAINTS
 
-- A player may have at most 1 Trinket at a time
+- A player may have at most 1 personal Ticket Trinket at a time; the normal voted party Trinket does not occupy that personal limit
 - Trinket effects apply only as written on that Trinket
 - If a Trinket would conflict with a core rule, the Host resolves the conflict using normal host adjudication
 - The party is not capped at one total Trinket by this rule; this is a per-player limit
@@ -75,7 +75,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 The pre-first-encounter step resolves Event and Trinket, in that order.
 
-The starting Event cannot be Bad. Ambush counts as Bad and is also excluded.
+The starting Event must be classified Good. Follow Event Restrictions for selection eligibility.
 
 After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event systems.
 

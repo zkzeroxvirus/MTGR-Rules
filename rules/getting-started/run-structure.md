@@ -40,7 +40,7 @@ After each victorious encounter, players gain rewards and choose how to proceed 
 
 The goal of a run is to defeat the **Final Boss (Crypt)**.
 
-To reach the Crypt, players must successfully defeat all prior encounters.
+A win or loss advances the scheduled encounter number. Failed encounters are not replayed. After the final scheduled encounter, the party must visit Town, then face the Crypt.
 
 ---
 

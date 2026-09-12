@@ -1,0 +1,1722 @@
+{
+  "schemaVersion": 1,
+  "seasons": {
+    "harvest-moon": {
+      "overviewRuleId": "harvest-moon-overview",
+      "pools": {
+        "events": [
+          {
+            "itemId": "scarecrow-feast",
+            "ruleId": "event-scarecrow-feast",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cabin-in-the-woods",
+            "ruleId": "event-cabin-in-the-woods",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "broken-mirror",
+            "ruleId": "event-broken-mirror",
+            "classification": "Good"
+          },
+          {
+            "itemId": "verdant-shrubbery",
+            "ruleId": "event-verdant-shrubbery",
+            "classification": "Good"
+          },
+          {
+            "itemId": "turkey-uprising",
+            "ruleId": "event-turkey-uprising",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "unseen-doors",
+            "ruleId": "event-unseen-doors",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "rhystic-library",
+            "ruleId": "event-rhystic-library",
+            "classification": "Good"
+          },
+          {
+            "itemId": "explosive-volcano",
+            "ruleId": "event-explosive-volcano",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "kithkin-hovel",
+            "ruleId": "event-kithkin-hovel",
+            "classification": "Good"
+          },
+          {
+            "itemId": "urza-s-sylex",
+            "ruleId": "event-urzas-sylex",
+            "classification": "Good"
+          },
+          {
+            "itemId": "pumpkin-smashing",
+            "ruleId": "event-pumpkin-smashing",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "cave-of-spoils",
+            "ruleId": "event-cave-of-spoils",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "the-hunt-is-on",
+            "ruleId": "event-the-hunt-is-on",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "card-fetcher",
+            "ruleId": "event-card-fetcher",
+            "classification": "Good"
+          },
+          {
+            "itemId": "burn-the-witch",
+            "ruleId": "event-burn-the-witch",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "headless-horsey",
+            "ruleId": "event-headless-horsey",
+            "classification": "Good"
+          },
+          {
+            "itemId": "vanguard-caravan",
+            "ruleId": "event-vanguard-caravan",
+            "classification": "Good"
+          },
+          {
+            "itemId": "plane-to-plane-circus",
+            "ruleId": "event-plane-to-plane-circus",
+            "classification": "Good"
+          },
+          {
+            "itemId": "meeting-of-the-planes",
+            "ruleId": "event-meeting-of-the-planes",
+            "classification": "Good"
+          },
+          {
+            "itemId": "abandoned-supply-pack",
+            "ruleId": "event-abandoned-supply-pack",
+            "classification": "Good"
+          },
+          {
+            "itemId": "plane-trader",
+            "ruleId": "event-plane-trader",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "lion-and-a-mouse",
+            "ruleId": "event-lion-and-a-mouse",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "covenant",
+            "ruleId": "event-covenant",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "equinox",
+            "ruleId": "event-equinox",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "forgotten-key",
+            "ruleId": "event-forgotten-key",
+            "classification": "Good"
+          },
+          {
+            "itemId": "rewrite-reality",
+            "ruleId": "event-rewrite-reality",
+            "classification": "Good"
+          },
+          {
+            "itemId": "sword-in-the-stone",
+            "ruleId": "event-sword-in-the-stone",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "overflowing-feast",
+            "ruleId": "event-overflowing-feast",
+            "classification": "Good"
+          },
+          {
+            "itemId": "attunement-tower",
+            "ruleId": "event-attunement-tower",
+            "classification": "Good"
+          },
+          {
+            "itemId": "wandering-planes-saboteur",
+            "ruleId": "event-wandering-planes-saboteur",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "crowstorm",
+            "ruleId": "event-crowstorm",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "it-s-just-standing-there-menacingly",
+            "ruleId": "event-its-just-standing-there-menacingly",
+            "classification": "Ambush"
+          },
+          {
+            "itemId": "commander-s-guild",
+            "ruleId": "event-commanders-guild",
+            "classification": "Good"
+          },
+          {
+            "itemId": "endless-sea",
+            "ruleId": "event-endless-sea",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mirror-dimension",
+            "ruleId": "event-mirror-dimension",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "trench-of-the-void",
+            "ruleId": "event-trench-of-the-void",
+            "classification": "Good"
+          },
+          {
+            "itemId": "timeless-market",
+            "ruleId": "event-timeless-market",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "pumpkin-harvest",
+            "ruleId": "event-pumpkin-harvest",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "you-re-taking-too-long",
+            "ruleId": "event-youre-taking-too-long",
+            "classification": "Good"
+          },
+          {
+            "itemId": "sliver-king",
+            "ruleId": "event-sliver-king",
+            "classification": "Good"
+          },
+          {
+            "itemId": "spartan-plains",
+            "ruleId": "event-spartan-plains",
+            "classification": "Good"
+          },
+          {
+            "itemId": "lost-ark",
+            "ruleId": "event-lost-ark",
+            "classification": "Good"
+          },
+          {
+            "itemId": "wishing-well",
+            "ruleId": "event-wishing-well",
+            "classification": "Good"
+          },
+          {
+            "itemId": "earthquake",
+            "ruleId": "event-earthquake",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "dragon-hoard",
+            "ruleId": "event-dragon-hoard",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "you-stepped-on-a-leaf",
+            "ruleId": "event-you-stepped-on-a-leaf",
+            "classification": "Good"
+          },
+          {
+            "itemId": "peaceful-orchard",
+            "ruleId": "event-peaceful-orchard",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cornfields",
+            "ruleId": "event-cornfields",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "trick-or-treat",
+            "ruleId": "event-trick-or-treat",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "ivy-forest",
+            "ruleId": "event-ivy-forest",
+            "classification": "Good"
+          },
+          {
+            "itemId": "tomb-of-the-forgotten",
+            "ruleId": "event-tomb-of-the-forgotten",
+            "classification": "Good"
+          },
+          {
+            "itemId": "strung-up",
+            "ruleId": "event-strung-up",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "exotic-car-show",
+            "ruleId": "event-exotic-car-show",
+            "classification": "Good"
+          },
+          {
+            "itemId": "card-vortex",
+            "ruleId": "event-card-vortex",
+            "classification": "Good"
+          },
+          {
+            "itemId": "only-need-to-be-faster-than-you",
+            "ruleId": "event-only-need-to-be-faster-than-you",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "harvest-festival",
+            "ruleId": "event-harvest-festival",
+            "classification": "Town Upgrade"
+          },
+          {
+            "itemId": "splendid-skies",
+            "ruleId": "event-splendid-skies",
+            "classification": "Good"
+          },
+          {
+            "itemId": "artifact-on-a-pedestal",
+            "ruleId": "event-artifact-on-a-pedestal",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "bloody-altar",
+            "ruleId": "event-bloody-altar",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "stoneforge-caravan",
+            "ruleId": "event-stoneforge-caravan",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mystic-waterwell",
+            "ruleId": "event-mystic-waterwell",
+            "classification": "Good"
+          },
+          {
+            "itemId": "found-a-lucky-coin",
+            "ruleId": "event-found-a-lucky-coin",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "wandering-planes-arms-dealer",
+            "ruleId": "event-wandering-planes-arms-dealer",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "zubera-crossing",
+            "ruleId": "event-zubera-crossing",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "a-stone-s-throw",
+            "ruleId": "event-a-stones-throw",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "paranoia",
+            "ruleId": "event-paranoia",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "the-reaper-king-comes",
+            "ruleId": "event-the-reaper-king-comes",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "that-damned-bridge",
+            "ruleId": "event-that-damned-bridge",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "a-rock-pile",
+            "ruleId": "event-a-rock-pile",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "sorrowful-swamp",
+            "ruleId": "event-sorrowful-swamp",
+            "classification": "Good"
+          },
+          {
+            "itemId": "treasure-goblin",
+            "ruleId": "event-treasure-goblin",
+            "classification": "Good"
+          },
+          {
+            "itemId": "planar-excavation",
+            "ruleId": "event-planar-excavation",
+            "classification": "Good"
+          },
+          {
+            "itemId": "mana-ripple",
+            "ruleId": "event-mana-ripple",
+            "classification": "Good"
+          },
+          {
+            "itemId": "rapidly-growing-harvest",
+            "ruleId": "event-rapidly-growing-harvest",
+            "classification": "Good"
+          },
+          {
+            "itemId": "witch-s-cauldron",
+            "ruleId": "event-witchs-cauldron",
+            "classification": "Good"
+          },
+          {
+            "itemId": "cheese-festival",
+            "ruleId": "event-cheese-festival",
+            "classification": "Good"
+          },
+          {
+            "itemId": "strange-set-of-potions",
+            "ruleId": "event-strange-set-of-potions",
+            "classification": "Good"
+          },
+          {
+            "itemId": "crossroads",
+            "ruleId": "event-crossroads",
+            "classification": "Good"
+          },
+          {
+            "itemId": "planetary-bank",
+            "ruleId": "event-planetary-bank",
+            "classification": "Neutral"
+          },
+          {
+            "itemId": "reckless-racketeering",
+            "ruleId": "event-reckless-racketeering",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "wandering-planes-assistant",
+            "ruleId": "event-wandering-planes-assistant",
+            "classification": "Good"
+          },
+          {
+            "itemId": "nameless-smith",
+            "ruleId": "event-nameless-smith",
+            "classification": "Good"
+          },
+          {
+            "itemId": "a-portent-of-fortune",
+            "ruleId": "event-a-portent-of-fortune",
+            "classification": "Good"
+          }
+        ],
+        "doom": [
+          {
+            "itemId": "your-trinkets-are-nothing-but-toys-to-me",
+            "ruleId": "harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me"
+          },
+          {
+            "itemId": "who-turned-out-the-lights",
+            "ruleId": "harvest-moon-doom-who-turned-out-the-lights"
+          },
+          {
+            "itemId": "the-scarecrow-cometh",
+            "ruleId": "harvest-moon-doom-the-scarecrow-cometh"
+          },
+          {
+            "itemId": "stir-the-pot",
+            "ruleId": "harvest-moon-doom-stir-the-pot"
+          },
+          {
+            "itemId": "soul-rend",
+            "ruleId": "harvest-moon-doom-soul-rend"
+          },
+          {
+            "itemId": "rotten-bounty",
+            "ruleId": "harvest-moon-doom-rotten-bounty"
+          },
+          {
+            "itemId": "i-m-the-hero-of-this-story",
+            "ruleId": "harvest-moon-doom-im-the-hero-of-this-story"
+          },
+          {
+            "itemId": "hunt-them-all",
+            "ruleId": "harvest-moon-doom-hunt-them-all"
+          },
+          {
+            "itemId": "hunt-the-weak",
+            "ruleId": "harvest-moon-doom-hunt-the-weak"
+          },
+          {
+            "itemId": "harvest-of-the-damned",
+            "ruleId": "harvest-moon-doom-harvest-of-the-damned"
+          },
+          {
+            "itemId": "forged-in-their-name",
+            "ruleId": "harvest-moon-doom-forged-in-their-name"
+          },
+          {
+            "itemId": "danse-macabre",
+            "ruleId": "harvest-moon-doom-danse-macabre"
+          },
+          {
+            "itemId": "clock-strikes-midnight",
+            "ruleId": "harvest-moon-doom-clock-strikes-midnight"
+          },
+          {
+            "itemId": "bloodrush",
+            "ruleId": "harvest-moon-doom-bloodrush"
+          },
+          {
+            "itemId": "a-wolf-in-sheep-s-clothing",
+            "ruleId": "harvest-moon-doom-a-wolf-in-sheeps-clothing"
+          }
+        ],
+        "trinkets": [
+          {
+            "itemId": "forgotten-key",
+            "ruleId": "trinket-forgotten-key"
+          },
+          {
+            "itemId": "stolen-pumpkin",
+            "ruleId": "trinket-stolen-pumpkin"
+          },
+          {
+            "itemId": "pickled-pumpkin",
+            "ruleId": "trinket-pickled-pumpkin"
+          },
+          {
+            "itemId": "dead-leaf",
+            "ruleId": "trinket-dead-leaf"
+          },
+          {
+            "itemId": "legendary-shovel",
+            "ruleId": "trinket-legendary-shovel"
+          },
+          {
+            "itemId": "scaery-pumpkin",
+            "ruleId": "trinket-scaery-pumpkin"
+          },
+          {
+            "itemId": "shattered-glass",
+            "ruleId": "trinket-shattered-glass"
+          },
+          {
+            "itemId": "full-moon",
+            "ruleId": "trinket-full-moon"
+          }
+        ],
+        "travelers": [
+          {
+            "itemId": "farm-tool-supplier",
+            "ruleId": "harvest-moon-travelers-farm-tool-supplier"
+          },
+          {
+            "itemId": "nylea-hunter-of-horrors",
+            "ruleId": "harvest-moon-travelers-nylea-hunter-of-horrors"
+          }
+        ],
+        "wanderers": [
+          {
+            "itemId": "frightened-farmer",
+            "ruleId": "harvest-moon-wanderers-frightened-farmer"
+          },
+          {
+            "itemId": "kind-stranger",
+            "ruleId": "harvest-moon-wanderers-kind-stranger"
+          },
+          {
+            "itemId": "reaper-king",
+            "ruleId": "harvest-moon-wanderers-reaper-king"
+          }
+        ],
+        "masters": [],
+        "stories": [],
+        "tribals": [],
+        "crypts": [],
+        "travelerRewards": [
+          {
+            "itemId": "nylea-s-sight",
+            "ruleId": "trinket-nyleas-sight",
+            "acquisition": "Only available through Nylea, Hunter of Horrors."
+          },
+          {
+            "itemId": "karametra-s-cornucopia",
+            "ruleId": "trinket-karametras-cornucopia",
+            "acquisition": "Only available through Nylea, Hunter of Horrors."
+          }
+        ],
+        "completionRewards": [
+          {
+            "itemId": "reap-what-you-sow",
+            "progressionId": "reap_what_you_sow"
+          }
+        ]
+      }
+    },
+    "high-tide-hijinks": {
+      "overviewRuleId": "high-tide-hijinks-overview",
+      "pools": {
+        "events": [
+          {
+            "itemId": "bad-wave-bro",
+            "ruleId": "event-bad-wave-bro"
+          },
+          {
+            "itemId": "swap-shop",
+            "ruleId": "event-swap-shop"
+          },
+          {
+            "itemId": "merfolk-dont-like-scuba",
+            "ruleId": "event-merfolk-dont-like-scuba"
+          },
+          {
+            "itemId": "do-not-disturb-the-fish",
+            "ruleId": "event-do-not-disturb-the-fish"
+          },
+          {
+            "itemId": "crabs",
+            "ruleId": "event-crabs"
+          },
+          {
+            "itemId": "course-rough-and-gets-everywhere",
+            "ruleId": "event-course-rough-and-gets-everywhere"
+          },
+          {
+            "itemId": "no-hard-feelings-on-forgetting-the-food",
+            "ruleId": "event-no-hard-feelings-on-forgetting-the-food"
+          },
+          {
+            "itemId": "youve-found-a-fishing-rod",
+            "ruleId": "event-youve-found-a-fishing-rod"
+          },
+          {
+            "itemId": "does-anyone-here-like-fishing",
+            "ruleId": "event-does-anyone-here-like-fishing"
+          },
+          {
+            "itemId": "packsicle-stand",
+            "ruleId": "event-packsicle-stand"
+          },
+          {
+            "itemId": "volleyball-game",
+            "ruleId": "event-volleyball-game"
+          },
+          {
+            "itemId": "helpful-dolphin",
+            "ruleId": "event-helpful-dolphin"
+          },
+          {
+            "itemId": "suken-treasure",
+            "ruleId": "event-suken-treasure"
+          },
+          {
+            "itemId": "pooltoy-for-sale",
+            "ruleId": "event-pooltoy-for-sale"
+          },
+          {
+            "itemId": "feeding-frenzy",
+            "ruleId": "event-feeding-frenzy"
+          }
+        ],
+        "doom": [
+          {
+            "itemId": "nice-sand-castle-nerd",
+            "ruleId": "high-tide-hijinks-doom-nice-sand-castle-nerd"
+          },
+          {
+            "itemId": "sunburn",
+            "ruleId": "high-tide-hijinks-doom-sunburn"
+          },
+          {
+            "itemId": "typhoon",
+            "ruleId": "high-tide-hijinks-doom-typhoon"
+          },
+          {
+            "itemId": "sirring-duck",
+            "ruleId": "high-tide-hijinks-doom-sirring-duck"
+          },
+          {
+            "itemId": "im-gonna-put-some-sand-in-your-eye",
+            "ruleId": "high-tide-hijinks-doom-im-gonna-put-some-sand-in-your-eye"
+          }
+        ],
+        "trinkets": [
+          {
+            "itemId": "vollyball",
+            "ruleId": "high-tide-hijinks-trinkets-vollyball"
+          },
+          {
+            "itemId": "crabby",
+            "ruleId": "high-tide-hijinks-trinkets-crabby"
+          },
+          {
+            "itemId": "bad-rod",
+            "ruleId": "high-tide-hijinks-trinkets-bad-rod"
+          },
+          {
+            "itemId": "good-rod",
+            "ruleId": "high-tide-hijinks-trinkets-good-rod",
+            "upgrade": true
+          },
+          {
+            "itemId": "great-rod",
+            "ruleId": "high-tide-hijinks-trinkets-great-rod",
+            "upgrade": true
+          },
+          {
+            "itemId": "cursed-rod",
+            "ruleId": "high-tide-hijinks-trinkets-cursed-rod"
+          }
+        ],
+        "travelers": [
+          {
+            "itemId": "seahorse-seller",
+            "ruleId": "high-tide-hijinks-travelers-seahorse-seller"
+          },
+          {
+            "itemId": "thassa",
+            "ruleId": "high-tide-hijinks-travelers-thassa"
+          }
+        ],
+        "wanderers": [
+          {
+            "itemId": "sir-crabbington",
+            "ruleId": "high-tide-hijinks-wanderers-sir-crabbington"
+          }
+        ],
+        "completionRewards": [
+          {
+            "itemId": "leftovers",
+            "progressionId": "leftovers"
+          }
+        ],
+        "crypts": [],
+        "masters": [],
+        "tribals": [],
+        "stories": []
+      }
+    }
+  },
+  "documents": {
+    "event-scarecrow-feast": {
+      "source": "rules/between-encounters/events/scarecrow-feast.md",
+      "sha256": "527dc45aa276d991338e03c8e84fd831175aad86f9306e8e9f8d5d5d2222f40b",
+      "markdown": "# Scarecrow Feast\n\nThe party chooses one:\nJoin the feast — Each player begins the next encounter with a Scuttlemutt on the battlefield.\nBeat the feasters — Each player begins the next encounter with a random Equipment on the battlefield. That Equipment’s equip cost permanently becomes {0}.\n",
+      "description": "The party chooses one:\nJoin the feast — Each player begins the next encounter with a Scuttlemutt on the battlefield.\nBeat the feasters — Each player begins the next encounter with a random Equipment on the battlefield. That Equipment’s equip cost permanently becomes {0}.",
+      "plainText": "The party chooses one:\nJoin the feast — Each player begins the next encounter with a Scuttlemutt on the battlefield.\nBeat the feasters — Each player begins the next encounter with a random Equipment on the battlefield. That Equipment’s equip cost permanently becomes {0}."
+    },
+    "event-cabin-in-the-woods": {
+      "source": "rules/between-encounters/events/cabin-in-the-woods.md",
+      "sha256": "6c62c3cfa0635eb096e5991ea42bde97f7c3ed26d06caa0b3ff9a8e02fb550bb",
+      "markdown": "# Cabin in the Woods\n\nThe party chooses one —\nAvoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.\nExplore — Roll a d6.\n1 — Resolve two random Bad Events.\n2 — Resolve a random Bad Event.\n3-4 — Resolve a random Neutral Event.\n5 — Resolve a random Good Event.\n6 — Resolve two random Good Events.\n",
+      "description": "The party chooses one —\nAvoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.\nExplore — Roll a d6.\n1 — Resolve two random Bad Events.\n2 — Resolve a random Bad Event.\n3-4 — Resolve a random Neutral Event.\n5 — Resolve a random Good Event.\n6 — Resolve two random Good Events.",
+      "plainText": "The party chooses one —\nAvoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.\nExplore — Roll a d6.\n1 — Resolve two random Bad Events.\n2 — Resolve a random Bad Event.\n3-4 — Resolve a random Neutral Event.\n5 — Resolve a random Good Event.\n6 — Resolve two random Good Events."
+    },
+    "event-broken-mirror": {
+      "source": "rules/between-encounters/events/broken-mirror.md",
+      "sha256": "bff3a2d60469d98cbdf7be0db67c6fad96ec1c471618c7dd041b5536c5c92d87",
+      "markdown": "# Broken Mirror\n\nEach player chooses one:\nPut it back together — Gain an upgraded copy of your commander. You may put it into your deck or sideboard, or replace your commander with it.\nTake a shard — Gain the Shattered Glass Trinket.\n",
+      "description": "Each player chooses one:\nPut it back together — Gain an upgraded copy of your commander. You may put it into your deck or sideboard, or replace your commander with it.\nTake a shard — Gain the Shattered Glass Trinket.",
+      "plainText": "Each player chooses one:\nPut it back together — Gain an upgraded copy of your commander. You may put it into your deck or sideboard, or replace your commander with it.\nTake a shard — Gain the Shattered Glass Trinket."
+    },
+    "event-verdant-shrubbery": {
+      "source": "rules/between-encounters/events/verdant-shrubbery.md",
+      "sha256": "986a09e6127bdc8abc9603d367bcfeec171c15a95625f68152a3b9040f3d5c8f",
+      "markdown": "# Verdant Shrubbery\n\nEach player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“{T}: Add one mana of any color.”\nEach player whose commander is green chooses two creature cards instead.\n",
+      "description": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“{T}: Add one mana of any color.”\nEach player whose commander is green chooses two creature cards instead.",
+      "plainText": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“{T}: Add one mana of any color.”\nEach player whose commander is green chooses two creature cards instead."
+    },
+    "event-turkey-uprising": {
+      "source": "rules/between-encounters/events/turkey-uprising.md",
+      "sha256": "5bf0325b9d9487615c171d901a8c5cdcbcf94bd1daf40df33f18a431eee7371e",
+      "markdown": "# Turkey Uprising\n\nFor the next encounter, at the beginning of each Host upkeep, the Host creates a 1/1 Bird creature token without flying.\nWhenever a Bird the Host controls dies during that encounter because of a player’s effect or damage dealt by a creature that player controls, that player creates a Food token. This includes effects that cause the Bird to be sacrificed.\n",
+      "description": "For the next encounter, at the beginning of each Host upkeep, the Host creates a 1/1 Bird creature token without flying.\nWhenever a Bird the Host controls dies during that encounter because of a player’s effect or damage dealt by a creature that player controls, that player creates a Food token. This includes effects that cause the Bird to be sacrificed.",
+      "plainText": "For the next encounter, at the beginning of each Host upkeep, the Host creates a 1/1 Bird creature token without flying.\nWhenever a Bird the Host controls dies during that encounter because of a player’s effect or damage dealt by a creature that player controls, that player creates a Food token. This includes effects that cause the Bird to be sacrificed."
+    },
+    "event-unseen-doors": {
+      "source": "rules/between-encounters/events/unseen-doors.md",
+      "sha256": "afd0770e3d7a9dba67716047b53ca5b123f1789f7b539fb430f2d4d69c96782d",
+      "markdown": "# Unseen Doors\n\nThe party chooses one —\nSpiral door — Reveal Events until you reveal a good Event and a bad Event. Resolve both, then shuffle the other revealed Events back into the Event deck. These do not count toward the Chaos Buff.\nInverted door — Resolve the last Event again.\nUpside-down door — Resolve the bottom Event of the deck.\n",
+      "description": "The party chooses one —\nSpiral door — Reveal Events until you reveal a good Event and a bad Event. Resolve both, then shuffle the other revealed Events back into the Event deck. These do not count toward the Chaos Buff.\nInverted door — Resolve the last Event again.\nUpside-down door — Resolve the bottom Event of the deck.",
+      "plainText": "The party chooses one —\nSpiral door — Reveal Events until you reveal a good Event and a bad Event. Resolve both, then shuffle the other revealed Events back into the Event deck. These do not count toward the Chaos Buff.\nInverted door — Resolve the last Event again.\nUpside-down door — Resolve the bottom Event of the deck."
+    },
+    "event-rhystic-library": {
+      "source": "rules/between-encounters/events/rhystic-library.md",
+      "sha256": "d662f8446e7c401dc9fe565de74eabce72083831b5a5dced68a78e889f834dfd",
+      "markdown": "# Rhystic Library\n\nEach player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.\n",
+      "description": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.",
+      "plainText": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way."
+    },
+    "event-explosive-volcano": {
+      "source": "rules/between-encounters/events/explosive-volcano.md",
+      "sha256": "8f7e1975be317cefe59285e64c9491218087afe4d5daf7eb695193887576b005",
+      "markdown": "# Explosive Volcano\n\nThe party chooses one —\nBrave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.\nTake Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead.\n",
+      "description": "The party chooses one —\nBrave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.\nTake Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead.",
+      "plainText": "The party chooses one —\nBrave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.\nTake Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead."
+    },
+    "event-kithkin-hovel": {
+      "source": "rules/between-encounters/events/kithkin-hovel.md",
+      "sha256": "5f1cf84e25156369a91b67861978b48715eeb50ad050fbea557ebaf7fd3010a9",
+      "markdown": "# Kithkin Hovel\n\nEach player may destroy an artifact card in their Mainboard.\nEach player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.\nIf that player’s commander is white, reveal artifact cards of the same rarity instead.\n",
+      "description": "Each player may destroy an artifact card in their Mainboard.\nEach player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.\nIf that player’s commander is white, reveal artifact cards of the same rarity instead.",
+      "plainText": "Each player may destroy an artifact card in their Mainboard.\nEach player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.\nIf that player’s commander is white, reveal artifact cards of the same rarity instead."
+    },
+    "event-urzas-sylex": {
+      "source": "rules/between-encounters/events/urzas-sylex.md",
+      "sha256": "45d6c56f8107907130918f1b2d9f3a31f76742d2a8f1517f588c5cc99dd43fde",
+      "markdown": "# Urza’s Sylex\n\nEach player may choose a card in their Mainboard.\nDuring the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal.\n",
+      "description": "Each player may choose a card in their Mainboard.\nDuring the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal.",
+      "plainText": "Each player may choose a card in their Mainboard.\nDuring the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal."
+    },
+    "event-pumpkin-smashing": {
+      "source": "rules/between-encounters/events/pumpkin-smashing.md",
+      "sha256": "6efc3ae63f95ee173b4949fed669e025fc9700c65e1d364c727da8ed94cb8cd7",
+      "markdown": "# Pumpkin Smashing\n\nEach player may destroy a creature card in their deck. Each player who does gains 3 random instant or sorcery cards within their color identity.\n",
+      "description": "Each player may destroy a creature card in their deck. Each player who does gains 3 random instant or sorcery cards within their color identity.",
+      "plainText": "Each player may destroy a creature card in their deck. Each player who does gains 3 random instant or sorcery cards within their color identity."
+    },
+    "event-cave-of-spoils": {
+      "source": "rules/between-encounters/events/cave-of-spoils.md",
+      "sha256": "137040f620854954060af2208db16f162cb6e23d7bc4f243bc8ec93955d8769c",
+      "markdown": "# Cave of Spoils\n\nEach player secretly chooses Caution or Greed, then all choices are revealed simultaneously.\nCaution — At the beginning of the next encounter, create one Treasure token.\nGreed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed.\n",
+      "description": "Each player secretly chooses Caution or Greed, then all choices are revealed simultaneously.\nCaution — At the beginning of the next encounter, create one Treasure token.\nGreed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed.",
+      "plainText": "Each player secretly chooses Caution or Greed, then all choices are revealed simultaneously.\nCaution — At the beginning of the next encounter, create one Treasure token.\nGreed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed."
+    },
+    "event-the-hunt-is-on": {
+      "source": "rules/between-encounters/events/the-hunt-is-on.md",
+      "sha256": "655a1e45caab5f506e5c5198dfecc0bee56e5566aa8b847793ee0e92db75f86a",
+      "markdown": "# The Hunt Is ON!\n\nAt the beginning of each Host turn, the Host creates a token copy of a random Werewolf creature with mana value X or less, where X is the number of lands the Host controls.\nThe Werewolf with the highest mana value stays on its transformed face and can’t transform back. Break ties by rolling a d20.\nOnce there are four or more Werewolves on the battlefield, all Werewolves are locked on their transformed faces for the rest of the encounter. Werewolves that enter afterward enter transformed and can’t transform back.\nThe party gains the Full Moon Trinket. If the party already has it, each player may augment a double-faced card without paying its augment cost instead.\n",
+      "description": "At the beginning of each Host turn, the Host creates a token copy of a random Werewolf creature with mana value X or less, where X is the number of lands the Host controls.\nThe Werewolf with the highest mana value stays on its transformed face and can’t transform back. Break ties by rolling a d20.\nOnce there are four or more Werewolves on the battlefield, all Werewolves are locked on their transformed faces for the rest of the encounter. Werewolves that enter afterward enter transformed and can’t transform back.\nThe party gains the Full Moon Trinket. If the party already has it, each player may augment a double-faced card without paying its augment cost instead.",
+      "plainText": "At the beginning of each Host turn, the Host creates a token copy of a random Werewolf creature with mana value X or less, where X is the number of lands the Host controls.\nThe Werewolf with the highest mana value stays on its transformed face and can’t transform back. Break ties by rolling a d20.\nOnce there are four or more Werewolves on the battlefield, all Werewolves are locked on their transformed faces for the rest of the encounter. Werewolves that enter afterward enter transformed and can’t transform back.\nThe party gains the Full Moon Trinket. If the party already has it, each player may augment a double-faced card without paying its augment cost instead."
+    },
+    "event-card-fetcher": {
+      "source": "rules/between-encounters/events/card-fetcher.md",
+      "sha256": "f25d56b624bf5df8724223449f37ac2a81e48e3c1715b1b615ce19ff61793347",
+      "markdown": "# Card Fetcher\n\nEach player chooses one —\nEstablished Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.\nNew Discovery — Choose a card marked “New” on your commander’s EDHREC page.\nHost’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.\nAdd the chosen card to your Mainboard. It can’t be a Game Changer.\n",
+      "description": "Each player chooses one —\nEstablished Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.\nNew Discovery — Choose a card marked “New” on your commander’s EDHREC page.\nHost’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.\nAdd the chosen card to your Mainboard. It can’t be a Game Changer.",
+      "plainText": "Each player chooses one —\nEstablished Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.\nNew Discovery — Choose a card marked “New” on your commander’s EDHREC page.\nHost’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.\nAdd the chosen card to your Mainboard. It can’t be a Game Changer."
+    },
+    "event-burn-the-witch": {
+      "source": "rules/between-encounters/events/burn-the-witch.md",
+      "sha256": "25afa33cd629405a4d0282d426d173211a0be389a13f26177752569c926af9ed",
+      "markdown": "# BURN THE WITCH\n\nAt the beginning of each Host upkeep, the Host conjures two random Human creatures with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nHumans the Host controls have haste and attack each combat if able. Whenever the Host attacks with one or more Humans, the party chooses one player. All attacking Humans attack that player.\nAdd the conjured Humans to the loot pool.\n",
+      "description": "At the beginning of each Host upkeep, the Host conjures two random Human creatures with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nHumans the Host controls have haste and attack each combat if able. Whenever the Host attacks with one or more Humans, the party chooses one player. All attacking Humans attack that player.\nAdd the conjured Humans to the loot pool.",
+      "plainText": "At the beginning of each Host upkeep, the Host conjures two random Human creatures with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nHumans the Host controls have haste and attack each combat if able. Whenever the Host attacks with one or more Humans, the party chooses one player. All attacking Humans attack that player.\nAdd the conjured Humans to the loot pool."
+    },
+    "event-headless-horsey": {
+      "source": "rules/between-encounters/events/headless-horsey.md",
+      "sha256": "b00f796c07bf8fab9891996ae1a3ea23fb2205f97325b787b17e6fe2a63ac77f",
+      "markdown": "# Headless Horsey\n\nReveal 10 random Horse cards. Each player chooses one to keep.\nUpgrade each chosen card, then color-shift it to be within that player’s color identity. It becomes a Zombie in addition to its other types.\n",
+      "description": "Reveal 10 random Horse cards. Each player chooses one to keep.\nUpgrade each chosen card, then color-shift it to be within that player’s color identity. It becomes a Zombie in addition to its other types.",
+      "plainText": "Reveal 10 random Horse cards. Each player chooses one to keep.\nUpgrade each chosen card, then color-shift it to be within that player’s color identity. It becomes a Zombie in addition to its other types."
+    },
+    "event-vanguard-caravan": {
+      "source": "rules/between-encounters/events/vanguard-caravan.md",
+      "sha256": "f3e587e97017a0b2a4d89f96bdc204f8dd7e62e96379e927536e90b2aaa3dd5f",
+      "markdown": "# Vanguard Caravan\n\nRoll a d4, then reveal that many random Vanguards.\nEach player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter.\n",
+      "description": "Roll a d4, then reveal that many random Vanguards.\nEach player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter.",
+      "plainText": "Roll a d4, then reveal that many random Vanguards.\nEach player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter."
+    },
+    "event-plane-to-plane-circus": {
+      "source": "rules/between-encounters/events/plane-to-plane-circus.md",
+      "sha256": "1c8ac12e507aa0b202610807a53fb35f6ba779154e5822a7acb53df98a007732",
+      "markdown": "# Plane-to-Plane Circus\n\nThe Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.\nWithout revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.\nIf every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards.\n",
+      "description": "The Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.\nWithout revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.\nIf every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards.",
+      "plainText": "The Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.\nWithout revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.\nIf every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards."
+    },
+    "event-meeting-of-the-planes": {
+      "source": "rules/between-encounters/events/meeting-of-the-planes.md",
+      "sha256": "4ad524e3f2450306d6d0d15817456081854d9e90f10f1df7c632a7067fa596ac",
+      "markdown": "# Meeting of the Planes\n\nReveal five random planeswalker cards within the party’s combined commander color identities.\nEach player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.\nEach player may gain up to two cards revealed this way.\n",
+      "description": "Reveal five random planeswalker cards within the party’s combined commander color identities.\nEach player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.\nEach player may gain up to two cards revealed this way.",
+      "plainText": "Reveal five random planeswalker cards within the party’s combined commander color identities.\nEach player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.\nEach player may gain up to two cards revealed this way."
+    },
+    "event-abandoned-supply-pack": {
+      "source": "rules/between-encounters/events/abandoned-supply-pack.md",
+      "sha256": "f7c9dfb2de9e7c6d04af995cfa74f0fe43b3c0339558334eb8958c507e463056",
+      "markdown": "# Abandoned Supply Pack\n\nEach player rolls a d6 and gains the card corresponding to the result:\n1 — Nothing\n2 — Commander’s Sphere\n3 — Thought Vessel\n4 — Swiftfoot Boots\n5 — Arcane Signet\n6 — Sol Ring\n",
+      "description": "Each player rolls a d6 and gains the card corresponding to the result:\n1 — Nothing\n2 — Commander’s Sphere\n3 — Thought Vessel\n4 — Swiftfoot Boots\n5 — Arcane Signet\n6 — Sol Ring",
+      "plainText": "Each player rolls a d6 and gains the card corresponding to the result:\n1 — Nothing\n2 — Commander’s Sphere\n3 — Thought Vessel\n4 — Swiftfoot Boots\n5 — Arcane Signet\n6 — Sol Ring"
+    },
+    "event-plane-trader": {
+      "source": "rules/between-encounters/events/plane-trader.md",
+      "sha256": "ab81c71a9fb435395138ffc6f7292ce5866a7cda13d2771c352d9a8ff9446326",
+      "markdown": "# Plane Trader\n\nReveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.\nEach player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.\nFor the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way.\n",
+      "description": "Reveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.\nEach player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.\nFor the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way.",
+      "plainText": "Reveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.\nEach player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.\nFor the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way."
+    },
+    "event-lion-and-a-mouse": {
+      "source": "rules/between-encounters/events/lion-and-a-mouse.md",
+      "sha256": "f6930a79906dd95fb0cb5427bd7dd4ce5e2ae0bcec88054b3a6be89f634be880",
+      "markdown": "# Lion and a Mouse\n\nThe party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved.\n",
+      "description": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved.",
+      "plainText": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved."
+    },
+    "event-covenant": {
+      "source": "rules/between-encounters/events/covenant.md",
+      "sha256": "1d2edf9584b28cd345cf35572bf63bbfcaa4c3a974f2f75cf0b121b0465fc97f",
+      "markdown": "# Covenant\n\nEach player reveals cards from the top of their deck until they reveal a creature card.\nIf at least three creature cards revealed this way have different powers, each player gains a random Tier 1 cashout. Otherwise, destroy the revealed creature cards. Each player then creates a random Werewolf, color-shifted to be within their color identity. It stays transformed if able.\nShuffle all remaining revealed cards back into their owners’ decks.\n",
+      "description": "Each player reveals cards from the top of their deck until they reveal a creature card.\nIf at least three creature cards revealed this way have different powers, each player gains a random Tier 1 cashout. Otherwise, destroy the revealed creature cards. Each player then creates a random Werewolf, color-shifted to be within their color identity. It stays transformed if able.\nShuffle all remaining revealed cards back into their owners’ decks.",
+      "plainText": "Each player reveals cards from the top of their deck until they reveal a creature card.\nIf at least three creature cards revealed this way have different powers, each player gains a random Tier 1 cashout. Otherwise, destroy the revealed creature cards. Each player then creates a random Werewolf, color-shifted to be within their color identity. It stays transformed if able.\nShuffle all remaining revealed cards back into their owners’ decks."
+    },
+    "event-equinox": {
+      "source": "rules/between-encounters/events/equinox.md",
+      "sha256": "cd65a15755b38ad7198802260f65944c46e6bf14472a0f167918f3618324b99c",
+      "markdown": "# Equinox\n\nEach player chooses two creature cards in their Mainboard. Those cards gain shadow.\nAt the beginning of each Town, each player must choose a creature card in their Mainboard without shadow. That card gains shadow.\n",
+      "description": "Each player chooses two creature cards in their Mainboard. Those cards gain shadow.\nAt the beginning of each Town, each player must choose a creature card in their Mainboard without shadow. That card gains shadow.",
+      "plainText": "Each player chooses two creature cards in their Mainboard. Those cards gain shadow.\nAt the beginning of each Town, each player must choose a creature card in their Mainboard without shadow. That card gains shadow."
+    },
+    "event-forgotten-key": {
+      "source": "rules/between-encounters/events/forgotten-key.md",
+      "sha256": "5b0afcaf0da08d995c89e541996d6e2493611c755c30988e6bab27da2cab5e23",
+      "markdown": "# Forgotten Key\n\nThe party gains the Forgotten Key Trinket. If the party already has it, its activation cost becomes {0} instead.\n",
+      "description": "The party gains the Forgotten Key Trinket. If the party already has it, its activation cost becomes {0} instead.",
+      "plainText": "The party gains the Forgotten Key Trinket. If the party already has it, its activation cost becomes {0} instead."
+    },
+    "event-rewrite-reality": {
+      "source": "rules/between-encounters/events/rewrite-reality.md",
+      "sha256": "3e069f41b240c09ec0ae1c87ea2bf8a85ae5e248d0050f19c0aec4cfeb90437d",
+      "markdown": "# Rewrite Reality\n\nEach player may choose a card in their Mainboard and remove any amount of text from that card.\nThis can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.\nThe Host may reject any change they determine is too powerful.\n",
+      "description": "Each player may choose a card in their Mainboard and remove any amount of text from that card.\nThis can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.\nThe Host may reject any change they determine is too powerful.",
+      "plainText": "Each player may choose a card in their Mainboard and remove any amount of text from that card.\nThis can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.\nThe Host may reject any change they determine is too powerful."
+    },
+    "event-sword-in-the-stone": {
+      "source": "rules/between-encounters/events/sword-in-the-stone.md",
+      "sha256": "3669812acc0172d487fbf35213b9898ce3e77cd34de799f3d8afb95e6c55d4e8",
+      "markdown": "# Sword in the Stone\n\nThe party chooses one —\nDraw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:\n“When this Equipment enters, you become the monarch.”\nThe next encounter is a Master Fight.\nReturn Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead.\n",
+      "description": "The party chooses one —\nDraw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:\n“When this Equipment enters, you become the monarch.”\nThe next encounter is a Master Fight.\nReturn Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead.",
+      "plainText": "The party chooses one —\nDraw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:\n“When this Equipment enters, you become the monarch.”\nThe next encounter is a Master Fight.\nReturn Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead."
+    },
+    "event-overflowing-feast": {
+      "source": "rules/between-encounters/events/overflowing-feast.md",
+      "sha256": "f9aeb2cbc0c93703af98bec3e530695d0d061f50247a7504979b1337f44a3b6c",
+      "markdown": "# Overflowing Feast\n\nFor the rest of the run, at the beginning of the first upkeep of each encounter, each player creates two Food tokens.\n",
+      "description": "For the rest of the run, at the beginning of the first upkeep of each encounter, each player creates two Food tokens.",
+      "plainText": "For the rest of the run, at the beginning of the first upkeep of each encounter, each player creates two Food tokens."
+    },
+    "event-attunement-tower": {
+      "source": "rules/between-encounters/events/attunement-tower.md",
+      "sha256": "447ffbdeb625241c2a03361609b86cacf5ebe49c6cba926f26f7870c7d960334",
+      "markdown": "# Attunement Tower\n\nThe party chooses which Crypt boss it will face during this run.\n",
+      "description": "The party chooses which Crypt boss it will face during this run.",
+      "plainText": "The party chooses which Crypt boss it will face during this run."
+    },
+    "event-wandering-planes-saboteur": {
+      "source": "rules/between-encounters/events/wandering-planes-saboteur.md",
+      "sha256": "75edbcc229c8d3ca8f6f2eed37a4b76a4506f9d71d69847cfa4ad81f0c9a96d5",
+      "markdown": "# Wandering Planes Saboteur\n\nThe party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nThe party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.\n",
+      "description": "The party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nThe party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.",
+      "plainText": "The party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nThe party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control."
+    },
+    "event-crowstorm": {
+      "source": "rules/between-encounters/events/crowstorm.md",
+      "sha256": "1d4149aacdeee04ef9a20453048c1738201b500fb1636eea2c85000c8058cb15",
+      "markdown": "# Crowstorm\n\nWhen a player casts the party’s first spell of the next encounter, counter that spell. That player then casts a Storm Crow without paying its mana cost.\n",
+      "description": "When a player casts the party’s first spell of the next encounter, counter that spell. That player then casts a Storm Crow without paying its mana cost.",
+      "plainText": "When a player casts the party’s first spell of the next encounter, counter that spell. That player then casts a Storm Crow without paying its mana cost."
+    },
+    "event-its-just-standing-there-menacingly": {
+      "source": "rules/between-encounters/events/its-just-standing-there-menacingly.md",
+      "sha256": "975d9804b7e40c3de49ac89c6b2fcbf1a2417bf25ec12f331919dd03ef439c1e",
+      "markdown": "# It’s Just Standing There… MENACINGLY\n\nAt the beginning of each Host turn, the Host conjures a random nonlegendary Scarecrow creature with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nScarecrows the Host controls have defender and “{T}: Add one mana of any color.”\nWhile the Host controls five or more Scarecrows, those creatures lose defender.\nAt the end of each Host turn, if the Host controls ten or more Scarecrows and doesn’t control a Reaper King, the Host conjures a Reaper King onto the battlefield.\nIf the party wins the encounter, each player may choose a creature card in their main deck. It gains “{T}: Add one mana of any color.”\n",
+      "description": "At the beginning of each Host turn, the Host conjures a random nonlegendary Scarecrow creature with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nScarecrows the Host controls have defender and “{T}: Add one mana of any color.”\nWhile the Host controls five or more Scarecrows, those creatures lose defender.\nAt the end of each Host turn, if the Host controls ten or more Scarecrows and doesn’t control a Reaper King, the Host conjures a Reaper King onto the battlefield.\nIf the party wins the encounter, each player may choose a creature card in their main deck. It gains “{T}: Add one mana of any color.”",
+      "plainText": "At the beginning of each Host turn, the Host conjures a random nonlegendary Scarecrow creature with mana value X or less onto the battlefield, where X is the number of lands the Host controls.\nScarecrows the Host controls have defender and “{T}: Add one mana of any color.”\nWhile the Host controls five or more Scarecrows, those creatures lose defender.\nAt the end of each Host turn, if the Host controls ten or more Scarecrows and doesn’t control a Reaper King, the Host conjures a Reaper King onto the battlefield.\nIf the party wins the encounter, each player may choose a creature card in their main deck. It gains “{T}: Add one mana of any color.”"
+    },
+    "event-commanders-guild": {
+      "source": "rules/between-encounters/events/commanders-guild.md",
+      "sha256": "c8852330326052fb6d6db29307093ad48b19d3222401f8d55cc4db1fb026622d",
+      "markdown": "# Commander’s Guild\n\nEach player chooses one —\nNew Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.\nLike-Minded — Use the Castle for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander.\n",
+      "description": "Each player chooses one —\nNew Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.\nLike-Minded — Use the Castle for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander.",
+      "plainText": "Each player chooses one —\nNew Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.\nLike-Minded — Use the Castle for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander."
+    },
+    "event-endless-sea": {
+      "source": "rules/between-encounters/events/endless-sea.md",
+      "sha256": "50b2aca837af87dfc609c91e412613270f416daa801533c507fd3366b16580b1",
+      "markdown": "# Endless Sea\n\nEach player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.\n",
+      "description": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.",
+      "plainText": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead."
+    },
+    "event-mirror-dimension": {
+      "source": "rules/between-encounters/events/mirror-dimension.md",
+      "sha256": "bcbbae31f7a035d7e0b456fabda764ff605073ddff4170b06fa552228ce19a4c",
+      "markdown": "# Mirror Dimension\n\nFor the rest of the run, the following Town Action is available:\nPay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity.\n",
+      "description": "For the rest of the run, the following Town Action is available:\nPay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity.",
+      "plainText": "For the rest of the run, the following Town Action is available:\nPay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity."
+    },
+    "event-trench-of-the-void": {
+      "source": "rules/between-encounters/events/trench-of-the-void.md",
+      "sha256": "5cceda942f85ffab7a5d811a631966706fd8f71eeec3250747744ffc34760378",
+      "markdown": "# Trench of the Void\n\nEach player gains two random Tier 1 Cash Outs.\nEach player whose commander is black gains an additional random Tier 2 Cash Out.\n",
+      "description": "Each player gains two random Tier 1 Cash Outs.\nEach player whose commander is black gains an additional random Tier 2 Cash Out.",
+      "plainText": "Each player gains two random Tier 1 Cash Outs.\nEach player whose commander is black gains an additional random Tier 2 Cash Out."
+    },
+    "event-timeless-market": {
+      "source": "rules/between-encounters/events/timeless-market.md",
+      "sha256": "07e993ead504a9d752ae2527f3a347299c54d13acc8752e5514e181f5e0cbe75",
+      "markdown": "# Timeless Market\n\nFor the rest of the run, the following Town Action is available:\nOnce per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out.\n",
+      "description": "For the rest of the run, the following Town Action is available:\nOnce per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out.",
+      "plainText": "For the rest of the run, the following Town Action is available:\nOnce per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out."
+    },
+    "event-pumpkin-harvest": {
+      "source": "rules/between-encounters/events/pumpkin-harvest.md",
+      "sha256": "e1353fa75f342e65786a9a566a6956c562e51ce6f9bb0295a029d65560024a24",
+      "markdown": "# Pumpkin Harvest\n\nThe party must choose a remaining Pumpkin Trinket from the Trinket pile and gain it.\n",
+      "description": "The party must choose a remaining Pumpkin Trinket from the Trinket pile and gain it.",
+      "plainText": "The party must choose a remaining Pumpkin Trinket from the Trinket pile and gain it."
+    },
+    "event-youre-taking-too-long": {
+      "source": "rules/between-encounters/events/youre-taking-too-long.md",
+      "sha256": "92190e87f157aec7ad16baac7b8762ccd8ff3e751c342f963a199d63952cbcf4",
+      "markdown": "# YOU’RE TAKING TOO LONG\n\nThe party chooses one:\n- Gain the Scaery Pumpkin Trinket.\n- Each player gains 25 XP.\n",
+      "description": "The party chooses one:\n- Gain the Scaery Pumpkin Trinket.\n- Each player gains 25 XP.",
+      "plainText": "The party chooses one:\n- Gain the Scaery Pumpkin Trinket.\n- Each player gains 25 XP."
+    },
+    "event-sliver-king": {
+      "source": "rules/between-encounters/events/sliver-king.md",
+      "sha256": "0e013d38540820398efb8e54a96d4f2982008a08b7d089abe364a8b91ad0867c",
+      "markdown": "# Sliver King\n\nEach player chooses a creature card in their Mainboard, then chooses a creature type that card has.\nEach chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players.\n",
+      "description": "Each player chooses a creature card in their Mainboard, then chooses a creature type that card has.\nEach chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players.",
+      "plainText": "Each player chooses a creature card in their Mainboard, then chooses a creature type that card has.\nEach chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players."
+    },
+    "event-spartan-plains": {
+      "source": "rules/between-encounters/events/spartan-plains.md",
+      "sha256": "42ca3e01132dc2dd5f183f979aca9e40854f4d2d99af81435d760d2deaa0888d",
+      "markdown": "# Spartan Plains\n\nEach player chooses a creature card in their Mainboard. Each chosen card gains vigilance.\nEach player whose commander is white chooses two creature cards instead.\n",
+      "description": "Each player chooses a creature card in their Mainboard. Each chosen card gains vigilance.\nEach player whose commander is white chooses two creature cards instead.",
+      "plainText": "Each player chooses a creature card in their Mainboard. Each chosen card gains vigilance.\nEach player whose commander is white chooses two creature cards instead."
+    },
+    "event-lost-ark": {
+      "source": "rules/between-encounters/events/lost-ark.md",
+      "sha256": "7ba48ffc2aef8eb45f479f939c363d8c36d30512df27803c0bfa0fba2c945782",
+      "markdown": "# Lost Ark\n\nEach player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“When you cast this spell, create a Treasure token.”\nEach player whose commander is red chooses two creature cards instead.\n",
+      "description": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“When you cast this spell, create a Treasure token.”\nEach player whose commander is red chooses two creature cards instead.",
+      "plainText": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:\n“When you cast this spell, create a Treasure token.”\nEach player whose commander is red chooses two creature cards instead."
+    },
+    "event-wishing-well": {
+      "source": "rules/between-encounters/events/wishing-well.md",
+      "sha256": "4acdd8f4e1a041b6e82fa681e62d41da8e52ab601c54c39cac74059ec99e91d1",
+      "markdown": "# Wishing Well\n\nEach player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules.\n",
+      "description": "Each player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules.",
+      "plainText": "Each player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules."
+    },
+    "event-earthquake": {
+      "source": "rules/between-encounters/events/earthquake.md",
+      "sha256": "a62784ade7343d4aad2420b164dcd5d1ea6384817a80ab5a63bf7926e038f8ad",
+      "markdown": "# Earthquake!\n\nEach player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard.\n",
+      "description": "Each player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard.",
+      "plainText": "Each player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard."
+    },
+    "event-dragon-hoard": {
+      "source": "rules/between-encounters/events/dragon-hoard.md",
+      "sha256": "9a51e2936a490c27a1c006c70e83b8c7b602fd8ce203ded28adcf2057456ec5f",
+      "markdown": "# Dragon Hoard\n\nThe Host secretly rolls a d6.\nReveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.\nOne at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.\nIf the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.\nOtherwise, when the party stops, reveal the result and discard the remaining cards.\n",
+      "description": "The Host secretly rolls a d6.\nReveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.\nOne at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.\nIf the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.\nOtherwise, when the party stops, reveal the result and discard the remaining cards.",
+      "plainText": "The Host secretly rolls a d6.\nReveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.\nOne at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.\nIf the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.\nOtherwise, when the party stops, reveal the result and discard the remaining cards."
+    },
+    "event-you-stepped-on-a-leaf": {
+      "source": "rules/between-encounters/events/you-stepped-on-a-leaf.md",
+      "sha256": "ff3d8b57e081ffce1fdd7517564fe5762d641f6d2b6778d27435dc20c170afd1",
+      "markdown": "# You Stepped on a Leaf\n\nThe party chooses one:\nAttend the funeral — Each player gains 2 cashouts.\nSteal the corpse — The party gains the Dead Leaf Trinket.\n",
+      "description": "The party chooses one:\nAttend the funeral — Each player gains 2 cashouts.\nSteal the corpse — The party gains the Dead Leaf Trinket.",
+      "plainText": "The party chooses one:\nAttend the funeral — Each player gains 2 cashouts.\nSteal the corpse — The party gains the Dead Leaf Trinket."
+    },
+    "event-peaceful-orchard": {
+      "source": "rules/between-encounters/events/peaceful-orchard.md",
+      "sha256": "bc4195ceabf7e8ae61c87a3a1ce422cf08fdb358e9da8b96e983b2df5b5319a6",
+      "markdown": "# Peaceful Orchard\n\nEach player gains 5 Max HP for the rest of the run.\nEach player whose commander is white gains 10 Max HP instead.\n",
+      "description": "Each player gains 5 Max HP for the rest of the run.\nEach player whose commander is white gains 10 Max HP instead.",
+      "plainText": "Each player gains 5 Max HP for the rest of the run.\nEach player whose commander is white gains 10 Max HP instead."
+    },
+    "event-cornfields": {
+      "source": "rules/between-encounters/events/cornfields.md",
+      "sha256": "2c723bf402a153db859c3fecbc79da1a0ad11d528fe22887bc34ce3daa08e870",
+      "markdown": "# Cornfields\n\nOnce per Town, each player may pay 20 XP to wander the cornfields. That player rolls a d20 and receives the corresponding result:\n1: The Reaper, King No More — The party will face the Reaper King during the Crypt encounter.\n2–5: Gain a free Scryfall selection of any nonlegendary Scarecrow.\n6–10: Begin the next encounter with four Food tokens.\n11–15: Gain a Tier 2 cashout.\n16–19: Gain a free OTAG pack.\n20: Gain a random Trinket.\n",
+      "description": "Once per Town, each player may pay 20 XP to wander the cornfields. That player rolls a d20 and receives the corresponding result:\n1: The Reaper, King No More — The party will face the Reaper King during the Crypt encounter.\n2–5: Gain a free Scryfall selection of any nonlegendary Scarecrow.\n6–10: Begin the next encounter with four Food tokens.\n11–15: Gain a Tier 2 cashout.\n16–19: Gain a free OTAG pack.\n20: Gain a random Trinket.",
+      "plainText": "Once per Town, each player may pay 20 XP to wander the cornfields. That player rolls a d20 and receives the corresponding result:\n1: The Reaper, King No More — The party will face the Reaper King during the Crypt encounter.\n2–5: Gain a free Scryfall selection of any nonlegendary Scarecrow.\n6–10: Begin the next encounter with four Food tokens.\n11–15: Gain a Tier 2 cashout.\n16–19: Gain a free OTAG pack.\n20: Gain a random Trinket."
+    },
+    "event-trick-or-treat": {
+      "source": "rules/between-encounters/events/trick-or-treat.md",
+      "sha256": "0709857871fb184948405384399060250c9f6b11cb47b97489e2916a823f90d6",
+      "markdown": "# Trick or Treat\n\nEach player chooses one:\nTrick — Begin the next encounter with a random Curse with mana value 4 or less attached to you. Gain 1 cashout.\nTreat — Gain 3 random Food cards to add to your deck.\n",
+      "description": "Each player chooses one:\nTrick — Begin the next encounter with a random Curse with mana value 4 or less attached to you. Gain 1 cashout.\nTreat — Gain 3 random Food cards to add to your deck.",
+      "plainText": "Each player chooses one:\nTrick — Begin the next encounter with a random Curse with mana value 4 or less attached to you. Gain 1 cashout.\nTreat — Gain 3 random Food cards to add to your deck."
+    },
+    "event-ivy-forest": {
+      "source": "rules/between-encounters/events/ivy-forest.md",
+      "sha256": "912a54a7d98e9b66b5afaba9b9d3710ebeeeff21a615bcacef68a8058e96a006",
+      "markdown": "# Ivy Forest\n\nEach player reveals a random creature card within their commander’s color identity and gains it.\nEach player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them.\n",
+      "description": "Each player reveals a random creature card within their commander’s color identity and gains it.\nEach player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them.",
+      "plainText": "Each player reveals a random creature card within their commander’s color identity and gains it.\nEach player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them."
+    },
+    "event-tomb-of-the-forgotten": {
+      "source": "rules/between-encounters/events/tomb-of-the-forgotten.md",
+      "sha256": "6ea7ff87479b821b17a82a8bf488c4020bcb25378697b1c65cab5f3021bc43c3",
+      "markdown": "# Tomb of the Forgotten\n\nEach player chooses a card using Scryfall and adds it to their Mainboard.\nEach card gained this way becomes Temporal.\n",
+      "description": "Each player chooses a card using Scryfall and adds it to their Mainboard.\nEach card gained this way becomes Temporal.",
+      "plainText": "Each player chooses a card using Scryfall and adds it to their Mainboard.\nEach card gained this way becomes Temporal."
+    },
+    "event-strung-up": {
+      "source": "rules/between-encounters/events/strung-up.md",
+      "sha256": "ab2b9dfd5a1c4b642add1e76cbf4ba2cfd278499da801114c568bf8fc87a9401",
+      "markdown": "# Strung Up\n\nEach party member begins the next encounter with their commander on the battlefield. Those commanders become artifacts, lose all other card types and abilities, and gain “{2}: Sacrifice this permanent.”\nAny player may pay their commander’s mana cost to exile it, then return it to the battlefield under its owner’s control.\nAt the end of the encounter, each player whose commander is still a noncreature artifact augments it. That commander remains a noncreature artifact and regains its original abilities.\n",
+      "description": "Each party member begins the next encounter with their commander on the battlefield. Those commanders become artifacts, lose all other card types and abilities, and gain “{2}: Sacrifice this permanent.”\nAny player may pay their commander’s mana cost to exile it, then return it to the battlefield under its owner’s control.\nAt the end of the encounter, each player whose commander is still a noncreature artifact augments it. That commander remains a noncreature artifact and regains its original abilities.",
+      "plainText": "Each party member begins the next encounter with their commander on the battlefield. Those commanders become artifacts, lose all other card types and abilities, and gain “{2}: Sacrifice this permanent.”\nAny player may pay their commander’s mana cost to exile it, then return it to the battlefield under its owner’s control.\nAt the end of the encounter, each player whose commander is still a noncreature artifact augments it. That commander remains a noncreature artifact and regains its original abilities."
+    },
+    "event-exotic-car-show": {
+      "source": "rules/between-encounters/events/exotic-car-show.md",
+      "sha256": "85d49b4a0e13333fdc2c85c97f2afd5d603a975508a21d81f15265b3db9df39a",
+      "markdown": "# Exotic Car Show\n\nRoll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.\nThe party may gain any number of cards revealed this way and distribute them among the players.\n",
+      "description": "Roll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.\nThe party may gain any number of cards revealed this way and distribute them among the players.",
+      "plainText": "Roll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.\nThe party may gain any number of cards revealed this way and distribute them among the players."
+    },
+    "event-card-vortex": {
+      "source": "rules/between-encounters/events/card-vortex.md",
+      "sha256": "2354231605fb0cae274a5a5139db10a3b2822ef103ebd77ff16e2dd4f8cc2fb0",
+      "markdown": "# Card Vortex\n\nEach player chooses a colorless card in their Mainboard and places it into a shared pile.\nUpgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player.\n",
+      "description": "Each player chooses a colorless card in their Mainboard and places it into a shared pile.\nUpgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player.",
+      "plainText": "Each player chooses a colorless card in their Mainboard and places it into a shared pile.\nUpgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player."
+    },
+    "event-only-need-to-be-faster-than-you": {
+      "source": "rules/between-encounters/events/only-need-to-be-faster-than-you.md",
+      "sha256": "93fda46da489bd9c46fbcf3079bedc59c192a2be747566afe7962e17885146a0",
+      "markdown": "# Only Need to Be Faster Than You\n\nThe party votes for a player. Break a two-way tie with a coin flip or a three-way tie with a die roll.\nAt the beginning of the Host’s first upkeep, the Host conjures an Unstoppable Slasher. It perpetually gains “This creature attacks the chosen player each combat if able” and “Whenever this creature leaves the battlefield, return it to the battlefield under its owner’s control with a stun counter on it.”\n",
+      "description": "The party votes for a player. Break a two-way tie with a coin flip or a three-way tie with a die roll.\nAt the beginning of the Host’s first upkeep, the Host conjures an Unstoppable Slasher. It perpetually gains “This creature attacks the chosen player each combat if able” and “Whenever this creature leaves the battlefield, return it to the battlefield under its owner’s control with a stun counter on it.”",
+      "plainText": "The party votes for a player. Break a two-way tie with a coin flip or a three-way tie with a die roll.\nAt the beginning of the Host’s first upkeep, the Host conjures an Unstoppable Slasher. It perpetually gains “This creature attacks the chosen player each combat if able” and “Whenever this creature leaves the battlefield, return it to the battlefield under its owner’s control with a stun counter on it.”"
+    },
+    "event-harvest-festival": {
+      "source": "rules/between-encounters/events/harvest-festival.md",
+      "sha256": "e4702b7aa9b35ac8bd4b23eb50bfa3d73a3b4bb690bb00b7d4265ef954294402",
+      "markdown": "# Harvest Festival\n\nWhenever a player chooses a card to gain from any pack, they may give up that card instead. If they do, they gain Essence equal to twice its mana value.\nThis applies to all packs, including Merchant, Mystery, and Cash Out packs.\n",
+      "description": "Whenever a player chooses a card to gain from any pack, they may give up that card instead. If they do, they gain Essence equal to twice its mana value.\nThis applies to all packs, including Merchant, Mystery, and Cash Out packs.",
+      "plainText": "Whenever a player chooses a card to gain from any pack, they may give up that card instead. If they do, they gain Essence equal to twice its mana value.\nThis applies to all packs, including Merchant, Mystery, and Cash Out packs."
+    },
+    "event-splendid-skies": {
+      "source": "rules/between-encounters/events/splendid-skies.md",
+      "sha256": "078248b48543a21fb50d7cd6a8ce38104b3f65ef272555439291008f887c1f71",
+      "markdown": "# Splendid Skies\n\nEach player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.\nEach player whose commander is blue chooses two creature cards instead.\n",
+      "description": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.\nEach player whose commander is blue chooses two creature cards instead.",
+      "plainText": "Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.\nEach player whose commander is blue chooses two creature cards instead."
+    },
+    "event-artifact-on-a-pedestal": {
+      "source": "rules/between-encounters/events/artifact-on-a-pedestal.md",
+      "sha256": "fa79ec286363df504730db9e72598b98fc5e60f50da6ef53824d6106e447d6c6",
+      "markdown": "# Artifact on a Pedestal\n\nReveal one random mythic rare artifact card for each player.\nEach player may gain the artifact revealed for them.\nFor each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant.\n",
+      "description": "Reveal one random mythic rare artifact card for each player.\nEach player may gain the artifact revealed for them.\nFor each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant.",
+      "plainText": "Reveal one random mythic rare artifact card for each player.\nEach player may gain the artifact revealed for them.\nFor each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant."
+    },
+    "event-bloody-altar": {
+      "source": "rules/between-encounters/events/bloody-altar.md",
+      "sha256": "dd9870fd034fb1de61745bd01cf2b7589db779f64689dd7ee7ce4c70fdb7fd1b",
+      "markdown": "# Bloody Altar\n\nThe party chooses one —\nBlood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.\nBlood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.\nIf the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.\nLeave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.\nAfter that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins.\n",
+      "description": "The party chooses one —\nBlood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.\nBlood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.\nIf the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.\nLeave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.\nAfter that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins.",
+      "plainText": "The party chooses one —\nBlood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.\nBlood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.\nIf the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.\nLeave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.\nAfter that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins."
+    },
+    "event-stoneforge-caravan": {
+      "source": "rules/between-encounters/events/stoneforge-caravan.md",
+      "sha256": "579bb025461ca1a93a03e18968be152763f4941f6c701f327d195c4ddffc62fc",
+      "markdown": "# Stoneforge Caravan\n\nEach player chooses one —\nCreate — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.\nRuneforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:\n“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”\n",
+      "description": "Each player chooses one —\nCreate — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.\nRuneforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:\n“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”",
+      "plainText": "Each player chooses one —\nCreate — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.\nRuneforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:\n“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”"
+    },
+    "event-mystic-waterwell": {
+      "source": "rules/between-encounters/events/mystic-waterwell.md",
+      "sha256": "f2408e928cf10d38a692dd1096f3f6ed78abd727b10840cc9dccc46df70fde3e",
+      "markdown": "# Mystic Waterwell\n\nEach player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way.\n",
+      "description": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way.",
+      "plainText": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way."
+    },
+    "event-found-a-lucky-coin": {
+      "source": "rules/between-encounters/events/found-a-lucky-coin.md",
+      "sha256": "96ac92670ee710cd801d87ad0ee25b504677626173de166f974fb74180fd90a1",
+      "markdown": "# Found a Lucky Coin?\n\nEach player flips a coin:\nHeads - Gain 5 life for the next encounter\nTails - Lose 5 life for the next encounter\n",
+      "description": "Each player flips a coin:\nHeads - Gain 5 life for the next encounter\nTails - Lose 5 life for the next encounter",
+      "plainText": "Each player flips a coin:\nHeads - Gain 5 life for the next encounter\nTails - Lose 5 life for the next encounter"
+    },
+    "event-wandering-planes-arms-dealer": {
+      "source": "rules/between-encounters/events/wandering-planes-arms-dealer.md",
+      "sha256": "b31ec54ce8a0fb22cd0630729cd7b8e901435d832c1742dedb6b8de3f8335410",
+      "markdown": "# Wandering Planes Arms Dealer\n\nThe party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nEach player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.\n",
+      "description": "The party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nEach player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.",
+      "plainText": "The party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.\nEach player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control."
+    },
+    "event-zubera-crossing": {
+      "source": "rules/between-encounters/events/zubera-crossing.md",
+      "sha256": "96cc7b63a47d45c2d0784c5d133683937c08738ca8471fa11964cba31446258c",
+      "markdown": "# Zubera Crossing\n\nThe party chooses one —\n\nInvestigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.\n\nAvoid — Resolve another Event.\n",
+      "description": "The party chooses one —\n\nInvestigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.\n\nAvoid — Resolve another Event.",
+      "plainText": "The party chooses one —\n\nInvestigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.\n\nAvoid — Resolve another Event."
+    },
+    "event-a-stones-throw": {
+      "source": "rules/between-encounters/events/a-stones-throw.md",
+      "sha256": "ab9c184d096d980d0edb1ba3877a0c29c0c4b1758f5db16509618d812114d840",
+      "markdown": "# A Stone’s Throw\n\nAt the beginning of each non-Crypt encounter, each player creates a Rock token and the Host creates three Rock tokens.\n",
+      "description": "At the beginning of each non-Crypt encounter, each player creates a Rock token and the Host creates three Rock tokens.",
+      "plainText": "At the beginning of each non-Crypt encounter, each player creates a Rock token and the Host creates three Rock tokens."
+    },
+    "event-paranoia": {
+      "source": "rules/between-encounters/events/paranoia.md",
+      "sha256": "4aabe4e16c4ef191f2cb6b97bfe275f92e633366734ad19b89dc4bef3b641cd4",
+      "markdown": "# Paranoia\n\nAt the beginning of each Host upkeep, the party chooses one party member. Until the end of the party’s next turn, that player is considered an opponent of each other party member for spells and abilities.\n",
+      "description": "At the beginning of each Host upkeep, the party chooses one party member. Until the end of the party’s next turn, that player is considered an opponent of each other party member for spells and abilities.",
+      "plainText": "At the beginning of each Host upkeep, the party chooses one party member. Until the end of the party’s next turn, that player is considered an opponent of each other party member for spells and abilities."
+    },
+    "event-the-reaper-king-comes": {
+      "source": "rules/between-encounters/events/the-reaper-king-comes.md",
+      "sha256": "c81f055cec3d129760437c0fb694de9c82320d4d9e913c9bf77b6ec6aa1ecf8e",
+      "markdown": "# The Reaper King Comes\n\nThe party chooses one —\nSwear loyalty — Each player’s commander becomes an artifact and a Scarecrow in addition to its other types.\nOppose nobility — Resolve the Ambush Event “It’s Just Standing There… MENACINGLY.”\n",
+      "description": "The party chooses one —\nSwear loyalty — Each player’s commander becomes an artifact and a Scarecrow in addition to its other types.\nOppose nobility — Resolve the Ambush Event “It’s Just Standing There… MENACINGLY.”",
+      "plainText": "The party chooses one —\nSwear loyalty — Each player’s commander becomes an artifact and a Scarecrow in addition to its other types.\nOppose nobility — Resolve the Ambush Event “It’s Just Standing There… MENACINGLY.”"
+    },
+    "event-that-damned-bridge": {
+      "source": "rules/between-encounters/events/that-damned-bridge.md",
+      "sha256": "a35c2b0e89071ae6234445de382d7854fc77803a652ce2873d147e400fb53f32",
+      "markdown": "# That Damned Bridge\n\nEach player reveals cards from the top of their library until they reveal a nonland card. That player may pay 2 life.\nIf they do, they shuffle all cards revealed this way back into their library and repeat this process, increasing the life payment by 1 each time.\nOtherwise, they destroy the revealed nonland card, shuffle the other revealed cards back into their library, and stop.\n",
+      "description": "Each player reveals cards from the top of their library until they reveal a nonland card. That player may pay 2 life.\nIf they do, they shuffle all cards revealed this way back into their library and repeat this process, increasing the life payment by 1 each time.\nOtherwise, they destroy the revealed nonland card, shuffle the other revealed cards back into their library, and stop.",
+      "plainText": "Each player reveals cards from the top of their library until they reveal a nonland card. That player may pay 2 life.\nIf they do, they shuffle all cards revealed this way back into their library and repeat this process, increasing the life payment by 1 each time.\nOtherwise, they destroy the revealed nonland card, shuffle the other revealed cards back into their library, and stop."
+    },
+    "event-a-rock-pile": {
+      "source": "rules/between-encounters/events/a-rock-pile.md",
+      "sha256": "5cf542669943aa20023be34fa27c1a5af52e647ddb1aa548d723cc9ce8b97334",
+      "markdown": "# A Rock Pile\n\nThe party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.\n",
+      "description": "The party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.",
+      "plainText": "The party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way."
+    },
+    "event-sorrowful-swamp": {
+      "source": "rules/between-encounters/events/sorrowful-swamp.md",
+      "sha256": "33d82fff8328c024e11a5c1693c32aab3171d5b974aecf595887504ecffbc773",
+      "markdown": "# Sorrowful Swamp\n\nFor the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.\nEach player whose commander is black creates three of those tokens instead.\n",
+      "description": "For the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.\nEach player whose commander is black creates three of those tokens instead.",
+      "plainText": "For the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.\nEach player whose commander is black creates three of those tokens instead."
+    },
+    "event-treasure-goblin": {
+      "source": "rules/between-encounters/events/treasure-goblin.md",
+      "sha256": "522646a194698e18bbef32f7a2d87388b5a00fc602a09e8776fe39b8114f39fa",
+      "markdown": "# Treasure Goblin\n\nReveal three random Trinkets. The party chooses one to gain.\n",
+      "description": "Reveal three random Trinkets. The party chooses one to gain.",
+      "plainText": "Reveal three random Trinkets. The party chooses one to gain."
+    },
+    "event-planar-excavation": {
+      "source": "rules/between-encounters/events/planar-excavation.md",
+      "sha256": "c5d2901b1496634353eb9b7e93e4c18aa39fd335c9e5d549fd2d0fa1bea8d158",
+      "markdown": "# Planar Excavation\n\nEach player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.\n",
+      "description": "Each player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.",
+      "plainText": "Each player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity."
+    },
+    "event-mana-ripple": {
+      "source": "rules/between-encounters/events/mana-ripple.md",
+      "sha256": "f4cf0db2b3b1994153e7ddece44665a647af891c09e90f7f05e814b9008434e4",
+      "markdown": "# Mana Ripple\n\nEach player chooses one —\nMono — Choose a color, then reveal eight random monocolored cards of that color.\nDual — Choose two colors, then reveal four random cards that are exactly those colors.\nEach player may gain one card they revealed this way.\n",
+      "description": "Each player chooses one —\nMono — Choose a color, then reveal eight random monocolored cards of that color.\nDual — Choose two colors, then reveal four random cards that are exactly those colors.\nEach player may gain one card they revealed this way.",
+      "plainText": "Each player chooses one —\nMono — Choose a color, then reveal eight random monocolored cards of that color.\nDual — Choose two colors, then reveal four random cards that are exactly those colors.\nEach player may gain one card they revealed this way."
+    },
+    "event-rapidly-growing-harvest": {
+      "source": "rules/between-encounters/events/rapidly-growing-harvest.md",
+      "sha256": "7012fcd910850fbaa9cb1c8e693b3916b448ec0507ce67964a646cdb2a7f3fbd",
+      "markdown": "# Rapidly Growing Harvest\n\nEach player chooses one —\nGrowth — Gain up to two dual land cards within your commander’s color identity.\nHarvest — Gain one random utility land card within your commander’s color identity.\n",
+      "description": "Each player chooses one —\nGrowth — Gain up to two dual land cards within your commander’s color identity.\nHarvest — Gain one random utility land card within your commander’s color identity.",
+      "plainText": "Each player chooses one —\nGrowth — Gain up to two dual land cards within your commander’s color identity.\nHarvest — Gain one random utility land card within your commander’s color identity."
+    },
+    "event-witchs-cauldron": {
+      "source": "rules/between-encounters/events/witchs-cauldron.md",
+      "sha256": "cba87a17b10a3b62d241b2134ffb53f3667103c5f168429a4428b51d0b00c439",
+      "markdown": "# Witch’s Cauldron\n\nEach player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.\n",
+      "description": "Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.",
+      "plainText": "Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way."
+    },
+    "event-cheese-festival": {
+      "source": "rules/between-encounters/events/cheese-festival.md",
+      "sha256": "f3afd948308a970801a05aa64532d43375782d07591b8487c7e7018dd3458369",
+      "markdown": "# Cheese Festival\n\nEach player chooses one:\n- Add The Cheese Stands Alone to your deck, color-shifted to be within your color identity and augmented with “If you win at least one encounter during this run with this card on the battlefield, increase the Essence you receive at the end of the run by 50%.”\n- Reveal 10 random cards matching otag:food. Choose 3 to keep.\n",
+      "description": "Each player chooses one:\n- Add The Cheese Stands Alone to your deck, color-shifted to be within your color identity and augmented with “If you win at least one encounter during this run with this card on the battlefield, increase the Essence you receive at the end of the run by 50%.”\n- Reveal 10 random cards matching otag:food. Choose 3 to keep.",
+      "plainText": "Each player chooses one:\n- Add The Cheese Stands Alone to your deck, color-shifted to be within your color identity and augmented with “If you win at least one encounter during this run with this card on the battlefield, increase the Essence you receive at the end of the run by 50%.”\n- Reveal 10 random cards matching otag:food. Choose 3 to keep."
+    },
+    "event-strange-set-of-potions": {
+      "source": "rules/between-encounters/events/strange-set-of-potions.md",
+      "sha256": "78ac98e6a6bfe6dcfa58e6fe0fe4aa555e69a51d539e278e3c7df0aa31d5aa59",
+      "markdown": "# Strange Set of Potions\n\nEach player chooses one. All changes are permanent.\n- Purple potion — Reveal cards from your deck until you reveal a nonland card. Upgrade that card, then shuffle all revealed cards back into your deck.\n- Red potion — Your commander gets +2/+2.\n- Blue potion — Reveal cards from your deck until you reveal two basic lands. Reveal five random utility lands within your color identity. Replace the two basic lands with two of those utility lands, then shuffle those lands and the other cards revealed from your deck back into your deck. If your deck contains fewer than two basic lands, shuffle the revealed cards back into your deck and gain 50 XP instead.\n",
+      "description": "Each player chooses one. All changes are permanent.\n- Purple potion — Reveal cards from your deck until you reveal a nonland card. Upgrade that card, then shuffle all revealed cards back into your deck.\n- Red potion — Your commander gets +2/+2.\n- Blue potion — Reveal cards from your deck until you reveal two basic lands. Reveal five random utility lands within your color identity. Replace the two basic lands with two of those utility lands, then shuffle those lands and the other cards revealed from your deck back into your deck. If your deck contains fewer than two basic lands, shuffle the revealed cards back into your deck and gain 50 XP instead.",
+      "plainText": "Each player chooses one. All changes are permanent.\n- Purple potion — Reveal cards from your deck until you reveal a nonland card. Upgrade that card, then shuffle all revealed cards back into your deck.\n- Red potion — Your commander gets +2/+2.\n- Blue potion — Reveal cards from your deck until you reveal two basic lands. Reveal five random utility lands within your color identity. Replace the two basic lands with two of those utility lands, then shuffle those lands and the other cards revealed from your deck back into your deck. If your deck contains fewer than two basic lands, shuffle the revealed cards back into your deck and gain 50 XP instead."
+    },
+    "event-crossroads": {
+      "source": "rules/between-encounters/events/crossroads.md",
+      "sha256": "3841aebed5c91d8d281e4c6bb3d642dc471e083c6204d898fa66fc293507aadf",
+      "markdown": "# Crossroads\n\nReveal the top two cards of the Event deck.\nThe party chooses one to resolve. Put the other on the bottom of the Event deck.\n",
+      "description": "Reveal the top two cards of the Event deck.\nThe party chooses one to resolve. Put the other on the bottom of the Event deck.",
+      "plainText": "Reveal the top two cards of the Event deck.\nThe party chooses one to resolve. Put the other on the bottom of the Event deck."
+    },
+    "event-planetary-bank": {
+      "source": "rules/between-encounters/events/planetary-bank.md",
+      "sha256": "f8d1d25838f0d149a271c3ce0ad8dff549fc7a8843893f47e8b2563beb2720ac",
+      "markdown": "# Planetary Bank\n\nEach player may convert up to 50 Essence into an equal amount of XP.\n",
+      "description": "Each player may convert up to 50 Essence into an equal amount of XP.",
+      "plainText": "Each player may convert up to 50 Essence into an equal amount of XP."
+    },
+    "event-reckless-racketeering": {
+      "source": "rules/between-encounters/events/reckless-racketeering.md",
+      "sha256": "037c2a270f91030e0923ab1e9ed9718da1c9e1db6c678981cf5727eac6036df7",
+      "markdown": "# Reckless Racketeering\n\nEach player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.\n",
+      "description": "Each player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.",
+      "plainText": "Each player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard."
+    },
+    "event-wandering-planes-assistant": {
+      "source": "rules/between-encounters/events/wandering-planes-assistant.md",
+      "sha256": "0cad8d63dae326fb9bd4e37a953abc12b86b69dfdc735cd90501f9c6ef441331",
+      "markdown": "# Wandering Planes Assistant\n\nThe party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.\nEach player may permanently gain one of those cards.\n",
+      "description": "The party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.\nEach player may permanently gain one of those cards.",
+      "plainText": "The party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.\nEach player may permanently gain one of those cards."
+    },
+    "event-nameless-smith": {
+      "source": "rules/between-encounters/events/nameless-smith.md",
+      "sha256": "72eee6bf5c21c7dacda1fc2ac2cf29d4c5212c4bf627ddbaece4f49f5470813c",
+      "markdown": "# Nameless Smith\n\nEach player chooses a card in their Mainboard and upgrades it.\n",
+      "description": "Each player chooses a card in their Mainboard and upgrades it.",
+      "plainText": "Each player chooses a card in their Mainboard and upgrades it."
+    },
+    "event-a-portent-of-fortune": {
+      "source": "rules/between-encounters/events/a-portent-of-fortune.md",
+      "sha256": "e018021ba11ff10ce6108533d63ed032c99462f490c4e8ac046dba0592cd8045",
+      "markdown": "# A Portent of Fortune\n\nThe party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]\n",
+      "description": "The party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]",
+      "plainText": "The party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]"
+    },
+    "harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me": {
+      "source": "rules/seasonal-events/harvest-moon/doom/your-trinkets-are-nothing-but-toys-to-me.md",
+      "sha256": "971b44e08767e0530e8a5b6b2a0e408ded6988828d14d50070c1807e24826841",
+      "markdown": "# Your Trinkets Are Nothing But Toys To Me\n\nChoose a Trinket. That Trinket is inactive during this encounter.\n",
+      "description": "Choose a Trinket. That Trinket is inactive during this encounter.",
+      "plainText": "Choose a Trinket. That Trinket is inactive during this encounter."
+    },
+    "harvest-moon-doom-who-turned-out-the-lights": {
+      "source": "rules/seasonal-events/harvest-moon/doom/who-turned-out-the-lights.md",
+      "sha256": "44db51c34877d27986373b7c44b46b07b99d087a02297fe37ed78c6b2ccf8712",
+      "markdown": "# Who Turned out the lights\n\nFor each attacking creature, untap that creature and remove it from combat.\n",
+      "description": "For each attacking creature, untap that creature and remove it from combat.",
+      "plainText": "For each attacking creature, untap that creature and remove it from combat."
+    },
+    "harvest-moon-doom-the-scarecrow-cometh": {
+      "source": "rules/seasonal-events/harvest-moon/doom/the-scarecrow-cometh.md",
+      "sha256": "0631ea30aea2dbf1c93bb2d5ec4ceb684b8e32cc2b55f27c7e305ac009f8da6a",
+      "markdown": "# The Scarecrow Cometh\n\nReturn up to two target creature cards from graveyards to the battlefield under your control. They become kindred artifacts — Scarecrow and lose all other card types and creature types.\n",
+      "description": "Return up to two target creature cards from graveyards to the battlefield under your control. They become kindred artifacts — Scarecrow and lose all other card types and creature types.",
+      "plainText": "Return up to two target creature cards from graveyards to the battlefield under your control. They become kindred artifacts — Scarecrow and lose all other card types and creature types."
+    },
+    "harvest-moon-doom-stir-the-pot": {
+      "source": "rules/seasonal-events/harvest-moon/doom/stir-the-pot.md",
+      "sha256": "d65256cd2f61fcbbb2d472e2971c5fbf011526629f9061457ca499592d8cc038",
+      "markdown": "# Stir the Pot\n\nUp to two target creatures become goaded.\n",
+      "description": "Up to two target creatures become goaded.",
+      "plainText": "Up to two target creatures become goaded."
+    },
+    "harvest-moon-doom-soul-rend": {
+      "source": "rules/seasonal-events/harvest-moon/doom/soul-rend.md",
+      "sha256": "76bb3ffb9b1e595edb773b8d666aeb3648c89a1ea4932762b01b4a781f21ba20",
+      "markdown": "# Soul Rend\n\nCreatures your opponents control lose hexproof and indestructible until end of turn. Then choose up to one creature an opponent controls and destroy it.\n",
+      "description": "Creatures your opponents control lose hexproof and indestructible until end of turn. Then choose up to one creature an opponent controls and destroy it.",
+      "plainText": "Creatures your opponents control lose hexproof and indestructible until end of turn. Then choose up to one creature an opponent controls and destroy it."
+    },
+    "harvest-moon-doom-rotten-bounty": {
+      "source": "rules/seasonal-events/harvest-moon/doom/rotten-bounty.md",
+      "sha256": "7c43f2a0bd663e9186d88046217ee44e9a63df6c2977b29a4a3fb6a674915eb5",
+      "markdown": "# Rotten Bounty\n\nSacrifice a creature: Create six Gold tokens.\n",
+      "description": "Sacrifice a creature: Create six Gold tokens.",
+      "plainText": "Sacrifice a creature: Create six Gold tokens."
+    },
+    "harvest-moon-doom-im-the-hero-of-this-story": {
+      "source": "rules/seasonal-events/harvest-moon/doom/im-the-hero-of-this-story.md",
+      "sha256": "83e30892d9c69671ad582b8388978a4a787c0a508d8678eeeb4455f3f2073562",
+      "markdown": "# I’m the Hero of This Story\n\nReveal three groups of three random Hero Powers. Choose one Hero Power from each group and gain the chosen Hero Powers.\n",
+      "description": "Reveal three groups of three random Hero Powers. Choose one Hero Power from each group and gain the chosen Hero Powers.",
+      "plainText": "Reveal three groups of three random Hero Powers. Choose one Hero Power from each group and gain the chosen Hero Powers."
+    },
+    "harvest-moon-doom-hunt-them-all": {
+      "source": "rules/seasonal-events/harvest-moon/doom/hunt-them-all.md",
+      "sha256": "fe7a4cc791f8f7a31a129e1a3cb32c3e0b2d35c1e09016c93740dcd2a71f8e16",
+      "markdown": "# Hunt Them All\n\nUntil end of turn, whenever one or more creatures you control attack a player, draw a card.\n",
+      "description": "Until end of turn, whenever one or more creatures you control attack a player, draw a card.",
+      "plainText": "Until end of turn, whenever one or more creatures you control attack a player, draw a card."
+    },
+    "harvest-moon-doom-hunt-the-weak": {
+      "source": "rules/seasonal-events/harvest-moon/doom/hunt-the-weak.md",
+      "sha256": "cd843e596abaf5bf67f3c479e137b142c2112133b3ca0c5a4a8d0db8c62e35ae",
+      "markdown": "# Hunt The Weak\n\nThe Host chooses a creature they control. Destroy all creatures with power less than the chosen creature’s power.\n",
+      "description": "The Host chooses a creature they control. Destroy all creatures with power less than the chosen creature’s power.",
+      "plainText": "The Host chooses a creature they control. Destroy all creatures with power less than the chosen creature’s power."
+    },
+    "harvest-moon-doom-harvest-of-the-damned": {
+      "source": "rules/seasonal-events/harvest-moon/doom/harvest-of-the-damned.md",
+      "sha256": "dc19d9e32b3ecd3f90956d9255d2b9b2df69b6e496d2d708b843a28229b489e5",
+      "markdown": "# Harvest of the Damned\n\nFor each creature that has died this turn, put a +1/+1 counter on target creature you control.\nYou may only activate this card during your end step.\n",
+      "description": "For each creature that has died this turn, put a +1/+1 counter on target creature you control.\nYou may only activate this card during your end step.",
+      "plainText": "For each creature that has died this turn, put a +1/+1 counter on target creature you control.\nYou may only activate this card during your end step."
+    },
+    "harvest-moon-doom-forged-in-their-name": {
+      "source": "rules/seasonal-events/harvest-moon/doom/forged-in-their-name.md",
+      "sha256": "b95a24ade8637bd5484ccb0ecdf201ab2e96a41ffc53bee95769876094cef2b4",
+      "markdown": "# Forged in Their Name\n\nConjure two cards named Bloodline Pretender onto the battlefield. Trigger this only as a sorcery.\n",
+      "description": "Conjure two cards named Bloodline Pretender onto the battlefield. Trigger this only as a sorcery.",
+      "plainText": "Conjure two cards named Bloodline Pretender onto the battlefield. Trigger this only as a sorcery."
+    },
+    "harvest-moon-doom-danse-macabre": {
+      "source": "rules/seasonal-events/harvest-moon/doom/danse-macabre.md",
+      "sha256": "1f97c04b12c111eaea6975ce3b894eb12d7d157fecf396fdbd38ddf5d6230c55",
+      "markdown": "# Danse Macabre\n\nReturn up to one target creature from each opponent’s graveyard to the battlefield under your control. They gain haste and can only attack their owner. Sacrifice them at the beginning of the next end step.\n",
+      "description": "Return up to one target creature from each opponent’s graveyard to the battlefield under your control. They gain haste and can only attack their owner. Sacrifice them at the beginning of the next end step.",
+      "plainText": "Return up to one target creature from each opponent’s graveyard to the battlefield under your control. They gain haste and can only attack their owner. Sacrifice them at the beginning of the next end step."
+    },
+    "harvest-moon-doom-clock-strikes-midnight": {
+      "source": "rules/seasonal-events/harvest-moon/doom/clock-strikes-midnight.md",
+      "sha256": "206cef49d68e3259cbe87bff56a67e2b8e5f3aab0f56b4e501692985963b74fc",
+      "markdown": "# Clock strikes midnight\n\nDraw two cards. Then exile this card with two time counters on it. It gains suspend.\n",
+      "description": "Draw two cards. Then exile this card with two time counters on it. It gains suspend.",
+      "plainText": "Draw two cards. Then exile this card with two time counters on it. It gains suspend."
+    },
+    "harvest-moon-doom-bloodrush": {
+      "source": "rules/seasonal-events/harvest-moon/doom/bloodrush.md",
+      "sha256": "a0cf549783f8e266ccf0430939265e45cca67dd59b5321e573dfe24fa8f9e87c",
+      "markdown": "# BloodRush\n\nWhen you attack with a creature this turn, it gains a +1/+1 counter.\n",
+      "description": "When you attack with a creature this turn, it gains a +1/+1 counter.",
+      "plainText": "When you attack with a creature this turn, it gains a +1/+1 counter."
+    },
+    "harvest-moon-doom-a-wolf-in-sheeps-clothing": {
+      "source": "rules/seasonal-events/harvest-moon/doom/a-wolf-in-sheeps-clothing.md",
+      "sha256": "448f83c6ee7c0fd4ae7b488c2f595f9c99fd432beebf703a4369386d78d90c8f",
+      "markdown": "# A Wolf in Sheep’s Clothing\n\nChoose a creature you control. It becomes a copy of another target creature except for its name. That creature gains “{2}: This creature becomes a copy of another target creature except for its name.”\n",
+      "description": "Choose a creature you control. It becomes a copy of another target creature except for its name. That creature gains “{2}: This creature becomes a copy of another target creature except for its name.”",
+      "plainText": "Choose a creature you control. It becomes a copy of another target creature except for its name. That creature gains “{2}: This creature becomes a copy of another target creature except for its name.”"
+    },
+    "trinket-forgotten-key": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/forgotten-key.md",
+      "sha256": "863cbf0265363e0e3c67bacfc73645c5894babbb935d530927d2d41f054a0c05",
+      "markdown": "# Forgotten Key\n\n{3}: Conjure a random Sword of X and Y and attach it to an attacking creature you control. Exile that Equipment at the end of the turn.\nActivate only once per party turn.\nCard pool: otag:sword-of-x-and-y\n",
+      "description": "{3}: Conjure a random Sword of X and Y and attach it to an attacking creature you control. Exile that Equipment at the end of the turn.\nActivate only once per party turn.\nCard pool: otag:sword-of-x-and-y",
+      "plainText": "{3}: Conjure a random Sword of X and Y and attach it to an attacking creature you control. Exile that Equipment at the end of the turn.\nActivate only once per party turn.\nCard pool: otag:sword-of-x-and-y"
+    },
+    "trinket-stolen-pumpkin": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/stolen-pumpkin.md",
+      "sha256": "3a04f5d6ba1ba15a6b60ce51685ff22a4b5721e0e495b91b2e18451bf5d93184",
+      "markdown": "# Stolen Pumpkin\n\nPlayers can’t purchase packs in Town.\n\nWhenever a player gains XP, they gain 60% additional XP.\n",
+      "description": "Players can’t purchase packs in Town.\n\nWhenever a player gains XP, they gain 60% additional XP.",
+      "plainText": "Players can’t purchase packs in Town.\n\nWhenever a player gains XP, they gain 60% additional XP."
+    },
+    "trinket-pickled-pumpkin": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/pickled-pumpkin.md",
+      "sha256": "cdc9d99ff1f56a491a98ac2f521fa3fbe961ddcfc7ae9d26c198cd9f487e7049",
+      "markdown": "# Pickled Pumpkin\n\nPlayers can’t trade cards.\n\nWhenever a player gains XP, they gain 20% additional XP.\n",
+      "description": "Players can’t trade cards.\n\nWhenever a player gains XP, they gain 20% additional XP.",
+      "plainText": "Players can’t trade cards.\n\nWhenever a player gains XP, they gain 20% additional XP."
+    },
+    "trinket-dead-leaf": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/dead-leaf.md",
+      "sha256": "c35c6774960c4ab8d80cac6d6896d7321e14cd05ea54c13b6a3300ba3c67a4d5",
+      "markdown": "# Dead Leaf\n\nOnce per encounter, the Party may choose a player. That player and each permanent they control phase out until that player’s next turn. Activate only as a sorcery.\n",
+      "description": "Once per encounter, the Party may choose a player. That player and each permanent they control phase out until that player’s next turn. Activate only as a sorcery.",
+      "plainText": "Once per encounter, the Party may choose a player. That player and each permanent they control phase out until that player’s next turn. Activate only as a sorcery."
+    },
+    "trinket-legendary-shovel": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/legendary-shovel.md",
+      "sha256": "41df6e6387a264a86e400d319f3fd544b22d842d2b8d8d3127d14ba83a8c24c3",
+      "markdown": "# Legendary Shovel\n\nWhen the party gains this Trinket, each player may bury one card from their deck: move it to their sideboard and put a growth counter on it.\nAt the end of each encounter, each player may unearth their buried card, returning it to their main deck. If they leave it buried, put another growth counter on it.\nWhen a card is unearthed, apply the effect matching its number of growth counters:\n1: Upgrade it.\n2: Augment it.\n3: Upgrade and Augment it.\n4 or more: No effect.\nIf this Trinket is chosen before deckbuilding, bury cards after deckbuilding is complete.\n",
+      "description": "When the party gains this Trinket, each player may bury one card from their deck: move it to their sideboard and put a growth counter on it.\nAt the end of each encounter, each player may unearth their buried card, returning it to their main deck. If they leave it buried, put another growth counter on it.\nWhen a card is unearthed, apply the effect matching its number of growth counters:\n1: Upgrade it.\n2: Augment it.\n3: Upgrade and Augment it.\n4 or more: No effect.\nIf this Trinket is chosen before deckbuilding, bury cards after deckbuilding is complete.",
+      "plainText": "When the party gains this Trinket, each player may bury one card from their deck: move it to their sideboard and put a growth counter on it.\nAt the end of each encounter, each player may unearth their buried card, returning it to their main deck. If they leave it buried, put another growth counter on it.\nWhen a card is unearthed, apply the effect matching its number of growth counters:\n1: Upgrade it.\n2: Augment it.\n3: Upgrade and Augment it.\n4 or more: No effect.\nIf this Trinket is chosen before deckbuilding, bury cards after deckbuilding is complete."
+    },
+    "trinket-scaery-pumpkin": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/scaery-pumpkin.md",
+      "sha256": "55a59d4eb369e48307782f2225a16fde0949a8d746546aefa0c43cdbb44a6695",
+      "markdown": "# Scaery Pumpkin\n\nThe party can’t Stay Out.\nWhenever the party enters Town, roll for a Supply Drop.\n",
+      "description": "The party can’t Stay Out.\nWhenever the party enters Town, roll for a Supply Drop.",
+      "plainText": "The party can’t Stay Out.\nWhenever the party enters Town, roll for a Supply Drop."
+    },
+    "trinket-shattered-glass": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/shattered-glass.md",
+      "sha256": "add9651a95d63df577aa9deefcbe269251f414b6c3d038c501d898dd4801bd55",
+      "markdown": "# Shattered Glass\n\nAt the beginning of the Party’s upkeep, each player may fragment a nontoken creature they control without a splinter counter. (To fragment a creature, create a token that’s a copy of it, except it’s 1/1. Then put a splinter counter on that creature and the token. A creature with a splinter counter can’t be fragmented.)\n",
+      "description": "At the beginning of the Party’s upkeep, each player may fragment a nontoken creature they control without a splinter counter. (To fragment a creature, create a token that’s a copy of it, except it’s 1/1. Then put a splinter counter on that creature and the token. A creature with a splinter counter can’t be fragmented.)",
+      "plainText": "At the beginning of the Party’s upkeep, each player may fragment a nontoken creature they control without a splinter counter. (To fragment a creature, create a token that’s a copy of it, except it’s 1/1. Then put a splinter counter on that creature and the token. A creature with a splinter counter can’t be fragmented.)"
+    },
+    "trinket-full-moon": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/full-moon.md",
+      "sha256": "849699ac3b988cc1d5ade4d55a58cd5fb50fdceb6700bdd65a3ef304930e375e",
+      "markdown": "# Full Moon\n\nDouble-faced permanents enter the battlefield under players’ control with their back faces up. This applies to both transforming double-faced cards and modal double-faced cards.\n",
+      "description": "Double-faced permanents enter the battlefield under players’ control with their back faces up. This applies to both transforming double-faced cards and modal double-faced cards.",
+      "plainText": "Double-faced permanents enter the battlefield under players’ control with their back faces up. This applies to both transforming double-faced cards and modal double-faced cards."
+    },
+    "harvest-moon-travelers-farm-tool-supplier": {
+      "source": "rules/seasonal-events/harvest-moon/travelers/farm-tool-supplier.md",
+      "sha256": "b5dd6dc30e639f765e12426d55112c5e38c0273887c859750a87882e2e43470f",
+      "markdown": "# Farm Tool Supplier\n\nEach player may choose one:\n\n- 25 XP — Augment an Equipment in your deck. That Equipment starts each game in your hand.\n\n- 10 XP — Spawn 10 random Equipment cards of Rare or higher rarity within your color identity. Choose one of them to gain.\n",
+      "description": "Each player may choose one:\n\n- 25 XP — Augment an Equipment in your deck. That Equipment starts each game in your hand.\n\n- 10 XP — Spawn 10 random Equipment cards of Rare or higher rarity within your color identity. Choose one of them to gain.",
+      "plainText": "Each player may choose one:\n\n- 25 XP — Augment an Equipment in your deck. That Equipment starts each game in your hand.\n\n- 10 XP — Spawn 10 random Equipment cards of Rare or higher rarity within your color identity. Choose one of them to gain."
+    },
+    "harvest-moon-travelers-nylea-hunter-of-horrors": {
+      "source": "rules/seasonal-events/harvest-moon/travelers/nylea-hunter-of-horrors.md",
+      "sha256": "3e4d5a8fef6c7eaceb3c4cc10f65ada8cd5794fc8471215eb9460cf4ba873295",
+      "markdown": "# Nylea, Hunter of Horrors\n\nThe party may collectively pay XP to choose one:\n\n- Pay 25 XP — Spawn 10 random Mythic Rare creatures within the party’s color identities. Choose 3 of them to gain.\n\n- Pay 50 XP — During the next encounter, instead of voting against the Host’s choices, the players choose what the Host plays.\n\n- Pay 100 XP — The party gains the Trinket Nylea’s Sight.\n\n- Pay 200 XP — The party gains the card Bow of Nylea.\n\nKarametra Just Wants to Talk — If any player has Karametra in their deck when the party enters town, they may have her “talk.” The party gains both Bow of Nylea and Karametra’s Cornucopia to keep.\nAfterward, the Tavern is destroyed and cannot be used for the rest of the run. Whoops.\n",
+      "description": "The party may collectively pay XP to choose one:\n\n- Pay 25 XP — Spawn 10 random Mythic Rare creatures within the party’s color identities. Choose 3 of them to gain.\n\n- Pay 50 XP — During the next encounter, instead of voting against the Host’s choices, the players choose what the Host plays.\n\n- Pay 100 XP — The party gains the Trinket Nylea’s Sight.\n\n- Pay 200 XP — The party gains the card Bow of Nylea.\n\nKarametra Just Wants to Talk — If any player has Karametra in their deck when the party enters town, they may have her “talk.” The party gains both Bow of Nylea and Karametra’s Cornucopia to keep.\nAfterward, the Tavern is destroyed and cannot be used for the rest of the run. Whoops.",
+      "plainText": "The party may collectively pay XP to choose one:\n\n- Pay 25 XP — Spawn 10 random Mythic Rare creatures within the party’s color identities. Choose 3 of them to gain.\n\n- Pay 50 XP — During the next encounter, instead of voting against the Host’s choices, the players choose what the Host plays.\n\n- Pay 100 XP — The party gains the Trinket Nylea’s Sight.\n\n- Pay 200 XP — The party gains the card Bow of Nylea.\n\nKarametra Just Wants to Talk — If any player has Karametra in their deck when the party enters town, they may have her “talk.” The party gains both Bow of Nylea and Karametra’s Cornucopia to keep.\nAfterward, the Tavern is destroyed and cannot be used for the rest of the run. Whoops."
+    },
+    "harvest-moon-wanderers-frightened-farmer": {
+      "source": "rules/seasonal-events/harvest-moon/wanderers/frightened-farmer.md",
+      "sha256": "b2254e721e7b4d3b3003d6f5b2046d875c5b5b542883f83b2874a8df4afd5a65",
+      "markdown": "# Frightened Farmer\n\nThe farmer needs help clearing out some overgrown weeds.\n\nIf the party accepts, the Host begins the next combat with five 1/1 Saproling creature tokens.\n\nIf the party wins that combat, each player gains 15 XP.\n",
+      "description": "The farmer needs help clearing out some overgrown weeds.\n\nIf the party accepts, the Host begins the next combat with five 1/1 Saproling creature tokens.\n\nIf the party wins that combat, each player gains 15 XP.",
+      "plainText": "The farmer needs help clearing out some overgrown weeds.\n\nIf the party accepts, the Host begins the next combat with five 1/1 Saproling creature tokens.\n\nIf the party wins that combat, each player gains 15 XP."
+    },
+    "harvest-moon-wanderers-kind-stranger": {
+      "source": "rules/seasonal-events/harvest-moon/wanderers/kind-stranger.md",
+      "sha256": "2ec6e9f17dcb30e54a86f2b321385061d368a7d87721c1db6a19bbcd51efac97",
+      "markdown": "# Kind Stranger\n\nEach player may choose one:\n\n- Gain 5 XP.\n\n- Pay 5 XP — If you do, gain a random Rare Artifact.\n",
+      "description": "Each player may choose one:\n\n- Gain 5 XP.\n\n- Pay 5 XP — If you do, gain a random Rare Artifact.",
+      "plainText": "Each player may choose one:\n\n- Gain 5 XP.\n\n- Pay 5 XP — If you do, gain a random Rare Artifact."
+    },
+    "harvest-moon-wanderers-reaper-king": {
+      "source": "rules/seasonal-events/harvest-moon/wanderers/reaper-king.md",
+      "sha256": "279936ad3ac7ac887b004396d8e9dc4efb22b3a74438ba9669ed750bf0829878",
+      "markdown": "# Reaper King\n\nJust a Regular Scarecrow\n\nThe party votes for one:\n\nBelieve It — Each player gains 10 XP.\n\nDon’t Believe It — Mr. Not Reaper King asks the party to reconsider.\nIf the majority votes Don’t Believe It, Mr. Not Reaper King stabs the party. Each player loses 1 life and gains 3 XP. It then runs away, and the party reveals a new Wanderer.\n",
+      "description": "Just a Regular Scarecrow\n\nThe party votes for one:\n\nBelieve It — Each player gains 10 XP.\n\nDon’t Believe It — Mr. Not Reaper King asks the party to reconsider.\nIf the majority votes Don’t Believe It, Mr. Not Reaper King stabs the party. Each player loses 1 life and gains 3 XP. It then runs away, and the party reveals a new Wanderer.",
+      "plainText": "Just a Regular Scarecrow\n\nThe party votes for one:\n\nBelieve It — Each player gains 10 XP.\n\nDon’t Believe It — Mr. Not Reaper King asks the party to reconsider.\nIf the majority votes Don’t Believe It, Mr. Not Reaper King stabs the party. Each player loses 1 life and gains 3 XP. It then runs away, and the party reveals a new Wanderer."
+    },
+    "trinket-nyleas-sight": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/nyleas-sight.md",
+      "sha256": "1f03c2a7956efd47dbcfd5e998ec3232231529de680fac72355559340b523500",
+      "markdown": "# Nylea’s Sight\n\nTwice per encounter, target creature’s toughness becomes 1.\n",
+      "description": "Twice per encounter, target creature’s toughness becomes 1.",
+      "plainText": "Twice per encounter, target creature’s toughness becomes 1."
+    },
+    "trinket-karametras-cornucopia": {
+      "source": "rules/seasonal-events/harvest-moon/trinkets/karametras-cornucopia.md",
+      "sha256": "e7be00b7471c9858d4974a5a05398cff66bb61823f50e12b7d3e0f5cb7967963",
+      "markdown": "# Karametra’s Cornucopia\n\nCreatures the Party controls have absorb 1.\n\nOnce each Party turn, whenever a player casts their first creature spell that turn, that player chooses one:\n\nSearch their library for a basic land card, reveal it, put it into their hand, then shuffle.\nPut a land card from their hand onto the battlefield tapped.\n",
+      "description": "Creatures the Party controls have absorb 1.\n\nOnce each Party turn, whenever a player casts their first creature spell that turn, that player chooses one:\n\nSearch their library for a basic land card, reveal it, put it into their hand, then shuffle.\nPut a land card from their hand onto the battlefield tapped.",
+      "plainText": "Creatures the Party controls have absorb 1.\n\nOnce each Party turn, whenever a player casts their first creature spell that turn, that player chooses one:\n\nSearch their library for a basic land card, reveal it, put it into their hand, then shuffle.\nPut a land card from their hand onto the battlefield tapped."
+    },
+    "reap_what_you_sow": {
+      "source": "rules/progression/crypt-buffs/reap-what-you-sow.md",
+      "sha256": "040c2a82bb875ed5edaceb83715867b9e7bd4f6e1eac43740bc0a7d5408ac28a",
+      "markdown": "# **Reap What You Sow**\n\n**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---\n",
+      "description": "**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---",
+      "plainText": "Effect\nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\nUnlock Source\nBeat Harvest Moon."
+    },
+    "event-bad-wave-bro": {
+      "source": "rules/between-encounters/events/bad-wave-bro.md",
+      "sha256": "3d57529d7959d2dc0c788d6b9442d6eeebcdb16d9088b697e595ba03c02ff452",
+      "markdown": "# Bad Wave Bro\n\nThe team wipes out! At the start of the next combat, mill the top 5 cards of each players library.\n",
+      "description": "The team wipes out! At the start of the next combat, mill the top 5 cards of each players library.",
+      "plainText": "The team wipes out! At the start of the next combat, mill the top 5 cards of each players library."
+    },
+    "event-swap-shop": {
+      "source": "rules/between-encounters/events/swap-shop.md",
+      "sha256": "465a8ae6e7f6ef87816f49676cf84a2a21a7325b5ebca4df28986adab4893188",
+      "markdown": "# Swap Shop\n\nOnce per town you may give up 3 cards. One for mana cost, one for type, and one for color. If you do, randomly get a card of those attributes you gave up.\n",
+      "description": "Once per town you may give up 3 cards. One for mana cost, one for type, and one for color. If you do, randomly get a card of those attributes you gave up.",
+      "plainText": "Once per town you may give up 3 cards. One for mana cost, one for type, and one for color. If you do, randomly get a card of those attributes you gave up."
+    },
+    "event-merfolk-dont-like-scuba": {
+      "source": "rules/between-encounters/events/merfolk-dont-like-scuba.md",
+      "sha256": "2183018bed8d978ceb0802b13a4611facc93ffbccb2f2d59aac1833a85031b82",
+      "markdown": "# Merfolk Dont Like Scuba\n\nFor the next encounter, The host conjures 1d2 random merfolk creatures at the beginning of each of their upkeeps.\nIf the players win, double cash out rewards. All players pick 2.\n",
+      "description": "For the next encounter, The host conjures 1d2 random merfolk creatures at the beginning of each of their upkeeps.\nIf the players win, double cash out rewards. All players pick 2.",
+      "plainText": "For the next encounter, The host conjures 1d2 random merfolk creatures at the beginning of each of their upkeeps.\nIf the players win, double cash out rewards. All players pick 2."
+    },
+    "event-do-not-disturb-the-fish": {
+      "source": "rules/between-encounters/events/do-not-disturb-the-fish.md",
+      "sha256": "ddfacbccbcac61f63a30332a8a9921ffe0d00c498125cce0c6503fd8ef6a5d34",
+      "markdown": "# Do Not Disturb the Fish\n\nThe host starts play with a random leviathan. It gains hexproof, and when the players attack the host or target another permanent they control, put a +1/+1 counter on it. It cannot attack or block unless it has 3 or more counters on it, and loses hexproof.\n",
+      "description": "The host starts play with a random leviathan. It gains hexproof, and when the players attack the host or target another permanent they control, put a +1/+1 counter on it. It cannot attack or block unless it has 3 or more counters on it, and loses hexproof.",
+      "plainText": "The host starts play with a random leviathan. It gains hexproof, and when the players attack the host or target another permanent they control, put a +1/+1 counter on it. It cannot attack or block unless it has 3 or more counters on it, and loses hexproof."
+    },
+    "event-crabs": {
+      "source": "rules/between-encounters/events/crabs.md",
+      "sha256": "6907a43db94f7cacf00275b8f50211f0219a0768f8d0bc51c8edd1c12e1e7e31",
+      "markdown": "# Crabs!?\n\nHost spawns a random crab.\nWhen the host attacks, choose a crab per 2 players at the table. Those crabs deal damage equal to their toughness instead of their power until end of turn.\nIf the players win, they gain Crabby. (If the Party Already had Crabby instead give a Random Trinket)\n",
+      "description": "Host spawns a random crab.\nWhen the host attacks, choose a crab per 2 players at the table. Those crabs deal damage equal to their toughness instead of their power until end of turn.\nIf the players win, they gain Crabby. (If the Party Already had Crabby instead give a Random Trinket)",
+      "plainText": "Host spawns a random crab.\nWhen the host attacks, choose a crab per 2 players at the table. Those crabs deal damage equal to their toughness instead of their power until end of turn.\nIf the players win, they gain Crabby. (If the Party Already had Crabby instead give a Random Trinket)"
+    },
+    "event-course-rough-and-gets-everywhere": {
+      "source": "rules/between-encounters/events/course-rough-and-gets-everywhere.md",
+      "sha256": "93fe6820fdcefec42a82fb76274f1395ff7501a4d2eb8abd544269a7f9855fd6",
+      "markdown": "# Course,Rough, and Gets Everywhere\n\nDuring the next encounter, at the start of combat, the active team chooses one commander to gain desert walk until end of turn.\nAll players and host start the game with “Desert”\n",
+      "description": "During the next encounter, at the start of combat, the active team chooses one commander to gain desert walk until end of turn.\nAll players and host start the game with “Desert”",
+      "plainText": "During the next encounter, at the start of combat, the active team chooses one commander to gain desert walk until end of turn.\nAll players and host start the game with “Desert”"
+    },
+    "event-no-hard-feelings-on-forgetting-the-food": {
+      "source": "rules/between-encounters/events/no-hard-feelings-on-forgetting-the-food.md",
+      "sha256": "51432b67088d5d37d77676aad257f554b1b09466ffd50d403e8cc8c1e24c6892",
+      "markdown": "# No Hard Feelings On Forgetting the Food?\n\nA player chosen at random is treated as an opponent when it comes to card effects for the next combat.\n",
+      "description": "A player chosen at random is treated as an opponent when it comes to card effects for the next combat.",
+      "plainText": "A player chosen at random is treated as an opponent when it comes to card effects for the next combat."
+    },
+    "event-youve-found-a-fishing-rod": {
+      "source": "rules/between-encounters/events/youve-found-a-fishing-rod.md",
+      "sha256": "b95523ffe64e19c618b8ad47618b5f8bd7397b9c6076d5b5dddbf42e3a48de9e",
+      "markdown": "# You've Found A Fishing Rod?\n\nThe party gains the Cursed Rod. (If the party Already Has a Fishing Rod Reroll this into a Bad Event)\n",
+      "description": "The party gains the Cursed Rod. (If the party Already Has a Fishing Rod Reroll this into a Bad Event)",
+      "plainText": "The party gains the Cursed Rod. (If the party Already Has a Fishing Rod Reroll this into a Bad Event)"
+    },
+    "event-does-anyone-here-like-fishing": {
+      "source": "rules/between-encounters/events/does-anyone-here-like-fishing.md",
+      "sha256": "44befca2f1a041b31eec61d93a23adf5d0b638d8447e948abf090b82e05090bf",
+      "markdown": "# Does Anyone Here Like Fishing\n\nAsk the table if that they like fishing. If they do, give them a Bad Rod (If they have a Fishing Rod Already Reroll this event into a \"Good Event\"). If they don’t, instead give them 50XP each.\n",
+      "description": "Ask the table if that they like fishing. If they do, give them a Bad Rod (If they have a Fishing Rod Already Reroll this event into a \"Good Event\"). If they don’t, instead give them 50XP each.",
+      "plainText": "Ask the table if that they like fishing. If they do, give them a Bad Rod (If they have a Fishing Rod Already Reroll this event into a \"Good Event\"). If they don’t, instead give them 50XP each."
+    },
+    "event-packsicle-stand": {
+      "source": "rules/between-encounters/events/packsicle-stand.md",
+      "sha256": "0f318e9dbb9fd1187802f845a94be8561bf053038fadf45dce581e03c73e29a7",
+      "markdown": "# Packsicle Stand\n\nPacksicle StandWhenever you open a non-mystery pack, roll a 1d6. On a 6, gain a free cash out.\n",
+      "description": "Packsicle StandWhenever you open a non-mystery pack, roll a 1d6. On a 6, gain a free cash out.",
+      "plainText": "Packsicle StandWhenever you open a non-mystery pack, roll a 1d6. On a 6, gain a free cash out."
+    },
+    "event-volleyball-game": {
+      "source": "rules/between-encounters/events/volleyball-game.md",
+      "sha256": "4feb9a796f97c5c90ff29ca359017f78c5f504a94738cbac18a05686d99bae32",
+      "markdown": "# Volleyball Game!\n\nPlay a nice relaxing game with the host\nAt the beginning of the first upkeep in the next encounter, choose a player to clash with the host. Then repeat, choosing a different player each time. Whoever wins the clash gets a point. You gain rewards based on how many points you get. Once the players or host gets 3 points, the game is over.\n0: All players gain 10XP\n1: All players gain +5 health for this game\n2: All players conjure a temporal lotus petal onto their field.\n3: Gain the volley ball trinket (If the party Already has the Volley Ball Trinket do all the effects above instead)\n",
+      "description": "Play a nice relaxing game with the host\nAt the beginning of the first upkeep in the next encounter, choose a player to clash with the host. Then repeat, choosing a different player each time. Whoever wins the clash gets a point. You gain rewards based on how many points you get. Once the players or host gets 3 points, the game is over.\n0: All players gain 10XP\n1: All players gain +5 health for this game\n2: All players conjure a temporal lotus petal onto their field.\n3: Gain the volley ball trinket (If the party Already has the Volley Ball Trinket do all the effects above instead)",
+      "plainText": "Play a nice relaxing game with the host\nAt the beginning of the first upkeep in the next encounter, choose a player to clash with the host. Then repeat, choosing a different player each time. Whoever wins the clash gets a point. You gain rewards based on how many points you get. Once the players or host gets 3 points, the game is over.\n0: All players gain 10XP\n1: All players gain +5 health for this game\n2: All players conjure a temporal lotus petal onto their field.\n3: Gain the volley ball trinket (If the party Already has the Volley Ball Trinket do all the effects above instead)"
+    },
+    "event-helpful-dolphin": {
+      "source": "rules/between-encounters/events/helpful-dolphin.md",
+      "sha256": "706f473a8e1ea8fa292be21f96e36d6c1a9bd42a5828944c369e634bc51a4b51",
+      "markdown": "# Helpful Dolphin\n\nAt the beginning of the next encounter, each player may search their deck for a card and exile it. Players may cast cards exiled this way. Spells cast this way cost 1 less.\n",
+      "description": "At the beginning of the next encounter, each player may search their deck for a card and exile it. Players may cast cards exiled this way. Spells cast this way cost 1 less.",
+      "plainText": "At the beginning of the next encounter, each player may search their deck for a card and exile it. Players may cast cards exiled this way. Spells cast this way cost 1 less."
+    },
+    "event-suken-treasure": {
+      "source": "rules/between-encounters/events/suken-treasure.md",
+      "sha256": "434369bfba4f54c2364125c1a9207868d856902e68e72f6e9debca4a2dc69e90",
+      "markdown": "# Suken Treasure\n\nA treasure under the ocean\nAll players gain a random rare artifact\nAny player with an aquatic commander gets 2 random rare artifacts, or a random mythic artifact\n",
+      "description": "A treasure under the ocean\nAll players gain a random rare artifact\nAny player with an aquatic commander gets 2 random rare artifacts, or a random mythic artifact",
+      "plainText": "A treasure under the ocean\nAll players gain a random rare artifact\nAny player with an aquatic commander gets 2 random rare artifacts, or a random mythic artifact"
+    },
+    "event-pooltoy-for-sale": {
+      "source": "rules/between-encounters/events/pooltoy-for-sale.md",
+      "sha256": "77e49829a21a43d7f7d0a33fec4c15c6e401d04f4b5bead111cde7f006dd0075",
+      "markdown": "# Pooltoy for Sale\n\nYou may pay 50XP, scryfall in a creature, but its a balloon (You Can Not Scryfall in a creature with Scryfall already in your deck)\n",
+      "description": "You may pay 50XP, scryfall in a creature, but its a balloon (You Can Not Scryfall in a creature with Scryfall already in your deck)",
+      "plainText": "You may pay 50XP, scryfall in a creature, but its a balloon (You Can Not Scryfall in a creature with Scryfall already in your deck)"
+    },
+    "event-feeding-frenzy": {
+      "source": "rules/between-encounters/events/feeding-frenzy.md",
+      "sha256": "28759631d7422ed1af396f946ddcf749de0363d687a6fd74930e3978642e8c25",
+      "markdown": "# Feeding Frenzy\n\nThe host starts with 2 reef worms in play\nIf the players win, each player either gains a 2 mana reef worm upgraded into their colors, or 25XP.\n",
+      "description": "The host starts with 2 reef worms in play\nIf the players win, each player either gains a 2 mana reef worm upgraded into their colors, or 25XP.",
+      "plainText": "The host starts with 2 reef worms in play\nIf the players win, each player either gains a 2 mana reef worm upgraded into their colors, or 25XP."
+    },
+    "high-tide-hijinks-doom-nice-sand-castle-nerd": {
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/nice-sand-castle-nerd.md",
+      "sha256": "309fb1f183609744870dcf179a1477b6284c4ec1785f6f9c851ca1f548184bf6",
+      "markdown": "# Nice Sand Castle, Nerd\n\nNice Sand Castle, Nerd.\nDestroy the highest cost permanent the players control. Add {U}{U} to your mana pool\n",
+      "description": "Nice Sand Castle, Nerd.\nDestroy the highest cost permanent the players control. Add {U}{U} to your mana pool",
+      "plainText": "Nice Sand Castle, Nerd.\nDestroy the highest cost permanent the players control. Add {U}{U} to your mana pool"
+    },
+    "high-tide-hijinks-doom-sunburn": {
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/sunburn.md",
+      "sha256": "4bdcf1f5afea26fa258ae9f1ac77825c3e8f1cb09d1018fa1047532e7c31dd81",
+      "markdown": "# Sunburn\n\nNoncombat damage dealt by the host this turn gains wither.\nDeal 10 damage split among any number of target creatures\n",
+      "description": "Noncombat damage dealt by the host this turn gains wither.\nDeal 10 damage split among any number of target creatures",
+      "plainText": "Noncombat damage dealt by the host this turn gains wither.\nDeal 10 damage split among any number of target creatures"
+    },
+    "high-tide-hijinks-doom-typhoon": {
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/typhoon.md",
+      "sha256": "fbf95647fb748660fa33ab4f4e4097cfed0439553248f0d5c9b6a7920cf65514",
+      "markdown": "# Typhoon\n\nTap all creatures. Put a stun counter on all creatures without flying. All creatures your opponents control enter the battlefield tapped until your next turn.\nTrigger this only as a sorcery\n",
+      "description": "Tap all creatures. Put a stun counter on all creatures without flying. All creatures your opponents control enter the battlefield tapped until your next turn.\nTrigger this only as a sorcery",
+      "plainText": "Tap all creatures. Put a stun counter on all creatures without flying. All creatures your opponents control enter the battlefield tapped until your next turn.\nTrigger this only as a sorcery"
+    },
+    "high-tide-hijinks-doom-sirring-duck": {
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/sirring-duck.md",
+      "sha256": "74ee21a338af8422c60f58f01142cc5736bab40bd52dcab43698522e1680adad",
+      "markdown": "# Sirring Duck\n\nConjure a random leviathan creature onto the battlefield under your control. For each player, that Leviathan fights up to one target creature that player controls.\n",
+      "description": "Conjure a random leviathan creature onto the battlefield under your control. For each player, that Leviathan fights up to one target creature that player controls.",
+      "plainText": "Conjure a random leviathan creature onto the battlefield under your control. For each player, that Leviathan fights up to one target creature that player controls."
+    },
+    "high-tide-hijinks-doom-im-gonna-put-some-sand-in-your-eye": {
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/im-gonna-put-some-sand-in-your-eye.md",
+      "sha256": "c2de2cf6c843bb8018bfaca3cdd3e9a7e5f053b0a9dc0024f0e2f24ba5fe9fe0",
+      "markdown": "# I'M Gonna Put Some Sand in Your Eye\n\nFor each player, choose target attacking creature they control. Reselect which permanent or player that attacking creature is attacking at random\n",
+      "description": "For each player, choose target attacking creature they control. Reselect which permanent or player that attacking creature is attacking at random",
+      "plainText": "For each player, choose target attacking creature they control. Reselect which permanent or player that attacking creature is attacking at random"
+    },
+    "high-tide-hijinks-trinkets-vollyball": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/vollyball.md",
+      "sha256": "e905b0a27a36da23075178a9bf8bd7e3c5d98a8eb7c80976b5858f37e21dfae3",
+      "markdown": "# Vollyball\n\nDuring the players turn, when a player casts a 1 mana spell, put a counter on this Vollyball, then increase the mana needed by 1. At the end of turn, deal damage = to the number of counters on Vollyball to the host, then reset the counters\n",
+      "description": "During the players turn, when a player casts a 1 mana spell, put a counter on this Vollyball, then increase the mana needed by 1. At the end of turn, deal damage = to the number of counters on Vollyball to the host, then reset the counters",
+      "plainText": "During the players turn, when a player casts a 1 mana spell, put a counter on this Vollyball, then increase the mana needed by 1. At the end of turn, deal damage = to the number of counters on Vollyball to the host, then reset the counters"
+    },
+    "high-tide-hijinks-trinkets-crabby": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/crabby.md",
+      "sha256": "2f09b675b6d23efcb3550ad9b7f6fa98c35826f362c471ea9147703cb2cfd12b",
+      "markdown": "# Crabby\n\nOnce during each Party combat, target creature your Party controls assigns combat damage equal to its toughness instead of its power until end of turn.\n",
+      "description": "Once during each Party combat, target creature your Party controls assigns combat damage equal to its toughness instead of its power until end of turn.",
+      "plainText": "Once during each Party combat, target creature your Party controls assigns combat damage equal to its toughness instead of its power until end of turn."
+    },
+    "high-tide-hijinks-trinkets-bad-rod": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/bad-rod.md",
+      "sha256": "3cb9cc30e5479817dc8b9400e17e153a8acaa5f6922e649cea597944581fe8ea",
+      "markdown": "# Bad Rod\n\n{2}: A player may look at the top card of the hosts library. If its a creature, put it into play under your control, except its a 1/1 with no abilities. Activate this ability only once per players turn at sorcery speed.\nAfter that you catch 3 creatures, upgrade this to the Good Rod.\n",
+      "description": "{2}: A player may look at the top card of the hosts library. If its a creature, put it into play under your control, except its a 1/1 with no abilities. Activate this ability only once per players turn at sorcery speed.\nAfter that you catch 3 creatures, upgrade this to the Good Rod.",
+      "plainText": "{2}: A player may look at the top card of the hosts library. If its a creature, put it into play under your control, except its a 1/1 with no abilities. Activate this ability only once per players turn at sorcery speed.\nAfter that you catch 3 creatures, upgrade this to the Good Rod."
+    },
+    "high-tide-hijinks-trinkets-good-rod": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/good-rod.md",
+      "sha256": "5cc0aff2f05e509d4b3f5280b7c0625d36829192c20427b7a302375656d50f6f",
+      "markdown": "# Good Rod\n\n{2}: Reveal the top card of the hosts library. If its a creature, put it onto the battlefield under your control, except its a 1/1. Activate this ability only once per turn, and only as a sorcery.\nWhen you catch 3 creatures this way, upgrade it into the Great Rod.\n",
+      "description": "{2}: Reveal the top card of the hosts library. If its a creature, put it onto the battlefield under your control, except its a 1/1. Activate this ability only once per turn, and only as a sorcery.\nWhen you catch 3 creatures this way, upgrade it into the Great Rod.",
+      "plainText": "{2}: Reveal the top card of the hosts library. If its a creature, put it onto the battlefield under your control, except its a 1/1. Activate this ability only once per turn, and only as a sorcery.\nWhen you catch 3 creatures this way, upgrade it into the Great Rod."
+    },
+    "high-tide-hijinks-trinkets-great-rod": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/great-rod.md",
+      "sha256": "309de34d560074528584f1e983484364ff774bfc9705465107f94a4a7e6fef8e",
+      "markdown": "# Great Rod\n\n{2}: Once per turn, reveal the top card of the hosts library. If its a creature, put it into play under your control. Activate this ability only once per turn, as a sorcery.\n",
+      "description": "{2}: Once per turn, reveal the top card of the hosts library. If its a creature, put it into play under your control. Activate this ability only once per turn, as a sorcery.",
+      "plainText": "{2}: Once per turn, reveal the top card of the hosts library. If its a creature, put it into play under your control. Activate this ability only once per turn, as a sorcery."
+    },
+    "high-tide-hijinks-trinkets-cursed-rod": {
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/cursed-rod.md",
+      "sha256": "dc6165f46552cacca9a2a9d354995c3683f2dc5afc81118733a92643db61bb47",
+      "markdown": "# Cursed Rod\n\n{2}: Once per turn, reveal the top card of another player's library. If it's a creature, put it into play under your control. You now own that creature (It goes to your zones and is part of your deck. Do not give it back to the player. It can be traded back.). If its not, then they may put it on the bottom of their library. Activate this ability only once per turn, as a sorcery.\n",
+      "description": "{2}: Once per turn, reveal the top card of another player's library. If it's a creature, put it into play under your control. You now own that creature (It goes to your zones and is part of your deck. Do not give it back to the player. It can be traded back.). If its not, then they may put it on the bottom of their library. Activate this ability only once per turn, as a sorcery.",
+      "plainText": "{2}: Once per turn, reveal the top card of another player's library. If it's a creature, put it into play under your control. You now own that creature (It goes to your zones and is part of your deck. Do not give it back to the player. It can be traded back.). If its not, then they may put it on the bottom of their library. Activate this ability only once per turn, as a sorcery."
+    },
+    "high-tide-hijinks-travelers-seahorse-seller": {
+      "source": "rules/seasonal-events/high-tide-hijinks/travelers/seahorse-seller.md",
+      "sha256": "b847191cb95c1bccf88842abe8d470bdcbaa66e902b2efcb0fb439a3ccde6515",
+      "markdown": "# Seahorse Seller\n\nPay 35 XP to grant a creature in your deck Seahorsemanship. You may do this only once.\n\nSeahorsemanship — Whenever this creature attacks, phase it out. It does not phase in during its controller’s next untap step. At the beginning of the next combat phase, phase it in attacking. It cannot be blocked this combat.\n",
+      "description": "Pay 35 XP to grant a creature in your deck Seahorsemanship. You may do this only once.\n\nSeahorsemanship — Whenever this creature attacks, phase it out. It does not phase in during its controller’s next untap step. At the beginning of the next combat phase, phase it in attacking. It cannot be blocked this combat.",
+      "plainText": "Pay 35 XP to grant a creature in your deck Seahorsemanship. You may do this only once.\n\nSeahorsemanship — Whenever this creature attacks, phase it out. It does not phase in during its controller’s next untap step. At the beginning of the next combat phase, phase it in attacking. It cannot be blocked this combat."
+    },
+    "high-tide-hijinks-travelers-thassa": {
+      "source": "rules/seasonal-events/high-tide-hijinks/travelers/thassa.md",
+      "sha256": "3f4f896026ad8551c728f02a1c432b2cf9bcd41a4d93deca5171d1e24e6594b2",
+      "markdown": "# Thassa\n\nThe party may pay XP as tribute to receive one of the following rewards. The party may choose only one.\n\n50 XP — Choose an Event Crypt boss for the next Crypt.\n\n100 XP — The players encounter one additional event. If that event is negative, discard it and encounter a new event instead. Then repeat this process once.\n\n200 XP — The party gains Bident of Thassa as a trinket.\n\nSacrifice Kiora — The party gains Thassa, God of the Sea as a trinket.\n\nThe sacrificed Kiora cannot be a Scryfall or Temporal version, and it cannot have been obtained from this town.\n",
+      "description": "The party may pay XP as tribute to receive one of the following rewards. The party may choose only one.\n\n50 XP — Choose an Event Crypt boss for the next Crypt.\n\n100 XP — The players encounter one additional event. If that event is negative, discard it and encounter a new event instead. Then repeat this process once.\n\n200 XP — The party gains Bident of Thassa as a trinket.\n\nSacrifice Kiora — The party gains Thassa, God of the Sea as a trinket.\n\nThe sacrificed Kiora cannot be a Scryfall or Temporal version, and it cannot have been obtained from this town.",
+      "plainText": "The party may pay XP as tribute to receive one of the following rewards. The party may choose only one.\n\n50 XP — Choose an Event Crypt boss for the next Crypt.\n\n100 XP — The players encounter one additional event. If that event is negative, discard it and encounter a new event instead. Then repeat this process once.\n\n200 XP — The party gains Bident of Thassa as a trinket.\n\nSacrifice Kiora — The party gains Thassa, God of the Sea as a trinket.\n\nThe sacrificed Kiora cannot be a Scryfall or Temporal version, and it cannot have been obtained from this town."
+    },
+    "high-tide-hijinks-wanderers-sir-crabbington": {
+      "source": "rules/seasonal-events/high-tide-hijinks/wanderers/sir-crabbington.md",
+      "sha256": "371515feaa22c21cfbcdd3710d115c4c377a4181b9a1e8ab6824974f3bf8f100",
+      "markdown": "# Sir Crabbington\n\nThe crabs are raving. Will the party join them?\n\nIf each party member pays 5 XP, the party gains Crabs’ Favor.\n\nCrabs’ Favor — Once, any player may use this favor to reroll one die for any reason.\n\nCoin Flips are 1d2\n",
+      "description": "The crabs are raving. Will the party join them?\n\nIf each party member pays 5 XP, the party gains Crabs’ Favor.\n\nCrabs’ Favor — Once, any player may use this favor to reroll one die for any reason.\n\nCoin Flips are 1d2",
+      "plainText": "The crabs are raving. Will the party join them?\n\nIf each party member pays 5 XP, the party gains Crabs’ Favor.\n\nCrabs’ Favor — Once, any player may use this favor to reroll one die for any reason.\n\nCoin Flips are 1d2"
+    },
+    "leftovers": {
+      "source": "rules/progression/crypt-buffs/leftovers.md",
+      "sha256": "c57bd02b30222d9138abfbde59f23e84ca2ed36f78b5754987063ebe5e1bc656",
+      "markdown": "# **Leftovers**\n\n**Effect**  \nWhenever you sacrifice a Food for its effect, each ally gains 2 life.\n\n**Unlock Source**  \nBeat High Tide Hijinks.\n\n---\n",
+      "description": "**Effect**  \nWhenever you sacrifice a Food for its effect, each ally gains 2 life.\n\n**Unlock Source**  \nBeat High Tide Hijinks.\n\n---",
+      "plainText": "Effect\nWhenever you sacrifice a Food for its effect, each ally gains 2 life.\n\nUnlock Source\nBeat High Tide Hijinks."
+    }
+  }
+}

@@ -4,7 +4,7 @@ Finish deckbuilding and resolve all active pregame progression effects before th
 
 Before the First Encounter  
 Resolve both in this order:  
- • Event (cannot be a Bad Stuff Event)  
+ • Good Event (only the Good classification is eligible)\
  • Trinket
 
 Seat swap window (one-time):
@@ -14,6 +14,6 @@ Seat swap window (one-time):
 
 Resolve the Event using the Event System flow, then resolve the Trinket using the Trinket System flow.
 
-Then before every encounter thereafter resolve Event(s) based on Town/Stay Out rules.
+Before later scheduled encounters, resolve Event(s) based on Town/Stay Out rules. Before the Crypt, Town is mandatory and no Events are drawn.
 
 ---

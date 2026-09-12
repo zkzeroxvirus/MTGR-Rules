@@ -68,7 +68,7 @@
       "id": "between-encounters",
       "number": "03",
       "title": "Between Encounters",
-      "description": "Choose Town or Stay Out and resolve the selected path before the next encounter.",
+      "description": "Resolve Town or Stay Out before the next encounter; Town is mandatory before the Crypt.",
       "rules": [
         "town-flow",
         "stay-out-flow",
@@ -102,6 +102,17 @@
         "brands-system",
         "progression-slot-rules"
       ]
+    },
+    {
+      "id": "seasonal-events",
+      "number": "06",
+      "title": "Seasonal Events",
+      "description": "Find themed Event content and rewards.",
+      "rules": [
+        "seasonal-events",
+        "harvest-moon-overview",
+        "high-tide-hijinks-overview"
+      ]
     }
   ],
   "guides": [
@@ -115,7 +126,7 @@
           "rule": "reward-timing"
         },
         {
-          "label": "Choose Town or Stay Out",
+          "label": "Choose Town or Stay Out; Town is mandatory before the Crypt",
           "rule": "post-encounter-choice"
         },
         {
@@ -141,7 +152,7 @@
           "rule": "failed-encounter"
         },
         {
-          "label": "Choose Town or Stay Out",
+          "label": "Choose Town or Stay Out; Town is mandatory before the Crypt",
           "rule": "post-encounter-choice"
         },
         {
@@ -2961,6 +2972,206 @@
       }
     },
     {
+      "id": "trinket-legendary-shovel",
+      "title": "Legendary Shovel",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/legendary-shovel.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Legendary Shovel"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-karametras-cornucopia",
+      "title": "Karametra’s Cornucopia",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/karametras-cornucopia.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Karametra’s Cornucopia"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-nyleas-sight",
+      "title": "Nylea’s Sight",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/nyleas-sight.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Nylea’s Sight"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-full-moon",
+      "title": "Full Moon",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/full-moon.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Full Moon"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-shattered-glass",
+      "title": "Shattered Glass",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/shattered-glass.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Shattered Glass"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-scaery-pumpkin",
+      "title": "Scaery Pumpkin",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/scaery-pumpkin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Scaery Pumpkin"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-dead-leaf",
+      "title": "Dead Leaf",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/dead-leaf.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Dead Leaf"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-pickled-pumpkin",
+      "title": "Pickled Pumpkin",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/pickled-pumpkin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Pickled Pumpkin"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-stolen-pumpkin",
+      "title": "Stolen Pumpkin",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/stolen-pumpkin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Stolen Pumpkin"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "trinket-forgotten-key",
+      "title": "Forgotten Key",
+      "source": "rules/seasonal-events/harvest-moon/trinkets/forgotten-key.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "Harvest Moon Forgotten Key"
+      ],
+      "related": [
+        "harvest-moon-overview",
+        "trinket-system"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
       "id": "brands-system",
       "title": "Brands System",
       "source": "rules/progression/brands-system.md",
@@ -4043,6 +4254,2164 @@
       "related": [
         "cashout-system",
         "crypt"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "seasonal-events",
+      "title": "Seasonal Events",
+      "source": "rules/seasonal-events/overview.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-scarecrow-feast",
+      "title": "Scarecrow Feast",
+      "source": "rules/between-encounters/events/scarecrow-feast.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-cabin-in-the-woods",
+      "title": "Cabin in the Woods",
+      "source": "rules/between-encounters/events/cabin-in-the-woods.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-broken-mirror",
+      "title": "Broken Mirror",
+      "source": "rules/between-encounters/events/broken-mirror.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-verdant-shrubbery",
+      "title": "Verdant Shrubbery",
+      "source": "rules/between-encounters/events/verdant-shrubbery.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-turkey-uprising",
+      "title": "Turkey Uprising",
+      "source": "rules/between-encounters/events/turkey-uprising.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-unseen-doors",
+      "title": "Unseen Doors",
+      "source": "rules/between-encounters/events/unseen-doors.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-rhystic-library",
+      "title": "Rhystic Library",
+      "source": "rules/between-encounters/events/rhystic-library.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-explosive-volcano",
+      "title": "Explosive Volcano",
+      "source": "rules/between-encounters/events/explosive-volcano.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-kithkin-hovel",
+      "title": "Kithkin Hovel",
+      "source": "rules/between-encounters/events/kithkin-hovel.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-urzas-sylex",
+      "title": "Urza’s Sylex",
+      "source": "rules/between-encounters/events/urzas-sylex.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-pumpkin-smashing",
+      "title": "Pumpkin Smashing",
+      "source": "rules/between-encounters/events/pumpkin-smashing.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-cave-of-spoils",
+      "title": "Cave of Spoils",
+      "source": "rules/between-encounters/events/cave-of-spoils.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-the-hunt-is-on",
+      "title": "The Hunt Is ON!",
+      "source": "rules/between-encounters/events/the-hunt-is-on.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-card-fetcher",
+      "title": "Card Fetcher",
+      "source": "rules/between-encounters/events/card-fetcher.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-burn-the-witch",
+      "title": "BURN THE WITCH",
+      "source": "rules/between-encounters/events/burn-the-witch.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-headless-horsey",
+      "title": "Headless Horsey",
+      "source": "rules/between-encounters/events/headless-horsey.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-vanguard-caravan",
+      "title": "Vanguard Caravan",
+      "source": "rules/between-encounters/events/vanguard-caravan.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-plane-to-plane-circus",
+      "title": "Plane-to-Plane Circus",
+      "source": "rules/between-encounters/events/plane-to-plane-circus.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-meeting-of-the-planes",
+      "title": "Meeting of the Planes",
+      "source": "rules/between-encounters/events/meeting-of-the-planes.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-abandoned-supply-pack",
+      "title": "Abandoned Supply Pack",
+      "source": "rules/between-encounters/events/abandoned-supply-pack.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-plane-trader",
+      "title": "Plane Trader",
+      "source": "rules/between-encounters/events/plane-trader.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-lion-and-a-mouse",
+      "title": "Lion and a Mouse",
+      "source": "rules/between-encounters/events/lion-and-a-mouse.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-covenant",
+      "title": "Covenant",
+      "source": "rules/between-encounters/events/covenant.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-equinox",
+      "title": "Equinox",
+      "source": "rules/between-encounters/events/equinox.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-forgotten-key",
+      "title": "Forgotten Key",
+      "source": "rules/between-encounters/events/forgotten-key.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-rewrite-reality",
+      "title": "Rewrite Reality",
+      "source": "rules/between-encounters/events/rewrite-reality.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-sword-in-the-stone",
+      "title": "Sword in the Stone",
+      "source": "rules/between-encounters/events/sword-in-the-stone.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-overflowing-feast",
+      "title": "Overflowing Feast",
+      "source": "rules/between-encounters/events/overflowing-feast.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-attunement-tower",
+      "title": "Attunement Tower",
+      "source": "rules/between-encounters/events/attunement-tower.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-wandering-planes-saboteur",
+      "title": "Wandering Planes Saboteur",
+      "source": "rules/between-encounters/events/wandering-planes-saboteur.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-crowstorm",
+      "title": "Crowstorm",
+      "source": "rules/between-encounters/events/crowstorm.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-its-just-standing-there-menacingly",
+      "title": "It’s Just Standing There… MENACINGLY",
+      "source": "rules/between-encounters/events/its-just-standing-there-menacingly.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-commanders-guild",
+      "title": "Commander’s Guild",
+      "source": "rules/between-encounters/events/commanders-guild.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-endless-sea",
+      "title": "Endless Sea",
+      "source": "rules/between-encounters/events/endless-sea.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-mirror-dimension",
+      "title": "Mirror Dimension",
+      "source": "rules/between-encounters/events/mirror-dimension.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-trench-of-the-void",
+      "title": "Trench of the Void",
+      "source": "rules/between-encounters/events/trench-of-the-void.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-timeless-market",
+      "title": "Timeless Market",
+      "source": "rules/between-encounters/events/timeless-market.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-pumpkin-harvest",
+      "title": "Pumpkin Harvest",
+      "source": "rules/between-encounters/events/pumpkin-harvest.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-youre-taking-too-long",
+      "title": "YOU’RE TAKING TOO LONG",
+      "source": "rules/between-encounters/events/youre-taking-too-long.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-sliver-king",
+      "title": "Sliver King",
+      "source": "rules/between-encounters/events/sliver-king.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-spartan-plains",
+      "title": "Spartan Plains",
+      "source": "rules/between-encounters/events/spartan-plains.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-lost-ark",
+      "title": "Lost Ark",
+      "source": "rules/between-encounters/events/lost-ark.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-wishing-well",
+      "title": "Wishing Well",
+      "source": "rules/between-encounters/events/wishing-well.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-earthquake",
+      "title": "Earthquake!",
+      "source": "rules/between-encounters/events/earthquake.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-dragon-hoard",
+      "title": "Dragon Hoard",
+      "source": "rules/between-encounters/events/dragon-hoard.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-you-stepped-on-a-leaf",
+      "title": "You Stepped on a Leaf",
+      "source": "rules/between-encounters/events/you-stepped-on-a-leaf.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-peaceful-orchard",
+      "title": "Peaceful Orchard",
+      "source": "rules/between-encounters/events/peaceful-orchard.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-cornfields",
+      "title": "Cornfields",
+      "source": "rules/between-encounters/events/cornfields.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-trick-or-treat",
+      "title": "Trick or Treat",
+      "source": "rules/between-encounters/events/trick-or-treat.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-ivy-forest",
+      "title": "Ivy Forest",
+      "source": "rules/between-encounters/events/ivy-forest.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-tomb-of-the-forgotten",
+      "title": "Tomb of the Forgotten",
+      "source": "rules/between-encounters/events/tomb-of-the-forgotten.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-strung-up",
+      "title": "Strung Up",
+      "source": "rules/between-encounters/events/strung-up.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-exotic-car-show",
+      "title": "Exotic Car Show",
+      "source": "rules/between-encounters/events/exotic-car-show.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-card-vortex",
+      "title": "Card Vortex",
+      "source": "rules/between-encounters/events/card-vortex.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-only-need-to-be-faster-than-you",
+      "title": "Only Need to Be Faster Than You",
+      "source": "rules/between-encounters/events/only-need-to-be-faster-than-you.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-harvest-festival",
+      "title": "Harvest Festival",
+      "source": "rules/between-encounters/events/harvest-festival.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-splendid-skies",
+      "title": "Splendid Skies",
+      "source": "rules/between-encounters/events/splendid-skies.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-artifact-on-a-pedestal",
+      "title": "Artifact on a Pedestal",
+      "source": "rules/between-encounters/events/artifact-on-a-pedestal.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-bloody-altar",
+      "title": "Bloody Altar",
+      "source": "rules/between-encounters/events/bloody-altar.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-stoneforge-caravan",
+      "title": "Stoneforge Caravan",
+      "source": "rules/between-encounters/events/stoneforge-caravan.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-mystic-waterwell",
+      "title": "Mystic Waterwell",
+      "source": "rules/between-encounters/events/mystic-waterwell.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-found-a-lucky-coin",
+      "title": "Found a Lucky Coin?",
+      "source": "rules/between-encounters/events/found-a-lucky-coin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-wandering-planes-arms-dealer",
+      "title": "Wandering Planes Arms Dealer",
+      "source": "rules/between-encounters/events/wandering-planes-arms-dealer.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-zubera-crossing",
+      "title": "Zubera Crossing",
+      "source": "rules/between-encounters/events/zubera-crossing.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-a-stones-throw",
+      "title": "A Stone’s Throw",
+      "source": "rules/between-encounters/events/a-stones-throw.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-paranoia",
+      "title": "Paranoia",
+      "source": "rules/between-encounters/events/paranoia.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-the-reaper-king-comes",
+      "title": "The Reaper King Comes",
+      "source": "rules/between-encounters/events/the-reaper-king-comes.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-that-damned-bridge",
+      "title": "That Damned Bridge",
+      "source": "rules/between-encounters/events/that-damned-bridge.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-a-rock-pile",
+      "title": "A Rock Pile",
+      "source": "rules/between-encounters/events/a-rock-pile.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-sorrowful-swamp",
+      "title": "Sorrowful Swamp",
+      "source": "rules/between-encounters/events/sorrowful-swamp.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-treasure-goblin",
+      "title": "Treasure Goblin",
+      "source": "rules/between-encounters/events/treasure-goblin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-planar-excavation",
+      "title": "Planar Excavation",
+      "source": "rules/between-encounters/events/planar-excavation.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-mana-ripple",
+      "title": "Mana Ripple",
+      "source": "rules/between-encounters/events/mana-ripple.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-rapidly-growing-harvest",
+      "title": "Rapidly Growing Harvest",
+      "source": "rules/between-encounters/events/rapidly-growing-harvest.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-witchs-cauldron",
+      "title": "Witch’s Cauldron",
+      "source": "rules/between-encounters/events/witchs-cauldron.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-cheese-festival",
+      "title": "Cheese Festival",
+      "source": "rules/between-encounters/events/cheese-festival.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-strange-set-of-potions",
+      "title": "Strange Set of Potions",
+      "source": "rules/between-encounters/events/strange-set-of-potions.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-crossroads",
+      "title": "Crossroads",
+      "source": "rules/between-encounters/events/crossroads.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-planetary-bank",
+      "title": "Planetary Bank",
+      "source": "rules/between-encounters/events/planetary-bank.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-reckless-racketeering",
+      "title": "Reckless Racketeering",
+      "source": "rules/between-encounters/events/reckless-racketeering.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-wandering-planes-assistant",
+      "title": "Wandering Planes Assistant",
+      "source": "rules/between-encounters/events/wandering-planes-assistant.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-nameless-smith",
+      "title": "Nameless Smith",
+      "source": "rules/between-encounters/events/nameless-smith.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-a-portent-of-fortune",
+      "title": "A Portent of Fortune",
+      "source": "rules/between-encounters/events/a-portent-of-fortune.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me",
+      "title": "Your Trinkets Are Nothing But Toys To Me",
+      "source": "rules/seasonal-events/harvest-moon/doom/your-trinkets-are-nothing-but-toys-to-me.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-who-turned-out-the-lights",
+      "title": "Who Turned out the lights",
+      "source": "rules/seasonal-events/harvest-moon/doom/who-turned-out-the-lights.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-the-scarecrow-cometh",
+      "title": "The Scarecrow Cometh",
+      "source": "rules/seasonal-events/harvest-moon/doom/the-scarecrow-cometh.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-stir-the-pot",
+      "title": "Stir the Pot",
+      "source": "rules/seasonal-events/harvest-moon/doom/stir-the-pot.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-soul-rend",
+      "title": "Soul Rend",
+      "source": "rules/seasonal-events/harvest-moon/doom/soul-rend.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-rotten-bounty",
+      "title": "Rotten Bounty",
+      "source": "rules/seasonal-events/harvest-moon/doom/rotten-bounty.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-im-the-hero-of-this-story",
+      "title": "I’m the Hero of This Story",
+      "source": "rules/seasonal-events/harvest-moon/doom/im-the-hero-of-this-story.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-hunt-them-all",
+      "title": "Hunt Them All",
+      "source": "rules/seasonal-events/harvest-moon/doom/hunt-them-all.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-hunt-the-weak",
+      "title": "Hunt The Weak",
+      "source": "rules/seasonal-events/harvest-moon/doom/hunt-the-weak.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-harvest-of-the-damned",
+      "title": "Harvest of the Damned",
+      "source": "rules/seasonal-events/harvest-moon/doom/harvest-of-the-damned.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-forged-in-their-name",
+      "title": "Forged in Their Name",
+      "source": "rules/seasonal-events/harvest-moon/doom/forged-in-their-name.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-danse-macabre",
+      "title": "Danse Macabre",
+      "source": "rules/seasonal-events/harvest-moon/doom/danse-macabre.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-clock-strikes-midnight",
+      "title": "Clock strikes midnight",
+      "source": "rules/seasonal-events/harvest-moon/doom/clock-strikes-midnight.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-bloodrush",
+      "title": "BloodRush",
+      "source": "rules/seasonal-events/harvest-moon/doom/bloodrush.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-doom-a-wolf-in-sheeps-clothing",
+      "title": "A Wolf in Sheep’s Clothing",
+      "source": "rules/seasonal-events/harvest-moon/doom/a-wolf-in-sheeps-clothing.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-travelers-farm-tool-supplier",
+      "title": "Farm Tool Supplier",
+      "source": "rules/seasonal-events/harvest-moon/travelers/farm-tool-supplier.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-travelers-nylea-hunter-of-horrors",
+      "title": "Nylea, Hunter of Horrors",
+      "source": "rules/seasonal-events/harvest-moon/travelers/nylea-hunter-of-horrors.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-wanderers-frightened-farmer",
+      "title": "Frightened Farmer",
+      "source": "rules/seasonal-events/harvest-moon/wanderers/frightened-farmer.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-wanderers-kind-stranger",
+      "title": "Kind Stranger",
+      "source": "rules/seasonal-events/harvest-moon/wanderers/kind-stranger.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-wanderers-reaper-king",
+      "title": "Reaper King",
+      "source": "rules/seasonal-events/harvest-moon/wanderers/reaper-king.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "harvest-moon-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "harvest-moon-overview",
+      "title": "Harvest Moon",
+      "source": "rules/seasonal-events/harvest-moon/overview.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "seasonal-events"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-bad-wave-bro",
+      "title": "Bad Wave Bro",
+      "source": "rules/between-encounters/events/bad-wave-bro.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-swap-shop",
+      "title": "Swap Shop",
+      "source": "rules/between-encounters/events/swap-shop.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-merfolk-dont-like-scuba",
+      "title": "Merfolk Dont Like Scuba",
+      "source": "rules/between-encounters/events/merfolk-dont-like-scuba.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-do-not-disturb-the-fish",
+      "title": "Do Not Disturb the Fish",
+      "source": "rules/between-encounters/events/do-not-disturb-the-fish.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-crabs",
+      "title": "Crabs!?",
+      "source": "rules/between-encounters/events/crabs.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-course-rough-and-gets-everywhere",
+      "title": "Course,Rough, and Gets Everywhere",
+      "source": "rules/between-encounters/events/course-rough-and-gets-everywhere.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-no-hard-feelings-on-forgetting-the-food",
+      "title": "No Hard Feelings On Forgetting the Food?",
+      "source": "rules/between-encounters/events/no-hard-feelings-on-forgetting-the-food.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-youve-found-a-fishing-rod",
+      "title": "You've Found A Fishing Rod?",
+      "source": "rules/between-encounters/events/youve-found-a-fishing-rod.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-does-anyone-here-like-fishing",
+      "title": "Does Anyone Here Like Fishing",
+      "source": "rules/between-encounters/events/does-anyone-here-like-fishing.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-packsicle-stand",
+      "title": "Packsicle Stand",
+      "source": "rules/between-encounters/events/packsicle-stand.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-volleyball-game",
+      "title": "Volleyball Game!",
+      "source": "rules/between-encounters/events/volleyball-game.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-helpful-dolphin",
+      "title": "Helpful Dolphin",
+      "source": "rules/between-encounters/events/helpful-dolphin.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-suken-treasure",
+      "title": "Suken Treasure",
+      "source": "rules/between-encounters/events/suken-treasure.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-pooltoy-for-sale",
+      "title": "Pooltoy for Sale",
+      "source": "rules/between-encounters/events/pooltoy-for-sale.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-feeding-frenzy",
+      "title": "Feeding Frenzy",
+      "source": "rules/between-encounters/events/feeding-frenzy.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-doom-nice-sand-castle-nerd",
+      "title": "Nice Sand Castle, Nerd",
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/nice-sand-castle-nerd.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-doom-sunburn",
+      "title": "Sunburn",
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/sunburn.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-doom-typhoon",
+      "title": "Typhoon",
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/typhoon.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-doom-sirring-duck",
+      "title": "Sirring Duck",
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/sirring-duck.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-doom-im-gonna-put-some-sand-in-your-eye",
+      "title": "I'M Gonna Put Some Sand in Your Eye",
+      "source": "rules/seasonal-events/high-tide-hijinks/doom/im-gonna-put-some-sand-in-your-eye.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-vollyball",
+      "title": "Vollyball",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/vollyball.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-crabby",
+      "title": "Crabby",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/crabby.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-bad-rod",
+      "title": "Bad Rod",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/bad-rod.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-good-rod",
+      "title": "Good Rod",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/good-rod.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-great-rod",
+      "title": "Great Rod",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/great-rod.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-trinkets-cursed-rod",
+      "title": "Cursed Rod",
+      "source": "rules/seasonal-events/high-tide-hijinks/trinkets/cursed-rod.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-travelers-seahorse-seller",
+      "title": "Seahorse Seller",
+      "source": "rules/seasonal-events/high-tide-hijinks/travelers/seahorse-seller.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-travelers-thassa",
+      "title": "Thassa",
+      "source": "rules/seasonal-events/high-tide-hijinks/travelers/thassa.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-wanderers-sir-crabbington",
+      "title": "Sir Crabbington",
+      "source": "rules/seasonal-events/high-tide-hijinks/wanderers/sir-crabbington.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "high-tide-hijinks-overview"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "high-tide-hijinks-overview",
+      "title": "High Tide Hijinks",
+      "source": "rules/seasonal-events/high-tide-hijinks/overview.md",
+      "phase": "seasonal-events",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "seasonal-events"
       ],
       "content": {
         "kind": "document"

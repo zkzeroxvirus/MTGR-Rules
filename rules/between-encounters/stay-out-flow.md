@@ -29,3 +29,5 @@ When the party chooses to **Stay Out**, resolve the following before the next en
 Returning to **Town resets the consecutive Stay Out count**. The next Stay Out after a Town visit starts again at **10 XP and 2 Events**.
 
 Detailed pack, Event, Supply Drop, Wanderer, and restriction rules remain in their dedicated rule entries.
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.

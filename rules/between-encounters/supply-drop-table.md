@@ -12,7 +12,7 @@ A fallen adventurer’s pouch is discovered along the road.
 Old rations and supplies are found in an abandoned wagon.  
  Each player gains 4 HP.
 
-Players may have life above their maximum this way. This excess life lasts only until the next encounter.
+Players may have life above their maximum this way. Carry that life into the next encounter; it may remain above maximum throughout that encounter. After the encounter ends, win or lose, remove any remaining excess as part of the normal reset to maximum HP. This does not increase Max HP.
 
 ---
 

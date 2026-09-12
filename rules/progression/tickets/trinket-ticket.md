@@ -15,3 +15,5 @@ The Ticket persists across runs. Ticket ownership and slot use are per player ra
 1
 
 ---
+
+The chosen Trinket is additional to the normal voted party Trinket. Any party member may use it unless its text says otherwise. Each player with an active Ticket resolves their own selection under the Trinket System.

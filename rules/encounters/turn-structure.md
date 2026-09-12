@@ -2,10 +2,17 @@
 
 ## **🛡️ PARTY TURN**
 
-All players act as a single player for the shared turn structure, but each player remains the controller of their own cards and permanents.
+The party shares a turn: untap, upkeep, draw, precombat main, combat, postcombat main, end, and cleanup. Each member retains control of their own cards and permanents.
 
-• One Untap, Upkeep, Draw  
- • One Main Phase, Combat, End Step
+## Shared timing
+
+Use [Magic Comprehensive Rules](https://magic.wizards.com/en/rules) 805.4–805.7 and 805.9 for shared timing, treating the Host as the other team:
+
+- Each member draws individually and has their own land-play allowance.
+- Priority belongs to the team. Members act in an agreed order, following normal timing restrictions. The party passes only when all members are done acting. Consecutive passes by both sides resolve the top stack object, or advance an empty-stack step; afterward the active side receives priority.
+- For simultaneous choices and triggers, the active side orders its choices or triggers first, then the other side. Follow 805.6a for multi-player draws and 805.4d for step/phase triggers referring to individual players.
+
+This adopts timing only. MTGR retains individual health and death, controller-only extra turns, its Storm modification, player-versus-player attacks, adjacent blocking, and its attacks-alone interpretation. Other Two-Headed Giant rules are not imported.
 
 ---
 

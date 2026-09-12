@@ -45,7 +45,7 @@ if (progressionContracts.schemaVersion !== 2 || !progressionContracts.categories
   fail("PROGRESSION-CONTRACTS.json must define schemaVersion 2 file-per-entry categories");
 }
 
-const allowedPhases = new Set(["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs"]);
+const allowedPhases = new Set(["before-run", "encounter-loop", "between-encounters", "crypt", "between-runs", "seasonal-events"]);
 const allowedAudience = new Set(["player", "host"]);
 const allowedSurfaces = new Set(["web", "notebook", "host", "tts-document"]);
 const allowedProgressionCategories = new Set(["crypt_buff", "ticket", "brand", "achievement"]);

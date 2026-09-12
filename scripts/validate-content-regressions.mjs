@@ -333,7 +333,7 @@ for (const relative of [
     ["Scryfall classification", /treated as \*\*Scryfalled\*\*/i],
     ["trade restriction", /cannot be traded/i],
     ["capture restriction", /captured/i],
-    ["combo restriction", /cannot be used as part of a combo/i],
+    ["combo and loop restrictions", /follows the combo and infinite-loop restrictions in Deckbuilding/i],
     ["persists across runs", /persists across runs/i],
   ]);
 }

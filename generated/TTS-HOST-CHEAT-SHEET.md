@@ -5,8 +5,10 @@
 ## 1 — Before Encounter 1
 
 1. Finish player deckbuilding.
-2. Resolve the starting **Event** first. It cannot be a Bad Stuff Event.
+2. Resolve the starting **Event** first. It must be classified Good.
 3. Resolve the **Trinket**.
+
+Ticket Trinkets are additional to the voted party Trinket. They are usable by the party and tied to their Ticket owners; follow the Trinket System for removal after departure.
 4. Players may use the one-time seat-swap window before Encounter 1 begins.
 
 After Encounter 1 begins, normal Town / Stay Out Event timing applies.
@@ -103,20 +105,24 @@ Base XP is per player. Failed encounters grant no XP.
 
 Resolve all three rewards immediately after victory: **XP, Cashout, and Loot Pool**. They may be resolved in any order.
 
-After all rewards are resolved, the party chooses **Town or Stay Out**.
+After all rewards are resolved, the party chooses **Town or Stay Out**, except before the Crypt, when Town is mandatory.
 
 ### Party Loses
 
+A loss advances the scheduled encounter number. Do not replay the encounter.
+
 1. Skip XP, Cashout, and Loot Pool.
-2. The party still chooses **Town or Stay Out**.
+2. The party still chooses **Town or Stay Out**, except before the Crypt, when Town is mandatory.
 3. Reset all players to full HP before the next encounter.
-4. Event resolution continues normally.
+4. Event resolution continues normally except before the Crypt, when no Events are drawn.
 
 Death is not permanent. A dead player returns in future encounters and suffers no XP penalty for dying.
 
 ## 5 — Between Encounters
 
 ### Town
+
+Reveal the Town Traveler from the Travelers bag; Crossroads Cart reveals two and the party chooses one.
 
 1. Fully heal all players.
 2. Reset the consecutive Stay Out streak.
@@ -146,7 +152,7 @@ The printed Event card controls that Event's specific effect and duration.
 
 ## 6 — The Crypt
 
-After the final scheduled encounter, the party faces the Crypt.
+After the final scheduled encounter, win or lose, Town is mandatory. Stay Out is unavailable. Resolve Town normally, then face the Crypt without drawing Events.
 
 - **No Affixes** are applied.
 - The **Host takes the first turn**.

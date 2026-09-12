@@ -16,6 +16,7 @@ const phaseLabels = new Map([
   ["between-encounters", "Between Encounters"],
   ["crypt", "The Crypt"],
   ["between-runs", "Between Runs"],
+  ["seasonal-events", "Seasonal Events"],
 ]);
 
 const progressionLabels = new Map([

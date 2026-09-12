@@ -21,6 +21,8 @@ Do not add heading selectors, ranges, fuzzy matching, or consumer-specific Markd
 
 ## Generated Files
 
+For seasonal content, also register pool membership in `SEASONAL-CONTRACTS.json`. The build generates `generated/seasonal-rules.json`; do not edit this export directly. After building Rules, sync that export into Platform and regenerate seasonal consumers using Platform's `docs/seasonal-content-contract.md` workflow.
+
 Do not hand-edit:
 
 - `RULEBOOK.md`

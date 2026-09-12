@@ -90,10 +90,17 @@ This classification does not mean that every Ticket, Capture, or progression eff
 
 ## Combo, infinite, and Scryfall restrictions
 
-- A **two-card combo that wins the game using only those two cards is banned**.
-- A **two-card infinite is banned**, whether or not the infinite immediately wins the game.
-- **Combos using three or more cards are allowed**, subject to all other MTGR restrictions.
-- A card with a **Scryfall decal, or a card treated as Scryfalled by another MTGR rule, cannot be used as part of any combo**, regardless of how many cards the combo uses.
+### Non-infinite combos
+
+A **non-infinite two-card combo** is any two cards alone causing an effect that wins you the game. These combos are banned. **Thassa's Oracle + Demonic Consultation** is an example. Ordinary synergy that does not meet this definition is not a banned two-card win combo.
+
+Non-infinite combos using three or more cards are allowed, subject to other MTGR restrictions. A card with a Scryfall decal, or treated as Scryfalled, cannot be used as part of a non-infinite winning combo.
+
+### Infinite loops
+
+If a loop involving two or fewer cards, or a loop involving a Scryfalled card, can be repeated infinitely, whether automatically or through repeated player choices, that loop may resolve no more than once per turn. Permanents or other game objects created during that resolution do not allow the same loop to resolve again that turn. An extra turn created by such a loop cannot be used to resolve the same loop again for the purpose of creating another extra turn.
+
+Here, resolving a loop once means performing one iteration, not choosing an arbitrarily large number of repetitions. Cards treated as Scryfalled follow the same limit. Infinite loops involving three or more cards and no Scryfalled cards are not limited by this rule.
 
 These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
 

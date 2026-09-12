@@ -16,3 +16,5 @@ Event scaling resets when the party returns to Town.
 Events are drawn and handled **one at a time**, in the order they are drawn.
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.

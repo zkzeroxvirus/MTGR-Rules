@@ -28,6 +28,14 @@ Generated documents are projections of canonical units; they are not independent
 
 ## Human Reading Surfaces
 
+### Seasonal content contract
+
+`SEASONAL-CONTRACTS.json` maps each seasonal pool entry to a canonical rule ID or an existing progression ID. `scripts/build-seasonal.mjs` validates these references and exports complete documents, display text, and content hashes to `generated/seasonal-rules.json`. Platform vendors this generated snapshot and regenerates its guides, catalogs, and TTS descriptions from it.
+
+Seasonal overviews and exclusive mechanics live under `rules/seasonal-events/<season>/`. Reusable Event-card definitions live under `rules/between-encounters/events/`; seasonal membership never implies eligibility in the normal pool. The `seasonal-events` phase groups this material in reading surfaces. High Tide remains an archived-season reference rather than being promoted into normal play.
+
+Platform owns availability status, artwork, copy counts, deck data, and automation. Preserve existing rule IDs during relocation. Completion rewards reference the existing progression documents. Do not duplicate them into seasonal rule files.
+
 `scripts/build-rulebook.mjs` generates:
 
 - `RULEBOOK.md` — complete reading document;

@@ -168,10 +168,17 @@ This classification does not mean that every Ticket, Capture, or progression eff
 
 #### Combo, infinite, and Scryfall restrictions
 
-- A **two-card combo that wins the game using only those two cards is banned**.
-- A **two-card infinite is banned**, whether or not the infinite immediately wins the game.
-- **Combos using three or more cards are allowed**, subject to all other MTGR restrictions.
-- A card with a **Scryfall decal, or a card treated as Scryfalled by another MTGR rule, cannot be used as part of any combo**, regardless of how many cards the combo uses.
+##### Non-infinite combos
+
+A **non-infinite two-card combo** is any two cards alone causing an effect that wins you the game. These combos are banned. **Thassa's Oracle + Demonic Consultation** is an example. Ordinary synergy that does not meet this definition is not a banned two-card win combo.
+
+Non-infinite combos using three or more cards are allowed, subject to other MTGR restrictions. A card with a Scryfall decal, or treated as Scryfalled, cannot be used as part of a non-infinite winning combo.
+
+##### Infinite loops
+
+If a loop involving two or fewer cards, or a loop involving a Scryfalled card, can be repeated infinitely, whether automatically or through repeated player choices, that loop may resolve no more than once per turn. Permanents or other game objects created during that resolution do not allow the same loop to resolve again that turn. An extra turn created by such a loop cannot be used to resolve the same loop again for the purpose of creating another extra turn.
+
+Here, resolving a loop once means performing one iteration, not choosing an arbitrarily large number of repetitions. Cards treated as Scryfalled follow the same limit. Infinite loops involving three or more cards and no Scryfalled cards are not limited by this rule.
 
 These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
 
@@ -303,7 +310,7 @@ Finish deckbuilding and resolve all active pregame progression effects before th
 
 Before the First Encounter  
 Resolve both in this order:  
- • Event (cannot be a Bad Stuff Event)  
+ • Good Event (only the Good classification is eligible)\
  • Trinket
 
 Seat swap window (one-time):
@@ -313,7 +320,7 @@ Seat swap window (one-time):
 
 Resolve the Event using the Event System flow, then resolve the Trinket using the Trinket System flow.
 
-Then before every encounter thereafter resolve Event(s) based on Town/Stay Out rules.
+Before later scheduled encounters, resolve Event(s) based on Town/Stay Out rules. Before the Crypt, Town is mandatory and no Events are drawn.
 
 ---
 
@@ -340,7 +347,7 @@ Trinkets are resolved in the pre-first-encounter setup step after the starting E
 
 Starting setup order:
 
-- Event (cannot be Bad; Ambush counts as Bad)
+- Good Event (only the Good classification is eligible)
 - Trinket
 
 Seat-swap window:
@@ -360,13 +367,13 @@ When using the normal table flow:
 
 ---
 
-#### TRINKET TICKET OVERRIDE
+#### ADDITIONAL TRINKETS FROM TICKETS
 
 If a player has an active Trinket Ticket:
 
 1. Present 3 random Trinkets from the same normal Trinket pool
 2. That player chooses 1 Trinket (no table vote required)
-3. Apply the chosen Trinket for the run
+3. Add the chosen Trinket to the party for the run, in addition to the normal voted Trinket
 
 This occurs during pre-game setup before Encounter 1.
 
@@ -376,7 +383,7 @@ Ticket slot limits are per player, not per party.
 
 #### RULES CONSTRAINTS
 
-- A player may have at most 1 Trinket at a time
+- A player may have at most 1 personal Ticket Trinket at a time; the normal voted party Trinket does not occupy that personal limit
 - Trinket effects apply only as written on that Trinket
 - If a Trinket would conflict with a core rule, the Host resolves the conflict using normal host adjudication
 - The party is not capped at one total Trinket by this rule; this is a per-player limit
@@ -395,7 +402,7 @@ If that player leaves during an encounter, the rest of the party may pilot that 
 
 The pre-first-encounter step resolves Event and Trinket, in that order.
 
-The starting Event cannot be Bad. Ambush counts as Bad and is also excluded.
+The starting Event must be classified Good. Follow Event Restrictions for selection eligibility.
 
 After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event systems.
 
@@ -595,11 +602,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-crossroads-cart -->
 ### 🛒 CROSSROADS CART
 
-> *When visiting Town, the party chooses two Travelers and resolves one of those two.*
+> *When visiting Town, reveal two random Travelers from the Travelers bag. The party chooses one of those two to access during that Town visit.*
 
 **Timing:** During Town, when Travelers are determined.  
 **Limit:** No additional activation limit beyond normal Town timing.  
-**Resolution:** Instead of using a single Traveler option, present two Traveler options. The party chooses one to resolve.
+**Resolution:** Reveal two random Travelers from the Travelers bag instead of one. The party chooses one; only the chosen Traveler is available during that Town visit.
 
 ---
 
@@ -1104,7 +1111,7 @@ After each victorious encounter, players gain rewards and choose how to proceed 
 
 The goal of a run is to defeat the **Final Boss (Crypt)**.
 
-To reach the Crypt, players must successfully defeat all prior encounters.
+A win or loss advances the scheduled encounter number. Failed encounters are not replayed. After the final scheduled encounter, the party must visit Town, then face the Crypt.
 
 ---
 
@@ -1146,7 +1153,7 @@ Each player may have:
  • 1 Conspiracy  
  • 1 Vanguard  
  • 1 Emblem  
- • 1 Trinket
+ • 1 Trinket tied to their Ticket, in addition to the normal voted party Trinket
  • 1 Companion
 
 ---
@@ -1183,9 +1190,11 @@ The core gameplay loop is as follows:
 
 This loop repeats until the Crypt is reached.
 
-Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event cannot be a Bad Stuff Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
+Before Encounter 1, resolve the pre-run setup step from the core rules (Event and Trinket, in that order). The starting Event must be classified Good. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; no seat swapping is allowed after Encounter 1 begins.
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:party-combat-interactions -->
 ### **⚔️ PARTY COMBAT INTERACTIONS**
@@ -1248,10 +1257,10 @@ This interpretation applies to Exalted, Battle Cry, Menace, and other attack- or
 If players lose an encounter, use this transition:
 
 1. Skip encounter rewards (no XP, no Cash Out, no Loot Pool)
-2. The party must proceed to **Post-Encounter Choice** (Town or Stay Out)
+2. Advance the scheduled encounter number and proceed to **Post-Encounter Choice** (Town or Stay Out; Town is mandatory before the Crypt)
 3. Reset all players to full HP before the next encounter begins
 
-Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty — Town/Stay Out and Event resolution still occur normally.
+Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty. Continue the normal between-encounter flow without replaying the failed encounter. After the final scheduled encounter, visit Town and skip Events before the Crypt. A Crypt loss ends the run.
 
 ---
 
@@ -1471,6 +1480,8 @@ All three rewards must be resolved — **XP**, **Cashout**, and **Loot Pool** �
 After all rewards are resolved, proceed to the post-encounter choice (**Town or Stay Out**).
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:xp-system -->
 ### **💠 XP SYSTEM**
@@ -1779,10 +1790,17 @@ Affixes are global modifiers that enhance the Host during encounters.
 
 #### **🛡️ PARTY TURN**
 
-All players act as a single player for the shared turn structure, but each player remains the controller of their own cards and permanents.
+The party shares a turn: untap, upkeep, draw, precombat main, combat, postcombat main, end, and cleanup. Each member retains control of their own cards and permanents.
 
-• One Untap, Upkeep, Draw  
- • One Main Phase, Combat, End Step
+#### Shared timing
+
+Use [Magic Comprehensive Rules](https://magic.wizards.com/en/rules) 805.4–805.7 and 805.9 for shared timing, treating the Host as the other team:
+
+- Each member draws individually and has their own land-play allowance.
+- Priority belongs to the team. Members act in an agreed order, following normal timing restrictions. The party passes only when all members are done acting. Consecutive passes by both sides resolve the top stack object, or advance an empty-stack step; afterward the active side receives priority.
+- For simultaneous choices and triggers, the active side orders its choices or triggers first, then the other side. Follow 805.6a for multi-player draws and 805.4d for step/phase triggers referring to individual players.
+
+This adopts timing only. MTGR retains individual health and death, controller-only extra turns, its Storm modification, player-versus-player attacks, adjacent blocking, and its attacks-alone interpretation. Other Two-Headed Giant rules are not imported.
 
 ---
 
@@ -2565,10 +2583,12 @@ Invalid packs must be rerolled or adjusted.
 <!-- rule:post-encounter-choice -->
 ### **🏘️ BETWEEN ENCOUNTERS**
 
-After an encounter is defeated and rewards are resolved, the party must choose one:
+After a scheduled encounter ends, resolve rewards on a win or skip them on a loss. Before another scheduled encounter, the party must choose one:
 
 • Return to Town
 • Stay Out
+
+After the final scheduled encounter, **Town is mandatory** whether the party won or lost. Stay Out is unavailable. Resolve Town normally, then begin the Crypt without drawing Events.
 
 <!-- rule:town-flow -->
 ### ⚙️ TOWN FLOW
@@ -2577,8 +2597,9 @@ When the party returns to **Town**, resolve the following before Event resolutio
 
 1. **Fully heal all players** to their current maximum HP.
 2. **Reset the consecutive Stay Out count.** The next Stay Out starts again at **10 XP and 2 Events**.
-3. **Resolve Town building usage.** Limited-use buildings reset their uses on each return to Town; unlimited buildings may be used as allowed by their own rules.
-4. **Proceed to Event resolution.**
+3. **Reveal the Town Traveler** using the Travelers System.
+4. **Resolve Town building usage and Traveler interactions.** Limited-use buildings reset their uses on each return to Town; unlimited buildings may be used as allowed by their own rules.
+5. **Proceed to Event resolution**, except before the Crypt: begin the Crypt without drawing Events.
 
 #### Full heal
 
@@ -2841,6 +2862,8 @@ Returning to **Town resets the consecutive Stay Out count**. The next Stay Out a
 
 Detailed pack, Event, Supply Drop, Wanderer, and restriction rules remain in their dedicated rule entries.
 
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
+
 <!-- rule:supply-drop-resolution -->
 ### **🎁 SUPPLY DROP RESOLUTION**
 
@@ -2870,7 +2893,7 @@ A fallen adventurer’s pouch is discovered along the road.
 Old rations and supplies are found in an abandoned wagon.  
  Each player gains 4 HP.
 
-Players may have life above their maximum this way. This excess life lasts only until the next encounter.
+Players may have life above their maximum this way. Carry that life into the next encounter; it may remain above maximum throughout that encounter. After the encounter ends, win or lose, remove any remaining excess as part of the normal reset to maximum HP. This does not increase Max HP.
 
 ---
 
@@ -2968,6 +2991,12 @@ They provide unique benefits that can aid deckbuilding and progression.
 > **Note:** Travelers do NOT cost a Town Action.
 
 ---
+
+#### Selection
+
+Whenever the party arrives in Town, reveal **1 random Traveler from the Travelers bag**. That Traveler is available to the party during that Town visit. Resolve interactions according to its printed effect and limits.
+
+If the party has **Crossroads Cart**, use that Trinket's selection procedure instead.
 
 <!-- rule:traveler-bearded-grunt -->
 ### **🧔 Bearded Grunt**
@@ -3397,7 +3426,7 @@ Each player in the party gains 5 XP.
 
 Events are drawn and resolved **after the post-encounter phase** and before the next encounter begins.
 
-Pre-first-encounter note: The starting Event resolved before Encounter 1 cannot be a **Bad Event**. **Ambush counts as Bad**, so Ambush Events are also excluded from the starting Event. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
+Pre-first-encounter note: The starting Event resolved before Encounter 1 must be classified **Good**. After deckbuilding and before Encounter 1 begins, players may make one seat-swap adjustment; after Encounter 1 begins, seat swapping is no longer allowed.
 
 **Order of Operations:**
 
@@ -3411,6 +3440,8 @@ Pre-first-encounter note: The starting Event resolved before Encounter 1 cannot 
 6. Begin next encounter
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:event-frequency -->
 ### **🔢 EVENT FREQUENCY**
@@ -3431,6 +3462,8 @@ Event scaling resets when the party returns to Town.
 Events are drawn and handled **one at a time**, in the order they are drawn.
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:event-design-rules -->
 ### **🧱 EVENT DESIGN RULES**
@@ -3484,7 +3517,7 @@ Possible scaling approaches include:
 * Events are not normally drawn **during an active encounter** unless a card or system specifically instructs otherwise.  
 * Events do **not occur during the Crypt**.  
 * **No Event is drawn immediately before the Crypt.**  
-* The starting Event before Encounter 1 cannot be **Bad**; because Ambush counts as Bad, it cannot be an **Ambush** either.  
+* The starting Event before Encounter 1 must be classified **Good**. Neutral, Bad, Ambush, and Town Upgrade Events are not eligible. Draw from the Good Event pool, or replace any non-Good result until a Good Event is selected.
 * Continuing Event effects may overlap with Town, encounter setup, rewards, or other systems when the Event explicitly creates that overlap.
 
 ---
@@ -3500,6 +3533,8 @@ After an encounter is resolved, players must choose one:
 If players choose to Stay Out, resolve the Stay Out sequence before proceeding to Events.
 
 ---
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:stay-out-xp -->
 ### **⚡ XP REWARD**
@@ -3567,6 +3602,8 @@ Events are resolved **one at a time, in order drawn**. Each Event must fully res
 
 ---
 
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
+
 <!-- rule:stay-out-restrictions -->
 ### **❌ RESTRICTIONS**
 
@@ -3582,12 +3619,14 @@ While Staying Out:
 <!-- rule:town-timing -->
 ### 🎯 **WHEN TOWN OCCURS**
 
-After an encounter is defeated and rewards are resolved, players may choose to:
+After a scheduled encounter ends and victory rewards, if any, are resolved, players may choose to:
 
 * Return to Town  
 * Stay Out
 
 If players choose to return, resolve Town before proceeding to Events.
+
+**Final scheduled encounter exception:** Follow Post-Encounter Choice: Town is mandatory after the final scheduled encounter, win or lose. Stay Out is unavailable, and no Events are drawn before the Crypt.
 
 <!-- rule:town-full-heal -->
 ### ❤️ **FULL HEAL**
@@ -3607,11 +3646,11 @@ Town does not use actions.
 <!-- rule:run-failure -->
 ### **❌ FAILURE**
 
-If players lose an encounter:
+If players lose a scheduled non-Crypt encounter:
 
 * The party gains no XP from that encounter  
 * No Cash Out or Loot Pool is resolved  
-* The party must proceed to Post-Encounter Choice (Town or Stay Out)
+* Advance the scheduled encounter number and proceed to Post-Encounter Choice (Town or Stay Out; Town is mandatory before the Crypt)
 * Missing Rewards (XP, Cash Out, and Loot Pool) is the only penalty
 
 If players fail to defeat the Crypt, the run ends.
@@ -3651,6 +3690,10 @@ After the final scheduled encounter in the active mode, players face the Crypt.
 * No Events are resolved
 
 The Crypt represents the final and most difficult encounter of the run.
+
+#### Before the Crypt
+
+After the final scheduled encounter ends, resolve rewards on a victory or skip them on a loss. The party must then visit Town; it cannot Stay Out. Resolve the normal Town visit, including healing, buildings, and its Traveler, then begin the Crypt without drawing Events.
 
 <!-- rule:crypt-reward-eligibility -->
 ### **👑 CRYPT REWARD ELIGIBILITY**
@@ -3786,6 +3829,1187 @@ Players maintain two independent profiles — one per Host type.
  • Emblem Ticket → 3
 
 ---
+
+## Seasonal Events
+
+<!-- rule:trinket-legendary-shovel -->
+### Legendary Shovel
+
+When the party gains this Trinket, each player may bury one card from their deck: move it to their sideboard and put a growth counter on it.
+At the end of each encounter, each player may unearth their buried card, returning it to their main deck. If they leave it buried, put another growth counter on it.
+When a card is unearthed, apply the effect matching its number of growth counters:
+1: Upgrade it.
+2: Augment it.
+3: Upgrade and Augment it.
+4 or more: No effect.
+If this Trinket is chosen before deckbuilding, bury cards after deckbuilding is complete.
+
+<!-- rule:trinket-karametras-cornucopia -->
+### Karametra’s Cornucopia
+
+Creatures the Party controls have absorb 1.
+
+Once each Party turn, whenever a player casts their first creature spell that turn, that player chooses one:
+
+Search their library for a basic land card, reveal it, put it into their hand, then shuffle.
+Put a land card from their hand onto the battlefield tapped.
+
+<!-- rule:trinket-nyleas-sight -->
+### Nylea’s Sight
+
+Twice per encounter, target creature’s toughness becomes 1.
+
+<!-- rule:trinket-full-moon -->
+### Full Moon
+
+Double-faced permanents enter the battlefield under players’ control with their back faces up. This applies to both transforming double-faced cards and modal double-faced cards.
+
+<!-- rule:trinket-shattered-glass -->
+### Shattered Glass
+
+At the beginning of the Party’s upkeep, each player may fragment a nontoken creature they control without a splinter counter. (To fragment a creature, create a token that’s a copy of it, except it’s 1/1. Then put a splinter counter on that creature and the token. A creature with a splinter counter can’t be fragmented.)
+
+<!-- rule:trinket-scaery-pumpkin -->
+### Scaery Pumpkin
+
+The party can’t Stay Out.
+Whenever the party enters Town, roll for a Supply Drop.
+
+<!-- rule:trinket-dead-leaf -->
+### Dead Leaf
+
+Once per encounter, the Party may choose a player. That player and each permanent they control phase out until that player’s next turn. Activate only as a sorcery.
+
+<!-- rule:trinket-pickled-pumpkin -->
+### Pickled Pumpkin
+
+Players can’t trade cards.
+
+Whenever a player gains XP, they gain 20% additional XP.
+
+<!-- rule:trinket-stolen-pumpkin -->
+### Stolen Pumpkin
+
+Players can’t purchase packs in Town.
+
+Whenever a player gains XP, they gain 60% additional XP.
+
+<!-- rule:trinket-forgotten-key -->
+### Forgotten Key
+
+{3}: Conjure a random Sword of X and Y and attach it to an attacking creature you control. Exile that Equipment at the end of the turn.
+Activate only once per party turn.
+Card pool: otag:sword-of-x-and-y
+
+<!-- rule:seasonal-events -->
+### Seasonal Events
+
+Seasonal Events add themed content to a run. Use the content pools for the selected Seasonal Event; a seasonal rule is not automatically part of the normal pools. Follow the normal run rules unless the seasonal content explicitly changes them.
+
+A Seasonal Event is distinct from an individual Event card drawn between encounters.
+
+- [Harvest Moon](harvest-moon/overview.md)
+- [High Tide Hijinks](high-tide-hijinks/overview.md)
+
+Completion rewards follow the normal progression rules and retain their existing unlock requirements.
+
+<!-- rule:event-scarecrow-feast -->
+### Scarecrow Feast
+
+The party chooses one:
+Join the feast — Each player begins the next encounter with a Scuttlemutt on the battlefield.
+Beat the feasters — Each player begins the next encounter with a random Equipment on the battlefield. That Equipment’s equip cost permanently becomes {0}.
+
+<!-- rule:event-cabin-in-the-woods -->
+### Cabin in the Woods
+
+The party chooses one —
+Avoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.
+Explore — Roll a d6.
+1 — Resolve two random Bad Events.
+2 — Resolve a random Bad Event.
+3-4 — Resolve a random Neutral Event.
+5 — Resolve a random Good Event.
+6 — Resolve two random Good Events.
+
+<!-- rule:event-broken-mirror -->
+### Broken Mirror
+
+Each player chooses one:
+Put it back together — Gain an upgraded copy of your commander. You may put it into your deck or sideboard, or replace your commander with it.
+Take a shard — Gain the Shattered Glass Trinket.
+
+<!-- rule:event-verdant-shrubbery -->
+### Verdant Shrubbery
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
+“{T}: Add one mana of any color.”
+Each player whose commander is green chooses two creature cards instead.
+
+<!-- rule:event-turkey-uprising -->
+### Turkey Uprising
+
+For the next encounter, at the beginning of each Host upkeep, the Host creates a 1/1 Bird creature token without flying.
+Whenever a Bird the Host controls dies during that encounter because of a player’s effect or damage dealt by a creature that player controls, that player creates a Food token. This includes effects that cause the Bird to be sacrificed.
+
+<!-- rule:event-unseen-doors -->
+### Unseen Doors
+
+The party chooses one —
+Spiral door — Reveal Events until you reveal a good Event and a bad Event. Resolve both, then shuffle the other revealed Events back into the Event deck. These do not count toward the Chaos Buff.
+Inverted door — Resolve the last Event again.
+Upside-down door — Resolve the bottom Event of the deck.
+
+<!-- rule:event-rhystic-library -->
+### Rhystic Library
+
+Each player chooses one —
+Learn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.
+Discuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.
+
+<!-- rule:event-explosive-volcano -->
+### Explosive Volcano
+
+The party chooses one —
+Brave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.
+Take Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead.
+
+<!-- rule:event-kithkin-hovel -->
+### Kithkin Hovel
+
+Each player may destroy an artifact card in their Mainboard.
+Each player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.
+If that player’s commander is white, reveal artifact cards of the same rarity instead.
+
+<!-- rule:event-urzas-sylex -->
+### Urza’s Sylex
+
+Each player may choose a card in their Mainboard.
+During the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal.
+
+<!-- rule:event-pumpkin-smashing -->
+### Pumpkin Smashing
+
+Each player may destroy a creature card in their deck. Each player who does gains 3 random instant or sorcery cards within their color identity.
+
+<!-- rule:event-cave-of-spoils -->
+### Cave of Spoils
+
+Each player secretly chooses Caution or Greed, then all choices are revealed simultaneously.
+Caution — At the beginning of the next encounter, create one Treasure token.
+Greed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed.
+
+<!-- rule:event-the-hunt-is-on -->
+### The Hunt Is ON!
+
+At the beginning of each Host turn, the Host creates a token copy of a random Werewolf creature with mana value X or less, where X is the number of lands the Host controls.
+The Werewolf with the highest mana value stays on its transformed face and can’t transform back. Break ties by rolling a d20.
+Once there are four or more Werewolves on the battlefield, all Werewolves are locked on their transformed faces for the rest of the encounter. Werewolves that enter afterward enter transformed and can’t transform back.
+The party gains the Full Moon Trinket. If the party already has it, each player may augment a double-faced card without paying its augment cost instead.
+
+<!-- rule:event-card-fetcher -->
+### Card Fetcher
+
+Each player chooses one —
+Established Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.
+New Discovery — Choose a card marked “New” on your commander’s EDHREC page.
+Host’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.
+Add the chosen card to your Mainboard. It can’t be a Game Changer.
+
+<!-- rule:event-burn-the-witch -->
+### BURN THE WITCH
+
+At the beginning of each Host upkeep, the Host conjures two random Human creatures with mana value X or less onto the battlefield, where X is the number of lands the Host controls.
+Humans the Host controls have haste and attack each combat if able. Whenever the Host attacks with one or more Humans, the party chooses one player. All attacking Humans attack that player.
+Add the conjured Humans to the loot pool.
+
+<!-- rule:event-headless-horsey -->
+### Headless Horsey
+
+Reveal 10 random Horse cards. Each player chooses one to keep.
+Upgrade each chosen card, then color-shift it to be within that player’s color identity. It becomes a Zombie in addition to its other types.
+
+<!-- rule:event-vanguard-caravan -->
+### Vanguard Caravan
+
+Roll a d4, then reveal that many random Vanguards.
+Each player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter.
+
+<!-- rule:event-plane-to-plane-circus -->
+### Plane-to-Plane Circus
+
+The Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.
+Without revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.
+If every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards.
+
+<!-- rule:event-meeting-of-the-planes -->
+### Meeting of the Planes
+
+Reveal five random planeswalker cards within the party’s combined commander color identities.
+Each player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.
+Each player may gain up to two cards revealed this way.
+
+<!-- rule:event-abandoned-supply-pack -->
+### Abandoned Supply Pack
+
+Each player rolls a d6 and gains the card corresponding to the result:
+1 — Nothing
+2 — Commander’s Sphere
+3 — Thought Vessel
+4 — Swiftfoot Boots
+5 — Arcane Signet
+6 — Sol Ring
+
+<!-- rule:event-plane-trader -->
+### Plane Trader
+
+Reveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.
+Each player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.
+For the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way.
+
+<!-- rule:event-lion-and-a-mouse -->
+### Lion and a Mouse
+
+The party chooses one —
+Truth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.
+Lie — Skip the next Event that would be resolved.
+
+<!-- rule:event-covenant -->
+### Covenant
+
+Each player reveals cards from the top of their deck until they reveal a creature card.
+If at least three creature cards revealed this way have different powers, each player gains a random Tier 1 cashout. Otherwise, destroy the revealed creature cards. Each player then creates a random Werewolf, color-shifted to be within their color identity. It stays transformed if able.
+Shuffle all remaining revealed cards back into their owners’ decks.
+
+<!-- rule:event-equinox -->
+### Equinox
+
+Each player chooses two creature cards in their Mainboard. Those cards gain shadow.
+At the beginning of each Town, each player must choose a creature card in their Mainboard without shadow. That card gains shadow.
+
+<!-- rule:event-forgotten-key -->
+### Forgotten Key
+
+The party gains the Forgotten Key Trinket. If the party already has it, its activation cost becomes {0} instead.
+
+<!-- rule:event-rewrite-reality -->
+### Rewrite Reality
+
+Each player may choose a card in their Mainboard and remove any amount of text from that card.
+This can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.
+The Host may reject any change they determine is too powerful.
+
+<!-- rule:event-sword-in-the-stone -->
+### Sword in the Stone
+
+The party chooses one —
+Draw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:
+“When this Equipment enters, you become the monarch.”
+The next encounter is a Master Fight.
+Return Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead.
+
+<!-- rule:event-overflowing-feast -->
+### Overflowing Feast
+
+For the rest of the run, at the beginning of the first upkeep of each encounter, each player creates two Food tokens.
+
+<!-- rule:event-attunement-tower -->
+### Attunement Tower
+
+The party chooses which Crypt boss it will face during this run.
+
+<!-- rule:event-wandering-planes-saboteur -->
+### Wandering Planes Saboteur
+
+The party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
+The party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
+
+<!-- rule:event-crowstorm -->
+### Crowstorm
+
+When a player casts the party’s first spell of the next encounter, counter that spell. That player then casts a Storm Crow without paying its mana cost.
+
+<!-- rule:event-its-just-standing-there-menacingly -->
+### It’s Just Standing There… MENACINGLY
+
+At the beginning of each Host turn, the Host conjures a random nonlegendary Scarecrow creature with mana value X or less onto the battlefield, where X is the number of lands the Host controls.
+Scarecrows the Host controls have defender and “{T}: Add one mana of any color.”
+While the Host controls five or more Scarecrows, those creatures lose defender.
+At the end of each Host turn, if the Host controls ten or more Scarecrows and doesn’t control a Reaper King, the Host conjures a Reaper King onto the battlefield.
+If the party wins the encounter, each player may choose a creature card in their main deck. It gains “{T}: Add one mana of any color.”
+
+<!-- rule:event-commanders-guild -->
+### Commander’s Guild
+
+Each player chooses one —
+New Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.
+Like-Minded — Use the Castle for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander.
+
+<!-- rule:event-endless-sea -->
+### Endless Sea
+
+Each player’s commander gains a random keyword ability for the rest of the run.
+Each player whose commander is blue gains two random keyword abilities instead.
+
+<!-- rule:event-mirror-dimension -->
+### Mirror Dimension
+
+For the rest of the run, the following Town Action is available:
+Pay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity.
+
+<!-- rule:event-trench-of-the-void -->
+### Trench of the Void
+
+Each player gains two random Tier 1 Cash Outs.
+Each player whose commander is black gains an additional random Tier 2 Cash Out.
+
+<!-- rule:event-timeless-market -->
+### Timeless Market
+
+For the rest of the run, the following Town Action is available:
+Once per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out.
+
+<!-- rule:event-pumpkin-harvest -->
+### Pumpkin Harvest
+
+The party must choose a remaining Pumpkin Trinket from the Trinket pile and gain it.
+
+<!-- rule:event-youre-taking-too-long -->
+### YOU’RE TAKING TOO LONG
+
+The party chooses one:
+- Gain the Scaery Pumpkin Trinket.
+- Each player gains 25 XP.
+
+<!-- rule:event-sliver-king -->
+### Sliver King
+
+Each player chooses a creature card in their Mainboard, then chooses a creature type that card has.
+Each chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players.
+
+<!-- rule:event-spartan-plains -->
+### Spartan Plains
+
+Each player chooses a creature card in their Mainboard. Each chosen card gains vigilance.
+Each player whose commander is white chooses two creature cards instead.
+
+<!-- rule:event-lost-ark -->
+### Lost Ark
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
+“When you cast this spell, create a Treasure token.”
+Each player whose commander is red chooses two creature cards instead.
+
+<!-- rule:event-wishing-well -->
+### Wishing Well
+
+Each player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules.
+
+<!-- rule:event-earthquake -->
+### Earthquake!
+
+Each player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard.
+
+<!-- rule:event-dragon-hoard -->
+### Dragon Hoard
+
+The Host secretly rolls a d6.
+Reveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.
+One at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.
+If the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.
+Otherwise, when the party stops, reveal the result and discard the remaining cards.
+
+<!-- rule:event-you-stepped-on-a-leaf -->
+### You Stepped on a Leaf
+
+The party chooses one:
+Attend the funeral — Each player gains 2 cashouts.
+Steal the corpse — The party gains the Dead Leaf Trinket.
+
+<!-- rule:event-peaceful-orchard -->
+### Peaceful Orchard
+
+Each player gains 5 Max HP for the rest of the run.
+Each player whose commander is white gains 10 Max HP instead.
+
+<!-- rule:event-cornfields -->
+### Cornfields
+
+Once per Town, each player may pay 20 XP to wander the cornfields. That player rolls a d20 and receives the corresponding result:
+1: The Reaper, King No More — The party will face the Reaper King during the Crypt encounter.
+2–5: Gain a free Scryfall selection of any nonlegendary Scarecrow.
+6–10: Begin the next encounter with four Food tokens.
+11–15: Gain a Tier 2 cashout.
+16–19: Gain a free OTAG pack.
+20: Gain a random Trinket.
+
+<!-- rule:event-trick-or-treat -->
+### Trick or Treat
+
+Each player chooses one:
+Trick — Begin the next encounter with a random Curse with mana value 4 or less attached to you. Gain 1 cashout.
+Treat — Gain 3 random Food cards to add to your deck.
+
+<!-- rule:event-ivy-forest -->
+### Ivy Forest
+
+Each player reveals a random creature card within their commander’s color identity and gains it.
+Each player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them.
+
+<!-- rule:event-tomb-of-the-forgotten -->
+### Tomb of the Forgotten
+
+Each player chooses a card using Scryfall and adds it to their Mainboard.
+Each card gained this way becomes Temporal.
+
+<!-- rule:event-strung-up -->
+### Strung Up
+
+Each party member begins the next encounter with their commander on the battlefield. Those commanders become artifacts, lose all other card types and abilities, and gain “{2}: Sacrifice this permanent.”
+Any player may pay their commander’s mana cost to exile it, then return it to the battlefield under its owner’s control.
+At the end of the encounter, each player whose commander is still a noncreature artifact augments it. That commander remains a noncreature artifact and regains its original abilities.
+
+<!-- rule:event-exotic-car-show -->
+### Exotic Car Show
+
+Roll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.
+The party may gain any number of cards revealed this way and distribute them among the players.
+
+<!-- rule:event-card-vortex -->
+### Card Vortex
+
+Each player chooses a colorless card in their Mainboard and places it into a shared pile.
+Upgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player.
+
+<!-- rule:event-only-need-to-be-faster-than-you -->
+### Only Need to Be Faster Than You
+
+The party votes for a player. Break a two-way tie with a coin flip or a three-way tie with a die roll.
+At the beginning of the Host’s first upkeep, the Host conjures an Unstoppable Slasher. It perpetually gains “This creature attacks the chosen player each combat if able” and “Whenever this creature leaves the battlefield, return it to the battlefield under its owner’s control with a stun counter on it.”
+
+<!-- rule:event-harvest-festival -->
+### Harvest Festival
+
+Whenever a player chooses a card to gain from any pack, they may give up that card instead. If they do, they gain Essence equal to twice its mana value.
+This applies to all packs, including Merchant, Mystery, and Cash Out packs.
+
+<!-- rule:event-splendid-skies -->
+### Splendid Skies
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.
+Each player whose commander is blue chooses two creature cards instead.
+
+<!-- rule:event-artifact-on-a-pedestal -->
+### Artifact on a Pedestal
+
+Reveal one random mythic rare artifact card for each player.
+Each player may gain the artifact revealed for them.
+For each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant.
+
+<!-- rule:event-bloody-altar -->
+### Bloody Altar
+
+The party chooses one —
+Blood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.
+Blood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.
+If the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.
+Leave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.
+After that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins.
+
+<!-- rule:event-stoneforge-caravan -->
+### Stoneforge Caravan
+
+Each player chooses one —
+Create — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.
+Runeforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:
+“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”
+
+<!-- rule:event-mystic-waterwell -->
+### Mystic Waterwell
+
+Each player may destroy a card in their Mainboard.
+Each player who does gains Essence equal to the total mana value of all cards destroyed this way.
+
+<!-- rule:event-found-a-lucky-coin -->
+### Found a Lucky Coin?
+
+Each player flips a coin:
+Heads - Gain 5 life for the next encounter
+Tails - Lose 5 life for the next encounter
+
+<!-- rule:event-wandering-planes-arms-dealer -->
+### Wandering Planes Arms Dealer
+
+The party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
+Each player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
+
+<!-- rule:event-zubera-crossing -->
+### Zubera Crossing
+
+The party chooses one —
+
+Investigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.
+
+Avoid — Resolve another Event.
+
+<!-- rule:event-a-stones-throw -->
+### A Stone’s Throw
+
+At the beginning of each non-Crypt encounter, each player creates a Rock token and the Host creates three Rock tokens.
+
+<!-- rule:event-paranoia -->
+### Paranoia
+
+At the beginning of each Host upkeep, the party chooses one party member. Until the end of the party’s next turn, that player is considered an opponent of each other party member for spells and abilities.
+
+<!-- rule:event-the-reaper-king-comes -->
+### The Reaper King Comes
+
+The party chooses one —
+Swear loyalty — Each player’s commander becomes an artifact and a Scarecrow in addition to its other types.
+Oppose nobility — Resolve the Ambush Event “It’s Just Standing There… MENACINGLY.”
+
+<!-- rule:event-that-damned-bridge -->
+### That Damned Bridge
+
+Each player reveals cards from the top of their library until they reveal a nonland card. That player may pay 2 life.
+If they do, they shuffle all cards revealed this way back into their library and repeat this process, increasing the life payment by 1 each time.
+Otherwise, they destroy the revealed nonland card, shuffle the other revealed cards back into their library, and stop.
+
+<!-- rule:event-a-rock-pile -->
+### A Rock Pile
+
+The party chooses one —
+Leave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.
+Dig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.
+At the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.
+Each Golem cast this way is goaded for the rest of the encounter.
+While the Host controls a Golem, damage dealt to the Host is halved, rounded down.
+After that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.
+
+<!-- rule:event-sorrowful-swamp -->
+### Sorrowful Swamp
+
+For the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.
+Each player whose commander is black creates three of those tokens instead.
+
+<!-- rule:event-treasure-goblin -->
+### Treasure Goblin
+
+Reveal three random Trinkets. The party chooses one to gain.
+
+<!-- rule:event-planar-excavation -->
+### Planar Excavation
+
+Each player chooses one —
+Discover — Gain up to two land cards, each with no more than three basic land types.
+Traverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.
+
+<!-- rule:event-mana-ripple -->
+### Mana Ripple
+
+Each player chooses one —
+Mono — Choose a color, then reveal eight random monocolored cards of that color.
+Dual — Choose two colors, then reveal four random cards that are exactly those colors.
+Each player may gain one card they revealed this way.
+
+<!-- rule:event-rapidly-growing-harvest -->
+### Rapidly Growing Harvest
+
+Each player chooses one —
+Growth — Gain up to two dual land cards within your commander’s color identity.
+Harvest — Gain one random utility land card within your commander’s color identity.
+
+<!-- rule:event-witchs-cauldron -->
+### Witch’s Cauldron
+
+Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.
+X is the total mana value, power, and toughness of all cards destroyed this way.
+Each player chooses one —
+Absorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.
+Absorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.
+Each player may gain up to three cards they revealed this way.
+
+<!-- rule:event-cheese-festival -->
+### Cheese Festival
+
+Each player chooses one:
+- Add The Cheese Stands Alone to your deck, color-shifted to be within your color identity and augmented with “If you win at least one encounter during this run with this card on the battlefield, increase the Essence you receive at the end of the run by 50%.”
+- Reveal 10 random cards matching otag:food. Choose 3 to keep.
+
+<!-- rule:event-strange-set-of-potions -->
+### Strange Set of Potions
+
+Each player chooses one. All changes are permanent.
+- Purple potion — Reveal cards from your deck until you reveal a nonland card. Upgrade that card, then shuffle all revealed cards back into your deck.
+- Red potion — Your commander gets +2/+2.
+- Blue potion — Reveal cards from your deck until you reveal two basic lands. Reveal five random utility lands within your color identity. Replace the two basic lands with two of those utility lands, then shuffle those lands and the other cards revealed from your deck back into your deck. If your deck contains fewer than two basic lands, shuffle the revealed cards back into your deck and gain 50 XP instead.
+
+<!-- rule:event-crossroads -->
+### Crossroads
+
+Reveal the top two cards of the Event deck.
+The party chooses one to resolve. Put the other on the bottom of the Event deck.
+
+<!-- rule:event-planetary-bank -->
+### Planetary Bank
+
+Each player may convert up to 50 Essence into an equal amount of XP.
+
+<!-- rule:event-reckless-racketeering -->
+### Reckless Racketeering
+
+Each player shuffles their Mainboard and places it face down, then chooses one —
+Top — Destroy the top card of your Mainboard.
+Bottom — Destroy the bottom card of your Mainboard.
+
+<!-- rule:event-wandering-planes-assistant -->
+### Wandering Planes Assistant
+
+The party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.
+Each player may permanently gain one of those cards.
+
+<!-- rule:event-nameless-smith -->
+### Nameless Smith
+
+Each player chooses a card in their Mainboard and upgrades it.
+
+<!-- rule:event-a-portent-of-fortune -->
+### A Portent of Fortune
+
+The party chooses one:
+- Choose the Crypt boss the party will face.
+- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]
+
+<!-- rule:harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me -->
+### Your Trinkets Are Nothing But Toys To Me
+
+Choose a Trinket. That Trinket is inactive during this encounter.
+
+<!-- rule:harvest-moon-doom-who-turned-out-the-lights -->
+### Who Turned out the lights
+
+For each attacking creature, untap that creature and remove it from combat.
+
+<!-- rule:harvest-moon-doom-the-scarecrow-cometh -->
+### The Scarecrow Cometh
+
+Return up to two target creature cards from graveyards to the battlefield under your control. They become kindred artifacts — Scarecrow and lose all other card types and creature types.
+
+<!-- rule:harvest-moon-doom-stir-the-pot -->
+### Stir the Pot
+
+Up to two target creatures become goaded.
+
+<!-- rule:harvest-moon-doom-soul-rend -->
+### Soul Rend
+
+Creatures your opponents control lose hexproof and indestructible until end of turn. Then choose up to one creature an opponent controls and destroy it.
+
+<!-- rule:harvest-moon-doom-rotten-bounty -->
+### Rotten Bounty
+
+Sacrifice a creature: Create six Gold tokens.
+
+<!-- rule:harvest-moon-doom-im-the-hero-of-this-story -->
+### I’m the Hero of This Story
+
+Reveal three groups of three random Hero Powers. Choose one Hero Power from each group and gain the chosen Hero Powers.
+
+<!-- rule:harvest-moon-doom-hunt-them-all -->
+### Hunt Them All
+
+Until end of turn, whenever one or more creatures you control attack a player, draw a card.
+
+<!-- rule:harvest-moon-doom-hunt-the-weak -->
+### Hunt The Weak
+
+The Host chooses a creature they control. Destroy all creatures with power less than the chosen creature’s power.
+
+<!-- rule:harvest-moon-doom-harvest-of-the-damned -->
+### Harvest of the Damned
+
+For each creature that has died this turn, put a +1/+1 counter on target creature you control.
+You may only activate this card during your end step.
+
+<!-- rule:harvest-moon-doom-forged-in-their-name -->
+### Forged in Their Name
+
+Conjure two cards named Bloodline Pretender onto the battlefield. Trigger this only as a sorcery.
+
+<!-- rule:harvest-moon-doom-danse-macabre -->
+### Danse Macabre
+
+Return up to one target creature from each opponent’s graveyard to the battlefield under your control. They gain haste and can only attack their owner. Sacrifice them at the beginning of the next end step.
+
+<!-- rule:harvest-moon-doom-clock-strikes-midnight -->
+### Clock strikes midnight
+
+Draw two cards. Then exile this card with two time counters on it. It gains suspend.
+
+<!-- rule:harvest-moon-doom-bloodrush -->
+### BloodRush
+
+When you attack with a creature this turn, it gains a +1/+1 counter.
+
+<!-- rule:harvest-moon-doom-a-wolf-in-sheeps-clothing -->
+### A Wolf in Sheep’s Clothing
+
+Choose a creature you control. It becomes a copy of another target creature except for its name. That creature gains “{2}: This creature becomes a copy of another target creature except for its name.”
+
+<!-- rule:harvest-moon-travelers-farm-tool-supplier -->
+### Farm Tool Supplier
+
+Each player may choose one:
+
+- 25 XP — Augment an Equipment in your deck. That Equipment starts each game in your hand.
+
+- 10 XP — Spawn 10 random Equipment cards of Rare or higher rarity within your color identity. Choose one of them to gain.
+
+<!-- rule:harvest-moon-travelers-nylea-hunter-of-horrors -->
+### Nylea, Hunter of Horrors
+
+The party may collectively pay XP to choose one:
+
+- Pay 25 XP — Spawn 10 random Mythic Rare creatures within the party’s color identities. Choose 3 of them to gain.
+
+- Pay 50 XP — During the next encounter, instead of voting against the Host’s choices, the players choose what the Host plays.
+
+- Pay 100 XP — The party gains the Trinket Nylea’s Sight.
+
+- Pay 200 XP — The party gains the card Bow of Nylea.
+
+Karametra Just Wants to Talk — If any player has Karametra in their deck when the party enters town, they may have her “talk.” The party gains both Bow of Nylea and Karametra’s Cornucopia to keep.
+Afterward, the Tavern is destroyed and cannot be used for the rest of the run. Whoops.
+
+<!-- rule:harvest-moon-wanderers-frightened-farmer -->
+### Frightened Farmer
+
+The farmer needs help clearing out some overgrown weeds.
+
+If the party accepts, the Host begins the next combat with five 1/1 Saproling creature tokens.
+
+If the party wins that combat, each player gains 15 XP.
+
+<!-- rule:harvest-moon-wanderers-kind-stranger -->
+### Kind Stranger
+
+Each player may choose one:
+
+- Gain 5 XP.
+
+- Pay 5 XP — If you do, gain a random Rare Artifact.
+
+<!-- rule:harvest-moon-wanderers-reaper-king -->
+### Reaper King
+
+Just a Regular Scarecrow
+
+The party votes for one:
+
+Believe It — Each player gains 10 XP.
+
+Don’t Believe It — Mr. Not Reaper King asks the party to reconsider.
+If the majority votes Don’t Believe It, Mr. Not Reaper King stabs the party. Each player loses 1 life and gains 3 XP. It then runs away, and the party reveals a new Wanderer.
+
+<!-- rule:harvest-moon-overview -->
+### Harvest Moon
+
+This is the reference for Harvest Moon Seasonal Event content.
+
+Use these entries with the selected Seasonal Event. Listed Event cards describe its supplied pool, which may include shared designs; inclusion here does not make a card exclusive to this season or eligible in the normal Event pool. Physical copy counts and encounter deck lists are maintained with the seasonal play materials.
+
+The random Trinket pool has eight entries. Nylea’s Sight and Karametra’s Cornucopia are available only through Nylea, Hunter of Horrors; neither is a random Trinket selection.
+
+#### Content
+
+##### Event cards
+
+- [Scarecrow Feast](../../between-encounters/events/scarecrow-feast.md) — Good
+- [Cabin in the Woods](../../between-encounters/events/cabin-in-the-woods.md) — Neutral
+- [Broken Mirror](../../between-encounters/events/broken-mirror.md) — Good
+- [Verdant Shrubbery](../../between-encounters/events/verdant-shrubbery.md) — Good
+- [Turkey Uprising](../../between-encounters/events/turkey-uprising.md) — Neutral
+- [Unseen Doors](../../between-encounters/events/unseen-doors.md) — Neutral
+- [Rhystic Library](../../between-encounters/events/rhystic-library.md) — Good
+- [Explosive Volcano](../../between-encounters/events/explosive-volcano.md) — Neutral
+- [Kithkin Hovel](../../between-encounters/events/kithkin-hovel.md) — Good
+- [Urza’s Sylex](../../between-encounters/events/urzas-sylex.md) — Good
+- [Pumpkin Smashing](../../between-encounters/events/pumpkin-smashing.md) — Neutral
+- [Cave of Spoils](../../between-encounters/events/cave-of-spoils.md) — Neutral
+- [The Hunt Is ON!](../../between-encounters/events/the-hunt-is-on.md) — Ambush
+- [Card Fetcher](../../between-encounters/events/card-fetcher.md) — Good
+- [BURN THE WITCH](../../between-encounters/events/burn-the-witch.md) — Ambush
+- [Headless Horsey](../../between-encounters/events/headless-horsey.md) — Good
+- [Vanguard Caravan](../../between-encounters/events/vanguard-caravan.md) — Good
+- [Plane-to-Plane Circus](../../between-encounters/events/plane-to-plane-circus.md) — Good
+- [Meeting of the Planes](../../between-encounters/events/meeting-of-the-planes.md) — Good
+- [Abandoned Supply Pack](../../between-encounters/events/abandoned-supply-pack.md) — Good
+- [Plane Trader](../../between-encounters/events/plane-trader.md) — Town Upgrade
+- [Lion and a Mouse](../../between-encounters/events/lion-and-a-mouse.md) — Neutral
+- [Covenant](../../between-encounters/events/covenant.md) — Neutral
+- [Equinox](../../between-encounters/events/equinox.md) — Neutral
+- [Forgotten Key](../../between-encounters/events/forgotten-key.md) — Good
+- [Rewrite Reality](../../between-encounters/events/rewrite-reality.md) — Good
+- [Sword in the Stone](../../between-encounters/events/sword-in-the-stone.md) — Neutral
+- [Overflowing Feast](../../between-encounters/events/overflowing-feast.md) — Good
+- [Attunement Tower](../../between-encounters/events/attunement-tower.md) — Good
+- [Wandering Planes Saboteur](../../between-encounters/events/wandering-planes-saboteur.md) — Bad
+- [Crowstorm](../../between-encounters/events/crowstorm.md) — Bad
+- [It’s Just Standing There… MENACINGLY](../../between-encounters/events/its-just-standing-there-menacingly.md) — Ambush
+- [Commander’s Guild](../../between-encounters/events/commanders-guild.md) — Good
+- [Endless Sea](../../between-encounters/events/endless-sea.md) — Good
+- [Mirror Dimension](../../between-encounters/events/mirror-dimension.md) — Town Upgrade
+- [Trench of the Void](../../between-encounters/events/trench-of-the-void.md) — Good
+- [Timeless Market](../../between-encounters/events/timeless-market.md) — Town Upgrade
+- [Pumpkin Harvest](../../between-encounters/events/pumpkin-harvest.md) — Neutral
+- [YOU’RE TAKING TOO LONG](../../between-encounters/events/youre-taking-too-long.md) — Good
+- [Sliver King](../../between-encounters/events/sliver-king.md) — Good
+- [Spartan Plains](../../between-encounters/events/spartan-plains.md) — Good
+- [Lost Ark](../../between-encounters/events/lost-ark.md) — Good
+- [Wishing Well](../../between-encounters/events/wishing-well.md) — Good
+- [Earthquake!](../../between-encounters/events/earthquake.md) — Bad
+- [Dragon Hoard](../../between-encounters/events/dragon-hoard.md) — Neutral
+- [You Stepped on a Leaf](../../between-encounters/events/you-stepped-on-a-leaf.md) — Good
+- [Peaceful Orchard](../../between-encounters/events/peaceful-orchard.md) — Good
+- [Cornfields](../../between-encounters/events/cornfields.md) — Town Upgrade
+- [Trick or Treat](../../between-encounters/events/trick-or-treat.md) — Neutral
+- [Ivy Forest](../../between-encounters/events/ivy-forest.md) — Good
+- [Tomb of the Forgotten](../../between-encounters/events/tomb-of-the-forgotten.md) — Good
+- [Strung Up](../../between-encounters/events/strung-up.md) — Bad
+- [Exotic Car Show](../../between-encounters/events/exotic-car-show.md) — Good
+- [Card Vortex](../../between-encounters/events/card-vortex.md) — Good
+- [Only Need to Be Faster Than You](../../between-encounters/events/only-need-to-be-faster-than-you.md) — Bad
+- [Harvest Festival](../../between-encounters/events/harvest-festival.md) — Town Upgrade
+- [Splendid Skies](../../between-encounters/events/splendid-skies.md) — Good
+- [Artifact on a Pedestal](../../between-encounters/events/artifact-on-a-pedestal.md) — Neutral
+- [Bloody Altar](../../between-encounters/events/bloody-altar.md) — Neutral
+- [Stoneforge Caravan](../../between-encounters/events/stoneforge-caravan.md) — Good
+- [Mystic Waterwell](../../between-encounters/events/mystic-waterwell.md) — Good
+- [Found a Lucky Coin?](../../between-encounters/events/found-a-lucky-coin.md) — Neutral
+- [Wandering Planes Arms Dealer](../../between-encounters/events/wandering-planes-arms-dealer.md) — Neutral
+- [Zubera Crossing](../../between-encounters/events/zubera-crossing.md) — Neutral
+- [A Stone’s Throw](../../between-encounters/events/a-stones-throw.md) — Neutral
+- [Paranoia](../../between-encounters/events/paranoia.md) — Bad
+- [The Reaper King Comes](../../between-encounters/events/the-reaper-king-comes.md) — Neutral
+- [That Damned Bridge](../../between-encounters/events/that-damned-bridge.md) — Bad
+- [A Rock Pile](../../between-encounters/events/a-rock-pile.md) — Neutral
+- [Sorrowful Swamp](../../between-encounters/events/sorrowful-swamp.md) — Good
+- [Treasure Goblin](../../between-encounters/events/treasure-goblin.md) — Good
+- [Planar Excavation](../../between-encounters/events/planar-excavation.md) — Good
+- [Mana Ripple](../../between-encounters/events/mana-ripple.md) — Good
+- [Rapidly Growing Harvest](../../between-encounters/events/rapidly-growing-harvest.md) — Good
+- [Witch’s Cauldron](../../between-encounters/events/witchs-cauldron.md) — Good
+- [Cheese Festival](../../between-encounters/events/cheese-festival.md) — Good
+- [Strange Set of Potions](../../between-encounters/events/strange-set-of-potions.md) — Good
+- [Crossroads](../../between-encounters/events/crossroads.md) — Good
+- [Planetary Bank](../../between-encounters/events/planetary-bank.md) — Neutral
+- [Reckless Racketeering](../../between-encounters/events/reckless-racketeering.md) — Bad
+- [Wandering Planes Assistant](../../between-encounters/events/wandering-planes-assistant.md) — Good
+- [Nameless Smith](../../between-encounters/events/nameless-smith.md) — Good
+- [A Portent of Fortune](../../between-encounters/events/a-portent-of-fortune.md) — Good
+
+##### Doom cards
+
+- [Your Trinkets Are Nothing But Toys To Me](doom/your-trinkets-are-nothing-but-toys-to-me.md)
+- [Who Turned out the lights](doom/who-turned-out-the-lights.md)
+- [The Scarecrow Cometh](doom/the-scarecrow-cometh.md)
+- [Stir the Pot](doom/stir-the-pot.md)
+- [Soul Rend](doom/soul-rend.md)
+- [Rotten Bounty](doom/rotten-bounty.md)
+- [I’m the Hero of This Story](doom/im-the-hero-of-this-story.md)
+- [Hunt Them All](doom/hunt-them-all.md)
+- [Hunt The Weak](doom/hunt-the-weak.md)
+- [Harvest of the Damned](doom/harvest-of-the-damned.md)
+- [Forged in Their Name](doom/forged-in-their-name.md)
+- [Danse Macabre](doom/danse-macabre.md)
+- [Clock strikes midnight](doom/clock-strikes-midnight.md)
+- [BloodRush](doom/bloodrush.md)
+- [A Wolf in Sheep’s Clothing](doom/a-wolf-in-sheeps-clothing.md)
+
+##### Trinkets
+
+- [Forgotten Key](trinkets/forgotten-key.md)
+- [Stolen Pumpkin](trinkets/stolen-pumpkin.md)
+- [Pickled Pumpkin](trinkets/pickled-pumpkin.md)
+- [Dead Leaf](trinkets/dead-leaf.md)
+- [Legendary Shovel](trinkets/legendary-shovel.md)
+- [Scaery Pumpkin](trinkets/scaery-pumpkin.md)
+- [Shattered Glass](trinkets/shattered-glass.md)
+- [Full Moon](trinkets/full-moon.md)
+
+##### Travelers
+
+- [Farm Tool Supplier](travelers/farm-tool-supplier.md)
+- [Nylea, Hunter of Horrors](travelers/nylea-hunter-of-horrors.md)
+
+##### Wanderers
+
+- [Frightened Farmer](wanderers/frightened-farmer.md)
+- [Kind Stranger](wanderers/kind-stranger.md)
+- [Reaper King](wanderers/reaper-king.md)
+
+##### Traveler rewards
+
+- [Nylea’s Sight](trinkets/nyleas-sight.md) — Nylea-only reward
+- [Karametra’s Cornucopia](trinkets/karametras-cornucopia.md) — Nylea-only reward
+
+#### Completion reward
+
+[Reap What You Sow](../../progression/crypt-buffs/reap-what-you-sow.md)
+
+#### Encounters
+
+- masters: Master - Radagast; Master -  The Swarmweaver; Master -  Katilda and Lier
+- stories: Story - Kelsian; Story - Reaper; Story - Ruby
+- tribals: Tribal - Beorn the Fierce; Tribal - Slinza; Tribal - Chief of the Wilds
+- crypts: Crypt - Wildsear; Crypt - Reaper King no More; Crypt - Tovolar
+
+<!-- rule:event-bad-wave-bro -->
+### Bad Wave Bro
+
+The team wipes out! At the start of the next combat, mill the top 5 cards of each players library.
+
+<!-- rule:event-swap-shop -->
+### Swap Shop
+
+Once per town you may give up 3 cards. One for mana cost, one for type, and one for color. If you do, randomly get a card of those attributes you gave up.
+
+<!-- rule:event-merfolk-dont-like-scuba -->
+### Merfolk Dont Like Scuba
+
+For the next encounter, The host conjures 1d2 random merfolk creatures at the beginning of each of their upkeeps.
+If the players win, double cash out rewards. All players pick 2.
+
+<!-- rule:event-do-not-disturb-the-fish -->
+### Do Not Disturb the Fish
+
+The host starts play with a random leviathan. It gains hexproof, and when the players attack the host or target another permanent they control, put a +1/+1 counter on it. It cannot attack or block unless it has 3 or more counters on it, and loses hexproof.
+
+<!-- rule:event-crabs -->
+### Crabs!?
+
+Host spawns a random crab.
+When the host attacks, choose a crab per 2 players at the table. Those crabs deal damage equal to their toughness instead of their power until end of turn.
+If the players win, they gain Crabby. (If the Party Already had Crabby instead give a Random Trinket)
+
+<!-- rule:event-course-rough-and-gets-everywhere -->
+### Course,Rough, and Gets Everywhere
+
+During the next encounter, at the start of combat, the active team chooses one commander to gain desert walk until end of turn.
+All players and host start the game with “Desert”
+
+<!-- rule:event-no-hard-feelings-on-forgetting-the-food -->
+### No Hard Feelings On Forgetting the Food?
+
+A player chosen at random is treated as an opponent when it comes to card effects for the next combat.
+
+<!-- rule:event-youve-found-a-fishing-rod -->
+### You've Found A Fishing Rod?
+
+The party gains the Cursed Rod. (If the party Already Has a Fishing Rod Reroll this into a Bad Event)
+
+<!-- rule:event-does-anyone-here-like-fishing -->
+### Does Anyone Here Like Fishing
+
+Ask the table if that they like fishing. If they do, give them a Bad Rod (If they have a Fishing Rod Already Reroll this event into a "Good Event"). If they don’t, instead give them 50XP each.
+
+<!-- rule:event-packsicle-stand -->
+### Packsicle Stand
+
+Packsicle StandWhenever you open a non-mystery pack, roll a 1d6. On a 6, gain a free cash out.
+
+<!-- rule:event-volleyball-game -->
+### Volleyball Game!
+
+Play a nice relaxing game with the host
+At the beginning of the first upkeep in the next encounter, choose a player to clash with the host. Then repeat, choosing a different player each time. Whoever wins the clash gets a point. You gain rewards based on how many points you get. Once the players or host gets 3 points, the game is over.
+0: All players gain 10XP
+1: All players gain +5 health for this game
+2: All players conjure a temporal lotus petal onto their field.
+3: Gain the volley ball trinket (If the party Already has the Volley Ball Trinket do all the effects above instead)
+
+<!-- rule:event-helpful-dolphin -->
+### Helpful Dolphin
+
+At the beginning of the next encounter, each player may search their deck for a card and exile it. Players may cast cards exiled this way. Spells cast this way cost 1 less.
+
+<!-- rule:event-suken-treasure -->
+### Suken Treasure
+
+A treasure under the ocean
+All players gain a random rare artifact
+Any player with an aquatic commander gets 2 random rare artifacts, or a random mythic artifact
+
+<!-- rule:event-pooltoy-for-sale -->
+### Pooltoy for Sale
+
+You may pay 50XP, scryfall in a creature, but its a balloon (You Can Not Scryfall in a creature with Scryfall already in your deck)
+
+<!-- rule:event-feeding-frenzy -->
+### Feeding Frenzy
+
+The host starts with 2 reef worms in play
+If the players win, each player either gains a 2 mana reef worm upgraded into their colors, or 25XP.
+
+<!-- rule:high-tide-hijinks-doom-nice-sand-castle-nerd -->
+### Nice Sand Castle, Nerd
+
+Nice Sand Castle, Nerd.
+Destroy the highest cost permanent the players control. Add {U}{U} to your mana pool
+
+<!-- rule:high-tide-hijinks-doom-sunburn -->
+### Sunburn
+
+Noncombat damage dealt by the host this turn gains wither.
+Deal 10 damage split among any number of target creatures
+
+<!-- rule:high-tide-hijinks-doom-typhoon -->
+### Typhoon
+
+Tap all creatures. Put a stun counter on all creatures without flying. All creatures your opponents control enter the battlefield tapped until your next turn.
+Trigger this only as a sorcery
+
+<!-- rule:high-tide-hijinks-doom-sirring-duck -->
+### Sirring Duck
+
+Conjure a random leviathan creature onto the battlefield under your control. For each player, that Leviathan fights up to one target creature that player controls.
+
+<!-- rule:high-tide-hijinks-doom-im-gonna-put-some-sand-in-your-eye -->
+### I'M Gonna Put Some Sand in Your Eye
+
+For each player, choose target attacking creature they control. Reselect which permanent or player that attacking creature is attacking at random
+
+<!-- rule:high-tide-hijinks-trinkets-vollyball -->
+### Vollyball
+
+During the players turn, when a player casts a 1 mana spell, put a counter on this Vollyball, then increase the mana needed by 1. At the end of turn, deal damage = to the number of counters on Vollyball to the host, then reset the counters
+
+<!-- rule:high-tide-hijinks-trinkets-crabby -->
+### Crabby
+
+Once during each Party combat, target creature your Party controls assigns combat damage equal to its toughness instead of its power until end of turn.
+
+<!-- rule:high-tide-hijinks-trinkets-bad-rod -->
+### Bad Rod
+
+{2}: A player may look at the top card of the hosts library. If its a creature, put it into play under your control, except its a 1/1 with no abilities. Activate this ability only once per players turn at sorcery speed.
+After that you catch 3 creatures, upgrade this to the Good Rod.
+
+<!-- rule:high-tide-hijinks-trinkets-good-rod -->
+### Good Rod
+
+{2}: Reveal the top card of the hosts library. If its a creature, put it onto the battlefield under your control, except its a 1/1. Activate this ability only once per turn, and only as a sorcery.
+When you catch 3 creatures this way, upgrade it into the Great Rod.
+
+<!-- rule:high-tide-hijinks-trinkets-great-rod -->
+### Great Rod
+
+{2}: Once per turn, reveal the top card of the hosts library. If its a creature, put it into play under your control. Activate this ability only once per turn, as a sorcery.
+
+<!-- rule:high-tide-hijinks-trinkets-cursed-rod -->
+### Cursed Rod
+
+{2}: Once per turn, reveal the top card of another player's library. If it's a creature, put it into play under your control. You now own that creature (It goes to your zones and is part of your deck. Do not give it back to the player. It can be traded back.). If its not, then they may put it on the bottom of their library. Activate this ability only once per turn, as a sorcery.
+
+<!-- rule:high-tide-hijinks-travelers-seahorse-seller -->
+### Seahorse Seller
+
+Pay 35 XP to grant a creature in your deck Seahorsemanship. You may do this only once.
+
+Seahorsemanship — Whenever this creature attacks, phase it out. It does not phase in during its controller’s next untap step. At the beginning of the next combat phase, phase it in attacking. It cannot be blocked this combat.
+
+<!-- rule:high-tide-hijinks-travelers-thassa -->
+### Thassa
+
+The party may pay XP as tribute to receive one of the following rewards. The party may choose only one.
+
+50 XP — Choose an Event Crypt boss for the next Crypt.
+
+100 XP — The players encounter one additional event. If that event is negative, discard it and encounter a new event instead. Then repeat this process once.
+
+200 XP — The party gains Bident of Thassa as a trinket.
+
+Sacrifice Kiora — The party gains Thassa, God of the Sea as a trinket.
+
+The sacrificed Kiora cannot be a Scryfall or Temporal version, and it cannot have been obtained from this town.
+
+<!-- rule:high-tide-hijinks-wanderers-sir-crabbington -->
+### Sir Crabbington
+
+The crabs are raving. Will the party join them?
+
+If each party member pays 5 XP, the party gains Crabs’ Favor.
+
+Crabs’ Favor — Once, any player may use this favor to reroll one die for any reason.
+
+Coin Flips are 1d2
+
+<!-- rule:high-tide-hijinks-overview -->
+### High Tide Hijinks
+
+This is the reference for the archived High Tide Hijinks Seasonal Event.
+
+Use these entries with the selected Seasonal Event. Listed Event cards describe its supplied pool, which may include shared designs; inclusion here does not make a card exclusive to this season or eligible in the normal Event pool. Physical copy counts and encounter deck lists are maintained with the seasonal play materials.
+
+Rod upgrades follow the Bad Rod and Good Rod rules. Seasonal visitors and Event cards specify how their rewards are obtained.
+
+#### Content
+
+##### Event cards
+
+- [Bad Wave Bro](../../between-encounters/events/bad-wave-bro.md)
+- [Swap Shop](../../between-encounters/events/swap-shop.md)
+- [Merfolk Dont Like Scuba](../../between-encounters/events/merfolk-dont-like-scuba.md)
+- [Do Not Disturb the Fish](../../between-encounters/events/do-not-disturb-the-fish.md)
+- [Crabs!?](../../between-encounters/events/crabs.md)
+- [Course,Rough, and Gets Everywhere](../../between-encounters/events/course-rough-and-gets-everywhere.md)
+- [No Hard Feelings On Forgetting the Food?](../../between-encounters/events/no-hard-feelings-on-forgetting-the-food.md)
+- [You've Found A Fishing Rod?](../../between-encounters/events/youve-found-a-fishing-rod.md)
+- [Does Anyone Here Like Fishing](../../between-encounters/events/does-anyone-here-like-fishing.md)
+- [Packsicle Stand](../../between-encounters/events/packsicle-stand.md)
+- [Volleyball Game!](../../between-encounters/events/volleyball-game.md)
+- [Helpful Dolphin](../../between-encounters/events/helpful-dolphin.md)
+- [Suken Treasure](../../between-encounters/events/suken-treasure.md)
+- [Pooltoy for Sale](../../between-encounters/events/pooltoy-for-sale.md)
+- [Feeding Frenzy](../../between-encounters/events/feeding-frenzy.md)
+
+##### Doom cards
+
+- [Nice Sand Castle, Nerd](doom/nice-sand-castle-nerd.md)
+- [Sunburn](doom/sunburn.md)
+- [Typhoon](doom/typhoon.md)
+- [Sirring Duck](doom/sirring-duck.md)
+- [I'M Gonna Put Some Sand in Your Eye](doom/im-gonna-put-some-sand-in-your-eye.md)
+
+##### Trinkets
+
+- [Vollyball](trinkets/vollyball.md)
+- [Crabby](trinkets/crabby.md)
+- [Bad Rod](trinkets/bad-rod.md)
+- [Good Rod](trinkets/good-rod.md)
+- [Great Rod](trinkets/great-rod.md)
+- [Cursed Rod](trinkets/cursed-rod.md)
+
+##### Travelers
+
+- [Seahorse Seller](travelers/seahorse-seller.md)
+- [Thassa](travelers/thassa.md)
+
+##### Wanderers
+
+- [Sir Crabbington](wanderers/sir-crabbington.md)
+
+#### Completion reward
+
+[Leftovers](../../progression/crypt-buffs/leftovers.md)
+
+#### Encounters
+
+- masters: Araumi of the Dead Tide; Sandman, Shifting Scoundrel
+- stories: Hazezon, Shaper of Sand; The Belligerent
+- tribals: Gyruda, Doom of Depths; Charix, the Raging Isle
+- crypts: Jaws, Relentless Predator; Plagon, Lord of the Beach
 
 ## Host Reference Data
 

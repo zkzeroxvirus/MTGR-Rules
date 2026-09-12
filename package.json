@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-rulebook.mjs",
-    "check": "node scripts/build-rulebook.mjs --check && node scripts/validate-rulebook.mjs && node scripts/validate-content-regressions.mjs"
+    "build": "node scripts/build-rulebook.mjs && node scripts/build-seasonal.mjs",
+    "check": "node scripts/build-rulebook.mjs --check && node scripts/validate-rulebook.mjs && node scripts/validate-content-regressions.mjs && node scripts/build-seasonal.mjs --check"
   }
 }
