@@ -3935,6 +3935,8 @@ Players maintain two independent profiles — one per Host type.
  • Vanguard Ticket → 2  
  • Emblem Ticket → 3
 
+If the Host disables Buff effects for a run, equipped Buffs remain equipped and continue to occupy their normal slots, but grant no effects during that run.
+
 ---
 
 ## Seasonal Events

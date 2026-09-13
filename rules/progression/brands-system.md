@@ -15,6 +15,7 @@ Brands are purchased from the **Progression Shop**. The Progression Shop is avai
 * Brands affect deckbuilding, Commander generation, or pack resolution as written.
 * Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased.
 * Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
+* If the Host disables Brand effects for a run, players keep their purchased Brand Ranks but gain none of their effects during that run.
 
 **Stacking cost example (Brand of the Cartographer — 500 Essence base):**
 

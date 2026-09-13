@@ -3945,6 +3945,15 @@ Season 1 progression layers:
 
 Unless otherwise stated, activated progression effects may be used **once per encounter**.
 
+#### Run Options
+
+During setup, the Host may disable **Buff effects**, **Brand effects**, or both for the run.
+
+- A disabled progression type grants no deckbuilding, setup, or gameplay effects during that run.
+- Disabling effects does not remove a player's unlocks, equipped Buffs, or Brand Ranks.
+- When the Host enables that progression type again, each player retains their existing unlocks, equipment, and Ranks.
+- These options apply to every player in the party and should be chosen before players build their starting decks.
+
 The current Crypt Buff, Ticket, Brand, and Achievement entries are maintained as individual canonical rule units under `rules/progression/` and are compiled into the generated player/full rulebooks.
 
 <!-- rule:notebook-addendum -->
@@ -4021,6 +4030,7 @@ Brands are purchased from the **Progression Shop**. The Progression Shop is avai
 * Brands affect deckbuilding, Commander generation, or pack resolution as written.
 * Brand effects are stackable — there is no hard cap on how many times a Brand can be purchased.
 * Each Brand has **Ranks**. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
+* If the Host disables Brand effects for a run, players keep their purchased Brand Ranks but gain none of their effects during that run.
 
 **Stacking cost example (Brand of the Cartographer — 500 Essence base):**
 
@@ -4111,6 +4121,8 @@ Save 1 card from your deck in your collection.
  • Standard → 1  
  • Vanguard Ticket → 2  
  • Emblem Ticket → 3
+
+If the Host disables Buff effects for a run, equipped Buffs remain equipped and continue to occupy their normal slots, but grant no effects during that run.
 
 ---
 
