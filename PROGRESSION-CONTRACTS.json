@@ -188,6 +188,10 @@
         "title": "Compelling Madness",
         "source": "rules/progression/achievements/compelling-madness.md"
       },
+      "life_from_loss": {
+        "title": "Life from Loss",
+        "source": "rules/progression/achievements/life-from-loss.md"
+      },
       "gamblers_never_quit": {
         "title": "Gamblers Never Quit",
         "source": "rules/progression/achievements/gamblers-never-quit.md"

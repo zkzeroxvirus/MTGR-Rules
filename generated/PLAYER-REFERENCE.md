@@ -5766,12 +5766,21 @@ Defeat a Crypt fight while your deck meets your chosen Companion's requirement.
 #### **Compelling Madness**
 
 **Effect**  
-Once per encounter, target player gains 5 life.
-
-This may be activated at instant speed.
+Once per encounter, each player may discard up to two cards, then draw that many cards. This ability can be used only once each turn by the party. If a player discards one or more cards this way, those cards are considered to have been discarded by an opponent.
 
 **Unlock Requirement**  
-Indirectly kill one non-Host player in a session.
+Discard 15 cards during a single encounter as a result of your own spells, abilities, or effects.
+
+---
+
+<!-- progression:life_from_loss -->
+#### **Life from Loss**
+
+**Effect**  
+Once per encounter, you may have target player gain 10 life. You may use this ability at instant speed.
+
+**Unlock Requirement**  
+Cause a non-Host player to lose the game without dealing damage to them.
 
 ---
 
@@ -5827,10 +5836,10 @@ Defeat a Crypt fight with 50 or more lands in your deck.
 #### **Back to Basics**
 
 **Effect**  
-As a creature with no abilities enters the battlefield under your control, choose a keyword and put the corresponding keyword counter on it. You can't choose annihilator or infect. If the chosen keyword has a numerical value, that value is 1. For example, choosing scry gives the creature scry 1.
+As a creature with no abilities other than keyword abilities enters the battlefield under your control, choose an evergreen keyword ability. Put a keyword counter corresponding to the chosen ability on that creature. You can't choose indestructible, hexproof, protection, or double strike.
 
 **Unlock Requirement**  
-Defeat a Crypt fight with a Commander that has no abilities.
+Defeat a Crypt encounter with a commander whose base card has no abilities.
 
 ---
 
@@ -5841,7 +5850,7 @@ Defeat a Crypt fight with a Commander that has no abilities.
 Twice per encounter, before attackers are declared, you may pay {0}. If you do, you can't be attacked this turn.
 
 **Unlock Requirement**  
-Defeat the Crypt after dying to the Host or a Host-controlled effect during each encounter leading up to it. Deaths caused by yourself, another player, or conceding do not count.
+Defeat the Crypt after losing the game during all four encounters as a result of a spell or ability controlled by the Host or a state-based action caused by the Host.
 
 ---
 

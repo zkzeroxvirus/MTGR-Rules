@@ -441,6 +441,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [One with Death](progression/achievements/one-with-death.md) — `one_with_death`
 - [Dog's Best Friend](progression/achievements/dog-s-best-friend.md) — `dog_s_best_friend`
 - [Compelling Madness](progression/achievements/compelling-madness.md) — `compelling_madness`
+- [Life from Loss](progression/achievements/life-from-loss.md) — `life_from_loss`
 - [Gamblers Never Quit](progression/achievements/gamblers-never-quit.md) — `gamblers_never_quit`
 - [Stick It To Me](progression/achievements/stick-it-to-me.md) — `stick_it_to_me`
 - [Happy Fun Land](progression/achievements/happy-fun-land.md) — `happy_fun_land`

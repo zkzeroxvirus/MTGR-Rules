@@ -1,11 +1,9 @@
 # **Compelling Madness**
 
 **Effect**  
-Once per encounter, target player gains 5 life.
-
-This may be activated at instant speed.
+Once per encounter, each player may discard up to two cards, then draw that many cards. This ability can be used only once each turn by the party. If a player discards one or more cards this way, those cards are considered to have been discarded by an opponent.
 
 **Unlock Requirement**  
-Indirectly kill one non-Host player in a session.
+Discard 15 cards during a single encounter as a result of your own spells, abilities, or effects.
 
 ---
