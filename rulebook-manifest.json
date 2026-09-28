@@ -6468,6 +6468,86 @@
       "content": {
         "kind": "document"
       }
+    },
+    {
+      "id": "event-a-gods-essence",
+      "title": "A God’s Essence",
+      "source": "rules/between-encounters/events/a-gods-essence.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-fixed-fight",
+      "title": "Fixed Fight",
+      "source": "rules/between-encounters/events/fixed-fight.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-harrowing-omen",
+      "title": "Harrowing Omen",
+      "source": "rules/between-encounters/events/harrowing-omen.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-rotten-luck",
+      "title": "Rotten Luck",
+      "source": "rules/between-encounters/events/rotten-luck.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-smooth-criminal",
+      "title": "Smooth Criminal",
+      "source": "rules/between-encounters/events/smooth-criminal.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution"
+      ],
+      "content": {
+        "kind": "document"
+      }
     }
   ]
 }

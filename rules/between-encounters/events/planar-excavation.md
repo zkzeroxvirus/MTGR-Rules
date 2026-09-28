@@ -1,5 +1,5 @@
 # Planar Excavation
 
-Each player chooses one —
-Discover — Gain up to two land cards, each with no more than three basic land types.
-Traverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.
+Each player may choose one —
+Discover — Reveal five random cards within your commander’s color identity. Choose one to gain.
+Traverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.

@@ -209,6 +209,11 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [When Town Occurs](town/town-timing.md) — `town-timing`
 - [Town Full Heal](town/town-full-heal.md) — `town-full-heal`
 - [Town Building System](town/town-building-system.md) — `town-building-system`
+- [A God’s Essence](between-encounters/events/a-gods-essence.md) — `event-a-gods-essence`
+- [Fixed Fight](between-encounters/events/fixed-fight.md) — `event-fixed-fight`
+- [Harrowing Omen](between-encounters/events/harrowing-omen.md) — `event-harrowing-omen`
+- [Rotten Luck](between-encounters/events/rotten-luck.md) — `event-rotten-luck`
+- [Smooth Criminal](between-encounters/events/smooth-criminal.md) — `event-smooth-criminal`
 
 ## The Crypt
 

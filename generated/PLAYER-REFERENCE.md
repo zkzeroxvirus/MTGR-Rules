@@ -3724,6 +3724,35 @@ All players are fully healed upon entering Town.
 
 Town does not use actions.
 
+<!-- rule:event-a-gods-essence -->
+### A God’s Essence
+
+The Host reveals three random God cards with “devotion” in their rules text and chooses one. That card begins the next encounter on the battlefield under the Host’s control and can’t become a creature.
+
+<!-- rule:event-fixed-fight -->
+### Fixed Fight
+
+The Host takes the first turn during the next encounter and chooses that encounter’s fight type.
+
+<!-- rule:event-harrowing-omen -->
+### Harrowing Omen
+
+The party is faced with a villainous choice:
+Prelude to Fear — Next encounter, the host decides the starting player. On the host’s first upkeep, each party member discards a card.
+Descent into Madness — Next Encounter, the host starts with a 1/1 colorless Spirit in play for each party member. They have hexproof and shadow.
+
+<!-- rule:event-rotten-luck -->
+### Rotten Luck
+
+The party is faced with a villainous choice:
+Face the Elite — During the next encounter, the Host gains one Tier 2 Affix and takes the first turn.
+Doom the World — During the next encounter, the Host gains one additional Doom card.
+
+<!-- rule:event-smooth-criminal -->
+### Smooth Criminal
+
+During the next encounter, the Host gains one additional Doom card.
+
 ## The Crypt
 
 <!-- rule:run-failure -->
@@ -4173,7 +4202,8 @@ Upside-down door — Resolve the bottom Event of the deck.
 
 Each player chooses one —
 Learn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.
-Discuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.
+Discuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.
+(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)
 
 <!-- rule:event-explosive-volcano -->
 ### Explosive Volcano
@@ -4358,6 +4388,7 @@ Like-Minded — Use the Castle for free, treating the die result as a 6. You may
 
 Each player’s commander gains a random keyword ability for the rest of the run.
 Each player whose commander is blue gains two random keyword abilities instead.
+(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)
 
 <!-- rule:event-mirror-dimension -->
 ### Mirror Dimension
@@ -4536,7 +4567,7 @@ Runeforge — Choose an Equipment card in your Mainboard. For the rest of the ru
 ### Mystic Waterwell
 
 Each player may destroy a card in their Mainboard.
-Each player who does gains Essence equal to the total mana value of all cards destroyed this way.
+Each player who does gains Essence equal to three times the total mana value of all cards destroyed this way.
 
 <!-- rule:event-found-a-lucky-coin -->
 ### Found a Lucky Coin?
@@ -4588,12 +4619,10 @@ Otherwise, they destroy the revealed nonland card, shuffle the other revealed ca
 ### A Rock Pile
 
 The party chooses one —
-Leave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.
-Dig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.
-At the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.
-Each Golem cast this way is goaded for the rest of the encounter.
-While the Host controls a Golem, damage dealt to the Host is halved, rounded down.
-After that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.
+Leave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.
+Dig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.
+While the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.
+If the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity.
 
 <!-- rule:event-sorrowful-swamp -->
 ### Sorrowful Swamp
@@ -4609,9 +4638,9 @@ Reveal three random Trinkets. The party chooses one to gain.
 <!-- rule:event-planar-excavation -->
 ### Planar Excavation
 
-Each player chooses one —
-Discover — Gain up to two land cards, each with no more than three basic land types.
-Traverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.
+Each player may choose one —
+Discover — Reveal five random cards within your commander’s color identity. Choose one to gain.
+Traverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.
 
 <!-- rule:event-mana-ripple -->
 ### Mana Ripple
@@ -4631,11 +4660,10 @@ Harvest — Gain one random utility land card within your commander’s color id
 <!-- rule:event-witchs-cauldron -->
 ### Witch’s Cauldron
 
-Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.
-X is the total mana value, power, and toughness of all cards destroyed this way.
-Each player chooses one —
-Absorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.
-Absorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.
+Each player may destroy a creature card in their Mainboard.
+Each player who does chooses one —
+Absorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.
+Absorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.
 Each player may gain up to three cards they revealed this way.
 
 <!-- rule:event-cheese-festival -->
@@ -4667,7 +4695,7 @@ Each player may convert up to 50 Essence into an equal amount of XP.
 <!-- rule:event-reckless-racketeering -->
 ### Reckless Racketeering
 
-Each player shuffles their Mainboard and places it face down, then chooses one —
+Each player shuffles their Mainboard and places it face up, then chooses one —
 Top — Destroy the top card of your Mainboard.
 Bottom — Destroy the bottom card of your Mainboard.
 

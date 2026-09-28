@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "id": "a-gods-essence",
+      "name": "A God’s Essence",
+      "classification": "Bad",
+      "ruleId": "event-a-gods-essence"
+    },
+    {
+      "id": "a-rock-pile",
+      "name": "A Rock Pile",
+      "classification": "Neutral",
+      "ruleId": "event-a-rock-pile"
+    },
+    {
+      "id": "endless-sea",
+      "name": "Endless Sea",
+      "classification": "Good",
+      "ruleId": "event-endless-sea"
+    },
+    {
+      "id": "fixed-fight",
+      "name": "Fixed Fight",
+      "classification": "Bad",
+      "ruleId": "event-fixed-fight"
+    },
+    {
+      "id": "harrowing-omen",
+      "name": "Harrowing Omen",
+      "classification": "Bad",
+      "ruleId": "event-harrowing-omen"
+    },
+    {
+      "id": "mystic-waterwell",
+      "name": "Mystic Waterwell",
+      "classification": "Good",
+      "ruleId": "event-mystic-waterwell"
+    },
+    {
+      "id": "planar-excavation",
+      "name": "Planar Excavation",
+      "classification": "Good",
+      "ruleId": "event-planar-excavation"
+    },
+    {
+      "id": "reckless-racketeering",
+      "name": "Reckless Racketeering",
+      "classification": "Bad",
+      "ruleId": "event-reckless-racketeering"
+    },
+    {
+      "id": "rhystic-library",
+      "name": "Rhystic Library",
+      "classification": "Good",
+      "ruleId": "event-rhystic-library"
+    },
+    {
+      "id": "rotten-luck",
+      "name": "Rotten Luck",
+      "classification": "Bad",
+      "ruleId": "event-rotten-luck"
+    },
+    {
+      "id": "smooth-criminal",
+      "name": "Smooth Criminal",
+      "classification": "Bad",
+      "ruleId": "event-smooth-criminal"
+    },
+    {
+      "id": "witchs-cauldron",
+      "name": "Witch’s Cauldron",
+      "classification": "Good",
+      "ruleId": "event-witchs-cauldron"
+    }
+  ]
+}

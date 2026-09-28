@@ -754,10 +754,10 @@
     },
     "event-rhystic-library": {
       "source": "rules/between-encounters/events/rhystic-library.md",
-      "sha256": "d662f8446e7c401dc9fe565de74eabce72083831b5a5dced68a78e889f834dfd",
-      "markdown": "# Rhystic Library\n\nEach player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.\n",
-      "description": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way.",
-      "plainText": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of one card chosen this way."
+      "sha256": "3f9aed77303a220b7cfd53194ed4fb5ee5c06bd354b78a0b7d887eae67d8f07d",
+      "markdown": "# Rhystic Library\n\nEach player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.\n(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)\n",
+      "description": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.\n(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)",
+      "plainText": "Each player chooses one —\nLearn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.\nDiscuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.\n(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)"
     },
     "event-explosive-volcano": {
       "source": "rules/between-encounters/events/explosive-volcano.md",
@@ -943,10 +943,10 @@
     },
     "event-endless-sea": {
       "source": "rules/between-encounters/events/endless-sea.md",
-      "sha256": "50b2aca837af87dfc609c91e412613270f416daa801533c507fd3366b16580b1",
-      "markdown": "# Endless Sea\n\nEach player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.\n",
-      "description": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.",
-      "plainText": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead."
+      "sha256": "9040135ed171608894a0ff55cd5c689b215f5c8cc8779c6ba07ea818896664c5",
+      "markdown": "# Endless Sea\n\nEach player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.\n(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)\n",
+      "description": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.\n(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)",
+      "plainText": "Each player’s commander gains a random keyword ability for the rest of the run.\nEach player whose commander is blue gains two random keyword abilities instead.\n(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)"
     },
     "event-mirror-dimension": {
       "source": "rules/between-encounters/events/mirror-dimension.md",
@@ -1132,10 +1132,10 @@
     },
     "event-mystic-waterwell": {
       "source": "rules/between-encounters/events/mystic-waterwell.md",
-      "sha256": "f2408e928cf10d38a692dd1096f3f6ed78abd727b10840cc9dccc46df70fde3e",
-      "markdown": "# Mystic Waterwell\n\nEach player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way.\n",
-      "description": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way.",
-      "plainText": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to the total mana value of all cards destroyed this way."
+      "sha256": "747b087836c415f53fe0fbcf5c91e7ba9ca585ca34eb792e9395fe4599759f54",
+      "markdown": "# Mystic Waterwell\n\nEach player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to three times the total mana value of all cards destroyed this way.\n",
+      "description": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to three times the total mana value of all cards destroyed this way.",
+      "plainText": "Each player may destroy a card in their Mainboard.\nEach player who does gains Essence equal to three times the total mana value of all cards destroyed this way."
     },
     "event-found-a-lucky-coin": {
       "source": "rules/between-encounters/events/found-a-lucky-coin.md",
@@ -1188,10 +1188,10 @@
     },
     "event-a-rock-pile": {
       "source": "rules/between-encounters/events/a-rock-pile.md",
-      "sha256": "5cf542669943aa20023be34fa27c1a5af52e647ddb1aa548d723cc9ce8b97334",
-      "markdown": "# A Rock Pile\n\nThe party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.\n",
-      "description": "The party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way.",
-      "plainText": "The party chooses one —\nLeave It Alone — During the next encounter, the Host begins with a Mountain on the battlefield. It is an artifact in addition to its other types. The Host chooses whether the party or the Host takes the first turn.\nDig Deeper — For the next encounter, the Host sets aside three random Golem creature cards. Each has suspend counters equal to half its mana value, rounded up.\nAt the beginning of each Host upkeep, remove a suspend counter from each of those cards. When the last suspend counter is removed from a card, the Host casts it without paying its mana cost.\nEach Golem cast this way is goaded for the rest of the encounter.\nWhile the Host controls a Golem, damage dealt to the Host is halved, rounded down.\nAfter that encounter, each player gains 15 XP, then reveals three random mana-rock cards and may gain one card they revealed this way."
+      "sha256": "c6258161422b0ccce88fea90650081bb8587a8ca9167346fb9c4b36f74534189",
+      "markdown": "# A Rock Pile\n\nThe party chooses one —\nLeave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.\nDig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.\nWhile the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.\nIf the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity.\n",
+      "description": "The party chooses one —\nLeave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.\nDig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.\nWhile the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.\nIf the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity.",
+      "plainText": "The party chooses one —\nLeave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.\nDig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.\nWhile the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.\nIf the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity."
     },
     "event-sorrowful-swamp": {
       "source": "rules/between-encounters/events/sorrowful-swamp.md",
@@ -1209,10 +1209,10 @@
     },
     "event-planar-excavation": {
       "source": "rules/between-encounters/events/planar-excavation.md",
-      "sha256": "c5d2901b1496634353eb9b7e93e4c18aa39fd335c9e5d549fd2d0fa1bea8d158",
-      "markdown": "# Planar Excavation\n\nEach player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.\n",
-      "description": "Each player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity.",
-      "plainText": "Each player chooses one —\nDiscover — Gain up to two land cards, each with no more than three basic land types.\nTraverse — Destroy two land cards in your Mainboard. If you do, gain a random legendary land card within your commander’s color identity."
+      "sha256": "ec63cf5548f678e1298ecbad719e61cacd03ed4552ff0fd98e16469a670daf10",
+      "markdown": "# Planar Excavation\n\nEach player may choose one —\nDiscover — Reveal five random cards within your commander’s color identity. Choose one to gain.\nTraverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.\n",
+      "description": "Each player may choose one —\nDiscover — Reveal five random cards within your commander’s color identity. Choose one to gain.\nTraverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.",
+      "plainText": "Each player may choose one —\nDiscover — Reveal five random cards within your commander’s color identity. Choose one to gain.\nTraverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain."
     },
     "event-mana-ripple": {
       "source": "rules/between-encounters/events/mana-ripple.md",
@@ -1230,10 +1230,10 @@
     },
     "event-witchs-cauldron": {
       "source": "rules/between-encounters/events/witchs-cauldron.md",
-      "sha256": "cba87a17b10a3b62d241b2134ffb53f3667103c5f168429a4428b51d0b00c439",
-      "markdown": "# Witch’s Cauldron\n\nEach player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.\n",
-      "description": "Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.",
-      "plainText": "Each player may choose a creature card in their Mainboard. Destroy all cards chosen this way.\nX is the total mana value, power, and toughness of all cards destroyed this way.\nEach player chooses one —\nAbsorb Magic — Reveal X random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal X random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way."
+      "sha256": "745a679d10f70e084f0717b96d74ac8dcce3f08a4fc30c63506e6233f532953d",
+      "markdown": "# Witch’s Cauldron\n\nEach player may destroy a creature card in their Mainboard.\nEach player who does chooses one —\nAbsorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.\n",
+      "description": "Each player may destroy a creature card in their Mainboard.\nEach player who does chooses one —\nAbsorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way.",
+      "plainText": "Each player may destroy a creature card in their Mainboard.\nEach player who does chooses one —\nAbsorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.\nAbsorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.\nEach player may gain up to three cards they revealed this way."
     },
     "event-cheese-festival": {
       "source": "rules/between-encounters/events/cheese-festival.md",
@@ -1265,10 +1265,10 @@
     },
     "event-reckless-racketeering": {
       "source": "rules/between-encounters/events/reckless-racketeering.md",
-      "sha256": "037c2a270f91030e0923ab1e9ed9718da1c9e1db6c678981cf5727eac6036df7",
-      "markdown": "# Reckless Racketeering\n\nEach player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.\n",
-      "description": "Each player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.",
-      "plainText": "Each player shuffles their Mainboard and places it face down, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard."
+      "sha256": "fde757a52fca866aa47e505fd2ad749f7fe3653ac0420bee78dad71013f2dcae",
+      "markdown": "# Reckless Racketeering\n\nEach player shuffles their Mainboard and places it face up, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.\n",
+      "description": "Each player shuffles their Mainboard and places it face up, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard.",
+      "plainText": "Each player shuffles their Mainboard and places it face up, then chooses one —\nTop — Destroy the top card of your Mainboard.\nBottom — Destroy the bottom card of your Mainboard."
     },
     "event-wandering-planes-assistant": {
       "source": "rules/between-encounters/events/wandering-planes-assistant.md",
