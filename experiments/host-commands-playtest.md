@@ -1,4 +1,4 @@
-# Host Commands playtest — V0.3 linear adaptation
+# Host Commands playtest — V0.3 tier-choice adaptation
 
 Status: opt-in playtest, adopted October 2, 2026. This does not replace published
 Host Authority rules until promoted. Choose this package or legacy Not Today/free
@@ -7,7 +7,7 @@ Suppression.
 
 Source: [Host Skill Trees Rework V0.3](https://docs.google.com/document/d/1akHIIAQO9-rFzYXNYHSJkTghYuty9ryT/edit).
 This adaptation keeps its four archetypes and six Commands per archetype, but
-uses a linear chain and the existing six-point progression. Its effects include
+uses tier choices and a ten-point progression, approved October 3, 2026. Its effects include
 the balance changes described below. These are custom MTG-style effects, not
 official Oracle entries.
 
@@ -18,15 +18,21 @@ eligible run grants 100 HXP alongside the existing Host Essence reward, once.
 Kills, wins, Command uses, and review scores do not grant additional HXP.
 
 Ranks 1–10 begin at 0, 100, 250, 450, 700, 1000, 1350, 1750, 2200, and 2700 HXP.
-Ranks 2, 4, 6, 7, 8, and 10 grant one Skill Point each, for six total.
+Each rank, including Rank 1, grants one Skill Point, for ten total.
 Rank does not increase damage, life, mana, Command slots, or Authority.
 
-Each branch is a six-step chain: I-A → I-B → II-A → II-B → III → Capstone.
-Every skill costs one point and requires the immediately preceding skill.
-Minimum rank gates are 2, 2, 4, 4, 7, 10. With the unchanged point awards, the
-earliest fully invested Host acquires the six steps at ranks 2, 4, 6, 7, 8, 10.
-A capstone therefore requires all six points in one branch. Hosts may instead
-split points across branches; they cannot learn everything at maximum rank.
+Each branch has two Tier I choices, two Tier II choices, one Tier III skill and
+the existing capstone. Every skill costs one point. Either learned Tier I skill
+qualifies for either Tier II skill in that branch. Any learned Tier II skill
+qualifies for Tier III, and Tier III qualifies for its capstone. The other Tier I
+and Tier II skills remain optional purchases, not mandatory steps.
+
+Minimum rank gates remain 2 for Tier I, 4 for Tier II, 7 for Tier III and 10 for
+the capstone. Rank 1's point can be saved until Rank 2. A minimum capstone path
+costs four points: Tier I → Tier II → Tier III → Capstone. Two capstones cost eight
+points, leaving two points for splashes. Prerequisites must be learned in the
+same branch; skills from another branch cannot qualify. Hosts cannot learn
+everything at maximum rank.
 
 | Starting non-Host players | Command slots | Authority | Party Scale |
 | --- | ---: | ---: | ---: |
@@ -90,7 +96,8 @@ a new object unless given a new marker.
 ## Commands
 
 Effects, timing and notes below are the playtest wording. Tier I-A/I-B and
-II-A/II-B denote position, not separate forked paths.
+II-A/II-B denote choices within a tier. Either choice supports the next tier;
+learning both is optional.
 
 ### Starter Commands
 
@@ -148,7 +155,7 @@ Rules details: The original spell remains on the stack. Additional targets must 
 
 #### Turn the Blade — I-B
 
-Minimum Rank 2. Cost: 1 Skill Point; 1 Authority. Requires Claim the Initiative.
+Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
@@ -158,7 +165,7 @@ Rules details: Another legal target must exist. Mana abilities do not use the st
 
 #### Imperial Reflection — II-A
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Turn the Blade.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dominion.
 
 Timing: Any time you have priority.
 
@@ -172,7 +179,7 @@ Rules details: Choose the mode on commitment. For the copy mode, choose the targ
 
 #### Delay the Inevitable — II-B
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Imperial Reflection.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dominion.
 
 Timing: Any time you have priority.
 
@@ -182,7 +189,7 @@ Rules details: Suspend uses its owner's upkeeps. Its owner may cast it when the 
 
 #### Arcane Supremacy — III
 
-Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires Delay the Inevitable.
+Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Dominion.
 
 Timing: Any time you have priority.
 
@@ -192,7 +199,7 @@ Rules details: This Command can be countered. Permanent spell copies resolve as 
 
 #### Final Authority — Capstone
 
-Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires Arcane Supremacy.
+Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in Dominion.
 
 Timing: Any time you have priority.
 
@@ -224,7 +231,7 @@ Rules details: Both options are available. Life loss is an effect, not a life pa
 
 #### Feed the Darkness — I-B
 
-Minimum Rank 2. Cost: 1 Skill Point; 1 Authority. Requires Blood or Tribute.
+Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -238,7 +245,7 @@ Rules details: Starve is available only if each opponent has a card in hand. Fee
 
 #### Kneel or Bleed — II-A
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Feed the Darkness.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Torment.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -252,7 +259,7 @@ Rules details: Kneel is available only if each opponent controls a creature. Ble
 
 #### Divide the Alliance — II-B
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Kneel or Bleed.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Torment.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -266,7 +273,7 @@ Rules details: Together requires every opponent to have a card in hand. Alone re
 
 #### No Safe Answer — III
 
-Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires Divide the Alliance.
+Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Torment.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -280,7 +287,7 @@ Rules details: Both options are available; resolve as much as possible. Each opp
 
 #### The Final Bargain — Capstone
 
-Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires No Safe Answer.
+Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in Torment.
 
 Timing: Any time you have priority.
 
@@ -308,7 +315,7 @@ Rules details: Choose targets on commitment. If all chosen targets become illega
 
 #### Silence the Engine — I-B
 
-Minimum Rank 2. Cost: 1 Skill Point; 1 Authority. Requires Break the Formation.
+Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
@@ -318,7 +325,7 @@ Rules details: Choose on resolution; this does not target. Mana abilities remain
 
 #### Seize the Champion — II-A
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Silence the Engine.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Suppression.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -328,7 +335,7 @@ Rules details: The opponent chooses among tied creatures. Only the player is tar
 
 #### Seal the Threshold — II-B
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Seize the Champion.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Suppression.
 
 Timing: Any time you have priority.
 
@@ -338,7 +345,7 @@ Rules details: This does not stop abilities from triggering when creatures enter
 
 #### Total Lockdown — III
 
-Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires Seal the Threshold.
+Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Suppression.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -348,7 +355,7 @@ Rules details: Choices are made on resolution and do not target. Mana abilities 
 
 #### Absolute Suppression — Capstone
 
-Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires Total Lockdown.
+Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in Suppression.
 
 Timing: Any time you have priority.
 
@@ -370,7 +377,7 @@ Rules details: Choose the ability on resolution. The tokens keep it while they r
 
 #### Feed the Throne — I-B
 
-Minimum Rank 2. Cost: 1 Skill Point; 1 Authority. Requires Muster the Court.
+Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -380,7 +387,7 @@ Rules details: The sacrifice is optional and occurs on resolution. A Treasure is
 
 #### Crowned Champion — II-A
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Feed the Throne.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Ascendancy.
 
 Timing: During your beginning of combat step, while you have priority.
 
@@ -390,7 +397,7 @@ Rules details: The combat-damage reward occurs once in total, not once per oppon
 
 #### Relentless Return — II-B
 
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires Crowned Champion.
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Ascendancy.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -400,7 +407,7 @@ Rules details: Use the shared MTGR finality replacement: exile the permanent the
 
 #### Overwhelming Presence — III
 
-Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires Relentless Return.
+Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Ascendancy.
 
 Timing: During your beginning of combat step, while you have priority.
 
@@ -410,7 +417,7 @@ Rules details: Only creatures you control as this Command resolves gain the bonu
 
 #### The Host Ascendant — Capstone
 
-Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires Overwhelming Presence.
+Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in Ascendancy.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
@@ -446,15 +453,16 @@ Rules details: Choose the mode on commitment. For the return mode, choose the cr
   refill, not both, alongside Avatars and haste. The draw mode fills to five,
   never draws five on top of an existing hand.
 
-## Existing profiles and runs
+## Existing profiles
 
 The four starter IDs remain unchanged. The previous six learned skills are
 retired, not renamed into mechanically different Commands. Earned HXP remains.
-Outside a run, explicitly save a new skill allocation; that removes retired or
-unlearned equipment. No automatic respec or point reassignment occurs on read.
-Existing active or pending runs keep their equipment and their original
-one-Authority costs until that run ends. Their rules remain available for
-inspection. New runs use the new catalog and locked one/two-Authority costs.
+Explicitly save a new skill allocation to remove retired or unlearned equipment.
+No automatic respec or point reassignment occurs on read. Existing investments
+in all six current branch skills remain valid under the tier-choice prerequisites.
+The ten-point allowance follows earned HXP without resetting the profile;
+additional points are left unassigned until the Host chooses where to spend them.
+Authority remains a local in-game resource, not part of the server profile.
 
 ## Balance review
 
