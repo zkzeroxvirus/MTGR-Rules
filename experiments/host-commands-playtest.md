@@ -15,10 +15,11 @@ official Oracle entries.
 
 Use the Host Profile on the same Steam account as the Player Profile. A verified
 eligible run grants 100 HXP alongside the existing Host Essence reward, once.
-Kills, wins, Command uses, and review scores do not grant additional HXP.
+Kills, wins, Command invocations, and review scores do not grant additional HXP.
 
 Ranks 1–10 begin at 0, 100, 250, 450, 700, 1000, 1350, 1750, 2200, and 2700 HXP.
-Each rank, including Rank 1, grants one Skill Point, for ten total.
+Rank 1 grants no Skill Points. Rank 2 grants two, and each of Ranks 3–10 grants
+one, for ten total. Points first become available when Tier I skills unlock.
 Rank does not increase damage, life, mana, Command slots, or Authority.
 
 Each branch has two Tier I choices, two Tier II choices, one Tier III skill and
@@ -28,13 +29,13 @@ qualifies for Tier III, and Tier III qualifies for its capstone. The other Tier 
 and Tier II skills remain optional purchases, not mandatory steps.
 
 Minimum rank gates remain 2 for Tier I, 4 for Tier II, 7 for Tier III and 10 for
-the capstone. Rank 1's point can be saved until Rank 2. A minimum capstone path
+the capstone. A minimum capstone path
 costs four points: Tier I → Tier II → Tier III → Capstone. Two capstones cost eight
 points, leaving two points for splashes. Prerequisites must be learned in the
 same branch; skills from another branch cannot qualify. Hosts cannot learn
 everything at maximum rank.
 
-| Starting non-Host players | Command slots | Authority | Party Scale |
+| Seated non-Host players | Command slots | Authority | Party Scale |
 | --- | ---: | ---: | ---: |
 | 1 | 1 | 3 | 1 |
 | 2 | 2 | 4 | 1 |
@@ -43,18 +44,19 @@ everything at maximum rank.
 | 5 | 3 | 7 | 3 |
 | 6 | 3 | 8 | 3 |
 
-The extra-encounter variant grants +1 starting Authority. Lock player count,
-mode, skills, loadout and Command costs before Encounter 1. Profile equipment
-allows up to three choices; the smaller run slot limit still applies.
+Profile equipment allows up to three choices; the smaller party-size Command
+slot limit still applies.
 Starter, Tier I and Tier II Commands cost 1 Authority. Tier III and capstones
-cost 2. Each equipped Command may be committed once per encounter. Encounter
+cost 2. Each equipped Command may be invoked once per encounter. Encounter
 changes restore uses, not Authority. Town and Crypt do not refill Authority.
-Seats joining or leaving do not change locked resources or Party Scale.
-Skills and equipment cannot change during a run or its pending review.
+Party Scale and Authority capacity follow the currently seated non-Host players.
+Authority already spent stays spent; leaving, returning or editing equipment does
+not erase spending. No seated party means zero available Authority. Commands
+and skill points are configured on Host Progression; the HUD only invokes them.
 
 ## Resolution and shared definitions
 
-Committing an ordinary Command with legal timing puts its Host-controlled
+Invoking an ordinary Command with legal timing puts its Host-controlled
 triggered ability on the stack. Players may respond and counter it where their
 cards allow. Only text explicitly saying it cannot be countered creates that
 exception. All four capstones have that exception; Arcane Supremacy does not.
@@ -65,14 +67,14 @@ unless the particular Command prohibits that action. Absolute Command — Disall
 casts its defined normal spell and retains applicable spell/affix interactions.
 Being uncounterable does not make an ability immune to other stack removal.
 
-Authority and the encounter use are spent on commitment, without a refund if the
+Authority and the encounter use are spent on invocation, without a refund if the
 effect is answered or all its chosen targets become illegal. Modes and targets
-are chosen on commitment; non-target choices occur on resolution unless stated
+are chosen on invocation; non-target choices occur on resolution unless stated
 otherwise. Each delayed triggered ability uses the stack and can be answered
 normally. The table adjudicates timing, targets and resolution. The profile
 editor does not invoke Commands or automate the Magic stack.
 
-Party Scale is half the locked starting non-Host player count, rounded up (1, 1, 2, 2, 3, 3). It does not change when seats leave.
+Party Scale is shared by all Commands that mention it and follows the currently seated non-Host players: 1–2 players = 1; 3–4 = 2; 5–6 = 3. Recalculate it when players join, leave or change seats. With no seated players, Party Scale is 0.
 
 Each remaining opponent votes simultaneously for one available option. The option with the most votes occurs; you break ties. Vote again for a victim when instructed. Discard/sacrifice eligibility is checked on resolution; life loss is an effect, not a payment.
 
@@ -119,7 +121,7 @@ Timing: Any time you have priority.
 
 Choose hexproof or indestructible. Target nonland permanent you control gains that ability until end of turn.
 
-Rules details: Choose the permanent when committing this Command. Choose the ability as it resolves; this is not a modal choice made on commitment.
+Rules details: Choose the permanent when invoking this Command. Choose the ability as it resolves; this is not a modal choice made on invocation.
 
 #### Twisted Targeting
 
@@ -129,7 +131,7 @@ Timing: While an opponent's spell or ability with a single target targets you or
 
 Change the target of that spell or ability to another legal target.
 
-Rules details: Choose the eligible spell or ability when committing this Command. It must be controlled by an opponent, have a single target, and target you or a permanent you control. This Command does not target that spell or ability. The replacement target must be legal for it.
+Rules details: Choose the eligible spell or ability when invoking this Command. It must be controlled by an opponent, have a single target, and target you or a permanent you control. This Command does not target that spell or ability. The replacement target must be legal for it.
 
 #### Break the Charge
 
@@ -175,7 +177,7 @@ Choose one -
 
 - Draw two cards.
 
-Rules details: Choose the mode on commitment. For the copy mode, choose the target ability then. Mana abilities do not use the stack.
+Rules details: Choose the mode on invocation. For the copy mode, choose the target ability then. Mana abilities do not use the stack.
 
 #### Delay the Inevitable — II-B
 
@@ -211,7 +213,7 @@ Choose one -
 
 This ability can't be countered or copied and its target can't be changed.
 
-Rules details: Choose the mode and target on commitment. Abilities are countered, not exiled. Exiling a spell is not countering it. Removing this Command from the stack without countering it is still possible.
+Rules details: Choose the mode and target on invocation. Abilities are countered, not exiled. Exiling a spell is not countering it. Removing this Command from the stack without countering it is still possible.
 
 ### Torment
 
@@ -293,7 +295,7 @@ Timing: Any time you have priority.
 
 The party votes for submit or resist.
 
-Submit - Take an extra turn after this one. You can't commit Commands during that extra turn. End the turn.
+Submit - Take an extra turn after this one. You can't invoke Commands during that extra turn. End the turn.
 
 Resist - Each opponent loses 4 life and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
 
@@ -311,7 +313,7 @@ Timing: During combat before combat damage, or during your main phase with an em
 
 Choose up to X target creatures your opponents control, where X is Party Scale. Tap those creatures and put a stun counter on each of them. Creatures you control gain menace until end of turn.
 
-Rules details: Choose targets on commitment. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets to grant menace.
+Rules details: Choose targets on invocation. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets to grant menace.
 
 #### Silence the Engine — I-B
 
@@ -429,7 +431,7 @@ Choose one -
 
 Create a number of 4/4 black Avatar creature tokens equal to Party Scale. Creatures you control gain haste until end of turn. This ability can't be countered.
 
-Rules details: Choose the mode on commitment. For the return mode, choose the creature on resolution; it is not targeted. The draw mode does nothing with five or more cards in hand. The Avatar and haste effects occur in either mode.
+Rules details: Choose the mode on invocation. For the return mode, choose the creature on resolution; it is not targeted. The draw mode does nothing with five or more cards in hand. The Avatar and haste effects occur in either mode.
 
 ## Rebalance from the source draft
 
@@ -441,7 +443,7 @@ Rules details: Choose the mode on commitment. For the return mode, choose the cr
   most two cards for missing sacrifices.
 - The Final Bargain's resist option is four life and one greatest-mana-value
   nonland sacrifice per opponent, not five life and two sacrifices. Submit
-  creates its extra turn before ending the current turn; the Host cannot commit
+  creates its extra turn before ending the current turn; the Host cannot invoke
   further Commands during that extra turn.
 - Seal the Threshold does not suppress all enter/death triggers or all movement
   from graveyards. Total Lockdown's activation restriction affects tapped
