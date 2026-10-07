@@ -45,6 +45,7 @@
         "host-role-table-philosophy",
         "player-structure",
         "deckbuilding",
+        "combo-restrictions",
         "banned-restricted",
         "pre-encounter-setup",
         "run-structure",
@@ -428,7 +429,38 @@
       ],
       "related": [
         "banned-restricted",
-        "pre-encounter-setup"
+        "pre-encounter-setup",
+        "combo-restrictions"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "combo-restrictions",
+      "title": "Combos, Infinite Loops, and Scryfall Restrictions",
+      "source": "rules/getting-started/combo-restrictions.md",
+      "phase": "before-run",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "two card combo",
+        "two card infinite",
+        "infinite loops",
+        "winning combos",
+        "game winning",
+        "isochron scepter",
+        "fog",
+        "staff of domination",
+        "metalworker"
+      ],
+      "related": [
+        "deckbuilding",
+        "banned-restricted",
+        "extra-turns",
+        "notebook-addendum"
       ],
       "content": {
         "kind": "document"
@@ -1268,6 +1300,15 @@
       ],
       "aliases": [
         "rules addendum"
+      ],
+      "related": [
+        "combo-restrictions",
+        "turn-structure",
+        "player-vs-player-combat",
+        "player-departure",
+        "loot-pool",
+        "pack-rules",
+        "deckbuilding"
       ],
       "content": {
         "kind": "document"
