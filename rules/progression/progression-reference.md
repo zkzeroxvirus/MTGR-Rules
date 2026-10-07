@@ -1,6 +1,6 @@
 # **🌟 MTG ROGUELITE — PERMANENT PROGRESSION**
 
-Season 1 permanent progression is tied to a player profile and persists across future runs.
+Season 1 permanent progression is tied to a player profile and persists across runs during the current playtest. See [Host Types and Progression Profiles](../host/host-types-profiles.md) for current tracking, the planned Verified/Unverified separation, and the progression reset planned for the full release.
 
 How permanent progression is acquired:
 

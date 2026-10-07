@@ -42,7 +42,7 @@ Save 1 card from your deck in your collection.
 * Captured cards may be used in future deck builds.
 * A card granted through the Capture system is **treated as Scryfalled** when used in a run.
 * A captured card therefore cannot be traded or captured again and follows the combo and infinite-loop restrictions in Deckbuilding.
-* Captured cards count against your deck's 39 cards; they do not have a free allocation.
+* Captured cards count toward your Deck's normal modified minimum; they do not have a free allocation.
 * **Stacking cost:** For each capture after the first, the cost increases by 250 Essence:
   * 1st: 500 Essence
   * 2nd: 750 Essence

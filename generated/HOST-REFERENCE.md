@@ -88,7 +88,7 @@ Before another scheduled encounter, the party votes for one path.
 2. Reveal **1 random Traveler** from the Travelers bag. If Crossroads Cart is active, reveal 2 and the party chooses 1.
 3. Ready the Host Town Actions tool and assist with Cathedral, Blacksmith, and other Host-resolved requests.
 4. Allow players to use buildings and the available Traveler.
-5. When the party is finished, return the Traveler to its bag.
+5. Before leaving Town, confirm every player's Deck meets [its current modified minimum](../getting-started/deck-minimum.md). Finish permitted card gains or Bank moves, then return the Traveler to its bag.
 6. Resolve **1 Event**, then prepare the next scheduled encounter.
 
 ##### Stay Out
@@ -113,7 +113,7 @@ The Crypt receives no Affixes, and the Host takes the first turn.
 
 The run ends after the Crypt, whether the party wins or loses.
 
-1. Have each eligible player collect their Deck and Sideboard and use **End Session** on their Player Profile.
+1. Have each eligible player follow [Run-End Essence Rewards](../rewards/run-end-essence-rewards.md): collect the Deck and Sideboard into one stack, use **End Session** on the Player Profile, and submit the stack when prompted.
 2. Confirm that each eligible player receives run-end Essence for Deck mana value, Sideboard mana value, and unspent XP.
 3. On a victory, award each eligible player **500 Essence** and the Crypt's Buff through the Player Profile. A duplicate unlocked Buff grants an additional **250 Essence** instead.
 4. If an Achievement was earned, provide its token and have the player resolve it through their Player Profile.
@@ -148,9 +148,9 @@ Players should treat the Host as another participant, not as an adversarial rule
 
 #### Ruleset expectations
 
-At a Base table run by a Verified Host, adjudication and granted cards or effects must follow the canonical MTGR rules unless a rule explicitly authorizes an exception.
+At a Base table, adjudication and granted cards or effects must follow the canonical MTGR rules unless a rule explicitly authorizes an exception.
 
-At a Custom table using an Unverified profile, the Host may announce house rules, alternate modes, or legality overrides. Those changes must be disclosed before they become relevant, apply only to that Custom table, and do not change the Base rules.
+At a Custom table, the Host may announce house rules, alternate modes, or legality overrides. Those changes must be disclosed before they become relevant, apply only to that Custom table, and do not change the Base rules. See [Host Types and Progression Profiles](host-types-profiles.md) for current profile tracking and the planned Verified/Unverified separation.
 
 ---
 
@@ -295,13 +295,7 @@ The deciding question is whether the effect can **fully deny the Host all spellc
 
 #### Deck minimum
 
-The base deck minimum is **40 total cards: 1 Commander plus at least 39 cards in the library**.
-
-**Brand of the Infinite Void** reduces the minimum library requirement by **1 card per Rank**.
-
-Starting construction normally creates Commander + 39 before minimum-reducing effects are applied. During the run, cards may be added above the starting size; players are not required to return to exactly 39 library cards.
-
-An effect that removes cards from the Deck must leave that player's library at or above their current modified minimum unless the effect explicitly overrides that minimum.
+Follow [Deck Minimum and Town Removals](deck-minimum.md) for the base minimum, Commander counting, progression modifiers, and the deadline for restoring a Deck after Town removals.
 
 #### Sideboard
 
@@ -347,6 +341,29 @@ Apply Brand modifiers after determining that base amount:
 - Brand of Recurrence: +1 free Commander reroll per Rank.
 
 The old Commander may move to the player's Deck or Sideboard. Existing cards do not need to be removed for color-identity reasons after the Commander changes.
+
+<!-- rule:deck-minimum -->
+### Deck Minimum and Town Removals
+
+The base deck minimum is **40 cards including your Commander(s)**. With one Commander, this means at least 39 cards in the library. A legal second Commander counts toward the same total. Sideboard cards do not count toward the minimum.
+
+**Brand of the Infinite Void** reduces the minimum library requirement by **1 card per Rank**. Apply any other effect that explicitly changes the minimum. Cards whose effects give them a free allocation outside the normal minimum do not help satisfy it.
+
+The minimum is a required floor, not the number of cards your Deck contained before a removal. During a run, your Deck may grow above it; you do not have to return to the starting size.
+
+#### Removals during Town
+
+Town services may temporarily leave your Deck below its current modified minimum. **Restore that minimum before leaving Town**, including the mandatory Town visit before the Crypt.
+
+Use permitted card gains or Deck/Sideboard moves to restore the minimum. Tavern does not grant extra replacement cards beyond its chosen option. Existing Sideboard cards can move into the Deck only through a permitted effect, such as the Bank's allowance of up to 6 card moves during that Town visit.
+
+For example, Tavern Option B can remove 3 basics and add 1 dual:
+
+- Starting at 40 cards with an unmodified 40-card minimum leaves 38. Add at least 2 cards through permitted actions before leaving Town.
+- Starting at 42 cards leaves 40. No further cards are needed to meet that minimum.
+- If your modified minimum is 38, ending at 38 already satisfies it.
+
+Outside Town, an effect that removes cards from the Deck must leave it at or above the current modified minimum unless that effect explicitly allows otherwise.
 
 <!-- rule:combo-restrictions -->
 ### Combos, Infinite Loops, and Scryfall Restrictions
@@ -1293,7 +1310,7 @@ If a player starts with lands in play:
 
 Each player must have:  
  • 1 Commander  
- • A library at or above their **modified deck minimum** — base minimum is 39 non-Commander cards, reduced by **Brand of the Infinite Void** by 1 per Rank
+ • A Deck at or above their **modified deck minimum**, following [Deck Minimum and Town Removals](deck-minimum.md), including its Town restoration deadline
 
 Each player may have:  
  • An **unlimited-size Sideboard**  
@@ -2764,7 +2781,8 @@ When the party returns to **Town**, resolve the following before Event resolutio
 2. **Reset the consecutive Stay Out count.** The next Stay Out starts again at **10 XP and 2 Events**.
 3. **Reveal the Town Traveler** using the Travelers System.
 4. **Resolve Town building usage and Traveler interactions.** Limited-use buildings reset their uses on each return to Town; unlimited buildings may be used as allowed by their own rules.
-5. **Proceed to Event resolution**, except before the Crypt: begin the Crypt without drawing Events.
+5. **Check every player's Deck minimum before leaving Town.** Finish any permitted card gains or Deck/Sideboard moves needed to meet [the current modified minimum](../getting-started/deck-minimum.md).
+6. **Proceed to Event resolution**, except before the Crypt: begin the Crypt without drawing Events.
 
 #### Full heal
 
@@ -2877,6 +2895,8 @@ Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not
 
 #### ⛪ CATHEDRAL *(1 use per Town)*
 
+Cathedral is an active Town service. Open **Town → Cathedral** on your Player Profile token to submit a request, even if you cannot identify a separate Cathedral building on the table.
+
 Each player may describe the type of card, function, strategy, or effect they want. The request may include reasonable characteristics such as card type, theme, color, mana value, keyword, or intended role, but it cannot require one specific named card. When submitting the request, the player also records their current Commander's color identity and chooses one supported **Fallback Category** that represents its main function. Both are locked for this Cathedral use.
 
 The Host provides one Good-Faith Offer. At a Base table, that card must be legal under the current Base rules, usable by the player, meaningfully related to the request, and a genuine attempt to support or improve the player's deck. It cannot be a deliberately weak, dead, unrelated, or joke selection.
@@ -2954,7 +2974,7 @@ Destroy a **nonland card** from your deck. Gain **Essence equal to twice its man
 
 **Rules:** Mystic is used for deck pruning and resource conversion.
 
-Your Deck must remain at or above your current modified deck-size minimum after pruning. The base minimum may be reduced by **Brand of the Infinite Void**.
+Follow [Deck Minimum and Town Removals](../getting-started/deck-minimum.md) when pruning. Restore your current modified minimum before leaving Town.
 
 ---
 
@@ -2992,7 +3012,7 @@ Choose one mana-fixing option:
 
 **Rules:** Tavern is for deck smoothing and mana fixing only.
 
-Your Deck must remain at or above your current modified deck-size minimum after removals.
+Follow [Deck Minimum and Town Removals](../getting-started/deck-minimum.md) after resolving the chosen option. Restore your current modified minimum before leaving Town; the Tavern does not require you to restore your previous deck size or grant extra replacement cards.
 
 <!-- rule:stay-out-flow -->
 ### ⚙️ STAY OUT FLOW
@@ -3885,6 +3905,8 @@ After the final scheduled encounter in the active mode, players face the Crypt.
 
 The Crypt represents the final and most difficult encounter of the run.
 
+Crypts are designated final-boss decks from the table's Crypt pool. A deck does not become a Crypt simply because it is powerful. Individual Crypt decklists are maintained on Archidekt; ask the Host for the relevant deck's link when you want to inspect one.
+
 #### Before the Crypt
 
 After the final scheduled encounter ends, resolve rewards on a victory or skip them on a loss. The party must then visit Town; it cannot Stay Out. Resolve the normal Town visit, including healing, buildings, and its Traveler, then begin the Crypt without drawing Events.
@@ -3914,6 +3936,17 @@ When the run ends — whether in victory or defeat — each eligible player rece
  • Essence equal to their Deck CMC + Sideboard CMC  
  • Essence equal to any unspent XP
 
+CMC means mana value for this calculation.
+
+#### Counting on the supported TTS table
+
+1. Collect your Deck and Sideboard into **one stack**.
+2. Choose **End Session** on your Player Profile token and confirm. This converts your unspent XP to Essence.
+3. When the token asks for your deck, place the combined stack on it. The token counts its recorded card mana values and adds that total to Essence.
+4. Check the total and confirm the profile has synced. Ask the Host to resolve an incorrect card count or mana-value total.
+
+Submit the Deck and Sideboard together: the token finishes the counting step after one submitted stack. The separate **CMC Counter [color]** is not required for this workflow. End Session does not count cards elsewhere on the table without you submitting them.
+
 ---
 
 <!-- rule:crypt-fight-choice -->
@@ -3935,13 +3968,28 @@ When redeemed, the party collectively chooses which Crypt to fight from the stan
 <!-- rule:host-types-profiles -->
 ### **🏠 HOST TYPES AND PROGRESSION PROFILES**
 
-There are two types of Hosts, each associated with a separate progression profile:
+#### Current profile tracking
 
-- **Verified Hosts** are trusted individuals who run the **Base table** — the game as it is intended to be played under the canonical MTGR rules. Players who participate in Verified Host sessions share a unified progression profile. Crypt Buffs, Tickets, Brands, Captures, Achievements, and stored Essence earned here carry over between any Verified Host's table.
+Use the **Player Profile token** for both public runs and practice runs with friends. It tracks each player's Essence, Crypt Buffs, Achievements, Tickets, Brands, and Captures on their persistent profile. Allow it to finish loading and confirm its changes have synced before ending the table session.
 
-- **Regular Hosts** may run **Custom tables** using the Unverified Essence Counter. Custom tables may use alternate modes, house rules, or explicit legality overrides announced by the Host. Those changes apply only to that Custom table and do not alter the Base rules. Progress from these sessions is tracked on a separate profile and does not mix with a player's Verified progression.
+Players do not need to join Discord, sign in to the website, or link a Discord account to use the table and save Player Profile progression. The token uses the player's Steam identity and saves through the MTGR service. Website and Discord participation are optional for ordinary play.
 
-Players maintain two independent profiles — one per Host type.
+**Separate Verified and Unverified progression profiles are not active on the current table.** There is no Unverified Essence Counter to select for a practice run, and these runs do not save into a separate Unverified profile.
+
+#### Base and Custom tables
+
+- **Base tables** follow the canonical MTGR rules, including when practicing with friends.
+- **Custom tables** may use alternate modes, house rules, or explicit legality overrides announced by the Host. Those changes apply only to that Custom table and do not change the Base rules.
+
+These ruleset choices do not select separate progression profiles. Announce any Custom rules before they become relevant.
+
+#### Planned progression release
+
+The Verified/Unverified progression split is planned for the full Host progression and Player Buff progression release. A **full reset of Player and Host progression is planned for that release**; current playtest progression will not carry over. Host verification and the future profile split do not need to be configured to practice hosting now.
+
+#### Hosting Essence reward
+
+The **750 Essence hosting reward** is for hosting through the MTGR Discord community. Complete the supported End Run and Complete Run workflow; the reward is awarded after a listed player verifies the completed run. Hosting a private practice run does not automatically award this bonus.
 
 ---
 
@@ -3994,6 +4042,16 @@ Players maintain two independent profiles — one per Host type.
 - The initial pool contains 100 cards within the starting Commander's color identity and excludes basic lands. Each player drafts 22 cards from that pool.
 - Stickers, Attractions, and Contraptions are rerolled and replaced.
 - A 100-card pool is not rerolled as a whole; replace only invalid or illegal individual cards.
+
+#### 🏘️ TABLE SERVICES
+
+##### Finding Cathedral
+
+- Use **Town → Cathedral** on your Player Profile token. Follow the Town Buildings rule for requests, Host offers, and the neutral fallback.
+
+##### Finding Crypt Decklists
+
+- Crypt decklists are maintained on Archidekt. Ask the Host for the relevant deck's link; follow The Crypt rule for final-boss setup and the mandatory Town visit.
 
 #### 🗃️ DISABLED OPTIONS
 

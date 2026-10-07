@@ -129,13 +129,7 @@ The deciding question is whether the effect can **fully deny the Host all spellc
 
 ## Deck minimum
 
-The base deck minimum is **40 total cards: 1 Commander plus at least 39 cards in the library**.
-
-**Brand of the Infinite Void** reduces the minimum library requirement by **1 card per Rank**.
-
-Starting construction normally creates Commander + 39 before minimum-reducing effects are applied. During the run, cards may be added above the starting size; players are not required to return to exactly 39 library cards.
-
-An effect that removes cards from the Deck must leave that player's library at or above their current modified minimum unless the effect explicitly overrides that minimum.
+Follow [Deck Minimum and Town Removals](deck-minimum.md) for the base minimum, Commander counting, progression modifiers, and the deadline for restoring a Deck after Town removals.
 
 ## Sideboard
 

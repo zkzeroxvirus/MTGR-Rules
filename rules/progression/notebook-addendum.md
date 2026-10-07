@@ -47,6 +47,16 @@
 - Stickers, Attractions, and Contraptions are rerolled and replaced.
 - A 100-card pool is not rerolled as a whole; replace only invalid or illegal individual cards.
 
+## 🏘️ TABLE SERVICES
+
+### Finding Cathedral
+
+- Use **Town → Cathedral** on your Player Profile token. Follow the Town Buildings rule for requests, Host offers, and the neutral fallback.
+
+### Finding Crypt Decklists
+
+- Crypt decklists are maintained on Archidekt. Ask the Host for the relevant deck's link; follow The Crypt rule for final-boss setup and the mandatory Town visit.
+
 ## 🗃️ DISABLED OPTIONS
 
 ### Pre-Con Draft Option

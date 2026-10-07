@@ -6,7 +6,8 @@ When the party returns to **Town**, resolve the following before Event resolutio
 2. **Reset the consecutive Stay Out count.** The next Stay Out starts again at **10 XP and 2 Events**.
 3. **Reveal the Town Traveler** using the Travelers System.
 4. **Resolve Town building usage and Traveler interactions.** Limited-use buildings reset their uses on each return to Town; unlimited buildings may be used as allowed by their own rules.
-5. **Proceed to Event resolution**, except before the Crypt: begin the Crypt without drawing Events.
+5. **Check every player's Deck minimum before leaving Town.** Finish any permitted card gains or Deck/Sideboard moves needed to meet [the current modified minimum](../getting-started/deck-minimum.md).
+6. **Proceed to Event resolution**, except before the Crypt: begin the Crypt without drawing Events.
 
 ## Full heal
 
