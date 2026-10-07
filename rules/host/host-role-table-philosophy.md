@@ -23,8 +23,8 @@ Players should treat the Host as another participant, not as an adversarial rule
 
 ## Ruleset expectations
 
-At a Base table run by a Verified Host, adjudication and granted cards or effects must follow the canonical MTGR rules unless a rule explicitly authorizes an exception.
+At a Base table, adjudication and granted cards or effects must follow the canonical MTGR rules unless a rule explicitly authorizes an exception.
 
-At a Custom table using an Unverified profile, the Host may announce house rules, alternate modes, or legality overrides. Those changes must be disclosed before they become relevant, apply only to that Custom table, and do not change the Base rules.
+At a Custom table, the Host may announce house rules, alternate modes, or legality overrides. Those changes must be disclosed before they become relevant, apply only to that Custom table, and do not change the Base rules. See [Host Types and Progression Profiles](host-types-profiles.md) for current profile tracking and the planned Verified/Unverified separation.
 
 ---

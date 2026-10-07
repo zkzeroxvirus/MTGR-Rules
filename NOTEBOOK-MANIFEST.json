@@ -13,7 +13,7 @@
       "title": "Rules - Addendum",
       "color": "Grey",
       "displayTitle": "MTGRL RULES Addendum",
-      "rules": ["notebook-addendum", "combo-restrictions"],
+      "rules": ["notebook-addendum", "deck-minimum", "combo-restrictions", "run-end-essence-rewards", "host-types-profiles"],
       "footer": "[i]Applies to all tables unless otherwise stated.[/i]"
     },
     {

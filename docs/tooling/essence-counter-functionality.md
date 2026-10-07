@@ -1,120 +1,33 @@
-# Essence Counter Functionality
+# Player Profile Functionality
 
-> Tooling reference. This document describes implementation and player interaction behavior; canonical gameplay rules live under `rules/`.
+> Tooling reference. Canonical player instructions live in [Host Types and Progression Profiles](../../rules/host/host-types-profiles.md) and [Run-End Essence Rewards](../../rules/rewards/run-end-essence-rewards.md).
 
-## Two Progression Profiles
+## Supported table controller
 
-There are two separate Essence Counters, each tied to a distinct progression profile:
+The supported table uses the **Player Profile token** to track Essence, XP, progression inventory, equipped rewards, and Town actions. Its source is `MTGR-Platform/tts/src/objects/player-profile-token.lua`.
 
-- **Verified Host Counter** — Used by Verified Hosts when running the Base table. Verified Hosts are trusted individuals who provide the standard game experience as it is intended to be played. Progression earned here is shared across all Verified Host sessions, meaning a player's Crypt Buffs, Tickets, Brands, Captures, Achievements, and stored Essence carry over between any Verified Host's table.
-- **Unverified Host Counter** — Used by Regular Hosts, who may run custom game modes and alternate styles of play. Progression earned here is tracked on a separate profile and does not mix with a player's Verified progression.
+Claiming the token resolves the player's Steam identity. Allow profile loading to finish before deckbuilding modifiers or progression actions are used.
 
-Players maintain two independent profiles — one per counter type.
+## Profile persistence
 
-## Purpose
+The token saves local object state and synchronizes the player's profile through the MTGR Platform game API. Server profile creation is keyed by Steam identity; Discord linking and website sign-in are not required for ordinary table play or profile saving.
 
-The Essence Counter is the player profile and progression controller for MTG Roguelite. It tracks long-term progression data and provides a UI to review and claim unlocked rewards.
+The current table has one persistent player progression profile. It does not select a separate Verified or Unverified progression profile based on the Host or table ruleset. The planned release split and reset are documented in the canonical Host Types and Progression Profiles rule.
 
-It manages:
+Check the token's sync status after progression changes and before closing the table. Local state alone is not confirmation that a server update succeeded.
 
-- Essence total
-- Crypt Buff unlocks
-- Achievement unlocks
-- Ticket unlocks
-- Brand ranks (repeatable progression)
-- Capture tickets
+## Town services
 
-## Core Behavior
+Open Town on the Player Profile to use its supported services. **Town → Cathedral** submits an active Cathedral request. Host-resolved offers use the Host Town Actions workflow.
 
-### 1) Essence Value Management
+Card removals follow the canonical Deck Minimum and Town Removals rule. The token's controls do not grant additional card gains or Sideboard moves beyond the applicable service rules.
 
-The counter stores an Essence value from 0 to 999999.
+## Run-end counting
 
-Players can update Essence by:
+End Session converts unspent XP to Essence, then prompts for a physical Deck or Card object. `handleEndSessionDeck` sums the submitted object's card CMC labels, adds the result to Essence, and returns to the shop after that submission.
 
-- Clicking quick delta buttons: +50, +10, +5, +1, -1, -5, -10, -50
-- Typing a direct value in the Essence input field
-- Typing signed deltas (example: +25 or -10)
-- Typing simple math expressions (example: 200-50+10)
+Submit the Deck and Sideboard in one combined stack. Cards elsewhere on the table are not included automatically. The separate CMC Counter is not required. Missing or incorrect card metadata requires a Host check of the total.
 
-Invalid input is ignored and the UI refreshes to the current saved value.
+## Legacy counter material
 
-### 2) Rewards Panel Navigation
-
-The rewards panel can be toggled with Show Rewards / Hide Rewards.
-
-When visible, it supports five tabs:
-
-- Crypt Buffs
-- Achievements
-- Tickets
-- Brands
-- Captures
-
-Each tab shows up to 26 visible slots. Slot state is color-coded:
-
-- Locked items: gray
-- Unlocked items: blue
-- Selected item: brighter highlight
-
-Selecting a slot updates the description area with that item's rules text and unlock context.
-
-### 3) Unlock Registration (Token Drop Driven)
-
-Unlocking is not click-to-unlock. The system unlocks progression when matching objects are dropped onto or near the counter.
-
-Supported unlock sources:
-
-- Crypt Buff token drops (exact name match)
-- Achievement token drops (exact name match)
-- Ticket token drops (exact name match)
-- Brand token drops (each drop increases rank)
-- Capture ticket drops (parsed from ticket name and/or GM notes)
-
-When a valid unlock is detected, the dropped object is consumed and the corresponding profile entry is updated.
-
-### 4) Reward Spawning
-
-Clicking an unlocked slot spawns a reward token near the counter at a fixed local anchor relative to the object.
-
-Spawn behavior:
-
-- Standard rewards spawn as textured custom model tokens
-- Special bags are used for Treasure Pirate, Sol Ring Ticket, and Arcane Signet Ticket
-- Capture rewards spawn from saved capture payload data when available, preserving card/bag data
-
-Locked items can be viewed but cannot be spawned.
-
-### 5) Persistence and Profile Sync
-
-The counter persists progression in two layers:
-
-- Local save state on the object (onSave/onLoad)
-- Remote sync to the configured Google Apps Script endpoint
-
-Profile identity is tied to a player key (preferably Steam ID based) once the object is claimed.
-
-Sync behavior includes:
-
-- Debounced updates after changes
-- Minimum sync interval throttling
-- Signature checks to skip unchanged payloads
-- Retry/queue behavior on failures
-- Initial fetch of server state when a keyed profile is loaded
-
-### 6) Data Model Notes
-
-- Crypt Buffs, Achievements, and Tickets are generally binary unlocks (count > 0 means unlocked)
-- Brands are repeatable and store rank via count
-- Captures store name, image URL, and optional compact bag/card payload for faithful respawn
-- Unlock timestamps are tracked per item for audit/history use
-
-## Operational Summary
-
-In practice, the Essence Counter acts as a player's permanent progression ledger plus reward dispenser:
-
-- Tracks and edits Essence
-- Registers unlock proof via dropped progression tokens
-- Displays progression status across all permanent categories
-- Spawns unlocked rewards on demand
-- Saves and syncs profile data across sessions
+Older Essence Counter and Combo Counter scripts describe historical controls and synchronization. Their counter labels, Google Apps Script behavior, and two-profile descriptions are not the supported Player Profile workflow. Use the canonical rules and current Player Profile source when documenting player actions.

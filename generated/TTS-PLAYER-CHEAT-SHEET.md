@@ -8,7 +8,7 @@
 - Each player normally starts with **4 Commander Mulligans**.
 - Generate a personal **100-card pool** in the starting Commander's color identity, then draft **22 cards** from that pool.
 - Initial deckbuilding uses **16 lands total** unless another effect changes that number.
-- The base minimum is **40 total cards: 1 Commander + at least 39 cards in the library**.
+- The base minimum is **40 cards including Commander(s)**. With one Commander, this means at least 39 library cards. Follow Deck Minimum and Town Removals for modifiers and free-allocation exceptions.
 - Each player normally gets **1 Free Choice Card**.
 - A Free Choice Card may be outside Commander color identity, but cannot be **Sol Ring** or a **Gamechanger** unless another effect allows it.
 - Scryfall-stamped cards cannot be traded or captured. Follow Deckbuilding for their winning-combo and infinite-loop restrictions.
@@ -90,7 +90,8 @@ Reveal the Town Traveler from the Travelers bag; Crossroads Cart reveals two and
 
 1. Fully heal all players.
 2. Use Town buildings.
-3. Resolve Event(s).
+3. Restore each Deck to its current modified minimum before leaving Town, using permitted card gains or moves.
+4. Resolve Event(s), except before the Crypt.
 
 ### Stay Out
 
