@@ -13,7 +13,7 @@
       "title": "Rules - Addendum",
       "color": "Grey",
       "displayTitle": "MTGRL RULES Addendum",
-      "rules": ["notebook-addendum"],
+      "rules": ["notebook-addendum", "combo-restrictions"],
       "footer": "[i]Applies to all tables unless otherwise stated.[/i]"
     },
     {

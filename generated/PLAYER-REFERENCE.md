@@ -233,25 +233,13 @@ A card with a **Scryfall decal** is bound to the player who owns that card for t
 - A card granted through the **Capture system is treated as Scryfalled** for these restrictions, even if its physical decal or other marker is different.
 - A card granted by a **card-producing Ticket** is also treated as Scryfalled. This includes cards such as **Sol Ring Ticket**, **Arcane Signet Ticket**, and **Leyline Ticket** cards.
 
-Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the combo restriction below and the no-trading/no-capture rules above.
+Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the [combo and infinite-loop restrictions](combo-restrictions.md) and the no-trading/no-capture rules above.
 
 This classification does not mean that every Ticket, Capture, or progression effect is itself a card. It applies when that progression effect places or grants an actual Magic card for the player's run.
 
 #### Combo, infinite, and Scryfall restrictions
 
-##### Non-infinite combos
-
-A **non-infinite two-card combo** is any two cards alone causing an effect that wins you the game. These combos are banned. **Thassa's Oracle + Demonic Consultation** is an example. Ordinary synergy that does not meet this definition is not a banned two-card win combo.
-
-Non-infinite combos using three or more cards are allowed, subject to other MTGR restrictions. A card with a Scryfall decal, or treated as Scryfalled, cannot be used as part of a non-infinite winning combo.
-
-##### Infinite loops
-
-If a loop involving two or fewer cards, or a loop involving a Scryfalled card, can be repeated infinitely, whether automatically or through repeated player choices, that loop may resolve no more than once per turn. Permanents or other game objects created during that resolution do not allow the same loop to resolve again that turn. An extra turn created by such a loop cannot be used to resolve the same loop again for the purpose of creating another extra turn.
-
-Here, resolving a loop once means performing one iteration, not choosing an arbitrarily large number of repetitions. Cards treated as Scryfalled follow the same limit. Infinite loops involving three or more cards and no Scryfalled cards are not limited by this rule.
-
-These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
+Follow [Combos, Infinite Loops, and Scryfall Restrictions](combo-restrictions.md) when evaluating an interaction. That rule defines how required cards are counted, which winning combos are banned, and which infinite loops are limited to one iteration per turn. It includes the rulings for Isochron Scepter + Fog and Staff of Domination + Metalworker.
 
 #### Silence-effect restrictions
 
@@ -335,6 +323,69 @@ Apply Brand modifiers after determining that base amount:
 - Brand of Recurrence: +1 free Commander reroll per Rank.
 
 The old Commander may move to the player's Deck or Sideboard. Existing cards do not need to be removed for color-identity reasons after the Commander changes.
+
+<!-- rule:combo-restrictions -->
+### Combos, Infinite Loops, and Scryfall Restrictions
+
+These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
+
+#### Counting the required cards
+
+Count the **minimum number of actual Magic cards required** for the winning combo or infinite loop to function, across all relevant zones. A Commander counts when required. Required cards in hand, the graveyard, or exile count just as required cards on the battlefield do.
+
+- Count supporting cards that must be revealed, discarded, sacrificed, or otherwise used to make the interaction work, even if any card of a particular type could fill that role.
+- Do not count ordinary mana sources used only to pay initial casting or activation costs. Mana-producing cards that must be reused to sustain the loop do count.
+- Unnecessary extra cards do not increase the count. Tokens, copies, or other game objects produced by the combo or loop do not increase the number of starting cards required.
+- Apply the Scryfall restrictions to every card actually used in the combo or loop, including supporting cards outside the battlefield. A Scryfalled card used in the interaction cannot be ignored simply because it is interchangeable or additional to the minimum required set.
+
+Use the actual required interaction, rather than just the two named engine cards, to determine its card count.
+
+#### Non-infinite winning combos
+
+A **non-infinite two-card winning combo** uses two cards alone to produce a game win or make the opposing side lose the game. These combos are banned. **Thassa's Oracle + Demonic Consultation** is an example.
+
+A winning combo can win through a card's win-or-lose effect or through its resulting damage, life loss, poison, or other game-losing result. It does not need to contain the words "you win the game."
+
+Gaining mana or life, drawing cards, preventing damage, or restricting an opponent does not by itself make an interaction a winning combo. Ordinary synergy or protection that could help a player win later does not meet this definition merely because it is strong. Evaluate the complete line that produces the win, including any required additional cards.
+
+Non-infinite winning combos requiring three or more cards are allowed, subject to other MTGR restrictions. A card with a **Scryfall decal**, or treated as **Scryfalled**, cannot be used as part of a non-infinite winning combo, regardless of its card count.
+
+#### Infinite loops
+
+An **infinite loop** is a sequence of actions that can be repeated an arbitrarily chosen number of times while maintaining or replenishing everything needed to continue. It may repeat automatically or through repeated player choices. A loop can be infinite even if it produces no net mana or does not win the game.
+
+An interaction that consumes a finite resource without replacing it is not infinite. Reusing an effect after normal turn progression refreshes its resources is not, by itself, an infinite loop. A sequence that creates its own extra turns can still be infinite.
+
+If an infinite loop involves **two or fewer required cards**, or **any Scryfalled card is used in that loop**, that loop may resolve **no more than one iteration per turn**. One iteration means performing the repeating sequence once, not choosing an arbitrarily large number of repetitions.
+
+Permanents or other game objects created during that iteration do not allow the same loop to resolve again that turn. An extra turn created by such a loop cannot be used to resolve the same loop again for the purpose of creating another extra turn.
+
+Infinite loops requiring **three or more cards and using no Scryfalled cards** are not limited by this rule. Any separate MTGR restriction still applies.
+
+#### Examples
+
+##### Isochron Scepter + Fog
+
+With Fog imprinted, pay {2} and tap Isochron Scepter to cast a copy of Fog. Neither card untaps Scepter or replenishes the activation mana. Using Scepter again after the next normal untap is recurring protection; these two cards do not create an infinite loop or win the game by themselves.
+
+**This interaction is allowed under these combo restrictions**, including when one of the cards is Scryfalled. If additional cards create an actual infinite loop or winning combo, evaluate that complete interaction separately.
+
+##### Staff of Domination + Metalworker
+
+With unmodified cards, Metalworker must be able to activate its tap ability, and Staff of Domination must be ready to tap.
+
+The usual positive-mana loop requires **three other artifact cards in hand**:
+
+1. Tap Metalworker and reveal those three artifacts to produce {C}{C}{C}{C}{C}{C}.
+2. Pay {3} and tap Staff to untap Metalworker.
+3. Pay {1} to untap Staff.
+4. Both permanents are ready again, with two colorless mana gained. Repeat.
+
+Under MTGR's counting rule, this is a **five-card infinite-mana loop**: Staff, Metalworker, and three required artifact cards in hand. The same hand cards can be revealed each time; they are not consumed.
+
+With only two artifact cards in hand, the sequence produces four mana and spends all four on the untaps. That is a **four-card loop with no net mana**, rather than an infinite-mana loop.
+
+Neither version is a two-card infinite under MTGR. Either version is limited to one iteration per turn if any card used in the loop is Scryfalled, including an artifact revealed from hand. Otherwise, the three-or-more-card loop rule allows repetition. Infinite mana and access to Staff's other abilities do not by themselves constitute a game win; evaluate any winning line and its additional required cards separately.
 
 <!-- rule:banned-restricted -->
 ### **🚫 BANNED & RESTRICTED (MTGR)**
@@ -2653,9 +2704,16 @@ Override:
 • Pack card quantity uses the pack's normal base size  
 • **Brand of the Open Hand** adds **+1 card per Rank** whenever that player opens a pack  
 • Brand-added cards increase the number of cards seen; they do **not** increase a pack's keep limit unless another effect explicitly says so  
-• Pro Pack → 45+ results  
-• Mythic Pack → 30+ results  
-• OTAG Pack → 15+ results
+
+#### Search diversity minimums
+
+The eligible search pool must contain at least:
+
+- Pro Pack → 45 distinct cards
+- Mythic Pack → 30 distinct cards
+- OTAG Pack → 15 distinct cards
+
+Count distinct cards, not different printings of the same card. These are search-pool minimums; pack quantity and keep limits follow the effect that grants the pack. At the Merchant, the normal base pack contains 15 cards and the keep limit is 1.
 
 Invalid packs must be rerolled or adjusted.
 
@@ -3900,15 +3958,17 @@ The current Crypt Buff, Ticket, Brand, and Achievement entries are maintained as
 <!-- rule:notebook-addendum -->
 ### MTGRL RULES Addendum
 
-#### ⚔️ GAMEPLAY CHANGES
+#### ⚔️ GAMEPLAY RULINGS
 
 ##### Combat Targeting
 
 - Players may attack any player regardless of Ally/Opponent status.
 
-##### Teams
+##### Shared Party Timing
 
-- No teams are used.
+- The party shares turn timing, priority, and combat under MTGR's Turn Structure rules. Each player keeps their own life total and control of their own cards and permanents.
+- Use the specified shared-turn timing rules; other Two-Headed Giant rules are not imported. Extra turns are taken only by the controller of the effect.
+- Players may attack other party members. Adjacent allies may block for a player attacked by the Host; a player cannot use adjacent blocking to block their own attacking creature.
 
 ##### Scooping
 
@@ -3917,37 +3977,35 @@ The current Crypt Buff, Ticket, Brand, and Achievement entries are maintained as
 
 #### 🎟️ REWARDS & TICKETS
 
-##### Loot Pool Basic Lands
+##### Loot Pool Lands
 
-- Reroll any basic lands revealed while generating Loot Pool cards until the required number of nonland cards has been generated.
+- After each encounter victory, generate 7 nonland cards from the defeated deck for the shared Loot Pool. Reroll every land revealed, including nonbasic lands, until all 7 nonland cards have been generated.
 
 ##### Ticket Pools
 
-- Emblem tickets use the Legal pool.
-- Vanguard tickets use the Legal pool.
-- Conspiracy tickets use the Legal pool.
+- Emblem, Vanguard, and Conspiracy Tickets each use their corresponding **Legal** pool. These are the MTGR exceptions that permit the Ticket's Emblem, Vanguard, or Conspiracy to be used.
 
 #### 🧱 DECKBUILDING & CARD POOL
 
-##### Pack Diversity Minimum
+##### Pack Search Diversity
 
-- Pro Packs must contain at least 45 unique cards.
-- Mythic Packs must contain at least 30 unique cards.
-- OTAG Packs must contain at least 15 unique cards.
+- The eligible search pool must contain at least 45 distinct cards for a Pro Pack, 30 for a Mythic Pack, or 15 for an OTAG Pack. Different printings of the same card do not add to this minimum.
+- Resolve the pack's normal card quantity and keep limit. At the Merchant, the base pack contains 15 cards and you keep 1. Brand of the Open Hand adds 1 card seen per Rank without increasing how many you keep.
+- Reroll or adjust a search that does not meet the applicable minimum.
 
 ##### Card Legality
 
-- Only cards legal in `game:paper` may be used.
-- Only cards legal in `format:commander` may be used unless an MTGR effect explicitly provides an exception.
+- Cards must have a paper printing (`game:paper`). They must also be legal in Commander (`format:commander`), unless an MTGR effect explicitly provides an exception. MTGR's Banned & Restricted rules still apply.
 - No Alchemy-only cards.
 - The initial generated 100-card pool follows the starting Commander's color identity; cards gained later from unrestricted effects may be outside that identity unless the effect says otherwise.
 
 ##### Deck Generation Validation
 
+- The initial pool contains 100 cards within the starting Commander's color identity and excludes basic lands. Each player drafts 22 cards from that pool.
 - Stickers, Attractions, and Contraptions are rerolled and replaced.
 - A 100-card pool is not rerolled as a whole; replace only invalid or illegal individual cards.
 
-#### 🗃️ LEGACY / DISABLED
+#### 🗃️ DISABLED OPTIONS
 
 ##### Pre-Con Draft Option
 
