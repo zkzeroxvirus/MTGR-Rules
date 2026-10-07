@@ -12,6 +12,8 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Host Role and Table Philosophy](host/host-role-table-philosophy.md) — `host-role-table-philosophy`
 - [Player Structure](getting-started/player-structure.md) — `player-structure`
 - [Deckbuilding Clarifications](getting-started/deckbuilding.md) — `deckbuilding`
+- [Deck Minimum and Town Removals](getting-started/deck-minimum.md) — `deck-minimum`
+- [Combos, Infinite Loops, and Scryfall Restrictions](getting-started/combo-restrictions.md) — `combo-restrictions`
 - [Banned & Restricted](getting-started/banned-restricted.md) — `banned-restricted`
 - [Pre-Encounter Setup](getting-started/pre-encounter-setup.md) — `pre-encounter-setup`
 - [Trinket System](getting-started/trinket-system.md) — `trinket-system`

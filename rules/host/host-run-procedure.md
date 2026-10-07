@@ -51,7 +51,7 @@ Before another scheduled encounter, the party votes for one path.
 2. Reveal **1 random Traveler** from the Travelers bag. If Crossroads Cart is active, reveal 2 and the party chooses 1.
 3. Ready the Host Town Actions tool and assist with Cathedral, Blacksmith, and other Host-resolved requests.
 4. Allow players to use buildings and the available Traveler.
-5. When the party is finished, return the Traveler to its bag.
+5. Before leaving Town, confirm every player's Deck meets [its current modified minimum](../getting-started/deck-minimum.md). Finish permitted card gains or Bank moves, then return the Traveler to its bag.
 6. Resolve **1 Event**, then prepare the next scheduled encounter.
 
 ### Stay Out
@@ -76,7 +76,7 @@ The Crypt receives no Affixes, and the Host takes the first turn.
 
 The run ends after the Crypt, whether the party wins or loses.
 
-1. Have each eligible player collect their Deck and Sideboard and use **End Session** on their Player Profile.
+1. Have each eligible player follow [Run-End Essence Rewards](../rewards/run-end-essence-rewards.md): collect the Deck and Sideboard into one stack, use **End Session** on the Player Profile, and submit the stack when prompted.
 2. Confirm that each eligible player receives run-end Essence for Deck mana value, Sideboard mana value, and unspent XP.
 3. On a victory, award each eligible player **500 Essence** and the Crypt's Buff through the Player Profile. A duplicate unlocked Buff grants an additional **250 Essence** instead.
 4. If an Achievement was earned, provide its token and have the player resolve it through their Player Profile.

@@ -99,6 +99,8 @@ Sell any number of Cashouts to the Host for **10 XP** each. Cashout Sales do not
 
 ## ⛪ CATHEDRAL *(1 use per Town)*
 
+Cathedral is an active Town service. Open **Town → Cathedral** on your Player Profile token to submit a request, even if you cannot identify a separate Cathedral building on the table.
+
 Each player may describe the type of card, function, strategy, or effect they want. The request may include reasonable characteristics such as card type, theme, color, mana value, keyword, or intended role, but it cannot require one specific named card. When submitting the request, the player also records their current Commander's color identity and chooses one supported **Fallback Category** that represents its main function. Both are locked for this Cathedral use.
 
 The Host provides one Good-Faith Offer. At a Base table, that card must be legal under the current Base rules, usable by the player, meaningfully related to the request, and a genuine attempt to support or improve the player's deck. It cannot be a deliberately weak, dead, unrelated, or joke selection.
@@ -176,7 +178,7 @@ Destroy a **nonland card** from your deck. Gain **Essence equal to twice its man
 
 **Rules:** Mystic is used for deck pruning and resource conversion.
 
-Your Deck must remain at or above your current modified deck-size minimum after pruning. The base minimum may be reduced by **Brand of the Infinite Void**.
+Follow [Deck Minimum and Town Removals](../getting-started/deck-minimum.md) when pruning. Restore your current modified minimum before leaving Town.
 
 ---
 
@@ -214,4 +216,4 @@ Choose one mana-fixing option:
 
 **Rules:** Tavern is for deck smoothing and mana fixing only.
 
-Your Deck must remain at or above your current modified deck-size minimum after removals.
+Follow [Deck Minimum and Town Removals](../getting-started/deck-minimum.md) after resolving the chosen option. Restore your current modified minimum before leaving Town; the Tavern does not require you to restore your previous deck size or grant extra replacement cards.

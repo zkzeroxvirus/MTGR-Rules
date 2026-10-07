@@ -91,25 +91,13 @@ A card with a **Scryfall decal** is bound to the player who owns that card for t
 - A card granted through the **Capture system is treated as Scryfalled** for these restrictions, even if its physical decal or other marker is different.
 - A card granted by a **card-producing Ticket** is also treated as Scryfalled. This includes cards such as **Sol Ring Ticket**, **Arcane Signet Ticket**, and **Leyline Ticket** cards.
 
-Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the combo restriction below and the no-trading/no-capture rules above.
+Being treated as Scryfalled means the card follows all MTGR Scryfall restrictions that apply to cards, including the [combo and infinite-loop restrictions](combo-restrictions.md) and the no-trading/no-capture rules above.
 
 This classification does not mean that every Ticket, Capture, or progression effect is itself a card. It applies when that progression effect places or grants an actual Magic card for the player's run.
 
 ## Combo, infinite, and Scryfall restrictions
 
-### Non-infinite combos
-
-A **non-infinite two-card combo** is any two cards alone causing an effect that wins you the game. These combos are banned. **Thassa's Oracle + Demonic Consultation** is an example. Ordinary synergy that does not meet this definition is not a banned two-card win combo.
-
-Non-infinite combos using three or more cards are allowed, subject to other MTGR restrictions. A card with a Scryfall decal, or treated as Scryfalled, cannot be used as part of a non-infinite winning combo.
-
-### Infinite loops
-
-If a loop involving two or fewer cards, or a loop involving a Scryfalled card, can be repeated infinitely, whether automatically or through repeated player choices, that loop may resolve no more than once per turn. Permanents or other game objects created during that resolution do not allow the same loop to resolve again that turn. An extra turn created by such a loop cannot be used to resolve the same loop again for the purpose of creating another extra turn.
-
-Here, resolving a loop once means performing one iteration, not choosing an arbitrarily large number of repetitions. Cards treated as Scryfalled follow the same limit. Infinite loops involving three or more cards and no Scryfalled cards are not limited by this rule.
-
-These restrictions apply to run decks for both Players and the Host unless another rule explicitly says otherwise.
+Follow [Combos, Infinite Loops, and Scryfall Restrictions](combo-restrictions.md) when evaluating an interaction. That rule defines how required cards are counted, which winning combos are banned, and which infinite loops are limited to one iteration per turn. It includes the rulings for Isochron Scepter + Fog and Staff of Domination + Metalworker.
 
 ## Silence-effect restrictions
 
@@ -141,13 +129,7 @@ The deciding question is whether the effect can **fully deny the Host all spellc
 
 ## Deck minimum
 
-The base deck minimum is **40 total cards: 1 Commander plus at least 39 cards in the library**.
-
-**Brand of the Infinite Void** reduces the minimum library requirement by **1 card per Rank**.
-
-Starting construction normally creates Commander + 39 before minimum-reducing effects are applied. During the run, cards may be added above the starting size; players are not required to return to exactly 39 library cards.
-
-An effect that removes cards from the Deck must leave that player's library at or above their current modified minimum unless the effect explicitly overrides that minimum.
+Follow [Deck Minimum and Town Removals](deck-minimum.md) for the base minimum, Commander counting, progression modifiers, and the deadline for restoring a Deck after Town removals.
 
 ## Sideboard
 

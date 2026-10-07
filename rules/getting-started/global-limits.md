@@ -2,7 +2,7 @@
 
 Each player must have:  
  • 1 Commander  
- • A library at or above their **modified deck minimum** — base minimum is 39 non-Commander cards, reduced by **Brand of the Infinite Void** by 1 per Rank
+ • A Deck at or above their **modified deck minimum**, following [Deck Minimum and Town Removals](deck-minimum.md), including its Town restoration deadline
 
 Each player may have:  
  • An **unlimited-size Sideboard**  

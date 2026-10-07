@@ -20,7 +20,7 @@ The Player Profile must finish loading before the Start Token can use its progre
 5. Add **16 lands**, adjusted only by an effect that explicitly changes that number. Use the normal dual-land allocation and fill the remaining land slots with basics.
 6. Choose the **Free Choice Card** and stamp it with the Scryfall decal. It may be outside the Commander's color identity, but it must otherwise be Commander-legal and cannot be Sol Ring or a Gamechanger unless another rule allows it.
 7. Resolve all equipped progression that grants starting cards or otherwise changes deckbuilding.
-8. Put any additional cards into the Deck or Sideboard as their effects allow. Confirm that the library contains at least **39 cards**, reduced only by Brand of the Infinite Void. The Commander is the 40th card.
+8. Put any additional cards into the Deck or Sideboard as their effects allow. Confirm that your Deck meets [its modified minimum](deck-minimum.md), counting your Commander(s) and applying progression effects. With one Commander and no minimum modifiers, you need 39 cards in the library.
 
 Cards spawned directly through Scryfall-based choices, card-producing Tickets, or Captures are treated as Scryfalled and follow the Deckbuilding restrictions. A progression item that does not grant a Magic card is not itself a Scryfalled card.
 
@@ -48,7 +48,7 @@ After each scheduled encounter:
 
 ## 5. End the run
 
-The run ends when the party defeats or fails to defeat the Crypt. Use **End Session** on the Player Profile and include both the Deck and Sideboard when calculating run-end Essence.
+The run ends when the party defeats or fails to defeat the Crypt. Follow [Run-End Essence Rewards](../rewards/run-end-essence-rewards.md) to use **End Session** on the Player Profile and submit both the Deck and Sideboard for counting.
 
 Each eligible player receives Essence equal to:
 
