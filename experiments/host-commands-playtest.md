@@ -67,6 +67,8 @@ unless the particular Command prohibits that action. Absolute Command — Disall
 casts its defined normal spell and retains applicable spell/affix interactions.
 Being uncounterable does not make an ability immune to other stack removal.
 
+The Host may undo an accidental or misunderstood activation using Undo activation on the HUD. It refunds the recorded Authority cost and restores the encounter use if it is still marked used. Reverse any choices and effects at the table. This correction is not a refund for normal counterplay.
+
 Authority and the encounter use are spent on invocation, without a refund if the
 effect is answered or all its chosen targets become illegal. Modes and targets
 are chosen on invocation; non-target choices occur on resolution unless stated
@@ -109,7 +111,7 @@ Cost: 1 Authority. Resolution: spell.
 
 Timing: Any time you could cast an instant.
 
-Cast a copy of the card Disallow without paying its mana cost.
+Create a copy of the card named Disallow. Cast the copy without paying its mana cost.
 
 Rules details: Disallow reads: Counter target spell, activated ability, or triggered ability. The copy is cast as a spell; players may respond and counter it normally.
 
@@ -129,7 +131,7 @@ Cost: 1 Authority. Resolution: ability.
 
 Timing: While an opponent's spell or ability with a single target targets you or a permanent you control, and you have priority.
 
-Change the target of that spell or ability to another legal target.
+Change the target of the chosen spell or ability with a single target.
 
 Rules details: Choose the eligible spell or ability when invoking this Command. It must be controlled by an opponent, have a single target, and target you or a permanent you control. This Command does not target that spell or ability. The replacement target must be legal for it.
 
@@ -161,9 +163,9 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
-Change the target of target spell or ability with a single target to another legal target.
+You may choose new targets for target spell or ability.
 
-Rules details: Another legal target must exist. Mana abilities do not use the stack.
+Rules details: Choose any number of legal new targets on resolution. Keep the number of targets and any division of damage or counters unchanged.
 
 #### Imperial Reflection — II-A
 
@@ -171,7 +173,7 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dom
 
 Timing: Any time you have priority.
 
-Choose one -
+Choose one —
 
 - Copy target activated or triggered ability an opponent controls. You may choose new targets for the copy.
 
@@ -205,13 +207,13 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: Any time you have priority.
 
-Choose one -
+Choose one —
 
 - Exile target spell.
 
 - Counter target activated or triggered ability.
 
-This ability can't be countered or copied and its target can't be changed.
+This ability can't be countered or copied, and its target can't be changed.
 
 Rules details: Choose the mode and target on invocation. Abilities are countered, not exiled. Exiling a spell is not countering it. Removing this Command from the stack without countering it is still possible.
 
@@ -223,13 +225,13 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-The party votes for blood or tribute.
+Each opponent votes for blood or tribute. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Blood - Each opponent loses X life, where X is 2 plus Party Scale.
+- Blood — Each opponent loses X life, where X is 2 plus Party Scale.
 
-Tribute - Draw two cards, create a number of Treasure tokens equal to Party Scale, and create a 3/3 black Demon creature token with flying.
+- Tribute — Draw two cards, create X Treasure tokens, where X is Party Scale, and create a 3/3 black Demon creature token with flying.
 
-Rules details: Both options are available. Life loss is an effect, not a life payment.
+Rules details: Both options are available. Life loss is an effect, not a life payment. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### Feed the Darkness — I-B
 
@@ -237,13 +239,13 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-The party votes for starve or feed.
+Each opponent votes for starve or feed. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Starve - Each opponent discards a card.
+- Starve — Each opponent discards a card.
 
-Feed - You may return a permanent card from your graveyard to your hand. Create a number of Treasure tokens equal to Party Scale.
+- Feed — You may return a permanent card from your graveyard to your hand. Create X Treasure tokens, where X is Party Scale.
 
-Rules details: Starve is available only if each opponent has a card in hand. Feed is always available. The graveyard card is chosen on resolution and is not targeted.
+Rules details: Starve is available only if each opponent has a card in hand. Feed is always available. The graveyard card is chosen on resolution and is not targeted. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### Kneel or Bleed — II-A
 
@@ -251,13 +253,13 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Tor
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-The party votes for kneel or bleed.
+Each opponent votes for kneel or bleed. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Kneel - For each opponent, choose a creature they control. Tap those creatures and put a stun counter on each of them.
+- Kneel — For each opponent, choose a creature they control. Tap those creatures and put a stun counter on each of them.
 
-Bleed - Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers no more than three times for each player.
+- Bleed — Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers only three times for each player.
 
-Rules details: Kneel is available only if each opponent controls a creature. Bleed is always available. Its trigger limit is shared across attacking and activating abilities, separately for each opponent.
+Rules details: Kneel is available only if each opponent controls a creature. Bleed is always available. Its trigger limit is shared across attacking and activating abilities, separately for each opponent. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### Divide the Alliance — II-B
 
@@ -265,13 +267,13 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Tor
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-The party votes for together or alone.
+Each opponent votes for together or alone. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Together - Each opponent loses 3 life and discards a card.
+- Together — Each opponent loses 3 life and discards a card.
 
-Alone - The party votes for an opponent. That player loses 7 life, discards two cards, and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
+- Alone — Each opponent votes for an opponent. Choose an opponent with the most votes or tied for the most votes. That player loses 7 life, discards two cards, and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
 
-Rules details: Together requires every opponent to have a card in hand. Alone requires an eligible opponent with at least two cards in hand and a nonland permanent. If neither option is available, resolve Together as much as possible. The affected player chooses among tied permanents.
+Rules details: Together requires every opponent to have a card in hand. Alone requires an eligible opponent with at least two cards in hand and a nonland permanent. If neither option is available, resolve Together as much as possible. The affected player chooses among tied permanents. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### No Safe Answer — III
 
@@ -279,13 +281,13 @@ Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in To
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-The party votes for ruin or despair.
+Each opponent votes for ruin or despair. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Ruin - Each opponent sacrifices a nonland permanent with the greatest mana value among nonland permanents they control. Draw a card for each opponent who didn't sacrifice a permanent this way, up to two cards.
+- Ruin — Each opponent sacrifices a nonland permanent with the greatest mana value among nonland permanents they control. Draw X cards, where X is the number of opponents who didn't sacrifice a permanent this way or 2, whichever is less.
 
-Despair - Each opponent discards a card, mills three cards, and loses 4 life.
+- Despair — Each opponent discards a card, mills three cards, and loses 4 life.
 
-Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Mill can benefit graveyard decks; it is not additional unavoidable damage.
+Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Mill can benefit graveyard decks; it is not additional unavoidable damage. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### The Final Bargain — Capstone
 
@@ -293,15 +295,15 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: Any time you have priority.
 
-The party votes for submit or resist.
+Each opponent votes for submit or resist. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-Submit - Take an extra turn after this one. You can't invoke Commands during that extra turn. End the turn.
+- Submit — Take an extra turn after this one. You can't invoke Commands during that extra turn. End the turn.
 
-Resist - Each opponent loses 4 life and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
+- Resist — Each opponent loses 4 life and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
 
 This ability can't be countered.
 
-Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Create the extra turn before ending the current turn. Doom and ordinary spells still follow their own rules.
+Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Create the extra turn before ending the current turn. Doom and ordinary spells still follow their own rules. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 ### Suppression
 
@@ -311,7 +313,7 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During combat before combat damage, or during your main phase with an empty stack, while you have priority.
 
-Choose up to X target creatures your opponents control, where X is Party Scale. Tap those creatures and put a stun counter on each of them. Creatures you control gain menace until end of turn.
+Tap up to X target creatures your opponents control, where X is Party Scale. Put a stun counter on each of those creatures. Creatures you control gain menace until end of turn.
 
 Rules details: Choose targets on invocation. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets to grant menace.
 
@@ -321,7 +323,7 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
-Choose up to X nonland permanents your opponents control, where X is Party Scale. Until your next turn, those permanents lose all abilities other than mana abilities. Whenever one of those permanents leaves the battlefield during that time, draw a card. This ability triggers no more than twice.
+Choose up to X nonland permanents your opponents control, where X is Party Scale. Until your next turn, those permanents lose all abilities except mana abilities. Until your next turn, whenever one of those permanents leaves the battlefield, draw a card. This ability triggers only twice.
 
 Rules details: Choose on resolution; this does not target. Mana abilities remain. The two-card limit is shared across all selected permanents. Removing characteristic-defining abilities can change a creature's power or toughness.
 
@@ -331,7 +333,7 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Sup
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Target opponent chooses a creature with the greatest power among creatures they control. Gain control of that creature until your next turn. Untap it. It gains haste until end of turn and attacks its owner this turn if able.
+Target opponent chooses a creature they control with the greatest power among creatures they control. Gain control of that creature until your next turn. Untap it. It gains haste until end of turn. It attacks its owner this turn if able.
 
 Rules details: The opponent chooses among tied creatures. Only the player is targeted. If they control no creatures, no creature changes control.
 
@@ -361,7 +363,7 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: Any time you have priority.
 
-For each opponent, choose a nonland permanent they control. Until your next turn, those permanents lose hexproof and indestructible and their activated abilities other than mana abilities can't be activated. Destroy up to one of those permanents. This ability can't be countered.
+For each opponent, choose a nonland permanent they control. Until your next turn, those permanents lose hexproof and indestructible, and their activated abilities can't be activated unless they're mana abilities. Destroy up to one of those permanents. This ability can't be countered.
 
 Rules details: Choices are made on resolution and do not target. Other permanents and triggered abilities are unaffected. This removes one permanent, not one per opponent; mana abilities remain available.
 
@@ -373,7 +375,7 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Choose vigilance, menace, or reach. Create a number of 3/3 black Demon creature tokens equal to Party Scale with the chosen ability.
+Choose vigilance, menace, or reach. Create X 3/3 black Demon creature tokens with that ability, where X is Party Scale.
 
 Rules details: Choose the ability on resolution. The tokens keep it while they remain on the battlefield; normal encounter cleanup still applies.
 
@@ -383,7 +385,7 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Draw two cards, then discard a card. You may sacrifice a token. If you do, create a number of Treasure tokens equal to Party Scale and draw a card.
+Draw two cards, then discard a card. You may sacrifice a token. If you do, create X Treasure tokens, where X is Party Scale, and draw a card.
 
 Rules details: The sacrifice is optional and occurs on resolution. A Treasure is a token; it is sacrificed to this effect, not to its mana ability.
 
@@ -393,7 +395,7 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Asc
 
 Timing: During your beginning of combat step, while you have priority.
 
-Put two +1/+1 counters on target creature you control. Untap it. It gains trample, haste, and ward {2} until your next turn. Whenever that creature deals combat damage to a player this turn, draw two cards. This ability triggers only once.
+Put two +1/+1 counters on target creature you control. Untap it. It gains trample, haste, and ward {2} until your next turn. Until end of turn, whenever that creature deals combat damage to a player, draw two cards. This ability triggers only once.
 
 Rules details: The combat-damage reward occurs once in total, not once per opponent. Ward uses a triggered ability and does not make the creature untargetable.
 
@@ -413,7 +415,7 @@ Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in As
 
 Timing: During your beginning of combat step, while you have priority.
 
-Until your next turn, creatures you control get +2/+2 and gain trample and ward {2}. Whenever one or more creatures you control deal combat damage to a player this turn, create a Treasure token and draw a card. This ability triggers only once for each player.
+Until your next turn, creatures you control get +2/+2 and gain trample and ward {2}. Until end of turn, whenever one or more creatures you control deal combat damage to a player, create a Treasure token and draw a card. This ability triggers only once for each player.
 
 Rules details: Only creatures you control as this Command resolves gain the bonus. Track each damaged opponent publicly; double strike and extra combats don't grant another reward for that opponent.
 
@@ -423,15 +425,15 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Choose one -
+Choose one —
 
 - Return a creature card from your graveyard to the battlefield with an MTGR finality marker on it.
 
-- If you have fewer than five cards in hand, draw cards equal to the difference.
+- Draw cards until you have five cards in hand.
 
-Create a number of 4/4 black Avatar creature tokens equal to Party Scale. Creatures you control gain haste until end of turn. This ability can't be countered.
+Create X 4/4 black Avatar creature tokens, where X is Party Scale. Creatures you control gain haste until end of turn. This ability can't be countered.
 
-Rules details: Choose the mode on invocation. For the return mode, choose the creature on resolution; it is not targeted. The draw mode does nothing with five or more cards in hand. The Avatar and haste effects occur in either mode.
+Rules details: Choose the mode on invocation. For the return mode, choose the creature on resolution; it is not targeted. The draw mode does nothing with five or more cards in hand. The Avatar and haste effects occur in either mode. An MTGR finality marker means that if that permanent would leave the battlefield for a zone other than exile, exile it instead. This replacement effect applies even if it loses its abilities.
 
 ## Rebalance from the source draft
 
