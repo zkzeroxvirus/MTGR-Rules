@@ -1330,6 +1330,7 @@
         "rules addendum"
       ],
       "related": [
+        "encounter-types",
         "combo-restrictions",
         "turn-structure",
         "player-vs-player-combat",

@@ -1,6 +1,6 @@
 # Notebook Addendum Accuracy Review
 
-Reviewed on October 7, 2026. This is an implementation review, not a separate gameplay authority. Active wording remains in the canonical units under `rules/`.
+Reviewed on October 7–8, 2026. This is an implementation review, not a separate gameplay authority. Active wording remains in the canonical units under `rules/`.
 
 ## Findings and corrections
 
@@ -15,7 +15,8 @@ Reviewed on October 7, 2026. This is an implementation review, not a separate ga
 | Card legality | `notebook-addendum`, `banned-restricted`, `deckbuilding` | Preserved paper-only eligibility, Commander legality except explicit MTGR exceptions, and no Alchemy-only cards. Explicitly retained MTGR bans and restrictions. |
 | Color identity | `deckbuilding`, `card-acquisition`, `town-buildings` | Confirmed the initial pool's color restriction and the eligibility of later off-color cards from unrestricted effects. |
 | Initial pool validation | `deckbuilding` | Confirmed 100 cards, a 22-card draft, no basic lands, replacement of invalid individual cards, and no whole-pool reroll. |
-| Pre-Con Draft | `notebook-addendum` | Retained its disabled status; the current starting deck procedure uses the 100-card pool. |
+| Precon Battle | `encounter-types`, `notebook-addendum` | Confirmed that Precon Battle is in the active encounter pool. The Addendum points to the existing Encounter Types setup without duplicating it. |
+| Pre-Con Draft | `notebook-addendum` | Clarified that its disabled status applies to starting player decks, separately from the active Precon Battle encounter. The current starting deck procedure uses the 100-card pool. |
 | Combos and infinites | `combo-restrictions`, `deckbuilding` | Added minimum-required-card counting across zones, the recurring-protection distinction, and both disputed examples while retaining the existing win-combo bans and restricted-loop limits. |
 | Deck minimum and Town removals | `deck-minimum`, `town-buildings`, `town-flow`, `global-limits` | Incorporated the supplied Host clarification: 40 cards including Commander(s), modified by applicable effects; temporary Town shortages must be repaired through permitted actions before leaving. Added the Tavern 40→38 and 42→40 examples. |
 | Cathedral access | `town-buildings`, `notebook-addendum` | Confirmed the active Town → Cathedral button in `tts/src/objects/player-profile-token.lua`; a separate building is not needed to submit the request. |
@@ -42,5 +43,6 @@ The supplied Jade/Sirin exchange is the authority for the planned progression sp
 - Rendered the five managed Notebook tabs through Platform's `createNotebookFeedService` using the local Rules checkout, and inspected the complete Addendum body, both combo examples, Town deadline, Cathedral access, Crypt decklist guidance, End Session instructions, and profile/release guidance. The final Addendum is 14,316 characters; all five tabs retain Grey presentation.
 - Platform `npm run check` passed its content and TTS validation.
 - During the preceding combo review, Platform `npm run test:api` passed all 781 tests with normal isolated workers. Sandbox child-process restrictions required running this read-only test command outside the sandbox. This follow-up changed only Rules documents and composition; no Platform source changes were needed.
+- October 8 Precon Battle clarification: Rules build/check passed. Rendering through the formatting change in Platform PR #77 preserved the purple/cyan/gray palette and all four other tabs; the updated Addendum is 14,724 characters. The Precon Battle heading uses the existing gray subsection style.
 
 The live Notebook feed reads the published MTGR-Rules `main` branch. Local verification does not publish these changes or update an already open TTS table.
