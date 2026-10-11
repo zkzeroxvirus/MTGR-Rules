@@ -1503,10 +1503,10 @@
     },
     "reap_what_you_sow": {
       "source": "rules/progression/crypt-buffs/reap-what-you-sow.md",
-      "sha256": "040c2a82bb875ed5edaceb83715867b9e7bd4f6e1eac43740bc0a7d5408ac28a",
-      "markdown": "# **Reap What You Sow**\n\n**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---\n",
-      "description": "**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---",
-      "plainText": "Effect\nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.\n\nUnlock Source\nBeat Harvest Moon."
+      "sha256": "3088cf8c4ca9e42e58f91c77ca50ff67ed89905f0addc0c1dd3d10261fd52327",
+      "markdown": "# **Reap What You Sow**\n\n**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect an opponent or an object by referring to an opponent, it affects you or refers to you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---\n",
+      "description": "**Effect**  \nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect an opponent or an object by referring to an opponent, it affects you or refers to you instead.\n\n**Unlock Source**  \nBeat Harvest Moon.\n\n---",
+      "plainText": "Effect\nIf a spell or ability you control would affect all players, it affects only you and your opponents instead.\n\nIf a spell or ability you control would affect an opponent or an object by referring to an opponent, it affects you or refers to you instead.\n\nUnlock Source\nBeat Harvest Moon."
     },
     "event-bad-wave-bro": {
       "source": "rules/between-encounters/events/bad-wave-bro.md",
