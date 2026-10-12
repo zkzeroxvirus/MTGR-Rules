@@ -1,0 +1,3 @@
+# Local document previews and investigation worktrees
+.codex-work/
+proposals/*.png
