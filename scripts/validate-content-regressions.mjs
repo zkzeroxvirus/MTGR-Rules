@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const read = (relative) => readFile(path.join(root, relative), "utf8");
 const manifest = JSON.parse(await read("rulebook-manifest.json"));
+const progressionContracts = JSON.parse(await read("PROGRESSION-CONTRACTS.json"));
 const ruleMap = new Map((manifest.rules || []).map((rule) => [rule.id, rule]));
 const fail = (message) => { throw new Error(`Content regression validation failed: ${message}`); };
 
@@ -55,6 +56,49 @@ for (const rule of manifest.rules || []) {
     if (pattern.test(markdown)) fail(`${rule.id} contains ${label}`);
   }
 }
+
+// Platform omits Slot Cost from progression descriptions. Gameplay prose in
+// that block would disappear from the API and managed Player Profile.
+const progressionLabels = new Set(["effect", "rules", "unlock source", "unlock requirement", "slot cost"]);
+for (const entries of Object.values(progressionContracts.categories || {})) {
+  for (const [id, entry] of Object.entries(entries)) {
+    const markdown = await read(entry.source);
+    let slotLines = null;
+    const validateSlotCost = () => {
+      if (slotLines && (slotLines.length !== 1 || !/^\d+$/.test(slotLines[0]))) {
+        fail(`${id} Slot Cost must contain only one integer; put gameplay prose under Effect, Rules, or an Unlock block`);
+      }
+    };
+    for (const line of markdown.replace(/\r\n?/g, "\n").split("\n")) {
+      const trimmed = line.trim();
+      const label = trimmed.match(/^\*\*([^*]+)\*\*\s*$/)?.[1]?.trim().toLowerCase();
+      if (progressionLabels.has(label)) {
+        validateSlotCost();
+        slotLines = label === "slot cost" ? [] : null;
+      } else if (slotLines && trimmed && trimmed !== "---") {
+        slotLines.push(trimmed);
+      }
+    }
+    validateSlotCost();
+  }
+}
+
+const bannedText = await requireRulePatterns("banned-restricted", [
+  ["draft-matters excluded from random generation including Mystery", /Random card generation, including Mystery Packs, excludes Commander-legal cards[\s\S]*draft-matters/i],
+  ["Host override remains available", /unless overridden by the Host/i],
+]);
+const fullBanSection = bannedText.match(/##[^\n]*FULL BAN[^\n]*\n([\s\S]*?)(?=\n##|$)/)?.[1];
+const fullBanNames = new Set((fullBanSection || "").split("\n").map((line) => (
+  line.replace(/^•\s*/, "").replace(/\\\s*$/, "").trim()
+)));
+for (const name of ["Círdan the Shipwright", "Braids, Conjurer Adept", "Ramses, Assassin Lord", "Expropriate", "The Unbeatable Squirrel Girl"]) {
+  if (!fullBanNames.has(name)) fail(`banned-restricted lost named full ban: ${name}`);
+}
+
+await requireRulePatterns("progression-shop", [
+  ["duplicate Achievement converts to 100 Essence", /Achievement you already have unlocked[^\n]*automatically converted to \*\*100 Essence\*\*/i],
+  ["duplicate Crypt Buff remains 250 Essence", /Crypt completion awards a Crypt Buff you already have unlocked[^\n]*\+250 Essence/i],
+]);
 
 await requireRulePatterns("stay-out-flow", [
   ["10 XP base", /10 XP/i],
@@ -130,13 +174,27 @@ await requireRulePatterns("town-buildings", [
   ["Cathedral double mana value Essence", /Essence equal to 2× its mana value/i],
   ["Guild 10 XP plus d6", /Cost:\*\* 10 XP \+ roll a d6/i],
   ["Guild roll plus two", /roll \+ 2/i],
+  ["Guild rolls its quantity die once per use", /Roll the d6 once per Guild use/i],
+  ["Guild reroll canonical reference", /Free Commander rerolls follow \[Brand of Recurrence\]\(\.\.\/progression\/brands\/brand-of-recurrence\.md\)/i],
   ["Merchant 15-card base pack", /15-card base pack/i],
   ["Merchant keep one", /keep \*\*1 card\*\*/i],
+  ["Mystery Commander-format exception", /Mystery Packs may generate cards that are not Commander-legal/i],
+  ["Mystery exception remains limited to its acquired cards", /This exception applies to cards gained from Mystery Packs/i],
+  ["Mystery retains paper printing and MTGR bans", /Their cards must still have a paper printing and follow \[Banned & Restricted\][^\n]*including the random-generation exclusions/i],
   ["Mystic 5 XP", /MYSTIC[\s\S]*Cost:\*\* 5 XP/i],
   ["Portal 15 XP cap", /PORTAL[\s\S]*Up to 15 XP/i],
   ["Portal Temporal cards", /All generated cards are \*\*Temporal\*\*/i],
   ["Tavern option A", /Remove 0[–-]2 cards[\s\S]*Add 0[–-]4 basic lands/i],
   ["Tavern option B", /Remove 3[–-]5 basic lands[\s\S]*Add 0[–-]2 dual lands/i],
+]);
+
+await requireFilePatterns("rules/progression/brands/brand-of-recurrence.md", [
+  ["Guild rerolls replace the entire selection", /When using The Guild, each free reroll replaces the entire generated Commander selection/i],
+  ["Guild rerolls retain count and colors", /same number of choices in the same declared colors/i],
+  ["Guild rerolls retain quantity die and Brand bonuses", /Keep the original d6 result and Brand bonuses/i],
+  ["Guild rerolls cost no additional XP", /No additional XP is charged/i],
+  ["successful generation precedes replacement", /Replace the current choices only after the new selection generates successfully/i],
+  ["failed rerolls preserve choices and allowance", /A failed generation keeps the current choices and consumes no reroll/i],
 ]);
 
 await requireRulePatterns("travelers-system", [
@@ -342,6 +400,7 @@ await requireFilePatterns("rules/progression/tickets/trinket-ticket.md", [
   ["fresh Cashout options", /another Trinket Ticket from a Cashout/i],
   ["persists across runs", /persists across runs/i],
   ["per-player slot ownership", /slot use are per player/i],
+  ["additional party Trinket survives progression rendering", /\*\*Rules\*\*[\s\S]*chosen Trinket is additional to the normal voted party Trinket[\s\S]*Any party member may use it[\s\S]*\*\*Slot Cost\*\*/i],
 ]);
 
 for (const [relative, label] of [

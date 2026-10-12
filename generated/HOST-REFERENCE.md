@@ -434,6 +434,10 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 #### **🚫 FULL BAN**
 
 • The Unbeatable Squirrel Girl\
+• Círdan the Shipwright\
+• Braids, Conjurer Adept\
+• Ramses, Assassin Lord\
+• Expropriate\
 • Show and Tell  
 • **Full-turn silence effects:** effects that can be used before the Host has a normal opportunity to cast a spell and then prevent the Host from casting all spells for the rest of that turn. Current examples include **Silence** and **Orim's Chant**  
 • Collective Voyage  
@@ -462,6 +466,10 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 • Ward of Bones: Cannot be obtained via Scryfall or targeted search  
 • Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
+
+#### **🎲 RANDOM CARD GENERATION**
+
+Random card generation, including Mystery Packs, excludes Commander-legal cards whose effects depend on drafting (**draft-matters**).
 
 Applies to all MTGR runs unless overridden by the Host.
 
@@ -2939,6 +2947,7 @@ Your old Commander goes to your **deck or sideboard**.
 **Rules:**
 
 * Declare color combination **before rolling**.
+* Roll the d6 once per Guild use. Free Commander rerolls follow [Brand of Recurrence](../progression/brands/brand-of-recurrence.md).
 * Generated Commanders must follow normal Commander legality rules.
 * Changing Commander does **not** force existing cards in your Deck or Sideboard to match the new Commander's color identity.
 * The new Commander's color identity is used only by later effects that explicitly generate or search within your current Commander color identity.
@@ -2955,7 +2964,7 @@ Open a **15-card base pack**, then keep **1 card**.
 
 | Cost | Pack | Rules |
 | :--- | :--- | :--- |
-| 5 XP | Mystery Pack | Any color; no color-identity restriction |
+| 5 XP | Mystery Pack | Any color; may include cards that are not Commander-legal |
 | 10 XP | ID Pack | **Must be within your current Commander's color identity** |
 | 20 XP | Pro Pack | Any color + 1 search parameter |
 | 50 XP | Mythic Pack | Any color + 2 search parameters |
@@ -2964,6 +2973,8 @@ Open a **15-card base pack**, then keep **1 card**.
 **Search parameters:** supertype, type, subtype, keyword, mana value.
 
 **Rules:** Only the **ID Pack** is restricted to your current Commander's color identity. Mystery, Pro, Mythic, and OTAG Packs may contain cards of any color. Pro, Mythic, and OTAG still use their listed search requirements. Commander color identity is not a general gameplay deck restriction: cards already owned or gained from unrestricted sources may remain in your Deck or Sideboard regardless of color identity.
+
+Mystery Packs may generate cards that are not Commander-legal. This exception applies to cards gained from Mystery Packs. Their cards must still have a paper printing and follow [Banned & Restricted](../getting-started/banned-restricted.md), including the random-generation exclusions.
 
 ---
 

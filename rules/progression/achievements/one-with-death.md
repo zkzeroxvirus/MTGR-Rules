@@ -1,9 +1,9 @@
 # **One with Death**
 
 **Effect**  
-Gain a second free card during deck creation. One of those free cards can be a Gamechanger.
+Gain a second free card during deck creation. One of those free cards can be a Game Changer.
 
 **Unlock Requirement**  
-Beat a Crypt fight on turn two.
+Defeat the crypt before the party takes their third turn.
 
 ---

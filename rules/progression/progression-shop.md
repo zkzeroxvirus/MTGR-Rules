@@ -15,6 +15,10 @@ All purchases use **Essence**.
 
 *Example: A 1000 Essence Brand costs 1000 for Rank 1, 2000 for Rank 2, 3000 for Rank 3, and so on.*
 
+## Duplicate Achievements — 100 Essence
+
+If you receive an Achievement you already have unlocked, that duplicate is automatically converted to **100 Essence**.
+
 ## After-run Progression Options
 
 After a run ends, players may use the Progression Shop options below.
