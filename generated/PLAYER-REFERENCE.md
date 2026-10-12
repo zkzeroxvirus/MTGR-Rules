@@ -409,6 +409,11 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 
 #### **🚫 FULL BAN**
 
+• The Unbeatable Squirrel Girl\
+• Círdan the Shipwright\
+• Braids, Conjurer Adept\
+• Ramses, Assassin Lord\
+• Expropriate\
 • Show and Tell  
 • **Full-turn silence effects:** effects that can be used before the Host has a normal opportunity to cast a spell and then prevent the Host from casting all spells for the rest of that turn. Current examples include **Silence** and **Orim's Chant**  
 • Collective Voyage  
@@ -437,6 +442,10 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 • Ward of Bones: Cannot be obtained via Scryfall or targeted search  
 • Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
+
+#### **🎲 RANDOM CARD GENERATION**
+
+Random card generation, including Mystery Packs, excludes Commander-legal cards whose effects depend on drafting (**draft-matters**).
 
 Applies to all MTGR runs unless overridden by the Host.
 
@@ -2914,6 +2923,7 @@ Your old Commander goes to your **deck or sideboard**.
 **Rules:**
 
 * Declare color combination **before rolling**.
+* Roll the d6 once per Guild use. Free Commander rerolls follow [Brand of Recurrence](../progression/brands/brand-of-recurrence.md).
 * Generated Commanders must follow normal Commander legality rules.
 * Changing Commander does **not** force existing cards in your Deck or Sideboard to match the new Commander's color identity.
 * The new Commander's color identity is used only by later effects that explicitly generate or search within your current Commander color identity.
@@ -2930,7 +2940,7 @@ Open a **15-card base pack**, then keep **1 card**.
 
 | Cost | Pack | Rules |
 | :--- | :--- | :--- |
-| 5 XP | Mystery Pack | Any color; no color-identity restriction |
+| 5 XP | Mystery Pack | Any color; may include cards that are not Commander-legal |
 | 10 XP | ID Pack | **Must be within your current Commander's color identity** |
 | 20 XP | Pro Pack | Any color + 1 search parameter |
 | 50 XP | Mythic Pack | Any color + 2 search parameters |
@@ -2939,6 +2949,8 @@ Open a **15-card base pack**, then keep **1 card**.
 **Search parameters:** supertype, type, subtype, keyword, mana value.
 
 **Rules:** Only the **ID Pack** is restricted to your current Commander's color identity. Mystery, Pro, Mythic, and OTAG Packs may contain cards of any color. Pro, Mythic, and OTAG still use their listed search requirements. Commander color identity is not a general gameplay deck restriction: cards already owned or gained from unrestricted sources may remain in your Deck or Sideboard regardless of color identity.
+
+Mystery Packs may generate cards that are not Commander-legal. This exception applies to cards gained from Mystery Packs. Their cards must still have a paper printing and follow [Banned & Restricted](../getting-started/banned-restricted.md), including the random-generation exclusions.
 
 ---
 
@@ -4063,11 +4075,17 @@ The current Crypt Buff, Ticket, Brand, and Achievement entries are maintained as
 
 - Crypt decklists are maintained on Archidekt. Ask the Host for the relevant deck's link; follow The Crypt rule for final-boss setup and the mandatory Town visit.
 
+#### 🎲 ENCOUNTER OPTIONS
+
+##### Precon Battle
+
+- Precon Battle is available in the encounter pool. See **Encounter Types → Precon Battle** for setup.
+
 #### 🗃️ DISABLED OPTIONS
 
 ##### Pre-Con Draft Option
 
-- Disabled.
+- Disabled for starting player decks.
 
 <!-- rule:brands-system -->
 ### Brands System
@@ -4122,6 +4140,10 @@ All purchases use **Essence**.
 **Brands:** Brands are a separate progression layer. Each Brand has **Ranks** and may be purchased multiple times. Each time you purchase a Brand, its Rank increases by 1. The cost to purchase a Brand is equal to its **base value × its current Rank**.
 
 *Example: A 1000 Essence Brand costs 1000 for Rank 1, 2000 for Rank 2, 3000 for Rank 3, and so on.*
+
+#### Duplicate Achievements — 100 Essence
+
+If you receive an Achievement you already have unlocked, that duplicate is automatically converted to **100 Essence**.
 
 #### After-run Progression Options
 
@@ -5633,7 +5655,7 @@ Beat High Tide Hijinks.
 **Effect**  
 If a spell or ability you control would affect all players, it affects only you and your opponents instead.
 
-If a spell or ability you control would affect a player other than you, and only if that player is your opponent, it affects you instead.
+If a spell or ability you control would affect an opponent or an object by referring to an opponent, it affects you or refers to you instead.
 
 **Unlock Source**  
 Beat Harvest Moon.
@@ -5717,12 +5739,12 @@ You see Trinket options only once per session. You may decline to commit to a Tr
 
 The Ticket persists across runs. Ticket ownership and slot use are per player rather than a shared party Trinket slot.
 
+The chosen Trinket is additional to the normal voted party Trinket. Any party member may use it unless its text says otherwise. Each player with an active Ticket resolves their own selection under the Trinket System.
+
 **Slot Cost**  
 1
 
 ---
-
-The chosen Trinket is additional to the normal voted party Trinket. Any party member may use it unless its text says otherwise. Each player with an active Ticket resolves their own selection under the Trinket System.
 
 <!-- progression:conspiracy_ticket -->
 #### **Conspiracy Ticket**
@@ -5793,6 +5815,12 @@ During deckbuilding and when using The Guild, each Rank gives you 1 additional C
 During deckbuilding and when using The Guild, each Rank gives you 1 additional free Commander reroll.
 
 This applies to Commander generation only and does not allow rerolling the 100-card draft pool.
+
+**Rules**
+
+When using The Guild, each free reroll replaces the entire generated Commander selection with the same number of choices in the same declared colors. Keep the original d6 result and Brand bonuses. No additional XP is charged.
+
+Replace the current choices only after the new selection generates successfully. A failed generation keeps the current choices and consumes no reroll.
 
 ---
 
@@ -5888,10 +5916,10 @@ Beat 3 Crypt bosses in a single session.
 #### **One with Death**
 
 **Effect**  
-Gain a second free card during deck creation. One of those free cards can be a Gamechanger.
+Gain a second free card during deck creation. One of those free cards can be a Game Changer.
 
 **Unlock Requirement**  
-Beat a Crypt fight on turn two.
+Defeat the crypt before the party takes their third turn.
 
 ---
 
@@ -5924,7 +5952,7 @@ Discard 15 cards during a single encounter as a result of your own spells, abili
 Once per encounter, you may have target player gain 10 life. You may use this ability at instant speed.
 
 **Unlock Requirement**  
-Cause a non-Host player to lose the game without dealing damage to them.
+Cause one non-Host player to lose the game without targeting or dealing combat damage.
 
 ---
 

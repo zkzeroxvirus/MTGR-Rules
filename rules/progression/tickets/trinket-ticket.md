@@ -11,9 +11,9 @@ You see Trinket options only once per session. You may decline to commit to a Tr
 
 The Ticket persists across runs. Ticket ownership and slot use are per player rather than a shared party Trinket slot.
 
+The chosen Trinket is additional to the normal voted party Trinket. Any party member may use it unless its text says otherwise. Each player with an active Ticket resolves their own selection under the Trinket System.
+
 **Slot Cost**  
 1
 
 ---
-
-The chosen Trinket is additional to the normal voted party Trinket. Any party member may use it unless its text says otherwise. Each player with an active Ticket resolves their own selection under the Trinket System.

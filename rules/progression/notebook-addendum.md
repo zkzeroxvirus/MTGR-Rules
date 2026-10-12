@@ -57,8 +57,14 @@
 
 - Crypt decklists are maintained on Archidekt. Ask the Host for the relevant deck's link; follow The Crypt rule for final-boss setup and the mandatory Town visit.
 
+## 🎲 ENCOUNTER OPTIONS
+
+### Precon Battle
+
+- Precon Battle is available in the encounter pool. See **Encounter Types → Precon Battle** for setup.
+
 ## 🗃️ DISABLED OPTIONS
 
 ### Pre-Con Draft Option
 
-- Disabled.
+- Disabled for starting player decks.

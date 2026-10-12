@@ -2,6 +2,11 @@
 
 ## **🚫 FULL BAN**
 
+• The Unbeatable Squirrel Girl\
+• Círdan the Shipwright\
+• Braids, Conjurer Adept\
+• Ramses, Assassin Lord\
+• Expropriate\
 • Show and Tell  
 • **Full-turn silence effects:** effects that can be used before the Host has a normal opportunity to cast a spell and then prevent the Host from casting all spells for the rest of that turn. Current examples include **Silence** and **Orim's Chant**  
 • Collective Voyage  
@@ -30,6 +35,10 @@
 • Ward of Bones: Cannot be obtained via Scryfall or targeted search  
 • Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
 • Tree of Perdition: Cannot be used with Balloon effects  
+
+## **🎲 RANDOM CARD GENERATION**
+
+Random card generation, including Mystery Packs, excludes Commander-legal cards whose effects depend on drafting (**draft-matters**).
 
 Applies to all MTGR runs unless overridden by the Host.
 
