@@ -2,6 +2,7 @@
 
 ## **🚫 FULL BAN**
 
+• The Unbeatable Squirrel Girl\
 • Show and Tell  
 • **Full-turn silence effects:** effects that can be used before the Host has a normal opportunity to cast a spell and then prevent the Host from casting all spells for the rest of that turn. Current examples include **Silence** and **Orim's Chant**  
 • Collective Voyage  
