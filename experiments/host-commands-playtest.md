@@ -395,9 +395,9 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Asc
 
 Timing: During your beginning of combat step, while you have priority.
 
-Put two +1/+1 counters on target creature you control. Untap it. It gains trample, haste, and ward {2} until your next turn. Until end of turn, whenever that creature deals combat damage to a player, draw two cards. This ability triggers only once.
+Put four +1/+1 counters on target creature you control and untap it. It gains trample, haste, and ward {2} until your next turn and double strike until end of turn. Whenever it deals combat damage to a player for the first time this turn, draw two cards and create two Treasure tokens.
 
-Rules details: The combat-damage reward occurs once in total, not once per opponent. Ward uses a triggered ability and does not make the creature untargetable.
+Rules details: The combat-damage ability triggers only once that turn, even with double strike or additional combats. Ward uses a triggered ability and does not make the creature untargetable.
 
 #### Relentless Return — II-B
 
@@ -427,13 +427,13 @@ Timing: During your main phase, while the stack is empty and you have priority.
 
 Choose one —
 
-- Return a creature card from your graveyard to the battlefield with an MTGR finality marker on it.
+- Return up to X creature cards from your graveyard to the battlefield with MTGR finality markers on them, where X is Party Scale.
 
-- Draw cards until you have five cards in hand.
+- Draw cards until you have seven cards in hand.
 
-Create X 4/4 black Avatar creature tokens, where X is Party Scale. Creatures you control gain haste until end of turn. This ability can't be countered.
+Then create X 5/5 black Avatar creature tokens with trample, where X is Party Scale. Until your next turn, creatures you control get +2/+2 and gain haste and ward {2}. This ability can't be countered.
 
-Rules details: Choose the mode on invocation. For the return mode, choose the creature on resolution; it is not targeted. The draw mode does nothing with five or more cards in hand. The Avatar and haste effects occur in either mode. An MTGR finality marker means that if that permanent would leave the battlefield for a zone other than exile, exile it instead. This replacement effect applies even if it loses its abilities.
+Rules details: Choose the mode on invocation. For the return mode, choose the creature cards on resolution; they are not targeted. The draw mode does nothing if you already have seven or more cards in hand. The Avatar and creature-enhancement effects occur in either mode. An MTGR finality marker means that if that permanent would leave the battlefield for a zone other than exile, exile it instead. This replacement effect applies even if it loses its abilities.
 
 ## Rebalance from the source draft
 
@@ -453,9 +453,12 @@ Rules details: Choose the mode on invocation. For the return mode, choose the cr
 - Absolute Suppression disables one chosen nonland per opponent and destroys at
   most one chosen permanent in total. It does not disable every party trigger.
 - Ascendancy retains its resource/combat identity. Its rewards have explicit
-  windows and once-per-opponent limits. Its capstone chooses reanimation or
-  refill, not both, alongside Avatars and haste. The draw mode fills to five,
-  never draws five on top of an existing hand.
+  windows and trigger limits. Crowned Champion grants four counters and temporary
+  double strike; its first combat hit draws two cards and creates two Treasures.
+  Its capstone chooses up to Party Scale reanimations or a refill to seven cards,
+  alongside Party Scale 5/5 trampling Avatars and a creature bonus of +2/+2, haste,
+  and ward {2} until the Host's next turn. The draw mode fills to seven,
+  never draws seven on top of an existing hand.
 
 ## Existing profiles
 
