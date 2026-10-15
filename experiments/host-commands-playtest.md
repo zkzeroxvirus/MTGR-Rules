@@ -257,7 +257,7 @@ Each opponent votes for kneel or bleed. Choose one of the modes with the most vo
 
 - Kneel — For each opponent, choose a creature they control. Tap those creatures and put a stun counter on each of them.
 
-- Bleed — Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers only three times for each player.
+- Bleed — Each opponent loses 2 life. Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers only three times for each player.
 
 Rules details: Kneel is available only if each opponent controls a creature. Bleed is always available. Its trigger limit is shared across attacking and activating abilities, separately for each opponent. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
@@ -285,9 +285,9 @@ Each opponent votes for ruin or despair. Choose one of the modes with the most v
 
 - Ruin — Each opponent sacrifices a nonland permanent with the greatest mana value among nonland permanents they control. Draw X cards, where X is the number of opponents who didn't sacrifice a permanent this way or 2, whichever is less.
 
-- Despair — Each opponent discards a card, mills three cards, and loses 4 life.
+- Despair — Each opponent discards a card and loses 4 life. Draw two cards.
 
-Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Mill can benefit graveyard decks; it is not additional unavoidable damage. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
+Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### The Final Bargain — Capstone
 
@@ -363,9 +363,9 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: Any time you have priority.
 
-For each opponent, choose a nonland permanent they control. Until your next turn, those permanents lose hexproof and indestructible, and their activated abilities can't be activated unless they're mana abilities. Destroy up to one of those permanents. This ability can't be countered.
+For each opponent, choose a nonland permanent they control. Until your next turn, those permanents lose hexproof and indestructible, and their activated abilities can't be activated unless they're mana abilities. Destroy up to X of those permanents, where X is Party Scale. This ability can't be countered.
 
-Rules details: Choices are made on resolution and do not target. Other permanents and triggered abilities are unaffected. This removes one permanent, not one per opponent; mana abilities remain available.
+Rules details: Choose on resolution without targeting. Destroy at most one permanent per opponent, up to Party Scale total. Other permanents, triggered abilities and mana abilities are unaffected.
 
 ### Ascendancy
 
