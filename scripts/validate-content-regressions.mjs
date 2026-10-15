@@ -505,3 +505,9 @@ for (const relative of ["generated/TTS-HOST-CHEAT-SHEET.md", "generated/TTS-PLAY
 }
 
 console.log("Validated audited table-critical rules, catalog coverage, and deprecated content guards.");
+
+await requireRulePatterns("trinket-void-lantern", [
+  ["kept opening hands", /After all players have kept their opening hands/i],
+  ["before the first turn", /before the first turn of each encounter begins/i],
+  ["spell discount", /Spells cast this way cost \{1\} less to cast/],
+]);

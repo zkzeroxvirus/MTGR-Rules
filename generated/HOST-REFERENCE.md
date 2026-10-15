@@ -1111,11 +1111,12 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-void-lantern -->
 ### ⊡ VOID LANTERN
 
-> *At the beginning of each encounter, exile the top card of each party member's library. Party members may play cards exiled with Void Lantern. Spells cast this way cost {1} less to cast.*
+> *After all players have kept their opening hands and before the first turn of each encounter begins, exile the top card of each party member's library. Party members may play cards exiled with Void Lantern. Spells cast this way cost {1} less to cast.*
 
-**Timing:** Triggered at the beginning of each encounter.  
+**Timing:** After all players have kept their opening hands and before the first turn of each encounter begins.
+
 **Limit:** Once each encounter (triggered).  
-**Resolution:** Exile the top card of each party member's library face-up. Party members may play (but not cast as spells) cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
+**Resolution:** Exile the top card of each party member's library face-up. Party members may play cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
 
 ---
 
