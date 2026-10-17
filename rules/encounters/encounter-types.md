@@ -117,7 +117,9 @@ When the Host phases in, they gain the Story's Phase Two bonus:
 * The Host gains:
 
 **Wild Magic Surge —**  
-{0}: Roll a d20 and resolve a random effect. Activate only once each turn.
+{0}: Randomly select and reveal one Wild Magic effect as you activate this ability. This ability has the selected effect. Activate only once each turn.
+
+Select and reveal the result during activation, before responses. The result stays locked even if the ability is countered. See [Wild Magic Table](wild-magic-table.md).
 
 * No Affixes are used for this encounter
 * This encounter grants an additional **25 XP**

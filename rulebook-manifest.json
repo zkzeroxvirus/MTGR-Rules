@@ -1369,7 +1369,7 @@
     },
     {
       "id": "demon-general-ember-tyrant-general-of-ash",
-      "title": "🔥 EMBER TYRANT — GENERAL OF ASH",
+      "title": "🔥 ASH TYRANT — GENERAL OF ASH",
       "source": "rules/host/demon-generals/ember-tyrant-general-of-ash.md",
       "phase": "encounter-loop",
       "audience": [
@@ -1385,7 +1385,7 @@
     },
     {
       "id": "demon-general-winter-tyrant-general-of-frost",
-      "title": "❄️ WINTER TYRANT — GENERAL OF FROST",
+      "title": "❄️ FROST TYRANT — GENERAL OF FROST",
       "source": "rules/host/demon-generals/winter-tyrant-general-of-frost.md",
       "phase": "encounter-loop",
       "audience": [
@@ -1401,7 +1401,7 @@
     },
     {
       "id": "demon-general-plague-tyrant-general-of-rot",
-      "title": "☠️ PLAGUE TYRANT — GENERAL OF ROT",
+      "title": "☠️ ROT TYRANT — GENERAL OF ROT",
       "source": "rules/host/demon-generals/plague-tyrant-general-of-rot.md",
       "phase": "encounter-loop",
       "audience": [

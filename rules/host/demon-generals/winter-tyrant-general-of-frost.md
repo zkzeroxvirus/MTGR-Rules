@@ -1,18 +1,7 @@
-# **❄️ WINTER TYRANT — GENERAL OF FROST**
+# **❄️ FROST TYRANT — GENERAL OF FROST**
 
-A supernatural blizzard grips the battlefield.
+**Frost Nova —**
 
-**Passive — Bitter Cold**  
- Creatures opponents control enter the battlefield tapped.
+Each opponent makes a Saving Roll. For each opponent who fails, tap up to two target nonland permanents they control. Those permanents don’t untap during their controller’s next untap step.
 
-**Signature Move — Frost Nova**  
- At the beginning of the Host’s combat step, the Host may unleash Frost Nova.
-
-Each player makes a Saving Roll.
-
-On a failed save:
-
-* That player gains Frozen
-
-Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
----
+Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).

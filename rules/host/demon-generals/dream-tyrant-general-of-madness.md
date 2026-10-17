@@ -1,11 +1,7 @@
 # **🌙 DREAM TYRANT — GENERAL OF MADNESS**
 
-Nightmares invade the minds of the living.
+**Nightmare —**
 
-**Passive — Unstable Thoughts**  
- At the beginning of each player’s upkeep, that player discards a card at random, then draws a card.
+Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost. Put the other cards exiled this way on the bottom of your library in a random order.
 
-**Signature Move — Nightmare Deluge**  
- At the beginning of the Host’s combat step, the Host may unleash Nightmare Deluge.
-
-The Host exiles cards from the top of their library until the total mana value of cards exiled this way is 10 or greater. Then they may cast a spell from among the exiled cards without paying its mana cost.
+Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).

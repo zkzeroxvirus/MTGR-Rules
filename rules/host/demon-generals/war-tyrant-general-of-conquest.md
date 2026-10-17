@@ -1,18 +1,7 @@
 # **⚔️ WAR TYRANT — GENERAL OF CONQUEST**
 
-Battlefields bend to relentless assault.
+**War Cry —**
 
-**Passive — March of War**  
- Creatures the Host controls gain +1/+0.
+Until end of turn, creatures you control get +2/+0, gain trample, and must be blocked if able.
 
-**Signature Move — War Cry**  
- At the beginning of the Host’s combat step, the Host may unleash War Cry.
-
-Creatures the Host controls gain:
-
-* +2/+0  
-* Trample
-
-until end of turn.
-
----
+Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).

@@ -1,18 +1,7 @@
 # **💀 GRAVE TYRANT — GENERAL OF NECROMANCY**
 
-The battlefield answers the call of the dead.
+**Raise the Dead —**
 
-**Passive — Endless Graves**  
- Whenever a creature dies, its controller mills a card.
+For each opponent with a creature card in their graveyard, create a tapped 2/2 black Zombie creature token.
 
-**Signature Move — Rise the Fallen**  
- At the beginning of the Host’s combat step, the Host may unleash Rise the Fallen.
-
-Each player makes a Saving Roll.
-
-On a failed save:
-
-* Create a 2/2 black Zombie creature token under the Host’s control for each creature card in that player’s graveyard.  
- (Maximum 2 tokens per player.)
-
----
+Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).

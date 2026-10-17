@@ -1,6 +1,14 @@
 # **🌀 WILDCARD FIGHT — WILD MAGIC TABLE**
 
-**Roll a d20 and resolve the result.**
+**Wild Magic Surge —**
+
+{0}: Randomly select and reveal one Wild Magic effect as you activate this ability. This ability has the selected effect. Activate only once each turn.
+
+Random selection happens during activation. Each of the 20 results has an equal chance of being selected. The result is revealed publicly and locked before players receive priority to respond. The ability uses the stack and resolves with the selected effect after all players pass priority. It is not rerolled on resolution.
+
+The activation counts as the turn's use even if it is countered. Copying the activated ability copies the selected result without selecting again.
+
+The Wild Magic token's **Activate Wild Magic** button selects and publicly announces the result. Players respond, resolve or counter the ability, and track the once-per-turn limit manually. The token keeps the last result in its description for reference.
 
 **1 — Reality Collapse**  
 Exile all nonland permanents.

@@ -6,26 +6,14 @@
 
 During Master Fight encounters, the Host represents one of the Demon King’s Generals.
 
-Each General grants the Host:
+Each Tyrant grants the Host the activated ability listed in its rule.
 
-* A **Passive Aura** that affects the battlefield  
-* A **Signature Move** representing the General’s most powerful technique
+## Activation and Cooldown
 
-Signature Moves create powerful battlefield effects and define the encounter’s identity.
-
-Unless otherwise stated:
-
-* General abilities do not use the stack  
-* Signature Moves have a cooldown of 3 Host turns after use
-* Saving Roll: roll a d20; 10 or higher is a pass, 9 or lower is a fail
-
-Status used by this document:
-
-* Burned: At party upkeep, each Burned player makes a Saving Roll. On a failed save, they take 2 damage. On a passed save, Burned is removed.
-* Frozen: Permanents you control don't untap during your untap step. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Frozen.
-* Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
-* Petrified: The creature is tapped and does not untap during its controller's untap step. It loses all abilities. At the beginning of its controller's upkeep, they may make a Saving Roll. On a passed save, remove Petrified.
-
+* The Host may activate a Tyrant ability only as a sorcery: during the Host's main phase, while the stack is empty and the Host has priority.
+* After use, that Tyrant ability has a cooldown of **2 Host turns**.
+* General abilities do not use the stack.
+* Saving Roll: roll a d20; 10 or higher is a pass, 9 or lower is a fail.
 
 ---
 
@@ -41,9 +29,9 @@ This determines the Tyrant used for that Master Fight encounter.
 
 | Tyrants |
 | ----- |
-| Ember Tyrant — General of Ash |
-| Winter Tyrant — General of Frost |
-| Plague Tyrant — General of Rot |
+| Ash Tyrant — General of Ash |
+| Frost Tyrant — General of Frost |
+| Rot Tyrant — General of Rot |
 | Storm Tyrant — General of Ruin |
 | Grave Tyrant — General of Necromancy |
 | Blood Tyrant — General of Sacrifice |

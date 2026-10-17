@@ -101,9 +101,9 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Player Departure](encounters/player-departure.md) — `player-departure`
 - [Reward Eligibility](rewards/reward-eligibility.md) — `reward-eligibility`
 - [Demon Generals](host/demon-generals-system.md) — `demon-generals-system`
-- [🔥 EMBER TYRANT — GENERAL OF ASH](host/demon-generals/ember-tyrant-general-of-ash.md) — `demon-general-ember-tyrant-general-of-ash`
-- [❄️ WINTER TYRANT — GENERAL OF FROST](host/demon-generals/winter-tyrant-general-of-frost.md) — `demon-general-winter-tyrant-general-of-frost`
-- [☠️ PLAGUE TYRANT — GENERAL OF ROT](host/demon-generals/plague-tyrant-general-of-rot.md) — `demon-general-plague-tyrant-general-of-rot`
+- [🔥 ASH TYRANT — GENERAL OF ASH](host/demon-generals/ember-tyrant-general-of-ash.md) — `demon-general-ember-tyrant-general-of-ash`
+- [❄️ FROST TYRANT — GENERAL OF FROST](host/demon-generals/winter-tyrant-general-of-frost.md) — `demon-general-winter-tyrant-general-of-frost`
+- [☠️ ROT TYRANT — GENERAL OF ROT](host/demon-generals/plague-tyrant-general-of-rot.md) — `demon-general-plague-tyrant-general-of-rot`
 - [⚡ STORM TYRANT — GENERAL OF RUIN](host/demon-generals/storm-tyrant-general-of-ruin.md) — `demon-general-storm-tyrant-general-of-ruin`
 - [💀 GRAVE TYRANT — GENERAL OF NECROMANCY](host/demon-generals/grave-tyrant-general-of-necromancy.md) — `demon-general-grave-tyrant-general-of-necromancy`
 - [🩸 BLOOD TYRANT — GENERAL OF SACRIFICE](host/demon-generals/blood-tyrant-general-of-sacrifice.md) — `demon-general-blood-tyrant-general-of-sacrifice`

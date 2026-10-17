@@ -1,18 +1,7 @@
-# **☠️ PLAGUE TYRANT — GENERAL OF ROT**
+# **☠️ ROT TYRANT — GENERAL OF ROT**
 
-A creeping corruption spreads across the battlefield.
+**Wither —**
 
-**Passive — Creeping Blight**  
- At the beginning of each player’s upkeep, that player mills two cards.
+Each opponent makes a Saving Roll. Creatures controlled by opponents who fail get -1/-1 until the beginning of your next turn.
 
-**Signature Move — Plague Burst**  
- At the beginning of the Host’s combat step, the Host may unleash Plague Burst.
-
-Each player makes a Saving Roll.
-
-On a failed save:
-
-* That player gains Corrupted
-
-Corrupted: Creatures you control get -1/-1. At the beginning of your upkeep, make a Saving Roll. On a passed save, remove Corrupted.
----
+Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).
