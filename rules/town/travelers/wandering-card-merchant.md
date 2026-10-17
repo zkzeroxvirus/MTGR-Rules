@@ -1,5 +1,5 @@
-# **🛍️ Wandering Card Merchant**
+# **🛍️ Wandering Card Collector**
 
-When buying a pack from the Merchant, you may keep 2 cards instead of 1\.
+When buying a pack from the Merchant, you may keep 2 cards instead of 1.
 
 ---

@@ -4,7 +4,7 @@
 
 Pay 5 XP.
 
-Sacrifice a card from your deck.
+Sacrifice a card from your Mainboard.
 Roll a d6.
 
 Choose a card type.

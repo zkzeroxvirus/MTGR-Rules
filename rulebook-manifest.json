@@ -1870,7 +1870,7 @@
     },
     {
       "id": "traveler-wandering-card-merchant",
-      "title": "🛍️ Wandering Card Merchant",
+      "title": "🛍️ Wandering Card Collector",
       "source": "rules/town/travelers/wandering-card-merchant.md",
       "phase": "between-encounters",
       "audience": [

@@ -4,7 +4,7 @@
 
 Pay 5 XP.
 
-Move up to three cards between your deck and sideboard.
-Then you may destroy one card from your deck.
+Move up to three cards between your Mainboard and Sideboard.
+Then you may destroy one card from your Mainboard.
 
 ---

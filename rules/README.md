@@ -178,7 +178,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [🤡 Silly, the Jester](town/travelers/silly-the-jester.md) — `traveler-silly-the-jester`
 - [💰 The Trader](town/travelers/the-trader.md) — `traveler-the-trader`
 - [⚔️ Vanguard Mercenaries](town/travelers/vanguard-mercenaries.md) — `traveler-vanguard-mercenaries`
-- [🛍️ Wandering Card Merchant](town/travelers/wandering-card-merchant.md) — `traveler-wandering-card-merchant`
+- [🛍️ Wandering Card Collector](town/travelers/wandering-card-merchant.md) — `traveler-wandering-card-merchant`
 - [🎩 Zorbo](town/travelers/zorbo.md) — `traveler-zorbo`
 - [Wanderers](between-encounters/wanderers-system.md) — `wanderers-system`
 - [🛍️ Wandering Merchant](between-encounters/wanderers/wandering-merchant.md) — `wanderer-wandering-merchant`

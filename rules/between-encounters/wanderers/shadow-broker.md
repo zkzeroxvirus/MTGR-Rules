@@ -5,6 +5,6 @@
 Pay 5 XP.
 
 Scryfall 2 random Rare cards within your commander's color identity.
-Choose one and add it to your sideboard.
+Choose one and add it to your Sideboard.
 
 ---

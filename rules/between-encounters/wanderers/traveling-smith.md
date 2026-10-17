@@ -4,7 +4,7 @@
 
 Pay 5 XP.
 
-Choose a creature card in your deck.
+Choose a creature card in your Mainboard.
 Choose one:
 • That creature gets +1/+1.
 • That creature gains your choice of: Flying, Lifelink, or Ward 1.

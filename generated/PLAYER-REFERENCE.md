@@ -567,21 +567,27 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-the-device -->
 ### 🔧 THE DEVICE
 
-> *Once per encounter, a party member may counter a spell they control. If they do, conjure 3 random spells. That player may cast 1 of those spells without paying its mana cost. Exile the rest.*
+> *Once per encounter:*
+>
+> *A party member may counter a spell they own. If they do, conjure 3 random spells. They may cast 1 of those spells for free. Exile the rest.*
 
-**Timing:** In response to a spell a party member controls.  
-**Limit:** Once per encounter.  
-**Resolution:** Counter target spell a party member controls. Conjure 3 random spells face-up. The activating player may cast 1 of those spells without paying its mana cost. Exile the remaining spells.
+**Timing:** In response to a spell a party member owns.
+**Limit:** Once per encounter.
+**Resolution:** A party member may counter a spell they own. If they do, conjure three random spells. That player may cast one without paying its mana cost. Exile the rest.
 
 ---
 
 <!-- rule:trinket-garruk-s-clipper -->
 ### 🪓 GARRUK'S CLIPPER
 
-> *At the beginning of the party's upkeep, target creature the party controls gets +2/+0 and gains deathtouch and "Whenever this creature deals combat damage to a player, draw a card" until end of turn.*
+> *At the beginning of Party Upkeep*
+> *Until end of turn, target creature the party controls gains.*
+> *• +2/+0*
+> *• Deathtouch*
+> *• "Whenever this creature deals combat damage to a player, draw a card."*
 
-**Timing:** Triggered at the beginning of the party's upkeep.  
-**Limit:** Once per party upkeep.  
+**Timing:** Triggered at the beginning of the Party Upkeep.
+**Limit:** Once per Party Upkeep.
 **Resolution:** Choose target creature the party controls. It gets +2/+0 and gains deathtouch. It also gains "Whenever this creature deals combat damage to a player, draw a card" until end of turn.
 
 ---
@@ -589,10 +595,10 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-torch -->
 ### 🔥 TORCH
 
-> *At the beginning of the party's upkeep, choose a party member. That player ventures into the dungeon.*
+> *At the beginning of Party Upkeep, choose a party member. That player ventures into the dungeon.*
 
-**Timing:** Triggered at the beginning of each party upkeep.  
-**Limit:** No per-encounter or per-turn activation limit.  
+**Timing:** Triggered at the beginning of each Party Upkeep.
+**Limit:** No per-encounter or per-turn activation limit.
 **Resolution:** Choose a party member as the ability resolves. That player ventures into the dungeon.
 
 ---
@@ -600,11 +606,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-staff-of-light -->
 ### ✨ STAFF OF LIGHT
 
-> *Exile Staff of Light: Counter target Doom triggered ability. This ability can't be countered.*
+> *Exile Staff of Light: Counter target Doom card as it is being played. This ability can’t be countered.*
 
-**Timing:** In response to a Doom card's triggered ability after the Doom card is turned face up.  
-**Limit:** Once per run.  
-**Resolution:** Counter the Doom triggered ability. This Trinket ability cannot be countered. After it resolves, exile this Trinket.
+**Timing:** In response to a Doom card being played.
+**Limit:** Once per run.
+**Resolution:** Exile Staff of Light to counter target Doom card as it is being played. This ability cannot be countered.
 
 ---
 
@@ -633,11 +639,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-tent -->
 ### ⛺ TENT
 
-> *Tent modifies Stay Out. Whenever the party chooses Stay Out, resolve normal Stay Out effects, then each party member may make up to 2 trades, remove up to 2 cards from their deck, and move up to 6 cards between their deck and sideboard.*
+> *When the party chooses to stay out, each party member may trade up to two times, remove up to two cards from their Mainboard, and move up to six cards between their Mainboard and Sideboard.*
 
-**Timing:** During Stay Out resolution after choosing Stay Out.  
-**Limit:** No additional limit beyond normal path selection timing.  
-**Resolution:** Apply normal Stay Out rewards and Event scaling first. Then each party member may resolve all listed Tent actions within those limits.
+**Timing:** During Stay Out resolution after choosing Stay Out.
+**Limit:** No additional limit beyond normal path selection timing.
+**Resolution:** When the party chooses Stay Out, each party member may trade up to two times, remove up to two cards from their Mainboard, and move up to six cards between their Mainboard and Sideboard.
 
 ---
 
@@ -716,11 +722,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-explosive-barrel -->
 ### 🧨 EXPLOSIVE BARREL
 
-> *Once per encounter, if a party member would deal 3 or more noncombat damage, they may instead have it deal 5 damage to each creature target opponent controls.*
+> *Once each encounter, if a party member would deal 3 or more noncombat damage to a single target, they may instead have Explosive Barrel deal 5 damage to each creature target opponent controls.*
 
-**Timing:** Replacement effect applied to a qualifying noncombat damage event.  
-**Limit:** Once per encounter.  
-**Resolution:** When a party member would deal 3 or more noncombat damage, they may replace that event with "deal 5 damage to each creature target opponent controls."
+**Timing:** Replacement effect applied to a qualifying noncombat damage event.
+**Limit:** Once per encounter.
+**Resolution:** When a party member would deal 3 or more noncombat damage to a single target, they may instead have Explosive Barrel deal 5 damage to each creature target opponent controls.
 
 ---
 
@@ -749,11 +755,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-crossroads-cart -->
 ### 🛒 CROSSROADS CART
 
-> *When visiting Town, reveal two random Travelers from the Travelers bag. The party chooses one of those two to access during that Town visit.*
+> *Whenever the party visits town, reveal two Travelers. The party chooses one of them.*
 
-**Timing:** During Town, when Travelers are determined.  
-**Limit:** No additional activation limit beyond normal Town timing.  
-**Resolution:** Reveal two random Travelers from the Travelers bag instead of one. The party chooses one; only the chosen Traveler is available during that Town visit.
+**Timing:** During Town, when Travelers are determined.
+**Limit:** No additional activation limit beyond normal Town timing.
+**Resolution:** Reveal two Travelers when the party visits Town. The party chooses one of them.
 
 ---
 
@@ -772,14 +778,12 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 ### 🗡️ SAL BIDARD, GLORY REFORGED
 
 > *At the beginning of each combat, choose one until end of turn:*
->
-> *• Sal Bidard — A party Target commander gains indestructible.*
->
-> *• Ludwig — A party Target commander gains hexproof.*
+> *• Sal Bidard — A party member's commander gains indestructible.*
+> *• Ludwig — A party member's commander gains hexproof.*
 
-**Timing:** Once each combat (triggered at the beginning of combat).  
-**Limit:** Once each combat.  
-**Resolution:** As the ability resolves, choose one mode and choose a commander. The chosen commander gains the chosen ability until end of turn.
+**Timing:** Once each combat (triggered at the beginning of combat).
+**Limit:** Once each combat.
+**Resolution:** As the ability resolves, choose one mode and choose a party member’s commander. The chosen commander gains the chosen ability until end of turn.
 
 ---
 
@@ -808,22 +812,26 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-loch-shield -->
 ### 🛡️ LOCH SHIELD
 
-> *At the beginning of each encounter, choose a commander. That commander gains "This permanent enters the battlefield with two shield counters on it."*
+> *At the beginning of each encounter, choose a party member’s commander.*
+>
+> *The chosen commander gains “This Permanent enters the battlefield with two shield counters on it.”*
 
-**Timing:** Triggered at the beginning of each encounter.  
-**Limit:** Once each encounter (triggered).  
-**Resolution:** Choose a commander as the ability resolves. That commander gains the listed static ability for the encounter.
+**Timing:** Triggered at the beginning of each encounter.
+**Limit:** Once each encounter (triggered).
+**Resolution:** Choose a party member’s commander as the ability resolves. That commander gains the listed static ability for the encounter.
 
 ---
 
 <!-- rule:trinket-aegis-of-verix -->
 ### 🐉 AEGIS OF VERIX
 
-> *At the beginning of each encounter, choose a party member's commander. That commander gains "Whenever this creature blocks, you may instead conjure a 4/4 red Dragon creature token with flying to block that creature instead. When you do, this creature loses this ability for the rest of this encounter."*
+> *At the beginning of each encounter, choose a party member’s commander.*
+>
+> *The chosen commander gains “Whenever this creature blocks, you may remove it from combat. If you do, create a 4/4 red Dragon creature token with flying that’s tapped and blocking the creature this creature blocked. This creature loses this ability for the rest of the encounter.”*
 
-**Timing:** Triggered at the beginning of each encounter.  
-**Limit:** Once each encounter choice (triggered), with one replacement use per encounter on that commander.  
-**Resolution:** Choose a party member's commander as the ability resolves. It gains the listed block-triggered ability for the encounter.
+**Timing:** Triggered at the beginning of each encounter.
+**Limit:** Once each encounter choice (triggered), with one replacement use per encounter on that commander.
+**Resolution:** Choose a party member’s commander. When its granted ability triggers, you may remove it from combat to create the tapped, blocking Dragon. The commander loses the ability for the rest of the encounter.
 
 ---
 
@@ -841,10 +849,13 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-tonitrus-skullduster -->
 ### ⚡ TONITRUS, SKULLDUSTER
 
-> *At the beginning of the party's upkeep, target creature the party controls with power 4 or greater gets +3/+0 and gains trample until end of turn.*
+> *At the beginning of Party Upkeep*
+> *Until end of turn, target creature the party controls with power 4 or greater gains.*
+> *• +3/+0 *
+> *• Trample*
 
-**Timing:** Triggered at the beginning of the party's upkeep.  
-**Limit:** Once each party upkeep (triggered).  
+**Timing:** Triggered at the beginning of the Party Upkeep.
+**Limit:** Once each Party Upkeep (triggered).
 **Resolution:** Choose target creature the party controls with power 4 or greater. It gets +3/+0 and gains trample until end of turn.
 
 ---
@@ -852,10 +863,12 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-dragovokia -->
 ### 🐉 DRAGOVOKIA
 
-> *Town actions that cost XP cost {5} less to activate. This reduction can't reduce a cost below {5}.*
+> *Town actions that cost XP cost 5 less XP.*
+>
+> *This effect can’t reduce an XP cost below 5 XP.*
 
-**Timing:** Continuous cost reduction effect while this Trinket is active.  
-**Limit:** Applies to eligible Town XP costs only.  
+**Timing:** Continuous cost reduction effect while this Trinket is active.
+**Limit:** Applies to eligible Town XP costs only.
 **Resolution:** When determining an XP cost for a Town action, reduce that cost by 5. If the resulting cost would be less than 5, it becomes 5 instead.
 
 ---
@@ -863,21 +876,21 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-gideon-s-training-saber -->
 ### ⚔️ GIDEON'S TRAINING SABER
 
-> *At the start of each encounter, choose a party member's commander.*
+> *At the beginning of each encounter, choose a party member’s commander.*
 >
-> *That commander gets +1/+0 and vigilance.*
+> *The chosen commander gets +1/+0 and has vigilance.*
 >
-> *Whenever the chosen commander attacks or blocks, put a training counter on Gideon's Training Saber.*
+> *Whenever the chosen commander attacks or blocks, put a training counter on Gideon’s Training Saber.*
 >
-> *As long as Gideon's Training Saber has six or more training counters, the chosen commander gets +1/+0 and first strike.*
+> *As long as Gideon’s Training Saber has six or more training counters on it, the chosen commander gets +1/+0 and has first strike.*
 >
-> *As long as Gideon's Training Saber has twelve or more training counters, the chosen commander gets +1/+0 and indestructible during its owner's turn.*
+> *As long as Gideon’s Training Saber has twelve or more training counters on it, the chosen commander gets +1/+0 and has indestructible during its controller’s turn.*
 >
-> *Training counters on Gideon's Training Saber persist between encounters.*
+> *Training counters remain on Gideon’s Training Saber between encounters.*
 
-**Timing:** Triggered at the start of each encounter.  
-**Limit:** Once each encounter choice (triggered).  
-**Resolution:** Choose a party member's commander for that encounter. That commander gets +1/+0 and vigilance. Track training counters on Gideon's Training Saber whenever that chosen commander attacks or blocks. If the Saber has six or more training counters, that chosen commander also gets +1/+0 and first strike. If the Saber has twelve or more training counters, that chosen commander also gets +1/+0 and indestructible during its owner's turn. Training counters persist between encounters.
+**Timing:** Triggered at the start of each encounter.
+**Limit:** Once each encounter choice (triggered).
+**Resolution:** Choose a party member's commander for that encounter. That commander gets +1/+0 and vigilance. Track training counters on Gideon's Training Saber whenever that chosen commander attacks or blocks. If the Saber has six or more training counters, that chosen commander also gets +1/+0 and first strike. If the Saber has twelve or more training counters, that chosen commander also gets +1/+0 and indestructible during its controller’s turn. Training counters persist between encounters.
 
 ---
 
@@ -983,11 +996,14 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-gravebell -->
 ### 🔔 GRAVEBELL
 
-> *Once each encounter, choose target nontoken creature the party controls. When that creature dies this turn, return it to the battlefield tapped under its owner's control at the beginning of the next end step. It's a black Zombie in addition to its other colors and types.*
+> *Once each encounter:*
+>
+> *Choose a nontoken creature controled by the party: if it dies this turn, return it to the battlefield tapped at the beginning of the next end step.*
+> *It’s a black Zombie in addition to its other types.*
 
-**Timing:** Any time the party could cast a sorcery.  
-**Limit:** Once each encounter.  
-**Resolution:** Choose target nontoken creature the party controls. If that creature dies this turn, return it to the battlefield tapped at the beginning of the next end step as a black Zombie in addition to its other types and colors.
+**Timing:** During an encounter.
+**Limit:** Once each encounter.
+**Resolution:** Choose a nontoken creature the party controls. If it dies this turn, return it to the battlefield tapped at the beginning of the next end step. It is a black Zombie in addition to its other types.
 
 ---
 
@@ -1082,12 +1098,16 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-void-lantern -->
 ### ⊡ VOID LANTERN
 
-> *After all players have kept their opening hands and before the first turn of each encounter begins, exile the top card of each party member's library. Party members may play cards exiled with Void Lantern. Spells cast this way cost {1} less to cast.*
+> *After all players have kept their opening hands and before the first turn of each encounter begins, exile the top card of each party member’s library.*
+>
+> *Party members may play their cards exiled with Void Lantern.*
+>
+> *Spells cast this way cost {1} less to cast.*
 
 **Timing:** After all players have kept their opening hands and before the first turn of each encounter begins.
 
-**Limit:** Once each encounter (triggered).  
-**Resolution:** Exile the top card of each party member's library face-up. Party members may play cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
+**Limit:** Once each encounter (triggered).
+**Resolution:** Exile the top card of each party member's library face-up. Party members may play their own cards exiled with Void Lantern, with {1} cost reduction applied to spells cast this way.
 
 ---
 
@@ -1116,14 +1136,14 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-aggressive-skeleton-oppressive-skeleton -->
 ### 🎭 AGGRESSIVE SKELETON // OPPRESSIVE SKELETON
 
-> *At the beginning of the party's first upkeep each encounter, choose a party member. That player chooses one —*
+> *At the beginning of the first Party Upkeep each encounter, choose a party member. That player chooses one —*
 >
-> *• Oppressive Skeleton — Create a 1/1 black Skeleton creature token with "{1}: Regenerate this creature."*
+> *• Oppressive Skeleton — Create a 1/1 black Skeleton creature token with “{1}: Regenerate this creature.”*
 >
 > *• Aggressive Skeleton — Create a 4/1 black Skeleton creature token with menace and haste. Sacrifice it at the beginning of the next end step.*
 
-**Timing:** Triggered at the beginning of the party's first upkeep each encounter.  
-**Limit:** Once per encounter (first upkeep only).  
+**Timing:** Triggered at the beginning of the first Party Upkeep each encounter.
+**Limit:** Once per encounter (first upkeep only).
 **Resolution:** Choose a party member. They choose one mode. Oppressive Skeleton creates a 1/1 black Skeleton with regeneration. Aggressive Skeleton creates a 4/1 black Skeleton with menace and haste that's sacrificed at the next end step.
 
 ---
@@ -1153,11 +1173,13 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-mimic-tooth -->
 ### 🦷 MIMIC TOOTH
 
-> *At the beginning of a party member's upkeep, target creature gains "Whenever this creature deals combat damage to an opponent, create a token that's a copy of that creature except it's a 1/1 Horror."*
+> *At the beginning of Party Upkeep*
+> *Until end of turn, target creature the party controls gains.*
+> *“Whenever this creature deals combat damage to an opponent, create a token that’s a copy of that creature except it’s a 1/1 Horror.”*
 
-**Timing:** Triggered at the beginning of each party member's upkeep.  
-**Limit:** Once per upkeep.  
-**Resolution:** Choose target creature. It gains the listed triggered ability until end of turn.
+**Timing:** Triggered at the beginning of Party Upkeep.
+**Limit:** Once per Party Upkeep.
+**Resolution:** Choose target creature the party controls. It gains the listed triggered ability until end of turn.
 
 ---
 
@@ -1210,11 +1232,11 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-hungry-idol -->
 ### 🍽️ HUNGRY IDOL
 
-> *At the beginning of each town, each party member removes a permanent card from their deck and gains 15 XP.*
+> *At the beginning of each town, each party member removes a permanent card from their Mainboard and gains 15 XP.*
 
-**Timing:** Triggered at the beginning of each town visit.  
-**Limit:** Once per town.  
-**Resolution:** Each party member removes one permanent card from their deck and gains 15 XP.
+**Timing:** Triggered at the beginning of each town visit.
+**Limit:** Once per town.
+**Resolution:** Each party member removes one permanent card from their Mainboard and gains 15 XP.
 
 <!-- rule:run-structure -->
 ### Run Structure
@@ -3172,12 +3194,11 @@ If the party has **Crossroads Cart**, use that Trinket's selection procedure ins
 <!-- rule:traveler-bearded-grunt -->
 ### **🧔 Bearded Grunt**
 
-Once per Town.
+The party votes for one:
 
-The party votes on one:  
-• Each player gains 15 XP  
-• Each player may use one additional building this Town beyond its normal limit  
-• Each player may add up to 2 basic lands to their deck
+• Each player gains 15 XP
+• Each player may use one additional building this Town beyond its normal limit
+• Each player may add up to 2 basic lands to their Mainboard
 
 ---
 
@@ -3197,22 +3218,22 @@ Gain that many creature cards of the chosen type.
 <!-- rule:traveler-card-copier -->
 ### **🃏 Card Copier**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 25 XP  
-Create a permanent copy of a card in your deck.
+Pay 25 XP
+Create a permanent copy of a card in your Mainboard.
 
 ---
 
 <!-- rule:traveler-card-eating-ogre -->
 ### **👹 Card-Eating Ogre**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 35 XP and destroy a card in your deck.  
- If you do, gain 5 random cards that match the destroyed card’s:  
- • Color(s)  
- • Mana value  
+Pay 35 XP and destroy a card in your Mainboard.
+ If you do, gain 5 random cards that match the destroyed card’s:
+ • Color(s)
+ • Mana value
  • Card type(s)
 
 ---
@@ -3220,17 +3241,17 @@ Pay 35 XP and destroy a card in your deck.
 <!-- rule:traveler-cats-in-a-coat -->
 ### **🐱 Cats in a Coat**
 
-Until the end of this Town, whenever a player uses the Castle, treat the result as a 6\.
+Until the end of this Town, whenever a player uses The Guild, treat the result as a 6.
 
 ---
 
 <!-- rule:traveler-centaur-scouter -->
 ### **🐎 Centaur Scouter**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 35 XP   
-A creature card in your deck gains your choice of trample or haste.
+Pay 35 XP
+A creature card in your Mainboard gains your choice of trample or haste.
 
 Additionally, when you next use the Tavern this Town, you may add up to 2 additional lands.
 
@@ -3239,20 +3260,20 @@ Additionally, when you next use the Tavern this Town, you may add up to 2 additi
 <!-- rule:traveler-centepoid-warrior -->
 ### **🪳 Centepoid Warrior**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 25 XP.   
-A creature card in your deck has its base power and toughness doubled.
+Pay 25 XP.
+A creature, vehicle or spaceship card in your Mainboard has its base power and toughness doubled.
 
 ---
 
 <!-- rule:traveler-commander-mimic -->
 ### **🧰 Commander Mimic**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 25 XP.   
-Swap a card in your deck with your commander.  
+Pay 25 XP.
+Swap a card in your Mainboard with your commander.
 (The chosen card must be a legal commander.)
 
 ---
@@ -3289,11 +3310,11 @@ Additionally, until the end of this Town, when you use Portal, you may spend up 
 <!-- rule:traveler-giff-bandito -->
 ### **🦒 Giff Bandito**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 15 XP.  
-Sacrifice up to 2 lands.  
-Gain that many land cards that share a color with your commander.
+Pay 15 XP.
+
+Scryfall a land card of your choice.
 
 ---
 
@@ -3307,11 +3328,11 @@ You may pay any amount of XP to gain three times that amount as Essence.
 <!-- rule:traveler-hell-s-librarian -->
 ### **📚 Hell's Librarian**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 50 XP and lose 5 maximum HP for the rest of the run.  
-Choose a card in your deck.  
-That card begins the game in your opening hand.  
+Pay 50 XP and lose 5 maximum HP for the rest of the run.
+Choose a card in your Mainboard.
+That card begins the game in your opening hand.
 (It counts toward your starting hand size.)
 
 ---
@@ -3345,10 +3366,9 @@ Round the final cost down to the nearest multiple of 5 (minimum 5 XP).
 <!-- rule:traveler-the-trader -->
 ### **💰 The Trader**
 
-Once per Town.
+The party votes for one:
 
-The party chooses one:  
- • Each player may make 2 additional trades this Town.  
+ • Each player may make 2 additional trades this Town.
  • Each player may sell up to two cards for XP equal to twice each card’s mana value.
 
 ---
@@ -3365,19 +3385,21 @@ Reveal 3 random Vanguards, then choose one.
 ---
 
 <!-- rule:traveler-wandering-card-merchant -->
-### **🛍️ Wandering Card Merchant**
+### **🛍️ Wandering Card Collector**
 
-When buying a pack from the Merchant, you may keep 2 cards instead of 1\.
+When buying a pack from the Merchant, you may keep 2 cards instead of 1.
 
 ---
 
 <!-- rule:traveler-zorbo -->
 ### **🎩 Zorbo**
 
-Once per Town.
+Once per Town, each Player may.
 
-Pay 50 XP.  
-Reveal 2 random Trinkets, then choose one.
+Pay 50 XP.
+Reveal 3 random Trinkets, then choose one.
+
+---
 
 <!-- rule:wanderers-system -->
 ### **🛤️ WANDERERS**
@@ -3404,7 +3426,7 @@ Wanderers occur outside encounters and do not directly use or modify an active e
 Pay 5 XP.
 
 Scryfall 5 random cards within your commander's color identity.
-Choose one. Add it to your deck or sideboard.
+Choose one. Add it to your Mainboard or Sideboard.
 
 ---
 
@@ -3416,10 +3438,10 @@ Choose one. Add it to your deck or sideboard.
 Pay 5 XP.
 
 Choose one:
-• Create three Temporal cards matching a chosen keyword or type. Shuffle them into your deck.
-• Choose an instant or sorcery card in your deck. Create a Temporal copy of it and shuffle it into your deck.
+• Create three Temporal cards matching a chosen keyword or type. Shuffle them into your Mainboard.
+• Choose an instant or sorcery card in your Mainboard. Create a Temporal copy of it and shuffle it into your Mainboard.
 
-> *(Temporal cards follow Portal rules.)*
+(Temporal cards follow Portal rules.)
 
 ---
 
@@ -3430,8 +3452,8 @@ Choose one:
 
 Pay 5 XP.
 
-Move up to three cards between your deck and sideboard.
-Then you may destroy one card from your deck.
+Move up to three cards between your Mainboard and Sideboard.
+Then you may destroy one card from your Mainboard.
 
 ---
 
@@ -3442,7 +3464,7 @@ Then you may destroy one card from your deck.
 
 Pay 5 XP.
 
-Choose a creature card in your deck.
+Choose a creature card in your Mainboard.
 Choose one:
 • That creature gets +1/+1.
 • That creature gains your choice of: Flying, Lifelink, or Ward 1.
@@ -3458,7 +3480,7 @@ Choose one:
 
 Pay 5 XP.
 
-Sacrifice a card from your deck.
+Sacrifice a card from your Mainboard.
 Roll a d6.
 
 Choose a card type.
@@ -3478,7 +3500,7 @@ Gain a random card of that type that shares a color with the sacrificed card, wi
 
 *Once per Wanderer encounter.*
 
-Destroy a card from your deck.
+Destroy a card from your Mainboard.
 Gain 5 XP.
 
 ---
@@ -3490,9 +3512,9 @@ Gain 5 XP.
 
 Pay 5 XP.
 
-Destroy a card from your deck.
+Destroy a card from your Mainboard.
 Scryfall 5 random cards within your commander's color identity.
-Choose one and add it to your deck or sideboard.
+Choose one and add it to your Mainboard or Sideboard.
 
 ---
 
@@ -3512,11 +3534,11 @@ Gain 10 Essence.
 
 *Once per Wanderer encounter.*
 
-Pay 5 XP.
+Pay 10 XP.
 
 Choose one:
-• Scryfall a land card of your choice within your commander's color identity. Add it to your deck or sideboard.
-• Replace up to 2 basic lands in your deck with that many dual lands and/or triomes within your commander's color identity.
+• Scryfall a land card of your choice. Add it to your Mainboard or Sideboard.
+• Replace up to 2 basic lands in your Mainboard with that many dual lands and/or triomes within your commander's color identity.
 
 ---
 
@@ -3541,7 +3563,7 @@ You gain 5 life.
 Pay 5 XP.
 
 Scryfall 3 random cards within your commander's color identity.
-You may swap one card in your deck with one of the revealed cards.
+You may swap one card in your Mainboard with one of the revealed cards.
 
 ---
 
@@ -3553,7 +3575,7 @@ You may swap one card in your deck with one of the revealed cards.
 Pay 5 XP.
 
 Scryfall a random artifact card of Uncommon rarity or greater within your commander's color identity.
-Add it to your deck or sideboard.
+Add it to your Mainboard or Sideboard.
 
 ---
 
@@ -3565,7 +3587,7 @@ Add it to your deck or sideboard.
 Pay 5 XP.
 
 Scryfall 2 random Rare cards within your commander's color identity.
-Choose one and add it to your sideboard.
+Choose one and add it to your Sideboard.
 
 ---
 
@@ -3578,8 +3600,6 @@ Pay 40 XP.
 
 Reveal 2 random Trinkets.
 Choose one and add it to your party's Trinkets.
-
-> *(If the party already has a Trinket, the old one is replaced.)*
 
 ---
 
