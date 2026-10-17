@@ -437,8 +437,8 @@ for (let result = 1; result <= 10; result += 1) {
 }
 
 await requireRulePatterns("starting-land-balance", [
-  ["matching Wastes", /Host creates that many \*\*Wastes\*\*/i],
-  ["start of game", /enter the battlefield at the start of the game/i],
+  ["starting lands enter the Deck", /Starting lands are added to the player's \*\*Deck\*\* during deckbuilding/i],
+  ["no free pre-encounter battlefield lands", /not placed on the battlefield before an encounter starts/i],
 ]);
 
 await requireRulePatterns("storm-modification", [
