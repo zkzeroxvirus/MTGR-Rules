@@ -3210,7 +3210,7 @@ The party votes on one:
 
 Once per Town.
 
-Pay 50 XP and sacrifice any number of creature cards.
+Pay 35 XP and sacrifice any number of creature cards.
 
 Choose a creature type.  
 Gain that many creature cards of the chosen type.  
