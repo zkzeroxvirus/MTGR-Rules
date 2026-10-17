@@ -167,11 +167,6 @@ For example, the Merchant normally opens a 15-card base pack and keeps 1 card. B
 
 ## The Guild
 
-The Guild's base Commander generation is **d6 + 2 Commander options** in the declared color combination.
+For costs, random Commander generation, Brand modifiers, color-locked swaps, and Partner/Background replacement pools, see [The Guild](../town/town-buildings.md#partner-type-commanders-and-backgrounds).
 
-Apply Brand modifiers after determining that base amount:
-
-- Brand of the Conclave: +1 option per Rank.
-- Brand of Recurrence: +1 free Commander reroll per Rank.
-
-The old Commander may move to the player's Deck or Sideboard. Existing cards do not need to be removed for color-identity reasons after the Commander changes.
+Guild swaps preserve your existing combined Commander color identity. Existing off-color cards may remain in your Deck or Sideboard.
