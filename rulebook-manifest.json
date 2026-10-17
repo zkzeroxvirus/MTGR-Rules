@@ -4294,7 +4294,7 @@
     },
     {
       "id": "starting-land-balance",
-      "title": "Starting Land Balance",
+      "title": "Starting Land Setup",
       "source": "rules/getting-started/starting-land-balance.md",
       "phase": "before-run",
       "audience": [
@@ -4302,6 +4302,7 @@
         "host"
       ],
       "aliases": [
+        "starting lands",
         "lands in play",
         "host wastes"
       ],

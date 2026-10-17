@@ -114,6 +114,8 @@ Status: **Substantially preserved; one omission corrected**.
 
 The old `CORE-RULES.md` aggregation was checked against the current semantic units. Player health, deckbuilding, bans/restrictions, Town/Stay Out, death and player departure, reward eligibility, Crypt rewards, turn/combat rules, PvP, Storm modification, extra turns, card acquisition, progression slots, Ticket rules, starting-land balance, pack rules, encounter modes, global limits, and the rules addendum all have current canonical homes.
 
+The `starting-land-balance` entry now clarifies starting Deck setup. The former matching-Wastes rule is retired because current effects do not grant players free battlefield lands before an encounter. Its stable ID and source path remain available for existing links.
+
 The normal encounter d20 turn-order procedure was the one table-critical rule found to have no active canonical home and has now been restored to `encounter-flow`. The old optional Host-discretion death penalty is explicitly described by the archive as optional and outside the base ruleset, so it is not promoted into canonical base rules by this audit.
 
 ### Run success / persistence wording

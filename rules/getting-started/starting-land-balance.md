@@ -1,8 +1,5 @@
-# **⚖️ STARTING LAND BALANCE RULE**
+# Starting Land Setup
 
-If a player starts with lands in play:
+Starting lands are added to the player's **Deck** during deckbuilding. They are not placed on the battlefield before an encounter starts.
 
-• The Host creates that many **Wastes**  
- • They enter the battlefield at the start of the game
-
----
+Follow [Deckbuilding](deckbuilding.md#starting-lands) for the starting land count and allocation.
