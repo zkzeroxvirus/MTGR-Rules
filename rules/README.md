@@ -75,7 +75,6 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [🧟 WALKING CORPSE](getting-started/trinkets/walking-corpse.md) — `trinket-walking-corpse`
 - [🍽️ HUNGRY IDOL](getting-started/trinkets/hungry-idol.md) — `trinket-hungry-idol`
 - [Run Structure](getting-started/run-structure.md) — `run-structure`
-- [Starting Land Setup](getting-started/starting-land-balance.md) — `starting-land-balance`
 - [Global Limits](getting-started/global-limits.md) — `global-limits`
 
 ## Encounter Loop

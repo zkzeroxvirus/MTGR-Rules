@@ -38,6 +38,7 @@ const requireRuleIds = (group, ids) => {
 };
 
 if (ruleMap.has("pregame-shop")) fail("deprecated pre-run shop contract returned to the active manifest");
+if (ruleMap.has("starting-land-balance")) fail("retired starting-land balance rule returned to the active manifest");
 for (const chapter of manifest.learnPath || []) {
   if ((chapter.rules || []).includes("pregame-shop")) fail(`learnPath.${chapter.id} references the deprecated pre-run shop`);
 }
@@ -435,11 +436,6 @@ for (let result = 1; result <= 10; result += 1) {
     fail(`supply-drop-table is missing result ${result}`);
   }
 }
-
-await requireRulePatterns("starting-land-balance", [
-  ["starting lands enter the Deck", /Starting lands are added to the player's \*\*Deck\*\* during deckbuilding/i],
-  ["no free pre-encounter battlefield lands", /not placed on the battlefield before an encounter starts/i],
-]);
 
 await requireRulePatterns("storm-modification", [
   ["player spells count", /That player/i],
