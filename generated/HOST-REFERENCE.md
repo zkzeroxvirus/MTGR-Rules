@@ -454,7 +454,8 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 • Veteran Explorer  
 • Sovereign's Realm  
 • Ocelot Pride  
-• Cheering Crowd
+• Cheering Crowd\
+• Timesifter
 
 **Silence clarification:** Conditional or partial silence-style effects are allowed when they do not fully deny the Host spellcasting for essentially the entire Host turn. Current allowed examples include **Hope of Ghirapur**, **Ranger-Captain of Eos**, **Mandate of Peace**, and **Render Silent**.
 

@@ -95,7 +95,7 @@ const fullBanSection = bannedText.match(/##[^\n]*FULL BAN[^\n]*\n([\s\S]*?)(?=\n
 const fullBanNames = new Set((fullBanSection || "").split("\n").map((line) => (
   line.replace(/^•\s*/, "").replace(/\\\s*$/, "").trim()
 )));
-for (const name of ["Círdan the Shipwright", "Braids, Conjurer Adept", "Ramses, Assassin Lord", "Expropriate", "The Unbeatable Squirrel Girl"]) {
+for (const name of ["Círdan the Shipwright", "Braids, Conjurer Adept", "Ramses, Assassin Lord", "Expropriate", "The Unbeatable Squirrel Girl", "Timesifter"]) {
   if (!fullBanNames.has(name)) fail(`banned-restricted lost named full ban: ${name}`);
 }
 const acquisitionRestrictedSection = bannedText.match(/### Acquisition-restricted cards\r?\n([\s\S]*?)(?=\r?\n###|$)/)?.[1] || "";
