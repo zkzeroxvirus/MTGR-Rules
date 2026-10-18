@@ -43,7 +43,7 @@ Save 1 card from your deck in your collection.
 **Rules:**
 
 * A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**.
-* Captured cards may be used in future deck builds.
+* Captured cards may be used in future deck builds, subject to [Banned & Restricted](../getting-started/banned-restricted.md). Acquisition-restricted cards cannot be added to a run through a chosen Capture grant.
 * A card granted through the Capture system is **treated as Scryfalled** when used in a run.
 * A captured card therefore cannot be traded or captured again and follows the combo and infinite-loop restrictions in Deckbuilding.
 * Captured cards count toward your Deck's normal modified minimum; they do not have a free allocation.
