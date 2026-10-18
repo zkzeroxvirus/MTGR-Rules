@@ -21,6 +21,8 @@ Each player generates a personal **100-card pool** within their starting Command
 - The whole 100-card pool cannot be rerolled.
 - If one generated card is invalid or illegal for use, replace only that card.
 
+When drafting, follow [Banned & Restricted](banned-restricted.md). A player may keep only one copy of each Restricted card across their Deck and Sideboard combined, even if several copies appear in the initial pool.
+
 This color-identity restriction applies to the **initial generated pool**. It is not a general restriction on cards a player may use during the run.
 
 ## Starting lands
@@ -53,6 +55,8 @@ The Free Choice Card:
 - Cannot be a Gamechanger unless another effect explicitly allows it.
 - Receives the Scryfall decal after selection.
 
+The [targeted-acquisition restrictions](banned-restricted.md#targeted-acquisition-and-search) also apply to the Free Choice Card and other chosen card grants. Permission to choose a Gamechanger does not override an MTGR ban or restriction.
+
 ### Initial-deckbuilding Scryfall duplicate restriction
 
 This duplicate restriction applies **only while resolving initial deckbuilding**.
@@ -81,6 +85,8 @@ Examples:
 - If a card says a deck may contain any number of cards with its name, separate eligible Scryfall-based effects may each spawn a copy of it.
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
+
+These duplicate permissions do not override [Banned & Restricted](banned-restricted.md): acquisition-restricted cards cannot be chosen through these effects, and every Restricted card remains subject to its one-copy limit throughout the run.
 
 ## Scryfall status, trading, and captures
 

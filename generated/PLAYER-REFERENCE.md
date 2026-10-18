@@ -163,6 +163,8 @@ Each player generates a personal **100-card pool** within their starting Command
 - The whole 100-card pool cannot be rerolled.
 - If one generated card is invalid or illegal for use, replace only that card.
 
+When drafting, follow [Banned & Restricted](banned-restricted.md). A player may keep only one copy of each Restricted card across their Deck and Sideboard combined, even if several copies appear in the initial pool.
+
 This color-identity restriction applies to the **initial generated pool**. It is not a general restriction on cards a player may use during the run.
 
 #### Starting lands
@@ -195,6 +197,8 @@ The Free Choice Card:
 - Cannot be a Gamechanger unless another effect explicitly allows it.
 - Receives the Scryfall decal after selection.
 
+The [targeted-acquisition restrictions](banned-restricted.md#targeted-acquisition-and-search) also apply to the Free Choice Card and other chosen card grants. Permission to choose a Gamechanger does not override an MTGR ban or restriction.
+
 ##### Initial-deckbuilding Scryfall duplicate restriction
 
 This duplicate restriction applies **only while resolving initial deckbuilding**.
@@ -223,6 +227,8 @@ Examples:
 - If a card says a deck may contain any number of cards with its name, separate eligible Scryfall-based effects may each spawn a copy of it.
 
 This rule does not by itself restrict cards gained later during the run. Later card acquisition follows the rule or effect that grants the card.
+
+These duplicate permissions do not override [Banned & Restricted](banned-restricted.md): acquisition-restricted cards cannot be chosen through these effects, and every Restricted card remains subject to its one-copy limit throughout the run.
 
 #### Scryfall status, trading, and captures
 
@@ -430,13 +436,58 @@ Neither version is a two-card infinite under MTGR. Either version is limited to 
 
 #### **⚠️ RESTRICTED**
 
-• Extraplanar Lens: Cannot be obtained via Scryfall or targeted search  
-• Join Forces (keyword): Cannot be obtained via Scryfall or targeted search  
-• Oath of Lieges: Cannot be obtained via Scryfall or targeted search  
-• Scholarship Sponsor: Cannot be obtained via Scryfall or targeted search  
-• Ward of Bones: Cannot be obtained via Scryfall or targeted search  
-• Zur's Weirding: Cannot be obtained via Scryfall or targeted search  
-• Tree of Perdition: Cannot be used with Balloon effects  
+##### Acquisition-restricted cards
+
+- Metalworker
+- Extraplanar Lens
+- Cards with Join Forces
+- Oath of Lieges
+- Scholarship Sponsor
+- Ward of Bones
+- Zur's Weirding
+
+These cards may be acquired through eligible random generation, including the initial draft and packs, but **cannot be deliberately selected or targeted through card acquisition**.
+
+##### One-copy limit
+
+Each player may keep **at most one copy of each Restricted card name across their Deck and Sideboard combined**. This includes the acquisition-restricted cards above and Tree of Perdition below. Different printings of the same card share the limit. For Join Forces, the limit is one copy of each card name, not one Join Forces card in total.
+
+The limit applies throughout the run, including initial drafting, packs, rewards, trades, and effects that add permanent or Temporal cards to the run. Moving a card into the hand, battlefield, graveyard, exile, or command zone does not remove it from that player's run cards or free another copy allowance.
+
+Multiple copies may appear among random options, but a player cannot draft, keep, or receive a copy that would put them over the limit. Revealing an extra copy does not by itself grant a replacement card, another pack, an extra keep, or a reroll.
+
+This is a limit on cards included in the run. It does not prohibit normal Magic token copies, copying spells or permanents during an encounter, or gaining control of another player's permanent. It does prohibit adding another actual card to the run through a service such as Card Copier when that would exceed the limit.
+
+##### Targeted acquisition and search
+
+**Targeted acquisition** means using a card-generating or card-granting effect to select or deliberately seek a particular acquisition-restricted card. This includes:
+
+- choosing that card by name, including through a Free Choice Card or another Scryfall-based card choice;
+- requesting it through Cathedral or another service, whether by name or by characteristics intended to identify it;
+- choosing types, subtypes, mana values, keywords, Oracle text, OTAGs, or other search criteria specifically to find that card; and
+- repeating or progressively narrowing searches specifically to obtain that card.
+
+A random final result does not make an intentionally targeted search legal. Meeting a pack's search-diversity minimum does not override this restriction.
+
+**Legitimate filtered random packs remain allowed.** A player may choose filters that support their deck generally, even when a Restricted card is among the possible results. Choosing a card from a legitimately generated random pack is also allowed, subject to the one-copy limit. The card appearing in the pack is not, by itself, evidence of prohibited targeting.
+
+An instruction to "Scryfall random cards" is still random generation. Whether the resulting card is marked or treated as Scryfalled follows the effect that grants it. Randomly generated Cathedral fallback cards, for example, are still Scryfalled under Cathedral's rules.
+
+Captures and other chosen card grants cannot be used to guarantee an acquisition-restricted card in a later run. Adding a chosen permanent or Temporal copy of another player's card is also targeted acquisition. Transferring an existing, legally acquired card between players does not generate a new card; normal trade restrictions and the receiving player's one-copy limit still apply.
+
+Normal Magic searches for a card already in the run, such as tutoring from your library, are not new card acquisition and are allowed unless another rule prohibits the interaction.
+
+##### Host review
+
+State the pack or acquisition effect and all player-chosen search criteria before generating cards. If a search appears intended to obtain a particular acquisition-restricted card, explain the broader deck purpose to the Host. The Host reviews the complete request, including repeated searches, and must reject deliberate attempts to obtain that Restricted card. Change an illegal request before resolving it.
+
+For example, a Construct pack for an artifact-creature deck is not automatically illegal. A Construct search chosen specifically to find Metalworker is illegal, even if its pool meets the pack's minimum size. A Metalworker found incidentally in a legitimate random pack may be kept if that player does not already have one.
+
+If an illegal acquisition is discovered after generation, the player cannot keep the illegally acquired card. Apply only the replacement or correction allowed by the effect's normal rules; this restriction does not grant extra packs, keeps, or rerolls.
+
+##### Other Restricted cards
+
+• **Tree of Perdition:** Cannot be used with Balloon effects. It also follows the one-copy limit. The targeted-acquisition prohibition above does not apply to Tree of Perdition.
 
 #### **🎲 RANDOM CARD GENERATION**
 
@@ -2599,6 +2650,8 @@ When a player casts a spell with Storm:
 
 Whenever a player would gain a card:
 
+Follow [Banned & Restricted](../getting-started/banned-restricted.md), including its targeted-acquisition rules and the one-copy limit for each Restricted card across that player's Deck and Sideboard combined. A card-granting effect does not override those restrictions unless it explicitly says so.
+
 • They may put it into their **Deck or Sideboard**, unless otherwise stated  
 • The Sideboard has **no size limit**  
 • Players **do not have to remain within their Commander's color identity during gameplay**  
@@ -2618,6 +2671,10 @@ Override:
 • Pack card quantity uses the pack's normal base size  
 • **Brand of the Open Hand** adds **+1 card per Rank** whenever that player opens a pack  
 • Brand-added cards increase the number of cards seen; they do **not** increase a pack's keep limit unless another effect explicitly says so  
+
+#### Restricted cards
+
+Follow [Banned & Restricted](../getting-started/banned-restricted.md) for card eligibility, the per-player one-copy limit, and the definition of targeted acquisition. Legitimate filtered random packs may include Restricted cards; deliberately searching for a particular acquisition-restricted card is prohibited, even when the search meets the diversity minimum below. Extra Restricted copies among the results do not grant extra keeps, replacements, or rerolls.
 
 #### Search diversity minimums
 
@@ -4067,7 +4124,7 @@ Save 1 card from your deck in your collection.
 **Rules:**
 
 * A card with a **Scryfall decal**, or a card already treated as Scryfalled by another MTGR rule, **cannot be captured**.
-* Captured cards may be used in future deck builds.
+* Captured cards may be used in future deck builds, subject to [Banned & Restricted](../getting-started/banned-restricted.md). Acquisition-restricted cards cannot be added to a run through a chosen Capture grant.
 * A card granted through the Capture system is **treated as Scryfalled** when used in a run.
 * A captured card therefore cannot be traded or captured again and follows the combo and infinite-loop restrictions in Deckbuilding.
 * Captured cards count toward your Deck's normal modified minimum; they do not have a free allocation.

@@ -87,6 +87,9 @@ for (const entries of Object.values(progressionContracts.categories || {})) {
 const bannedText = await requireRulePatterns("banned-restricted", [
   ["draft-matters excluded from random generation including Mystery", /Random card generation, including Mystery Packs, excludes Commander-legal cards[\s\S]*draft-matters/i],
   ["Host override remains available", /unless overridden by the Host/i],
+  ["per-player Restricted copy cap spans Deck and Sideboard", /Each player may keep \*\*at most one copy of each Restricted card name across their Deck and Sideboard combined\*\*/],
+  ["honest filtered packs remain eligible", /Legitimate filtered random packs remain allowed/],
+  ["normal in-run tutoring is not new acquisition", /Normal Magic searches for a card already in the run[\s\S]*are not new card acquisition/],
 ]);
 const fullBanSection = bannedText.match(/##[^\n]*FULL BAN[^\n]*\n([\s\S]*?)(?=\n##|$)/)?.[1];
 const fullBanNames = new Set((fullBanSection || "").split("\n").map((line) => (
@@ -95,6 +98,9 @@ const fullBanNames = new Set((fullBanSection || "").split("\n").map((line) => (
 for (const name of ["Círdan the Shipwright", "Braids, Conjurer Adept", "Ramses, Assassin Lord", "Expropriate", "The Unbeatable Squirrel Girl"]) {
   if (!fullBanNames.has(name)) fail(`banned-restricted lost named full ban: ${name}`);
 }
+const acquisitionRestrictedSection = bannedText.match(/### Acquisition-restricted cards\r?\n([\s\S]*?)(?=\r?\n###|$)/)?.[1] || "";
+if (!/^- Metalworker\s*$/m.test(acquisitionRestrictedSection)) fail("Metalworker must be acquisition-restricted");
+if (fullBanNames.has("Metalworker")) fail("Metalworker is Restricted, not fully banned");
 
 await requireRulePatterns("progression-shop", [
   ["duplicate Achievement converts to 100 Essence", /Achievement you already have unlocked[^\n]*automatically converted to \*\*100 Essence\*\*/i],
