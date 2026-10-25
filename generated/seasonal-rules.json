@@ -859,10 +859,10 @@
     },
     "event-lion-and-a-mouse": {
       "source": "rules/between-encounters/events/lion-and-a-mouse.md",
-      "sha256": "f6930a79906dd95fb0cb5427bd7dd4ce5e2ae0bcec88054b3a6be89f634be880",
-      "markdown": "# Lion and a Mouse\n\nThe party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved.\n",
-      "description": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved.",
-      "plainText": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next Event that would be resolved."
+      "sha256": "6975d81c5466efbeee122d7492a6071acbad3d90779e937ae0e41392eb5aff46",
+      "markdown": "# Lion and a Mouse\n\nThe party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next scheduled Event that would be resolved.\n",
+      "description": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next scheduled Event that would be resolved.",
+      "plainText": "The party chooses one —\nTruth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.\nLie — Skip the next scheduled Event that would be resolved."
     },
     "event-covenant": {
       "source": "rules/between-encounters/events/covenant.md",
@@ -1258,10 +1258,10 @@
     },
     "event-planetary-bank": {
       "source": "rules/between-encounters/events/planetary-bank.md",
-      "sha256": "f8d1d25838f0d149a271c3ce0ad8dff549fc7a8843893f47e8b2563beb2720ac",
-      "markdown": "# Planetary Bank\n\nEach player may convert up to 50 Essence into an equal amount of XP.\n",
-      "description": "Each player may convert up to 50 Essence into an equal amount of XP.",
-      "plainText": "Each player may convert up to 50 Essence into an equal amount of XP."
+      "sha256": "799061e659c9ca41a480440ec8e8ffffc6818bf0787b3116eb60b56facf9f444",
+      "markdown": "# Planetary Bank\n\nEach player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP.\n",
+      "description": "Each player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP.",
+      "plainText": "Each player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP."
     },
     "event-reckless-racketeering": {
       "source": "rules/between-encounters/events/reckless-racketeering.md",

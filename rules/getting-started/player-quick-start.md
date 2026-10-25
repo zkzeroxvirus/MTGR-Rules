@@ -26,7 +26,7 @@ Cards spawned directly through Scryfall-based choices, card-producing Tickets, o
 
 ## 3. Mark ready and finish pregame setup
 
-1. Flip the **Ready Token** beside the Commander after deckbuilding and all pregame progression are complete.
+1. Tell the Host you are ready once deckbuilding and all pregame progression are complete. Flipping the **Ready Token** beside your Commander shows this at a glance.
 2. Before Encounter 1 begins, players may make one seat adjustment. Seats cannot be changed after Encounter 1 begins unless an active rule explicitly allows it.
 3. Use a figure or another clearly identified marker for party votes.
 4. Resolve the starting **Good Event** and the Trinket selection in either order.

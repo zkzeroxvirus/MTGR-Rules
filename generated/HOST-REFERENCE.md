@@ -53,12 +53,12 @@ Use this procedure when hosting on the supported MTGR Tabletop Simulator table. 
 1. Count the active players. Use that count to determine the Host Scaling level (first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
 2. Determine the encounter's Base XP and applicable Affix bonus XP.
 3. Allow the one-time seat adjustment before Encounter 1.
-4. Confirm that every player has flipped their Ready Token.
+4. Confirm that every player is ready: deckbuilding and pregame progression are complete. Players may say so or flip their Ready Token.
 5. Resolve the starting Good Event and Trinket selection in either order.
    - For the Event, reveal cards until a **Good Event** is revealed. Resolve it and shuffle the other revealed cards back into the Event deck.
    - For the Trinket, reveal **3 random Trinkets**. The party votes for 1; apply that Trinket for the run. Resolve additional Trinkets granted by player Tickets under their own rules.
-7. Select the encounter. Before the party has won an encounter, reroll any encounter type whose availability rule requires a previous victory.
-8. Resolve encounter setup, Affixes, Host health, and turn order. The Host and party roll a d20 for non-Crypt encounters; the winner chooses who takes the first turn.
+6. Select the encounter. Before the party has won an encounter, reroll any encounter type whose availability rule requires a previous victory.
+7. Resolve encounter setup, Affixes, Host health, and turn order. The Host and party roll a d20 for non-Crypt encounters; the winner chooses who takes the first turn.
 
 Both pregame steps must be complete before Encounter 1 begins, but neither must happen first.
 
@@ -1550,6 +1550,10 @@ The following encounter types cannot be played until the party has defeated at l
 
 If one of these is rolled before the party has defeated an encounter, reroll the encounter type.
 
+#### **🎲 HOST REROLLS**
+
+Outside the availability rule above, the encounter roll stands. As a table courtesy, the Host may reroll an encounter type before its setup begins, or offer the party a vote to keep or reroll it. This is Host discretion, not an official rule.
+
 #### **📦 PRECON BATTLE**
 
 **Setup:**
@@ -1591,7 +1595,8 @@ At the beginning of your end step, conjure and cast a random creature of the cho
 
 * Reveal 3 Planes
 * Players eliminate 1
-* The Host plays a random deck from the corresponding Plane
+* The Host chooses 1 of the remaining Planes
+* The Host plays a random deck from the chosen Plane
 
 #### **📖 STORY FIGHT *(Experimental)***
 
@@ -1631,7 +1636,7 @@ When the Host phases in, they gain the Story's Phase Two bonus:
 
 * Reveal 5 random Commanders
 * Players eliminate 1
-* Choose 1 of the remaining Commanders
+* The Host chooses 1 of the remaining Commanders
 * Build or spawn a high-power deck (**Bracket 3 or higher**) using that Commander
 
 #### **🌪 WILDCARD FIGHT *(Experimental)***
@@ -4090,7 +4095,7 @@ Card pool: otag:sword-of-x-and-y
 <!-- rule:seasonal-events -->
 ### Seasonal Events
 
-Seasonal Events add themed content to a run. Use the content pools for the selected Seasonal Event; a seasonal rule is not automatically part of the normal pools. Follow the normal run rules unless the seasonal content explicitly changes them.
+Seasonal Events add themed content to a run. The selected Seasonal Event's content is added to the normal pools for that run. A seasonal rule is not automatically part of the normal pools outside that season. Follow the normal run rules unless the seasonal content explicitly changes them.
 
 A Seasonal Event is distinct from an individual Event card drawn between encounters.
 
@@ -4259,7 +4264,7 @@ For the rest of the run, whenever the party enters Town, reveal 1d20 random card
 
 The party chooses one —
 Truth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.
-Lie — Skip the next Event that would be resolved.
+Lie — Skip the next scheduled Event that would be resolved.
 
 <!-- rule:event-covenant -->
 ### Covenant
@@ -4641,7 +4646,7 @@ The party chooses one to resolve. Put the other on the bottom of the Event deck.
 <!-- rule:event-planetary-bank -->
 ### Planetary Bank
 
-Each player may convert up to 50 Essence into an equal amount of XP.
+Each player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP.
 
 <!-- rule:event-reckless-racketeering -->
 ### Reckless Racketeering
