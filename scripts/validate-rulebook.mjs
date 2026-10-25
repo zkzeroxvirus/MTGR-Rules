@@ -160,6 +160,23 @@ for (const [category, expected] of Object.entries(expectedProgressionCounts)) {
 }
 if (Object.keys(progressionContracts.categories || {}).length !== allowedProgressionCategories.size) fail("progression contracts must define exactly crypt_buff, ticket, brand, and achievement categories");
 
+// The base Event deck: every design owns a between-encounters Event rule, the copies add
+// up to the physical deck, and the Base Event Deck page lists each design.
+const baseEvents = await readJson(path.join(root, "BASE-EVENT-CONTRACTS.json"));
+const allowedEventClasses = new Set(["Good", "Neutral", "Bad", "Ambush", "Town Upgrade"]);
+const baseDeckPage = await sourceText("rules/between-encounters/base-event-deck.md");
+let baseCopies = 0;
+for (const event of baseEvents.events || []) {
+  const rule = ruleMap.get(event.ruleId);
+  if (!rule) fail(`base Event ${event.id} references missing rule ${event.ruleId}`);
+  if (rule.phase !== "between-encounters") fail(`base Event ${event.id} must be in the between-encounters phase`);
+  if (!allowedEventClasses.has(event.classification)) fail(`base Event ${event.id} has invalid classification ${event.classification}`);
+  if (!Number.isInteger(event.copies) || event.copies < 1) fail(`base Event ${event.id} must have a positive copies count`);
+  if (!baseDeckPage.includes(`(events/${path.basename(rule.source)})`)) fail(`Base Event Deck page does not list ${event.id}`);
+  baseCopies += event.copies;
+}
+if (baseCopies !== baseEvents.deck?.cards) fail(`base Event copies add up to ${baseCopies}, not the deck's ${baseEvents.deck?.cards} cards`);
+
 for (const document of manifest.documents || []) {
   if (!document.source || !["RULEBOOK.md", "generated/PLAYER-REFERENCE.md", "generated/HOST-REFERENCE.md"].includes(document.source)) fail(`manifest document ${document.id} must be generated from canonical rules`);
   if (!(await sourceText(document.source)).trim()) fail(`manifest document ${document.id} is empty`);

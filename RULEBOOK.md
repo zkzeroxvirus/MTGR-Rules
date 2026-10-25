@@ -3676,6 +3676,88 @@ These classifications determine Event-pool routing and rule checks. They do not 
 
 ---
 
+<!-- rule:base-event-deck -->
+### Base Event Deck
+
+The normal Event deck has **68 cards**: 62 Event designs, some with more than one copy. A Seasonal Event adds its own Event cards to these; see [Seasonal Events](../seasonal-events/overview.md).
+
+#### Good (35 cards)
+
+- [Abandoned Supply Pack](events/abandoned-supply-pack.md)
+- [Attunement Tower](events/attunement-tower.md)
+- [Card Fetcher](events/card-fetcher.md)
+- [Card Vortex](events/card-vortex.md)
+- [Commander’s Guild](events/commanders-guild.md)
+- [Crossroads](events/crossroads.md)
+- [Endless Sea](events/endless-sea.md)
+- [Exotic Car Show](events/exotic-car-show.md)
+- [Ivy Forest](events/ivy-forest.md)
+- [Kithkin Hovel](events/kithkin-hovel.md)
+- [Lost Ark](events/lost-ark.md)
+- [Mana Ripple](events/mana-ripple.md)
+- [Meeting of the Planes](events/meeting-of-the-planes.md)
+- [Mystic Waterwell](events/mystic-waterwell.md)
+- [Nameless Smith](events/nameless-smith.md)
+- [Peaceful Orchard](events/peaceful-orchard.md)
+- [Planar Excavation](events/planar-excavation.md)
+- [Plane-to-Plane Circus](events/plane-to-plane-circus.md)
+- [Rapidly Growing Harvest](events/rapidly-growing-harvest.md)
+- [Rewrite Reality](events/rewrite-reality.md)
+- [Rhystic Library](events/rhystic-library.md)
+- [Sliver King](events/sliver-king.md)
+- [Sorrowful Swamp](events/sorrowful-swamp.md)
+- [Spartan Plains](events/spartan-plains.md)
+- [Splendid Skies](events/splendid-skies.md)
+- [Stoneforge Caravan](events/stoneforge-caravan.md)
+- [Tomb of the Forgotten](events/tomb-of-the-forgotten.md)
+- [Treasure Goblin](events/treasure-goblin.md)
+- [Trench of the Void](events/trench-of-the-void.md)
+- [Urza’s Sylex](events/urzas-sylex.md)
+- [Vanguard Caravan](events/vanguard-caravan.md)
+- [Verdant Shrubbery](events/verdant-shrubbery.md)
+- [Wandering Planes Assistant](events/wandering-planes-assistant.md)
+- [Wishing Well](events/wishing-well.md)
+- [Witch’s Cauldron](events/witchs-cauldron.md)
+
+#### Neutral (12 cards)
+
+- [A Rock Pile](events/a-rock-pile.md)
+- [Artifact on a Pedestal](events/artifact-on-a-pedestal.md)
+- [Bloody Altar](events/bloody-altar.md)
+- [Cabin in the Woods](events/cabin-in-the-woods.md)
+- [Cave of Spoils](events/cave-of-spoils.md)
+- [Dragon Hoard](events/dragon-hoard.md)
+- [Explosive Volcano](events/explosive-volcano.md)
+- [Lion and a Mouse](events/lion-and-a-mouse.md)
+- [Planetary Bank](events/planetary-bank.md)
+- [Sword in the Stone](events/sword-in-the-stone.md)
+- [Wandering Planes Arms Dealer](events/wandering-planes-arms-dealer.md)
+- [Zubera Crossing](events/zubera-crossing.md)
+
+#### Bad (9 cards)
+
+- [A God’s Essence](events/a-gods-essence.md)
+- [Earthquake!](events/earthquake.md) ×2
+- [Fixed Fight](events/fixed-fight.md)
+- [Harrowing Omen](events/harrowing-omen.md)
+- [Reckless Racketeering](events/reckless-racketeering.md)
+- [Rotten Luck](events/rotten-luck.md)
+- [Smooth Criminal](events/smooth-criminal.md)
+- [Wandering Planes Saboteur](events/wandering-planes-saboteur.md)
+
+#### Ambush (9 cards)
+
+- [Beast Stampede](events/beast-stampede.md) ×2
+- [It That Heralds the End](events/it-that-heralds-the-end.md) ×2
+- [Mercenary Raid](events/mercenary-raid.md) ×3
+- [Zombie Uprising](events/zombie-uprising.md) ×2
+
+#### Town Upgrade (3 cards)
+
+- [Mirror Dimension](events/mirror-dimension.md)
+- [Plane Trader](events/plane-trader.md)
+- [Timeless Market](events/timeless-market.md)
+
 <!-- rule:event-scaling -->
 ### **⚖️ EVENT SCALING *(Optional System Layer)***
 
@@ -3820,6 +3902,406 @@ All players are fully healed upon entering Town.
 ### **🏪 BUILDING SYSTEM**
 
 Town does not use actions.
+
+<!-- rule:event-cabin-in-the-woods -->
+### Cabin in the Woods
+
+The party chooses one —
+Avoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.
+Explore — Roll a d6.
+1 — Resolve two random Bad Events.
+2 — Resolve a random Bad Event.
+3-4 — Resolve a random Neutral Event.
+5 — Resolve a random Good Event.
+6 — Resolve two random Good Events.
+
+<!-- rule:event-verdant-shrubbery -->
+### Verdant Shrubbery
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
+“{T}: Add one mana of any color.”
+Each player whose commander is green chooses two creature cards instead.
+
+<!-- rule:event-rhystic-library -->
+### Rhystic Library
+
+Each player chooses one —
+Learn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.
+Discuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.
+(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)
+
+<!-- rule:event-explosive-volcano -->
+### Explosive Volcano
+
+The party chooses one —
+Brave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.
+Take Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead.
+
+<!-- rule:event-kithkin-hovel -->
+### Kithkin Hovel
+
+Each player may destroy an artifact card in their Mainboard.
+Each player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.
+If that player’s commander is white, reveal artifact cards of the same rarity instead.
+
+<!-- rule:event-urzas-sylex -->
+### Urza’s Sylex
+
+Each player may choose a card in their Mainboard.
+During the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal.
+
+<!-- rule:event-cave-of-spoils -->
+### Cave of Spoils
+
+Each player secretly chooses Caution or Greed, then all choices are revealed simultaneously.
+Caution — At the beginning of the next encounter, create one Treasure token.
+Greed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed.
+
+<!-- rule:event-card-fetcher -->
+### Card Fetcher
+
+Each player chooses one —
+Established Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.
+New Discovery — Choose a card marked “New” on your commander’s EDHREC page.
+Host’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.
+Add the chosen card to your Mainboard. It can’t be a Game Changer.
+
+<!-- rule:event-vanguard-caravan -->
+### Vanguard Caravan
+
+Roll a d4, then reveal that many random Vanguards.
+Each player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter.
+
+<!-- rule:event-plane-to-plane-circus -->
+### Plane-to-Plane Circus
+
+The Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.
+Without revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.
+If every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards.
+
+<!-- rule:event-meeting-of-the-planes -->
+### Meeting of the Planes
+
+Reveal five random planeswalker cards within the party’s combined commander color identities.
+Each player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.
+Each player may gain up to two cards revealed this way.
+
+<!-- rule:event-abandoned-supply-pack -->
+### Abandoned Supply Pack
+
+Each player rolls a d6 and gains the card corresponding to the result:
+1 — Nothing
+2 — Commander’s Sphere
+3 — Thought Vessel
+4 — Swiftfoot Boots
+5 — Arcane Signet
+6 — Sol Ring
+
+<!-- rule:event-plane-trader -->
+### Plane Trader
+
+Reveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.
+Each player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.
+For the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way.
+
+<!-- rule:event-lion-and-a-mouse -->
+### Lion and a Mouse
+
+The party chooses one —
+Truth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.
+Lie — Skip the next scheduled Event that would be resolved.
+
+<!-- rule:event-rewrite-reality -->
+### Rewrite Reality
+
+Each player may choose a card in their Mainboard and remove any amount of text from that card.
+This can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.
+The Host may reject any change they determine is too powerful.
+
+<!-- rule:event-sword-in-the-stone -->
+### Sword in the Stone
+
+The party chooses one —
+Draw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:
+“When this Equipment enters, you become the monarch.”
+The next encounter is a Master Fight.
+Return Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead.
+
+<!-- rule:event-attunement-tower -->
+### Attunement Tower
+
+The party chooses which Crypt boss it will face during this run.
+
+<!-- rule:event-wandering-planes-saboteur -->
+### Wandering Planes Saboteur
+
+The party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
+The party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
+
+<!-- rule:event-commanders-guild -->
+### Commander’s Guild
+
+Each player chooses one —
+New Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.
+Like-Minded — Use The Guild for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander.
+
+Commander swaps from either option follow [The Guild’s color-identity and pairing rules](../../town/town-buildings.md#partner-type-commanders-and-backgrounds). New Perspectives exchanges cards already in your Mainboard or Sideboard; it does not generate additional partner or Background choices. Like-Minded uses the normal Guild generation and pairing rules.
+
+<!-- rule:event-endless-sea -->
+### Endless Sea
+
+Each player’s commander gains a random keyword ability for the rest of the run.
+Each player whose commander is blue gains two random keyword abilities instead.
+(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)
+
+<!-- rule:event-mirror-dimension -->
+### Mirror Dimension
+
+For the rest of the run, the following Town Action is available:
+Pay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity.
+
+<!-- rule:event-trench-of-the-void -->
+### Trench of the Void
+
+Each player gains two random Tier 1 Cash Outs.
+Each player whose commander is black gains an additional random Tier 2 Cash Out.
+
+<!-- rule:event-timeless-market -->
+### Timeless Market
+
+For the rest of the run, the following Town Action is available:
+Once per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out.
+
+<!-- rule:event-sliver-king -->
+### Sliver King
+
+Each player chooses a creature card in their Mainboard, then chooses a creature type that card has.
+Each chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players.
+
+<!-- rule:event-spartan-plains -->
+### Spartan Plains
+
+Each player chooses a creature card in their Mainboard. Each chosen card gains vigilance.
+Each player whose commander is white chooses two creature cards instead.
+
+<!-- rule:event-lost-ark -->
+### Lost Ark
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
+“When you cast this spell, create a Treasure token.”
+Each player whose commander is red chooses two creature cards instead.
+
+<!-- rule:event-wishing-well -->
+### Wishing Well
+
+Each player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules.
+
+<!-- rule:event-earthquake -->
+### Earthquake!
+
+Each player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard.
+
+<!-- rule:event-dragon-hoard -->
+### Dragon Hoard
+
+The Host secretly rolls a d6.
+Reveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.
+One at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.
+If the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.
+Otherwise, when the party stops, reveal the result and discard the remaining cards.
+
+<!-- rule:event-peaceful-orchard -->
+### Peaceful Orchard
+
+Each player gains 5 Max HP for the rest of the run.
+Each player whose commander is white gains 10 Max HP instead.
+
+<!-- rule:event-ivy-forest -->
+### Ivy Forest
+
+Each player reveals a random creature card within their commander’s color identity and gains it.
+Each player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them.
+
+<!-- rule:event-tomb-of-the-forgotten -->
+### Tomb of the Forgotten
+
+Each player chooses a card using Scryfall and adds it to their Mainboard.
+Each card gained this way becomes Temporal.
+
+<!-- rule:event-exotic-car-show -->
+### Exotic Car Show
+
+Roll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.
+The party may gain any number of cards revealed this way and distribute them among the players.
+
+<!-- rule:event-card-vortex -->
+### Card Vortex
+
+Each player chooses a colorless card in their Mainboard and places it into a shared pile.
+Upgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player.
+
+<!-- rule:event-splendid-skies -->
+### Splendid Skies
+
+Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.
+Each player whose commander is blue chooses two creature cards instead.
+
+<!-- rule:event-artifact-on-a-pedestal -->
+### Artifact on a Pedestal
+
+Reveal one random mythic rare artifact card for each player.
+Each player may gain the artifact revealed for them.
+For each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant.
+
+<!-- rule:event-bloody-altar -->
+### Bloody Altar
+
+The party chooses one —
+Blood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.
+Blood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.
+If the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.
+Leave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.
+After that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins.
+
+<!-- rule:event-stoneforge-caravan -->
+### Stoneforge Caravan
+
+Each player chooses one —
+Create — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.
+Runeforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:
+“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”
+
+<!-- rule:event-mystic-waterwell -->
+### Mystic Waterwell
+
+Each player may destroy a card in their Mainboard.
+Each player who does gains Essence equal to three times the total mana value of all cards destroyed this way.
+
+<!-- rule:event-wandering-planes-arms-dealer -->
+### Wandering Planes Arms Dealer
+
+The party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
+Each player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
+
+<!-- rule:event-zubera-crossing -->
+### Zubera Crossing
+
+The party chooses one —
+
+Investigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.
+
+Avoid — Resolve another Event.
+
+<!-- rule:event-a-rock-pile -->
+### A Rock Pile
+
+The party chooses one —
+Leave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.
+Dig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.
+While the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.
+If the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity.
+
+<!-- rule:event-sorrowful-swamp -->
+### Sorrowful Swamp
+
+For the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.
+Each player whose commander is black creates three of those tokens instead.
+
+<!-- rule:event-treasure-goblin -->
+### Treasure Goblin
+
+Reveal three random Trinkets. The party chooses one to gain.
+
+<!-- rule:event-planar-excavation -->
+### Planar Excavation
+
+Each player may choose one —
+Discover — Reveal five random cards within your commander’s color identity. Choose one to gain.
+Traverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.
+
+<!-- rule:event-mana-ripple -->
+### Mana Ripple
+
+Each player chooses one —
+Mono — Choose a color, then reveal eight random monocolored cards of that color.
+Dual — Choose two colors, then reveal four random cards that are exactly those colors.
+Each player may gain one card they revealed this way.
+
+<!-- rule:event-rapidly-growing-harvest -->
+### Rapidly Growing Harvest
+
+Each player chooses one —
+Growth — Gain up to two dual land cards within your commander’s color identity.
+Harvest — Gain one random utility land card within your commander’s color identity.
+
+<!-- rule:event-witchs-cauldron -->
+### Witch’s Cauldron
+
+Each player may destroy a creature card in their Mainboard.
+Each player who does chooses one —
+Absorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.
+Absorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.
+Each player may gain up to three cards they revealed this way.
+
+<!-- rule:event-crossroads -->
+### Crossroads
+
+Reveal the top two cards of the Event deck.
+The party chooses one to resolve. Put the other on the bottom of the Event deck.
+
+<!-- rule:event-planetary-bank -->
+### Planetary Bank
+
+Each player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP.
+
+<!-- rule:event-reckless-racketeering -->
+### Reckless Racketeering
+
+Each player shuffles their Mainboard and places it face up, then chooses one —
+Top — Destroy the top card of your Mainboard.
+Bottom — Destroy the bottom card of your Mainboard.
+
+<!-- rule:event-wandering-planes-assistant -->
+### Wandering Planes Assistant
+
+The party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.
+Each player may permanently gain one of those cards.
+
+<!-- rule:event-nameless-smith -->
+### Nameless Smith
+
+Each player chooses a card in their Mainboard and upgrades it.
+
+<!-- rule:event-zombie-uprising -->
+### Zombie Uprising
+
+During the next encounter, the Host begins with a 2/2 black Zombie creature token on the battlefield.
+At the beginning of each Host upkeep, the Host creates a 2/2 black Zombie creature token.
+If the party wins that encounter, each player gains 10 XP.
+Resolve another Event.
+
+<!-- rule:event-mercenary-raid -->
+### Mercenary Raid
+
+At the beginning of each party upkeep during the next encounter, the Host rolls a d4, then creates X 1/1 red Mercenary creature tokens, where X is the result.
+Those tokens have:
+“{T}: Target creature gets +1/+0 until end of turn. Activate only as a sorcery.”
+If the party wins that encounter, each player gains 15 XP.
+
+<!-- rule:event-it-that-heralds-the-end -->
+### It That Heralds the End
+
+For the next encounter, the Host sets aside a random legendary Eldrazi creature card with suspend counters on it equal to its mana value.
+At the beginning of each Host upkeep, remove a suspend counter from that card. If the Host has Authority IV, remove two suspend counters instead.
+When the last suspend counter is removed, the Host casts that card without paying its mana cost.
+If the party wins that encounter, reveal three random Trinkets. The party chooses one to gain.
+
+<!-- rule:event-beast-stampede -->
+### Beast Stampede
+
+For the next encounter, the Host gains a Beast Token deck.
+At the beginning of the Host’s third upkeep, the Host rolls a d4. The Host reveals that many cards from the top of the Beast Token deck and puts them onto the battlefield under their control.
+If the party wins that encounter, each player reveals three random Beast creature cards within their commander’s color identity and may gain one card they revealed this way.
 
 <!-- rule:event-a-gods-essence -->
 ### A God’s Essence
@@ -4302,31 +4784,12 @@ The party chooses one:
 Join the feast — Each player begins the next encounter with a Scuttlemutt on the battlefield.
 Beat the feasters — Each player begins the next encounter with a random Equipment on the battlefield. That Equipment’s equip cost permanently becomes {0}.
 
-<!-- rule:event-cabin-in-the-woods -->
-### Cabin in the Woods
-
-The party chooses one —
-Avoid — Flip a coin. If the party wins the flip, resolve a random Good Event. Otherwise, nothing happens.
-Explore — Roll a d6.
-1 — Resolve two random Bad Events.
-2 — Resolve a random Bad Event.
-3-4 — Resolve a random Neutral Event.
-5 — Resolve a random Good Event.
-6 — Resolve two random Good Events.
-
 <!-- rule:event-broken-mirror -->
 ### Broken Mirror
 
 Each player chooses one:
 Put it back together — Gain an upgraded copy of your commander. You may put it into your deck or sideboard, or replace your commander with it.
 Take a shard — Gain the Shattered Glass Trinket.
-
-<!-- rule:event-verdant-shrubbery -->
-### Verdant Shrubbery
-
-Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
-“{T}: Add one mana of any color.”
-Each player whose commander is green chooses two creature cards instead.
 
 <!-- rule:event-turkey-uprising -->
 ### Turkey Uprising
@@ -4342,45 +4805,10 @@ Spiral door — Reveal Events until you reveal a good Event and a bad Event. Res
 Inverted door — Resolve the last Event again.
 Upside-down door — Resolve the bottom Event of the deck.
 
-<!-- rule:event-rhystic-library -->
-### Rhystic Library
-
-Each player chooses one —
-Learn — Gain two random sorcery cards and one random enchantment card within your commander’s color identity.
-Discuss — Choose a card in your Mainboard. Each player who chose Discuss may gain a copy of a card chosen this way by another player.
-(Scryfalled cards may be chosen. Cards gained with Discuss are Scryfalled.)
-
-<!-- rule:event-explosive-volcano -->
-### Explosive Volcano
-
-The party chooses one —
-Brave the Eruption — During the next encounter, at the beginning of each party upkeep, Explosive Volcano deals 1 damage to each player. If the party wins that encounter, commander spells the players cast cost {1} less to cast for the rest of the run. Red commander spells cost {1}{R} less instead.
-Take Shelter — During the next encounter, the first time each player casts their commander, it costs {1} less to cast. A red commander costs {2} less instead.
-
-<!-- rule:event-kithkin-hovel -->
-### Kithkin Hovel
-
-Each player may destroy an artifact card in their Mainboard.
-Each player who does reveals three random artifact cards of a lower rarity than the card they destroyed, then gains those cards.
-If that player’s commander is white, reveal artifact cards of the same rarity instead.
-
-<!-- rule:event-urzas-sylex -->
-### Urza’s Sylex
-
-Each player may choose a card in their Mainboard.
-During the next encounter, each chosen card begins in its owner’s opening hand and becomes Temporal.
-
 <!-- rule:event-pumpkin-smashing -->
 ### Pumpkin Smashing
 
 Each player may destroy a creature card in their deck. Each player who does gains 3 random instant or sorcery cards within their color identity.
-
-<!-- rule:event-cave-of-spoils -->
-### Cave of Spoils
-
-Each player secretly chooses Caution or Greed, then all choices are revealed simultaneously.
-Caution — At the beginning of the next encounter, create one Treasure token.
-Greed — At the beginning of the next encounter, create three Treasure tokens. The Host begins that encounter with a random Pirate creature card suspended with three time counters for each player who chose Greed.
 
 <!-- rule:event-the-hunt-is-on -->
 ### The Hunt Is ON!
@@ -4389,15 +4817,6 @@ At the beginning of each Host turn, the Host creates a token copy of a random We
 The Werewolf with the highest mana value stays on its transformed face and can’t transform back. Break ties by rolling a d20.
 Once there are four or more Werewolves on the battlefield, all Werewolves are locked on their transformed faces for the rest of the encounter. Werewolves that enter afterward enter transformed and can’t transform back.
 The party gains the Full Moon Trinket. If the party already has it, each player may augment a double-faced card without paying its augment cost instead.
-
-<!-- rule:event-card-fetcher -->
-### Card Fetcher
-
-Each player chooses one —
-Established Synergy — Choose a card from your commander’s EDHREC page with a synergy score of 40% or greater.
-New Discovery — Choose a card marked “New” on your commander’s EDHREC page.
-Host’s Recommendation — The Host chooses a card from your commander’s EDHREC page for you.
-Add the chosen card to your Mainboard. It can’t be a Game Changer.
 
 <!-- rule:event-burn-the-witch -->
 ### BURN THE WITCH
@@ -4411,51 +4830,6 @@ Add the conjured Humans to the loot pool.
 
 Reveal 10 random Horse cards. Each player chooses one to keep.
 Upgrade each chosen card, then color-shift it to be within that player’s color identity. It becomes a Zombie in addition to its other types.
-
-<!-- rule:event-vanguard-caravan -->
-### Vanguard Caravan
-
-Roll a d4, then reveal that many random Vanguards.
-Each player may choose one Vanguard revealed this way. A Vanguard gained this way lasts until that player dies during an encounter.
-
-<!-- rule:event-plane-to-plane-circus -->
-### Plane-to-Plane Circus
-
-The Host shuffles each player’s Mainboard, looks at its top three cards, and chooses a nonland card from among them. If there isn’t one, repeat this process for that player.
-Without revealing the chosen cards or saying their names, the Host describes each card using only information from its type line and rules text. The party guesses the name of each card.
-If every chosen card is guessed correctly, each player gains XP equal to four times the total mana value of the chosen cards.
-
-<!-- rule:event-meeting-of-the-planes -->
-### Meeting of the Planes
-
-Reveal five random planeswalker cards within the party’s combined commander color identities.
-Each player may reveal a planeswalker card from their Mainboard. For each player who does, roll a d6 and reveal that many additional random planeswalker cards within that player’s commander color identity.
-Each player may gain up to two cards revealed this way.
-
-<!-- rule:event-abandoned-supply-pack -->
-### Abandoned Supply Pack
-
-Each player rolls a d6 and gains the card corresponding to the result:
-1 — Nothing
-2 — Commander’s Sphere
-3 — Thought Vessel
-4 — Swiftfoot Boots
-5 — Arcane Signet
-6 — Sol Ring
-
-<!-- rule:event-plane-trader -->
-### Plane Trader
-
-Reveal a random nonland card, then choose one of its card types. Reveal 2d20 random cards of that type.
-Each player may either pay 5 XP or destroy a card of that type in their Mainboard to gain one card revealed this way.
-For the rest of the run, whenever the party enters Town, reveal 1d20 random cards of the chosen type. Each player may pay 5 XP to gain one card revealed this way.
-
-<!-- rule:event-lion-and-a-mouse -->
-### Lion and a Mouse
-
-The party chooses one —
-Truth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.
-Lie — Skip the next scheduled Event that would be resolved.
 
 <!-- rule:event-covenant -->
 ### Covenant
@@ -4475,37 +4849,10 @@ At the beginning of each Town, each player must choose a creature card in their 
 
 The party gains the Forgotten Key Trinket. If the party already has it, its activation cost becomes {0} instead.
 
-<!-- rule:event-rewrite-reality -->
-### Rewrite Reality
-
-Each player may choose a card in their Mainboard and remove any amount of text from that card.
-This can’t change the card’s mana value or any of its costs. When removing text, complete words must be removed rather than parts of words.
-The Host may reject any change they determine is too powerful.
-
-<!-- rule:event-sword-in-the-stone -->
-### Sword in the Stone
-
-The party chooses one —
-Draw the Sword — Reveal a random Sword of X and Y. The party chooses one player to gain it. For the rest of the run, that Equipment gains:
-“When this Equipment enters, you become the monarch.”
-The next encounter is a Master Fight.
-Return Later — Set Sword in the Stone aside, then resolve another Event. The next time the party would resolve an Event after returning to Town, it may resolve Sword in the Stone instead.
-
 <!-- rule:event-overflowing-feast -->
 ### Overflowing Feast
 
 For the rest of the run, at the beginning of the first upkeep of each encounter, each player creates two Food tokens.
-
-<!-- rule:event-attunement-tower -->
-### Attunement Tower
-
-The party chooses which Crypt boss it will face during this run.
-
-<!-- rule:event-wandering-planes-saboteur -->
-### Wandering Planes Saboteur
-
-The party chooses a keyword or a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
-The party may remove up to six of those cards from consideration. The Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
 
 <!-- rule:event-crowstorm -->
 ### Crowstorm
@@ -4521,40 +4868,6 @@ While the Host controls five or more Scarecrows, those creatures lose defender.
 At the end of each Host turn, if the Host controls ten or more Scarecrows and doesn’t control a Reaper King, the Host conjures a Reaper King onto the battlefield.
 If the party wins the encounter, each player may choose a creature card in their main deck. It gains “{T}: Add one mana of any color.”
 
-<!-- rule:event-commanders-guild -->
-### Commander’s Guild
-
-Each player chooses one —
-New Perspectives — You may exchange your commander with a legendary creature card in your Mainboard or Sideboard.
-Like-Minded — Use The Guild for free, treating the die result as a 6. You may put one of the generated commanders into your Mainboard or Sideboard instead of making it your commander.
-
-Commander swaps from either option follow [The Guild’s color-identity and pairing rules](../../town/town-buildings.md#partner-type-commanders-and-backgrounds). New Perspectives exchanges cards already in your Mainboard or Sideboard; it does not generate additional partner or Background choices. Like-Minded uses the normal Guild generation and pairing rules.
-
-<!-- rule:event-endless-sea -->
-### Endless Sea
-
-Each player’s commander gains a random keyword ability for the rest of the run.
-Each player whose commander is blue gains two random keyword abilities instead.
-(Players may choose to take the random Keyword(s) or Decline entirely after revealing the Keyword(s).)
-
-<!-- rule:event-mirror-dimension -->
-### Mirror Dimension
-
-For the rest of the run, the following Town Action is available:
-Pay 15 XP. Destroy any number of cards in your Mainboard. For each card destroyed this way, gain a random card within your commander’s color identity.
-
-<!-- rule:event-trench-of-the-void -->
-### Trench of the Void
-
-Each player gains two random Tier 1 Cash Outs.
-Each player whose commander is black gains an additional random Tier 2 Cash Out.
-
-<!-- rule:event-timeless-market -->
-### Timeless Market
-
-For the rest of the run, the following Town Action is available:
-Once per Town, one player may pay 65 XP. If they do, that player gains a random Tier 3 Cash Out.
-
 <!-- rule:event-pumpkin-harvest -->
 ### Pumpkin Harvest
 
@@ -4567,56 +4880,12 @@ The party chooses one:
 - Gain the Scaery Pumpkin Trinket.
 - Each player gains 25 XP.
 
-<!-- rule:event-sliver-king -->
-### Sliver King
-
-Each player chooses a creature card in their Mainboard, then chooses a creature type that card has.
-Each chosen card gains a random Sliver augment associated with the chosen creature type. That augment affects creatures of that type controlled by all players.
-
-<!-- rule:event-spartan-plains -->
-### Spartan Plains
-
-Each player chooses a creature card in their Mainboard. Each chosen card gains vigilance.
-Each player whose commander is white chooses two creature cards instead.
-
-<!-- rule:event-lost-ark -->
-### Lost Ark
-
-Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains:
-“When you cast this spell, create a Treasure token.”
-Each player whose commander is red chooses two creature cards instead.
-
-<!-- rule:event-wishing-well -->
-### Wishing Well
-
-Each player chooses a card using Scryfall and adds it to their Mainboard. Each choice must follow the Scryfall Rules.
-
-<!-- rule:event-earthquake -->
-### Earthquake!
-
-Each player destroys two land cards in their Mainboard. For each card they destroy this way, they add a Wastes to their Mainboard.
-
-<!-- rule:event-dragon-hoard -->
-### Dragon Hoard
-
-The Host secretly rolls a d6.
-Reveal fifteen random artifact cards with a Scryfall USD price of $50 or greater.
-One at a time, the party may gain one card revealed this way and choose which player receives it. After each card is gained, the party chooses whether to continue or stop.
-If the number of cards gained exceeds the Host’s secret result, reveal the result and end this Event immediately. During the next encounter, the Host takes the first turn and begins with a 5/5 red Dragon creature token with flying on the battlefield.
-Otherwise, when the party stops, reveal the result and discard the remaining cards.
-
 <!-- rule:event-you-stepped-on-a-leaf -->
 ### You Stepped on a Leaf
 
 The party chooses one:
 Attend the funeral — Each player gains 2 cashouts.
 Steal the corpse — The party gains the Dead Leaf Trinket.
-
-<!-- rule:event-peaceful-orchard -->
-### Peaceful Orchard
-
-Each player gains 5 Max HP for the rest of the run.
-Each player whose commander is white gains 10 Max HP instead.
 
 <!-- rule:event-cornfields -->
 ### Cornfields
@@ -4636,36 +4905,12 @@ Each player chooses one:
 Trick — Begin the next encounter with a random Curse with mana value 4 or less attached to you. Gain 1 cashout.
 Treat — Gain 3 random Food cards to add to your deck.
 
-<!-- rule:event-ivy-forest -->
-### Ivy Forest
-
-Each player reveals a random creature card within their commander’s color identity and gains it.
-Each player whose commander is green instead reveals three random mythic rare creature cards within their commander’s color identity and gains them.
-
-<!-- rule:event-tomb-of-the-forgotten -->
-### Tomb of the Forgotten
-
-Each player chooses a card using Scryfall and adds it to their Mainboard.
-Each card gained this way becomes Temporal.
-
 <!-- rule:event-strung-up -->
 ### Strung Up
 
 Each party member begins the next encounter with their commander on the battlefield. Those commanders become artifacts, lose all other card types and abilities, and gain “{2}: Sacrifice this permanent.”
 Any player may pay their commander’s mana cost to exile it, then return it to the battlefield under its owner’s control.
 At the end of the encounter, each player whose commander is still a noncreature artifact augments it. That commander remains a noncreature artifact and regains its original abilities.
-
-<!-- rule:event-exotic-car-show -->
-### Exotic Car Show
-
-Roll a d12, then reveal that many random Vehicle cards within the party’s combined commander color identities.
-The party may gain any number of cards revealed this way and distribute them among the players.
-
-<!-- rule:event-card-vortex -->
-### Card Vortex
-
-Each player chooses a colorless card in their Mainboard and places it into a shared pile.
-Upgrade each card in the pile, then randomly redistribute those cards among the players, one card to each player.
 
 <!-- rule:event-only-need-to-be-faster-than-you -->
 ### Only Need to Be Faster Than You
@@ -4679,64 +4924,12 @@ At the beginning of the Host’s first upkeep, the Host conjures an Unstoppable 
 Whenever a player chooses a card to gain from any pack, they may give up that card instead. If they do, they gain Essence equal to twice its mana value.
 This applies to all packs, including Merchant, Mystery, and Cash Out packs.
 
-<!-- rule:event-splendid-skies -->
-### Splendid Skies
-
-Each player chooses a creature card in their Mainboard. For the rest of the run, each chosen card gains flying.
-Each player whose commander is blue chooses two creature cards instead.
-
-<!-- rule:event-artifact-on-a-pedestal -->
-### Artifact on a Pedestal
-
-Reveal one random mythic rare artifact card for each player.
-Each player may gain the artifact revealed for them.
-For each artifact gained this way, the Host begins the next encounter with one random Trap card face down. The Host may cast those Trap cards without paying their mana costs whenever they could cast an instant.
-
-<!-- rule:event-bloody-altar -->
-### Bloody Altar
-
-The party chooses one —
-Blood for Initiative — Each player loses 5 life. The party takes the first turn during the next encounter.
-Blood for Fortune — Each player may lose any amount of life up to 10. Record the amount each player loses this way.
-If the party wins the next encounter, each participating player gains XP equal to five times the life they lost to Bloody Altar.
-Leave — During the next encounter, each player has −1 starting hand size and −1 maximum hand size, and the Host takes the first turn.
-After that encounter, two players chosen at random each gain a Cathedral Cash Out, whether or not the party wins.
-
-<!-- rule:event-stoneforge-caravan -->
-### Stoneforge Caravan
-
-Each player chooses one —
-Create — Reveal three random rare Equipment cards within your commander’s color identity. Gain one card revealed this way.
-Runeforge — Choose an Equipment card in your Mainboard. For the rest of the run, it gains:
-“At the beginning of your first upkeep during each encounter, if this card is in your library, you may search your library for it, reveal it, put it into your hand, then shuffle.”
-
-<!-- rule:event-mystic-waterwell -->
-### Mystic Waterwell
-
-Each player may destroy a card in their Mainboard.
-Each player who does gains Essence equal to three times the total mana value of all cards destroyed this way.
-
 <!-- rule:event-found-a-lucky-coin -->
 ### Found a Lucky Coin?
 
 Each player flips a coin:
 Heads - Gain 5 life for the next encounter
 Tails - Lose 5 life for the next encounter
-
-<!-- rule:event-wandering-planes-arms-dealer -->
-### Wandering Planes Arms Dealer
-
-The party chooses a card type other than instant or sorcery, then reveals fifteen random cards with the chosen property.
-Each player may gain one of those cards. If one or more players do, the Host chooses one of the remaining cards and begins the next encounter with that card on the battlefield under the Host’s control.
-
-<!-- rule:event-zubera-crossing -->
-### Zubera Crossing
-
-The party chooses one —
-
-Investigate — During the next encounter, the Host gains a Zubera deck. At the beginning of the Host’s third upkeep, the Host rolls a d4, then casts that many random cards from the Zubera deck without paying their mana costs. If the party wins that encounter, each player gains one random Tier 1 Cash Out.
-
-Avoid — Resolve another Event.
 
 <!-- rule:event-a-stones-throw -->
 ### A Stone’s Throw
@@ -4762,57 +4955,6 @@ Each player reveals cards from the top of their library until they reveal a nonl
 If they do, they shuffle all cards revealed this way back into their library and repeat this process, increasing the life payment by 1 each time.
 Otherwise, they destroy the revealed nonland card, shuffle the other revealed cards back into their library, and stop.
 
-<!-- rule:event-a-rock-pile -->
-### A Rock Pile
-
-The party chooses one —
-Leave It Alone — The Host begins the next encounter with Great Furnace on the battlefield and takes the first turn.
-Dig Deeper — Exile three random Golem creature cards with a number of time counters on each equal to half its mana value, rounded up. Those cards gain suspend.
-While the Host controls a Golem, if a source would deal damage to the Host, prevent half that damage, rounded up.
-If the party wins that encounter, each player reveals three random mana-rock artifact cards, chooses one, and color-shifts it to fit their commander’s color identity.
-
-<!-- rule:event-sorrowful-swamp -->
-### Sorrowful Swamp
-
-For the rest of the run, at the beginning of each encounter, each player creates a 0/1 black Thrull creature token.
-Each player whose commander is black creates three of those tokens instead.
-
-<!-- rule:event-treasure-goblin -->
-### Treasure Goblin
-
-Reveal three random Trinkets. The party chooses one to gain.
-
-<!-- rule:event-planar-excavation -->
-### Planar Excavation
-
-Each player may choose one —
-Discover — Reveal five random cards within your commander’s color identity. Choose one to gain.
-Traverse — Destroy a card in your Mainboard. If you do, spawn five random cards that share a card type with it. Their colors are shifted to fit your commander’s color identity. Choose one to gain.
-
-<!-- rule:event-mana-ripple -->
-### Mana Ripple
-
-Each player chooses one —
-Mono — Choose a color, then reveal eight random monocolored cards of that color.
-Dual — Choose two colors, then reveal four random cards that are exactly those colors.
-Each player may gain one card they revealed this way.
-
-<!-- rule:event-rapidly-growing-harvest -->
-### Rapidly Growing Harvest
-
-Each player chooses one —
-Growth — Gain up to two dual land cards within your commander’s color identity.
-Harvest — Gain one random utility land card within your commander’s color identity.
-
-<!-- rule:event-witchs-cauldron -->
-### Witch’s Cauldron
-
-Each player may destroy a creature card in their Mainboard.
-Each player who does chooses one —
-Absorb Magic — Reveal 30 random instant and/or sorcery cards within your commander’s color identity.
-Absorb Essence — Reveal 30 random creature and/or enchantment cards within your commander’s color identity.
-Each player may gain up to three cards they revealed this way.
-
 <!-- rule:event-cheese-festival -->
 ### Cheese Festival
 
@@ -4827,35 +4969,6 @@ Each player chooses one. All changes are permanent.
 - Purple potion — Reveal cards from your deck until you reveal a nonland card. Upgrade that card, then shuffle all revealed cards back into your deck.
 - Red potion — Your commander gets +2/+2.
 - Blue potion — Reveal cards from your deck until you reveal two basic lands. Reveal five random utility lands within your color identity. Replace the two basic lands with two of those utility lands, then shuffle those lands and the other cards revealed from your deck back into your deck. If your deck contains fewer than two basic lands, shuffle the revealed cards back into your deck and gain 50 XP instead.
-
-<!-- rule:event-crossroads -->
-### Crossroads
-
-Reveal the top two cards of the Event deck.
-The party chooses one to resolve. Put the other on the bottom of the Event deck.
-
-<!-- rule:event-planetary-bank -->
-### Planetary Bank
-
-Each player may convert up to 50 Essence into an equal amount of XP. Effects that increase XP gained apply to this XP.
-
-<!-- rule:event-reckless-racketeering -->
-### Reckless Racketeering
-
-Each player shuffles their Mainboard and places it face up, then chooses one —
-Top — Destroy the top card of your Mainboard.
-Bottom — Destroy the bottom card of your Mainboard.
-
-<!-- rule:event-wandering-planes-assistant -->
-### Wandering Planes Assistant
-
-The party chooses a keyword or a card type, then reveals fifteen random cards with the chosen property.
-Each player may permanently gain one of those cards.
-
-<!-- rule:event-nameless-smith -->
-### Nameless Smith
-
-Each player chooses a card in their Mainboard and upgrades it.
 
 <!-- rule:event-a-portent-of-fortune -->
 ### A Portent of Fortune
