@@ -50,7 +50,7 @@ Use this procedure when hosting on the supported MTGR Tabletop Simulator table. 
 
 #### 2. Prepare Encounter 1
 
-1. Count the active players. Use that count to determine the Host's Authority level, Doom count, health, and other player-count scaling.
+1. Count the active players. Use that count to determine the Host Scaling level (first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
 2. Determine the encounter's Base XP and applicable Affix bonus XP.
 3. Allow the one-time seat adjustment before Encounter 1.
 4. Confirm that every player has flipped their Ready Token.
@@ -1347,8 +1347,8 @@ After each victorious encounter, players gain rewards and choose how to proceed 
   * Host Health  
   * Rewards  
   * Encounter difficulty
-  * The Authority and Doom components of the **Host Scaling Power layer (Host Authority)**
-* The complete Host Scaling Power layer is **Authority + Doom + Demonic Persistence + Arcane Suppression**
+  * The Host Scaling (Phase / Phase+) and Doom components of the **Host Scaling Power layer**
+* The complete Host Scaling Power layer is **Host Scaling + Doom + Demonic Persistence + Arcane Suppression**
 * Demonic Persistence and Arcane Suppression are always active regardless of player count
 
 ---
@@ -1847,39 +1847,39 @@ The Loot Pool allows players to extract cards from defeated encounter decks.
 ---
 
 <!-- rule:authority-level -->
-### **⚖️ AUTHORITY COMPONENT — LEVEL**
+### **⚖️ HOST SCALING — LEVEL**
 
 #### Host Scaling Power layer
 
 Every encounter uses the complete Host Scaling Power layer:
 
-1. **Authority**
+1. **Host Scaling** (first-spell discount, Phase and Phase+)
 2. **Doom**
 3. **Demonic Persistence**
 4. **Arcane Suppression**
 
-Authority and Doom scale with the number of players. Demonic Persistence and Arcane Suppression are always active regardless of player count. Apply all four components during each encounter unless a more specific encounter rule explicitly changes one of them.
+Host Scaling and Doom scale with the number of players. Demonic Persistence and Arcane Suppression are always active regardless of player count. Apply all four components during each encounter unless a more specific encounter rule explicitly changes one of them.
 
-Authority supplies the Host's player-count-based control and tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
+Host Scaling supplies the Host's player-count-based tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
 
-#### Authority Level
+**Authority** now means the Host Commands resource from Host Progression: the Host spends Authority to invoke equipped Commands, and the Host Progression HUD tracks it. Host Scaling no longer grants Not Today tokens or a free Disallow; Host Commands replace them.
 
-At the beginning of each encounter, determine the Host’s Authority Level based on the number of players.
+#### Host Scaling Level
 
-| Players | Authority Level |
+At the beginning of each encounter, determine the Host Scaling level from the number of players.
+
+| Players | Host Scaling |
 | ----- | ----- |
-| 1–2 | I |
-| 3 | II |
-| 4 | III |
-| 5 | IV |
-| 6 | V |
+| 1–2 | First-spell discount only |
+| 3–4 | **Phase** |
+| 5–6 | **Phase+** |
 
 ---
 
 <!-- rule:always-on-scaling -->
 ### **⚙️ ALWAYS-ON SCALING POWERS**
 
-These effects apply during all encounters regardless of Authority Level.
+These effects apply during all encounters regardless of the Host Scaling level.
 
 ---
 
@@ -2222,9 +2222,7 @@ Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.m
 
 **Blood Offering —**
 
-Each opponent makes a Saving Roll. Each opponent who fails chooses one:
-- Sacrifice a creature.
-- Lose 4 life. You gain 4 life.
+Each opponent makes a Saving Roll. Each opponent who fails may sacrifice a creature. If they don't, they lose 4 life and you gain 4 life.
 
 Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).
 
@@ -2274,61 +2272,34 @@ Exile cards from the top of your library until you exile a nonland card. You may
 Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).
 
 <!-- rule:authority-effects -->
-### **🔥 AUTHORITY EFFECTS**
+### **🔥 HOST SCALING EFFECTS**
 
 ---
 
-#### **👑 Authority I — Minor Influence**
-
-*(1–2 players)*
+#### **All player counts — First-spell discount**
 
 * The first spell the Host casts each turn costs {1} less to cast.
 
 ---
 
-#### **👑 Authority II — Infernal Momentum**
-
-*(3 players)*
+#### **👑 Phase — 3–4 players**
 
 * The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
+* At the end of the Host's draw step, the Host chooses one —
+  * Draw an additional card.
+  * The Host may play an additional land this turn.
 
 ---
 
-#### **👑 Authority III — Demonic Pressure**
-
-*(4 players)*
+#### **👑 Phase+ — 5–6 players**
 
 * The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-
-At the end of the Host's draw step, the Host chooses one —
-
-* Draw an additional card.
-* The Host may play an additional land this turn.
+* The Host draws two cards during their draw step.
+* The Host may play two lands each turn.
 
 ---
 
-#### **👑 Authority IV — Overwhelming Presence**
-
-*(5 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
-
----
-
-#### **👑 Authority V — Absolute Command**
-
-*(6 players)*
-
-* The first spell the Host casts each turn costs {1} less to cast.
-* At the beginning of the encounter, the Host creates a blue enchantment token named **Not Today** with "Sacrifice this enchantment: Counter target spell, activated ability, or triggered ability."
-* **Once per encounter**, the Host may cast a copy of Disallow without paying its mana cost.
-* The Host may play one additional land.
-* The Host draws an additional card during each of their draw steps.
+Not Today tokens and the free copy of Disallow are no longer part of Host Scaling. Host Commands, invoked with Authority from Host Progression, replace them.
 
 ---
 
@@ -2337,34 +2308,21 @@ At the end of the Host's draw step, the Host chooses one —
 
 ---
 
-#### **🔒 COUNTERSPELL STANDARD**
-
-When an Authority effect grants the Host a free counter, it does so by casting a copy of Disallow without paying its mana cost.
-
-The **Not Today** enchantment token (Authority II, III, V) is a separate mechanic — it is sacrificed to counter a spell, activated ability, or triggered ability and does not use the Disallow copy.
-
----
-
 #### **📜 RULES CLARIFICATION**
 
-* Authority levels are not additive cost reduction by tier. Authority V is not {5} cheaper.
-* At each player count, use the full effect package listed for that Authority level.
-
-* The free copy of *Disallow*:
-  * Is cast normally
-  * Uses the stack
-  * May be responded to
-  * May be countered
+* Host Scaling levels are not additive. Phase+ does not include Phase's choice in addition to its own effects; use only the package listed for the current player count.
+* The first-spell discount is {1} at every player count. It is not larger at higher player counts.
+* Phase+ replaces the normal single draw: the Host draws two cards in total during their draw step, and may play two lands in total each turn.
 
 ---
 
-#### **🎯 VALID TARGETS**
+#### **🔒 AUTHORITY AND HOST COMMANDS**
 
-The Host may use *Disallow* to counter:
+Authority is the Host Commands resource from Host Progression. Host Scaling does not grant Authority, and Authority does not change the Host Scaling level.
 
-* A spell  
-* An activated ability  
-* A triggered ability
+Not Today tokens and the free copy of Disallow are retired. When a Host Command casts Disallow or counters a spell or ability, follow that Command's own text.
+
+---
 
 <!-- rule:doom-triggering -->
 ### **⚡ TRIGGERING A DOOM CARD**

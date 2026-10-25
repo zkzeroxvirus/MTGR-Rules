@@ -13,7 +13,7 @@ Use this procedure when hosting on the supported MTGR Tabletop Simulator table. 
 
 ## 2. Prepare Encounter 1
 
-1. Count the active players. Use that count to determine the Host's Authority level, Doom count, health, and other player-count scaling.
+1. Count the active players. Use that count to determine the Host Scaling level (first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
 2. Determine the encounter's Base XP and applicable Affix bonus XP.
 3. Allow the one-time seat adjustment before Encounter 1.
 4. Confirm that every player has flipped their Ready Token.

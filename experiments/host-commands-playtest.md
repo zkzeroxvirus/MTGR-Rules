@@ -1,9 +1,9 @@
 # Host Commands playtest — V0.3 tier-choice adaptation
 
-Status: opt-in playtest, adopted October 2, 2026. This does not replace published
-Host Authority rules until promoted. Choose this package or legacy Not Today/free
-Disallow, never both. Keep Doom, passive scaling, Demonic Persistence, and Arcane
-Suppression.
+Status: playtest, adopted October 2, 2026. Host Commands replace the legacy Not
+Today token and free Disallow (October 24, 2026). Keep Doom, Host Scaling (the
+first-spell discount, Phase and Phase+; see Host Scaling Effects), Demonic
+Persistence, and Arcane Suppression.
 
 Source: [Host Skill Trees Rework V0.3](https://docs.google.com/document/d/1akHIIAQO9-rFzYXNYHSJkTghYuty9ryT/edit).
 This adaptation keeps its four archetypes and six Commands per archetype, but
