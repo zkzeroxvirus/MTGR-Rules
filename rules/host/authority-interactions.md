@@ -2,31 +2,18 @@
 
 ---
 
-## **🔒 COUNTERSPELL STANDARD**
-
-When an Authority effect grants the Host a free counter, it does so by casting a copy of Disallow without paying its mana cost.
-
-The **Not Today** enchantment token (Authority II, III, V) is a separate mechanic — it is sacrificed to counter a spell, activated ability, or triggered ability and does not use the Disallow copy.
-
----
-
 ## **📜 RULES CLARIFICATION**
 
-* Authority levels are not additive cost reduction by tier. Authority V is not {5} cheaper.
-* At each player count, use the full effect package listed for that Authority level.
-
-* The free copy of *Disallow*:
-  * Is cast normally
-  * Uses the stack
-  * May be responded to
-  * May be countered
+* Host Scaling levels are not additive. Phase+ does not include Phase's choice in addition to its own effects; use only the package listed for the current player count.
+* The first-spell discount is {1} at every player count. It is not larger at higher player counts.
+* Phase+ replaces the normal single draw: the Host draws two cards in total during their draw step, and may play two lands in total each turn.
 
 ---
 
-## **🎯 VALID TARGETS**
+## **🔒 AUTHORITY AND HOST COMMANDS**
 
-The Host may use *Disallow* to counter:
+Authority is the Host Commands resource from Host Progression. The Authority Level (I–V) is the Host Scaling level set by player count. Host Scaling does not grant Authority, and spending or gaining Authority does not change the Authority Level.
 
-* A spell  
-* An activated ability  
-* A triggered ability
+Not Today tokens and the free copy of Disallow are retired. When a Host Command casts Disallow or counters a spell or ability, follow that Command's own text.
+
+---

@@ -93,6 +93,11 @@ The random Trinket pool has eight entries. Nylea’s Sight and Karametra’s Cor
 - [Wandering Planes Assistant](../../between-encounters/events/wandering-planes-assistant.md) — Good
 - [Nameless Smith](../../between-encounters/events/nameless-smith.md) — Good
 - [A Portent of Fortune](../../between-encounters/events/a-portent-of-fortune.md) — Good
+- [A God’s Essence](../../between-encounters/events/a-gods-essence.md) — Bad
+- [Fixed Fight](../../between-encounters/events/fixed-fight.md) — Bad
+- [Harrowing Omen](../../between-encounters/events/harrowing-omen.md) — Bad
+- [Rotten Luck](../../between-encounters/events/rotten-luck.md) — Bad
+- [Smooth Criminal](../../between-encounters/events/smooth-criminal.md) — Bad
 
 ### Doom cards
 

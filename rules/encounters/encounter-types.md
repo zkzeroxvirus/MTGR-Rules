@@ -25,6 +25,10 @@ The following encounter types cannot be played until the party has defeated at l
 
 If one of these is rolled before the party has defeated an encounter, reroll the encounter type.
 
+## **🎲 HOST REROLLS**
+
+Outside the availability rule above, the encounter roll stands. As a table courtesy, the Host may reroll an encounter type before its setup begins, or offer the party a vote to keep or reroll it. This is Host discretion, not an official rule.
+
 ## **📦 PRECON BATTLE**
 
 **Setup:**
@@ -66,7 +70,8 @@ At the beginning of your end step, conjure and cast a random creature of the cho
 
 * Reveal 3 Planes
 * Players eliminate 1
-* The Host plays a random deck from the corresponding Plane
+* The Host chooses 1 of the remaining Planes
+* The Host plays a random deck from the chosen Plane
 
 ## **📖 STORY FIGHT *(Experimental)***
 
@@ -106,7 +111,7 @@ When the Host phases in, they gain the Story's Phase Two bonus:
 
 * Reveal 5 random Commanders
 * Players eliminate 1
-* Choose 1 of the remaining Commanders
+* The Host chooses 1 of the remaining Commanders
 * Build or spawn a high-power deck (**Bracket 3 or higher**) using that Commander
 
 ## **🌪 WILDCARD FIGHT *(Experimental)***

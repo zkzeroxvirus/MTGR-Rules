@@ -2,4 +2,4 @@
 
 The party chooses one —
 Truth — Shuffle the Event deck. After this Event resolves, resolve two additional Events.
-Lie — Skip the next Event that would be resolved.
+Lie — Skip the next scheduled Event that would be resolved.

@@ -1,6 +1,6 @@
 # **⚙️ ALWAYS-ON SCALING POWERS**
 
-These effects apply during all encounters regardless of Authority Level.
+These effects apply during all encounters regardless of the Host Scaling level.
 
 ---
 

@@ -200,6 +200,7 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Event Frequency](between-encounters/event-frequency.md) — `event-frequency`
 - [Event Rules](between-encounters/event-design-rules.md) — `event-design-rules`
 - [Event Classifications](between-encounters/event-classifications.md) — `event-classifications`
+- [Base Event Deck](between-encounters/base-event-deck.md) — `base-event-deck`
 - [Event Scaling](between-encounters/event-scaling.md) — `event-scaling`
 - [Event Restrictions](between-encounters/event-restrictions.md) — `event-restrictions`
 - [When Stay Out Occurs](between-encounters/stay-out-timing.md) — `stay-out-timing`
@@ -210,6 +211,63 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [When Town Occurs](town/town-timing.md) — `town-timing`
 - [Town Full Heal](town/town-full-heal.md) — `town-full-heal`
 - [Town Building System](town/town-building-system.md) — `town-building-system`
+- [Cabin in the Woods](between-encounters/events/cabin-in-the-woods.md) — `event-cabin-in-the-woods`
+- [Verdant Shrubbery](between-encounters/events/verdant-shrubbery.md) — `event-verdant-shrubbery`
+- [Rhystic Library](between-encounters/events/rhystic-library.md) — `event-rhystic-library`
+- [Explosive Volcano](between-encounters/events/explosive-volcano.md) — `event-explosive-volcano`
+- [Kithkin Hovel](between-encounters/events/kithkin-hovel.md) — `event-kithkin-hovel`
+- [Urza’s Sylex](between-encounters/events/urzas-sylex.md) — `event-urzas-sylex`
+- [Cave of Spoils](between-encounters/events/cave-of-spoils.md) — `event-cave-of-spoils`
+- [Card Fetcher](between-encounters/events/card-fetcher.md) — `event-card-fetcher`
+- [Vanguard Caravan](between-encounters/events/vanguard-caravan.md) — `event-vanguard-caravan`
+- [Plane-to-Plane Circus](between-encounters/events/plane-to-plane-circus.md) — `event-plane-to-plane-circus`
+- [Meeting of the Planes](between-encounters/events/meeting-of-the-planes.md) — `event-meeting-of-the-planes`
+- [Abandoned Supply Pack](between-encounters/events/abandoned-supply-pack.md) — `event-abandoned-supply-pack`
+- [Plane Trader](between-encounters/events/plane-trader.md) — `event-plane-trader`
+- [Lion and a Mouse](between-encounters/events/lion-and-a-mouse.md) — `event-lion-and-a-mouse`
+- [Rewrite Reality](between-encounters/events/rewrite-reality.md) — `event-rewrite-reality`
+- [Sword in the Stone](between-encounters/events/sword-in-the-stone.md) — `event-sword-in-the-stone`
+- [Attunement Tower](between-encounters/events/attunement-tower.md) — `event-attunement-tower`
+- [Wandering Planes Saboteur](between-encounters/events/wandering-planes-saboteur.md) — `event-wandering-planes-saboteur`
+- [Commander’s Guild](between-encounters/events/commanders-guild.md) — `event-commanders-guild`
+- [Endless Sea](between-encounters/events/endless-sea.md) — `event-endless-sea`
+- [Mirror Dimension](between-encounters/events/mirror-dimension.md) — `event-mirror-dimension`
+- [Trench of the Void](between-encounters/events/trench-of-the-void.md) — `event-trench-of-the-void`
+- [Timeless Market](between-encounters/events/timeless-market.md) — `event-timeless-market`
+- [Sliver King](between-encounters/events/sliver-king.md) — `event-sliver-king`
+- [Spartan Plains](between-encounters/events/spartan-plains.md) — `event-spartan-plains`
+- [Lost Ark](between-encounters/events/lost-ark.md) — `event-lost-ark`
+- [Wishing Well](between-encounters/events/wishing-well.md) — `event-wishing-well`
+- [Earthquake!](between-encounters/events/earthquake.md) — `event-earthquake`
+- [Dragon Hoard](between-encounters/events/dragon-hoard.md) — `event-dragon-hoard`
+- [Peaceful Orchard](between-encounters/events/peaceful-orchard.md) — `event-peaceful-orchard`
+- [Ivy Forest](between-encounters/events/ivy-forest.md) — `event-ivy-forest`
+- [Tomb of the Forgotten](between-encounters/events/tomb-of-the-forgotten.md) — `event-tomb-of-the-forgotten`
+- [Exotic Car Show](between-encounters/events/exotic-car-show.md) — `event-exotic-car-show`
+- [Card Vortex](between-encounters/events/card-vortex.md) — `event-card-vortex`
+- [Splendid Skies](between-encounters/events/splendid-skies.md) — `event-splendid-skies`
+- [Artifact on a Pedestal](between-encounters/events/artifact-on-a-pedestal.md) — `event-artifact-on-a-pedestal`
+- [Bloody Altar](between-encounters/events/bloody-altar.md) — `event-bloody-altar`
+- [Stoneforge Caravan](between-encounters/events/stoneforge-caravan.md) — `event-stoneforge-caravan`
+- [Mystic Waterwell](between-encounters/events/mystic-waterwell.md) — `event-mystic-waterwell`
+- [Wandering Planes Arms Dealer](between-encounters/events/wandering-planes-arms-dealer.md) — `event-wandering-planes-arms-dealer`
+- [Zubera Crossing](between-encounters/events/zubera-crossing.md) — `event-zubera-crossing`
+- [A Rock Pile](between-encounters/events/a-rock-pile.md) — `event-a-rock-pile`
+- [Sorrowful Swamp](between-encounters/events/sorrowful-swamp.md) — `event-sorrowful-swamp`
+- [Treasure Goblin](between-encounters/events/treasure-goblin.md) — `event-treasure-goblin`
+- [Planar Excavation](between-encounters/events/planar-excavation.md) — `event-planar-excavation`
+- [Mana Ripple](between-encounters/events/mana-ripple.md) — `event-mana-ripple`
+- [Rapidly Growing Harvest](between-encounters/events/rapidly-growing-harvest.md) — `event-rapidly-growing-harvest`
+- [Witch’s Cauldron](between-encounters/events/witchs-cauldron.md) — `event-witchs-cauldron`
+- [Crossroads](between-encounters/events/crossroads.md) — `event-crossroads`
+- [Planetary Bank](between-encounters/events/planetary-bank.md) — `event-planetary-bank`
+- [Reckless Racketeering](between-encounters/events/reckless-racketeering.md) — `event-reckless-racketeering`
+- [Wandering Planes Assistant](between-encounters/events/wandering-planes-assistant.md) — `event-wandering-planes-assistant`
+- [Nameless Smith](between-encounters/events/nameless-smith.md) — `event-nameless-smith`
+- [Zombie Uprising](between-encounters/events/zombie-uprising.md) — `event-zombie-uprising`
+- [Mercenary Raid](between-encounters/events/mercenary-raid.md) — `event-mercenary-raid`
+- [It That Heralds the End](between-encounters/events/it-that-heralds-the-end.md) — `event-it-that-heralds-the-end`
+- [Beast Stampede](between-encounters/events/beast-stampede.md) — `event-beast-stampede`
 - [A God’s Essence](between-encounters/events/a-gods-essence.md) — `event-a-gods-essence`
 - [Fixed Fight](between-encounters/events/fixed-fight.md) — `event-fixed-fight`
 - [Harrowing Omen](between-encounters/events/harrowing-omen.md) — `event-harrowing-omen`
@@ -249,87 +307,34 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Forgotten Key](seasonal-events/harvest-moon/trinkets/forgotten-key.md) — `trinket-forgotten-key`
 - [Seasonal Events](seasonal-events/overview.md) — `seasonal-events`
 - [Scarecrow Feast](between-encounters/events/scarecrow-feast.md) — `event-scarecrow-feast`
-- [Cabin in the Woods](between-encounters/events/cabin-in-the-woods.md) — `event-cabin-in-the-woods`
 - [Broken Mirror](between-encounters/events/broken-mirror.md) — `event-broken-mirror`
-- [Verdant Shrubbery](between-encounters/events/verdant-shrubbery.md) — `event-verdant-shrubbery`
 - [Turkey Uprising](between-encounters/events/turkey-uprising.md) — `event-turkey-uprising`
 - [Unseen Doors](between-encounters/events/unseen-doors.md) — `event-unseen-doors`
-- [Rhystic Library](between-encounters/events/rhystic-library.md) — `event-rhystic-library`
-- [Explosive Volcano](between-encounters/events/explosive-volcano.md) — `event-explosive-volcano`
-- [Kithkin Hovel](between-encounters/events/kithkin-hovel.md) — `event-kithkin-hovel`
-- [Urza’s Sylex](between-encounters/events/urzas-sylex.md) — `event-urzas-sylex`
 - [Pumpkin Smashing](between-encounters/events/pumpkin-smashing.md) — `event-pumpkin-smashing`
-- [Cave of Spoils](between-encounters/events/cave-of-spoils.md) — `event-cave-of-spoils`
 - [The Hunt Is ON!](between-encounters/events/the-hunt-is-on.md) — `event-the-hunt-is-on`
-- [Card Fetcher](between-encounters/events/card-fetcher.md) — `event-card-fetcher`
 - [BURN THE WITCH](between-encounters/events/burn-the-witch.md) — `event-burn-the-witch`
 - [Headless Horsey](between-encounters/events/headless-horsey.md) — `event-headless-horsey`
-- [Vanguard Caravan](between-encounters/events/vanguard-caravan.md) — `event-vanguard-caravan`
-- [Plane-to-Plane Circus](between-encounters/events/plane-to-plane-circus.md) — `event-plane-to-plane-circus`
-- [Meeting of the Planes](between-encounters/events/meeting-of-the-planes.md) — `event-meeting-of-the-planes`
-- [Abandoned Supply Pack](between-encounters/events/abandoned-supply-pack.md) — `event-abandoned-supply-pack`
-- [Plane Trader](between-encounters/events/plane-trader.md) — `event-plane-trader`
-- [Lion and a Mouse](between-encounters/events/lion-and-a-mouse.md) — `event-lion-and-a-mouse`
 - [Covenant](between-encounters/events/covenant.md) — `event-covenant`
 - [Equinox](between-encounters/events/equinox.md) — `event-equinox`
 - [Forgotten Key](between-encounters/events/forgotten-key.md) — `event-forgotten-key`
-- [Rewrite Reality](between-encounters/events/rewrite-reality.md) — `event-rewrite-reality`
-- [Sword in the Stone](between-encounters/events/sword-in-the-stone.md) — `event-sword-in-the-stone`
 - [Overflowing Feast](between-encounters/events/overflowing-feast.md) — `event-overflowing-feast`
-- [Attunement Tower](between-encounters/events/attunement-tower.md) — `event-attunement-tower`
-- [Wandering Planes Saboteur](between-encounters/events/wandering-planes-saboteur.md) — `event-wandering-planes-saboteur`
 - [Crowstorm](between-encounters/events/crowstorm.md) — `event-crowstorm`
 - [It’s Just Standing There… MENACINGLY](between-encounters/events/its-just-standing-there-menacingly.md) — `event-its-just-standing-there-menacingly`
-- [Commander’s Guild](between-encounters/events/commanders-guild.md) — `event-commanders-guild`
-- [Endless Sea](between-encounters/events/endless-sea.md) — `event-endless-sea`
-- [Mirror Dimension](between-encounters/events/mirror-dimension.md) — `event-mirror-dimension`
-- [Trench of the Void](between-encounters/events/trench-of-the-void.md) — `event-trench-of-the-void`
-- [Timeless Market](between-encounters/events/timeless-market.md) — `event-timeless-market`
 - [Pumpkin Harvest](between-encounters/events/pumpkin-harvest.md) — `event-pumpkin-harvest`
 - [YOU’RE TAKING TOO LONG](between-encounters/events/youre-taking-too-long.md) — `event-youre-taking-too-long`
-- [Sliver King](between-encounters/events/sliver-king.md) — `event-sliver-king`
-- [Spartan Plains](between-encounters/events/spartan-plains.md) — `event-spartan-plains`
-- [Lost Ark](between-encounters/events/lost-ark.md) — `event-lost-ark`
-- [Wishing Well](between-encounters/events/wishing-well.md) — `event-wishing-well`
-- [Earthquake!](between-encounters/events/earthquake.md) — `event-earthquake`
-- [Dragon Hoard](between-encounters/events/dragon-hoard.md) — `event-dragon-hoard`
 - [You Stepped on a Leaf](between-encounters/events/you-stepped-on-a-leaf.md) — `event-you-stepped-on-a-leaf`
-- [Peaceful Orchard](between-encounters/events/peaceful-orchard.md) — `event-peaceful-orchard`
 - [Cornfields](between-encounters/events/cornfields.md) — `event-cornfields`
 - [Trick or Treat](between-encounters/events/trick-or-treat.md) — `event-trick-or-treat`
-- [Ivy Forest](between-encounters/events/ivy-forest.md) — `event-ivy-forest`
-- [Tomb of the Forgotten](between-encounters/events/tomb-of-the-forgotten.md) — `event-tomb-of-the-forgotten`
 - [Strung Up](between-encounters/events/strung-up.md) — `event-strung-up`
-- [Exotic Car Show](between-encounters/events/exotic-car-show.md) — `event-exotic-car-show`
-- [Card Vortex](between-encounters/events/card-vortex.md) — `event-card-vortex`
 - [Only Need to Be Faster Than You](between-encounters/events/only-need-to-be-faster-than-you.md) — `event-only-need-to-be-faster-than-you`
 - [Harvest Festival](between-encounters/events/harvest-festival.md) — `event-harvest-festival`
-- [Splendid Skies](between-encounters/events/splendid-skies.md) — `event-splendid-skies`
-- [Artifact on a Pedestal](between-encounters/events/artifact-on-a-pedestal.md) — `event-artifact-on-a-pedestal`
-- [Bloody Altar](between-encounters/events/bloody-altar.md) — `event-bloody-altar`
-- [Stoneforge Caravan](between-encounters/events/stoneforge-caravan.md) — `event-stoneforge-caravan`
-- [Mystic Waterwell](between-encounters/events/mystic-waterwell.md) — `event-mystic-waterwell`
 - [Found a Lucky Coin?](between-encounters/events/found-a-lucky-coin.md) — `event-found-a-lucky-coin`
-- [Wandering Planes Arms Dealer](between-encounters/events/wandering-planes-arms-dealer.md) — `event-wandering-planes-arms-dealer`
-- [Zubera Crossing](between-encounters/events/zubera-crossing.md) — `event-zubera-crossing`
 - [A Stone’s Throw](between-encounters/events/a-stones-throw.md) — `event-a-stones-throw`
 - [Paranoia](between-encounters/events/paranoia.md) — `event-paranoia`
 - [The Reaper King Comes](between-encounters/events/the-reaper-king-comes.md) — `event-the-reaper-king-comes`
 - [That Damned Bridge](between-encounters/events/that-damned-bridge.md) — `event-that-damned-bridge`
-- [A Rock Pile](between-encounters/events/a-rock-pile.md) — `event-a-rock-pile`
-- [Sorrowful Swamp](between-encounters/events/sorrowful-swamp.md) — `event-sorrowful-swamp`
-- [Treasure Goblin](between-encounters/events/treasure-goblin.md) — `event-treasure-goblin`
-- [Planar Excavation](between-encounters/events/planar-excavation.md) — `event-planar-excavation`
-- [Mana Ripple](between-encounters/events/mana-ripple.md) — `event-mana-ripple`
-- [Rapidly Growing Harvest](between-encounters/events/rapidly-growing-harvest.md) — `event-rapidly-growing-harvest`
-- [Witch’s Cauldron](between-encounters/events/witchs-cauldron.md) — `event-witchs-cauldron`
 - [Cheese Festival](between-encounters/events/cheese-festival.md) — `event-cheese-festival`
 - [Strange Set of Potions](between-encounters/events/strange-set-of-potions.md) — `event-strange-set-of-potions`
-- [Crossroads](between-encounters/events/crossroads.md) — `event-crossroads`
-- [Planetary Bank](between-encounters/events/planetary-bank.md) — `event-planetary-bank`
-- [Reckless Racketeering](between-encounters/events/reckless-racketeering.md) — `event-reckless-racketeering`
-- [Wandering Planes Assistant](between-encounters/events/wandering-planes-assistant.md) — `event-wandering-planes-assistant`
-- [Nameless Smith](between-encounters/events/nameless-smith.md) — `event-nameless-smith`
 - [A Portent of Fortune](between-encounters/events/a-portent-of-fortune.md) — `event-a-portent-of-fortune`
 - [Your Trinkets Are Nothing But Toys To Me](seasonal-events/harvest-moon/doom/your-trinkets-are-nothing-but-toys-to-me.md) — `harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me`
 - [Who Turned out the lights](seasonal-events/harvest-moon/doom/who-turned-out-the-lights.md) — `harvest-moon-doom-who-turned-out-the-lights`

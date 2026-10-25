@@ -277,7 +277,8 @@
       "aliases": [
         "how to play",
         "player setup",
-        "start token",
+        "draft screen",
+        "!draft",
         "ready token"
       ],
       "related": [
@@ -3958,6 +3959,28 @@
       }
     },
     {
+      "id": "base-event-deck",
+      "title": "Base Event Deck",
+      "source": "rules/between-encounters/base-event-deck.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "aliases": [
+        "event deck",
+        "core events",
+        "base events"
+      ],
+      "related": [
+        "event-resolution",
+        "event-classifications"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
       "id": "event-scaling",
       "title": "Event Scaling",
       "source": "rules/between-encounters/event-scaling.md",
@@ -4399,12 +4422,14 @@
       "id": "event-cabin-in-the-woods",
       "title": "Cabin in the Woods",
       "source": "rules/between-encounters/events/cabin-in-the-woods.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4431,12 +4456,14 @@
       "id": "event-verdant-shrubbery",
       "title": "Verdant Shrubbery",
       "source": "rules/between-encounters/events/verdant-shrubbery.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4479,12 +4506,14 @@
       "id": "event-rhystic-library",
       "title": "Rhystic Library",
       "source": "rules/between-encounters/events/rhystic-library.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4495,12 +4524,14 @@
       "id": "event-explosive-volcano",
       "title": "Explosive Volcano",
       "source": "rules/between-encounters/events/explosive-volcano.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4511,12 +4542,14 @@
       "id": "event-kithkin-hovel",
       "title": "Kithkin Hovel",
       "source": "rules/between-encounters/events/kithkin-hovel.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4527,12 +4560,14 @@
       "id": "event-urzas-sylex",
       "title": "Urza’s Sylex",
       "source": "rules/between-encounters/events/urzas-sylex.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4559,12 +4594,14 @@
       "id": "event-cave-of-spoils",
       "title": "Cave of Spoils",
       "source": "rules/between-encounters/events/cave-of-spoils.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4591,12 +4628,14 @@
       "id": "event-card-fetcher",
       "title": "Card Fetcher",
       "source": "rules/between-encounters/events/card-fetcher.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4639,12 +4678,14 @@
       "id": "event-vanguard-caravan",
       "title": "Vanguard Caravan",
       "source": "rules/between-encounters/events/vanguard-caravan.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4655,12 +4696,14 @@
       "id": "event-plane-to-plane-circus",
       "title": "Plane-to-Plane Circus",
       "source": "rules/between-encounters/events/plane-to-plane-circus.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4671,12 +4714,14 @@
       "id": "event-meeting-of-the-planes",
       "title": "Meeting of the Planes",
       "source": "rules/between-encounters/events/meeting-of-the-planes.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4687,12 +4732,14 @@
       "id": "event-abandoned-supply-pack",
       "title": "Abandoned Supply Pack",
       "source": "rules/between-encounters/events/abandoned-supply-pack.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4703,12 +4750,14 @@
       "id": "event-plane-trader",
       "title": "Plane Trader",
       "source": "rules/between-encounters/events/plane-trader.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4719,12 +4768,14 @@
       "id": "event-lion-and-a-mouse",
       "title": "Lion and a Mouse",
       "source": "rules/between-encounters/events/lion-and-a-mouse.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4783,12 +4834,14 @@
       "id": "event-rewrite-reality",
       "title": "Rewrite Reality",
       "source": "rules/between-encounters/events/rewrite-reality.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4799,12 +4852,14 @@
       "id": "event-sword-in-the-stone",
       "title": "Sword in the Stone",
       "source": "rules/between-encounters/events/sword-in-the-stone.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4831,12 +4886,14 @@
       "id": "event-attunement-tower",
       "title": "Attunement Tower",
       "source": "rules/between-encounters/events/attunement-tower.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4847,12 +4904,14 @@
       "id": "event-wandering-planes-saboteur",
       "title": "Wandering Planes Saboteur",
       "source": "rules/between-encounters/events/wandering-planes-saboteur.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4895,12 +4954,14 @@
       "id": "event-commanders-guild",
       "title": "Commander’s Guild",
       "source": "rules/between-encounters/events/commanders-guild.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4911,12 +4972,14 @@
       "id": "event-endless-sea",
       "title": "Endless Sea",
       "source": "rules/between-encounters/events/endless-sea.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4927,12 +4990,14 @@
       "id": "event-mirror-dimension",
       "title": "Mirror Dimension",
       "source": "rules/between-encounters/events/mirror-dimension.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4943,12 +5008,14 @@
       "id": "event-trench-of-the-void",
       "title": "Trench of the Void",
       "source": "rules/between-encounters/events/trench-of-the-void.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -4959,12 +5026,14 @@
       "id": "event-timeless-market",
       "title": "Timeless Market",
       "source": "rules/between-encounters/events/timeless-market.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5007,12 +5076,14 @@
       "id": "event-sliver-king",
       "title": "Sliver King",
       "source": "rules/between-encounters/events/sliver-king.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5023,12 +5094,14 @@
       "id": "event-spartan-plains",
       "title": "Spartan Plains",
       "source": "rules/between-encounters/events/spartan-plains.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5039,12 +5112,14 @@
       "id": "event-lost-ark",
       "title": "Lost Ark",
       "source": "rules/between-encounters/events/lost-ark.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5055,12 +5130,14 @@
       "id": "event-wishing-well",
       "title": "Wishing Well",
       "source": "rules/between-encounters/events/wishing-well.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5071,12 +5148,14 @@
       "id": "event-earthquake",
       "title": "Earthquake!",
       "source": "rules/between-encounters/events/earthquake.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5087,12 +5166,14 @@
       "id": "event-dragon-hoard",
       "title": "Dragon Hoard",
       "source": "rules/between-encounters/events/dragon-hoard.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5119,12 +5200,14 @@
       "id": "event-peaceful-orchard",
       "title": "Peaceful Orchard",
       "source": "rules/between-encounters/events/peaceful-orchard.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5167,12 +5250,14 @@
       "id": "event-ivy-forest",
       "title": "Ivy Forest",
       "source": "rules/between-encounters/events/ivy-forest.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5183,12 +5268,14 @@
       "id": "event-tomb-of-the-forgotten",
       "title": "Tomb of the Forgotten",
       "source": "rules/between-encounters/events/tomb-of-the-forgotten.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5215,12 +5302,14 @@
       "id": "event-exotic-car-show",
       "title": "Exotic Car Show",
       "source": "rules/between-encounters/events/exotic-car-show.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5231,12 +5320,14 @@
       "id": "event-card-vortex",
       "title": "Card Vortex",
       "source": "rules/between-encounters/events/card-vortex.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5279,12 +5370,14 @@
       "id": "event-splendid-skies",
       "title": "Splendid Skies",
       "source": "rules/between-encounters/events/splendid-skies.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5295,12 +5388,14 @@
       "id": "event-artifact-on-a-pedestal",
       "title": "Artifact on a Pedestal",
       "source": "rules/between-encounters/events/artifact-on-a-pedestal.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5311,12 +5406,14 @@
       "id": "event-bloody-altar",
       "title": "Bloody Altar",
       "source": "rules/between-encounters/events/bloody-altar.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5327,12 +5424,14 @@
       "id": "event-stoneforge-caravan",
       "title": "Stoneforge Caravan",
       "source": "rules/between-encounters/events/stoneforge-caravan.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5343,12 +5442,14 @@
       "id": "event-mystic-waterwell",
       "title": "Mystic Waterwell",
       "source": "rules/between-encounters/events/mystic-waterwell.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5375,12 +5476,14 @@
       "id": "event-wandering-planes-arms-dealer",
       "title": "Wandering Planes Arms Dealer",
       "source": "rules/between-encounters/events/wandering-planes-arms-dealer.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5391,12 +5494,14 @@
       "id": "event-zubera-crossing",
       "title": "Zubera Crossing",
       "source": "rules/between-encounters/events/zubera-crossing.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5471,12 +5576,14 @@
       "id": "event-a-rock-pile",
       "title": "A Rock Pile",
       "source": "rules/between-encounters/events/a-rock-pile.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5487,12 +5594,14 @@
       "id": "event-sorrowful-swamp",
       "title": "Sorrowful Swamp",
       "source": "rules/between-encounters/events/sorrowful-swamp.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5503,12 +5612,14 @@
       "id": "event-treasure-goblin",
       "title": "Treasure Goblin",
       "source": "rules/between-encounters/events/treasure-goblin.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5519,12 +5630,14 @@
       "id": "event-planar-excavation",
       "title": "Planar Excavation",
       "source": "rules/between-encounters/events/planar-excavation.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5535,12 +5648,14 @@
       "id": "event-mana-ripple",
       "title": "Mana Ripple",
       "source": "rules/between-encounters/events/mana-ripple.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5551,12 +5666,14 @@
       "id": "event-rapidly-growing-harvest",
       "title": "Rapidly Growing Harvest",
       "source": "rules/between-encounters/events/rapidly-growing-harvest.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5567,12 +5684,14 @@
       "id": "event-witchs-cauldron",
       "title": "Witch’s Cauldron",
       "source": "rules/between-encounters/events/witchs-cauldron.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5615,12 +5734,14 @@
       "id": "event-crossroads",
       "title": "Crossroads",
       "source": "rules/between-encounters/events/crossroads.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5631,12 +5752,14 @@
       "id": "event-planetary-bank",
       "title": "Planetary Bank",
       "source": "rules/between-encounters/events/planetary-bank.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5647,12 +5770,14 @@
       "id": "event-reckless-racketeering",
       "title": "Reckless Racketeering",
       "source": "rules/between-encounters/events/reckless-racketeering.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5663,12 +5788,14 @@
       "id": "event-wandering-planes-assistant",
       "title": "Wandering Planes Assistant",
       "source": "rules/between-encounters/events/wandering-planes-assistant.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -5679,12 +5806,14 @@
       "id": "event-nameless-smith",
       "title": "Nameless Smith",
       "source": "rules/between-encounters/events/nameless-smith.md",
-      "phase": "seasonal-events",
+      "phase": "between-encounters",
       "audience": [
         "player",
         "host"
       ],
       "related": [
+        "event-resolution",
+        "base-event-deck",
         "harvest-moon-overview"
       ],
       "content": {
@@ -6524,6 +6653,74 @@
       }
     },
     {
+      "id": "event-zombie-uprising",
+      "title": "Zombie Uprising",
+      "source": "rules/between-encounters/events/zombie-uprising.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution",
+        "base-event-deck"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-mercenary-raid",
+      "title": "Mercenary Raid",
+      "source": "rules/between-encounters/events/mercenary-raid.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution",
+        "base-event-deck"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-it-that-heralds-the-end",
+      "title": "It That Heralds the End",
+      "source": "rules/between-encounters/events/it-that-heralds-the-end.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution",
+        "base-event-deck"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "event-beast-stampede",
+      "title": "Beast Stampede",
+      "source": "rules/between-encounters/events/beast-stampede.md",
+      "phase": "between-encounters",
+      "audience": [
+        "player",
+        "host"
+      ],
+      "related": [
+        "event-resolution",
+        "base-event-deck"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
       "id": "event-a-gods-essence",
       "title": "A God’s Essence",
       "source": "rules/between-encounters/events/a-gods-essence.md",
@@ -6533,7 +6730,8 @@
         "host"
       ],
       "related": [
-        "event-resolution"
+        "event-resolution",
+        "base-event-deck"
       ],
       "content": {
         "kind": "document"
@@ -6549,7 +6747,8 @@
         "host"
       ],
       "related": [
-        "event-resolution"
+        "event-resolution",
+        "base-event-deck"
       ],
       "content": {
         "kind": "document"
@@ -6565,7 +6764,8 @@
         "host"
       ],
       "related": [
-        "event-resolution"
+        "event-resolution",
+        "base-event-deck"
       ],
       "content": {
         "kind": "document"
@@ -6581,7 +6781,8 @@
         "host"
       ],
       "related": [
-        "event-resolution"
+        "event-resolution",
+        "base-event-deck"
       ],
       "content": {
         "kind": "document"
@@ -6597,7 +6798,8 @@
         "host"
       ],
       "related": [
-        "event-resolution"
+        "event-resolution",
+        "base-event-deck"
       ],
       "content": {
         "kind": "document"

@@ -1,77 +1,443 @@
 {
   "schemaVersion": 1,
+  "deck": {
+    "name": "MTGR EVENT CARDS",
+    "cards": 68
+  },
   "events": [
     {
       "id": "a-gods-essence",
       "name": "A God’s Essence",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-a-gods-essence"
     },
     {
       "id": "a-rock-pile",
       "name": "A Rock Pile",
       "classification": "Neutral",
+      "copies": 1,
       "ruleId": "event-a-rock-pile"
+    },
+    {
+      "id": "abandoned-supply-pack",
+      "name": "Abandoned Supply Pack",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-abandoned-supply-pack"
+    },
+    {
+      "id": "artifact-on-a-pedestal",
+      "name": "Artifact on a Pedestal",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-artifact-on-a-pedestal"
+    },
+    {
+      "id": "attunement-tower",
+      "name": "Attunement Tower",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-attunement-tower"
+    },
+    {
+      "id": "beast-stampede",
+      "name": "Beast Stampede",
+      "classification": "Ambush",
+      "copies": 2,
+      "ruleId": "event-beast-stampede"
+    },
+    {
+      "id": "bloody-altar",
+      "name": "Bloody Altar",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-bloody-altar"
+    },
+    {
+      "id": "cabin-in-the-woods",
+      "name": "Cabin in the Woods",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-cabin-in-the-woods"
+    },
+    {
+      "id": "card-fetcher",
+      "name": "Card Fetcher",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-card-fetcher"
+    },
+    {
+      "id": "card-vortex",
+      "name": "Card Vortex",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-card-vortex"
+    },
+    {
+      "id": "cave-of-spoils",
+      "name": "Cave of Spoils",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-cave-of-spoils"
+    },
+    {
+      "id": "commanders-guild",
+      "name": "Commander’s Guild",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-commanders-guild"
+    },
+    {
+      "id": "crossroads",
+      "name": "Crossroads",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-crossroads"
+    },
+    {
+      "id": "dragon-hoard",
+      "name": "Dragon Hoard",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-dragon-hoard"
+    },
+    {
+      "id": "earthquake",
+      "name": "Earthquake!",
+      "classification": "Bad",
+      "copies": 2,
+      "ruleId": "event-earthquake"
     },
     {
       "id": "endless-sea",
       "name": "Endless Sea",
       "classification": "Good",
+      "copies": 1,
       "ruleId": "event-endless-sea"
+    },
+    {
+      "id": "exotic-car-show",
+      "name": "Exotic Car Show",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-exotic-car-show"
+    },
+    {
+      "id": "explosive-volcano",
+      "name": "Explosive Volcano",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-explosive-volcano"
     },
     {
       "id": "fixed-fight",
       "name": "Fixed Fight",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-fixed-fight"
     },
     {
       "id": "harrowing-omen",
       "name": "Harrowing Omen",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-harrowing-omen"
+    },
+    {
+      "id": "it-that-heralds-the-end",
+      "name": "It That Heralds the End",
+      "classification": "Ambush",
+      "copies": 2,
+      "ruleId": "event-it-that-heralds-the-end"
+    },
+    {
+      "id": "ivy-forest",
+      "name": "Ivy Forest",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-ivy-forest"
+    },
+    {
+      "id": "kithkin-hovel",
+      "name": "Kithkin Hovel",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-kithkin-hovel"
+    },
+    {
+      "id": "lion-and-a-mouse",
+      "name": "Lion and a Mouse",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-lion-and-a-mouse"
+    },
+    {
+      "id": "lost-ark",
+      "name": "Lost Ark",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-lost-ark"
+    },
+    {
+      "id": "mana-ripple",
+      "name": "Mana Ripple",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-mana-ripple"
+    },
+    {
+      "id": "meeting-of-the-planes",
+      "name": "Meeting of the Planes",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-meeting-of-the-planes"
+    },
+    {
+      "id": "mercenary-raid",
+      "name": "Mercenary Raid",
+      "classification": "Ambush",
+      "copies": 3,
+      "ruleId": "event-mercenary-raid"
+    },
+    {
+      "id": "mirror-dimension",
+      "name": "Mirror Dimension",
+      "classification": "Town Upgrade",
+      "copies": 1,
+      "ruleId": "event-mirror-dimension"
     },
     {
       "id": "mystic-waterwell",
       "name": "Mystic Waterwell",
       "classification": "Good",
+      "copies": 1,
       "ruleId": "event-mystic-waterwell"
+    },
+    {
+      "id": "nameless-smith",
+      "name": "Nameless Smith",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-nameless-smith"
+    },
+    {
+      "id": "peaceful-orchard",
+      "name": "Peaceful Orchard",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-peaceful-orchard"
     },
     {
       "id": "planar-excavation",
       "name": "Planar Excavation",
       "classification": "Good",
+      "copies": 1,
       "ruleId": "event-planar-excavation"
+    },
+    {
+      "id": "plane-to-plane-circus",
+      "name": "Plane-to-Plane Circus",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-plane-to-plane-circus"
+    },
+    {
+      "id": "plane-trader",
+      "name": "Plane Trader",
+      "classification": "Town Upgrade",
+      "copies": 1,
+      "ruleId": "event-plane-trader"
+    },
+    {
+      "id": "planetary-bank",
+      "name": "Planetary Bank",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-planetary-bank"
+    },
+    {
+      "id": "rapidly-growing-harvest",
+      "name": "Rapidly Growing Harvest",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-rapidly-growing-harvest"
     },
     {
       "id": "reckless-racketeering",
       "name": "Reckless Racketeering",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-reckless-racketeering"
+    },
+    {
+      "id": "rewrite-reality",
+      "name": "Rewrite Reality",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-rewrite-reality"
     },
     {
       "id": "rhystic-library",
       "name": "Rhystic Library",
       "classification": "Good",
+      "copies": 1,
       "ruleId": "event-rhystic-library"
     },
     {
       "id": "rotten-luck",
       "name": "Rotten Luck",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-rotten-luck"
+    },
+    {
+      "id": "sliver-king",
+      "name": "Sliver King",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-sliver-king"
     },
     {
       "id": "smooth-criminal",
       "name": "Smooth Criminal",
       "classification": "Bad",
+      "copies": 1,
       "ruleId": "event-smooth-criminal"
+    },
+    {
+      "id": "sorrowful-swamp",
+      "name": "Sorrowful Swamp",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-sorrowful-swamp"
+    },
+    {
+      "id": "spartan-plains",
+      "name": "Spartan Plains",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-spartan-plains"
+    },
+    {
+      "id": "splendid-skies",
+      "name": "Splendid Skies",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-splendid-skies"
+    },
+    {
+      "id": "stoneforge-caravan",
+      "name": "Stoneforge Caravan",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-stoneforge-caravan"
+    },
+    {
+      "id": "sword-in-the-stone",
+      "name": "Sword in the Stone",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-sword-in-the-stone"
+    },
+    {
+      "id": "timeless-market",
+      "name": "Timeless Market",
+      "classification": "Town Upgrade",
+      "copies": 1,
+      "ruleId": "event-timeless-market"
+    },
+    {
+      "id": "tomb-of-the-forgotten",
+      "name": "Tomb of the Forgotten",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-tomb-of-the-forgotten"
+    },
+    {
+      "id": "treasure-goblin",
+      "name": "Treasure Goblin",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-treasure-goblin"
+    },
+    {
+      "id": "trench-of-the-void",
+      "name": "Trench of the Void",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-trench-of-the-void"
+    },
+    {
+      "id": "urzas-sylex",
+      "name": "Urza’s Sylex",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-urzas-sylex"
+    },
+    {
+      "id": "vanguard-caravan",
+      "name": "Vanguard Caravan",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-vanguard-caravan"
+    },
+    {
+      "id": "verdant-shrubbery",
+      "name": "Verdant Shrubbery",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-verdant-shrubbery"
+    },
+    {
+      "id": "wandering-planes-arms-dealer",
+      "name": "Wandering Planes Arms Dealer",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-wandering-planes-arms-dealer"
+    },
+    {
+      "id": "wandering-planes-assistant",
+      "name": "Wandering Planes Assistant",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-wandering-planes-assistant"
+    },
+    {
+      "id": "wandering-planes-saboteur",
+      "name": "Wandering Planes Saboteur",
+      "classification": "Bad",
+      "copies": 1,
+      "ruleId": "event-wandering-planes-saboteur"
+    },
+    {
+      "id": "wishing-well",
+      "name": "Wishing Well",
+      "classification": "Good",
+      "copies": 1,
+      "ruleId": "event-wishing-well"
     },
     {
       "id": "witchs-cauldron",
       "name": "Witch’s Cauldron",
       "classification": "Good",
+      "copies": 1,
       "ruleId": "event-witchs-cauldron"
+    },
+    {
+      "id": "zombie-uprising",
+      "name": "Zombie Uprising",
+      "classification": "Ambush",
+      "copies": 2,
+      "ruleId": "event-zombie-uprising"
+    },
+    {
+      "id": "zubera-crossing",
+      "name": "Zubera Crossing",
+      "classification": "Neutral",
+      "copies": 1,
+      "ruleId": "event-zubera-crossing"
     }
   ]
 }

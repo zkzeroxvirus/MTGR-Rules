@@ -13,15 +13,15 @@ Use this procedure when hosting on the supported MTGR Tabletop Simulator table. 
 
 ## 2. Prepare Encounter 1
 
-1. Count the active players. Use that count to determine the Host's Authority level, Doom count, health, and other player-count scaling.
+1. Count the active players. Use that count to determine the Host's Authority Level I–V (Host Scaling: first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
 2. Determine the encounter's Base XP and applicable Affix bonus XP.
 3. Allow the one-time seat adjustment before Encounter 1.
-4. Confirm that every player has flipped their Ready Token.
+4. Confirm that every player is ready: deckbuilding and pregame progression are complete. Players may say so or flip their Ready Token.
 5. Resolve the starting Good Event and Trinket selection in either order.
    - For the Event, reveal cards until a **Good Event** is revealed. Resolve it and shuffle the other revealed cards back into the Event deck.
    - For the Trinket, reveal **3 random Trinkets**. The party votes for 1; apply that Trinket for the run. Resolve additional Trinkets granted by player Tickets under their own rules.
-7. Select the encounter. Before the party has won an encounter, reroll any encounter type whose availability rule requires a previous victory.
-8. Resolve encounter setup, Affixes, Host health, and turn order. The Host and party roll a d20 for non-Crypt encounters; the winner chooses who takes the first turn.
+6. Select the encounter. Before the party has won an encounter, reroll any encounter type whose availability rule requires a previous victory.
+7. Resolve encounter setup, Affixes, Host health, and turn order. The Host and party roll a d20 for non-Crypt encounters; the winner chooses who takes the first turn.
 
 Both pregame steps must be complete before Encounter 1 begins, but neither must happen first.
 

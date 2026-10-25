@@ -30,8 +30,8 @@ After each victorious encounter, players gain rewards and choose how to proceed 
   * Host Health  
   * Rewards  
   * Encounter difficulty
-  * The Authority and Doom components of the **Host Scaling Power layer (Host Authority)**
-* The complete Host Scaling Power layer is **Authority + Doom + Demonic Persistence + Arcane Suppression**
+  * The Host Scaling (Phase / Phase+) and Doom components of the **Host Scaling Power layer**
+* The complete Host Scaling Power layer is **Host Scaling + Doom + Demonic Persistence + Arcane Suppression**
 * Demonic Persistence and Arcane Suppression are always active regardless of player count
 
 ---

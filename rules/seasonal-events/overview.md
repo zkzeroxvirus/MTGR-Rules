@@ -1,6 +1,6 @@
 # Seasonal Events
 
-Seasonal Events add themed content to a run. Use the content pools for the selected Seasonal Event; a seasonal rule is not automatically part of the normal pools. Follow the normal run rules unless the seasonal content explicitly changes them.
+Seasonal Events add themed content to a run. The selected Seasonal Event's content is added to the normal pools for that run. A seasonal rule is not automatically part of the normal pools outside that season. Follow the normal run rules unless the seasonal content explicitly changes them.
 
 A Seasonal Event is distinct from an individual Event card drawn between encounters.
 

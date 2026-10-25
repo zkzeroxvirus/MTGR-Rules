@@ -366,23 +366,23 @@ await requireRulePatterns("doom-reroll", [
 ]);
 
 await requireRulePatterns("authority-level", [
-  ["complete scaling layer", /Authority[\s\S]*Doom[\s\S]*Demonic Persistence[\s\S]*Arcane Suppression/i],
+  ["complete scaling layer", /Host Scaling[\s\S]*Doom[\s\S]*Demonic Persistence[\s\S]*Arcane Suppression/i],
   ["all four every encounter", /Apply all four components during each encounter/i],
-  ["player-count scaling", /Authority and Doom scale with the number of players/i],
+  ["player-count scaling", /Host Scaling and Doom scale with the number of players/i],
   ["always-active powers", /Demonic Persistence and Arcane Suppression are always active/i],
-  ["1-2 Authority I", /1[–-]2\s*\|\s*I/],
-  ["3 Authority II", /3\s*\|\s*II/],
-  ["4 Authority III", /4\s*\|\s*III/],
-  ["5 Authority IV", /5\s*\|\s*IV/],
-  ["6 Authority V", /6\s*\|\s*V/],
+  ["Authority is the Host Commands resource", /Authority[\s\S]*Host Commands/i],
+  ["1-2 Authority I, first-spell discount", /1[–-]2\s*\|\s*I — Minor Influence\s*\|\s*First-spell discount/],
+  ["3 Authority II, Phase", /\|\s*3\s*\|\s*II — Infernal Momentum\s*\|\s*\*\*Phase\*\*/],
+  ["4 Authority III, Phase", /\|\s*4\s*\|\s*III — Demonic Pressure\s*\|\s*\*\*Phase\*\*/],
+  ["5 Authority IV, Phase+", /\|\s*5\s*\|\s*IV — Overwhelming Presence\s*\|\s*\*\*Phase\+\*\*/],
+  ["6 Authority V, Phase+", /\|\s*6\s*\|\s*V — Absolute Command\s*\|\s*\*\*Phase\+\*\*/],
 ]);
 
 await requireRulePatterns("authority-effects", [
-  ["Authority I", /Authority I/],
-  ["Authority II Not Today", /Authority II[\s\S]*Not Today/],
-  ["Authority III draw-or-land choice", /Authority III[\s\S]*additional card[\s\S]*additional land/i],
-  ["Authority IV Disallow", /Authority IV[\s\S]*Disallow/i],
-  ["Authority V Absolute Command", /Authority V[\s\S]*Absolute Command/i],
+  ["first-spell discount", /first spell the Host casts each turn costs \{1\} less/i],
+  ["Phase draw-or-land choice", /Phase — 3[–-]4 players[\s\S]*additional card[\s\S]*additional land/i],
+  ["Phase+ two cards and two lands", /Phase\+ — 5[–-]6 players[\s\S]*two cards[\s\S]*two lands/i],
+  ["Not Today and Disallow retired", /Not Today[\s\S]*Disallow[\s\S]*no longer/i],
 ]);
 
 await requireRulePatterns("always-on-scaling", [
