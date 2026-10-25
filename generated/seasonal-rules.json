@@ -419,6 +419,31 @@
             "itemId": "a-portent-of-fortune",
             "ruleId": "event-a-portent-of-fortune",
             "classification": "Good"
+          },
+          {
+            "itemId": "a-gods-essence",
+            "ruleId": "event-a-gods-essence",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "fixed-fight",
+            "ruleId": "event-fixed-fight",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "harrowing-omen",
+            "ruleId": "event-harrowing-omen",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "rotten-luck",
+            "ruleId": "event-rotten-luck",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "smooth-criminal",
+            "ruleId": "event-smooth-criminal",
+            "classification": "Bad"
           }
         ],
         "doom": [
@@ -1290,6 +1315,41 @@
       "markdown": "# A Portent of Fortune\n\nThe party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]\n",
       "description": "The party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]",
       "plainText": "The party chooses one:\n- Choose the Crypt boss the party will face.\n- During the Crypt encounter, at the beginning of each Host upkeep, one player may pay 3 life. If they do, that player fateseals 1.[i](To fateseal 1, its controller looks at the top card of an opponent’s library, then they may put that card on the bottom of that library.)[/i]"
+    },
+    "event-a-gods-essence": {
+      "source": "rules/between-encounters/events/a-gods-essence.md",
+      "sha256": "98e10e04f30bb944f1e3e915ccb7c89c4d4139b63f2aa193971ca69f7fa182df",
+      "markdown": "# A God’s Essence\n\nThe Host reveals three random God cards with “devotion” in their rules text and chooses one. That card begins the next encounter on the battlefield under the Host’s control and can’t become a creature.\n",
+      "description": "The Host reveals three random God cards with “devotion” in their rules text and chooses one. That card begins the next encounter on the battlefield under the Host’s control and can’t become a creature.",
+      "plainText": "The Host reveals three random God cards with “devotion” in their rules text and chooses one. That card begins the next encounter on the battlefield under the Host’s control and can’t become a creature."
+    },
+    "event-fixed-fight": {
+      "source": "rules/between-encounters/events/fixed-fight.md",
+      "sha256": "cf29b29d7ce20c77834c118c0dfd9b846a665fa36abb84505f8a14e9201177fb",
+      "markdown": "# Fixed Fight\n\nThe Host takes the first turn during the next encounter and chooses that encounter’s fight type.\n",
+      "description": "The Host takes the first turn during the next encounter and chooses that encounter’s fight type.",
+      "plainText": "The Host takes the first turn during the next encounter and chooses that encounter’s fight type."
+    },
+    "event-harrowing-omen": {
+      "source": "rules/between-encounters/events/harrowing-omen.md",
+      "sha256": "35b31a2cd47795e31d84abbaed11bde0b633a024343329ced09349b7ed301043",
+      "markdown": "# Harrowing Omen\n\nThe party is faced with a villainous choice:\nPrelude to Fear — Next encounter, the host decides the starting player. On the host’s first upkeep, each party member discards a card.\nDescent into Madness — Next Encounter, the host starts with a 1/1 colorless Spirit in play for each party member. They have hexproof and shadow.\n",
+      "description": "The party is faced with a villainous choice:\nPrelude to Fear — Next encounter, the host decides the starting player. On the host’s first upkeep, each party member discards a card.\nDescent into Madness — Next Encounter, the host starts with a 1/1 colorless Spirit in play for each party member. They have hexproof and shadow.",
+      "plainText": "The party is faced with a villainous choice:\nPrelude to Fear — Next encounter, the host decides the starting player. On the host’s first upkeep, each party member discards a card.\nDescent into Madness — Next Encounter, the host starts with a 1/1 colorless Spirit in play for each party member. They have hexproof and shadow."
+    },
+    "event-rotten-luck": {
+      "source": "rules/between-encounters/events/rotten-luck.md",
+      "sha256": "b1f22d8a92613cc5f39766a3a6c4645145295282e18fb109c48f860b0d79774f",
+      "markdown": "# Rotten Luck\n\nThe party is faced with a villainous choice:\nFace the Elite — During the next encounter, the Host gains one Tier 2 Affix and takes the first turn.\nDoom the World — During the next encounter, the Host gains one additional Doom card.\n",
+      "description": "The party is faced with a villainous choice:\nFace the Elite — During the next encounter, the Host gains one Tier 2 Affix and takes the first turn.\nDoom the World — During the next encounter, the Host gains one additional Doom card.",
+      "plainText": "The party is faced with a villainous choice:\nFace the Elite — During the next encounter, the Host gains one Tier 2 Affix and takes the first turn.\nDoom the World — During the next encounter, the Host gains one additional Doom card."
+    },
+    "event-smooth-criminal": {
+      "source": "rules/between-encounters/events/smooth-criminal.md",
+      "sha256": "c0ef1a12b3ab6535a929d0af3da87bb19d96966f3f63ed1d43d39195e627eae4",
+      "markdown": "# Smooth Criminal\n\nDuring the next encounter, the Host gains one additional Doom card.\n",
+      "description": "During the next encounter, the Host gains one additional Doom card.",
+      "plainText": "During the next encounter, the Host gains one additional Doom card."
     },
     "harvest-moon-doom-your-trinkets-are-nothing-but-toys-to-me": {
       "source": "rules/seasonal-events/harvest-moon/doom/your-trinkets-are-nothing-but-toys-to-me.md",

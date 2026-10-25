@@ -419,6 +419,31 @@
             "itemId": "a-portent-of-fortune",
             "ruleId": "event-a-portent-of-fortune",
             "classification": "Good"
+          },
+          {
+            "itemId": "a-gods-essence",
+            "ruleId": "event-a-gods-essence",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "fixed-fight",
+            "ruleId": "event-fixed-fight",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "harrowing-omen",
+            "ruleId": "event-harrowing-omen",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "rotten-luck",
+            "ruleId": "event-rotten-luck",
+            "classification": "Bad"
+          },
+          {
+            "itemId": "smooth-criminal",
+            "ruleId": "event-smooth-criminal",
+            "classification": "Bad"
           }
         ],
         "doom": [
