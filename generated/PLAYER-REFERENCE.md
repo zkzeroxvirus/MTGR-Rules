@@ -46,11 +46,11 @@ Use this flow when playing on the supported MTGR Tabletop Simulator table. Detai
 3. Before Encounter 1 begins, equip up to **4 total slots** of Crypt Buffs, Achievements, Tickets, and Captures. Brands use their own progression layer and do not occupy these slots.
 4. Purchase Tickets and Brands, if desired. The Progression Shop is available before a run begins and after it ends.
 
-The Player Profile must finish loading before the Start Token can use its progression modifiers.
+The Player Profile must finish loading before the draft can use its progression modifiers.
 
 #### 2. Build the starting deck
 
-1. Take the **Start Token** and generate **5 random legal Commanders**, plus any extra options granted by progression. Choose 1 and place it in the command zone.
+1. Type **!draft** from your seat to open the draft screen. It offers **5 random legal Commanders**, plus any extra options granted by progression. Choose 1 for your command zone.
 2. Select the colors in that Commander's color identity and generate the personal **100-card pool**.
 3. Replace each invalid result individually. Stickers, Attractions, and Contraptions are invalid starting-pool results and are replaced. Do not reroll the entire pool.
 4. Draft **22 cards** from the pool.
