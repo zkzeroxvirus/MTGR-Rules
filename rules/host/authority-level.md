@@ -13,16 +13,18 @@ Host Scaling and Doom scale with the number of players. Demonic Persistence and 
 
 Host Scaling supplies the Host's player-count-based tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
 
-**Authority** now means the Host Commands resource from Host Progression: the Host spends Authority to invoke equipped Commands, and the Host Progression HUD tracks it. Host Scaling no longer grants Not Today tokens or a free Disallow; Host Commands replace them.
+The Host Scaling level is the Host's **Authority Level** (I–V). Authority Level is not the same as **Authority**, the Host Commands resource from Host Progression: the Host spends Authority to invoke equipped Commands, and the Host Progression HUD tracks it. Host Scaling no longer grants Not Today tokens or a free Disallow; Host Commands replace them.
 
-## Host Scaling Level
+## Authority Level
 
-At the beginning of each encounter, determine the Host Scaling level from the number of players.
+At the beginning of each encounter, determine the Host's Authority Level from the number of players.
 
-| Players | Host Scaling |
-| ----- | ----- |
-| 1–2 | First-spell discount only |
-| 3–4 | **Phase** |
-| 5–6 | **Phase+** |
+| Players | Authority Level | Host Scaling |
+| ----- | ----- | ----- |
+| 1–2 | I — Minor Influence | First-spell discount only |
+| 3 | II — Infernal Momentum | **Phase** |
+| 4 | III — Demonic Pressure | **Phase** |
+| 5 | IV — Overwhelming Presence | **Phase+** |
+| 6 | V — Absolute Command | **Phase+** |
 
 ---

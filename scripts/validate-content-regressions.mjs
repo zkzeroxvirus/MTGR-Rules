@@ -371,9 +371,11 @@ await requireRulePatterns("authority-level", [
   ["player-count scaling", /Host Scaling and Doom scale with the number of players/i],
   ["always-active powers", /Demonic Persistence and Arcane Suppression are always active/i],
   ["Authority is the Host Commands resource", /Authority[\s\S]*Host Commands/i],
-  ["1-2 first-spell discount", /1[–-]2\s*\|\s*First-spell discount/],
-  ["3-4 Phase", /3[–-]4\s*\|\s*\*\*Phase\*\*/],
-  ["5-6 Phase+", /5[–-]6\s*\|\s*\*\*Phase\+\*\*/],
+  ["1-2 Authority I, first-spell discount", /1[–-]2\s*\|\s*I — Minor Influence\s*\|\s*First-spell discount/],
+  ["3 Authority II, Phase", /\|\s*3\s*\|\s*II — Infernal Momentum\s*\|\s*\*\*Phase\*\*/],
+  ["4 Authority III, Phase", /\|\s*4\s*\|\s*III — Demonic Pressure\s*\|\s*\*\*Phase\*\*/],
+  ["5 Authority IV, Phase+", /\|\s*5\s*\|\s*IV — Overwhelming Presence\s*\|\s*\*\*Phase\+\*\*/],
+  ["6 Authority V, Phase+", /\|\s*6\s*\|\s*V — Absolute Command\s*\|\s*\*\*Phase\+\*\*/],
 ]);
 
 await requireRulePatterns("authority-effects", [

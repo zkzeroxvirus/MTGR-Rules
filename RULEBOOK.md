@@ -114,7 +114,7 @@ Use this procedure when hosting on the supported MTGR Tabletop Simulator table. 
 
 #### 2. Prepare Encounter 1
 
-1. Count the active players. Use that count to determine the Host Scaling level (first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
+1. Count the active players. Use that count to determine the Host's Authority Level I–V (Host Scaling: first-spell discount, Phase or Phase+), Doom count, health, and other player-count scaling. Host Commands use the Authority tracked by Host Progression.
 2. Determine the encounter's Base XP and applicable Affix bonus XP.
 3. Allow the one-time seat adjustment before Encounter 1.
 4. Confirm that every player is ready: deckbuilding and pregame progression are complete. Players may say so or flip their Ready Token.
@@ -1931,17 +1931,19 @@ Host Scaling and Doom scale with the number of players. Demonic Persistence and 
 
 Host Scaling supplies the Host's player-count-based tempo effects. Doom supplies the Host's player-count-based pool of triggered abilities. Their detailed effects and timing remain in their dedicated rule entries.
 
-**Authority** now means the Host Commands resource from Host Progression: the Host spends Authority to invoke equipped Commands, and the Host Progression HUD tracks it. Host Scaling no longer grants Not Today tokens or a free Disallow; Host Commands replace them.
+The Host Scaling level is the Host's **Authority Level** (I–V). Authority Level is not the same as **Authority**, the Host Commands resource from Host Progression: the Host spends Authority to invoke equipped Commands, and the Host Progression HUD tracks it. Host Scaling no longer grants Not Today tokens or a free Disallow; Host Commands replace them.
 
-#### Host Scaling Level
+#### Authority Level
 
-At the beginning of each encounter, determine the Host Scaling level from the number of players.
+At the beginning of each encounter, determine the Host's Authority Level from the number of players.
 
-| Players | Host Scaling |
-| ----- | ----- |
-| 1–2 | First-spell discount only |
-| 3–4 | **Phase** |
-| 5–6 | **Phase+** |
+| Players | Authority Level | Host Scaling |
+| ----- | ----- | ----- |
+| 1–2 | I — Minor Influence | First-spell discount only |
+| 3 | II — Infernal Momentum | **Phase** |
+| 4 | III — Demonic Pressure | **Phase** |
+| 5 | IV — Overwhelming Presence | **Phase+** |
+| 6 | V — Absolute Command | **Phase+** |
 
 ---
 
@@ -2347,11 +2349,15 @@ Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.m
 
 #### **All player counts — First-spell discount**
 
+*Authority I — Minor Influence (1–2 players) has only this effect.*
+
 * The first spell the Host casts each turn costs {1} less to cast.
 
 ---
 
 #### **👑 Phase — 3–4 players**
+
+*Authority II — Infernal Momentum (3 players) and Authority III — Demonic Pressure (4 players).*
 
 * The first spell the Host casts each turn costs {1} less to cast.
 * At the end of the Host's draw step, the Host chooses one —
@@ -2361,6 +2367,8 @@ Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.m
 ---
 
 #### **👑 Phase+ — 5–6 players**
+
+*Authority IV — Overwhelming Presence (5 players) and Authority V — Absolute Command (6 players).*
 
 * The first spell the Host casts each turn costs {1} less to cast.
 * The Host draws two cards during their draw step.
@@ -2387,7 +2395,7 @@ Not Today tokens and the free copy of Disallow are no longer part of Host Scalin
 
 #### **🔒 AUTHORITY AND HOST COMMANDS**
 
-Authority is the Host Commands resource from Host Progression. Host Scaling does not grant Authority, and Authority does not change the Host Scaling level.
+Authority is the Host Commands resource from Host Progression. The Authority Level (I–V) is the Host Scaling level set by player count. Host Scaling does not grant Authority, and spending or gaining Authority does not change the Authority Level.
 
 Not Today tokens and the free copy of Disallow are retired. When a Host Command casts Disallow or counters a spell or ability, follow that Command's own text.
 

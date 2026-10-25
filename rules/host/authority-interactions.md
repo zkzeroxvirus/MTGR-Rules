@@ -12,7 +12,7 @@
 
 ## **🔒 AUTHORITY AND HOST COMMANDS**
 
-Authority is the Host Commands resource from Host Progression. Host Scaling does not grant Authority, and Authority does not change the Host Scaling level.
+Authority is the Host Commands resource from Host Progression. The Authority Level (I–V) is the Host Scaling level set by player count. Host Scaling does not grant Authority, and spending or gaining Authority does not change the Authority Level.
 
 Not Today tokens and the free copy of Disallow are retired. When a Host Command casts Disallow or counters a spell or ability, follow that Command's own text.
 
