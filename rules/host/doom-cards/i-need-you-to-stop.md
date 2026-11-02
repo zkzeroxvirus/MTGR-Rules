@@ -3,5 +3,3 @@
 Target player skips their next beginning phase.
 
 ---
-
----

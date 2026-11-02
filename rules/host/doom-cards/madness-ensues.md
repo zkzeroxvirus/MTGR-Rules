@@ -1,5 +1,5 @@
 # **🧠 Madness Ensues**
 
-Each opponent discards two cards.
+Each opponent discards 2 cards.
 
 ---

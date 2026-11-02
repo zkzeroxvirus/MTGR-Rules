@@ -3453,7 +3453,7 @@
     },
     {
       "id": "doom-card-i-m-just-getting-started",
-      "title": "💠 I’m Just Getting Started",
+      "title": "💠 I'm Just Getting Started",
       "source": "rules/host/doom-cards/i-m-just-getting-started.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3470,7 +3470,7 @@
     },
     {
       "id": "doom-card-a-bit-of-artificial-insight",
-      "title": "🧠 A Bit of Artificial Insight",
+      "title": "🧠 A Bit of Artificial Insight is All I Need",
       "source": "rules/host/doom-cards/a-bit-of-artificial-insight.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3504,25 +3504,8 @@
     },
     {
       "id": "doom-card-i-ve-seen-what-breaks-you",
-      "title": "🔍 I’ve Seen What Breaks You",
+      "title": "🔍 I've Seen What Breaks You",
       "source": "rules/host/doom-cards/i-ve-seen-what-breaks-you.md",
-      "phase": "encounter-loop",
-      "audience": [
-        "host",
-        "player"
-      ],
-      "related": [
-        "doom-rules",
-        "doom-triggering"
-      ],
-      "content": {
-        "kind": "document"
-      }
-    },
-    {
-      "id": "doom-card-welcome-to-my-reality",
-      "title": "🌌 Welcome to My Reality",
-      "source": "rules/host/doom-cards/welcome-to-my-reality.md",
       "phase": "encounter-loop",
       "audience": [
         "host",
@@ -3555,7 +3538,7 @@
     },
     {
       "id": "doom-card-oooooh-i-like-you",
-      "title": "💕 Oooooh, I Like You",
+      "title": "💕 Oooooh I Like You",
       "source": "rules/host/doom-cards/oooooh-i-like-you.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3572,7 +3555,7 @@
     },
     {
       "id": "doom-card-no",
-      "title": "❌ No",
+      "title": "❌ No.",
       "source": "rules/host/doom-cards/no.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3657,7 +3640,7 @@
     },
     {
       "id": "doom-card-death-is-inevitable",
-      "title": "💀 Death Is Inevitable",
+      "title": "💀 Death is Inevitable",
       "source": "rules/host/doom-cards/death-is-inevitable.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3674,7 +3657,7 @@
     },
     {
       "id": "doom-card-death-comes-for-us-all",
-      "title": "☠ Death Comes for Us All",
+      "title": "☠ Death Comes For Us All",
       "source": "rules/host/doom-cards/death-comes-for-us-all.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3691,7 +3674,7 @@
     },
     {
       "id": "doom-card-you-ve-outlived-your-usefulness",
-      "title": "🚫 You’ve Outlived Your Usefulness",
+      "title": "🚫 You've Outlived Your Usefulness",
       "source": "rules/host/doom-cards/you-ve-outlived-your-usefulness.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3724,25 +3707,8 @@
       }
     },
     {
-      "id": "doom-card-did-that-sting",
-      "title": "😈 Did That Sting?",
-      "source": "rules/host/doom-cards/did-that-sting.md",
-      "phase": "encounter-loop",
-      "audience": [
-        "host",
-        "player"
-      ],
-      "related": [
-        "doom-rules",
-        "doom-triggering"
-      ],
-      "content": {
-        "kind": "document"
-      }
-    },
-    {
       "id": "doom-card-i-ll-show-you-true-pain",
-      "title": "🔥 I’ll Show You True Pain",
+      "title": "🔥 I Will Show You True Pain",
       "source": "rules/host/doom-cards/i-ll-show-you-true-pain.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3844,7 +3810,7 @@
     },
     {
       "id": "doom-card-i-will-put-this-to-good-use",
-      "title": "🕵 I Will Put This to Good Use",
+      "title": "🕵 I Will Put This To Good Use",
       "source": "rules/host/doom-cards/i-will-put-this-to-good-use.md",
       "phase": "encounter-loop",
       "audience": [
@@ -3861,8 +3827,637 @@
     },
     {
       "id": "doom-card-you-bear-the-mark-you-are-cursed",
-      "title": "🌀 You Bear the Mark! You Are Cursed!",
+      "title": "🌀 You Bare the Mark! You Are Cursed!",
       "source": "rules/host/doom-cards/you-bear-the-mark-you-are-cursed.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-tis-but-a-scratch",
+      "title": "'Tis but a Scratch",
+      "source": "rules/host/doom-cards/tis-but-a-scratch.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-arrise",
+      "title": "Arrise",
+      "source": "rules/host/doom-cards/arrise.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-choose-flesh-or-memory",
+      "title": "Choose Flesh or Memory",
+      "source": "rules/host/doom-cards/choose-flesh-or-memory.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-do-not-fail-me-minion",
+      "title": "Do Not Fail Me Minion",
+      "source": "rules/host/doom-cards/do-not-fail-me-minion.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-for-each-of-you-a-gift",
+      "title": "For Each of You, a Gift",
+      "source": "rules/host/doom-cards/for-each-of-you-a-gift.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-go-and-strike-them-down",
+      "title": "Go and Strike Them Down",
+      "source": "rules/host/doom-cards/go-and-strike-them-down.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-am-fire-i-am-death",
+      "title": "I am Fire! I am Death!",
+      "source": "rules/host/doom-cards/i-am-fire-i-am-death.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-can-see-into-the-arcane",
+      "title": "I Can See Into the Arcane",
+      "source": "rules/host/doom-cards/i-can-see-into-the-arcane.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-just-love-the-smell-of-fear",
+      "title": "I Just LOVE the Smell of Fear",
+      "source": "rules/host/doom-cards/i-just-love-the-smell-of-fear.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-require-more",
+      "title": "I Require More",
+      "source": "rules/host/doom-cards/i-require-more.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-unmake-everything-you-depend-on",
+      "title": "I Unmake Everything You Depend On",
+      "source": "rules/host/doom-cards/i-unmake-everything-you-depend-on.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-want-to-play-a-game",
+      "title": "I Want to Play a Game",
+      "source": "rules/host/doom-cards/i-want-to-play-a-game.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-will-break-you",
+      "title": "I Will Break You",
+      "source": "rules/host/doom-cards/i-will-break-you.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-i-wish-to-do-the-same",
+      "title": "I Wish to Do the Same!",
+      "source": "rules/host/doom-cards/i-wish-to-do-the-same.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-in-the-end-you-will-serve-me",
+      "title": "In the End, You Will Serve Me",
+      "source": "rules/host/doom-cards/in-the-end-you-will-serve-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-let-me-think",
+      "title": "Let Me Think...",
+      "source": "rules/host/doom-cards/let-me-think.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-let-s-see-what-we-have-here",
+      "title": "Let's See What We Have Here",
+      "source": "rules/host/doom-cards/let-s-see-what-we-have-here.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-my-armor-is-impenetrable",
+      "title": "My Armor is Impenetrable",
+      "source": "rules/host/doom-cards/my-armor-is-impenetrable.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-my-garden-craves-your-flesh",
+      "title": "My Garden Craves Your Flesh",
+      "source": "rules/host/doom-cards/my-garden-craves-your-flesh.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-my-power-will-cut-you-down",
+      "title": "My Power Will Cut You Down",
+      "source": "rules/host/doom-cards/my-power-will-cut-you-down.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-now-you-will-see-true-power",
+      "title": "Now You Will See True Power",
+      "source": "rules/host/doom-cards/now-you-will-see-true-power.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-silence",
+      "title": "SILENCE!",
+      "source": "rules/host/doom-cards/silence.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-the-ooze-hungers",
+      "title": "The Ooze Hungers",
+      "source": "rules/host/doom-cards/the-ooze-hungers.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-through-strength-i-will-endure",
+      "title": "Through Strength I Will Endure",
+      "source": "rules/host/doom-cards/through-strength-i-will-endure.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-time-bends-to-my-will",
+      "title": "Time Bends to My Will",
+      "source": "rules/host/doom-cards/time-bends-to-my-will.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-what-s-yours-is-mine",
+      "title": "What's Yours is Mine",
+      "source": "rules/host/doom-cards/what-s-yours-is-mine.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-don-t-seem-to-understand-my-power",
+      "title": "You Don't Seem to Understand My Power",
+      "source": "rules/host/doom-cards/you-don-t-seem-to-understand-my-power.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-have-a-choice-to-make",
+      "title": "You Have a Choice to Make",
+      "source": "rules/host/doom-cards/you-have-a-choice-to-make.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-seem-too-strong-let-s-fix-that",
+      "title": "You Seem Too Strong! Let's Fix That!",
+      "source": "rules/host/doom-cards/you-seem-too-strong-let-s-fix-that.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-you-work-for-me",
+      "title": "You Work For Me",
+      "source": "rules/host/doom-cards/you-work-for-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-blood-tastes-exquisite",
+      "title": "Your Blood Tastes Exquisite!",
+      "source": "rules/host/doom-cards/your-blood-tastes-exquisite.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-efforts-are-futile",
+      "title": "Your Efforts Are Futile",
+      "source": "rules/host/doom-cards/your-efforts-are-futile.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-efforts-only-fuel-me",
+      "title": "Your Efforts Only Fuel Me",
+      "source": "rules/host/doom-cards/your-efforts-only-fuel-me.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-life-amounts-to-nothing",
+      "title": "Your Life Amounts to Nothing",
+      "source": "rules/host/doom-cards/your-life-amounts-to-nothing.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-little-trinkets-are-worthless",
+      "title": "Your Little Trinkets Are Worthless",
+      "source": "rules/host/doom-cards/your-little-trinkets-are-worthless.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-ruin-is-my-reward",
+      "title": "Your Ruin is My Reward",
+      "source": "rules/host/doom-cards/your-ruin-is-my-reward.md",
+      "phase": "encounter-loop",
+      "audience": [
+        "host",
+        "player"
+      ],
+      "related": [
+        "doom-rules",
+        "doom-triggering"
+      ],
+      "content": {
+        "kind": "document"
+      }
+    },
+    {
+      "id": "doom-card-your-wisdom-betrays-you",
+      "title": "Your Wisdom Betrays You",
+      "source": "rules/host/doom-cards/your-wisdom-betrays-you.md",
       "phase": "encounter-loop",
       "audience": [
         "host",

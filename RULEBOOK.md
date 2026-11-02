@@ -1985,7 +1985,7 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 | 5 | 2 |
 | 6 | 3 |
 
-* Doom cards are drawn from the **Doom Pool**  
+* Doom cards are drawn from the **Doom Pool**, the 60 core Doom cards  
 * Each Doom card is unique unless otherwise specified
 
 ---
@@ -2424,14 +2424,14 @@ When the Host turns a Doom card face up:
 ---
 
 <!-- rule:doom-card-i-m-just-getting-started -->
-### **💠 I’m Just Getting Started**
+### **💠 I'm Just Getting Started**
 
 Add {4}.
 
 ---
 
 <!-- rule:doom-card-a-bit-of-artificial-insight -->
-### **🧠 A Bit of Artificial Insight**
+### **🧠 A Bit of Artificial Insight is All I Need**
 
 Draw two cards. Artifact spells you cast this turn cost {2} less to cast.
 
@@ -2440,57 +2440,42 @@ Draw two cards. Artifact spells you cast this turn cost {2} less to cast.
 <!-- rule:doom-card-i-will-witness-your-downfall -->
 ### **👁 I Will Witness Your Downfall**
 
-Draw four cards.
+Draw 4 cards.
 
 ---
 
 <!-- rule:doom-card-i-ve-seen-what-breaks-you -->
-### **🔍 I’ve Seen What Breaks You**
+### **🔍 I've Seen What Breaks You**
 
 Search your library for a card, put it into your hand, then shuffle.
 
 ---
 
-<!-- rule:doom-card-welcome-to-my-reality -->
-### **🌌 Welcome to My Reality**
-
-Choose any number of players. Each chosen player shuffles their hand and graveyard into their library, then draws that many cards.
-
-If the Host is not among the chosen players, the Host draws cards until they have seven cards in hand.
-
----
-
----
-
 <!-- rule:doom-card-i-can-do-that-too -->
-### **🔮 I Can Do That Too\!**
+### **🔮 I Can Do That Too!**
 
-Copy target noncreature spell. You may choose new targets for the copy.
+Copy target noncreature spell.
 
 ---
 
 <!-- rule:doom-card-oooooh-i-like-you -->
-### **💕 Oooooh, I Like You**
+### **💕 Oooooh I Like You**
 
-Copy target creature spell. You may choose new targets for the copy.
+Copy target creature spell.
 
 ---
 
 <!-- rule:doom-card-no -->
-### **❌ No**
+### **❌ No.**
 
-Counter target spell.
-
----
+Counter target spell, triggered ability, or activated ability.
 
 ---
 
 <!-- rule:doom-card-you-are-annoying-me -->
 ### **😒 You Are Annoying Me**
 
-Choose a player.  
- Creatures that player controls can’t attack you or planeswalkers you control this turn.  
- Spells that player controls can’t target you or permanents you control this turn.
+Choose target player. Until end of turn that player can't attack you, and you and permanents you control gain hexproof from that player.
 
 ---
 
@@ -2502,39 +2487,35 @@ Target permanent gains hexproof and indestructible until end of turn.
 ---
 
 <!-- rule:doom-card-minions-protect-me -->
-### **🧱 Minions\! Protect Me\!**
+### **🧱 Minions! Protect Me!**
 
-Create a 3/3 black Horror creature token.  
- Prevent all damage that would be dealt to creatures you control this turn.
+Create a 3/3 black Horror creature token. Prevent all damage that would be dealt to creatures you control this turn.
 
 ---
 
 <!-- rule:doom-card-how-do-you-like-it -->
 ### **🔄 How Do You Like It?**
 
-The next time a source of your choice would deal damage to you this turn, prevent that damage.  
- If damage is prevented this way, it deals that much damage to any target instead.
-
----
+The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, this deals that much damage to any target.
 
 ---
 
 <!-- rule:doom-card-death-is-inevitable -->
-### **💀 Death Is Inevitable**
+### **💀 Death is Inevitable**
 
-Destroy up to two target creatures an opponent controls.
+Destroy up to two target creatures target opponent controls.
 
 ---
 
 <!-- rule:doom-card-death-comes-for-us-all -->
-### **☠ Death Comes for Us All**
+### **☠ Death Comes For Us All**
 
-Destroy all creatures. They can’t be regenerated.
+Destroy all creatures. They can't be regenerated. Trigger only as a sorcery.
 
 ---
 
 <!-- rule:doom-card-you-ve-outlived-your-usefulness -->
-### **🚫 You’ve Outlived Your Usefulness**
+### **🚫 You've Outlived Your Usefulness**
 
 Exile target nonland permanent.
 
@@ -2543,42 +2524,28 @@ Exile target nonland permanent.
 <!-- rule:doom-card-offer-tribute -->
 ### **⛓ Offer Tribute**
 
-Each opponent sacrifices a permanent.
-
----
-
----
-
-<!-- rule:doom-card-did-that-sting -->
-### **😈 Did That Sting?**
-
-Deal 4 damage to each opponent.
+Each opponent sacrifices a nonland permanent.
 
 ---
 
 <!-- rule:doom-card-i-ll-show-you-true-pain -->
-### **🔥 I’ll Show You True Pain**
+### **🔥 I Will Show You True Pain**
 
-Choose the opponent with the highest life total.  
- That player loses 7 life.
+Deal 5 damage to each opponent.
 
 ---
 
 <!-- rule:doom-card-my-fury-burns -->
 ### **🔥 My Fury Burns**
 
-Until end of turn, if a source you control would deal damage to an opponent or a creature you don’t control, it deals that much damage plus 2 instead.  
- Create a 1/1 red Devil creature token with  
- “When this creature dies, it deals 1 damage to any target.”
-
----
+Until end of turn, if you would deal damage to a creature you don't control or an opponent, deal that much +2. Create a 1/1 red Devil token with "When this creature dies, deal 1 damage to any target." Damage can't be prevented this turn.
 
 ---
 
 <!-- rule:doom-card-madness-ensues -->
 ### **🧠 Madness Ensues**
 
-Each opponent discards two cards.
+Each opponent discards 2 cards.
 
 ---
 
@@ -2589,41 +2556,292 @@ Target player skips their next beginning phase.
 
 ---
 
----
-
 <!-- rule:doom-card-even-nature-cannot-resist -->
 ### **🌱 Even Nature Cannot Resist**
 
-Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Search your library for a basic land card and put it onto the battlefield.
 
 ---
 
 <!-- rule:doom-card-reality-bends-to-my-will -->
 ### **🌍 Reality Bends to My Will**
 
-Choose one:
-
-* You may play two additional lands this turn  
-* You may cast an instant or sorcery spell from your hand without paying its mana cost
-
----
+Choose one — You may play 2 additional lands this turn; or you may cast an instant or sorcery from your hand with CMC ≤ lands you control +2 without paying its mana cost.
 
 ---
 
 <!-- rule:doom-card-i-will-put-this-to-good-use -->
-### **🕵 I Will Put This to Good Use**
+### **🕵 I Will Put This To Good Use**
 
-Search target opponent’s library for a card, exile it face down, then that player shuffles.  
- You may look at and cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.
-
----
+Search any opponent's library for a card, exile it face down, then shuffle. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast it.
 
 ---
 
 <!-- rule:doom-card-you-bear-the-mark-you-are-cursed -->
-### **🌀 You Bear the Mark\! You Are Cursed\!**
+### **🌀 You Bare the Mark! You Are Cursed!**
 
-Each opponent becomes enchanted by a random Curse with mana value 4 or less that cannot benefit them or their allies.
+Enchant each opponent with a random token Curse enchantment with cmc 4 or less. These curses cannot benefit them or their allies in any way.
+
+---
+
+<!-- rule:doom-card-tis-but-a-scratch -->
+### **'Tis but a Scratch**
+
+Gain 30 life.
+
+---
+
+<!-- rule:doom-card-arrise -->
+### **Arrise**
+
+Put target creature card from a graveyard onto the battlefield under your control.
+
+---
+
+<!-- rule:doom-card-choose-flesh-or-memory -->
+### **Choose Flesh or Memory**
+
+Each opponent sacrifices a creature. Then each opponent who didn't sacrifice a creature this way discards two cards.
+
+---
+
+<!-- rule:doom-card-do-not-fail-me-minion -->
+### **Do Not Fail Me Minion**
+
+Reveal cards from the top of your library until you reach a creature card. Put it onto the battlefield and the rest on the bottom of your library in a random order.
+
+---
+
+<!-- rule:doom-card-for-each-of-you-a-gift -->
+### **For Each of You, a Gift**
+
+For each opponent, create a 3/3 black Zombie creature token that attacks that player each combat if able.
+
+---
+
+<!-- rule:doom-card-go-and-strike-them-down -->
+### **Go and Strike Them Down**
+
+Untap 2 creatures you control. After this phase, there is an additional combat phase followed by an additional main phase.
+
+---
+
+<!-- rule:doom-card-i-am-fire-i-am-death -->
+### **I am Fire! I am Death!**
+
+Create a 5/5 red Dragon creature token with flying.
+
+---
+
+<!-- rule:doom-card-i-can-see-into-the-arcane -->
+### **I Can See Into the Arcane**
+
+You may cast a spell without paying its mana cost with cmc ≤ lands you control +3. Trigger only during end step before cleanup.
+
+---
+
+<!-- rule:doom-card-i-just-love-the-smell-of-fear -->
+### **I Just LOVE the Smell of Fear**
+
+Creatures you control get +2/+2 and have fear until end of turn.
+
+---
+
+<!-- rule:doom-card-i-require-more -->
+### **I Require More**
+
+Draw 2 cards. You may play an additional land this turn.
+
+---
+
+<!-- rule:doom-card-i-unmake-everything-you-depend-on -->
+### **I Unmake Everything You Depend On**
+
+Destroy up to one target artifact, up to one target enchantment, and up to one nonbasic land.
+
+---
+
+<!-- rule:doom-card-i-want-to-play-a-game -->
+### **I Want to Play a Game**
+
+Target opponent chooses self or others. Self: they sacrifice two creatures. Others: each other opponent sacrifices a creature.
+
+---
+
+<!-- rule:doom-card-i-will-break-you -->
+### **I Will Break You**
+
+Each opponent reveals their hand. You may cast a spell from among them with CMC ≤ lands you control +2 without paying its mana cost.
+
+---
+
+<!-- rule:doom-card-i-wish-to-do-the-same -->
+### **I Wish to Do the Same!**
+
+Take a beginning phase as well next turn. Trigger only as a sorcery. (The beginning phase includes untap, upkeep, and draw.)
+
+---
+
+<!-- rule:doom-card-in-the-end-you-will-serve-me -->
+### **In the End, You Will Serve Me**
+
+Each player mills 3 cards. Then you may put a permanent card from among cards milled this way with CMC ≤ lands you control +2 onto the battlefield (under your control).
+
+---
+
+<!-- rule:doom-card-let-me-think -->
+### **Let Me Think...**
+
+As an additional cost to triggering this doom card, pay {X}. Draw X cards and gain X life.
+
+---
+
+<!-- rule:doom-card-let-s-see-what-we-have-here -->
+### **Let's See What We Have Here**
+
+Exile cards from the top of your library until you reach a nonland card. You may cast it without paying its mana cost. Then shuffle the rest back into your library.
+
+---
+
+<!-- rule:doom-card-my-armor-is-impenetrable -->
+### **My Armor is Impenetrable**
+
+Conjure Urza's Armor onto the battlefield under your control.
+
+---
+
+<!-- rule:doom-card-my-garden-craves-your-flesh -->
+### **My Garden Craves Your Flesh**
+
+Create five 1/1 green Saproling creature tokens.
+
+---
+
+<!-- rule:doom-card-my-power-will-cut-you-down -->
+### **My Power Will Cut You Down**
+
+Put five +1/+1 counters on target creature you control. It gains flying and vigilance until end of turn.
+
+---
+
+<!-- rule:doom-card-now-you-will-see-true-power -->
+### **Now You Will See True Power**
+
+Exile the top card of each player's library, then you may cast any number of spells from among them with CMC ≤ lands you control +2 without paying their mana costs.
+
+---
+
+<!-- rule:doom-card-silence -->
+### **SILENCE!**
+
+At the start of the next turn, each opponent can't cast more than one spell each turn until the end of your next turn. Trigger only as a sorcery.
+
+---
+
+<!-- rule:doom-card-the-ooze-hungers -->
+### **The Ooze Hungers**
+
+Create a 2/2 green Ooze creature token. Put X +1/+1 counters on it, where X is the number of lands your opponents control. It has "this creature can't gain trample or be made unblockable."
+
+---
+
+<!-- rule:doom-card-through-strength-i-will-endure -->
+### **Through Strength I Will Endure**
+
+Create a token copy of target commander. It is not legendary and has "this cannot be used in infinites."
+
+---
+
+<!-- rule:doom-card-time-bends-to-my-will -->
+### **Time Bends to My Will**
+
+Take an extra turn after this one. Skip your untap step of that turn.
+
+---
+
+<!-- rule:doom-card-what-s-yours-is-mine -->
+### **What's Yours is Mine**
+
+Create a token copy of target permanent an opponent controls.
+
+---
+
+<!-- rule:doom-card-you-don-t-seem-to-understand-my-power -->
+### **You Don't Seem to Understand My Power**
+
+Shuffle your hand back into your library and draw 7 cards.
+
+---
+
+<!-- rule:doom-card-you-have-a-choice-to-make -->
+### **You Have a Choice to Make**
+
+Target opponent chooses self or others. Self: they sacrifice two nonland noncreature permanents. Others: each other opponent sacrifices a nonland noncreature permanent.
+
+---
+
+<!-- rule:doom-card-you-seem-too-strong-let-s-fix-that -->
+### **You Seem Too Strong! Let's Fix That!**
+
+Redistribute any number of target players' life totals.
+
+---
+
+<!-- rule:doom-card-you-work-for-me -->
+### **You Work For Me**
+
+Choose target nonland permanent an opponent controls. If it's a creature, untap it and gain control of it until end of turn; it gains haste. If it's a noncreature permanent, gain control of it.
+
+---
+
+<!-- rule:doom-card-your-blood-tastes-exquisite -->
+### **Your Blood Tastes Exquisite!**
+
+Each opponent loses 3 life. You gain life equal to the life lost this way.
+
+---
+
+<!-- rule:doom-card-your-efforts-are-futile -->
+### **Your Efforts Are Futile**
+
+Tap all attacking creatures and put a stun counter on them. Prevent all combat damage this turn.
+
+---
+
+<!-- rule:doom-card-your-efforts-only-fuel-me -->
+### **Your Efforts Only Fuel Me**
+
+Draw a card for every other spell cast until the end of the next turn. Trigger only as a sorcery.
+
+---
+
+<!-- rule:doom-card-your-life-amounts-to-nothing -->
+### **Your Life Amounts to Nothing**
+
+Reveal the top 2 cards of your library and put them into your hand. Deal damage equal to the highest cmc among them to any target.
+
+---
+
+<!-- rule:doom-card-your-little-trinkets-are-worthless -->
+### **Your Little Trinkets Are Worthless**
+
+Destroy all nonland noncreature permanents target player controls.
+
+---
+
+<!-- rule:doom-card-your-ruin-is-my-reward -->
+### **Your Ruin is My Reward**
+
+Each opponent discards a card. You draw a card for each land discarded this way.
+
+---
+
+<!-- rule:doom-card-your-wisdom-betrays-you -->
+### **Your Wisdom Betrays You**
+
+Each opponent reveals their hand. You choose a nonland card from each of those hands. Those players discard those cards.
+
+---
 
 <!-- rule:reward-scaling -->
 ### **📈 REWARD SCALING**

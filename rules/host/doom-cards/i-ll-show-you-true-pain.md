@@ -1,6 +1,5 @@
-# **🔥 I’ll Show You True Pain**
+# **🔥 I Will Show You True Pain**
 
-Choose the opponent with the highest life total.  
- That player loses 7 life.
+Deal 5 damage to each opponent.
 
 ---

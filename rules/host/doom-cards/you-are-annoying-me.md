@@ -1,7 +1,5 @@
 # **😒 You Are Annoying Me**
 
-Choose a player.  
- Creatures that player controls can’t attack you or planeswalkers you control this turn.  
- Spells that player controls can’t target you or permanents you control this turn.
+Choose target player. Until end of turn that player can't attack you, and you and permanents you control gain hexproof from that player.
 
 ---

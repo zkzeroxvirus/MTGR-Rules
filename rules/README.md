@@ -116,31 +116,66 @@ For continuous reading, use [`../RULEBOOK.md`](../RULEBOOK.md). Platform consume
 - [Authority Interaction Rules](host/authority-interactions.md) — `authority-interactions`
 - [Triggering a Doom Card](host/doom-triggering.md) — `doom-triggering`
 - [Doom Timing](host/doom-timing.md) — `doom-timing`
-- [💠 I’m Just Getting Started](host/doom-cards/i-m-just-getting-started.md) — `doom-card-i-m-just-getting-started`
-- [🧠 A Bit of Artificial Insight](host/doom-cards/a-bit-of-artificial-insight.md) — `doom-card-a-bit-of-artificial-insight`
+- [💠 I'm Just Getting Started](host/doom-cards/i-m-just-getting-started.md) — `doom-card-i-m-just-getting-started`
+- [🧠 A Bit of Artificial Insight is All I Need](host/doom-cards/a-bit-of-artificial-insight.md) — `doom-card-a-bit-of-artificial-insight`
 - [👁 I Will Witness Your Downfall](host/doom-cards/i-will-witness-your-downfall.md) — `doom-card-i-will-witness-your-downfall`
-- [🔍 I’ve Seen What Breaks You](host/doom-cards/i-ve-seen-what-breaks-you.md) — `doom-card-i-ve-seen-what-breaks-you`
-- [🌌 Welcome to My Reality](host/doom-cards/welcome-to-my-reality.md) — `doom-card-welcome-to-my-reality`
+- [🔍 I've Seen What Breaks You](host/doom-cards/i-ve-seen-what-breaks-you.md) — `doom-card-i-ve-seen-what-breaks-you`
 - [🔮 I Can Do That Too!](host/doom-cards/i-can-do-that-too.md) — `doom-card-i-can-do-that-too`
-- [💕 Oooooh, I Like You](host/doom-cards/oooooh-i-like-you.md) — `doom-card-oooooh-i-like-you`
-- [❌ No](host/doom-cards/no.md) — `doom-card-no`
+- [💕 Oooooh I Like You](host/doom-cards/oooooh-i-like-you.md) — `doom-card-oooooh-i-like-you`
+- [❌ No.](host/doom-cards/no.md) — `doom-card-no`
 - [😒 You Are Annoying Me](host/doom-cards/you-are-annoying-me.md) — `doom-card-you-are-annoying-me`
 - [🛡 I Am Inevitable](host/doom-cards/i-am-inevitable.md) — `doom-card-i-am-inevitable`
 - [🧱 Minions! Protect Me!](host/doom-cards/minions-protect-me.md) — `doom-card-minions-protect-me`
 - [🔄 How Do You Like It?](host/doom-cards/how-do-you-like-it.md) — `doom-card-how-do-you-like-it`
-- [💀 Death Is Inevitable](host/doom-cards/death-is-inevitable.md) — `doom-card-death-is-inevitable`
-- [☠ Death Comes for Us All](host/doom-cards/death-comes-for-us-all.md) — `doom-card-death-comes-for-us-all`
-- [🚫 You’ve Outlived Your Usefulness](host/doom-cards/you-ve-outlived-your-usefulness.md) — `doom-card-you-ve-outlived-your-usefulness`
+- [💀 Death is Inevitable](host/doom-cards/death-is-inevitable.md) — `doom-card-death-is-inevitable`
+- [☠ Death Comes For Us All](host/doom-cards/death-comes-for-us-all.md) — `doom-card-death-comes-for-us-all`
+- [🚫 You've Outlived Your Usefulness](host/doom-cards/you-ve-outlived-your-usefulness.md) — `doom-card-you-ve-outlived-your-usefulness`
 - [⛓ Offer Tribute](host/doom-cards/offer-tribute.md) — `doom-card-offer-tribute`
-- [😈 Did That Sting?](host/doom-cards/did-that-sting.md) — `doom-card-did-that-sting`
-- [🔥 I’ll Show You True Pain](host/doom-cards/i-ll-show-you-true-pain.md) — `doom-card-i-ll-show-you-true-pain`
+- [🔥 I Will Show You True Pain](host/doom-cards/i-ll-show-you-true-pain.md) — `doom-card-i-ll-show-you-true-pain`
 - [🔥 My Fury Burns](host/doom-cards/my-fury-burns.md) — `doom-card-my-fury-burns`
 - [🧠 Madness Ensues](host/doom-cards/madness-ensues.md) — `doom-card-madness-ensues`
 - [⏳ I Need You to Stop](host/doom-cards/i-need-you-to-stop.md) — `doom-card-i-need-you-to-stop`
 - [🌱 Even Nature Cannot Resist](host/doom-cards/even-nature-cannot-resist.md) — `doom-card-even-nature-cannot-resist`
 - [🌍 Reality Bends to My Will](host/doom-cards/reality-bends-to-my-will.md) — `doom-card-reality-bends-to-my-will`
-- [🕵 I Will Put This to Good Use](host/doom-cards/i-will-put-this-to-good-use.md) — `doom-card-i-will-put-this-to-good-use`
-- [🌀 You Bear the Mark! You Are Cursed!](host/doom-cards/you-bear-the-mark-you-are-cursed.md) — `doom-card-you-bear-the-mark-you-are-cursed`
+- [🕵 I Will Put This To Good Use](host/doom-cards/i-will-put-this-to-good-use.md) — `doom-card-i-will-put-this-to-good-use`
+- [🌀 You Bare the Mark! You Are Cursed!](host/doom-cards/you-bear-the-mark-you-are-cursed.md) — `doom-card-you-bear-the-mark-you-are-cursed`
+- ['Tis but a Scratch](host/doom-cards/tis-but-a-scratch.md) — `doom-card-tis-but-a-scratch`
+- [Arrise](host/doom-cards/arrise.md) — `doom-card-arrise`
+- [Choose Flesh or Memory](host/doom-cards/choose-flesh-or-memory.md) — `doom-card-choose-flesh-or-memory`
+- [Do Not Fail Me Minion](host/doom-cards/do-not-fail-me-minion.md) — `doom-card-do-not-fail-me-minion`
+- [For Each of You, a Gift](host/doom-cards/for-each-of-you-a-gift.md) — `doom-card-for-each-of-you-a-gift`
+- [Go and Strike Them Down](host/doom-cards/go-and-strike-them-down.md) — `doom-card-go-and-strike-them-down`
+- [I am Fire! I am Death!](host/doom-cards/i-am-fire-i-am-death.md) — `doom-card-i-am-fire-i-am-death`
+- [I Can See Into the Arcane](host/doom-cards/i-can-see-into-the-arcane.md) — `doom-card-i-can-see-into-the-arcane`
+- [I Just LOVE the Smell of Fear](host/doom-cards/i-just-love-the-smell-of-fear.md) — `doom-card-i-just-love-the-smell-of-fear`
+- [I Require More](host/doom-cards/i-require-more.md) — `doom-card-i-require-more`
+- [I Unmake Everything You Depend On](host/doom-cards/i-unmake-everything-you-depend-on.md) — `doom-card-i-unmake-everything-you-depend-on`
+- [I Want to Play a Game](host/doom-cards/i-want-to-play-a-game.md) — `doom-card-i-want-to-play-a-game`
+- [I Will Break You](host/doom-cards/i-will-break-you.md) — `doom-card-i-will-break-you`
+- [I Wish to Do the Same!](host/doom-cards/i-wish-to-do-the-same.md) — `doom-card-i-wish-to-do-the-same`
+- [In the End, You Will Serve Me](host/doom-cards/in-the-end-you-will-serve-me.md) — `doom-card-in-the-end-you-will-serve-me`
+- [Let Me Think...](host/doom-cards/let-me-think.md) — `doom-card-let-me-think`
+- [Let's See What We Have Here](host/doom-cards/let-s-see-what-we-have-here.md) — `doom-card-let-s-see-what-we-have-here`
+- [My Armor is Impenetrable](host/doom-cards/my-armor-is-impenetrable.md) — `doom-card-my-armor-is-impenetrable`
+- [My Garden Craves Your Flesh](host/doom-cards/my-garden-craves-your-flesh.md) — `doom-card-my-garden-craves-your-flesh`
+- [My Power Will Cut You Down](host/doom-cards/my-power-will-cut-you-down.md) — `doom-card-my-power-will-cut-you-down`
+- [Now You Will See True Power](host/doom-cards/now-you-will-see-true-power.md) — `doom-card-now-you-will-see-true-power`
+- [SILENCE!](host/doom-cards/silence.md) — `doom-card-silence`
+- [The Ooze Hungers](host/doom-cards/the-ooze-hungers.md) — `doom-card-the-ooze-hungers`
+- [Through Strength I Will Endure](host/doom-cards/through-strength-i-will-endure.md) — `doom-card-through-strength-i-will-endure`
+- [Time Bends to My Will](host/doom-cards/time-bends-to-my-will.md) — `doom-card-time-bends-to-my-will`
+- [What's Yours is Mine](host/doom-cards/what-s-yours-is-mine.md) — `doom-card-what-s-yours-is-mine`
+- [You Don't Seem to Understand My Power](host/doom-cards/you-don-t-seem-to-understand-my-power.md) — `doom-card-you-don-t-seem-to-understand-my-power`
+- [You Have a Choice to Make](host/doom-cards/you-have-a-choice-to-make.md) — `doom-card-you-have-a-choice-to-make`
+- [You Seem Too Strong! Let's Fix That!](host/doom-cards/you-seem-too-strong-let-s-fix-that.md) — `doom-card-you-seem-too-strong-let-s-fix-that`
+- [You Work For Me](host/doom-cards/you-work-for-me.md) — `doom-card-you-work-for-me`
+- [Your Blood Tastes Exquisite!](host/doom-cards/your-blood-tastes-exquisite.md) — `doom-card-your-blood-tastes-exquisite`
+- [Your Efforts Are Futile](host/doom-cards/your-efforts-are-futile.md) — `doom-card-your-efforts-are-futile`
+- [Your Efforts Only Fuel Me](host/doom-cards/your-efforts-only-fuel-me.md) — `doom-card-your-efforts-only-fuel-me`
+- [Your Life Amounts to Nothing](host/doom-cards/your-life-amounts-to-nothing.md) — `doom-card-your-life-amounts-to-nothing`
+- [Your Little Trinkets Are Worthless](host/doom-cards/your-little-trinkets-are-worthless.md) — `doom-card-your-little-trinkets-are-worthless`
+- [Your Ruin is My Reward](host/doom-cards/your-ruin-is-my-reward.md) — `doom-card-your-ruin-is-my-reward`
+- [Your Wisdom Betrays You](host/doom-cards/your-wisdom-betrays-you.md) — `doom-card-your-wisdom-betrays-you`
 - [Reward Scaling](rewards/reward-scaling.md) — `reward-scaling`
 - [Cashout Pool](rewards/cashout-pool.md) — `cashout-pool`
 - [Player vs Player Combat](encounters/player-vs-player-combat.md) — `player-vs-player-combat`

@@ -1,5 +1,5 @@
 # **👁 I Will Witness Your Downfall**
 
-Draw four cards.
+Draw 4 cards.
 
 ---
