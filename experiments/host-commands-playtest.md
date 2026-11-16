@@ -139,15 +139,15 @@ Create a copy of the card named Bolt Bend. Cast the copy without paying its mana
 
 Rules details: Bolt Bend reads: Change the target of target spell or ability with a single target. Ignore its cost reduction; the copy is cast without paying its mana cost. The new target must be legal. The copy is cast as a spell; players may respond and counter it normally.
 
-#### Break the Charge - Soul Parry
+#### Break the Charge - Warning
 
 Cost: 1 Authority. Resolution: spell.
 
 Timing: Any time you could cast an instant.
 
-Create a copy of the card named Soul Parry. Cast the copy without paying its mana cost.
+Create a copy of the card named Warning. Cast the copy without paying its mana cost.
 
-Rules details: Soul Parry reads: Prevent all damage one or two target creatures would deal this turn. It doesn't stop abilities that triggered when a creature attacked. The copy is cast as a spell; players may respond and counter it normally.
+Rules details: Warning reads: Prevent all combat damage that would be dealt by target attacking creature this turn. It doesn't stop abilities that triggered when the creature attacked. The copy is cast as a spell; players may respond and counter it normally.
 
 ### Dominion
 
@@ -538,12 +538,12 @@ followed by Crowned Champion or a Muster the Court attack.
 
 Starter Commands (same day). Demonic Ward, Twisted Targeting and Break the
 Charge now work like Absolute Command - Disallow: each casts a free copy of a
-real card (Tamiyo's Safekeeping, Bolt Bend, Soul Parry). Their IDs and costs are
-unchanged, so equipped starters keep working. Each card is slightly broader than
-the ability it replaces: Tamiyo's Safekeeping grants both hexproof and
-indestructible, can protect a land and gains 2 life; Bolt Bend can redirect any
-spell or ability with a single target, not only one aimed at the Host; Soul
-Parry can stop one or two creatures and prevents all their damage that turn.
+real card (Tamiyo's Safekeeping, Bolt Bend, Warning). Their IDs and costs are
+unchanged, so equipped starters keep working. Two of the cards are slightly
+broader than the ability they replace: Tamiyo's Safekeeping grants both hexproof
+and indestructible, can protect a land and gains 2 life; Bolt Bend can redirect
+any spell or ability with a single target, not only one aimed at the Host.
+Warning matches the old Break the Charge (it lasts the turn, not one combat).
 As spells they can be countered by spell counters, and Arcane Suppression and
 spell affixes apply to them.
 
