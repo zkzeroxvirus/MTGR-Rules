@@ -63,8 +63,9 @@ exception. All four capstones have that exception; Arcane Supremacy does not.
 
 Commands are system abilities, not abilities of permanents; Twice the Power does
 not automatically copy them. Otherwise apply ordinary copy/target/stack rules
-unless the particular Command prohibits that action. Absolute Command — Disallow
-casts its defined normal spell and retains applicable spell/affix interactions.
+unless the particular Command prohibits that action. The four starter Commands
+each cast a copy of a real card as a normal spell and retain applicable
+spell/affix interactions.
 Being uncounterable does not make an ability immune to other stack removal.
 
 The Host may undo an accidental or misunderstood activation using Undo activation on the HUD. It refunds the recorded Authority cost and restores the encounter use if it is still marked used. Reverse any choices and effects at the table. This correction is not a refund for normal counterplay.
@@ -105,6 +106,9 @@ learning both is optional.
 
 ### Starter Commands
 
+Each starter Command casts a free copy of a real card, so its Oracle text and
+rulings apply.
+
 #### Absolute Command - Disallow
 
 Cost: 1 Authority. Resolution: spell.
@@ -115,35 +119,35 @@ Create a copy of the card named Disallow. Cast the copy without paying its mana 
 
 Rules details: Disallow reads: Counter target spell, activated ability, or triggered ability. The copy is cast as a spell; players may respond and counter it normally.
 
-#### Demonic Ward
+#### Demonic Ward - Tamiyo's Safekeeping
 
-Cost: 1 Authority. Resolution: ability.
+Cost: 1 Authority. Resolution: spell.
 
-Timing: Any time you have priority.
+Timing: Any time you could cast an instant.
 
-Choose hexproof or indestructible. Target nonland permanent you control gains that ability until end of turn.
+Create a copy of the card named Tamiyo's Safekeeping. Cast the copy without paying its mana cost.
 
-Rules details: Choose the permanent when invoking this Command. Choose the ability as it resolves; this is not a modal choice made on invocation.
+Rules details: Tamiyo's Safekeeping reads: Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life. The copy is cast as a spell; players may respond and counter it normally.
 
-#### Twisted Targeting
+#### Twisted Targeting - Bolt Bend
 
-Cost: 1 Authority. Resolution: ability.
+Cost: 1 Authority. Resolution: spell.
 
-Timing: While an opponent's spell or ability with a single target targets you or a permanent you control, and you have priority.
+Timing: Any time you could cast an instant.
 
-Change the target of the chosen spell or ability with a single target.
+Create a copy of the card named Bolt Bend. Cast the copy without paying its mana cost.
 
-Rules details: Choose the eligible spell or ability when invoking this Command. It must be controlled by an opponent, have a single target, and target you or a permanent you control. This Command does not target that spell or ability. The replacement target must be legal for it.
+Rules details: Bolt Bend reads: Change the target of target spell or ability with a single target. Ignore its cost reduction; the copy is cast without paying its mana cost. The new target must be legal. The copy is cast as a spell; players may respond and counter it normally.
 
-#### Break the Charge
+#### Break the Charge - Soul Parry
 
-Cost: 1 Authority. Resolution: ability.
+Cost: 1 Authority. Resolution: spell.
 
-Timing: During combat, before combat damage, any time you have priority.
+Timing: Any time you could cast an instant.
 
-Prevent all combat damage that would be dealt by target attacking creature this combat.
+Create a copy of the card named Soul Parry. Cast the copy without paying its mana cost.
 
-Rules details: This prevents combat damage; it does not counter abilities that triggered when the creature attacked.
+Rules details: Soul Parry reads: Prevent all damage one or two target creatures would deal this turn. It doesn't stop abilities that triggered when a creature attacked. The copy is cast as a spell; players may respond and counter it normally.
 
 ### Dominion
 
@@ -153,9 +157,9 @@ Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
-Copy target instant or sorcery spell an opponent controls with mana value 3 or less. You may choose new targets for the copy.
+Copy target instant or sorcery spell with mana value 3 or less, or target activated or triggered ability, an opponent controls. You may choose new targets for the copy.
 
-Rules details: The original spell remains on the stack. Additional targets must be legal.
+Rules details: The original spell or ability remains on the stack. Additional targets must be legal. Mana abilities do not use the stack.
 
 #### Turn the Blade — I-B
 
@@ -167,7 +171,17 @@ You may choose new targets for target spell or ability.
 
 Rules details: Choose any number of legal new targets on resolution. Keep the number of targets and any division of damage or counters unchanged.
 
-#### Imperial Reflection — II-A
+#### All-Seeing Edict — II-A
+
+Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dominion.
+
+Timing: Any time you have priority.
+
+Each opponent reveals their hand. Choose up to X nonland cards revealed this way, where X is Party Scale. Until your next turn, spells with the same name as any of those cards can't be cast.
+
+Rules details: Choose the cards on resolution; this does not target. Spells already on the stack are unaffected. Abilities of those cards, such as cycling, can still be activated.
+
+#### Strike It Down — II-B
 
 Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dominion.
 
@@ -175,21 +189,11 @@ Timing: Any time you have priority.
 
 Choose one —
 
-- Copy target activated or triggered ability an opponent controls. You may choose new targets for the copy.
+- Exile target spell an opponent controls.
 
-- Draw two cards.
+- Counter target activated or triggered ability an opponent controls.
 
-Rules details: Choose the mode on invocation. For the copy mode, choose the target ability then. Mana abilities do not use the stack.
-
-#### Delay the Inevitable — II-B
-
-Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Dominion.
-
-Timing: Any time you have priority.
-
-Exile target spell an opponent controls with two time counters on it. If a card is exiled this way, it gains suspend.
-
-Rules details: Suspend uses its owner's upkeeps. Its owner may cast it when the last time counter is removed; the resulting spell may be answered normally. A spell copy is not a card and cannot return.
+Rules details: Choose the mode and target on invocation. Exiling a spell is not countering it, so this works on spells that say they can't be countered. Abilities are countered, not exiled. Mana abilities do not use the stack.
 
 #### Arcane Supremacy — III
 
@@ -197,9 +201,9 @@ Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Do
 
 Timing: Any time you have priority.
 
-Copy target spell an opponent controls. You may choose new targets for the copy. Return the original spell to its owner's hand. This ability can't be copied and its target can't be changed.
+Copy target spell or activated or triggered ability an opponent controls. You may choose new targets for the copy. Then exile that spell or counter that ability. This ability can't be copied and its target can't be changed.
 
-Rules details: This Command can be countered. Permanent spell copies resolve as tokens. Returning the original spell does not counter it.
+Rules details: This Command can be countered. Permanent spell copies resolve as tokens. A spell is exiled, not countered; an ability is countered, not exiled. Mana abilities do not use the stack.
 
 #### Final Authority — Capstone
 
@@ -207,31 +211,27 @@ Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in 
 
 Timing: Any time you have priority.
 
-Choose one —
+Choose up to X targets in total, where X is Party Scale, from among spells and activated or triggered abilities. Exile each of those spells and counter each of those abilities. Their controllers can't cast spells or activate nonmana abilities for the rest of the turn.
 
-- Exile target spell.
+This ability can't be countered or copied, and its targets can't be changed.
 
-- Counter target activated or triggered ability.
-
-This ability can't be countered or copied, and its target can't be changed.
-
-Rules details: Choose the mode and target on invocation. Abilities are countered, not exiled. Exiling a spell is not countering it. Removing this Command from the stack without countering it is still possible.
+Rules details: Choose the targets on invocation. Abilities are countered, not exiled. Exiling a spell is not countering it. Removing this Command from the stack without countering it is still possible.
 
 ### Torment
 
-#### Blood or Tribute — I-A
+#### Kneel or Bleed — I-A
 
 Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Each opponent votes for blood or tribute. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
+Each opponent votes for kneel or bleed. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-- Blood — Each opponent loses X life, where X is 2 plus Party Scale.
+- Kneel — For each opponent who controls a creature, choose a creature they control. Tap those creatures and put a stun counter on each of them.
 
-- Tribute — Draw two cards, create X Treasure tokens, where X is Party Scale, and create a 3/3 black Demon creature token with flying.
+- Bleed — Each opponent loses 2 life. Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers only three times for each player.
 
-Rules details: Both options are available. Life loss is an effect, not a life payment. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
+Rules details: Kneel is available only if at least half of the opponents control a creature. Bleed is always available. Its trigger limit is shared across attacking and activating abilities, separately for each opponent. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### Feed the Darkness — I-B
 
@@ -245,21 +245,21 @@ Each opponent votes for starve or feed. Choose one of the modes with the most vo
 
 - Feed — You may return a permanent card from your graveyard to your hand. Create X Treasure tokens, where X is Party Scale.
 
-Rules details: Starve is available only if each opponent has a card in hand. Feed is always available. The graveyard card is chosen on resolution and is not targeted. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
+Rules details: Starve is available only if at least half of the opponents have a card in hand. Feed is always available. The graveyard card is chosen on resolution and is not targeted. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
-#### Kneel or Bleed — II-A
+#### Blood or Tribute — II-A
 
 Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Torment.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Each opponent votes for kneel or bleed. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
+Each opponent votes for blood or tribute. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
 
-- Kneel — For each opponent, choose a creature they control. Tap those creatures and put a stun counter on each of them.
+- Blood — Each opponent loses 3 life.
 
-- Bleed — Each opponent loses 2 life. Until your next turn, whenever one or more creatures an opponent controls attack you or an opponent activates a nonmana ability of a nonland permanent, that player loses 1 life. This ability triggers only three times for each player.
+- Tribute — Draw two cards, create X Treasure tokens, where X is Party Scale, and create a 3/3 black Demon creature token with flying.
 
-Rules details: Kneel is available only if each opponent controls a creature. Bleed is always available. Its trigger limit is shared across attacking and activating abilities, separately for each opponent. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
+Rules details: Both options are available. Life loss is an effect, not a life payment. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
 
 #### Divide the Alliance — II-B
 
@@ -267,27 +267,23 @@ Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Tor
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Each opponent votes for together or alone. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
+Target opponent chooses alone or together as this ability resolves —
+
+- Alone — That player loses 7 life, discards two cards, and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
 
 - Together — Each opponent loses 3 life and discards a card.
 
-- Alone — Each opponent votes for an opponent. Choose an opponent with the most votes or tied for the most votes. That player loses 7 life, discards two cards, and sacrifices a nonland permanent with the greatest mana value among nonland permanents they control.
+Rules details: Choose the opponent on invocation; that player chooses the mode on resolution. Other players may advise, but the choice is theirs. Both options are available; resolve as much as possible. The affected player chooses among tied permanents.
 
-Rules details: Together requires every opponent to have a card in hand. Alone requires an eligible opponent with at least two cards in hand and a nonland permanent. If neither option is available, resolve Together as much as possible. The affected player chooses among tied permanents. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
-
-#### No Safe Answer — III
+#### Ultimatum — III
 
 Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Torment.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Each opponent votes for ruin or despair. Choose one of the modes with the most votes or tied for the most votes as this ability resolves —
+Until your next turn, any time an opponent has priority, that player may pay a toll by discarding a card or sacrificing a nontoken nonland permanent. At the beginning of your next upkeep, if fewer than X tolls were paid, where X is twice Party Scale, each opponent loses 6 life.
 
-- Ruin — Each opponent sacrifices a nonland permanent with the greatest mana value among nonland permanents they control. Draw X cards, where X is the number of opponents who didn't sacrifice a permanent this way or 2, whichever is less.
-
-- Despair — Each opponent discards a card and loses 4 life. Draw two cards.
-
-Rules details: Both options are available; resolve as much as possible. Each opponent chooses among tied permanents. Vote simultaneously for available options; you break ties. Choose the mode on resolution, not on invocation. Vote only for eligible victims. No opponents means no effect.
+Rules details: Any opponent may pay any number of tolls; the party decides who pays. Count tolls publicly. The upkeep check is a triggered ability and can be answered normally. Tolls already paid are not returned. No opponents means no effect.
 
 #### The Final Bargain — Capstone
 
@@ -317,15 +313,15 @@ Tap up to X target creatures your opponents control, where X is Party Scale. Put
 
 Rules details: Choose targets on invocation. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets to grant menace.
 
-#### Silence the Engine — I-B
+#### Seal the Threshold — I-B
 
 Minimum Rank 2. Cost: 1 Skill Point; 1 Authority.
 
 Timing: Any time you have priority.
 
-Choose up to X nonland permanents your opponents control, where X is Party Scale. Until your next turn, those permanents lose all abilities except mana abilities. Until your next turn, whenever one of those permanents leaves the battlefield, draw a card. This ability triggers only twice.
+Exile up to X target cards from your opponents' graveyards, where X is Party Scale. Until your next turn, your opponents can't cast spells from graveyards and cards in their graveyards can't enter the battlefield.
 
-Rules details: Choose on resolution; this does not target. Mana abilities remain. The two-card limit is shared across all selected permanents. Removing characteristic-defining abilities can change a creature's power or toughness.
+Rules details: This does not stop abilities from triggering when creatures enter or die, or prevent cards from returning to hand. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets.
 
 #### Seize the Champion — II-A
 
@@ -337,35 +333,35 @@ Target opponent chooses a creature they control with the greatest power among cr
 
 Rules details: The opponent chooses among tied creatures. Only the player is targeted. If they control no creatures, no creature changes control.
 
-#### Seal the Threshold — II-B
+#### Silence the Engine — II-B
 
 Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Suppression.
 
 Timing: Any time you have priority.
 
-Exile up to X target cards from your opponents' graveyards, where X is Party Scale. Until your next turn, your opponents can't cast spells from graveyards and cards in their graveyards can't enter the battlefield.
+Choose up to X nonland permanents your opponents control, where X is Party Scale. Until your next turn, those permanents lose all abilities except mana abilities. Until your next turn, whenever one of those permanents leaves the battlefield, draw a card. This ability triggers only twice.
 
-Rules details: This does not stop abilities from triggering when creatures enter or die, or prevent cards from returning to hand. If all chosen targets become illegal, the entire Command fails to resolve. You may choose no targets.
+Rules details: Choose on resolution; this does not target. Mana abilities remain. The two-card limit is shared across all selected permanents. Removing characteristic-defining abilities can change a creature's power or toughness.
 
-#### Total Lockdown — III
+#### Curfew — III
 
 Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Suppression.
 
 Timing: During your main phase, while the stack is empty and you have priority.
 
-Tap all nonland permanents your opponents control. For each opponent, choose a nonland permanent they control. Those permanents don't untap during their controllers' next untap steps. Until your next turn, your opponents can't activate nonmana abilities of tapped permanents.
+Until your next turn, each opponent can't cast more than one spell each turn and can't attack you with more than one creature each combat.
 
-Rules details: Choices are made on resolution and do not target. Mana abilities remain available. Untapping a permanent by another effect permits its nonmana abilities to be activated again.
+Rules details: This does not target. It applies on every player's turn until your next turn begins. Abilities, lands, and attacks against planeswalkers are unaffected.
 
-#### Absolute Suppression — Capstone
+#### Total Lockdown — Capstone
 
 Minimum Rank 10. Cost: 1 Skill Point; 2 Authority. Requires a Tier III skill in Suppression.
 
-Timing: Any time you have priority.
+Timing: During your main phase, while the stack is empty and you have priority.
 
-For each opponent, choose a nonland permanent they control. Until your next turn, those permanents lose hexproof and indestructible, and their activated abilities can't be activated unless they're mana abilities. Destroy up to X of those permanents, where X is Party Scale. This ability can't be countered.
+Tap all nonland permanents your opponents control. For each opponent, choose a nonland permanent they control. Those permanents don't untap during their controllers' next untap steps. Until your next turn, your opponents can't activate nonmana abilities of tapped permanents. This ability can't be countered.
 
-Rules details: Choose on resolution without targeting. Destroy at most one permanent per opponent, up to Party Scale total. Other permanents, triggered abilities and mana abilities are unaffected.
+Rules details: Choices are made on resolution and do not target. Mana abilities remain available. Untapping a permanent by another effect permits its nonmana abilities to be activated again.
 
 ### Ascendancy
 
@@ -389,15 +385,15 @@ Draw two cards, then discard a card. You may sacrifice a token. If you do, creat
 
 Rules details: The sacrifice is optional and occurs on resolution. A Treasure is a token; it is sacrificed to this effect, not to its mana ability.
 
-#### Crowned Champion — II-A
+#### Overwhelming Presence — II-A
 
 Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Ascendancy.
 
 Timing: During your beginning of combat step, while you have priority.
 
-Put four +1/+1 counters on target creature you control and untap it. It gains trample, haste, and ward {2} until your next turn and double strike until end of turn. Whenever it deals combat damage to a player for the first time this turn, draw two cards and create two Treasure tokens.
+Until your next turn, creatures you control get +1/+1 and gain trample.
 
-Rules details: The combat-damage ability triggers only once that turn, even with double strike or additional combats. Ward uses a triggered ability and does not make the creature untargetable.
+Rules details: Only creatures you control as this Command resolves gain the bonus.
 
 #### Relentless Return — II-B
 
@@ -409,15 +405,15 @@ Return target creature card from your graveyard to the battlefield with two +1/+
 
 Rules details: Use the shared MTGR finality replacement: exile the permanent the next time it would leave the battlefield for any zone other than exile. This is stronger than a normal Magic finality counter.
 
-#### Overwhelming Presence — III
+#### Crowned Champion — III
 
 Minimum Rank 7. Cost: 1 Skill Point; 2 Authority. Requires a Tier II skill in Ascendancy.
 
 Timing: During your beginning of combat step, while you have priority.
 
-Until your next turn, creatures you control get +2/+2 and gain trample and ward {2}. Until end of turn, whenever one or more creatures you control deal combat damage to a player, create a Treasure token and draw a card. This ability triggers only once for each player.
+Put X +1/+1 counters on target creature you control, where X is 2 plus Party Scale, and untap it. It gains trample, haste, and ward {2} until your next turn and double strike until end of turn. Whenever it deals combat damage to a player for the first time this turn, draw two cards and create two Treasure tokens.
 
-Rules details: Only creatures you control as this Command resolves gain the bonus. Track each damaged opponent publicly; double strike and extra combats don't grant another reward for that opponent.
+Rules details: The combat-damage ability triggers only once that turn, even with double strike or additional combats. Ward uses a triggered ability and does not make the creature untargetable.
 
 #### The Host Ascendant — Capstone
 
@@ -460,6 +456,97 @@ Rules details: Choose the mode on invocation. For the return mode, choose the cr
   and ward {2} until the Host's next turn. The draw mode fills to seven,
   never draws seven on top of an existing hand.
 
+## Tier reorganisation and new effects (November 15, 2026)
+
+Players found Crowned Champion far stronger than the other trees. The notes in
+the section above describe the earlier lineup; four of the Commands named
+there (Imperial Reflection, Delay the Inevitable, No Safe Answer, Absolute
+Suppression) are retired.
+
+Goals: starting skills are useful with clear limits, power rises with the points
+spent in a tree, and the four trees are about equal. Strong Commands moved to
+the tier that fits them and weak ones were raised. Each tree also repeated one
+pattern (copy or redirect; a majority vote over life, discard or sacrifice; tap
+or switch off; a draw-and-Treasure rider), and many effects repeated what Doom,
+Tyrants and affixes already give the Host, so three Commands were replaced by
+kinds of effect the Host had no access to.
+
+Tier moves. A moved Command takes its new tier's rank gate and Authority cost.
+
+| Branch | Moved up | Moved down |
+| --- | --- | --- |
+| Ascendancy | Crowned Champion: II to III | Overwhelming Presence: III to II |
+| Torment | Blood or Tribute: I to II | Kneel or Bleed: II to I |
+| Suppression | Silence the Engine: I to II | Seal the Threshold: II to I |
+| Suppression | Total Lockdown: III to capstone, now can't be countered | Absolute Suppression: retired |
+
+New Commands:
+
+- All-Seeing Edict (Dominion II, replaces Imperial Reflection) uses hidden
+  information: hands are revealed and named cards can't be cast for a turn cycle.
+- Ultimatum (Torment III, replaces No Safe Answer) is a telegraphed threat: the
+  party has until the Host's next upkeep to pay tolls, and decides who pays.
+- Curfew (Suppression III, replaces Absolute Suppression, which overlapped
+  Silence the Engine) changes the rules for a turn cycle: one spell a turn and
+  one attacker a combat for each opponent.
+
+Dominion removes for good and works on abilities at every tier. Delay the
+Inevitable (suspend) and Arcane Supremacy (return to hand) both gave the spell
+back later. Now the tree is one progression over spells and abilities: copy a
+small one, redirect one, remove one, copy and remove one, remove several.
+
+- Claim the Initiative can also copy an activated or triggered ability.
+- Strike It Down (Dominion II, replaces Delay the Inevitable) exiles a spell or
+  counters an ability. It is the starter Disallow as an ability: spell counters
+  don't stop it, and exile works on spells that can't be countered.
+- Arcane Supremacy copies a spell or an ability, then exiles that spell or
+  counters that ability. The owner no longer gets the spell back, which is a
+  real increase in power.
+- Abilities are countered, not exiled: an ability has no card to exile. Mana
+  abilities don't use the stack and are never affected.
+
+Changed Commands:
+
+- Final Authority answers up to Party Scale spells and abilities and stops their
+  controllers from casting or activating for the rest of the turn. Before, it
+  was close to the starter Disallow at twice the Authority.
+- Divide the Alliance is a hot seat: one target opponent chooses Alone or
+  Together. The numbers are unchanged.
+- Overwhelming Presence, now Tier II for 1 Authority, gives +1/+1 and trample
+  without ward or a card and Treasure reward.
+
+Scaling with party size. Effects that hit each opponent grow with the table;
+Party Scale effects cover about half the table at every size; single-target
+effects cover half of a two-player party and a sixth of a six-player party.
+
+- Blood is a flat 3 life. It scaled twice: once per opponent and again through
+  Party Scale.
+- Crowned Champion's counters are 2 plus Party Scale (3 / 4 / 5). A flat four
+  was most decisive against two players, where one elimination is half the party.
+- All-Seeing Edict and Final Authority scale with Party Scale, because one
+  answer covers less of a larger table.
+- Curfew's attack limit is one creature for each opponent, not a Party Scale
+  number, which would have allowed more attackers at larger tables.
+- Kneel and Starve are available when at least half of the opponents qualify.
+  Requiring every opponent removed those modes at most large tables.
+- Ultimatum's toll count, twice Party Scale, is about one toll for each player.
+
+Untested first drafts: Ultimatum's 6 life and toll count, Curfew's limits, and
+All-Seeing Edict's duration. Watch three spread life-loss Commands stacked at
+six players (Blood, Ultimatum, The Final Bargain's Resist) and Total Lockdown
+followed by Crowned Champion or a Muster the Court attack.
+
+Starter Commands (same day). Demonic Ward, Twisted Targeting and Break the
+Charge now work like Absolute Command - Disallow: each casts a free copy of a
+real card (Tamiyo's Safekeeping, Bolt Bend, Soul Parry). Their IDs and costs are
+unchanged, so equipped starters keep working. Each card is slightly broader than
+the ability it replaces: Tamiyo's Safekeeping grants both hexproof and
+indestructible, can protect a land and gains 2 life; Bolt Bend can redirect any
+spell or ability with a single target, not only one aimed at the Host; Soul
+Parry can stop one or two creatures and prevents all their damage that turn.
+As spells they can be countered by spell counters, and Arcane Suppression and
+spell affixes apply to them.
+
 ## Existing profiles
 
 The four starter IDs remain unchanged. The previous six learned skills are
@@ -470,6 +557,13 @@ in all six current branch skills remain valid under the tier-choice prerequisite
 The ten-point allowance follows earned HXP without resetting the profile;
 additional points are left unassigned until the Host chooses where to spend them.
 Authority remains a local in-game resource, not part of the server profile.
+
+After the November 15, 2026 reorganisation, a profile that learned a retired
+Command (Imperial Reflection, Delay the Inevitable, No Safe Answer, Absolute
+Suppression), or that
+holds a moved Command without its new prerequisite, is asked to reassign its
+skills. Its Commands stay unavailable until the Host saves a new allocation.
+Earned HXP and Skill Points are kept.
 
 ## Balance review
 
