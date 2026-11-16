@@ -9,7 +9,7 @@ At the beginning of each encounter, the Host receives a number of Doom cards bas
 | 5 | 2 |
 | 6 | 3 |
 
-* Doom cards are drawn from the **Doom Pool**  
+* Doom cards are drawn from the **Doom Pool**, the 60 core Doom cards  
 * Each Doom card is unique unless otherwise specified
 
 ---

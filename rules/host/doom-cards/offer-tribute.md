@@ -1,7 +1,5 @@
 # **⛓ Offer Tribute**
 
-Each opponent sacrifices a permanent.
-
----
+Each opponent sacrifices a nonland permanent.
 
 ---

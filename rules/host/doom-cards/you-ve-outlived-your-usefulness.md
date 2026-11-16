@@ -1,4 +1,4 @@
-# **🚫 You’ve Outlived Your Usefulness**
+# **🚫 You've Outlived Your Usefulness**
 
 Exile target nonland permanent.
 

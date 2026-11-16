@@ -1,5 +1,5 @@
-# **💀 Death Is Inevitable**
+# **💀 Death is Inevitable**
 
-Destroy up to two target creatures an opponent controls.
+Destroy up to two target creatures target opponent controls.
 
 ---

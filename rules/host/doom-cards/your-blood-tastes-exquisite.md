@@ -1,0 +1,5 @@
+# **Your Blood Tastes Exquisite!**
+
+Each opponent loses 3 life. You gain life equal to the life lost this way.
+
+---

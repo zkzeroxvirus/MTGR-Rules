@@ -1,5 +1,5 @@
-# **☠ Death Comes for Us All**
+# **☠ Death Comes For Us All**
 
-Destroy all creatures. They can’t be regenerated.
+Destroy all creatures. They can't be regenerated. Trigger only as a sorcery.
 
 ---

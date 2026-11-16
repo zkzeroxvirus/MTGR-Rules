@@ -1,5 +1,5 @@
 # **🌱 Even Nature Cannot Resist**
 
-Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
+Search your library for a basic land card and put it onto the battlefield.
 
 ---

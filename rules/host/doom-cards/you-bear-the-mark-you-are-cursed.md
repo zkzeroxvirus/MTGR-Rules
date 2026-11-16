@@ -1,3 +1,5 @@
-# **🌀 You Bear the Mark\! You Are Cursed\!**
+# **🌀 You Bare the Mark! You Are Cursed!**
 
-Each opponent becomes enchanted by a random Curse with mana value 4 or less that cannot benefit them or their allies.
+Enchant each opponent with a random token Curse enchantment with cmc 4 or less. These curses cannot benefit them or their allies in any way.
+
+---

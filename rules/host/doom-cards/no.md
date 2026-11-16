@@ -1,7 +1,5 @@
-# **❌ No**
+# **❌ No.**
 
-Counter target spell.
-
----
+Counter target spell, triggered ability, or activated ability.
 
 ---
