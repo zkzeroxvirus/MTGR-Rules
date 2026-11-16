@@ -1050,22 +1050,22 @@ After Encounter 1 begins, Event timing follows the normal Town/Stay Out/Event sy
 <!-- rule:trinket-treasure -->
 ### 💎 TREASURE
 
-> *When the party claims Treasure, each party member gains 25 XP and a Tier 1 Ticket. Then exile Treasure.*
+> *When the party claims Treasure, each party member gains 25 XP and a Tier 1 Cashout. Then exile Treasure.*
 
 **Timing:** When Treasure is resolved as a Town action or Cash Out reward.  
 **Limit:** Once per run.  
-**Resolution:** Each party member gains 25 XP and receives one Tier 1 Ticket. Then remove Treasure from play (exile it).
+**Resolution:** Each party member gains 25 XP and receives one Tier 1 Cashout. Then remove Treasure from play (exile it).
 
 ---
 
 <!-- rule:trinket-huge-treasure -->
 ### 💰 HUGE TREASURE
 
-> *When the party claims Huge Treasure, each party member gains 40 XP and three Tier 1 Tickets. Then exile Huge Treasure.*
+> *When the party claims Huge Treasure, each party member gains 40 XP and three Tier 1 Cashouts. Then exile Huge Treasure.*
 
 **Timing:** When Huge Treasure is resolved as a Town action or Cash Out reward.  
 **Limit:** Once per run.  
-**Resolution:** Each party member gains 40 XP and receives three Tier 1 Tickets. Then remove Huge Treasure from play (exile it).
+**Resolution:** Each party member gains 40 XP and receives three Tier 1 Cashouts. Then remove Huge Treasure from play (exile it).
 
 ---
 
@@ -2247,7 +2247,7 @@ Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.m
 
 **Fractured Reality —**
 
-Each opponent exiles the top card of their library. Until the end of your next turn, you may play one of those cards without paying its mana cost.
+Each opponent makes a Saving Roll. Each opponent who fails exiles the top card of their library. Until the end of your next turn, you may play one of the cards exiled this way without paying its mana cost.
 
 Use the [shared Tyrant activation and cooldown rules](../demon-generals-system.md).
 
