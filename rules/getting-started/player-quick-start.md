@@ -2,14 +2,14 @@
 
 Use this flow when playing on the supported MTGR Tabletop Simulator table. Detailed rules in the linked systems control any edge cases.
 
+New to MTGR? [Your first run](https://www.mtginfo.org/first-run.html) walks through the table step by step with screenshots.
+
 ## 1. Take a seat and claim a profile
 
 1. Sit at an available player color.
-2. Pick up and claim the **Player Profile** at that seat. The profile carries permanent progression and provides access to Town actions.
-3. Before Encounter 1 begins, equip up to **4 total slots** of Crypt Buffs, Achievements, Tickets, and Captures. Brands use their own progression layer and do not occupy these slots.
-4. Purchase Tickets and Brands, if desired. The Progression Shop is available before a run begins and after it ends.
+2. Claim the **Player Profile** at that seat. The profile carries permanent progression and provides access to Town actions.
 
-The Player Profile must finish loading before the draft can use its progression modifiers.
+If you already have progression, set it up before you draft (see [Using progression](#using-progression)). On a first run there is nothing to equip.
 
 ## 2. Build the starting deck
 
@@ -19,8 +19,7 @@ The Player Profile must finish loading before the draft can use its progression 
 4. Draft **22 cards** from the pool.
 5. Add **16 lands**, adjusted only by an effect that explicitly changes that number. Use the normal dual-land allocation and fill the remaining land slots with basics.
 6. Choose the **Free Choice Card** and stamp it with the Scryfall decal. It may be outside the Commander's color identity, but it must otherwise be Commander-legal and cannot be Sol Ring or a Gamechanger unless another rule allows it.
-7. Resolve all equipped progression that grants starting cards or otherwise changes deckbuilding.
-8. Put any additional cards into the Deck or Sideboard as their effects allow. Confirm that your Deck meets [its modified minimum](deck-minimum.md), counting your Commander(s) and applying progression effects. With one Commander and no minimum modifiers, you need 39 cards in the library.
+7. Confirm that your Deck meets [its minimum](deck-minimum.md), counting your Commander(s). With one Commander and no minimum modifiers, you need 39 cards in the library.
 
 Cards spawned directly through Scryfall-based choices, card-producing Tickets, or Captures are treated as Scryfalled and follow the Deckbuilding restrictions. A progression item that does not grant a Magic card is not itself a Scryfalled card.
 
@@ -28,9 +27,8 @@ Cards spawned directly through Scryfall-based choices, card-producing Tickets, o
 
 1. Tell the Host you are ready once deckbuilding and all pregame progression are complete. Flipping the **Ready Token** beside your Commander shows this at a glance.
 2. Before Encounter 1 begins, players may make one seat adjustment. Seats cannot be changed after Encounter 1 begins unless an active rule explicitly allows it.
-3. Use a figure or another clearly identified marker for party votes.
-4. Resolve the starting **Good Event** and the Trinket selection in either order.
-5. For the Trinket selection, reveal **3 random Trinkets**, vote for 1, and apply it for the run. Trinkets granted by player Tickets are additional to this voted Trinket.
+3. Resolve the starting **Good Event** and the Trinket selection in either order.
+4. For the Trinket selection, reveal **3 random Trinkets**, vote for 1, and apply it for the run. Trinkets granted by player Tickets are additional to this voted Trinket.
 
 Both steps must be complete before Encounter 1 begins, but neither must happen first.
 
@@ -58,5 +56,14 @@ Each eligible player receives Essence equal to:
 On a Crypt victory, each eligible player also receives **500 Essence** and the awarded Crypt Buff. If that Buff is already unlocked, it is sold automatically for an additional **250 Essence**.
 
 When a player earns an Achievement, resolve it through the supported Player Profile workflow so it is recorded on that player's persistent profile.
+
+## Using progression
+
+Skip this on a first run. Once you have unlocked progression:
+
+1. Before Encounter 1 begins, equip up to **4 total slots** of Crypt Buffs, Achievements, Tickets, and Captures. Brands use their own progression layer and do not occupy these slots.
+2. Purchase Tickets and Brands, if desired. The Progression Shop is available before a run begins and after it ends.
+3. The Player Profile must finish loading before the draft can use its progression modifiers.
+4. While building the starting deck, resolve all equipped progression that grants starting cards or otherwise changes deckbuilding, and put any additional cards into the Deck or Sideboard as their effects allow. Progression can change [your Deck minimum](deck-minimum.md).
 
 ---
