@@ -119,15 +119,15 @@ Create a copy of the card named Disallow. Cast the copy without paying its mana 
 
 Rules details: Disallow reads: Counter target spell, activated ability, or triggered ability. The copy is cast as a spell; players may respond and counter it normally.
 
-#### Demonic Ward - Tamiyo's Safekeeping
+#### Demonic Ward - Saved by the Shell
 
 Cost: 1 Authority. Resolution: spell.
 
 Timing: Any time you could cast an instant.
 
-Create a copy of the card named Tamiyo's Safekeeping. Cast the copy without paying its mana cost.
+Create a copy of the card named Saved by the Shell. Cast the copy without paying its mana cost.
 
-Rules details: Tamiyo's Safekeeping reads: Target permanent you control gains hexproof and indestructible until end of turn. You gain 2 life. The copy is cast as a spell; players may respond and counter it normally.
+Rules details: Saved by the Shell reads: Put a +1/+1 counter on target creature you control. It gains trample, hexproof, and indestructible until end of turn. The copy is cast as a spell; players may respond and counter it normally.
 
 #### Twisted Targeting - Bolt Bend
 
@@ -137,7 +137,7 @@ Timing: Any time you could cast an instant.
 
 Create a copy of the card named Bolt Bend. Cast the copy without paying its mana cost.
 
-Rules details: Bolt Bend reads: Change the target of target spell or ability with a single target. Ignore its cost reduction; the copy is cast without paying its mana cost. The new target must be legal. The copy is cast as a spell; players may respond and counter it normally.
+Rules details: Bolt Bend reads: Change the target of target spell or ability with a single target. The new target must be legal. The copy is cast as a spell; players may respond and counter it normally.
 
 #### Break the Charge - Warning
 
@@ -389,11 +389,15 @@ Rules details: The sacrifice is optional and occurs on resolution. A Treasure is
 
 Minimum Rank 4. Cost: 1 Skill Point; 1 Authority. Requires a Tier I skill in Ascendancy.
 
-Timing: During your beginning of combat step, while you have priority.
+Timing: Any time you have priority.
 
-Until your next turn, creatures you control get +1/+1 and gain trample.
+Choose one —
 
-Rules details: Only creatures you control as this Command resolves gain the bonus.
+- Onslaught — Until your next turn, creatures you control get +1/+1 and gain trample.
+
+- Bulwark — Until end of turn, permanents you control gain hexproof and indestructible.
+
+Rules details: Choose the mode on invocation. Only what you control as this Command resolves is affected. Bulwark doesn't stop exile, sacrifice, or return-to-hand effects.
 
 #### Relentless Return — II-B
 
@@ -512,8 +516,10 @@ Changed Commands:
   was close to the starter Disallow at twice the Authority.
 - Divide the Alliance is a hot seat: one target opponent chooses Alone or
   Together. The numbers are unchanged.
-- Overwhelming Presence, now Tier II for 1 Authority, gives +1/+1 and trample
-  without ward or a card and Treasure reward.
+- Overwhelming Presence, now Tier II for 1 Authority, is a choice the Host can
+  make at any time: Onslaught (+1/+1 and trample for the Host's creatures) or
+  Bulwark (hexproof and indestructible for every permanent the Host controls
+  until end of turn). It has no ward and no card and Treasure reward.
 
 Scaling with party size. Effects that hit each opponent grow with the table;
 Party Scale effects cover about half the table at every size; single-target
@@ -538,12 +544,19 @@ followed by Crowned Champion or a Muster the Court attack.
 
 Starter Commands (same day). Demonic Ward, Twisted Targeting and Break the
 Charge now work like Absolute Command - Disallow: each casts a free copy of a
-real card (Tamiyo's Safekeeping, Bolt Bend, Warning). Their IDs and costs are
-unchanged, so equipped starters keep working. Two of the cards are slightly
-broader than the ability they replace: Tamiyo's Safekeeping grants both hexproof
-and indestructible, can protect a land and gains 2 life; Bolt Bend can redirect
-any spell or ability with a single target, not only one aimed at the Host.
-Warning matches the old Break the Charge (it lasts the turn, not one combat).
+real card (Saved by the Shell, Bolt Bend, Warning). Their IDs and costs are
+unchanged, so equipped starters keep working. Bolt Bend can redirect any spell
+or ability with a single target, not only one aimed at the Host. Warning matches
+the old Break the Charge (it lasts the turn, not one combat).
+
+Demonic Ward is the starter's taste of Ascendancy. Saved by the Shell is a push
+(a +1/+1 counter and trample) and a shield (hexproof and indestructible) on one
+creature, and the tree grows each half: Overwhelming Presence applies one half
+to the whole board, Crowned Champion puts a large push and ward on one
+champion, and The Host Ascendant rebuilds the board. Demonic Ward no longer
+protects noncreature permanents; Bulwark does, and it is the only board
+protection in the four trees. Bulwark stops destroy effects and targeting for
+one turn, not exile, sacrifice or return-to-hand effects.
 As spells they can be countered by spell counters, and Arcane Suppression and
 spell affixes apply to them.
 
